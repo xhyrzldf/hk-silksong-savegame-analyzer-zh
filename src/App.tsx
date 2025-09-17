@@ -76,9 +76,7 @@ export default function App() {
         <h1 className="text-2xl font-bold text-white text-center">
           Hollow Knight Silksong Savegame Analyzer
         </h1>
-        <h4 className="text-1xl font-bold text-white text-center">
-          works for regular hollow knight as well
-        </h4>
+
          <div className="text-center text-sm">
       <p className="font-bold text-white">
         Save files are located at "
