@@ -71,8 +71,8 @@ export default function App() {
     : jsonText;
 
   return (
-    <div className="min-h-screen flex justify-center items-start bg-[#0d1b2a] p-4">
-      <div className="w-full max-w-2xl bg-[#1b263b] rounded-lg shadow-lg p-5 mt-12 space-y-5">
+    <div className="min-h-screen flex justify-center items-start bg-[#82979e] p-4">
+      <div className="w-full max-w-2xl bg-[#454d5c] rounded-lg shadow-lg p-5 mt-12 space-y-5">
         <h1 className="text-2xl font-bold text-white text-center">
           Hollow Knight Silksong Savegame Analyzer
         </h1>
@@ -91,7 +91,7 @@ export default function App() {
 
       {/* Toast Notification */}
       {showToast && (
-        <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-4 py-2 rounded shadow-lg">
+        <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-[#454d5c] text-white px-4 py-2 rounded shadow-lg">
           Path copied to clipboard!
         </div>
       )}
@@ -102,7 +102,7 @@ export default function App() {
           onDrop={onDrop}
           onDragOver={onDragOver}
           onClick={() => document.getElementById("fileInput")?.click()}
-          className="border-2 border-dashed border-blue-400 rounded-lg p-5 text-center cursor-pointer hover:bg-[#24344d] text-white"
+          className="border-2 border-dashed border-black rounded-lg p-5 text-center cursor-pointer hover:bg-[#82979e] text-white"
         >
           {fileName ? (
             <p>📄 {fileName} selected</p>
@@ -125,7 +125,7 @@ export default function App() {
           disabled={!fileData}
           className="bg-blue-600 hover:bg-blue-500 disabled:bg-gray-600 text-white font-semibold py-2 px-4 rounded w-full transition-colors"
         >
-          Decrypt
+          Analyze
         </button>
 
         {/* Search */}
