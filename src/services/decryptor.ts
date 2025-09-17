@@ -1,4 +1,4 @@
-// services/silksongSave.ts
+//services/decryptor.ts
 import CryptoJS from "crypto-js";
 
 const CSHARP_HEADER = new Uint8Array([0, 1, 0, 0, 0, 255, 255, 255, 255, 1, 0, 0, 0, 0, 0, 0, 0, 6, 1, 0, 0, 0]);
@@ -102,36 +102,4 @@ export function downloadFile(data: Uint8Array | string, filename: string) {
 
 export function hashString(str: string): number {
     return str.split("").reduce((a, b) => ((a << 5) - a) + b.charCodeAt(0), 0);
-}
-
-// Search for a specific key anywhere in the nested object
-function deepSearch(obj: any, targetKey: string): boolean {
-    if (obj === null || typeof obj !== "object") return false;
-
-    if (targetKey in obj) return true;
-
-    for (const key in obj) {
-        if (deepSearch(obj[key], targetKey)) return true;
-    }
-
-    return false;
-}
-
-// Detect game type based on key existence in flattened or nested JSON
-export function detectGameType(jsonString: string): "Silksong" | "Classic" | "Unknown" | "Error" {
-    try {
-        const data = JSON.parse(jsonString);
-
-        // Updated detection rules for nested keys
-        if (deepSearch(data, "silkMax") || deepSearch(data, "gillyMet")) {
-            return "Silksong";
-        }
-        if (deepSearch(data, "shadeScene") || deepSearch(data, "killedHollowKnight")) {
-            return "Classic";
-        }
-    } catch {
-        return "Error";
-    }
-
-    return "Unknown";
 }

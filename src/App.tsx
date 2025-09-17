@@ -1,13 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import type { ChangeEvent, DragEvent } from "react";
-import { decodeSave, encodeSave, downloadFile, hashString, detectGameType } from "./services/silksongSave";
+import { decodeSave, encodeSave, downloadFile } from "./services/decryptor";
 
-interface HistoryItem {
-  name: string;
-  json: string;
-  hash: number;
-  date: string;
-}
+
 
 export default function App() {
   const [fileName, setFileName] = useState("");
@@ -15,21 +10,8 @@ export default function App() {
   const [jsonText, setJsonText] = useState("");
   const [search, setSearch] = useState("");
   const [decrypted, setDecrypted] = useState(false);
-  const [history, setHistory] = useState<HistoryItem[]>([]);
   const [showToast, setShowToast] = useState(false);
-  // Load history on mount
-  useEffect(() => {
-    const stored = localStorage.getItem("silksong-history");
-    if (stored) setHistory(JSON.parse(stored));
-  }, []);
 
-  const saveHistory = (item: HistoryItem) => {
-    // Only exclude identical saves with the same hash
-    const updated = [item, ...history.filter(h => h.hash !== item.hash)];
-    const trimmedHistory = updated.slice(0, 10); // Limit to last 10
-    setHistory(trimmedHistory);
-    localStorage.setItem("silksong-history", JSON.stringify(trimmedHistory));
-  };
 
   const handleFile = (file: File) => {
     setFileName(file.name);
@@ -64,15 +46,6 @@ export default function App() {
     try {
       const json = decodeSave(fileData);
       const pretty = JSON.stringify(JSON.parse(json), null, 2);
-      const gameType = detectGameType(pretty); // Silksong vs Classic
-
-      // Create new history entry
-      saveHistory({
-        name: `${fileName} - ${gameType}`,
-        json: pretty,
-        hash: hashString(pretty), // Unique hash ensures backups with same name are tracked
-        date: new Date().toISOString() // Timestamp for sorting
-      });
 
       setJsonText(pretty);
       setDecrypted(true);
@@ -101,20 +74,21 @@ export default function App() {
     <div className="min-h-screen flex justify-center items-start bg-[#0d1b2a] p-4">
       <div className="w-full max-w-2xl bg-[#1b263b] rounded-lg shadow-lg p-5 mt-12 space-y-5">
         <h1 className="text-2xl font-bold text-white text-center">
-          Silksong Save Editor
+          Hollow Knight Silksong Savegame Analyzer
         </h1>
         <h4 className="text-1xl font-bold text-white text-center">
           works for regular hollow knight as well
         </h4>
          <div className="text-center text-sm">
       <p className="font-bold text-white">
-        Save files are located at&nbsp;
+        Save files are located at "
         <span
           className="text-green-500 hover:underline cursor-pointer"
           onClick={handleCopyPath}
         >
           %userprofile%\appdata\LocalLow\Team Cherry\Hollow Knight Silksong
         </span>
+         " /SteamIDNumber (userX.dat)
       </p>
 
       {/* Toast Notification */}
@@ -195,32 +169,6 @@ export default function App() {
           </div>
         )}
 
-        {/* History */}
-        {history.length > 0 && (
-          <div className="mt-6">
-            <h2 className="font-semibold text-white mb-2">History</h2>
-            <div className="space-y-2">
-              {history.map(item => (
-                <div
-                  key={item.hash}
-                  className="border border-blue-400 rounded p-2 cursor-pointer hover:bg-[#24344d]"
-                  onClick={() => {
-                    setJsonText(item.json);
-                    setFileName(item.name);
-                    setDecrypted(true);
-                  }}
-                >
-                  <div className="text-blue-300 font-semibold hover:underline">
-                    {item.name}
-                  </div>
-                  <div className="text-xs text-gray-400">
-                    {new Date(item.date).toLocaleString()}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );
