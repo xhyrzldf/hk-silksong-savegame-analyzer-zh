@@ -4,6 +4,7 @@ import { decodeSave, encodeSave, downloadFile } from "./services/decryptor";
 
 import { parsers } from "./parsers";
 
+import HornetBackground from './assets/HornetBackground.png';
 
 
 export default function App() {
@@ -87,14 +88,14 @@ export default function App() {
     <div
       className="min-h-screen flex justify-center items-start p-4"
       style={{
-        backgroundImage: 'url(./Public/HornetBackground.png)',
+        backgroundImage: `url(${HornetBackground})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
       }}
     >
-      <div className="w-full max-w-4xl bg-[#1a1313cc] rounded-lg shadow-lg p-5 mt-12 space-y-5 backdrop-blur-sm">
+      <div className="w-full max-w-4xl bg-[#1a1313cc] rounded-lg shadow-lg p-5 mt-0 space-y-5 backdrop-blur-sm">
         <h1 className="text-2xl font-bold text-white text-center">
           Hollow Knight Silksong Savegame Analyzer
         </h1>
@@ -191,7 +192,7 @@ export default function App() {
 
         {/* Tabs Bar */}
         <div className="flex justify-between mt-4 mb-2">
-          {['Hornet', 'Tools', 'Crests', 'Ancestral Arts', 'Bosses', 'JSON Editor'].map(tab => {
+          {['Hornet', 'Tools', 'Crests', 'Ancestral Arts', 'Bosses', 'Hunters Journal', 'JSON Editor'].map(tab => {
             let extra = null;
             if (tab === 'Hornet' && decrypted && parsedJson) {
               const hornet = parsers.Hornet(parsedJson);
@@ -371,6 +372,9 @@ export default function App() {
             )}
             {activeTab === 'Bosses' && (
               <div className="text-white text-center">Bosses data will appear here.</div>
+            )}
+            {activeTab === 'Hunters Journal' && (
+              <div className="text-white text-center">Hunters Journal data will appear here.</div>
             )}
             {activeTab === 'JSON Editor' && (
               <>
