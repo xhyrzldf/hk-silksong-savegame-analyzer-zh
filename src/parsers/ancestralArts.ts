@@ -6,6 +6,8 @@ export interface AncestralArtsInfo {
 
 export function parseAncestralArts(json: any): AncestralArtsInfo[] {
   const pd = json?.playerData || {};
+  const collectables = pd.Collectables?.savedData || [];
+  const everbloom = collectables.find((c: any) => c?.Name === "White Flower" && c?.Data?.Amount === 1);
   return [
     {
       name: 'Swift Step (Dash / Sprint)',
@@ -14,12 +16,12 @@ export function parseAncestralArts(json: any): AncestralArtsInfo[] {
     },
     {
       name: "Drifter's Cloak (Glide)",
-      unlocked: false, // Not yet found in json
+      unlocked: !!pd.hasBrolly,
       completion: 0,
     },
     {
       name: 'Clawline (Needle Harpoon)',
-      unlocked: !!pd.hasNeedleThrow || !!pd.hasHarpoonDash,
+      unlocked: !!pd.hasNeedleThrow || !!pd.hasHarpoonDash, // Not sure yet
       completion: 1,
     },
     {
@@ -34,7 +36,7 @@ export function parseAncestralArts(json: any): AncestralArtsInfo[] {
     },
     {
       name: 'Needle Strike',
-      unlocked: !!pd.hasChargeSlash || !!pd.hasNeedleThrow,
+      unlocked: !!pd.hasChargeSlash || !!pd.hasNeedleThrow, // Not sure yet
       completion: 1,
     },
     {
@@ -54,7 +56,7 @@ export function parseAncestralArts(json: any): AncestralArtsInfo[] {
     },
     {
       name: 'Everbloom',
-      unlocked: false, // Not yet found in json
+      unlocked: !!everbloom,
       completion: 1,
     },
   ];
