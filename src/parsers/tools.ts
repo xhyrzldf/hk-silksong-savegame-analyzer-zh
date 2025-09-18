@@ -36,7 +36,7 @@ const TOOL_CONFIG: ToolConfigEntry[] = [
     { names: ['Shakra Ring'], displayName: 'Throwing Ring', section: 'Attack Tools', completion: 1 },
     { names: ['Pimpilo'], displayName: 'Pimpillo', section: 'Attack Tools', completion: 1 },
     { names: ['Conch Drill'], displayName: 'Conchcutter', section: 'Attack Tools', completion: 1 },
-    { names: ['WebShot Architect'], displayName: 'Silkshot', section: 'Attack Tools', completion: 1 },
+    { names: ['WebShot Architect','WebShot Weaver','WebShot Forge'], displayName: 'Silkshot', section: 'Attack Tools', completion: 1 },
     { names: ['Screw Attack'], displayName: "Delver's Drill", section: 'Attack Tools', completion: 1 },
     { names: ['Cogwork Saw'], displayName: 'Cogwork Wheel', section: 'Attack Tools', completion: 1 },
     { names: ['Cogwork Flier'], displayName: 'Cogfly', section: 'Attack Tools', completion: 1 },
