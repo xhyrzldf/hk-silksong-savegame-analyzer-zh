@@ -177,7 +177,7 @@ export default function App() {
               <div className="w-full my-4">
                 <div className="flex justify-between items-center mb-1">
                   <span className="text-sm font-semibold text-white">Total Progress</span>
-                  <span className="text-xs text-blue-200 font-mono">{totalUnlocked} / {totalMax} ({percent}%)</span>
+                  <span className="text-xs text-blue-200 font-mono">({percent}%)</span>
                 </div>
                 <div className="w-full bg-gray-700 rounded-full h-4">
                   <div
@@ -434,5 +434,6 @@ export default function App() {
 
       </div>
     </div>
+    
   );
 }
