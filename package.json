@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://br3zzly.github.io/hk-silksong-savegame-analyzer",
+  "homepage": "https://silksong-completionist.com/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
