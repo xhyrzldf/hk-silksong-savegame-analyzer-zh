@@ -84,8 +84,17 @@ export default function App() {
     : jsonText;
 
   return (
-    <div className="min-h-screen flex justify-center items-start bg-[#82979e] p-4">
-      <div className="w-full max-w-4xl bg-[#454d5c] rounded-lg shadow-lg p-5 mt-12 space-y-5">
+    <div
+      className="min-h-screen flex justify-center items-start p-4"
+      style={{
+        backgroundImage: 'url(./Public/HornetBackground.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+      }}
+    >
+      <div className="w-full max-w-4xl bg-[#1a1313cc] rounded-lg shadow-lg p-5 mt-12 space-y-5 backdrop-blur-sm">
         <h1 className="text-2xl font-bold text-white text-center">
           Hollow Knight Silksong Savegame Analyzer
         </h1>
@@ -138,7 +147,8 @@ export default function App() {
         <button
           onClick={decryptFile}
           disabled={!fileData}
-          className="bg-blue-600 hover:bg-blue-500 disabled:bg-gray-600 text-white font-semibold py-2 px-4 rounded w-full transition-colors"
+          className={`w-full flex-1 mx-1 py-2 rounded font-semibold transition-colors text-lg
+            ${fileData ? 'bg-[#24344d] text-white hover:bg-blue-600' : 'bg-[#24344d] text-blue-200 opacity-50 cursor-not-allowed'}`}
         >
           Analyze
         </button>
@@ -402,13 +412,13 @@ export default function App() {
                 <div className="flex flex-col md:flex-row gap-2 mt-2">
                   <button
                     onClick={saveEncrypted}
-                    className="bg-green-600 hover:bg-green-500 text-white font-semibold py-2 px-4 rounded flex-1"
+                    className='bg-[#24344d] text-white hover:bg-blue-600 font-semibold py-2 px-4 rounded flex-1'
                   >
                     💾 Save Encrypted (.dat)
                   </button>
                   <button
                     onClick={savePlain}
-                    className="bg-yellow-500 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded flex-1"
+                    className='bg-[#24344d] text-white hover:bg-blue-600 font-semibold py-2 px-4 rounded flex-1'
                   >
                     📄 Save Plain (.json)
                   </button>
