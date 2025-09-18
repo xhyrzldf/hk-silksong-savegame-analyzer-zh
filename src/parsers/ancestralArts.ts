@@ -21,7 +21,7 @@ export function parseAncestralArts(json: any): AncestralArtsInfo[] {
     },
     {
       name: 'Clawline (Needle Harpoon)',
-      unlocked: !!pd.hasNeedleThrow || !!pd.hasHarpoonDash, // Not sure yet
+      unlocked: !!pd.hasNeedleThrow, // Not sure yet (maybe pd.hasHarpoonDash)
       completion: 1,
     },
     {
@@ -36,7 +36,7 @@ export function parseAncestralArts(json: any): AncestralArtsInfo[] {
     },
     {
       name: 'Needle Strike',
-      unlocked: !!pd.hasChargeSlash || !!pd.hasNeedleThrow, // Not sure yet
+      unlocked: !!pd.hasChargeSlash, // Not sure yet
       completion: 1,
     },
     {
