@@ -6,15 +6,19 @@ import { parsers } from "./parsers";
 
 import HornetBackground from './assets/HornetBackground.png';
 
-
 export default function App() {
   const [fileName, setFileName] = useState("");
-  const [fileData, setFileData] = useState<Uint8Array | null>(null);
+  const [decrypted, setDecrypted] = useState(false);
   const [jsonText, setJsonText] = useState("");
   const [search, setSearch] = useState("");
-  const [decrypted, setDecrypted] = useState(false);
-  const [showToast, setShowToast] = useState(false);
   const [activeTab, setActiveTab] = useState("Hornet");
+  const [showToast, setShowToast] = useState(false);
+  const handleCopyPath = () => {
+    const savePath = "%userprofile%\\appdata\\LocalLow\\Team Cherry\\Hollow Knight Silksong";
+    navigator.clipboard.writeText(savePath);
+    setShowToast(true);
+    setTimeout(() => setShowToast(false), 2000);
+  };
 
   // Parse JSON only once per jsonText change
   const parsedJson = useMemo(() => {
@@ -24,29 +28,26 @@ export default function App() {
       return null;
     }
   }, [jsonText]);
-
-
   const handleFile = (file: File) => {
     setFileName(file.name);
     const reader = new FileReader();
     reader.onload = e => {
       if (e.target?.result) {
-        setFileData(new Uint8Array(e.target.result as ArrayBuffer));
         setDecrypted(false);
         setJsonText("");
+        try {
+          const data = new Uint8Array(e.target.result as ArrayBuffer);
+          const json = decodeSave(data);
+          const pretty = JSON.stringify(JSON.parse(json), null, 2);
+          setJsonText(pretty);
+          setDecrypted(true);
+        } catch (err) {
+          alert("Failed to decode file");
+          console.error(err);
+        }
       }
     };
     reader.readAsArrayBuffer(file);
-  };
-    // Additional imports if necessary
-
-    const handleCopyPath = () => {
-    const savePath = "%userprofile%\\appdata\\LocalLow\\Team Cherry\\Hollow Knight Silksong";
-    navigator.clipboard.writeText(savePath); // Copy path to clipboard
-
-    // Show the toast and hide it after 3 seconds
-    setShowToast(true);
-    setTimeout(() => setShowToast(false), 3000);
   };
 
   const onDrop = (e: DragEvent<HTMLDivElement>) => {
@@ -54,20 +55,6 @@ export default function App() {
     if (e.dataTransfer.files.length > 0) handleFile(e.dataTransfer.files[0]);
   };
   const onDragOver = (e: DragEvent<HTMLDivElement>) => e.preventDefault();
-
-  const decryptFile = () => {
-    if (!fileData) return;
-    try {
-      const json = decodeSave(fileData);
-      const pretty = JSON.stringify(JSON.parse(json), null, 2);
-
-      setJsonText(pretty);
-      setDecrypted(true);
-    } catch (e) {
-      alert("Failed to decode file");
-      console.error(e);
-    }
-  };
 
   const saveEncrypted = () => {
     const encoded = encodeSave(jsonText);
@@ -101,7 +88,7 @@ export default function App() {
         </h1>
 
          <div className="text-center text-sm">
-      <p className="font-bold text-white">
+      <p className="font-bold text-white mb-4">
         Save files are located at "
         <span
           className="text-green-500 hover:underline cursor-pointer"
@@ -109,16 +96,10 @@ export default function App() {
         >
           %userprofile%\appdata\LocalLow\Team Cherry\Hollow Knight Silksong
         </span>
-         " /SteamIDNumber (userX.dat)
-      </p>
 
-      {/* Toast Notification */}
-      {showToast && (
-        <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-[#454d5c] text-white px-4 py-2 rounded shadow-lg">
-          Path copied to clipboard!
-        </div>
-      )}
-    </div>
+         " /SteamIDNumber (userX.dat)
+         
+      </p>
 
         {/* File Upload Box */}
         <div
@@ -141,22 +122,17 @@ export default function App() {
             }}
           />
         </div>
+      </div>
 
-
-
-        {/* Analyze Button */}
-        <button
-          onClick={decryptFile}
-          disabled={!fileData}
-          className={`w-full flex-1 mx-1 py-2 rounded font-semibold transition-colors text-lg
-            ${fileData ? 'bg-[#24344d] text-white hover:bg-blue-600' : 'bg-[#24344d] text-blue-200 opacity-50 cursor-not-allowed'}`}
-        >
-          Analyze
-        </button>
-
+      {/* Toast Notification */}
+      {showToast && (
+        <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-[#454d5c] text-white px-4 py-2 rounded shadow-lg z-50">
+          Copied to Clipboard!
+        </div>
+      )}
 
         {/* Total Progress Bar */}
-        {decrypted && parsedJson && (
+        { (
           (() => {
             // Gather completion and max for all tracked tabs
             const hornet = parsers.Hornet(parsedJson);
