@@ -168,7 +168,7 @@ export default function App() {
 
         {/* Tabs Bar */}
         <div className="flex justify-between mt-4 mb-2">
-          {['Hornet', 'Tools', 'Crests', 'Ancestral Arts', 'Bosses', 'Hunters Journal', 'JSON Editor'].map(tab => {
+          {['Hornet', 'Tools', 'Crests', 'Ancestral Arts', 'Relics', 'Bosses', 'Hunters Journal', 'JSON Editor'].map(tab => {
             let extra = null;
             if (tab === 'Hornet' && decrypted && parsedJson) {
               const hornet = parsers.Hornet(parsedJson);
@@ -342,6 +342,33 @@ export default function App() {
                     ))}
                   </ul>
                 ) : (
+                  <div className="text-red-300 text-center">Invalid or no JSON loaded.</div>
+                )}
+              </div>
+            )}
+            {activeTab === 'Relics' && (
+              <div className="text-white">
+                <h2 className="text-lg font-bold mb-2 text-center">Relics</h2>
+                {parsedJson ? (() => {
+                  const relics = parsers.Relics(parsedJson);
+                  return (
+                    <ul className="max-w-md mx-auto divide-y divide-gray-600">
+                      {relics.map((crest: any, i: number) => (
+                        <li key={i} className="flex items-center justify-between py-2 px-2">
+                          <span>{crest.name}</span>
+                          <span className="flex items-center min-w-[48px] justify-end">
+                            <span className={crest.unlocked ? "text-green-400" : "text-red-400"}>
+                              {crest.unlocked ? "✓" : "✘"}
+                            </span>
+                            <span className="inline-block w-10 text-xs text-blue-300 font-mono text-right">
+                              {crest.completion > 0 ? `+${crest.completion}%` : ''}
+                            </span>
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  );
+                })() : (
                   <div className="text-red-300 text-center">Invalid or no JSON loaded.</div>
                 )}
               </div>
