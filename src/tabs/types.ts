@@ -9,6 +9,7 @@ export type TabId =
   | "Crests"
   | "Ancestral Arts"
   | "Relics"
+  | "Fleas"
   | "Bosses"
   | "Hunters Journal"
   | "JSON Editor";

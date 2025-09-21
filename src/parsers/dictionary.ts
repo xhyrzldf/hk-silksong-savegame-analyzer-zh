@@ -86,6 +86,34 @@ export const CATEGORIES: CollectableCategory[] = [
       { name: 'Spool Fragment 18', whichAct: 2, completionPercent: 0.5, prereqs: ['Faydown Cloak'], location: 'Purchased from Jubilana after saving her as part of the The Lost Merchant quest', parsingInfo: { type: 'flag', internalId: 'MerchantEnclaveSpoolPiece' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479249' },
   ],
   },
+    {
+    name: 'Upgrades',
+    description: 'Each Upgrade Counts 1% towards completion',
+    items: [
+      // Needle Upgrades
+      { name: 'Needle Upgrade 1', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',1] }, mapLink: '' },
+      { name: 'Needle Upgrade 2', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',2] }, mapLink: '' },
+      { name: 'Needle Upgrade 3', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',3] }, mapLink: '' },
+      { name: 'Needle Upgrade 4', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',4] }, mapLink: '' },
+
+      // Tool Pouch Upgrades
+      { name: 'Tool Pouch Upgrade 1', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',1] }, mapLink: '' },
+      { name: 'Tool Pouch Upgrade 2', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',2] }, mapLink: '' },
+      { name: 'Tool Pouch Upgrade 3', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',3] }, mapLink: '' },
+      { name: 'Tool Pouch Upgrade 4', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',4] }, mapLink: '' },
+
+      // Tool Kit Upgrades
+      { name: 'Tool Kit Upgrade 1', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',1] }, mapLink: '' },
+      { name: 'Tool Kit Upgrade 2', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',2] }, mapLink: '' },
+      { name: 'Tool Kit Upgrade 3', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',3] }, mapLink: '' },
+      { name: 'Tool Kit Upgrade 4', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',4] }, mapLink: '' },
+
+      // Silk Hearts
+      { name: 'Silk Heart 1', section: 'Silk Hearts', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['silkRegenMax',1] }, mapLink: '' },
+      { name: 'Silk Heart 2', section: 'Silk Hearts', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['silkRegenMax',2] }, mapLink: '' },
+      { name: 'Silk Heart 3', section: 'Silk Hearts', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['silkRegenMax',3] }, mapLink: '' },
+  ],
+  },
   {
     name: 'Tools',
     description: 'Nearly every Tool counts 1% towards completion.',
@@ -222,31 +250,36 @@ export const CATEGORIES: CollectableCategory[] = [
   ],
   },
   {
-    name: 'Upgrades',
-    description: 'Each Upgrade Counts 1% towards completion',
+    name: 'Fleas',
+    description: 'Fleas',
     items: [
-      // Needle Upgrades
-      { name: 'Needle Upgrade 1', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',1] }, mapLink: '' },
-      { name: 'Needle Upgrade 2', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',2] }, mapLink: '' },
-      { name: 'Needle Upgrade 3', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',3] }, mapLink: '' },
-      { name: 'Needle Upgrade 4', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',4] }, mapLink: '' },
-
-      // Tool Pouch Upgrades
-      { name: 'Tool Pouch Upgrade 1', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',1] }, mapLink: '' },
-      { name: 'Tool Pouch Upgrade 2', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',2] }, mapLink: '' },
-      { name: 'Tool Pouch Upgrade 3', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',3] }, mapLink: '' },
-      { name: 'Tool Pouch Upgrade 4', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',4] }, mapLink: '' },
-
-      // Tool Kit Upgrades
-      { name: 'Tool Kit Upgrade 1', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',1] }, mapLink: '' },
-      { name: 'Tool Kit Upgrade 2', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',2] }, mapLink: '' },
-      { name: 'Tool Kit Upgrade 3', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',3] }, mapLink: '' },
-      { name: 'Tool Kit Upgrade 4', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',4] }, mapLink: '' },
-
-      // Silk Hearts
-      { name: 'Silk Heart 1', section: 'Silk Hearts', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['silkRegenMax',1] }, mapLink: '' },
-      { name: 'Silk Heart 2', section: 'Silk Hearts', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['silkRegenMax',2] }, mapLink: '' },
-      { name: 'Silk Heart 3', section: 'Silk Hearts', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['silkRegenMax',3] }, mapLink: '' },
+      { name: 'SavedFlea_Bone_06', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Bone_06' }, mapLink: '' },
+      { name: 'SavedFlea_Dock_16', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Dock_16' }, mapLink: '' },
+      { name: 'SavedFlea_Bone_East_05', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Bone_East_05' }, mapLink: '' },
+      { name: 'SavedFlea_Bone_East_17b', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Bone_East_17b' }, mapLink: '' },
+      { name: 'SavedFlea_Ant_03', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Ant_03' }, mapLink: '' },
+      { name: 'SavedFlea_Greymoor_15b', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Greymoor_15b' }, mapLink: '' },
+      { name: 'SavedFlea_Greymoor_06', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Greymoor_06' }, mapLink: '' },
+      { name: 'SavedFlea_Shellwood_03', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Shellwood_03' }, mapLink: '' },
+      { name: 'SavedFlea_Bone_East_10_Church', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Bone_East_10_Church' }, mapLink: '' },
+      { name: 'SavedFlea_Coral_35', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Coral_35' }, mapLink: '' },
+      { name: 'SavedFlea_Dust_12', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Dust_12' }, mapLink: '' },
+      { name: 'SavedFlea_Dust_09', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Dust_09' }, mapLink: '' },
+      { name: 'SavedFlea_Belltown_04', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Belltown_04' }, mapLink: '' },
+      { name: 'SavedFlea_Crawl_06', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Crawl_06' }, mapLink: '' },
+      { name: 'SavedFlea_Slab_Cell', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Slab_Cell' }, mapLink: '' },
+      { name: 'SavedFlea_Shadow_28', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Shadow_28' }, mapLink: '' },
+      { name: 'SavedFlea_Dock_03d', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Dock_03d' }, mapLink: '' },
+      { name: 'SavedFlea_Under_23', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Under_23' }, mapLink: '' },
+      { name: 'SavedFlea_Shadow_10', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Shadow_10' }, mapLink: '' },
+      { name: 'SavedFlea_Song_14', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Song_14' }, mapLink: '' },
+      { name: 'SavedFlea_Coral_24', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Coral_24' }, mapLink: '' },
+      { name: 'SavedFlea_Peak_05c', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Peak_05c' }, mapLink: '' },
+      { name: 'SavedFlea_Library_09', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Library_09' }, mapLink: '' },
+      { name: 'SavedFlea_Song_11', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Song_11' }, mapLink: '' },
+      { name: 'SavedFlea_Library_01', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Library_01' }, mapLink: '' },
+      { name: 'SavedFlea_Under_21', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Under_21' }, mapLink: '' },
+      { name: 'SavedFlea_Slab_06', whichAct: 0, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'SavedFlea_Slab_06' }, mapLink: '' },
   ],
   },
 ];
