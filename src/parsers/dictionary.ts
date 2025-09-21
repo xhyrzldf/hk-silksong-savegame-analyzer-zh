@@ -1,12 +1,14 @@
 export type FlagParsingInfo = { type: 'flag'; internalId: string };
 export type FlagIntParsingInfo = { type: 'flagInt'; internalId: [string, number] };
+export type ToolParsingInfo = { type: 'tool'; internalId: string };
 export type QuestParsingInfo = { type: 'quest'; internalId: string };
 export type SceneDataParsingInfo = { type: 'sceneData'; internalId: [string, string] };
-export type ParsingInfo = FlagParsingInfo | FlagIntParsingInfo | QuestParsingInfo | SceneDataParsingInfo;
+export type ParsingInfo = FlagParsingInfo | FlagIntParsingInfo | ToolParsingInfo | QuestParsingInfo | SceneDataParsingInfo;
 
 export type CategoryItem = {
   name: string;
-  whichAct: 1 | 2 | 3;
+  section?: string;
+  whichAct: 0 | 1 | 2 | 3;
   completionPercent: number;
   prereqs: string[];
   location: string;
@@ -71,6 +73,78 @@ export const CATEGORIES: CollectableCategory[] = [
       { name: 'Spool Fragment 18', whichAct: 2, completionPercent: 0.5, prereqs: ['Faydown Cloak'], location: 'Purchased from Jubilana after saving her as part of the The Lost Merchant quest', parsingInfo: { type: 'flag', internalId: 'MerchantEnclaveSpoolPiece' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479249' },
   ],
   },
+  {
+    name: 'Tools',
+    description: 'Nearly every Tool counts 1% towards completion.',
+    items: [
+      //White Tools
+      { name: 'Silkspear', section: 'Silk Skills', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Silk Spear' }, mapLink: '' },
+      { name: 'Thread Storm', section: 'Silk Skills', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Thread Sphere' }, mapLink: '' },
+      { name: 'Cross Stitch', section: 'Silk Skills', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Parry' }, mapLink: '' },
+      { name: 'Sharpdart', section: 'Silk Skills', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Silk Charge' }, mapLink: '' },
+      { name: 'Rune Rage', section: 'Silk Skills', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Silk Bomb' }, mapLink: '' },
+      { name: 'Pale Nails', section: 'Silk Skills', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Silk Boss Needle' }, mapLink: '' },
+      
+      //Red Tools
+      { name: 'Straight Pin', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Straight Pin' }, mapLink: '' },
+      { name: 'Threefold Pin', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Tri Pin' }, mapLink: '' },
+      { name: 'Sting Shard', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Sting Shard' }, mapLink: '' },
+      { name: 'Tacks', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Tack' }, mapLink: '' },
+      { name: 'Longpin', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Harpoon' }, mapLink: '' },
+      { name: 'Curveclaw / Curvesickle', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Curve Claws' }, mapLink: '' },
+      { name: 'Throwing Ring', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Shakra Ring' }, mapLink: '' },
+      { name: 'Pimpillo', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Pimpilo' }, mapLink: '' },
+      { name: 'Conchcutter', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Conch Drill' }, mapLink: '' },
+      { name: 'Silkshot', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'WebShot Architect' }, mapLink: '' },
+      { name: "Delver's Drill", section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Screw Attack' }, mapLink: '' },
+      { name: 'Cogwork Wheel', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Cogwork Saw' }, mapLink: '' },
+      { name: 'Cogfly', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Cogwork Flier' }, mapLink: '' },
+      { name: 'Rosary Cannon', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Rosary Cannon' }, mapLink: '' },
+      { name: 'Voltvessels', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Lightning Rod' }, mapLink: '' },
+      { name: 'Flintslate', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Flintstone' }, mapLink: '' },
+      { name: 'Flea Brew', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Flea Brew' }, mapLink: '' },
+      { name: 'Plasmium Phial', section: 'Attack Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Lifeblood Syringe' }, mapLink: '' },
+      { name: 'Needle Phial', section: 'Attack Tools', whichAct: 0, completionPercent: 0, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Extractor' }, mapLink: '' },
+      { name: 'Snare Setter', section: 'Attack Tools', whichAct: 0, completionPercent: 0, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Silk Snare' }, mapLink: '' },
+      
+      // Blue Tools
+      { name: "Druid's Eye / Druid's Eyes", section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Mosscreep Tool 1' }, mapLink: '' },
+      { name: 'Magma Bell', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Lava Charm' }, mapLink: '' },
+      { name: 'Warding Bell', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Bell Bind' }, mapLink: '' },
+      { name: 'Pollip Pouch', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Poison Pouch' }, mapLink: '' },
+      { name: 'Fractured Mask', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Fractured Mask' }, mapLink: '' },
+      { name: 'Multibinder', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Multibind' }, mapLink: '' },
+      { name: 'Weavelight', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'White Ring' }, mapLink: '' },
+      { name: 'Sawtooth Circlet', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Brolly Spike' }, mapLink: '' },
+      { name: 'Injector Band', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Quickbind' }, mapLink: '' },
+      { name: 'Spool Extender', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Spool Extender' }, mapLink: '' },
+      { name: 'Reserve Bind', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Reserve Bind' }, mapLink: '' },
+      { name: 'Claw Mirror / Claw Mirrors', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Dazzle Bind' }, mapLink: '' },
+      { name: 'Memory Crystal', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Revenge Crystal' }, mapLink: '' },
+      { name: 'Snitch Pick', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Thief Claw' }, mapLink: '' },
+      { name: 'Volt Filament', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Zap Imbuement' }, mapLink: '' },
+      { name: 'Quick Sling', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Quick Sling' }, mapLink: '' },
+      { name: 'Wreath of Purity', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Maggot Charm' }, mapLink: '' },
+      { name: 'Longclaw', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Longneedle' }, mapLink: '' },
+      { name: 'Wispfire Latern', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Wisp Lantern' }, mapLink: '' },
+      { name: 'Egg of Flealia', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Flea Charm' }, mapLink: '' },
+      { name: 'Pin Badge', section: 'Defense Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Pinstress Tool' }, mapLink: '' },
+     
+     // Yellow Tools
+      { name: 'Compass', section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Compass' }, mapLink: '' },
+      { name: 'Shard Pendant', section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Bone Necklace' }, mapLink: '' },
+      { name: 'Magnetite Brooch', section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Rosary Magnet' }, mapLink: '' },
+      { name: 'Weighted Belt', section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Weighted Anklet' }, mapLink: '' },
+      { name: 'Barbed Bracelet', section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Barbed Wire' }, mapLink: '' },
+      { name: "Dead Bug's Purse / Shell Satchel", section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Dead Mans Purse' }, mapLink: '' },
+      { name: 'Magnetite Dice', section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Magnetite Dice' }, mapLink: '' },
+      { name: 'Scuttlebrace', section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Scuttlebrace' }, mapLink: '' },
+      { name: "Ascendant's Grip", section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Wallcling' }, mapLink: '' },
+      { name: 'Spider Strings', section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Musician Charm' }, mapLink: '' },
+      { name: 'Silkspeed Anklets', section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Sprintmaster' }, mapLink: '' },
+      { name: "Thief's Mark", section: 'Explore Tools', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'tool', internalId: 'Thief Charm' }, mapLink: '' },
+  ],
+  },
 ];
 
 // Check if a category item is unlocked in the save data
@@ -79,6 +153,11 @@ export function isItemUnlockedInPlayerSave(itemParsingInfo: ParsingInfo, saveDat
   const typeHandlers = {
     flag: (flagName: string) => !!playerData[flagName],
     flagInt: ([flagName, value]: [string, number]) => playerData[flagName] >= value,
+    tool: (toolName: string) => {
+      const tools = playerData?.Tools?.savedData || [];
+      const foundTool = tools.find((t: any) => t?.Name === toolName);
+      return !!foundTool?.Data?.IsUnlocked;
+    },
     quest: (questName: string) => {
       const questEntry = playerData.QuestCompletionData?.savedData?.find((x: any) => x.Name === questName);
       return questEntry?.Data?.IsCompleted ?? false;
