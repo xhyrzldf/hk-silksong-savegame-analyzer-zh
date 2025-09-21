@@ -21,7 +21,6 @@ export function HornetTab({ parsedJson }: TabRenderProps) {
 
   return (
     <div className="text-white">
-      <h2 className="text-lg font-bold mb-2 text-center">Hornet</h2>
       <ul className="max-w-md mx-auto divide-y divide-gray-600">
         {items.map(item => (
           <li key={item.label} className="flex items-center justify-between py-2 px-2">

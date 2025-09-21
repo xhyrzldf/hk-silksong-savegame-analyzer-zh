@@ -1,46 +1,67 @@
-import { parsers } from "../parsers";
+import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 import type { TabRenderProps } from "./types";
 
-export function RelicsTab({ parsedJson }: TabRenderProps) {
-  if (!parsedJson) {
-    return <div className="text-red-300 text-center">Invalid or no JSON loaded.</div>;
+export function RelicsTab({ parsedJson, decrypted }: TabRenderProps) {
+  if (!decrypted || !parsedJson) {
+    return <div className="text-white text-center">Load a save file to view mask shard data.</div>;
   }
 
-  const relics = parsers.Relics(parsedJson);
+  const RelictCategory = CATEGORIES.find(cat => cat.name === "Relics");
+  const relics = RelictCategory?.items ?? [];
 
   return (
     <div className="text-white">
-      <h2 className="text-lg font-bold mb-2 text-center">Relics</h2>
-      <ul className="max-w-md mx-auto divide-y divide-gray-600">
-        {relics.map((relic: any, index: number) => (
-          <li key={index} className="flex items-center justify-between py-2 px-2">
-            <span>{relic.name}</span>
-            <span className="flex items-center min-w-[48px] justify-end">
-              <span className={relic.unlocked ? "text-green-400" : "text-red-400"}>
-                {relic.unlocked ? "[x]" : "[ ]"}
-              </span>
-              <span className="inline-block w-10 text-xs text-blue-300 font-mono text-right">
-                {relic.completion > 0 ? `+${relic.completion}%` : ""}
-              </span>
-            </span>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-export function getRelicsExtra(parsedJson: unknown) {
-  if (!parsedJson) return null;
-  const relics = parsers.Relics(parsedJson);
-  const unlocked = relics
-    .filter((relic: any) => relic.unlocked)
-    .reduce((sum: number, relic: any) => sum + (relic.completion || 0), 0);
-  const total = relics.reduce((sum: number, relic: any) => sum + (relic.completion || 0), 0);
-
-  return (
-    <div className="text-xs text-blue-200 mt-1 font-normal">
-      {unlocked}% / {total}%
+      <div className="max-w-3xl mx-auto">
+        <table className="w-full table-auto border-collapse divide-y divide-gray-600">
+          <thead>
+            <tr className="text-left">
+              
+              <th className="px-2 py-1 w-[56px]"></th>
+              <th className="px-2 py-1 w-[56px] text-center"></th>
+              <th className="px-2 py-1 min-w-[120px] max-w-[220px]">Name</th>
+              <th className="px-2 py-1 min-w-[140px] max-w-[260px]">Location</th>
+              <th className="px-2 py-1 w-[48px]">Act</th>
+              <th className="px-2 py-1 w-[64px]"></th>
+            </tr>
+          </thead>
+          <tbody>
+            {relics.map((item, index) => {
+              const unlocked = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
+              return (
+                <tr key={index} className="border-b border-gray-700 last:border-b-0">      
+                  <td className="px-2 py-1 text-center w-[56px] align-middle">
+                    <span className={unlocked ? "text-green-400" : "text-red-400"}>
+                      {unlocked ? "[x]" : "[ ]"}
+                    </span>
+                  </td>
+                  <td className="px-2 py-1 text-center w-[56px] align-middle">
+                    <span className="text-xs text-blue-200 mt-1 font-normal">
+                      {item.completionPercent ? `+${item.completionPercent}%` : ''}
+                    </span>
+                  </td>
+                  <td className="px-2 py-1 min-w-[120px] max-w-[220px] truncate">{item.name}</td>
+                  <td className="px-2 py-1 relative min-w-[140px] max-w-[260px] break-words whitespace-pre-line blur-sm hover:blur-none transition duration-100">{item.location}</td>
+                  <td className="px-2 py-1 w-[48px] text-center blur-sm hover:blur-none transition duration-100">{item.whichAct}</td>
+                  <td className="px-2 py-1 w-[64px] text-center">
+                    <button
+                      className={`flex-1 min-w-[48px] py-2 rounded font-semibold transition-colors text-xs ${
+                        item.mapLink
+                          ? "bg-[#24344d] text-white hover:bg-blue-600"
+                          : "bg-[#24344d] text-blue-200 opacity-50 cursor-not-allowed"
+                      }`}
+                      onClick={() => { if (item.mapLink) window.open(item.mapLink, '_blank', 'noopener'); }}
+                      disabled={!item.mapLink}
+                      tabIndex={item.mapLink ? 0 : -1}
+                    >
+                      Map
+                    </button>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

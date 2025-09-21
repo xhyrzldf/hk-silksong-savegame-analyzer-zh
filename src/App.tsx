@@ -40,6 +40,7 @@ const PLATFORM_OPTIONS: PlatformOption[] = [
     id: "Linux(Steamdeck)",
     label: "Linux (Steamdeck)",
     path: "~/.local/share/Team Cherry/Hollow Knight Silksong/",
+    note: "Native Linux: ~/.config/unity3d/Team Cherry/Hollow Knight Silksong/"
   },
   {
     id: "Switch",
