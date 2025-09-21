@@ -1,15 +1,15 @@
-import type { TabDefinition } from "./types";
+﻿import type { TabDefinition } from "./types";
 import { StatsTab } from "./StatsTab";
-import { MaskShardsTab } from "./MaskShardsTab";
-import { UpgradesTab } from "./UpgradesTab";
-import { ToolsTab } from "./ToolsTab";
-import { CrestsTab } from "./CrestsTab";
-import { AncestralArtsTab } from "./AncestralArtsTab";
-import { RelicsTab } from "./RelicsTab";
+import { MaskShardsTab, getMaskShardsExtra } from "./MaskShardsTab";
+import { SpoolFragmentsTab, getSpoolFragmentsExtra } from "./SpoolFragmentsTab";
+import { UpgradesTab, getUpgradesExtra } from "./UpgradesTab";
+import { ToolsTab, getToolsExtra } from "./ToolsTab";
+import { CrestsTab, getCrestsExtra } from "./CrestsTab";
+import { AncestralArtsTab, getAncestralArtsExtra } from "./AncestralArtsTab";
+import { RelicsTab, getRelicsExtra } from "./RelicsTab";
 import { BossesTab } from "./BossesTab";
 import { HuntersJournalTab } from "./HuntersJournalTab";
 import { JsonEditorTab } from "./JsonEditorTab";
-import { SpoolFragmentsTab } from "./SpoolFragmentsTab";
 
 export const tabDefinitions: TabDefinition[] = [
   {
@@ -21,39 +21,43 @@ export const tabDefinitions: TabDefinition[] = [
     id: "Mask Shards",
     label: "Mask Shards",
     render: props => <MaskShardsTab {...props} />,
-    
+    getExtra: getMaskShardsExtra,
   },
-    {
+  {
     id: "Spool Fragments",
     label: "Spool Fragments",
     render: props => <SpoolFragmentsTab {...props} />,
-    
+    getExtra: getSpoolFragmentsExtra,
   },
-    {
+  {
     id: "Upgrades",
     label: "Upgrades",
     render: props => <UpgradesTab {...props} />,
-    
+    getExtra: getUpgradesExtra,
   },
   {
     id: "Tools",
     label: "Tools",
     render: props => <ToolsTab {...props} />,
+    getExtra: getToolsExtra,
   },
   {
     id: "Crests",
     label: "Crests",
     render: props => <CrestsTab {...props} />,
+    getExtra: getCrestsExtra,
   },
   {
     id: "Ancestral Arts",
     label: "Ancestral Arts",
     render: props => <AncestralArtsTab {...props} />,
+    getExtra: getAncestralArtsExtra,
   },
   {
     id: "Relics",
     label: "Relics",
     render: props => <RelicsTab {...props} />,
+    getExtra: getRelicsExtra,
   },
   {
     id: "Bosses",
