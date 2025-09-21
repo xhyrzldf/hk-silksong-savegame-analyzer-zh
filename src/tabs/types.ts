@@ -10,6 +10,7 @@ export type TabId =
   | "Ancestral Arts"
   | "Relics"
   | "Fleas"
+  | "Memory Lockets"
   | "Bosses"
   | "Hunters Journal"
   | "JSON Editor";
