@@ -40,7 +40,7 @@ export function MaskShardsTab({ parsedJson, decrypted }: TabRenderProps) {
                     </span>
                   </td>
                   <td className="px-2 py-1 min-w-[120px] max-w-[220px] truncate">{item.name}</td>
-                  <td className="px-2 py-1 relative min-w-[140px] max-w-[260px] truncate blur-sm hover:blur-none transition duration-100">{item.location}</td>
+                  <td className="px-2 py-1 relative min-w-[140px] max-w-[260px] break-words whitespace-pre-line blur-sm hover:blur-none transition duration-100">{item.location}</td>
                   <td className="px-2 py-1 w-[48px] text-center blur-sm hover:blur-none transition duration-100">{item.whichAct}</td>
                   <td className="px-2 py-1 w-[64px] text-center">
                     <button
