@@ -2,9 +2,9 @@ import type { TabDefinition } from "./types";
 import { HornetTab, getHornetExtra } from "./HornetTab";
 import { MaskShardsTab } from "./MaskShardsTab";
 import { ToolsTab } from "./ToolsTab";
-import { CrestsTab, getCrestsExtra } from "./CrestsTab";
-import { AncestralArtsTab, getAncestralArtsExtra } from "./AncestralArtsTab";
-import { RelicsTab, getRelicsExtra } from "./RelicsTab";
+import { CrestsTab } from "./CrestsTab";
+import { AncestralArtsTab } from "./AncestralArtsTab";
+import { RelicsTab } from "./RelicsTab";
 import { BossesTab } from "./BossesTab";
 import { HuntersJournalTab } from "./HuntersJournalTab";
 import { JsonEditorTab } from "./JsonEditorTab";
@@ -38,19 +38,16 @@ export const tabDefinitions: TabDefinition[] = [
     id: "Crests",
     label: "Crests",
     render: props => <CrestsTab {...props} />,
-    getExtra: ({ parsedJson }) => getCrestsExtra(parsedJson),
   },
   {
     id: "Ancestral Arts",
     label: "Ancestral Arts",
     render: props => <AncestralArtsTab {...props} />,
-    getExtra: ({ parsedJson }) => getAncestralArtsExtra(parsedJson),
   },
   {
     id: "Relics",
     label: "Relics",
     render: props => <RelicsTab {...props} />,
-    getExtra: ({ parsedJson }) => getRelicsExtra(parsedJson),
   },
   {
     id: "Bosses",
