@@ -40,7 +40,7 @@ const PLATFORM_OPTIONS: PlatformOption[] = [
     id: "Linux(Steamdeck)",
     label: "Linux (Steamdeck)",
     path: "~/.local/share/Team Cherry/Hollow Knight Silksong/",
-    note: "Native Linux: ~/.config/unity3d/Team Cherry/Hollow Knight Silksong/"
+    note: "Native Linux: ~/.config/unity3d/Team Cherry/Hollow Knight Silksong/(folder with random characters)/ (userX.dat, where x = savegame slot 1-4)"
   },
   {
     id: "Switch",
@@ -76,7 +76,7 @@ export default function App() {
     saveEncrypted,
     savePlain,
   } = useSaveFile();
-  const [activeTab, setActiveTab] = useState<TabId>("Hornet");
+  const [activeTab, setActiveTab] = useState<TabId>("Stats");
   const [showToast, setShowToast] = useState(false);
   const [activePlatformId, setActivePlatformId] = useState<PlatformId>("Steam");
 

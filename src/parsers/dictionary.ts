@@ -1,12 +1,13 @@
 export type FlagParsingInfo = { type: 'flag'; internalId: string };
 export type FlagIntParsingInfo = { type: 'flagInt'; internalId: [string, number] };
+export type FlagReturnParsingInfo = { type: 'flagReturn'; internalId: string };
 export type ToolParsingInfo = { type: 'tool'; internalId: string[] };
 export type CrestParsingInfo = { type: 'crest'; internalId: string };
 export type CollectableParsingInfo = { type: 'collectable'; internalId: string };
 export type RelictParsingInfo = { type: 'relict'; internalId: string };
 export type QuestParsingInfo = { type: 'quest'; internalId: string };
 export type SceneDataParsingInfo = { type: 'sceneData'; internalId: [string, string] };
-export type ParsingInfo = FlagParsingInfo | FlagIntParsingInfo | ToolParsingInfo | CrestParsingInfo | CollectableParsingInfo | RelictParsingInfo |QuestParsingInfo | SceneDataParsingInfo;
+export type ParsingInfo = FlagParsingInfo | FlagIntParsingInfo | FlagReturnParsingInfo | ToolParsingInfo | CrestParsingInfo | CollectableParsingInfo | RelictParsingInfo |QuestParsingInfo | SceneDataParsingInfo;
 
 export type CategoryItem = {
   name: string;
@@ -26,6 +27,15 @@ export type CollectableCategory = {
 };
 
 export const CATEGORIES: CollectableCategory[] = [
+    {
+    name: 'Stats',
+    description: 'Statistics tracked in the game.',
+    items: [
+      { name: 'Playtime', whichAct: 1, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flagReturn', internalId: 'playTime' }, mapLink: '' },
+      { name: 'Rosaries', whichAct: 1, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flagReturn', internalId: 'geo' }, mapLink: '' },
+      { name: 'Shell Shards', whichAct: 1, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flagReturn', internalId: 'ShellShards' }, mapLink: '' },
+    ],
+  },
   {
     name: 'Mask Shards',
     description: 'Each mask shard counts 0.25% towards completion.',
@@ -211,46 +221,90 @@ export const CATEGORIES: CollectableCategory[] = [
       { name: 'Arcane Egg', whichAct: 0, completionPercent: 0, prereqs: [], location: 'Behind a platforming sequence in the Abyss', parsingInfo: { type: 'relict', internalId: 'Ancient Egg Abyss Middle' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479281' },
   ],
   },
+  {
+    name: 'Upgrades',
+    description: 'Each Upgrade Counts 1% towards completion',
+    items: [
+      // Needle Upgrades
+      { name: 'Needle Upgrade 1', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',1] }, mapLink: '' },
+      { name: 'Needle Upgrade 2', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',2] }, mapLink: '' },
+      { name: 'Needle Upgrade 3', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',3] }, mapLink: '' },
+      { name: 'Needle Upgrade 4', section: 'Needle Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['nailUpgrades',4] }, mapLink: '' },
+
+      // Tool Pouch Upgrades
+      { name: 'Tool Pouch Upgrade 1', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',1] }, mapLink: '' },
+      { name: 'Tool Pouch Upgrade 2', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',2] }, mapLink: '' },
+      { name: 'Tool Pouch Upgrade 3', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',3] }, mapLink: '' },
+      { name: 'Tool Pouch Upgrade 4', section: 'Tool Pouch Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolPouchUpgrades',4] }, mapLink: '' },
+
+      // Tool Kit Upgrades
+      { name: 'Tool Kit Upgrade 1', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',1] }, mapLink: '' },
+      { name: 'Tool Kit Upgrade 2', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',2] }, mapLink: '' },
+      { name: 'Tool Kit Upgrade 3', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',3] }, mapLink: '' },
+      { name: 'Tool Kit Upgrade 4', section: 'Tool Kit Upgrades', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['ToolKitUpgrades',4] }, mapLink: '' },
+
+      // Silk Hearts
+      { name: 'Silk Heart 1', section: 'Silk Hearts', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['silkRegenMax',1] }, mapLink: '' },
+      { name: 'Silk Heart 2', section: 'Silk Hearts', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['silkRegenMax',2] }, mapLink: '' },
+      { name: 'Silk Heart 3', section: 'Silk Hearts', whichAct: 0, completionPercent: 1, prereqs: [], location: 'TODO', parsingInfo: { type: 'flagInt', internalId: ['silkRegenMax',3] }, mapLink: '' },
+  ],
+  },
 ];
 
 // Check if a category item is unlocked in the save data
-export function isItemUnlockedInPlayerSave(itemParsingInfo: ParsingInfo, saveData: any): boolean {
+export function isItemUnlockedInPlayerSave(itemParsingInfo: ParsingInfo, saveData: any): { unlocked: boolean, returnValue?: number } {
   const playerData = saveData.playerData ?? {};
   const typeHandlers = {
-    flag: (flagName: string) => !!playerData[flagName],
-    flagInt: ([flagName, value]: [string, number]) => playerData[flagName] >= value,
+    flag: (flagName: string) => {
+      const val = !!playerData[flagName];
+      return { unlocked: val };
+    },
+    flagInt: ([flagName, value]: [string, number]) => {
+      const actual = playerData[flagName] ?? 0;
+      return { unlocked: actual >= value };
+    },
+    flagReturn: (flagName: string) => {
+      const val = !!playerData[flagName];
+      return { unlocked: val, returnValue: playerData[flagName] };
+    },
     tool: (toolNames: string[]) => {
       const tools = playerData?.Tools?.savedData || [];
-      return toolNames.some(name => {
+      let unlocked = false;
+      for (const name of toolNames) {
         const foundTool = tools.find((t: any) => t?.Name === name);
-        return !!foundTool?.Data?.IsUnlocked;
-      });
+        if (foundTool && !!foundTool?.Data?.IsUnlocked) {
+          unlocked = true;
+          break;
+        }
+      }
+      return { unlocked };
     },
     crest: (crestName: string) => {
       const crest = playerData?.ToolEquips?.savedData || [];
       const foundCrest = crest.find((t: any) => t?.Name === crestName);
-      return !!foundCrest?.Data?.IsUnlocked;
+      return { unlocked: !!foundCrest?.Data?.IsUnlocked };
     },
     collectable: (itemName: string) => {
       const collectableEntry = playerData.Collectables?.savedData?.find(
         (x: any) => x.Name === itemName
       );
-      return !!collectableEntry && collectableEntry.Data.Amount > 0;
+      const amount = collectableEntry?.Data?.Amount ?? 0;
+      return { unlocked: amount > 0 };
     },
     relict: (relicName: string) => {
       const relics = playerData?.Relics?.savedData || [];
       const foundRelict = relics.find((r: any) => r?.Name === relicName);
-      return !!foundRelict?.Data?.IsCollected;
+      return { unlocked: !!foundRelict?.Data?.IsCollected };
     },
     quest: (questName: string) => {
       const questEntry = playerData.QuestCompletionData?.savedData?.find((x: any) => x.Name === questName);
-      return questEntry?.Data?.IsCompleted ?? false;
+      return { unlocked: questEntry?.Data?.IsCompleted ?? false };
     },
     sceneData: ([sceneName, Id]: [string, string]) => {
       const sceneData = saveData.sceneData || {};
       const allEntries = sceneData.persistentBools?.serializedList || [];
       const match = allEntries.find((x: any) => x.SceneName === sceneName && x.ID === Id);
-      return match?.Value === true;
+      return { unlocked: match?.Value === true };
     },
   };
   // @ts-ignore
