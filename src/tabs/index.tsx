@@ -1,6 +1,7 @@
 import type { TabDefinition } from "./types";
-import { HornetTab, getHornetExtra } from "./HornetTab";
+import { StatsTab } from "./StatsTab";
 import { MaskShardsTab } from "./MaskShardsTab";
+import { UpgradesTab } from "./UpgradesTab";
 import { ToolsTab } from "./ToolsTab";
 import { CrestsTab } from "./CrestsTab";
 import { AncestralArtsTab } from "./AncestralArtsTab";
@@ -12,10 +13,9 @@ import { SpoolFragmentsTab } from "./SpoolFragmentsTab";
 
 export const tabDefinitions: TabDefinition[] = [
   {
-    id: "Hornet",
-    label: "Hornet",
-    render: props => <HornetTab {...props} />,
-    getExtra: ({ parsedJson }) => getHornetExtra(parsedJson),
+    id: "Stats",
+    label: "Stats",
+    render: props => <StatsTab {...props} />,
   },
   {
     id: "Mask Shards",
@@ -27,6 +27,12 @@ export const tabDefinitions: TabDefinition[] = [
     id: "Spool Fragments",
     label: "Spool Fragments",
     render: props => <SpoolFragmentsTab {...props} />,
+    
+  },
+    {
+    id: "Upgrades",
+    label: "Upgrades",
+    render: props => <UpgradesTab {...props} />,
     
   },
   {

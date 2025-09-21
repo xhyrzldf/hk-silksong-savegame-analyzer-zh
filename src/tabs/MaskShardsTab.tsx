@@ -26,7 +26,7 @@ export function MaskShardsTab({ parsedJson, decrypted }: TabRenderProps) {
           </thead>
           <tbody>
             {maskShards.map((item, index) => {
-              const unlocked = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
+              const { unlocked } = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
               return (
                 <tr key={index} className="border-b border-gray-700 last:border-b-0">      
                   <td className="px-2 py-1 text-center w-[56px] align-middle">

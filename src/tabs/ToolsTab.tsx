@@ -31,7 +31,7 @@ function ToolsTableSection({ section, tools, parsedJson }: { section: string; to
           </thead>
           <tbody>
             {tools.map((item, index) => {
-              const unlocked = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
+              const { unlocked } = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
               return (
                 <tr key={index} className="border-b border-gray-700 last:border-b-0">      
                   <td className="px-2 py-1 text-center align-middle">
@@ -79,12 +79,7 @@ export function ToolsTab({ parsedJson, decrypted }: TabRenderProps) {
   const toolsCategory = CATEGORIES.find(cat => cat.name === "Tools");
   const tools = toolsCategory?.items ?? [];
 
-  const sections = [
-    "Silk Skills",
-    "Attack Tools",
-    "Defense Tools",
-    "Explore Tools"
-  ];
+  const sections = Array.from(new Set(tools.map(t => t.section).filter((s): s is string => typeof s === 'string')));
 
   return (
     <div className="text-white">

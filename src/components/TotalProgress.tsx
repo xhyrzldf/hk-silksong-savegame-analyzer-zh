@@ -1,43 +1,28 @@
-import { parsers } from "../parsers";
+import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 
 interface TotalProgressProps {
   parsedJson: unknown;
 }
 
 export function TotalProgress({ parsedJson }: TotalProgressProps) {
+
   if (!parsedJson) return null;
 
-  const hornet = parsers.Hornet(parsedJson);
-  const crests = parsers.Crests(parsedJson);
-  const arts = parsers.AncestralArts(parsedJson);
-  const toolSections = parsers.Tools(parsedJson);
-  const allTools = toolSections.flatMap((section: any) => section.tools);
+  // Flatten all items from all categories
+  const allItems = CATEGORIES.flatMap(category => category.items);
+  // Only count items with a positive completionPercent
+  const itemsWithPercent = allItems.filter(item => typeof item.completionPercent === 'number' && item.completionPercent > 0);
 
-  const buckets = [
-    { unlocked: hornet.totalCompletion, max: hornet.maxCompletion },
-    {
-      unlocked: crests
-        .filter((crest: any) => crest.unlocked)
-        .reduce((sum: number, crest: any) => sum + (crest.completion || 0), 0),
-      max: crests.reduce((sum: number, crest: any) => sum + (crest.completion || 0), 0),
-    },
-    {
-      unlocked: arts
-        .filter((art: any) => art.unlocked)
-        .reduce((sum: number, art: any) => sum + (art.completion || 0), 0),
-      max: arts.reduce((sum: number, art: any) => sum + (art.completion || 0), 0),
-    },
-    {
-      unlocked: allTools
-        .filter((tool: any) => tool.unlocked)
-        .reduce((sum: number, tool: any) => sum + (tool.completion || 0), 0),
-      max: allTools.reduce((sum: number, tool: any) => sum + (tool.completion || 0), 0),
-    },
-  ];
-
-  const totalUnlocked = buckets.reduce((sum, bucket) => sum + bucket.unlocked, 0);
-  const totalMax = buckets.reduce((sum, bucket) => sum + bucket.max, 0);
-  const percent = totalMax > 0 ? Math.round((totalUnlocked / totalMax) * 100) : 0;
+  let unlockedSum = 0;
+  let maxSum = 0;
+  for (const item of itemsWithPercent) {
+    maxSum += item.completionPercent;
+    const { unlocked } = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
+    if (unlocked) {
+      unlockedSum += item.completionPercent;
+    }
+  }
+  const percent = maxSum > 0 ? Math.round((unlockedSum / maxSum) * 100) : 0;
 
   return (
     <div className="w-full my-4">
