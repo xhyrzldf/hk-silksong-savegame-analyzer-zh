@@ -1,4 +1,4 @@
-export interface HornetInfo {
+﻿export interface HornetInfo {
   playtime: string;
   rosaries: number;
   shellShards: number;

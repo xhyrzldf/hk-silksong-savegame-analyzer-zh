@@ -2,6 +2,8 @@ import type { Dispatch, ReactNode, SetStateAction } from "react";
 
 export type TabId =
   | "Hornet"
+  | "Mask Shards"
+  | "Spool Fragments"
   | "Tools"
   | "Crests"
   | "Ancestral Arts"
