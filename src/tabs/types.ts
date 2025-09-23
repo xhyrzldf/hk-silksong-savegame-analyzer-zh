@@ -11,6 +11,7 @@ export type TabId =
   | "Relics"
   | "Fleas"
   | "Memory Lockets"
+  | "Keys"
   | "Bosses"
   | "Hunters Journal"
   | "JSON Editor";
