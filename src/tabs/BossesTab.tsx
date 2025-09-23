@@ -9,8 +9,8 @@ export function BossesTab({ parsedJson, decrypted }: TabRenderProps) {
     return <div className="text-white text-center">Load a save file to view boss data.</div>;
   }
 
-  const bossCategory = CATEGORIES.find(cat => cat.name === BOSSES_CATEGORY_NAME);
-  const bosses = bossCategory?.items ?? [];
+  const bossesCategory = CATEGORIES.find(cat => cat.name === BOSSES_CATEGORY_NAME);
+  const bosses = bossesCategory?.items ?? [];
 
   return (
     <div className="text-white">
@@ -37,7 +37,7 @@ export function BossesTab({ parsedJson, decrypted }: TabRenderProps) {
                   <td className="px-2 py-1 text-center w-[56px] align-middle">
                     <span className="text-xs text-blue-200 mt-1 font-normal"/>
                   </td>
-                  <td className="px-2 py-1 min-w-[10px] max-w-[120px] truncate">{boss.name}</td>
+                  <td className="px-2 py-1 min-w-[60px] max-w-[120px] truncate">{boss.name}</td>
                   <td className="px-2 py-1 relative min-w-[140px] max-w-[260px] break-words whitespace-pre-line blur-sm hover:blur-none transition duration-100">
                     {boss.location || "TODO"}
                   </td>
