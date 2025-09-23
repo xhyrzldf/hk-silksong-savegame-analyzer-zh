@@ -23,7 +23,19 @@ const PLATFORM_OPTIONS: PlatformOption[] = [
     id: "Steam",
     label: "Steam",
     path: "%userprofile%/appdata/LocalLow/Team Cherry/Hollow Knight Silksong/",
-    note: "/steamID (userX.dat, where x = savegame slot 1-4)",
+    note: (
+      <>
+        /steamID (userX.dat, where x = savegame slot 1-4)  {" "}
+        <a
+          href="https://store.steampowered.com/account/remotestorageapp/?appid=1030300"
+          className="underline text-green-300 hover:text-green-200"
+          target="_blank"
+          rel="noreferrer"
+        >
+          (Steam Cloud saves)
+        </a>
+      </>
+    ),
   },
   {
     id: "Gamepass(PC)",
