@@ -4,10 +4,6 @@ import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 
 const BOSSES_CATEGORY_NAME = "Bosses [WIP]";
 
-function formatPercent(value: number): string {
-  return `${Number(value.toFixed(2))}%`;
-}
-
 export function BossesTab({ parsedJson, decrypted }: TabRenderProps) {
   if (!decrypted || !parsedJson) {
     return <div className="text-white text-center">Load a save file to view boss data.</div>;
