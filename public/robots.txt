@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://silksong-completionist.com/sitemap.xml
