@@ -9,6 +9,7 @@ import { AncestralArtsTab, getAncestralArtsExtra } from "./AncestralArtsTab";
 import { RelicsTab, getRelicsExtra } from "./RelicsTab";
 import { FleasTab, getFleasExtra } from "./FleasTab";
 import { MemoryLocketsTab, getMemoryLocketsExtra } from "./MemoryLocketsTab";
+import { KeysTab, getKeysExtra } from "./KeysTab";
 import { BossesTab } from "./BossesTab";
 import { HuntersJournalTab } from "./HuntersJournalTab";
 import { JsonEditorTab } from "./JsonEditorTab";
@@ -72,6 +73,12 @@ export const tabDefinitions: TabDefinition[] = [
     label: "Memory Lockets",
     render: props => <MemoryLocketsTab {...props} />,
     getExtra: getMemoryLocketsExtra,
+  },
+    {
+    id: "Keys",
+    label: "Keys",
+    render: props => <KeysTab {...props} />,
+    getExtra: getKeysExtra,
   },
   {
     id: "Bosses",

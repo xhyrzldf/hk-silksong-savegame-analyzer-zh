@@ -310,6 +310,23 @@ export const CATEGORIES: CollectableCategory[] = [
       { name: 'Memory Locket 20', whichAct: 0, completionPercent: 0, prereqs: [], location: 'Sands of Karak: Held by a corpse at the top of the area', parsingInfo: { type: 'sceneData', internalId: ['Coral_23', 'Collectable Item Pickup'] }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479204' },
   ],
   },
+  {
+    name: 'Keys',
+    description: 'Keys',
+    items: [
+      { name: 'Simple Key 1', whichAct: 0, completionPercent: 0, prereqs: [], location: 'Bone Bottom: Purchased from Pebb for 500 Rosaries', parsingInfo: { type: 'flag', internalId: 'PurchasedBonebottomFaithToken' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=477839' },
+      { name: 'Simple Key 2', whichAct: 0, completionPercent: 0, prereqs: [], location: 'Sinners Road Top Right (Defeat Roachkeeper)', parsingInfo: { type: 'flag', internalId: 'CollectedDustCageKey' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478280' },
+      { name: 'Simple Key 3', whichAct: 0, completionPercent: 0, prereqs: [], location: 'Songclave: Can be purchased from Jubilana for 650 Rosaries', parsingInfo: { type: 'flag', internalId: 'MerchantEnclaveSimpleKey' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478880' },
+      { name: 'Simple Key 4', whichAct: 0, completionPercent: 0, prereqs: [], location: 'Sands of Karak: Far-right, held by a corpse sitting on the bench', parsingInfo: { type: 'sceneData', internalId: ['Bellshrine_Coral', 'Collectable Item Pickup'] }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479215' },
+      { name: 'Key of Indolent', whichAct: 3, completionPercent: 0, prereqs: [], location: 'The Slab: At the edge of a room entered from above', parsingInfo: { type: 'flag', internalId: 'HasSlabKeyA' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478467' },
+      { name: 'Key of Heretic', whichAct: 0, completionPercent: 0, prereqs: [], location: 'The Slab: Dropped by the final enemy in a room entered from above', parsingInfo: { type: 'flag', internalId: 'HasSlabKeyB' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478474' },
+      { name: 'Key of Apostate', whichAct: 0, completionPercent: 0, prereqs: [], location: 'Putrified Ducts: Bottom-left: Inside a cage. Hit it a few times to get the key out', parsingInfo: { type: 'flag', internalId: 'HasSlabKeyC' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478963' },
+      { name: 'Architects Key', whichAct: 0, completionPercent: 0, prereqs: ['Aquire 25 Tools'], location: 'Underworks: Can be purchased from Twelfth Architect for 110 Rosaries. Used to unlock the Chapel of the Architect', parsingInfo: { type: 'flag', internalId: 'PurchasedArchitectKey' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478729' },
+      { name: 'Diving Bell Key', whichAct: 3, completionPercent: 0, prereqs: [], location: 'Deep Docks: Used for the Diving Bell', parsingInfo: { type: 'flag', internalId: 'BallowGivenKey' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479279' },
+      { name: 'White Key', whichAct: 0, completionPercent: 0, prereqs: [], location: 'Songclave: On a corpse at the edge of the area. Sold by Jubilana if you dont pick it up before completing The Wandering Merchant Wish. Unlocks the Locked Elevator in Whiteward', parsingInfo: { type: 'flag', internalId: 'collectedWardKey' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478599' },
+      { name: 'Surgeons Key', whichAct: 0, completionPercent: 0, prereqs: ['Clawline'], location: 'Whiteward: Top-Right: Dangle from a metal ring for a few seconds, and a corpse will eventually appear holding this key. Used to open locked trapdoor in Whiteward', parsingInfo: { type: 'flag', internalId: 'collectedWardBossKey' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478923' },
+  ],
+  },
 ];
 
 // Check if a category item is unlocked in the save data
