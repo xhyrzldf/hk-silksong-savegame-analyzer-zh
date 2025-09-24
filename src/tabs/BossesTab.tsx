@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import type { TabRenderProps } from "./types";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 
-const BOSSES_CATEGORY_NAME = "Bosses [WIP]";
+const BOSSES_CATEGORY_NAME = "Bosses";
 
 export function BossesTab({ parsedJson, decrypted }: TabRenderProps) {
   if (!decrypted || !parsedJson) {
@@ -75,7 +75,7 @@ export function getBossesExtra({ parsedJson, decrypted }: { parsedJson: unknown;
     return null;
   }
 
-  const bossCategory = CATEGORIES.find(cat => cat.name === "Bosses [WIP]");
+  const bossCategory = CATEGORIES.find(cat => cat.name === "Bosses");
   const bosses = bossCategory?.items ?? [];
 
   if (bosses.length === 0) {
