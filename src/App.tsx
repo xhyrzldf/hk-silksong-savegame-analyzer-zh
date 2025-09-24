@@ -193,8 +193,10 @@ export default function App() {
           )}
         </div>
         <footer className="w-full mt-8 py-4  text-white text-center text-sm  ">
-          Made by Br3zzly - <a href="https://github.com/Br3zzly/hk-silksong-savegame-analyzer" className="underline">GitHub Repo</a> - 
-          <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3571462700" className="underline">Steam Guide</a> - 
+          Made by <a href="https://github.com/br3zzly" className="underline">Br3zzly</a><br />
+          With help from <a href="https://github.com/theezeb" className="underline">theezeb</a><br />
+          <a href="https://github.com/Br3zzly/hk-silksong-savegame-analyzer" className="underline">GitHub Repo</a><br />
+          <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3571462700" className="underline">Steam Guide</a><br />
           <a href="https://www.buymeacoffee.com/Br3zzly" className="underline">Buy me a coffee</a>
         </footer>
       </div>
