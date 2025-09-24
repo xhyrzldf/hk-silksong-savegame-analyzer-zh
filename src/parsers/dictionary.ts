@@ -2,12 +2,13 @@ export type FlagParsingInfo = { type: 'flag'; internalId: string };
 export type FlagIntParsingInfo = { type: 'flagInt'; internalId: [string, number] };
 export type FlagReturnParsingInfo = { type: 'flagReturn'; internalId: string };
 export type ToolParsingInfo = { type: 'tool'; internalId: string[] };
+export type JournalParsingInfo = { type: 'journal'; internalId: string[] };
 export type CrestParsingInfo = { type: 'crest'; internalId: string };
 export type CollectableParsingInfo = { type: 'collectable'; internalId: string };
 export type RelictParsingInfo = { type: 'relict'; internalId: string };
 export type QuestParsingInfo = { type: 'quest'; internalId: string };
 export type SceneDataParsingInfo = { type: 'sceneData'; internalId: [string, string, boolean?] };
-export type ParsingInfo = FlagParsingInfo | FlagIntParsingInfo | FlagReturnParsingInfo | ToolParsingInfo | CrestParsingInfo | CollectableParsingInfo | RelictParsingInfo |QuestParsingInfo | SceneDataParsingInfo;
+export type ParsingInfo = FlagParsingInfo | FlagIntParsingInfo | FlagReturnParsingInfo | ToolParsingInfo | JournalParsingInfo | CrestParsingInfo | CollectableParsingInfo | RelictParsingInfo |QuestParsingInfo | SceneDataParsingInfo;
 
 export type CategoryItem = {
   name: string;
@@ -341,7 +342,7 @@ export const CATEGORIES: CollectableCategory[] = [
       { name: 'Broodmother',                whichAct: 2, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'defeatedBroodmother' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479255'},
       { name: 'Second Sentinel',            whichAct: 2, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'defeatedSongChevalierBoss' }, mapLink:  'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479253'},
       { name: 'Shakra',                     whichAct: 2, completionPercent: 0, prereqs: [], location: 'Go East of Bellhart after completing Trail`s End and hitting the ring as you enter the Greymoor area', parsingInfo: { type: 'flag', internalId: '???' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479822' },
-      { name: 'Grand Mother Silk',          whichAct: 2, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: '???' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479099' },
+      { name: 'Grand Mother Silk',          whichAct: 2, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'journal', internalId: ['Silk Boss'] }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479099' },
       { name: 'Bell Eater',                 whichAct: 3, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'bellCentipedeAppeared' }, mapLink:  'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479264'},
       { name: 'Lost Garmond',               whichAct: 3, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'garmondBlackThreadDefeated' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479452' },
       { name: 'Crawfather',                 whichAct: 3, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'defeatedCrowCourt' }, mapLink:  'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479740'},
@@ -401,6 +402,18 @@ export function isItemUnlockedInPlayerSave(itemParsingInfo: ParsingInfo, saveDat
       for (const name of toolNames) {
         const foundTool = tools.find((t: any) => t?.Name === name);
         if (foundTool && !!foundTool?.Data?.IsUnlocked) {
+          unlocked = true;
+          break;
+        }
+      }
+      return { unlocked };
+    },
+    journal: (entryNames: string[]) => {
+      const journal = playerData?.EnemyJournalKillData?.list || [];
+      let unlocked = false;
+      for (const name of entryNames) {
+        const foundEntry = journal.find((t: any) => t?.Name === name);
+        if (foundEntry && foundEntry.Record.Kills > 0) {
           unlocked = true;
           break;
         }
