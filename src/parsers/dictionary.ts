@@ -312,7 +312,7 @@ export const CATEGORIES: CollectableCategory[] = [
   ],
   },
   {
-    name: 'Bosses [WIP]',
+    name: 'Bosses',
     description: 'Bosses',
     items: [
       { name: 'Moss Mother',                whichAct: 1, completionPercent: 0, prereqs: [], location: 'Appearing in the Ruined Chapel at the end of Moss Grotto.', parsingInfo: { type: 'flag', internalId: 'defeatedMossMother' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=476904' },

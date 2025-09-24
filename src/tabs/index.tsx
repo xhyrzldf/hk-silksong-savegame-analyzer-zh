@@ -82,7 +82,7 @@ export const tabDefinitions: TabDefinition[] = [
   },
   {
     id: "Bosses",
-    label: "Bosses [WIP]",
+    label: "Bosses",
     render: props => <BossesTab {...props} />,
     getExtra: getBossesExtra,
   },
