@@ -11,7 +11,6 @@ import { FleasTab, getFleasExtra } from "./FleasTab";
 import { MemoryLocketsTab, getMemoryLocketsExtra } from "./MemoryLocketsTab";
 import { BossesTab, getBossesExtra } from "./BossesTab";
 import { KeysTab, getKeysExtra } from "./KeysTab";
-import { BossesTab } from "./BossesTab";
 import { HuntersJournalTab } from "./HuntersJournalTab";
 import { JsonEditorTab } from "./JsonEditorTab";
 

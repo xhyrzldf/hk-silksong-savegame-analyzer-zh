@@ -359,8 +359,8 @@ export const CATEGORIES: CollectableCategory[] = [
       { name: 'Summoned Saviour',           whichAct: 3, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'EncounteredSummonedSaviour' }, mapLink:  'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479494'},
       { name: 'Lost Lace',                  whichAct: 3, completionPercent: 0, prereqs: [], location: '', parsingInfo: { type: 'flag', internalId: 'EncounteredLostLace' }, mapLink:  'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479471'},
     ]
-  }
-
+  },
+  {
     name: 'Keys',
     description: 'Keys',
     items: [
