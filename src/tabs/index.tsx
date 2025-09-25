@@ -11,7 +11,7 @@ import { FleasTab, getFleasExtra } from "./FleasTab";
 import { MemoryLocketsTab, getMemoryLocketsExtra } from "./MemoryLocketsTab";
 import { BossesTab, getBossesExtra } from "./BossesTab";
 import { KeysTab, getKeysExtra } from "./KeysTab";
-import { HuntersJournalTab } from "./HuntersJournalTab";
+import { getHuntersJournalExtra, HuntersJournalTab } from "./HuntersJournalTab";
 import { JsonEditorTab } from "./JsonEditorTab";
 
 export const tabDefinitions: TabDefinition[] = [
@@ -90,6 +90,7 @@ export const tabDefinitions: TabDefinition[] = [
     id: "Hunters Journal",
     label: "Hunters Journal",
     render: props => <HuntersJournalTab {...props} />,
+    getExtra: getHuntersJournalExtra, 
   },
   {
     id: "JSON Editor",
