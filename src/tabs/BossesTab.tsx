@@ -28,11 +28,11 @@ export function BossesTab({ parsedJson, decrypted }: TabRenderProps) {
           </thead>
           <tbody>
             {bosses.map((boss, index) => {
-              const { unlocked, returnValue: killsAchieved } = isItemUnlockedInPlayerSave(boss.parsingInfo, parsedJson);
+              const { unlocked } = isItemUnlockedInPlayerSave(boss.parsingInfo, parsedJson);
               return (
                 <tr key={index} className="border-b border-gray-700 last:border-b-0">
                   <td className="px-2 py-1 text-center w-[56px] align-middle">
-                    <span className={unlocked || (typeof killsAchieved === "number" && killsAchieved > 0) ? "text-green-400" : "text-red-400"}>{unlocked || (typeof killsAchieved === "number" && killsAchieved > 0) ? "[x]" : "[ ]"}</span>
+                    <span className={unlocked  ? "text-green-400" : "text-red-400"}>{unlocked ? "[x]" : "[ ]"}</span>
                   </td>
                   <td className="px-2 py-1 text-center w-[56px] align-middle">
                     <span className="text-xs text-blue-200 mt-1 font-normal"/>
@@ -85,8 +85,8 @@ export function getBossesExtra({ parsedJson, decrypted }: { parsedJson: unknown;
    let unlockedCount = 0;
 
   bosses.forEach(boss => {
-    const { unlocked, returnValue: killsAchieved } = isItemUnlockedInPlayerSave(boss.parsingInfo, parsedJson);
-    if (unlocked || (typeof killsAchieved === "number" && killsAchieved > 0)) {
+    const { unlocked } = isItemUnlockedInPlayerSave(boss.parsingInfo, parsedJson);
+    if (unlocked) {
       unlockedCount += 1;
     }
   });
