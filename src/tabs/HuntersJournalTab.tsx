@@ -21,13 +21,15 @@ export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
               <th className="px-2 py-1 w-[56px]" />
               <th className="px-2 py-1 w-[56px] text-center" />
               <th className="px-2 py-1 min-w-[120px] max-w-[220px]">Name</th>
-              <th className="px-2 py-1 min-w-[100px] max-w-[150px] text-center">Kills Required</th>
-              <th className="px-2 py-1 min-w-[100px] max-w-[150px] text-center">Kills Achieved</th>
+              <th className="px-2 py-1 w-[48px]">Act</th>
+              <th className="px-2 py-1  w-[120px] text-center">Kills Required</th>
+              <th className="px-2 py-1  w-[130px] text-center">Kills Achieved</th>
+              <th className="px-2 py-1 w-[64px]" />
             </tr>
           </thead>
           <tbody>
-            {journalEntries.map((entry, index) => {
-              const {  unlocked , returnValue: killsAchieved  } = isItemUnlockedInPlayerSave(entry.parsingInfo, parsedJson);
+            {journalEntries.map((item, index) => {
+              const {  unlocked , returnValue: killsAchieved  } = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
               return (
                 <tr key={index} className="border-b border-gray-700 last:border-b-0">
                   <td className="px-2 py-1 text-center w-[56px] align-middle">
@@ -36,18 +38,32 @@ export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
                   <td className="px-2 py-1 text-center w-[56px] align-middle">
                     <span className="text-xs text-blue-200 mt-1 font-normal" />
                   </td>
-                  <td
-                    className={`px-2 py-1 min-w-[120px] max-w-[220px] truncate ${
-                      !unlocked ? "blur-sm hover:blur-none transition duration-100" : ""
-                    }`}
+                  <td className={`px-2 py-1 min-w-[120px] max-w-[220px] truncate
+                    ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}
                   >
-                    {entry.name}
+                    {item.name}
                   </td>
+                    <td className={`px-2 py-1 w-[48px] text-center ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}>{item.whichAct}</td>
                   <td className="px-2 py-1 min-w-[100px] max-w-[150px] text-center">
-                    {entry.killsRequired ?? "N/A"}
+                    {item.killsRequired ?? "N/A"}
                   </td>
                   <td className="px-2 py-1 min-w-[100px] max-w-[150px] text-center">
                     {killsAchieved}
+                  </td>  <td className="px-2 py-1 w-[64px] text-center">
+                    <button
+                      className={`flex-1 min-w-[48px] py-2 rounded font-semibold transition-colors text-xs ${
+                        item.mapLink
+                          ? "bg-[#24344d] text-white hover:bg-blue-600"
+                          : "bg-[#24344d] text-blue-200 opacity-50 cursor-not-allowed"
+                      }`}
+                      onClick={() => {
+                        if (item.mapLink) window.open(item.mapLink, "_blank", "noopener");
+                      }}
+                      disabled={!item.mapLink}
+                      tabIndex={item.mapLink ? 0 : -1}
+                    >
+                      Map
+                    </button>
                   </td>
                 </tr>
               );
