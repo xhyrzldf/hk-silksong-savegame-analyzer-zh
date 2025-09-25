@@ -36,7 +36,13 @@ export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
                   <td className="px-2 py-1 text-center w-[56px] align-middle">
                     <span className="text-xs text-blue-200 mt-1 font-normal" />
                   </td>
-                  <td className="px-2 py-1 min-w-[120px] max-w-[220px] truncate">{entry.name}</td>
+                  <td
+                    className={`px-2 py-1 min-w-[120px] max-w-[220px] truncate ${
+                      !unlocked ? "blur-sm hover:blur-none transition duration-100" : ""
+                    }`}
+                  >
+                    {entry.name}
+                  </td>
                   <td className="px-2 py-1 min-w-[100px] max-w-[150px] text-center">
                     {entry.killsRequired ?? "N/A"}
                   </td>
