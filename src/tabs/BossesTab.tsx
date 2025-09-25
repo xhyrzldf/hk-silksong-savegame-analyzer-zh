@@ -37,7 +37,11 @@ export function BossesTab({ parsedJson, decrypted }: TabRenderProps) {
                   <td className="px-2 py-1 text-center w-[56px] align-middle">
                     <span className="text-xs text-blue-200 mt-1 font-normal"/>
                   </td>
-                  <td className="px-2 py-1 min-w-[60px] max-w-[120px] truncate">{boss.name}</td>
+                    <td
+                    className={`px-2 py-1 min-w-[120px] max-w-[220px] truncate ${
+                      !unlocked ? "blur-sm hover:blur-none transition duration-100" : ""
+                    }`}
+                  >{boss.name}</td>
                   <td className="px-2 py-1 relative min-w-[140px] max-w-[260px] break-words whitespace-pre-line blur-sm hover:blur-none transition duration-100">
                     {boss.location || "TODO"}
                   </td>
