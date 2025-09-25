@@ -27,8 +27,7 @@ export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
           </thead>
           <tbody>
             {journalEntries.map((entry, index) => {
-              const {  returnValue: killsAchieved  } = isItemUnlockedInPlayerSave(entry.parsingInfo, parsedJson);
-              const unlocked = entry.killsRequired !== undefined && killsAchieved !== undefined && killsAchieved >= entry.killsRequired;
+              const {  unlocked , returnValue: killsAchieved  } = isItemUnlockedInPlayerSave(entry.parsingInfo, parsedJson);
               return (
                 <tr key={index} className="border-b border-gray-700 last:border-b-0">
                   <td className="px-2 py-1 text-center w-[56px] align-middle">
