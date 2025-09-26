@@ -84,6 +84,7 @@ function getHuntersJournalStatusColor(unlocked: boolean, killsAchieved: number |
 
   return "";
 }
+
 export function getHuntersJournalExtra({ parsedJson, decrypted }: { parsedJson: unknown; decrypted: boolean }): ReactNode {
   if (!decrypted || !parsedJson) {
     return null;
@@ -115,9 +116,9 @@ export function getHuntersJournalExtra({ parsedJson, decrypted }: { parsedJson: 
   });
 
   return (
-    <div className="text-xs text-blue-200 mt-1 font-normal">
-      {`Completed ${completed} / ${journalEntries.length}`}<br />
-      {`Encountered ${encountered} / ${journalEntries.length}`}
+    <div className="text-xs mt-1 font-normal">
+      <span className="text-green-400 font-bold">{`Completed ${completed} / ${journalEntries.length}`}</span><br />
+      <span className="text-yellow-400 font-bold">{`Encountered ${encountered} / ${journalEntries.length}`}</span>
     </div>
   );
 }
