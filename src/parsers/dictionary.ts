@@ -379,7 +379,7 @@ export const CATEGORIES: CollectableCategory[] = [
       { name: 'Surgeons Key', whichAct: 0, completionPercent: 0, prereqs: ['Clawline'], location: 'Whiteward: Top-Right: Dangle from a metal ring for a few seconds, and a corpse will eventually appear holding this key. Used to open locked trapdoor in Whiteward', parsingInfo: { type: 'flag', internalId: 'collectedWardBossKey' }, mapLink: 'https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478923' },
   ],
   },
-  {
+   {
     name: 'Hunter\'s Journal',
     description: 'Hunter\'s Journal',
     items: [
@@ -408,16 +408,16 @@ export const CATEGORIES: CollectableCategory[] = [
       {name: 'Gromling',                    killsRequired: 25, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Crypt Worm', 25]},  mapLink: ''},
       {name: 'Grom',                        killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Bone Worm', 10]},  mapLink: ''},
       {name: 'Bell Beast',                  killsRequired: 1,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Bone Beast', 1]},  mapLink: ''},
-      {name: 'Pilgrim Pouncer',             killsRequired: 35, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim 01', 35]},   mapLink: ''},
-      {name: 'Pilgrim Hulk',                killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim 02', 10]},  mapLink: ''},
       {name: 'Pilgrim Groveller',           killsRequired: 35, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim 03', 35]},  mapLink: ''},
+      {name: 'Pilgrim Pouncer',             killsRequired: 35, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim 01', 35]},   mapLink: ''},
       {name: 'Pilgrim Hornfly',             killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim 04', 15]},  mapLink: ''},
-      {name: 'Elder Pilgrim',               killsRequired: 5,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '',  parsingInfo:{type: 'journal',  internalId: ['Pilgrim 05', 5]},  mapLink: ''},
-      {name: 'Pilgrim Hiker',               killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim Hiker', 10]},  mapLink: ''},
-      {name: 'Pilgrim Guide',               killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim StaffWielder', 15]},  mapLink: ''},
+      {name: 'Pilgrim Hulk',                killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim 02', 10]},  mapLink: ''},
       {name: 'Pilgrim Bellbearer',          killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim Bell Thrower', 10]},  mapLink: ''},
       {name: 'Winged Pilgrim',              killsRequired: 25, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim Fly', 25]},  mapLink: ''},
+      {name: 'Elder Pilgrim',               killsRequired: 5,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '',  parsingInfo:{type: 'journal',  internalId: ['Pilgrim 05', 5]},  mapLink: ''},
       {name: 'Winged Pilgrim Bellbearer',   killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim Bellthrower Fly', 10]},  mapLink: ''},
+      {name: 'Pilgrim Hiker',               killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim Hiker', 10]},  mapLink: ''},
+      {name: 'Pilgrim Guide',               killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim StaffWielder', 15]},  mapLink: ''},
       {name: 'Overgrown Pilgrim',           killsRequired: 20, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Pilgrim Moss Spitter', 20]},  mapLink: ''},
       {name: 'Covetous Pilgrim',            killsRequired: 2,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Rosary Pilgrim', 2]},  mapLink: ''},
       {name: 'Snitchfly',                   killsRequired: 4,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Rosary Thief', 4]},  mapLink: ''},
@@ -447,23 +447,23 @@ export const CATEGORIES: CollectableCategory[] = [
       {name: 'Mite',                        killsRequired: 30, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Mite', 30]},  mapLink: ''},
       {name: 'Fluttermite',                 killsRequired: 25, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Mitefly', 25]},  mapLink: ''},
       {name: 'Mitemother',                  killsRequired: 10,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Gnat Giant', 10]},  mapLink: ''},
-      {name: 'Moorwing',                    killsRequired: 1, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Vampire Gnat', 1]},  mapLink: ''},
       {name: 'Dreg Catcher',                killsRequired: 20, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Farmer Catcher', 20]},  mapLink: ''},
       {name: 'Silk Snipper',                killsRequired: 25, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Farmer Scissors', 25]},  mapLink: ''},
       {name: 'Thread Raker',                killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Farmer Centipede', 15]},  mapLink: ''},
+      {name: 'Moorwing',                    killsRequired: 1, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Vampire Gnat', 1]},  mapLink: ''},
       {name: 'Wisp',                        killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Wisp', 15]},  mapLink: ''},
       {name: 'Burning Bug',                 killsRequired: 8, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Farmer Wisp', 8]},  mapLink: ''},
       {name: 'Father of the Flame',         killsRequired: 1,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Wisp Pyre Effigy', 1]},  mapLink: ''},
       {name: 'Craw',                        killsRequired: 25, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Crow', 25]},  mapLink: ''},
       {name: 'Tallcraw',                    killsRequired: 20, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Crowman', 20]},  mapLink: ''},
-      {name: 'Tallcraw Juror',              killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Crowman Juror', 10]},  mapLink: ''},
-      {name: 'Craw Juror',                  killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Crowman Juror Tiny', 15]},  mapLink: ''},
       {name: 'Squatcraw',                   killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Crowman Dagger', 15]},  mapLink: ''},
+      {name: 'Craw Juror',                  killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Crowman Juror Tiny', 15]},  mapLink: ''},
+      {name: 'Tallcraw Juror',              killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Crowman Juror', 10]},  mapLink: ''},
       {name: 'Squatcraw Juror',             killsRequired: 8, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId:  ['Crowman Dagger Juror', 8]},  mapLink: ''},
       {name: 'Crawfather',                  killsRequired: 1,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Crawfather', 1]},  mapLink: ''},
       {name: 'Muckmaggot',                  killsRequired: 80, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Maggots', 80]},  mapLink: ''},
-      {name: 'Muckroach',                   killsRequired: 20, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Dustroach', 20]},  mapLink: ''},
       {name: 'Slubberlug',                  killsRequired: 12, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Dustroach Pollywog', 12]},  mapLink: ''},
+      {name: 'Muckroach',                   killsRequired: 20, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Dustroach', 20]},  mapLink: ''},
       {name: 'Bloatroach',                  killsRequired: 12, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Bloat Roach', 12]},  mapLink: ''},
       {name: 'Roachcatcher',                killsRequired: 20, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Roachfeeder Short', 20]},  mapLink: ''},
       {name: 'Roachfeeder',                 killsRequired: 20, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Roachfeeder Tall', 20]},  mapLink: ''},
@@ -485,10 +485,10 @@ export const CATEGORIES: CollectableCategory[] = [
       {name: 'Shellwood Gnat',              killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Shellwood Gnat', 15]},  mapLink: ''},
       {name: 'Wood Wasp',                   killsRequired: 12, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Shellwood Wasp', 12]},  mapLink: ''},
       {name: 'Splinter',                    killsRequired: 12, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Stick Insect', 12]},  mapLink: ''},
-      {name: 'Splinterhorn',                killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Stick Insect Charge', 10]},  mapLink: ''},
+      {name: 'Splinterhorn',                killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Stick Insect Charger', 10]},  mapLink: ''},
       {name: 'Splinterbark',                killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Stick Insect Flyer', 10]},  mapLink: ''},
       {name: 'Sister Splinter',             killsRequired: 1,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId:  ['Splinter Queen', 1]},  mapLink: ''},
-      {name: 'Phacia',                      killsRequired: 25,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Phacia', 25]},  mapLink: ''},
+      {name: 'Phacia',                      killsRequired: 25,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Flower Drifter', 25]},  mapLink: ''},
       {name: 'Pollenica',                   killsRequired: 10,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Bloom Shooter', 10]},  mapLink: ''},
       {name: 'Gahlia',                      killsRequired: 20,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Bloom Puncher', 20]},  mapLink: ''},
       {name: 'Shrine Guardian Seth',        killsRequired: 1,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Seth', 1]},  mapLink: ''},
@@ -499,8 +499,8 @@ export const CATEGORIES: CollectableCategory[] = [
       {name: 'Pharlid Diver',               killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Blade Spider Hang', 10]},  mapLink: ''},
       {name: 'Shardillard',                 killsRequired: 3, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Shell Fossil Mimic', 3]},  mapLink: ''},
       {name: 'Sandcarver',                  killsRequired: 40, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Sand Centipede', 40]},  mapLink: ''},
-      {name: 'Judge',                       killsRequired: 15,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Coral Judge', 15]},  mapLink: ''},
       {name: 'Squirrm',                     killsRequired: 4, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Coral Judge Child', 4]},  mapLink: ''},
+      {name: 'Judge',                       killsRequired: 15,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Coral Judge', 15]},  mapLink: ''},
       {name: 'Last Judge',                  killsRequired: 1,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Last Judge', 1]},  mapLink: ''},
       {name: 'Coral Furm',                  killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Coral Spike Goomba', 15]},  mapLink: ''},
       {name: 'Driznit',                     killsRequired: 25, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Coral Conch Shooter', 25]},  mapLink: ''},
@@ -588,7 +588,7 @@ export const CATEGORIES: CollectableCategory[] = [
       {name: 'Plasmified Zango',            killsRequired: 1,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Blue Assistant', 1]},  mapLink: ''},
       {name: 'Leaf Glider',                 killsRequired: 12, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Lilypad Fly', 12]},  mapLink: ''},
       {name: 'Leaf Roller',                 killsRequired: 10, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Grass Goomba', 10]},  mapLink: ''},
-      {name: 'Pendra',                      killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Dragonfly', 15]},  mapLink: ''},
+      {name: 'Pendra',                      killsRequired: 15, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Hornet Dragonfly', 15]},  mapLink: ''},
       {name: 'Pendragor',                   killsRequired: 10,  whichAct: 0, completionPercent: 0, prereqs: [],  location: '', parsingInfo:{type: 'journal', internalId: ['Dragonfly Large', 10]},  mapLink: ''},
       {name: 'Nuphar',                      killsRequired: 6, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Lilypad Trap', 6]},  mapLink: ''},
       {name: 'Cloverstag',                  killsRequired: 6, whichAct: 0, completionPercent: 0, prereqs: [],   location: '', parsingInfo:{type: 'journal', internalId: ['Cloverstag', 6]},  mapLink: ''},
@@ -652,18 +652,20 @@ export function isItemUnlockedInPlayerSave(itemParsingInfo: ParsingInfo, saveDat
       }
       return { unlocked };
     },
-    journal: ([entryName, value]: [string, number]) => {
+    journal: ([entryName, _]: [string, number]) => {
       const journal = playerData?.EnemyJournalKillData?.list || [];
       let unlocked = false;
       let killsAchieved = 0;
-      
+
       const foundEntry = journal.find((t: any) => t?.Name === entryName);
-        if (foundEntry && foundEntry.Record.Kills >= 0) {
-          if (foundEntry.Record.Kills >= value) {
-            unlocked = true;
-          }
-           killsAchieved = foundEntry.Record.Kills;
+      if (foundEntry) {
+        killsAchieved = foundEntry.Record.Kills;
+        if (foundEntry.Record.Kills >= 0) {
+          unlocked = true;
         }
+      } else {
+        console.log(`Journal entry not found: ${entryName}`);
+      }
       return { unlocked, returnValue: killsAchieved };
     },
     crest: (crestName: string) => {
