@@ -1,5 +1,6 @@
 ﻿import type { ReactNode } from "react";
 
+import { useI18n } from "../i18n/I18nContext";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 import type { TabRenderProps } from "./types";
 
@@ -12,10 +13,11 @@ function formatPercent(value: number): string {
 type ToolItem = (typeof CATEGORIES)[number]["items"][number];
 
 function ToolsTableSection({ section, tools, parsedJson }: { section: string; tools: ToolItem[]; parsedJson: any }) {
+  const { t, translate } = useI18n();
   if (tools.length === 0) return null;
   return (
     <div className="mb-8">
-      <h2 className="text-xl font-bold mb-2 text-blue-200">{section}</h2>
+      <h2 className="text-xl font-bold mb-2 text-blue-200">{translate(section)}</h2>
       <div className="max-w-3xl mx-auto">
         <table className="w-full border-collapse divide-y divide-gray-600 table-fixed">
           <colgroup>
@@ -30,9 +32,9 @@ function ToolsTableSection({ section, tools, parsedJson }: { section: string; to
             <tr className="text-left">
               <th className="px-2 py-1" />
               <th className="px-2 py-1 text-center" />
-              <th className="px-2 py-1">Name</th>
-              <th className="px-2 py-1">Location</th>
-              <th className="px-2 py-1">Act</th>
+              <th className="px-2 py-1">{t("UI_TABLE_NAME", "Name")}</th>
+              <th className="px-2 py-1">{t("UI_TABLE_LOCATION", "Location")}</th>
+              <th className="px-2 py-1">{t("UI_TABLE_ACT", "Act")}</th>
               <th className="px-2 py-1" />
             </tr>
           </thead>
@@ -49,10 +51,10 @@ function ToolsTableSection({ section, tools, parsedJson }: { section: string; to
                       {item.completionPercent ? `+${item.completionPercent}%` : ""}
                     </span>
                   </td>
-                  <td className="px-2 py-1 break-words whitespace-pre-line">{item.name}</td>
+                  <td className="px-2 py-1 break-words whitespace-pre-line">{translate(item.name)}</td>
                    <td className={`px-2 py-1 relative min-w-[140px] max-w-[260px] break-words whitespace-pre-line 
                       ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}>
-                    {item.location}
+                    {translate(item.location)}
                   </td>
                   <td className={`px-2 py-1 w-[48px] text-center ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}>{item.whichAct}</td>
                   <td className="px-2 py-1 text-center">
@@ -68,7 +70,7 @@ function ToolsTableSection({ section, tools, parsedJson }: { section: string; to
                       disabled={!item.mapLink}
                       tabIndex={item.mapLink ? 0 : -1}
                     >
-                      Map
+                      {t("UI_MAP_BUTTON", "Map")}
                     </button>
                   </td>
                 </tr>
@@ -82,8 +84,13 @@ function ToolsTableSection({ section, tools, parsedJson }: { section: string; to
 }
 
 export function ToolsTab({ parsedJson, decrypted }: TabRenderProps) {
+  const { t, translate } = useI18n();
   if (!decrypted || !parsedJson) {
-    return <div className="text-white text-center">Load a save file to view tools data.</div>;
+    const message = t("UI_LOAD_SAVE_PROMPT", "Load a save file to view {section} data.").replace(
+      "{section}",
+      translate(CATEGORY_NAME),
+    );
+    return <div className="text-white text-center">{message}</div>;
   }
 
   const toolsCategory = CATEGORIES.find(cat => cat.name === CATEGORY_NAME);

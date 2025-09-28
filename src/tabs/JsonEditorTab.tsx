@@ -1,8 +1,10 @@
 import { useMemo, useState } from "react";
 
+import { useI18n } from "../i18n/I18nContext";
 import type { TabRenderProps } from "./types";
 
 export function JsonEditorTab({ jsonText, setJsonText, saveEncrypted, savePlain }: TabRenderProps) {
+  const { t } = useI18n();
   const [search, setSearch] = useState("");
 
   const filteredJson = useMemo(() => {
@@ -37,10 +39,10 @@ export function JsonEditorTab({ jsonText, setJsonText, saveEncrypted, savePlain 
 
   return (
     <div className="text-white">
-      <h2 className="text-lg font-bold mb-2 text-center">JSON Editor</h2>
+      <h2 className="text-lg font-bold mb-2 text-center">{t("UI_JSON_EDITOR_TITLE", "JSON Editor")}</h2>
       <input
         type="text"
-        placeholder="Search JSON..."
+        placeholder={t("UI_JSON_SEARCH_PLACEHOLDER", "Search JSON...")}
         value={search}
         onChange={event => setSearch(event.target.value)}
         className="w-full p-2 rounded bg-[#24344d] text-white border border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -56,13 +58,13 @@ export function JsonEditorTab({ jsonText, setJsonText, saveEncrypted, savePlain 
           onClick={saveEncrypted}
           className="bg-[#24344d] text-white hover:bg-blue-600 font-semibold py-2 px-4 rounded flex-1"
         >
-          Save Encrypted (.dat)
+          {t("UI_SAVE_ENCRYPTED", "Save Encrypted (.dat)")}
         </button>
         <button
           onClick={savePlain}
           className="bg-[#24344d] text-white hover:bg-blue-600 font-semibold py-2 px-4 rounded flex-1"
         >
-          Save Plain (.json)
+          {t("UI_SAVE_PLAIN", "Save Plain (.json)")}
         </button>
       </div>
     </div>

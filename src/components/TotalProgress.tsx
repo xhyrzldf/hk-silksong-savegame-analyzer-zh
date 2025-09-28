@@ -1,3 +1,4 @@
+import { useI18n } from "../i18n/I18nContext";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 
 interface TotalProgressProps {
@@ -5,6 +6,7 @@ interface TotalProgressProps {
 }
 
 export function TotalProgress({ parsedJson }: TotalProgressProps) {
+  const { t } = useI18n();
   let percent = 0;
   if (parsedJson) {
     // Flatten all items from all categories
@@ -27,7 +29,7 @@ export function TotalProgress({ parsedJson }: TotalProgressProps) {
   return (
     <div className="w-full my-4">
       <div className="flex justify-between text-sm text-blue-200 mb-1">
-        <span>Total Progress</span>
+        <span>{t("UI_TOTAL_PROGRESS", "Total Progress")}</span>
         <span>{percent}%</span>
       </div>
       <div className="w-full bg-[#24344d] rounded-full h-3">

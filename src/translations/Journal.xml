@@ -1,0 +1,2875 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Journal">
+  <entry key="NOTE_CRYPT_WORM">
+    <en>A frustrating fiend. They flee beneath the bone whenever I try to strike them down. </en>
+    <zh>恼人的小恶魔，每当我挥针便钻入骸骨缝隙逃遁。</zh>
+  </entry>
+  <entry key="NAME_POND_SKATER">
+    <en>Pond Skipper</en>
+    <zh>滑水者</zh>
+  </entry>
+  <entry key="NOTE_ROSARY_PILGRIM">
+    <en>Is this abundance a sign of purity or greed? The way faith is measured in this land is curious indeed.</en>
+    <zh>这般财富象征着虔信还是贪婪？多数虫肯定视此等囤积为罪孽。</zh>
+  </entry>
+  <entry key="NOTE_SONG_PILGRIM_MAESTRO">
+    <en>Once they summoned song from their subjects. Now they rise only to command an end to those unstrung.</en>
+    <zh>昔日的乐章指挥者，如今只为剿灭清醒者而挥棒。</zh>
+  </entry>
+  <entry key="NAME_CORAL_KING">
+    <en>Crust King Khann</en>
+    <zh>壳王卡汗</zh>
+  </entry>
+  <entry key="DESC_CLOCKWORK_DANCER">
+    <en>Automatons of impeccable construction, welcoming entrants to their chamber with a display of deadly dance.</en>
+    <zh>以致命舞姿迎接访客的精密自动机。</zh>
+  </entry>
+  <entry key="DESC_SLAB_FLY_BROODMOTHER">
+    <en>Mad matriarch of the Slab rarely seen outside her warren. From her all jailers are born and bred.</en>
+    <zh>罪石牢狱的癫狂主宰，所有狱卒皆由其孕育。</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_FLY">
+    <en>Flight it possesses, but only just. It may lift from the stone, but those sad wings would never carry it far.</en>
+    <zh>那对萎缩的翅膀勉强能使它们离地数尺，但没法飞多远。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_STAFFWIELDER">
+    <en>Pilgrim Guide</en>
+    <zh>引路朝圣者</zh>
+  </entry>
+  <entry key="NAME_TROBBIO">
+    <en>Trobbio</en>
+    <zh>特罗比奥</zh>
+  </entry>
+  <entry key="DESC_MAGGOTS">
+    <en>Mindless infant larva, coated in thick slime.</en>
+    <zh>覆满黏液的无智幼虫。</zh>
+  </entry>
+  <entry key="DESC_SWAMP_SHAMAN">
+    <en>Chief and chaplain of the Stilkin, forever raging against the Citadel that chokes their caves and sees them suffer.</en>
+    <zh>斯提金部族酋长兼祭司，对圣堡切齿痛恨——圣堡毁掉了斯提金部族的洞穴，令其族虫苦不堪言。</zh>
+  </entry>
+  <entry key="NAME_WEAVER_SERVITOR_LARGE">
+    <en>Servitor Boran</en>
+    <zh>仆从博兰</zh>
+  </entry>
+  <entry key="NAME_CORAL_HUNTER">
+    <en>Alita</en>
+    <zh>阿利塔</zh>
+  </entry>
+  <entry key="NOTE_LIGHTBEARER">
+    <en>An essential bug if one ever hoped to navigate that dark maze of stacks and scrolls. </en>
+    <zh>如果没有此虫引路，没有其他虫能在那个由书卷堆砌的黑暗迷宫中穿行。</zh>
+  </entry>
+  <entry key="DESC_GRASSHOPPER_CHILD">
+    <en>Child of Verdania, fully capable to fight despite its young age.</en>
+    <zh>翠庭的幼童，虽年幼却战力完备。</zh>
+  </entry>
+  <entry key="NOTE_SLAB_PRISONER_FLY_NEW">
+    <en>Their thick shroud leaves them sightless, yet it seems to matter little. They have no care for their own safety, wishing only to charge at those they sense as sinful.</en>
+    <zh>厚罩使其目不能视，却仍疯狂冲击周围感知到的“罪人”。</zh>
+  </entry>
+  <entry key="NAME_CROWMAN">
+    <en>Tallcraw</en>
+    <zh>高囊虫</zh>
+  </entry>
+  <entry key="DESC_CORAL_BIG_JELLYFISH">
+    <en>Large, gelatinous drifter. Chases away threats by hurling its bulk around.</en>
+    <zh>巨大的凝胶状漂浮生物。利用自己身体冲撞，驱赶威胁。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_STOMPER_SONG">
+    <en>Choir Elder</en>
+    <zh>圣咏长老</zh>
+  </entry>
+  <entry key="DESC_BONE_FLYER">
+    <en>Aggressive fly of Pharloom’s lowlands. Rams prey with its hardbone mask.</en>
+    <zh>纺络低地区域的暴脾气飞蝇，善于使用骨质头甲冲撞猎物。</zh>
+  </entry>
+  <entry key="DESC_PINSTRESS_BOSS">
+    <en>Blade maiden of a once renown warrior sect, survived long beyond the rest of her order.</en>
+    <zh>纺络曾出现过一个赫赫有名的勇士宗派，而这位女针客就是其最后的幸存者。</zh>
+  </entry>
+  <entry key="NAME_WEAVER_SERVITOR">
+    <en>Servitor Ignim</en>
+    <zh>仆从伊格尼姆</zh>
+  </entry>
+  <entry key="DESC_GRASSHOPPER_FLY">
+    <en>Blindingly fast, winged warrior able to launch pointed pinions from its forelimbs.</en>
+    <zh>能从前肢发射尖刺的极速飞翼勇士。</zh>
+  </entry>
+  <entry key="NAME_CORAL_JUDGE">
+    <en>Judge</en>
+    <zh>裁决者</zh>
+  </entry>
+  <entry key="NAME_LAST_JUDGE">
+    <en>Last Judge</en>
+    <zh>末代裁决者</zh>
+  </entry>
+  <entry key="NAME_SLAB_FLY_LARGE">
+    <en>Wardenfly</en>
+    <zh>狱卒蝇</zh>
+  </entry>
+  <entry key="DESC_CORAL_HUNTER">
+    <en>Leaping hunter of a bygone age. The swiftest of their sect, deftly skilled with spinning foreblades.</en>
+    <zh>善用旋转刀刃的传奇猎手，曾以速度称霸整个派系。</zh>
+  </entry>
+  <entry key="NOTE_CROWMAN_DAGGER_JUROR">
+    <en>They seek to slay their only chance at survival. Alas, any words would fall useless. I have only my blade to offer response.</en>
+    <zh>它们想要斩断族群最后的生机。我任何的言语劝解皆为徒劳，唯有利刃能终结这愚行。</zh>
+  </entry>
+  <entry key="NAME_SPINNER_BOSS">
+    <en>Widow</en>
+    <zh>黑寡妇</zh>
+  </entry>
+  <entry key="NOTE_FIELDS_FLOCK_FLYERS">
+    <en>They call out to warn their fellows at the smallest sense of threat. A successful hunt here means staying silent and hidden right up until the decisive strike.</en>
+    <zh>稍有威胁迹象便会向同伴鸣叫示警。在此地成功捕猎的秘诀，在于无声潜行直至发动致命一击前的最后一刻。</zh>
+  </entry>
+  <entry key="NAME_ABYSS_MASS">
+    <en>Summoned Saviour</en>
+    <zh>虚面救世主</zh>
+  </entry>
+  <entry key="NOTE_WEAVER_SERVITOR">
+    <en>Though the Weavers have long passed from Pharloom, this servant still performs its function.</en>
+    <zh>纺络的织者虽已绝迹，这位仆从仍恪守古老的职责。</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_HIKER">
+    <en>Hard-shelled bug with a climber’s pin. Their pin, once aid, has become a weapon, though the bug is unrefined in its use.</en>
+    <zh>身负硬壳的朝圣者，将攀爬用的长针作为武器，尽管使用手法粗陋。</zh>
+  </entry>
+  <entry key="DESC_BONE_HUNTER_THROW">
+    <en>Huge ant hunter tasked to protect the stores and passages of its tribe.</en>
+    <zh>守护部族仓库及通道的重甲巨蚁。</zh>
+  </entry>
+  <entry key="DESC_CORAL_WARRIOR">
+    <en>Staunch and skilled bladebug of a once flourishing land lost to time.</en>
+    <zh>失落王朝的精锐刀虫，双刃技法堪称艺术。</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_MOSS_SPITTER">
+    <en>Aged pilgrim, overgrown with lichen and moss. </en>
+    <zh>浑身覆满地衣苔藓的老迈信徒，会从胃囊喷射苔藓团块攻击。</zh>
+  </entry>
+  <entry key="NOTE_SONG_HEAVY_SENTRY">
+    <en>There is no finesse in its use of Silk. It consumes its slim supply only to amplify its force.</en>
+    <zh>它对灵丝的运用毫无精妙可言，只是消耗那本就稀少的灵丝储备来增强自身的力量。</zh>
+  </entry>
+  <entry key="DESC_POKE_SWIMMER">
+    <en>Steel horned floater, able to defend itself and its companions.</en>
+    <zh>长有螺旋犄角的浮空甲虫，能够有效保卫自身与同伴。</zh>
+  </entry>
+  <entry key="DESC_CONDUCTOR_BOSS">
+    <en>Tormented will of countless husks made manifest in a pit of Silk dregs.</en>
+    <zh>灵丝残渣深坑中凝聚无数空壳的怨念集合体。</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_03_UNDERSTORE">
+    <en>That they ever hoped to keep their domain clean... What futility.</en>
+    <zh>妄图维持这片土地的洁净……何等徒劳。</zh>
+  </entry>
+  <entry key="NAME_BLADE_SPIDER_HANG">
+    <en>Pharlid Diver</en>
+    <zh>法利德跳蛛</zh>
+  </entry>
+  <entry key="NOTE_BELL_GOOMBA">
+    <en>I would very much like to feel their soft fur, if only they weren’t so hostile.</en>
+    <zh>要不是它们现在对谁都充满敌意，我真想摸摸这身柔软的绒毛。</zh>
+  </entry>
+  <entry key="NOTE_DOCK_WORKER">
+    <en>This kingdom appears more advanced in metalwork than my own ever was, in great part due to the natural heat source at its base. Working in such an environment is an impressive feat.</en>
+    <zh>此地的冶金技术远超我的故国，全因地下天然热源的优势。能在如此高温环境中劳作生存，实为壮举。</zh>
+  </entry>
+  <entry key="DESC_DOCK_FLYER">
+    <en>Aerial worker lost to Pharloom’s Haunting. Bears a pouch full with flintstone which they will fling at intruders.</en>
+    <zh>被丝咒侵蚀的空中劳工，随身携带一个装满燧石的袋子，投掷燧石攻击入侵者。</zh>
+  </entry>
+  <entry key="DESC_TROBBIO">
+    <en>Haughty thespian convinced that only dazzling performance can raise Pharloom from the throes of death.</en>
+    <zh>坚信华丽演出能拯救纺络的傲慢演员。</zh>
+  </entry>
+  <entry key="NAME_BONE_HUNTER_BUZZER">
+    <en>Skarrwing</en>
+    <zh>斯卡尔之翼</zh>
+  </entry>
+  <entry key="NAME_LILYPAD_FLY">
+    <en>Leaf Glider</en>
+    <zh>滑叶虫</zh>
+  </entry>
+  <entry key="NAME_CLOVERSTAG">
+    <en>Cloverstag</en>
+    <zh>苜鹿</zh>
+  </entry>
+  <entry key="NAME_SONG_GOLEM">
+    <en>Fourth Chorus</en>
+    <zh>第四圣咏团</zh>
+  </entry>
+  <entry key="DESC_POND_SKATER">
+    <en>Hard-shelled insect common upon the surface of Shellwood Pond. Once a staple food for passing pilgrims.</en>
+    <zh>甲木林池沼的硬壳水栖虫，曾是朝圣者途中的主要食物。</zh>
+  </entry>
+  <entry key="DESC_GARMOND">
+    <en>Old knight consumed by black thread. </en>
+    <zh>被黑灾侵蚀的老骑士。</zh>
+  </entry>
+  <entry key="NOTE_GIANT_FLEA">
+    <en>I would not have guessed so large and marvelous a flea existed. I am pleased it saw sense before I had to strike a killing blow.</en>
+    <zh>我未曾料想竟存在如此巨大的跳蚤。幸好它在最后关头恢复理智，免于我下杀手。</zh>
+  </entry>
+  <entry key="NOTE_SONG_GOLEM">
+    <en>A terrifying achievement of Pharloom, to build a construct so large and yet so nimble.</en>
+    <zh>竟能建造出如此庞大却又灵巧非凡的构造，实乃纺络工造技艺巅峰之作。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_03_SONG">
+    <en>Choir Bellbearer</en>
+    <zh>圣咏钟卫</zh>
+  </entry>
+  <entry key="NAME_SONG_PILGRIM_MAESTRO">
+    <en>Maestro</en>
+    <zh>圣咏指挥</zh>
+  </entry>
+  <entry key="NAME_MAGGOTS">
+    <en>Muckmaggot</en>
+    <zh>淤秽蛆</zh>
+  </entry>
+  <entry key="NOTE_BONE_ROLLER">
+    <en>Their rough, ridged shell grips tight to any surface. Even walls and roofs become pathways for these nimble bugs.</en>
+    <zh>粗糙的带棱甲壳可攀附任何表面。峭壁和洞顶对它们来说都是畅通无阻的道路。</zh>
+  </entry>
+  <entry key="NAME_SONG_AUTOMATON_SHIELD">
+    <en>Cogwork Defender</en>
+    <zh>机枢戍卫</zh>
+  </entry>
+  <entry key="NAME_GARMOND">
+    <en>Lost Garmond</en>
+    <zh>失心加蒙德</zh>
+  </entry>
+  <entry key="NOTE_CORAL_GOOMBA_LARGE">
+    <en>Nature distorted... This bug was born tiny and mild. The Citadel deformed it in futile hope it may sustain.</en>
+    <zh>自然天性惨遭扭曲..……此虫原本小巧温顺，却被圣堡强行改造。它的改造者竟然妄想它能承受这种畸变……</zh>
+  </entry>
+  <entry key="NAME_BONE_GOOMBA">
+    <en>Skull Scuttler</en>
+    <zh>头骨潜行者</zh>
+  </entry>
+  <entry key="NOTE_BONE_HUNTER_BUZZER">
+    <en>They would make effective hunting companions, though even without the Haunting I suspect their loyalty would always remain to their clan.</en>
+    <zh>它们是优秀的狩猎伙伴。就算没有丝咒作祟，我相信它们也会永远忠于自己的部族。</zh>
+  </entry>
+  <entry key="NAME_CORAL_BIG_JELLYFISH">
+    <en>Yumama </en>
+    <zh>尤玛玛</zh>
+  </entry>
+  <entry key="DESC_SAND_CENTIPEDE">
+    <en>Shell plated worm that lives beneath pools of shifting sand.</en>
+    <zh>潜伏流沙之底的板甲蠕虫，突袭吞噬猎物。</zh>
+  </entry>
+  <entry key="NAME_MOSSBONE_CRAWLER_FAT">
+    <en>Massive Mossgrub</en>
+    <zh>巨苔蠕虫</zh>
+  </entry>
+  <entry key="DESC_CORAL_CONCH_SHOOTER_HEAVY">
+    <en>Large male Driznit, ferocious and territorial. Fires its heavy coral mask at intruders.</en>
+    <zh>领地意识强烈的雄性掷面虫，投掷其沉重的珊瑚面甲御敌。</zh>
+  </entry>
+  <entry key="NOTE_VAMPIRE_GNAT">
+    <en>With its wranglers long dead, the Moorwing stalked the towers of Greymoor, feasting on passing pilgrims and tenders alike.</en>
+    <zh>自从其驯兽师死后，荒沼翼主常年盘踞在灰沼的众多高塔，猎食过往的朝圣者和居民。</zh>
+  </entry>
+  <entry key="NOTE_SWAMP_BARNACLE">
+    <en>Hiding its tongue amongst fronds so similar... There is impressive style to this one’s trickery.</en>
+    <zh>将捕食舌伪装在相似钟乳石间的策略，展现惊人的欺诈美学。</zh>
+  </entry>
+  <entry key="DESC_FARMER_SCISSORS">
+    <en>Scissor-wielding bug charged to cut and spool fallen dregs of Silk for return to the Citadel above.</en>
+    <zh>挥舞剪刀处理灵丝碎屑的工匠虫，处理好的灵丝会被送回圣堡。</zh>
+  </entry>
+  <entry key="NAME_UNDERSTORE_AUTOMATON">
+    <en>Cogwork Underfly</en>
+    <zh>机枢飞工</zh>
+  </entry>
+  <entry key="NOTE_TAR_SLUG">
+    <en>What seems at first a purely defensive mechanism may also be necessary to rid this creature of excess heat.</en>
+    <zh>看似防御的行为，实为排出过量热量的必要生理机制。</zh>
+  </entry>
+  <entry key="NAME_SONG_THREADED_HUSK">
+    <en>Dreg Husk</en>
+    <zh>残丝空壳</zh>
+  </entry>
+  <entry key="NOTE_CORAL_KING">
+    <en>For his stern stewardship his legions seemed utterly loyal. For less combative bugs his would have been a hard rule.</en>
+    <zh>其铁腕统治赢得了军团的绝对忠诚，但对非战斗种群来说则是暴政。</zh>
+  </entry>
+  <entry key="NAME_CORAL_GOOMBA_LARGE">
+    <en>Crustcrag</en>
+    <zh>珊瑚巨怪</zh>
+  </entry>
+  <entry key="DESC_SONG_THREADED_HUSK">
+    <en>Remains of a Citadel bug possessed by Silk dregs. The husk will lash out wildly with the many sharp pins caught inside its thread.</en>
+    <zh>被灵丝残渣控制的圣堡残躯，用丝线中缠绕的尖针发动无序攻击。</zh>
+  </entry>
+  <entry key="DESC_SONG_CREEPER">
+    <en>Altered servant of the Citadel’s Whiteward, responsible for the cremation of husks and the recycling of Silk from their shells.</en>
+    <zh>白愈厅改造仆从，负责火化躯壳并回收灵丝。</zh>
+  </entry>
+  <entry key="DESC_CROWMAN_DAGGER_JUROR">
+    <en>Short elder crawbug eagerly serving in their court.</en>
+    <zh>热衷审判的矮小腐囊虫长老。</zh>
+  </entry>
+  <entry key="NAME_SWAMP_MUCKMAN">
+    <en>Stilkin</en>
+    <zh>斯提金猎手</zh>
+  </entry>
+  <entry key="NOTE_BONE_HUNTER_THROW">
+    <en>Theirs is the perfect shell for their duty, a wall of a warrior and an adept fighter. If I hope to claim their treasures, I must bring my best.</en>
+    <zh>它们拥有攻防兼备的重型甲壳，能完美适配其守卫的差事。想要取得它们看守的宝物，必须做好全力以赴战斗的准备。</zh>
+  </entry>
+  <entry key="NAME_SONG_SCHOLAR_ACOLYTE">
+    <en>Vaultborn</en>
+    <zh>书库弃子</zh>
+  </entry>
+  <entry key="NAME_SPIKE_LAZY_FLYER">
+    <en>Imoba</en>
+    <zh>伊莫巴</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_BELL_THROWER">
+    <en>Their bells would once have rung with hope and mirth, lifting the spirits of any climbing companions. Sadly, those instruments have turned purely to combative use. </en>
+    <zh>这些钟曾为众多朝圣者奏响希望与欢乐的乐章。而今却成了投向清醒者的凶器——仿佛要砸碎最后一丝未被腐蚀的理智。</zh>
+  </entry>
+  <entry key="NAME_BLACK_THREAD_CORE">
+    <en>Void Mass</en>
+    <zh>虚空聚合体</zh>
+  </entry>
+  <entry key="NAME_PEAKS_DRIFTER">
+    <en>Driftlin</en>
+    <zh>雪精灵</zh>
+  </entry>
+  <entry key="NAME_CRYSTAL_DRIFTER">
+    <en>Mnemonid</en>
+    <zh>冰晶虫</zh>
+  </entry>
+  <entry key="NAME_TAR_SLUG_HUGE">
+    <en>Lavalarga</en>
+    <zh>熔岩虫</zh>
+  </entry>
+  <entry key="NOTE_POND_SKATER">
+    <en>The way they skate along the water’s surface is so elegant. Surely it is a skill that can be learned? When time permits, I should attempt the task.</en>
+    <zh>如此优雅的水面滑行技艺，或许可以通过练习掌握？待战事稍歇，我定要试试这 "凌波微步"。</zh>
+  </entry>
+  <entry key="NOTE_ABYSS_CRAWLER">
+    <en>A creature long familiar to me. I suspect that no matter how far I travel, if I descend deep enough they will always be there.</en>
+    <zh>这种生物于我而言早已熟悉。无论我跋涉多远，只要深入足够的地底，它们必会如影随形。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_BIG_JELLYFISH">
+    <en>When defeated, it splits into many smaller forms. Yet another remarkable creature of this land before the monarch.</en>
+    <zh>击败后分裂为多个小型个体。圣堡崛起前，纺络土地上又一奇异而非凡的生灵。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_BELLTHROWER_FLY">
+    <en>Winged Pilgrim Bellbearer</en>
+    <zh>飞翼朝圣者</zh>
+  </entry>
+  <entry key="DESC_STICK_INSECT_FLYER">
+    <en>Winged insect with a flaky shell that perfectly mimics its environment.</en>
+    <zh>拥有一副古怪甲壳的飞虫，能完美拟态周围环境。</zh>
+  </entry>
+  <entry key="NAME_MITE">
+    <en>Mite</en>
+    <zh>暗螨</zh>
+  </entry>
+  <entry key="DESC_MOSSBONE_CRAWLER_FAT">
+    <en>Unnaturally overgrown Mossgrub, bred within the Citadel’s Memorium.</en>
+    <zh>圣堡忆廊培育的变异苔原蠕虫。</zh>
+  </entry>
+  <entry key="NOTE_ROSARY_THIEF">
+    <en>While these bothersome bugs are left free to forage, no loose rosary or trinket is safe.</en>
+    <zh>只要这些可恶的虫子尚存，任何散落的念珠与宝物皆不得安宁。</zh>
+  </entry>
+  <entry key="DESC_DUSTROACH_POLLYWOG">
+    <en>Younger form of a Muckroach. Attacks prey by leaping from the water and snapping with its flexible jaws.</en>
+    <zh>淤泥蟑螂的近亲变种，形态更类似于蛆虫。</zh>
+  </entry>
+  <entry key="DESC_BONE_HUNTER_CHIEF">
+    <en>Elite former hunter acting as the final line of defence before their mother.</en>
+    <zh>精锐的猎手，曾作为最后防线守卫它们的母亲。</zh>
+  </entry>
+  <entry key="NOTE_SLAB_PRISONER_LEAPER_NEW">
+    <en>All are haunted here, the jailers and the jailed. Do they realise they will never leave this place? Or how long they have stayed already?</en>
+    <zh>此处的狱卒与囚徒皆被丝咒侵蚀。它们可曾意识到自己将永远无法逃离此地？是否知道已经在这地方困了多久？</zh>
+  </entry>
+  <entry key="NAME_CRYSTAL_DRIFTER_GIANT">
+    <en>Mnemonord</en>
+    <zh>巨型冰晶虫</zh>
+  </entry>
+  <entry key="NOTE_BONE_GOOMBA_BOUNCE_FLY">
+    <en>Such feeble creatures could only survive thanks to the rarity of predators in these super-heated caverns.</en>
+    <zh>唯有在这缺乏天敌的高温洞穴中，如此脆弱的生物方能幸存。</zh>
+  </entry>
+  <entry key="DESC_TAR_SLUG_HUGE">
+    <en>Fully grown mollusc able to unleash a gushing torrent of burning fluid from its back.</en>
+    <zh>成年软体生物，能从背部喷射灼热流体洪流</zh>
+  </entry>
+  <entry key="NOTE_CROW">
+    <en>By this swooping menace, a simple bug could be easily overcome. More dangerous still, they rarely attack alone. </en>
+    <zh>对于其单个个体，尚可周旋，但它们鲜少单独行动。成群俯冲时，普通虫类极易被瞬间击溃。</zh>
+  </entry>
+  <entry key="NOTE_CENTIPEDE_TRAP">
+    <en>A common enough bug, though not to be underestimated. The acuteness of their other senses more than makes up for their lack of vision.</en>
+    <zh>一种相当常见的虫子，但不可小觑——它们其他感官的敏锐完全弥补了视觉的缺陷。</zh>
+  </entry>
+  <entry key="DESC_BONE_HUNTER_BUZZER">
+    <en>Darting predator that clings fast to roofs and outcrops, often summoned to aid its larger companions.</en>
+    <zh>擅长攀附在岩顶或峭壁的飞镖猎手，常被其大型同伴叫来支援。</zh>
+  </entry>
+  <entry key="NOTE_FARMER_SCISSORS">
+    <en>Is it the Haunting that drove them to cackling madness, or was their unending toil the cause even before that?</en>
+    <zh>究竟是丝咒导致了疯癫，还是在无尽苦役中早已精神失常？答案已无从考据。</zh>
+  </entry>
+  <entry key="DESC_ROACHFEEDER_SHORT">
+    <en>Short, nimble bug who uses barbed bolas to keep beasts corralled and caged.</en>
+    <zh>矮小敏捷的饲育者，擅于使用带刺流星索圈养腐汁蟑螂。</zh>
+  </entry>
+  <entry key="NAME_GLOOMFLY">
+    <en>Gloomsac</en>
+    <zh>黯噬囊</zh>
+  </entry>
+  <entry key="NOTE_BONE_HUNTER_CHILD">
+    <en>Despite their youth, they are impressive opponents. It seems likely their tribe were trained for combat from birth.</en>
+    <zh>虽然年轻却训练有素，显然它们从出生开始就被部族作为战士培养。</zh>
+  </entry>
+  <entry key="NAME_DUSTROACH_POLLYWOG">
+    <en>Slubberlug</en>
+    <zh>沼蛆</zh>
+  </entry>
+  <entry key="DESC_LIGHTBEARER">
+    <en>Disciple of the Whispering Vaults, tasked to navigate its dim recesses to retrieve old scrolls.</en>
+    <zh>低语书库的信徒，负责在幽暗的书库中搜寻古籍。</zh>
+  </entry>
+  <entry key="NOTE_SWAMP_SHAMAN">
+    <en>This one’s strength was much enhanced by stolen soul. They are not the first who tried to hoard it, or to mould it towards such violent ends.</en>
+    <zh>靠着窃取灵魂强化自己的力量，他并非第一个妄图驾驭此力的施暴者。</zh>
+  </entry>
+  <entry key="NOTE_UNDERSTORE_SMALL">
+    <en>With all the refuse collapsing throughout their domain, the worker’s stiff shell would be essential if they held any hope to survive.</en>
+    <zh>在废墟持续崩塌的领域，硬化甲壳成为他们最后的生存保障。</zh>
+  </entry>
+  <entry key="NOTE_BONE_FLYER_GIANT">
+    <en>Civilisation encroaches from this kingdom’s crown, but the lowlands are still ruled by great beasts. Its roar stirs something deep within me, some primal instinct.</en>
+    <zh>文明从王冠之地蔓延开来，但低地区域仍是野兽的疆域。它的咆哮唤醒了我血脉深处的某种原始悸动。</zh>
+  </entry>
+  <entry key="NOTE_SPIKE_LAZY_FLYER">
+    <en>The poor creature has lived a life too calm and coddled. It would not fare well in the world beyond its walls.</en>
+    <zh>这可怜虫一生过于安逸，若离开高墙庇护必难存活。</zh>
+  </entry>
+  <entry key="DESC_CORAL_FLYER">
+    <en>Lithe, winged scouts frequently paired with their heavier brethren. </en>
+    <zh>与重装部队配合作战的敏捷翼兵。</zh>
+  </entry>
+  <entry key="NAME_SONG_CREEPER">
+    <en>Mortician</en>
+    <zh>殡葬师</zh>
+  </entry>
+  <entry key="NOTE_ROACHFEEDER_SHORT">
+    <en>Their throwing weapon is well-suited to the wide caverns they inhabit. These sly little bugs must have a keen claw for crafting.</en>
+    <zh>其长索武器的高效性在栖居的宽阔洞窟中总能发挥到极致，这般狡诈的小虫竟也有颗巧匠之心。</zh>
+  </entry>
+  <entry key="DESC_SPIKE_SWIMMER">
+    <en>Toughened Kai capable of extending sharp spikes from within its shellsack.</en>
+    <zh>甲囊中可弹出尖刺的硬化凯虫。</zh>
+  </entry>
+  <entry key="NOTE_CLOVERSTAG">
+    <en>An impressive act of mimicry. To match so closely with its land, their clover caves must have sustained through generations uncounted.</en>
+    <zh>与环境的契合程度，印证了千万年演化的精妙。</zh>
+  </entry>
+  <entry key="NOTE_MOSSBONE_FLY">
+    <en>This bug is soft and clumsy, but to its fortune its home caves seem relatively free of effective predators. I wonder why that is.</en>
+    <zh>这种虫子柔弱笨拙，所幸其栖息洞穴缺乏高效捕食者。此地的生态平衡奥秘值得探究。</zh>
+  </entry>
+  <entry key="DESC_SONG_GOLEM">
+    <en>Towering iron automaton, driven by rotor and cog. </en>
+    <zh>由齿轮驱动的巨型铁质自动机。</zh>
+  </entry>
+  <entry key="DESC_CORAL_CONCH_DRILLER">
+    <en>Small bug that crafts a shell of sharpened coral. Spins its shell at rapid speed to cut through crust and bone.</en>
+    <zh>用锋利珊瑚作为外壳的小型生物，旋转切割无往不利。</zh>
+  </entry>
+  <entry key="DESC_CORAL_SWIMMER_FAT">
+    <en>Plump, plentiful drifter of a coral past. </en>
+    <zh>昔日围绕珊瑚塔群居的漂浮生物。</zh>
+  </entry>
+  <entry key="NAME_CORAL_GOOMBAS">
+    <en>Crustcrawler</en>
+    <zh>珊瑚壳虫</zh>
+  </entry>
+  <entry key="NOTE_CORAL_BRAWLER">
+    <en>Far tougher for being matched inside their encrusted domain. They must have lived their whole lives within their tower, to command it so.</en>
+    <zh>外壳比内部要坚硬太多。终生固守一地的生存方式，造就了独特的战斗形态。</zh>
+  </entry>
+  <entry key="NAME_SONG_REED">
+    <en>Reed</en>
+    <zh>簧片战士</zh>
+  </entry>
+  <entry key="DESC_FARMER_CENTIPEDE">
+    <en>Tall bug charged to pile Silk dregs in preparation for respooling. Their sharp rake now doubles equally well as a stabbing weapon.</en>
+    <zh>负责灵丝残渣回收的高个虫子，尖利的耙子现已成为它的武器。</zh>
+  </entry>
+  <entry key="NAME_BLOAT_ROACH">
+    <en>Bloatroach</en>
+    <zh>浮肿蟑螂</zh>
+  </entry>
+  <entry key="NAME_ROACHKEEPER">
+    <en>Roachkeeper</en>
+    <zh>蟑螂监管者</zh>
+  </entry>
+  <entry key="NAME_TORMENTED_TROBBIO">
+    <en>Tormented Trobbio</en>
+    <zh>痛苦的特罗比奥</zh>
+  </entry>
+  <entry key="NOTE_UNDERSTORE_MITE_GIANT">
+    <en>Few creatures of that Silk stricken place would find nourishment enough to grow so large.</en>
+    <zh>丝咒之地鲜有生物能获取足够养分长至此等体型。</zh>
+  </entry>
+  <entry key="DESC_WRAITH">
+    <en>Anguished spectre of lingering thread. Despite its ephemeral nature, strong strikes can dispel the Wraith for a time.</en>
+    <zh>游荡的丝线怨魂，重击可将其暂时驱散。</zh>
+  </entry>
+  <entry key="NOTE_GARMOND">
+    <en>A tragic fate for a once honourable bug. Those void soaked threads... Their physical might is nothing compared to the corruption they wreak upon a soul.</en>
+    <zh>昔日荣光骑士的悲剧命运。这些沾染虚空的丝线，对灵魂的腐化远胜肉体摧残。</zh>
+  </entry>
+  <entry key="NAME_BONE_ROLLER">
+    <en>Mawling</en>
+    <zh>卷球幼兽</zh>
+  </entry>
+  <entry key="NAME_SPLINTER_QUEEN">
+    <en>Sister Splinter</en>
+    <zh>碎裂者修女</zh>
+  </entry>
+  <entry key="NOTE_CRYSTAL_DRIFTER">
+    <en>The coldshard, even when destroyed it remembers its former shape. A remarkable material, and perhaps even more astonishing there seems life contained within it.</en>
+    <zh>冰晶被毁后仍存有对其原形的记忆，这等材料特性已属非凡，更神奇的是其中似乎竟蕴含着生命？</zh>
+  </entry>
+  <entry key="NOTE_SONG_KNIGHT">
+    <en>The talent and intelligence of this construct goes far beyond others I have witnessed. They seem less built as a tool to serve than an attempt at life itself.</en>
+    <zh>其智力远超我所见过的其他造物。它们似乎并非单纯作为工具而被打造，而更像是在追求生命的自我意识。</zh>
+  </entry>
+  <entry key="NOTE_SONG_SCHOLAR_ACOLYTE">
+    <en>In entering their domain, I freed these bugs to infest the greater vaults. They are a nuisance, and I have only myself to blame.</en>
+    <zh>我闯入了这些虫子的领地，并释放了它们。如今它们已蔓延到了各个书库，这都是我一手造成的麻烦。</zh>
+  </entry>
+  <entry key="DESC_VAMPIRE_GNAT">
+    <en>Winged mite-beast, bred large to catch workers who once tried to flee their tasks.</en>
+    <zh>精心培育出的巨型螨兽，用于追捕逃役工虫。</zh>
+  </entry>
+  <entry key="NAME_SONG_AUTOMATON_01">
+    <en>Cogwork Choirbug</en>
+    <zh>机枢咏者</zh>
+  </entry>
+  <entry key="NOTE_CORAL_CONCH_DRILLER">
+    <en>The way it darts in and out of the ground has an almost playful quality to it. An amusing and effective way to ambush prey.</en>
+    <zh>从地面突然窜出的攻击方式，兼具实用性与趣味性。</zh>
+  </entry>
+  <entry key="DESC_BLOOM_PUNCHER">
+    <en>Floral foe with a core shaped to mimic a mask. The core can be thrust forth to bludgeon unwary bugs.</en>
+    <zh>花芯长得像恐怖面甲的阴险植物，会突然向外猛戳，重击那些缺乏警惕的虫子。</zh>
+  </entry>
+  <entry key="NAME_ROACHKEEPER_CHEF_TINY">
+    <en>Roachserver</en>
+    <zh>蟑螂厨师</zh>
+  </entry>
+  <entry key="NOTE_WEAVER_SERVITOR_LARGE">
+    <en>The servitor has been heavily damaged by time and the elements. Its actions have grown erratic. It seems no longer able to discern friend from foe.</en>
+    <zh>岁月的侵蚀使这位仆从行为失常，似乎已经变得敌我不分。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_SWIMMER_LARGE">
+    <en>A unique mask and impressive form. Now just another near forgotten specimen of this land before the monarch.</en>
+    <zh>拥有独特的体型和面甲，本应成为传奇生物，如今却处于被遗忘的边缘。</zh>
+  </entry>
+  <entry key="NOTE_BONE_HUNTER_TINY">
+    <en>These bugs work mainly as finders and foragers for the warriors of their tribe. Combat has not long been their nature.</en>
+    <zh>主要负责探索和采集，本非战斗种族，最近才开始具有攻击性。</zh>
+  </entry>
+  <entry key="NOTE_BONE_WORM_BLUEBLOOD">
+    <en>Pharloom shall quickly learn the curse of this substance. What benefits it provides can be swiftly outweighed.</en>
+    <zh>纺络很快就会领教这种物质所带来的诅咒。它所赋予的好处，很快就会被更沉重的代价所掩盖。</zh>
+  </entry>
+  <entry key="NAME_BONE_HUNTER_CHILD">
+    <en>Skarr Scout</en>
+    <zh>斯卡尔斥候</zh>
+  </entry>
+  <entry key="NAME_CORAL_CONCH_STABBER">
+    <en>Pokenabbin</en>
+    <zh>静候者</zh>
+  </entry>
+  <entry key="DESC_SONG_HANDMAIDEN">
+    <en>Puppet servant of the Citadel, suspended on strings of Silk. An early form of automaton, requiring extensive Silk to maintain its service.</en>
+    <zh>由灵丝悬吊操控的傀儡，圣堡的仆从。一种早期形态的自动构造，需要大量的灵丝来维持其运作。</zh>
+  </entry>
+  <entry key="DESC_SETH">
+    <en>Eternal defender of Shellwood Shrine. His pin and cymbal show many marks of their use.</en>
+    <zh>甲木林圣所的永恒守卫者，佩针与钹尽显沧桑。</zh>
+  </entry>
+  <entry key="NOTE_UNDERSTORE_AUTOMATON">
+    <en>It is no wonder these constructs were cast. No mortal bug would last long inside that scorching place. Even my shell struggles to withstand its heat.</en>
+    <zh>这些造物被投入使用是有原因的——没有凡虫能在那片炽热之地撑太久，就连我的甲壳也难以抵御那里的高温。</zh>
+  </entry>
+  <entry key="DESC_CLOVERSTAG_WHITE">
+    <en>Fabled first Cloverstag of Verdania’s wilds. Commands the grass and leaves to aid its attack. </en>
+    <zh>翠庭荒野传说中的苜鹿始祖，能号令草木协同作战。</zh>
+  </entry>
+  <entry key="DESC_SONG_REED">
+    <en>Disciple of the Choir, charged to maintain its perfect order, by sharp pin if necessary.</en>
+    <zh>维护咏者团秩序的迅捷信徒，必要时以利针执法。</zh>
+  </entry>
+  <entry key="NOTE_DRAGONFLY_LARGE">
+    <en>When they do not hinder my path, I find their simple motion rather pleasant.</en>
+    <zh>当它未阻挡前路时，笨拙的蠕动反而显得几分憨态可掬。</zh>
+  </entry>
+  <entry key="NOTE_ROOF_CRAB">
+    <en>Holds an extensive supply of searing acid in a layered sack within its shell. The acid rains from its mouth upon any creature it sees as food.</en>
+    <zh>它胃囊里的酸液储量足以蚀穿圣堡城墙，所幸那对退化的小眼睛总让攻击准头欠佳。</zh>
+  </entry>
+  <entry key="DESC_UNDERSTORE_HEAVY">
+    <en>Heavy, hard-shelled worker, forever repairing the Citadel’s crumbling Underworks.</en>
+    <zh>永不停歇修缮圣堡工厂的重甲劳工。</zh>
+  </entry>
+  <entry key="NOTE_FIELDS_GOOMBA">
+    <en>It has no means to defend itself. Its only hope for survival is to be mistaken for a plant.</en>
+    <zh>生存的唯一希望，便是被误认作植物。除此之外，它们没有任何防御手段。</zh>
+  </entry>
+  <entry key="NOTE_BONE_BEAST">
+    <en>This one has allied themself with me, either as thanks for their saving or respect for one judged as equal. Whichever the reason, their fellowship is welcome.</en>
+    <zh>这一只现在成了我的盟友，不知道是报救命之恩，还是单纯觉得我实力强大，但多个帮手总是好的。</zh>
+  </entry>
+  <entry key="NOTE_SONG_PILGRIM_01">
+    <en>Bugs like these crossed the caves to bring me to Pharloom. I cut down many before my capture. Then I had thought them minded and cunning. Now I can see the singular will that haunts them all. </en>
+    <zh>正是这类虫子穿越洞穴将我带至纺络。被俘前我斩杀了许多，当时认为它们具备独立心智与狡诈。如今我明白是同一意志在支配它们全体。</zh>
+  </entry>
+  <entry key="NAME_CORAL_FLYER">
+    <en>Kakri</en>
+    <zh>轻翼斥候</zh>
+  </entry>
+  <entry key="NOTE_BONE_SPITTER">
+    <en>Its sticky spit would no doubt make a useful crafting material if moulded fresh. Unfortunately, I cannot stop to experiment.</en>
+    <zh>它们喷射的粘稠物质经过及时塑形，一定可以作为优质的制造材料。可惜我无暇采集实验。</zh>
+  </entry>
+  <entry key="NOTE_SLAB_FLY_MID">
+    <en>The smell from these jailers overwhelms my senses. I strongly doubt they have ever thought to bathe.</en>
+    <zh>这些狱卒的恶臭令我窒息。我怀疑它们从未有过沐浴的概念。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_SWIMMER_SMALL">
+    <en>A creature at its most basic. This one is no threat to me, or any other.</en>
+    <zh>作为最基础的生命形态，它对我或任何生物都不构成威胁。</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_STOMPER_SONG">
+    <en>Aged former pilgrim. Uses their wings to position above threats and crush them under their large shell.</en>
+    <zh>年迈的前朝圣者，利用飞行优势从上方压制目标。</zh>
+  </entry>
+  <entry key="NAME_STICK_INSECT_CHARGER">
+    <en>Splinterhorn</en>
+    <zh>尖角碎裂者</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_03_UNDERSTORE">
+    <en>Underscrub</en>
+    <zh>圣厂擦地工</zh>
+  </entry>
+  <entry key="NAME_ROOF_CRAB">
+    <en>Craggler</en>
+    <zh>酸蚀巨螯</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_HIKER">
+    <en>A bug once frail, pushed by twisted thread beyond its mortal limits. </en>
+    <zh>灵丝撑开了它脆弱的甲壳，强行将这副残躯突破凡虫的限制。</zh>
+  </entry>
+  <entry key="NOTE_SWAMP_GOOMBA">
+    <en>The threat of its exploding rear is an effective deterrent to predators, but the slightest jolt or fall can cause its premature end.</en>
+    <zh>尾部爆炸威胁能威慑捕食者，但轻微碰撞就会导致其提前自毁。</zh>
+  </entry>
+  <entry key="NOTE_WISP">
+    <en>To live only a single, bright moment... What would one feel? Is it glorious, or only despair? Or could it be both, mixed equal?</en>
+    <zh>生命仅有瞬息的璀璨——它们会感到辉煌还是绝望？抑或是二者交织？</zh>
+  </entry>
+  <entry key="NOTE_ROACHKEEPER">
+    <en>Though their mind is largely lost their skill with a chain has not been forgotten. Does the Haunting eternally bind a bug to the task it had in life?</en>
+    <zh>锁链破空之声依旧精准狠厉——丝咒是否将生前的执念化作了死后的永恒苦役？</zh>
+  </entry>
+  <entry key="DESC_BONE_FLYER_GIANT">
+    <en>Angered, adult Beastfly with a weighty body and a thickened hardshell mask. </en>
+    <zh>暴怒的成年兽蝇，身形沉重，戴着厚重面甲。</zh>
+  </entry>
+  <entry key="DESC_BONE_ROLLER">
+    <en>Young, bony bug that can curl its body to form a ball.</en>
+    <zh>能蜷缩成球形的小型骨虫。</zh>
+  </entry>
+  <entry key="NAME_WISP_PYRE_EFFIGY">
+    <en>Father of the Flame</en>
+    <zh>炽焰之父</zh>
+  </entry>
+  <entry key="NAME_POKE_SWIMMER">
+    <en>Spinebeak Kai</en>
+    <zh>旋角凯虫</zh>
+  </entry>
+  <entry key="NOTE_MOSSBONE_CRAWLER_FAT">
+    <en>So close to a perfect furred form... If only they’d been able to breed out the spines.</en>
+    <zh>近乎完美的毛茸形态，唯有背刺未去除。改造自然的尝试总是难以尽善尽美。</zh>
+  </entry>
+  <entry key="DESC_ABYSS_CRAWLER_LARGE">
+    <en>Bulky worm of the deepest depths. Lives in tight crevices and uses its weighty body to batter.</en>
+    <zh>栖息狭窄裂隙的厚重蠕虫，以沉重身躯撞击敌人。</zh>
+  </entry>
+  <entry key="DESC_SPINNER_BOSS">
+    <en>Crazed fanatic able to guide Pharloom’s haunted Silk by music played upon it.</en>
+    <zh>癫狂的信徒，通过演奏音乐操控纺络的诅咒灵丝。</zh>
+  </entry>
+  <entry key="NAME_ZAP_CORE_ENEMY">
+    <en>Voltvyrm</en>
+    <zh>伏特维姆</zh>
+  </entry>
+  <entry key="NAME_SMALL_CRAB">
+    <en>Cragglite</en>
+    <zh>酸蚀幼虫</zh>
+  </entry>
+  <entry key="NOTE_SONG_THREADED_HUSK">
+    <en>There is old anguish bound upon these threads, the result of countless cruel procedures.</en>
+    <zh>这些丝线承载着古老痛楚，源自无数残酷改造手术。</zh>
+  </entry>
+  <entry key="DESC_SKULL_KING">
+    <en>Rare, enormous Skull Scuttler. The Marrow’s largest predator, and the most feared for its ferocious temperament.</en>
+    <zh>罕见的巨型头骨潜行者，髓骨洞窟的顶级掠食者，以凶暴性情令凡虫闻风丧胆。</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_02_SONG">
+    <en>Full-grown former pilgrim serving the Citadel.</en>
+    <zh>侍奉圣堡的前朝圣者，体型发生过异变。</zh>
+  </entry>
+  <entry key="DESC_CRAWFATHER">
+    <en>Lord and justice of Pharloom’s craws. Delivers death to condemned bugs with his steel-plated beak.</en>
+    <zh>执掌腐囊虫庭生杀大权的审判者，用其镀钢长喙对有罪的虫子执行死刑。</zh>
+  </entry>
+  <entry key="NAME_ABYSS_TENDRIL">
+    <en>Void Tendrils</en>
+    <zh>虚空触须</zh>
+  </entry>
+  <entry key="NAME_DOCK_BOMBER">
+    <en>Flintflame Flyer</en>
+    <zh>燧焰飞工</zh>
+  </entry>
+  <entry key="DESC_ROCK_ROLLER">
+    <en>Rarely seen beetle that spends most of its life nestled deep in bone and rock. The Flintgems on its shell excrete an explosive powder.</en>
+    <zh>深藏岩骨深处的稀有甲虫，甲壳嵌满燧晶并分泌爆炸性体液。</zh>
+  </entry>
+  <entry key="NOTE_SLAB_FLY_LARGE">
+    <en>Disgusting both in manner and stench. I feel no remorse to see them felled.</en>
+    <zh>它们浑身散发着腐殖质恶臭，甲壳缝隙间还粘着陈年血痂。每当那对复眼在牢狱阴影中亮起，连最凶悍的囚徒都会瑟缩墙角。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_FLY">
+    <en>Winged Pilgrim</en>
+    <zh>残翼朝圣者</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_03_SONG">
+    <en>Pharloom proves often the effectiveness of bells as weapons. Never before had I considered them as such. </en>
+    <zh>纺络总在提醒我——钟亦可为兵器。只是从前，我从未想过这些圣器会被如此亵用。</zh>
+  </entry>
+  <entry key="NAME_SLAB_FLY_BROODMOTHER">
+    <en>Broodmother</en>
+    <zh>育母</zh>
+  </entry>
+  <entry key="DESC_GLOOM_BEAST">
+    <en>Enormous tubular beast uniquely suited to living close to the void below. </en>
+    <zh>适应虚空环境的管状巨兽。</zh>
+  </entry>
+  <entry key="NAME_CROWMAN_JUROR">
+    <en>Tallcraw Juror</en>
+    <zh>高陪审员</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_STAFFWIELDER">
+    <en>Old pilgrim carrying a heavy iron bell staff.</en>
+    <zh>手持沉重铁制钟杖的年长领队，丝咒抹去了它昔日的权威。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_HIKER">
+    <en>Pilgrim Hiker</en>
+    <zh>攀山朝圣者</zh>
+  </entry>
+  <entry key="NAME_DOCK_FLYER">
+    <en>Flintstone Flyer</en>
+    <zh>燧石飞工</zh>
+  </entry>
+  <entry key="NOTE_SMALL_CRAB">
+    <en>If left to grow, these young bugs will fight for dominance until only one remains.</en>
+    <zh>我曾目睹三只幼体将巢穴化作修罗场，最终胜者甲壳上插满兄弟的尖刺。这种养蛊式的成长，正是圣堡工厂默许的筛选机制。</zh>
+  </entry>
+  <entry key="NOTE_SONG_THREADED_HUSK_SPIN">
+    <en>Living Silk commanding a dead shell... An affront to nature, and one all too common across Pharloom. </en>
+    <zh>活灵丝操纵死躯壳……违背自然的造物，在纺络却司空见惯。</zh>
+  </entry>
+  <entry key="NAME_CORAL_CONCH_DRILLER_GIANT">
+    <en>Great Conchfly</en>
+    <zh>巨型螺蝇</zh>
+  </entry>
+  <entry key="NAME_ABYSS_CRAWLER_LARGE">
+    <en>Shadow Charger</en>
+    <zh>影袭巨虫</zh>
+  </entry>
+  <entry key="NAME_SWAMP_DUCTSUCKER">
+    <en>Ductsucker</en>
+    <zh>腐殖吮吸者</zh>
+  </entry>
+  <entry key="NAME_GLOOM_BEAST">
+    <en>Gargant Gloom</en>
+    <zh>渊喉巨兽</zh>
+  </entry>
+  <entry key="DESC_ZAP_CORE_ENEMY">
+    <en>Coiled nest of charged worms. Assaults intruders with bolts of crackling electricity.</en>
+    <zh>带电蠕虫团，释放霹雳闪电攻击入侵者。</zh>
+  </entry>
+  <entry key="DESC_SCHOLAR">
+    <en>High caste bug, responsible for delivering sermons and leading prayer for those beyond the walls of the Whispering Vaults.</en>
+    <zh>为低语书库墙外信众布道的高阶虫子。</zh>
+  </entry>
+  <entry key="NAME_SONG_PILGRIM_02">
+    <en>Surgeon</en>
+    <zh>医师</zh>
+  </entry>
+  <entry key="NOTE_CRAWFATHER">
+    <en>Did he recognise my part played in this land’s void-strung state? If so, perhaps his judgment was not unfair. To these bugs I have brought much destruction.</en>
+    <zh>若他知晓我与此地虚空缠结的关联，其裁决或许称得上公正——因我确实为腐囊虫族带来了毁灭。</zh>
+  </entry>
+  <entry key="NOTE_DOCK_FLYER">
+    <en>That incendiary material they carry is a natural wonder, with many potential applications. What a waste to carelessly throw it at me whenever I pass by.</en>
+    <zh>其携带的燃烧材料堪称自然奇迹，具有多种潜在用途。每当路过就被随意投掷袭击，这等浪费行径实在令我扼腕。</zh>
+  </entry>
+  <entry key="NAME_ROACHFEEDER_TALL">
+    <en>Roachfeeder</en>
+    <zh>蟑螂饲养员</zh>
+  </entry>
+  <entry key="NOTE_CORAL_FLYER_THROW">
+    <en>Not a frontline force, but in my assault upon their tower all emerge to see me stilled.</en>
+    <zh>虽非主力部队，但当我进攻其高塔时，它们倾巢而出进行阻截，阵势不容小觑。</zh>
+  </entry>
+  <entry key="NAME_PINSTRESS_BOSS">
+    <en>Pinstress</en>
+    <zh>针姬</zh>
+  </entry>
+  <entry key="NAME_CRAWFATHER">
+    <en>Crawfather</en>
+    <zh>腐囊之父</zh>
+  </entry>
+  <entry key="NAME_WISP">
+    <en>Wisp</en>
+    <zh>火灵</zh>
+  </entry>
+  <entry key="NOTE_CROWMAN_DAGGER">
+    <en>A cowardly sort. They will try to remain at range to throw their sharp weapons. Best to rush them down and cut quick.</en>
+    <zh>怯战而擅长投掷攻击。最佳策略是快速近身解决。</zh>
+  </entry>
+  <entry key="DESC_CORAL_FLYER_THROW">
+    <en>Wide-masked aerial attacker trained to act as support for its grounded companions while remaining at range.</en>
+    <zh>佩戴宽幅面甲的远程支援型飞行攻击者。</zh>
+  </entry>
+  <entry key="NOTE_SCHOLAR">
+    <en>Most likely this one’s true charge was to root out and condemn those not seen as sufficiently fervent.</en>
+    <zh>表面传播教义，实为铲除异端的思想刽子手。</zh>
+  </entry>
+  <entry key="NAME_CORAL_SWIMMER_FAT">
+    <en>Kai</en>
+    <zh>凯虫</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_FISHER">
+    <en>Old catcher over Shellwood Pond, bearing a longpin and stricken by the Haunting. </en>
+    <zh>甲木林池塘的老迈捕手，手持长针，遭受丝咒之苦。</zh>
+  </entry>
+  <entry key="NAME_BONE_HUNTER_TRAPPER">
+    <en>Gurr the Outcast</en>
+    <zh>被放逐的格尔</zh>
+  </entry>
+  <entry key="NAME_SWAMP_MUCKMAN_TALL">
+    <en>Stilkin Trapper</en>
+    <zh>斯提金捕手</zh>
+  </entry>
+  <entry key="NAME_DRAGONFLY_LARGE">
+    <en>Pendragor</en>
+    <zh>潘德拉戈</zh>
+  </entry>
+  <entry key="DESC_ROACHKEEPER">
+    <en>Grizzled older roach tender weighted with a lasso of heavy chain.</en>
+    <zh>心智迷失的老练饲育者，挥舞沉重锁链维持虫群秩序。</zh>
+  </entry>
+  <entry key="NOTE_FARMER_WISP">
+    <en>These ones somehow learnt to call and guide the scorching Wisps that share their thicket. Whether through dominance or reverence is unclear.</en>
+    <zh>这些家伙不知何故掌握了操控火灵之术。他们能随心所欲地召唤并指挥它们。</zh>
+  </entry>
+  <entry key="NOTE_BLUE_ASSISTANT">
+    <en>He carelessly seeded these caves with that cursed substance... His final fate seems fair reward for those efforts, yet I feel some sympathy. It is an alluring power.</en>
+    <zh>他肆意播撒那种禁忌物质……最终结局可谓咎由自取，但我仍有些许同情。凡虫对力量的追寻时常令我感到唏嘘。</zh>
+  </entry>
+  <entry key="DESC_CORAL_GOOMBAS">
+    <en>Soft-shelled scrambler encased in coral. </en>
+    <zh>被珊瑚包裹的软壳生物。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_CONCH_DRILLER_GIANT">
+    <en>To pair with another is a base instinct, and one that brings some bugs great joy. I once sought similar union, but of my own mates none could match my lifespan. </en>
+    <zh>与其他虫子结为伴侣是一种本能，是欢愉的来源。可惜我曾寻觅的伴侣都难敌岁月的变迁。</zh>
+  </entry>
+  <entry key="DESC_HUNTER_QUEEN">
+    <en>Song queen of the Skarr and their most talented warrior.</en>
+    <zh>斯卡尔一族的歌后，并且是族史上最具天赋的战士。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_01_SONG">
+    <en>Choir Pouncer</en>
+    <zh>圣咏扑袭者</zh>
+  </entry>
+  <entry key="NOTE_CLOVER_DANCER">
+    <en>For one to love another so similar to themselves, is that selfless or vain?</en>
+    <zh>爱慕镜像般的另一个自己，究竟是无私还是极致的虚荣？</zh>
+  </entry>
+  <entry key="NOTE_WHITE_PALACE_FLY">
+    <en>A crude construct of my father’s fallen domain. Only a fool believes that void can be fashioned to do their bidding. </en>
+    <zh>我父亲陨落国度的粗劣造物。只有愚者才会相信虚空可被驾驭。</zh>
+  </entry>
+  <entry key="NAME_BONE_SPITTER">
+    <en>Tarmite</en>
+    <zh>焦油螨</zh>
+  </entry>
+  <entry key="NAME_SWAMP_BARNACLE">
+    <en>Barnak</en>
+    <zh>巴纳克</zh>
+  </entry>
+  <entry key="NAME_BLOOM_PUNCHER">
+    <en>Gahlia</en>
+    <zh>假面魔芋</zh>
+  </entry>
+  <entry key="NAME_SHELL_FOSSIL_MIMIC">
+    <en>Shardillard</en>
+    <zh>碎甲突袭者</zh>
+  </entry>
+  <entry key="NAME_FIRST_WEAVER">
+    <en>First Sinner</en>
+    <zh>原罪者</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_FLY">
+    <en>Short-horned bug born with underdeveloped wings.</en>
+    <zh>翅膀发育不全的短角虫。</zh>
+  </entry>
+  <entry key="NAME_BONE_HUNTER_THROW">
+    <en>Skarrgard</en>
+    <zh>斯卡尔禁卫</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_BELL_THROWER">
+    <en>Common bug wielding a set of old bells. The bug will fling the bells at anyone it deems still free. </en>
+    <zh>挥舞旧钟的普通信徒，向未被丝咒侵蚀者投掷旧钟。</zh>
+  </entry>
+  <entry key="NOTE_GRASSHOPPER_FLY">
+    <en>Born with many tools I would once have desired for myself. Fortunately, I have trained hard around those limits.</en>
+    <zh>天生具备我曾渴求的利器。所幸我通过苦练突破了自身局限。</zh>
+  </entry>
+  <entry key="NOTE_SWAMP_MUCKMAN_TALL">
+    <en>More bother than the bug themself are the countless traps they have already laid throughout their caves.</en>
+    <zh>其洞穴内遍布的陷阱比这虫子本身更令我头疼。</zh>
+  </entry>
+  <entry key="NAME_BLOOM_SHOOTER">
+    <en>Pollenica</en>
+    <zh>爆粉葵</zh>
+  </entry>
+  <entry key="NAME_CORAL_WARRIOR_GREY">
+    <en>Watcher at the Edge</en>
+    <zh>边陲守望者</zh>
+  </entry>
+  <entry key="NOTE_SONG_ADMINISTRATOR">
+    <en>The lethality of these bugs is unexpected. Their bodies were never built for combat. The Haunting has altered their nature dramatically.</en>
+    <zh>这些本非为战斗设计的虫子竟有致命的战力，看来丝咒显著地改变了其本质。</zh>
+  </entry>
+  <entry key="NAME_SLAB_PRISONER_FLY_NEW">
+    <en>Puny Penitent</en>
+    <zh>卑罪者</zh>
+  </entry>
+  <entry key="DESC_FIELDS_FLYER">
+    <en>Docile bug whose wings mimic the grasses of the Far Fields. A common snack for larger predators.</en>
+    <zh>温顺的飞虫，翅膀模拟原野草叶的模样。比它们大的生物基本都能把它们当作小零食来吃。</zh>
+  </entry>
+  <entry key="DESC_UNDERSTORE_THROWER">
+    <en>Exhausted bug, grown sickly from the smog of the Underworks. The worker’s twistpins, once tools of repair, now serve as spun projectiles.</en>
+    <zh>被工业废气侵蚀的抱病劳工，将维修旋针改造为投掷武器。</zh>
+  </entry>
+  <entry key="DESC_SLAB_PRISONER_LEAPER_NEW">
+    <en>Humbled prisoner serving their sentence for sin committed within the Citadel.</en>
+    <zh>服刑中的卑微囚犯，曾在圣堡中犯下罪过。</zh>
+  </entry>
+  <entry key="DESC_FLOWER_QUEEN">
+    <en>Ancient heart of Shellwood, connected to all its living things. </en>
+    <zh>维系甲木林万物联结的远古之心。</zh>
+  </entry>
+  <entry key="DESC_SONG_PILGRIM_01">
+    <en>Guide and ofttimes leader within the Citadel’s Choir.</en>
+    <zh>圣堡咏者团的向导与常任领袖。</zh>
+  </entry>
+  <entry key="NOTE_GNAT_GIANT">
+    <en>Poor of sight but possessing a keen sense of smell, it uses its bulk to charge at foreign scents. Remaining fierce so far into old age is an admirable trait.</en>
+    <zh>虽视力极差却嗅觉敏锐，凭借庞大身躯冲撞陌生气味源。暮年仍保有此等凶性，着实值得敬佩。</zh>
+  </entry>
+  <entry key="DESC_SWAMP_GOOMBA">
+    <en>Crawling insect with a sizzling bile sack in its abdomen.</en>
+    <zh>腹部携带沸腾胆汁囊的爬行虫。</zh>
+  </entry>
+  <entry key="NAME_LIFEBLOOD_FLY">
+    <en>Winged Lifeseed</en>
+    <zh>生质飞囊</zh>
+  </entry>
+  <entry key="NOTE_SONG_HANDMAIDEN">
+    <en>If given a chance, this one will steal Silk from any significant source, including my own shell.</en>
+    <zh>一旦有机会，它会从任何来源窃取灵丝——包括我的甲壳。</zh>
+  </entry>
+  <entry key="DESC_LIFEBLOOD_FLY">
+    <en>Mindless sack filled with Plasmium. When broken the Plasmium can be consumed for its temporary benefits to health.</en>
+    <zh>装满再生液体的活体炸弹。满载生质液的无智囊虫，打破后，可使用其生质液获得暂时性的生命值。</zh>
+  </entry>
+  <entry key="NOTE_SONG_AUTOMATON_FLY">
+    <en>More effective an opponent than would be guessed. The precarity of its winding domain can make even its simple assault a challenge.</en>
+    <zh>在错综复杂的齿轮迷宫中，这些机械的每一次俯冲都如同死神挥镰。</zh>
+  </entry>
+  <entry key="NAME_CORAL_CONCH_DRILLER">
+    <en>Conchfly</en>
+    <zh>螺蝇</zh>
+  </entry>
+  <entry key="DESC_CORAL_CONCH_DRILLER_GIANT">
+    <en>Elder Conchfly crowned with a huge coral horn. Once partnered with a mate, they will rarely be seen alone.</en>
+    <zh>头戴珊瑚巨角的古老螺类，与伴侣终生形影不离。</zh>
+  </entry>
+  <entry key="NAME_CORAL_BRAWLER">
+    <en>Karak Gor</en>
+    <zh>坚塔冲锋者</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_03_UNDERSTORE">
+    <en>Drained yet dedicated labourer, wielding a coarse steel brush. </en>
+    <zh>手持劣质钢刷的劳工，尽管身体已被苦役榨干，但仍孜孜不倦。</zh>
+  </entry>
+  <entry key="NOTE_BONE_HUNTER">
+    <en>Fierce, strong and disciplined... yet these qualities do not protect them from the Haunting. Is such a fate inevitable in these lands?</en>
+    <zh>勇猛强壮，且遵守纪律……连这样的战士都无法逃脱丝咒的侵蚀，难道纺络所有生物终将堕入此劫？</zh>
+  </entry>
+  <entry key="NOTE_SONG_REED">
+    <en>A form well suited for combat, lithe and fast. No surprise it seems to rank so high amongst its cult.</en>
+    <zh>纤瘦迅捷的体态完美适配战斗，难怪能在教团中身居高位。</zh>
+  </entry>
+  <entry key="NAME_BONE_WORM">
+    <en>Grom</en>
+    <zh>戈鲁姆</zh>
+  </entry>
+  <entry key="DESC_BONE_HUNTER_FLY">
+    <en>Winged ant hunter that strikes from the air with its bone lance.</en>
+    <zh>使用骨制长矛的飞蚁猎手，擅长从空中发起突刺。</zh>
+  </entry>
+  <entry key="NAME_SAND_CENTIPEDE">
+    <en>Sandcarver</en>
+    <zh>沙噬虫</zh>
+  </entry>
+  <entry key="NOTE_BONE_WORM_BLUETURRET">
+    <en>In my home caves, when once this substance was allowed to flourish, I saw similar aberrations. This is wonder tainted strong with revulsion.</en>
+    <zh>在我故土的洞穴中，当这种物质开始蔓延时，我也目睹过类似的畸变。这是一种掺杂着强烈厌恶的“奇迹”。</zh>
+  </entry>
+  <entry key="DESC_BELL_FLY">
+    <en>Furred bug beneath a heavy bell. It has grown too large to burrow, but in maturing has developed small wings.</en>
+    <zh>毛茸茸的甲虫背负着沉重钟壳，胖得钻不进地洞，倒是长出了一对小翅膀。</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_04_SONG">
+    <en>Aerial bug of the Citadel, unarmed but for its short horn.</en>
+    <zh>圣堡的飞行虫，仅凭短角作为武器。</zh>
+  </entry>
+  <entry key="DESC_MOSSBONE_MOTHER">
+    <en>Adult Mossmir with a fully developed stinger and hardened hide.</en>
+    <zh>成年苔翼虫，具备完全发育的毒刺与坚硬的外壳。</zh>
+  </entry>
+  <entry key="NOTE_MOSSBONE_MOTHER">
+    <en>Motherhood is an instinct that can push creatures beyond what seems their natural limits. It turns even weaker beasts like these into formidable foes.</en>
+    <zh>为母则刚的本能，总能使弱小的生物展现出骇人的攻击性。</zh>
+  </entry>
+  <entry key="NOTE_WISP_PYRE_EFFIGY">
+    <en>The remains of an aged bug were housed at the pyre’s heart. The structure suggested they wished for immolation. If so, I have seen their wish granted. </en>
+    <zh>一只年迈虫子的遗骸安放在火葬堆的中心。从构造上看，它们似乎希望通过自焚来进行献祭。若真如此，我想这一愿望已经实现。</zh>
+  </entry>
+  <entry key="DESC_BONE_HUNTER">
+    <en>Skilled ant hunter bearing blade and armour fashioned from bone.</en>
+    <zh>装备骨制武器及护甲的蚁族精锐。</zh>
+  </entry>
+  <entry key="NAME_BONE_FLYER_GIANT">
+    <en>Savage Beastfly</en>
+    <zh>暴怒兽蝇</zh>
+  </entry>
+  <entry key="NOTE_TAR_SLUG_HUGE">
+    <en>To survive while storing so much searing fluid within... Before I would have believed it impossible, but Pharloom is home to many marvels.</en>
+    <zh>体内存储巨量高温液体仍能存活……原以为不可能，但纺络本就充满奇迹。</zh>
+  </entry>
+  <entry key="DESC_SONG_PILGRIM_MAESTRO">
+    <en>Choir commander of the High Halls, able to summon and command cogflies at a flick of their baton.</en>
+    <zh>高庭咏者团统帅，挥动指挥棒即可召唤机枢蝇群。</zh>
+  </entry>
+  <entry key="NAME_BONE_GOOMBA_BOUNCE_FLY">
+    <en>Skullwing</en>
+    <zh>颅翼虫</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_04">
+    <en>Pilgrim Hornfly</en>
+    <zh>角枪朝圣者</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_05">
+    <en>Elder Pilgrim</en>
+    <zh>朝圣者长老</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_02">
+    <en>Pilgrim Hulk</en>
+    <zh>朝圣巨汉</zh>
+  </entry>
+  <entry key="DESC_CORAL_SWIMMER_LARGE">
+    <en>Masked coral drifter, grown larger than its more numerous companions.</en>
+    <zh>古老的漂浮生物，体型远超同类。</zh>
+  </entry>
+  <entry key="DESC_FARMER_WISP">
+    <en>Many-legged insect fanatically obsessed with flame.</en>
+    <zh>痴迷火焰的多足虫。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_01">
+    <en>Pilgrim Pouncer</en>
+    <zh>朝圣扑袭者</zh>
+  </entry>
+  <entry key="NAME_BONE_HUNTER_CHIEF">
+    <en>Last Claw</en>
+    <zh>最终之爪</zh>
+  </entry>
+  <entry key="NAME_DOCK_WORKER">
+    <en>Smelt Shoveller</en>
+    <zh>熔渣工</zh>
+  </entry>
+  <entry key="NOTE_CROWMAN_JUROR">
+    <en>Curiosity saw me answer their summons, but I shall not allow them to stall me long. I must work fast to fix my grand mistake.</en>
+    <zh>好奇心驱使我响应他们的召唤，但我不会在此浪费时间——我需要尽快修正我酿成的大错。</zh>
+  </entry>
+  <entry key="NAME_CORAL_JUDGE_CHILD">
+    <en>Squirrm</en>
+    <zh>蠕蛆</zh>
+  </entry>
+  <entry key="NAME_LIGHTBEARER">
+    <en>Lampbearer</en>
+    <zh>执灯者</zh>
+  </entry>
+  <entry key="NOTE_DUSTROACH">
+    <en>A revolting creature. My shell itches at their presence. In the pens where their numbers grow vast, I am forever on edge. </en>
+    <zh>肮脏恶心的生物。光是它们的存在就让我甲壳发痒。在蟑群泛滥的养殖场中，我会时刻保持警惕。</zh>
+  </entry>
+  <entry key="NAME_FIELDS_FLOCK_FLYERS">
+    <en>Brushflit</en>
+    <zh>惊叫虫</zh>
+  </entry>
+  <entry key="NOTE_BONE_FLYER">
+    <en>Dancing around this simple creature as it charges back and forth is the sort of game I delighted in as a child. Alas, I now have more pressing matters to attend to.</en>
+    <zh>我小时候就爱逗这种笨虫，在它身边闪转腾挪，看它来回乱撞可有意思了。唉，但我现在有更紧迫的事情要处理。</zh>
+  </entry>
+  <entry key="NOTE_FARMER_CENTIPEDE">
+    <en>Theirs seems a sad, grueling task, serving their lifetime for a Citadel unseen.</en>
+    <zh>它们的工作实属可悲的苦役，为那见不到的圣堡永世效劳。</zh>
+  </entry>
+  <entry key="DESC_BONE_GOOMBA_BOUNCE_FLY">
+    <en>Airborne relative of the grounded Skull Scuttler, found only in the Marrow’s deepest, hottest caves.</en>
+    <zh>头骨潜行者的飞虫近亲，髓骨洞窟深处灼热的洞穴独有。</zh>
+  </entry>
+  <entry key="NOTE_DOCK_BOMBER">
+    <en>Theirs would be a high risk life, followed by a short, searing end.</en>
+    <zh>这是份高危职业，它们的结局注定短暂而炽烈。</zh>
+  </entry>
+  <entry key="DESC_CLOVERSTAG">
+    <en>Placid native of Verdania. Its hide closely mimics the flora of its territory.</en>
+    <zh>温顺的翠庭原生生物，其皮毛完美拟态栖息地的植被。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_JUDGE">
+    <en>They remorselessly eliminate any pilgrim or passerby deemed impure to their sight. The countless husks, strewn on paths beside them, tell of their conclusive decisions.</en>
+    <zh>他们无情地消灭任何在他们眼中被视为不洁的朝圣者或过路者。堆积在路径旁的遗骸，无声控诉着所谓"净化"的残酷。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_STAFF_UNDERSTORE">
+    <en>Undersweep</en>
+    <zh>圣厂清扫工</zh>
+  </entry>
+  <entry key="NOTE_CROWMAN_JUROR_TINY">
+    <en>Weak, afraid, and aware of the imminent end. I understand their desperation, but my death will not prevent the coming fall.</en>
+    <zh>弱小、恐惧，知道终局将至。我懂得它们的绝望，可我的死并不能阻止即将到来的灾祸。</zh>
+  </entry>
+  <entry key="NOTE_SONG_AUTOMATON_02">
+    <en>An inspired use of steam. I must remember its construction when designing future tools.</en>
+    <zh>高温蒸汽在管腔内压缩爆鸣的声响，像极了垂死者的嘶吼。这种将杀戮伪装成清洁工程的设计，着实令人胆寒。</zh>
+  </entry>
+  <entry key="NOTE_SWAMP_MUCKMAN">
+    <en>They know well their domain, lurking in wait in its byways and bogs, always ready to pounce.</en>
+    <zh>它们深谙领地内的每处沼泽暗道，时刻准备伏击。</zh>
+  </entry>
+  <entry key="DESC_BLUE_ASSISTANT">
+    <en>Husk of an alchemist’s assistant granted false life by Plasmium.</en>
+    <zh>被生质液赋予虚假生命的炼金术士助手的躯壳。</zh>
+  </entry>
+  <entry key="NOTE_BLOOM_PUNCHER">
+    <en>The false mask alone is frightening enough to scare away smaller pests.</en>
+    <zh>光凭这个惊悚的造型就能劝退不少胆小鬼。</zh>
+  </entry>
+  <entry key="NOTE_ASPID_COLLECTOR">
+    <en>In its natural state it would avoid potential predators, but Pharloom’s Haunting now compels it to aggression. Fortunately, its jaws are ill-suited for combat.</en>
+    <zh>本性畏避掠食者，然而纺络的丝咒迫使其凶性毕露。幸好它们的颚钳钝拙，不善搏杀。</zh>
+  </entry>
+  <entry key="NAME_CORAL_CONCH_SHOOTER_HEAVY">
+    <en>Driznarga</en>
+    <zh>重甲掷面虫</zh>
+  </entry>
+  <entry key="NOTE_ROACHKEEPER_CHEF">
+    <en>Returned to their home caves, this chef continued to devise delicacies too repulsive for any bug still sane.</en>
+    <zh>回到故土的洞穴后，这位厨师依旧沉迷于研制那些令任何尚存理智的虫子都难以接受的料理。</zh>
+  </entry>
+  <entry key="NAME_CLOVER_DANCER">
+    <en>Clover Dancers</en>
+    <zh>三叶草舞者</zh>
+  </entry>
+  <entry key="DESC_CORAL_KING">
+    <en>Hardened warrior lord of a bygone age, able to command the coral crust to his bidding.</en>
+    <zh>能号令珊瑚甲壳的远古战主。</zh>
+  </entry>
+  <entry key="NOTE_UNDERSTORE_HEAVY">
+    <en>There seem no ranks in their domain, yet this one has risen above the rest. A station likely gained through intimidation and thuggery.</en>
+    <zh>该领域本无等级制度，此虫却凭威胁与暴力手段上位。</zh>
+  </entry>
+  <entry key="DESC_LACE">
+    <en>Manic fencer who delights in battle.</en>
+    <zh>痴迷战斗的狂躁剑士。</zh>
+  </entry>
+  <entry key="DESC_CENTIPEDE_TRAP">
+    <en>Sightless burrower that reacts violently to the slightest sound.</en>
+    <zh>失去视力却听觉敏锐的穴居虫类，最细微的声响也会引起它们激烈的反应。</zh>
+  </entry>
+  <entry key="DESC_SILK_BOSS">
+    <en>Monarch of Pharloom, and the primal source of Silk.</en>
+    <zh>纺络的君主，灵丝的源头。</zh>
+  </entry>
+  <entry key="NOTE_SONG_SCHOLAR_ACOLYTE_ACT_3">
+    <en>These bugs have been driven out of their vault’s recesses by Pharloom’s black collapse. They are a nuisance, and I have only myself to blame.</en>
+    <zh>由于纺络的崩塌，这些虫子被驱赶出书库的深处。这都是我一手造成的麻烦。</zh>
+  </entry>
+  <entry key="NAME_GARMOND_ZAZA">
+    <en>Garmond &amp; Zaza</en>
+    <zh>加蒙德&amp;扎扎</zh>
+  </entry>
+  <entry key="NAME_MOSSBONE_FLY">
+    <en>Mossmir</en>
+    <zh>苔翼虫</zh>
+  </entry>
+  <entry key="DESC_BONE_SPITTER">
+    <en>Flying bone mite that lives near magma. Roasts its prey by spitting scorching tar.</en>
+    <zh>栖息在熔岩区的飞行螨虫，喷射高温焦油灼烧猎物。</zh>
+  </entry>
+  <entry key="DESC_SWAMP_MOSQUITO">
+    <en>Plentiful pest with a sharp proboscis and a belly full of bile.</en>
+    <zh>体内充满胆汁的群居蝠虫，死亡时剧烈爆炸。</zh>
+  </entry>
+  <entry key="DESC_BLADE_SPIDER">
+    <en>Small arachnid found in many crevices and caves throughout Pharloom.</en>
+    <zh>纺络的岩缝和洞穴里常见的小型蜘蛛。</zh>
+  </entry>
+  <entry key="DESC_BONE_WORM_BLUETURRET">
+    <en>Large worm mutated heavily by Plasmium. The creature has become fused to the roof of its cave, no longer able to move freely.</en>
+    <zh>受生质液感染而变异的大型蠕虫。这只生物已与所处洞穴的洞顶融合，失去了自由移动的能力。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_FLYER">
+    <en>Its training resembles my own, favouring fast strikes and rapid movement. Once a hunter, perhaps?</en>
+    <zh>战斗风格与我的技巧相似，崇尚速攻战术。或许它们曾经也是猎手？</zh>
+  </entry>
+  <entry key="NOTE_BLOOM_SHOOTER">
+    <en>What exceptional senses it possesses. It detects me with ease, even when not a single sound is made.</en>
+    <zh>感知极为敏锐，哪怕分毫响动都能惊动它。</zh>
+  </entry>
+  <entry key="DESC_CRYPT_WORM">
+    <en>Young masked worm that delights in ambushing intruders within its tunnels.</en>
+    <zh>热衷隧道伏击的面甲蠕虫幼体。</zh>
+  </entry>
+  <entry key="DESC_UNDERSTORE_AUTOMATON">
+    <en>Small automaton built to work, without complaint, in the scorching heat of the Underworks’ Cauldron. </en>
+    <zh>为圣堡工厂内大熔釜的酷热环境打造的小型自动机。勤勤恳恳，任劳任怨。</zh>
+  </entry>
+  <entry key="DESC_DOCK_GUARD_THROWER">
+    <en>Elder overseers of the Deep Docks, responsible for the oversight and punishment of lesser workers.</en>
+    <zh>深坞地区的监工，负责监管与惩戒低级别工人。</zh>
+  </entry>
+  <entry key="DESC_CORAL_CONCH_STABBER">
+    <en>Drifting creature with a wide coral mask and hard proboscis to stab its prey.</en>
+    <zh>戴着宽大珊瑚面甲的漂流生物，使用坚硬的长喙攻击自投罗网的猎物。</zh>
+  </entry>
+  <entry key="NAME_CORAL_WARRIOR">
+    <en>Karaka</en>
+    <zh>卡拉卡</zh>
+  </entry>
+  <entry key="NAME_LACE">
+    <en>Lace</en>
+    <zh>蕾丝</zh>
+  </entry>
+  <entry key="NOTE_ROACHFEEDER_TALL">
+    <en>The feeder’s curled pin looks designed to keep ravenous roaches at bay, and the tender from turning into the meal.</en>
+    <zh>那柄弯钩长针的设计堪称精妙— 既能防止饥渴的蟑螂反将饲主当作美餐，又可随时给不听话的 "宠物" 放血。</zh>
+  </entry>
+  <entry key="NAME_BLUE_ASSISTANT">
+    <en>Plasmified Zango</en>
+    <zh>生质异化的赞戈</zh>
+  </entry>
+  <entry key="NOTE_ABYSS_MASS">
+    <en>A creature born of a bug’s desperate hope for strength. Few possess the skill to call the void, and of those that can, none possess the means to tame it.</en>
+    <zh>某只虫子在绝望中极度渴求力量，诞生出了此造物。能召唤虚空的虫子已寥寥无几，而在它们之中，更无虫子能真正驯服虚空。</zh>
+  </entry>
+  <entry key="DESC_CORAL_SPIKE_GOOMBA">
+    <en>Dark-furred bug protecting itself with a spiked coral nut.</en>
+    <zh>以带刺珊瑚坚果自卫的深色绒毛甲虫。</zh>
+  </entry>
+  <entry key="DESC_ROOF_CRAB">
+    <en>Thick-plated scuttler that prefers high places.</en>
+    <zh>偏好占据制高点的厚甲虫，从口中倾泻灼热酸雨。</zh>
+  </entry>
+  <entry key="NAME_SETH">
+    <en>Shrine Guardian Seth</en>
+    <zh>赛斯</zh>
+  </entry>
+  <entry key="DESC_UNDERSTORE_POKER">
+    <en>Drained worker on the verge of collapse. Consumed by the Haunting, they continue to work far beyond their mortal limits.</en>
+    <zh>被丝咒侵蚀的濒死劳工，超越生理极限持续劳作。</zh>
+  </entry>
+  <entry key="DESC_SWAMP_MUCKMAN">
+    <en>Cunning bug that hunts with darts fashioned from stake and bile.</en>
+    <zh>用尖桩与胆汁制作毒镖的狡诈虫子。</zh>
+  </entry>
+  <entry key="NOTE_ABYSS_TENDRIL">
+    <en>The void that will claim all things... In the barbed forms it chooses its nature can be seen clear.</en>
+    <zh>吞噬万物的虚空本质，于此狰狞形态显露无遗。</zh>
+  </entry>
+  <entry key="DESC_SONG_AUTOMATON_SHIELD">
+    <en>Cogwork construct forged primarily for the Core’s protection. Bears a shield and poke-pin, and possesses a lethal understanding of their use.</en>
+    <zh>持盾佩枪的核心守卫机械，具备战术应变能力。</zh>
+  </entry>
+  <entry key="NOTIFICATION_HALF">
+    <en>New Journal Entry</en>
+    <zh>新日志条目</zh>
+  </entry>
+  <entry key="NAME_SLAB_FLY_SMALL_FRESH">
+    <en>Freshfly</en>
+    <zh>新生蝇</zh>
+  </entry>
+  <entry key="NAME_FLOWER_QUEEN">
+    <en>Nyleth</en>
+    <zh>尼莱斯</zh>
+  </entry>
+  <entry key="DESC_BONE_CRAWLER">
+    <en>Small bony bug that favours dark tunnels. Can expand its spiked carapace to ward against attacking predators. </en>
+    <zh>喜欢待在阴暗隧道的硬壳虫，遇到危险时会突然炸开背刺。</zh>
+  </entry>
+  <entry key="NAME_RHINO">
+    <en>Rhinogrund</en>
+    <zh>犀角掘地兽</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_STAFF_UNDERSTORE">
+    <en>Their sharp cleaning implement is as filthy as the rest of the place. They only layer grime on grime.</en>
+    <zh>他们的清洁工具与周遭同样污秽，这样打扫只会越来越脏。</zh>
+  </entry>
+  <entry key="DESC_SONG_REED_GRAND">
+    <en>High standing insect of the Choir, bearing a bow. This elite Reed has been trained and fed beyond its smaller fellows. </en>
+    <zh>圣咏团中地位崇高的虫子，持弓而立。比起普通的簧片战士，这位精英成员受过更严格的训练，也享有更丰盛的供养。</zh>
+  </entry>
+  <entry key="NOTE_SONG_CREEPER">
+    <en>It lies low to the ground, perhaps out of reverence for its task, but can spring up suddenly to attack. Its shear makes for a deadly weapon with surprising reach.</en>
+    <zh>那柄形似剪枝钳的武器，既能精准剥离甲壳中的灵丝脉络，也能在瞬间绞碎试图逃逸的灵魂残片。</zh>
+  </entry>
+  <entry key="DESC_UNDERSTORE_AUTOMATON_EX">
+    <en>Small automaton with a shielded shell, intended to carry loads of dangerous flintflame.</en>
+    <zh>配备防护甲壳的小型自动机，负责运输危险的燧焰。</zh>
+  </entry>
+  <entry key="NOTE_GARMOND_ZAZA">
+    <en>They too seek the spectre at the Haunting’s heart, though I fear that foe would pose a challenge beyond their mortal limits.</en>
+    <zh>他们同样在寻找那丝咒之源的幽魂——只是我担心，我们共同的敌人是超越凡虫极限的存在，恐怕不是他们所能应对的。</zh>
+  </entry>
+  <entry key="NOTES_DEFEAT">
+    <en>Defeat {0} more to complete the hunter’s notes.</en>
+    <zh>再击败{0}只以解锁猎手的笔记。</zh>
+  </entry>
+  <entry key="NAME_ARBORIUM_KEEPER">
+    <en>Memoria</en>
+    <zh>忆廊使徒</zh>
+  </entry>
+  <entry key="DESC_CORAL_CONCH_SHOOTER">
+    <en>Nesting creature that fuses its face with sharpened coral.</en>
+    <zh>将面部与珊瑚融为一体的巢居生物。</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_MOSS_SPITTER">
+    <en>The moss looks to grow even inside their stomach, which the pilgrim spits at foes in compressed gobs. A foul form of offence.</en>
+    <zh>苔藓甚至在其胃囊内滋长，被压缩成团的腐殖质带着刺鼻腥气——这恐怕是纺络最肮脏的远程武器。</zh>
+  </entry>
+  <entry key="DESC_SONG_AUTOMATON_BALL">
+    <en>Rare automaton intended to perform the ringing of bells and cymbals in the depths of the Core.</en>
+    <zh>专为敲击钟钹设计的稀有自动机。</zh>
+  </entry>
+  <entry key="DESC_SONG_PILGRIM_03">
+    <en>Disciple of the Choir, elevated above other pilgrims, and forced to cowl their face forever more.</en>
+    <zh>蒙面的高阶信徒，地位远超普通朝圣者。</zh>
+  </entry>
+  <entry key="NOTE_MITE_HEAVY">
+    <en>Pharloom’s structures seem almost built for them. The endless corners and cracks, so perfect for mites to burrow and nest.</en>
+    <zh>纺络的建筑结构仿佛为其量身打造，这里有无尽的角落和缝隙供螨虫打洞筑巢。</zh>
+  </entry>
+  <entry key="DESC_CRYSTAL_DRIFTER">
+    <en>Flighted creature formed from coldshard. If shattered it will quickly reform. </en>
+    <zh>由冰晶碎片构成的飞行生物，破碎后可以迅速重组。</zh>
+  </entry>
+  <entry key="NOTE_BONE_GOOMBA">
+    <en>In every land, creatures find new and surprising ways to disguise themselves. One must be wary always.</en>
+    <zh>不论在哪一片土地上，万物皆有巧妙的伪装法门，行走此间当时刻保持警觉。</zh>
+  </entry>
+  <entry key="DESC_BONE_CIRCLER_VICIOUS">
+    <en>Aggressive winged bug of the lowlands. When angered, it rapidly whips its bladed tail as a weapon.</en>
+    <zh>低地区域的暴躁飞虫，一生气就把带刃的尾巴甩成风车。</zh>
+  </entry>
+  <entry key="DESC_BONE_HUNTER_CHILD">
+    <en>Young ant hunter wielding sickles carved from teeth. Will often call for aid if danger comes close.</en>
+    <zh>使用兽牙镰刀的年轻蚁族猎手，遇险时会呼叫支援。</zh>
+  </entry>
+  <entry key="DESC_CORAL_BUBBLE_BRUTE">
+    <en>Overgrown elder, able to spawn burning bubbles from within its coral-cased shell.</en>
+    <zh>与珊瑚融合的长老巨虫，能从甲壳内喷发炽热气泡。</zh>
+  </entry>
+  <entry key="NAME_SONG_ADMINISTRATOR">
+    <en>Minister</en>
+    <zh>圣咏大臣</zh>
+  </entry>
+  <entry key="DESC_SPLINTER_QUEEN">
+    <en>Imposing old insect nesting in the heights of Shellwood. Her command of twig and branch ensured no pilgrim ever survived within her territory. </en>
+    <zh>盘踞甲木林高处的碎裂者女王，掌控树丛枝干屠尽领地内所有朝圣者。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_BUBBLE_BRUTE">
+    <en>This bug’s fusion with the crust-growth... It seems intentional, though I imagine the union is far from comfortable.</en>
+    <zh>这种融合看似自主选择，但其过程必定充满痛苦。</zh>
+  </entry>
+  <entry key="NOTE_UNDERSTORE_AUTOMATON_EX">
+    <en>Born and built only to work until time stiffens its limbs. Perhaps it is mercy this construct knows nothing of the freedom it lacks.</en>
+    <zh>生来只是为了劳作，直到岁月令它四肢僵硬。也许它对自己所缺失的自由一无所知，这反倒是一种仁慈。</zh>
+  </entry>
+  <entry key="NAME_MOSSBONE_CRAWLER">
+    <en>Mossgrub</en>
+    <zh>苔原蠕虫</zh>
+  </entry>
+  <entry key="NAME_CROW">
+    <en>Craw</en>
+    <zh>腐囊虫</zh>
+  </entry>
+  <entry key="DESC_SHAKRA">
+    <en>Warrior cartographer of a tribe from Pharloom’s edge. Her skills in battle could challenge the kingdom’s best.</en>
+    <zh>纺络边陲部落的勇士制图师，其战力在纺络可谓数一数二。</zh>
+  </entry>
+  <entry key="NAME_SONG_AUTOMATON_GOOMBA">
+    <en>Cogwork Crawler</en>
+    <zh>机枢巡游者</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_01_SONG">
+    <en>Once one of Pharloom’s favoured bugs, and yet their domain and their shells would have been the first to fall to the Haunting.</en>
+    <zh>曾经纺络的荣光加身者，却成为首批丝咒受害者。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_GOOMBAS">
+    <en>Hidden amongst their tower’s matching crust, these smaller bugs would have survived and thrived. </en>
+    <zh>这些小虫子依靠伪装得以繁衍生息。</zh>
+  </entry>
+  <entry key="NOTE_SPLINTER_QUEEN">
+    <en>This one lived long and fed much. The wood will be much safer for their slaying.</en>
+    <zh>她存活久远且吞噬无数，诛杀她将使丛林安全倍增。</zh>
+  </entry>
+  <entry key="NAME_SWAMP_MOSQUITO_SKINNY">
+    <en>Spit Squit</en>
+    <zh>酸涎飞蚋</zh>
+  </entry>
+  <entry key="NOTE_CORAL_SWIMMER_FAT">
+    <en>They once teemed around their tower, in numbers immense. It is a rare chance to witness such a bountiful display of life.</en>
+    <zh>其数量曾经可谓铺天盖地。目睹此等生命奇观的机会已越发稀少。</zh>
+  </entry>
+  <entry key="NAME_CORAL_BUBBLE_BRUTE">
+    <en>Corrcrust Karaka</en>
+    <zh>珊瑚卡拉卡</zh>
+  </entry>
+  <entry key="DESC_BELL_GOOMBA">
+    <en>Burrower that nests in the Bellvein and seeks out hard bells to protects its soft body.</en>
+    <zh>在钟脉内部打洞栖息的毛球状虫类，专门找硬钟壳当作盔甲。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_CONCH_SHOOTER">
+    <en>It is easy to be caught off-guard by the ricocheting trajectory of its flung mask, especially in tight corners. </en>
+    <zh>投掷面甲的反弹轨迹难以预判。在狭窄空间尤其需要提防其袭击。</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_STOMPER_SONG">
+    <en>Time allowed their shell to grow thick, all the better for battering their targets.</en>
+    <zh>岁月让它们的甲壳变得厚重，能更轻易地猛击目标。</zh>
+  </entry>
+  <entry key="NAME_UNDERSTORE_AUTOMATON_EX">
+    <en>Cogwork Hauler</en>
+    <zh>机枢搬运工</zh>
+  </entry>
+  <entry key="NAME_FARMER_CATCHER">
+    <en>Dreg Catcher</en>
+    <zh>灵丝筛工</zh>
+  </entry>
+  <entry key="DESC_BLADE_SPIDER_HANG">
+    <en>Arachnid that nestles within dark holes in cavern roofs. Pounces on prey from far above.</en>
+    <zh>隐藏在洞顶暗处的蜘蛛，擅长从高处一跃而下，偷袭猎物。</zh>
+  </entry>
+  <entry key="NAME_GRASSHOPPER_CHILD">
+    <en>Kindanir</en>
+    <zh>金达尼尔</zh>
+  </entry>
+  <entry key="NOTE_GIANT_CENTIPEDE">
+    <en>A monster in the classic form of tales from youth. Its slaying was done as much by my fierce travelling companion as by myself.</en>
+    <zh>童谣所述的经典魔物形态。此次诛杀多靠了我那勇猛的旅伴。</zh>
+  </entry>
+  <entry key="NAME_GNAT_GIANT">
+    <en>Mitemother</en>
+    <zh>螨母</zh>
+  </entry>
+  <entry key="NOTE_CORAL_CONCH_STABBER">
+    <en>Passively waits for prey to blunder into its path. A technique that should not necessarily be derided. Whatever is effective is best.</en>
+    <zh>静静等待猎物误入其攻击范围。看似消极的捕猎方式，往往能收获意外成效。</zh>
+  </entry>
+  <entry key="NOTE_LIFEBLOOD_FLY">
+    <en>My unique shell can resist the darker deformations of this substance, but even I have limits...</en>
+    <zh>我的甲壳虽能抵抗此物质带来的畸变，但承受力终有极限。</zh>
+  </entry>
+  <entry key="DESC_CROWMAN_JUROR_TINY">
+    <en>Screeching scavenger dyed black in mourning at their land’s collapse.</en>
+    <zh>大地倾覆之际，绝望哀叫的黑色食腐虫。</zh>
+  </entry>
+  <entry key="NAME_WHITE_PALACE_FLY">
+    <en>Wingmould</en>
+    <zh>飞行傀儡</zh>
+  </entry>
+  <entry key="NOTE_GLOOM_BEAST">
+    <en>Amazingly, the creature carries the void’s black liquid in its stomach, violently spraying it forth if threatened.</en>
+    <zh>神奇的是，它竟能将虚空黑液储于胃中，受威胁时剧烈喷吐攻击。</zh>
+  </entry>
+  <entry key="NOTE_POKE_SWIMMER">
+    <en>A critical member of the larger flock. Without them present the Kai would be fast driven to extinction by larger predators.</en>
+    <zh>它们是族群存续的关键——当凯旋转尖角筑起防御阵时，连髓骨洞窟的暴君都要暂避锋芒。</zh>
+  </entry>
+  <entry key="DESC_ROSARY_PILGRIM">
+    <en>Strong bug replete with rosaries. If angered they will whip their strings in a ceaseless onslaught.</en>
+    <zh>缠满念珠的强壮虫子，发怒时会挥舞珠串猛攻。</zh>
+  </entry>
+  <entry key="NOTE_SWAMP_MOSQUITO_SKINNY">
+    <en>To subsist on the sickly water in this fetid environment it spits out the most toxic elements. Over generations, this former survival technique has turned into an effective hunting tool.</en>
+    <zh>过滤毒液的生存机制经代际演化，成为高效的狩猎手段。</zh>
+  </entry>
+  <entry key="NAME_UNDERSTORE_HEAVY">
+    <en>Undercrank</en>
+    <zh>圣厂维修工</zh>
+  </entry>
+  <entry key="NAME_UNDERSTORE_MITE_GIANT">
+    <en>Giant Drapemite</en>
+    <zh>巨型帷螨</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_04_SONG">
+    <en>Choir Flyer</en>
+    <zh>圣咏飞卒</zh>
+  </entry>
+  <entry key="NOTE_CROWMAN">
+    <en>Far more hostile than their younger companions but seemingly less likely to roam far from their nest.</en>
+    <zh>看似凶暴，实为恋巢的保守派。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_02_SONG">
+    <en>Choir Hornhead</en>
+    <zh>圣咏角首</zh>
+  </entry>
+  <entry key="DESC_TORMENTED_TROBBIO">
+    <en>Depressed thespian, consumed by the melancholy of a collapsing world. </en>
+    <zh>被世界的崩解压垮的消沉演员。</zh>
+  </entry>
+  <entry key="DESC_ROACHKEEPER_CHEF">
+    <en>Once exulted chef, exiled from the Citadel for repeated culinary crimes. </en>
+    <zh>曾经备受赞誉的大厨，却因屡次触犯烹饪禁忌而被逐出圣堡。</zh>
+  </entry>
+  <entry key="DESC_UNDERSTORE_SMALL">
+    <en>Feeble servant of the Underworks with a long twistpin and hard shell.</en>
+    <zh>手持长柄旋针的虚弱硬甲劳工。</zh>
+  </entry>
+  <entry key="DESC_SLAB_FLY_MID">
+    <en>Starved servant of the Slab, bearing a hooked longpin. </en>
+    <zh>饥肠辘辘的罪石牢狱仆从，手持钩形长针。</zh>
+  </entry>
+  <entry key="NAME_SWAMP_DRIFTER">
+    <en>Mothleaf Lagnia</en>
+    <zh>娥叶虫</zh>
+  </entry>
+  <entry key="DESC_SONG_AUTOMATON_FLY_SPIKE">
+    <en>Spherical, winged automaton housing many sharp spikes. </en>
+    <zh>装载尖刺的球型飞行自动机，防御功能存疑。</zh>
+  </entry>
+  <entry key="NOTE_BONE_CIRCLER">
+    <en>Their plump, round shape makes them well-suited for target practice. Difficult to resist testing my aim on them...</en>
+    <zh>圆滚滚的身材十分适合用作靶子，不拿来练手都可惜……</zh>
+  </entry>
+  <entry key="DESC_CITADEL_BAT_LARGE">
+    <en>Elder Drapefly grown big from age and consumption. Its heavy body allows it to hit much harder than its younger companions.</en>
+    <zh>年迈体硕的帷虫，沉重的身躯赋予其强劲的冲击力。</zh>
+  </entry>
+  <entry key="NAME_GRASSHOPPER_SLASHER">
+    <en>Verdanir</en>
+    <zh>维达尼尔</zh>
+  </entry>
+  <entry key="DESC_LAST_JUDGE">
+    <en>Final arbiter of the Blasted Steps, tasked to ensure only the sinless ever step beyond the Grand Gate. </en>
+    <zh>蚀阶的最终裁决者，确保唯有无罪者能跨越巨扉圣门。</zh>
+  </entry>
+  <entry key="NOTE_TORMENTED_TROBBIO">
+    <en>This one chose to embrace the doom to come. I shall not share such easy surrender.</en>
+    <zh>他选择臣服于灾难的降临，我绝不会效仿这种懦弱行径。</zh>
+  </entry>
+  <entry key="NAME_GIANT_CENTIPEDE">
+    <en>Bell Eater</en>
+    <zh>噬钟者</zh>
+  </entry>
+  <entry key="DESC_PEAKS_DRIFTER">
+    <en>Gentle glider of Mount Fay. Its downy wings and cowl allow it to resist even the most cutting cold.</en>
+    <zh>费耶山的温顺滑翔者，其绒翼可抵御极寒。</zh>
+  </entry>
+  <entry key="DESC_CORAL_BRAWLER">
+    <en>Heavy, hard-shelled charger relying on weight and strength. </en>
+    <zh>依赖蛮力的重甲生物。</zh>
+  </entry>
+  <entry key="NOTE_FIRST_WEAVER">
+    <en>This one’s husk held a masterful talent, to weave Silk into blazing runes. Throughout my life, I have seen runes woven for many tasks. Was she the first to hone such skills?</en>
+    <zh>其躯壳曾掌握将灵丝编织为燃烧符文的绝技。纵观我毕生所见的各类符文，她或是这项技艺的开山鼻祖？</zh>
+  </entry>
+  <entry key="NAME_PHANTOM">
+    <en>Phantom</en>
+    <zh>幽影</zh>
+  </entry>
+  <entry key="NOTE_GLOOMFLY">
+    <en>This one disturbs me... There is something in its simplicity. Do I almost feel fear?</en>
+    <zh>这东西令我感到不安……其纯粹性中蕴含某种诡异的特质。我竟然感到一丝恐惧？</zh>
+  </entry>
+  <entry key="NAME_SONG_HEAVY_SENTRY">
+    <en>Choir Clapper</en>
+    <zh>圣咏槌手</zh>
+  </entry>
+  <entry key="NAME_CROWMAN_DAGGER_JUROR">
+    <en>Squatcraw Juror</en>
+    <zh>矮陪审员</zh>
+  </entry>
+  <entry key="NOTE_CLOVERSTAG_WHITE">
+    <en>Myth made real in memory. The creature seemed completely at one with the flora around it. Did it ever truly exist as I have seen it? </en>
+    <zh>传说中的生物在忆境中成为了现实，与周遭植物浑然一体。我所见到的一切，真的曾经存在过吗？</zh>
+  </entry>
+  <entry key="NOTE_GRASS_GOOMBA">
+    <en>Simple. Graceful. Another fine bug lost forever from these lands.</en>
+    <zh>简约而优雅。又一个永远从这片土地消失的美丽物种。</zh>
+  </entry>
+  <entry key="NAME_SKULL_KING">
+    <en>Skull Tyrant</en>
+    <zh>骷髅暴君</zh>
+  </entry>
+  <entry key="NOTE_TROBBIO">
+    <en>His desire to see Pharloom saved may have been well intentioned, but he seemed quite happy for others to die upon the stage in pursuit of his goal.</en>
+    <zh>他拯救纺络的愿望或许出于善意，但为实现目标似乎乐于目睹他人在舞台上殒命。</zh>
+  </entry>
+  <entry key="NAME_CENTIPEDE_TRAP">
+    <en>Garpid</en>
+    <zh>加尔皮德</zh>
+  </entry>
+  <entry key="DESC_DOCK_BOMBER">
+    <en>Brave worker carrying unstable flintflame and wearing a heavy bell to protect against potential ignition. </en>
+    <zh>运输燧焰的工虫。燧焰性质不稳定，所以它们需要佩戴重型防爆钟罩。</zh>
+  </entry>
+  <entry key="NOTE_ROCK_ROLLER">
+    <en>Its bright gems could be used to make beautiful, but short-lived jewellery. An amusing idea for a gift... or a trap.</en>
+    <zh>每次甲壳碰撞都会迸发火星，这使得它们的巢穴成了行走的火药库。</zh>
+  </entry>
+  <entry key="DESC_BONE_HUNTER_TINY">
+    <en>Small burrowing ant, servant to the larger Skarr.</en>
+    <zh>为大型斯卡尔蚁服务的小个子掘地工。</zh>
+  </entry>
+  <entry key="DESC_SLAB_FLY_LARGE">
+    <en>Heavy, hairy jailer responsible for capturing sinners and punishing prisoners.</en>
+    <zh>厚重的多毛蝇虫，负责抓捕罪犯和惩戒囚犯。</zh>
+  </entry>
+  <entry key="DESC_MOSSBONE_FLY">
+    <en>Small fluttering creature capable of defending itself with its small stinger. </en>
+    <zh>小型飞虫，使用自身毒刺进行攻击。</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_01">
+    <en>Agile bug of Pharloom, its higher functions have been lost to the Haunting.</en>
+    <zh>被丝咒夺去神智的敏捷朝圣者，仅存扑跃攻击的本能。</zh>
+  </entry>
+  <entry key="NAME_SONG_AUTOMATON_02">
+    <en>Cogwork Cleanser</en>
+    <zh>机枢清道夫</zh>
+  </entry>
+  <entry key="DESC_CORAL_WARRIOR_GREY">
+    <en>Old warrior guarding the border of their domain, stiffened by time and awoken by song. </en>
+    <zh>守卫疆界的沧桑老将，因古老歌谣而苏醒。</zh>
+  </entry>
+  <entry key="NOTE_SWAMP_MOSQUITO">
+    <en>More dangerous in the moment of its explosive and corrosive death than it ever was in life.</en>
+    <zh>其死亡瞬间的腐蚀性爆炸远比生前更具威胁。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_WARRIOR">
+    <en>The core member of a powerful order, trained fearless and faithful. Theirs was a kingdom of warriors, one built upon their blades.</en>
+    <zh>作为精锐战团的骨干成员，经受了严酷的训练，无畏且忠诚。它们建立的刀锋王朝，正是尚武精神的巅峰体现。</zh>
+  </entry>
+  <entry key="NAME_SCHOLAR">
+    <en>Vaultkeeper</en>
+    <zh>书库管理员</zh>
+  </entry>
+  <entry key="NAME_SONG_REED_GRAND">
+    <en>Grand Reed</en>
+    <zh>精英簧片战士</zh>
+  </entry>
+  <entry key="NOTE_SHELLWOOD_GNAT">
+    <en>If the woody hide is shattered, the bug will still bravely, foolishly try to attack.</en>
+    <zh>它们至死都坚信那截空心木茎是神赐的圣枪——可悲的勇气，或是可敬的愚忠？</zh>
+  </entry>
+  <entry key="DESC_SONG_SCHOLAR_ACOLYTE">
+    <en>Young acolyte raised in the darkest vaults, destined to ascend to the rank of Scrollreader.</en>
+    <zh>低语书库培育的诵经者接班人。</zh>
+  </entry>
+  <entry key="NAME_LILYPAD_TRAP">
+    <en>Nuphar</en>
+    <zh>睡莲狩猎者</zh>
+  </entry>
+  <entry key="DESC_ARBORIUM_KEEPER">
+    <en>Learned disciple of the Choir charged to maintain the Citadel’s Memorium.</en>
+    <zh>受命维护圣堡忆廊的博学咏者团信徒。</zh>
+  </entry>
+  <entry key="NOTE_SILK_BOSS">
+    <en>Heart of the Haunting, long lulled to slumber and desperate to wake. The higher being’s threads stretched throughout Pharloom, snaring its bugs and driving them to madness and discord.</en>
+    <zh>丝咒的核心，长久沉眠却渴求苏醒。她的丝线遍布纺络，诱使这片土地上的虫子陷入疯狂。</zh>
+  </entry>
+  <entry key="DESC_GARMOND_ZAZA">
+    <en>Vigorous old knight and their noble companion, working together to see their lands cut free from haunted madness.</en>
+    <zh>精力充沛的老骑士与他忠诚的同伴。他们并肩作战，誓要将自己的家园从丝咒的疯狂中解救出来。</zh>
+  </entry>
+  <entry key="DESC_ASPID_COLLECTOR">
+    <en>Winged insect that feeds upon moss and lichen in the caves above Bone Bottom.</en>
+    <zh>栖息于骸底镇上方洞窟的飞虫，以苔藓地衣为食。</zh>
+  </entry>
+  <entry key="NAME_DOCK_GUARD_THROWER">
+    <en>Forebrothers Signis &amp; Gron</en>
+    <zh>监工兄弟 西格尼斯&amp;格隆</zh>
+  </entry>
+  <entry key="NAME_HUNTER_QUEEN">
+    <en>Skarrsinger Karmelita</en>
+    <zh>“斯卡尔歌后”卡梅莉塔</zh>
+  </entry>
+  <entry key="DESC_PHANTOM">
+    <en>Mournful creature tasked alone to expel the Citadel’s choking refuse. Their talent with a longpin is unmatched. </en>
+    <zh>独自清理圣堡秽物的哀伤生物，长针技艺登峰造极。</zh>
+  </entry>
+  <entry key="NOTE_BONE_WORM">
+    <en>They ceaselessly churn through rock and bone without ever seeming to rest. Do they have a destination? Or are they compelled to dig forever deeper?</en>
+    <zh>它们似乎永远不知疲倦地向下挖掘。究竟是有目的地前进，还是被迫永无止境地穿行？</zh>
+  </entry>
+  <entry key="DESC_BLOAT_ROACH">
+    <en>Obese offshoot of Muckroaches, born of the Citadel’s exhaust smog. The winged roach’s sagging stomach is filled with sizzling bile. </en>
+    <zh>圣堡废气催生的肥胖蟑螂变种，鼓胀的腹部储存着沸腾胆汁。</zh>
+  </entry>
+  <entry key="NAME_BONE_THUMPER">
+    <en>Marrowmaw</en>
+    <zh>髓渊兽</zh>
+  </entry>
+  <entry key="DESC_FIRST_WEAVER">
+    <en>Ancient Weaver condemned for a transgression lost to time.</en>
+    <zh>远古时期因某项重罪被囚禁的古老织者。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_CONCH_SHOOTER_HEAVY">
+    <en>A fine shot with its sharp mask. Its aggression has no ill effect on its aim.</en>
+    <zh>面甲投掷精准异常，暴戾的性情并未损耗其分毫准度。</zh>
+  </entry>
+  <entry key="NAME_UNDERSTORE_POKER">
+    <en>Underpoke</en>
+    <zh>圣厂残工</zh>
+  </entry>
+  <entry key="NOTE_SPIKE_SWIMMER">
+    <en>Seeming soft, but hiding a sharp surprise. Any larger predator attempting a bite would learn a pointed and painful lesson.</en>
+    <zh>看似柔软实则暗藏杀机，掠食者的撕咬只会换来锥心之痛。</zh>
+  </entry>
+  <entry key="NOTE_WRAITH">
+    <en>Not a bug but a projection of another’s will cast in smog and Silk.</en>
+    <zh>烟雾与灵丝交织的意志投影，并非实体生物。</zh>
+  </entry>
+  <entry key="NAME_SWAMP_MOSQUITO">
+    <en>Swamp Squit</en>
+    <zh>沼栖飞蚋</zh>
+  </entry>
+  <entry key="DESC_WEAVER_SERVITOR_LARGE">
+    <en>Broken construct built by Weavers past, able to fire a focused beam of silklight to carve halls and chambers through ice and bone. </en>
+    <zh>破损的古织者装置，能聚集并发射灵丝光束凿穿冰体和骸骨，通常用来开凿厅室。</zh>
+  </entry>
+  <entry key="NAME_DOCK_CHARGER">
+    <en>Deep Diver</en>
+    <zh>深潜者</zh>
+  </entry>
+  <entry key="DESC_WISP">
+    <en>Short-lived sprite born of flickering flame.</en>
+    <zh>闪烁火焰孕育出的精灵，其生命往往转瞬即逝。</zh>
+  </entry>
+  <entry key="DESC_SPIKE_LAZY_FLYER">
+    <en>Slow drifting bug with a heavy top shell. The bug reacts little to threats, even those that could claim its life.</en>
+    <zh>顶覆厚重甲壳的漂浮虫，行动迟缓，对致命威胁也都反应微弱。</zh>
+  </entry>
+  <entry key="DESC_DOCK_CHARGER">
+    <en>Bell-clad bug responsible for mining the deeper, treacherous depths below their docks.</en>
+    <zh>负责开采深坞下方危险矿区的虫子，身覆钟甲。</zh>
+  </entry>
+  <entry key="DESC_SWAMP_BARNACLE">
+    <en>Toothy growth that lives on cave roofs. Wraps wayward bugs with its long tongue and drags them up to be consumed.</en>
+    <zh>栖身洞顶的齿舌生物，用拟态长舌诱捕猎物。</zh>
+  </entry>
+  <entry key="DESC_LILYPAD_FLY">
+    <en>Fine winged flyer that survives in flocks.</en>
+    <zh>优雅的群居飞虫。</zh>
+  </entry>
+  <entry key="DESC_GIANT_CENTIPEDE">
+    <en>Long dormant centipede, awoken and enraged by Pharloom’s crumbling collapse.</en>
+    <zh>长期蛰伏的远古蜈蚣，因纺络的崩塌而苏醒、暴怒。</zh>
+  </entry>
+  <entry key="NAME_SHAKRA">
+    <en>Shakra</en>
+    <zh>沙克拉</zh>
+  </entry>
+  <entry key="DESC_CITADEL_BAT">
+    <en>Erratic, flying pest that nests in rags and curtains. </en>
+    <zh>寄居在破布和帷幔中的飞虫，居无定所。</zh>
+  </entry>
+  <entry key="NAME_SLAB_FLY_SMALL">
+    <en>Scabfly</en>
+    <zh>痂蝇</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_FISHER">
+    <en>Once a hunter purely for food, now they hunt unthinking and unending.</en>
+    <zh>曾是只为果腹而捕猎的猎手，如今却在丝咒驱使下沦为永不停歇的屠夫。</zh>
+  </entry>
+  <entry key="NOTE_LILYPAD_FLY">
+    <en>So light they can rest atop still water’s surface. An elegant bug indeed.</en>
+    <zh>轻盈得能栖于静水表面，确为优雅之虫。</zh>
+  </entry>
+  <entry key="NAME_FARMER_CENTIPEDE">
+    <en>Thread Raker</en>
+    <zh>残丝耙工</zh>
+  </entry>
+  <entry key="NOTE_BLOAT_ROACH">
+    <en>Its form is absurd... Surely it should not be able to hold itself in the air? The noxious gases in its stomach must provide its levity.</en>
+    <zh>如此畸形的躯体竟能悬空？想必是腹中毒气提供了浮力。</zh>
+  </entry>
+  <entry key="NOTE_SHELL_FOSSIL_MIMIC">
+    <en>Once roused, the bug will crash its steely shell into walls, floors and foes.</en>
+    <zh>被惊动后，会以钢甲撞击墙壁、地面与敌人。</zh>
+  </entry>
+  <entry key="NAME_BONE_HOPPER_GIANT">
+    <en>Hardbone Elder</en>
+    <zh>巨骨长者</zh>
+  </entry>
+  <entry key="DESC_CROWMAN_JUROR">
+    <en>Elder crawbug serving in a sacred ceremony. </en>
+    <zh>参与神圣仪式的腐囊虫长老。</zh>
+  </entry>
+  <entry key="NAME_SONG_PILGRIM_01">
+    <en>Envoy</en>
+    <zh>圣咏特使</zh>
+  </entry>
+  <entry key="NAME_ROSARY_PILGRIM">
+    <en>Covetous Pilgrim</en>
+    <zh>念珠朝圣者</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_01_SONG">
+    <en>Agile bug, and one of few hardy pilgrims to have reached the Citadel. </en>
+    <zh>成功抵达圣堡的敏捷朝圣者。</zh>
+  </entry>
+  <entry key="NOTE_SONG_PILGRIM_03">
+    <en>Their use of a pin shows hard training. Their use of Silk, unfurled from a spool held close, shows skill far beyond standard bugs. </en>
+    <zh>其刺针技法明显是经过严格训练，近身灵丝轴的操控技艺更是远超普通虫子。</zh>
+  </entry>
+  <entry key="DESC_CORAL_JUDGE">
+    <en>Gilded guardian of the Blasted Steps, bearing a cymbal and mallet.</en>
+    <zh>镇守蚀阶的金甲守卫，用钹和木槌处决"不洁者"。</zh>
+  </entry>
+  <entry key="DESC_SWAMP_DRIFTER">
+    <en>A rare, calmer bug of Bilewater, survives its hazardous surroundings by hiding as a plant.</en>
+    <zh>腐汁泽罕见的温顺虫子，在危险的环境中拟态植物，得以生存。</zh>
+  </entry>
+  <entry key="DESC_SONG_AUTOMATON_01">
+    <en>Bug forged of iron, rotor and cog. The automaton works tirelessly to maintain the Core that houses it.</en>
+    <zh>由齿轮与转子构成的铁质自动机，不知疲倦维护着机枢核心。</zh>
+  </entry>
+  <entry key="DESC_DUSTROACH">
+    <en>Starved pack bug with an insatiable appetite. Despite their tough hide and pungent meat, roaches breed rapidly so are sometimes farmed for food. </en>
+    <zh>贪婪的群居害虫，甲壳坚硬，虫肉腥臭，却因繁殖力超强被圈养作为为食物来源。</zh>
+  </entry>
+  <entry key="NOTIFICATION_FULL">
+    <en>Journal Updated</en>
+    <zh>日志已更新</zh>
+  </entry>
+  <entry key="NAME_ABYSS_CRAWLER">
+    <en>Shadow Creeper</en>
+    <zh>阴影爬虫</zh>
+  </entry>
+  <entry key="NOTE_MAGGOTS">
+    <en>They cling fast to the shells of other bugs, destroying any hope for concentration or comfort.</en>
+    <zh>它们紧附其他虫子的外壳，彻底摧毁宿主的专注力与安宁。</zh>
+  </entry>
+  <entry key="DESC_SHELLWOOD_WASP">
+    <en>Pointed, darting insect that builds a hardy hive from Shellwood’s dried bark.</en>
+    <zh>以甲木林干树皮筑巢的尖刺飞虫。</zh>
+  </entry>
+  <entry key="DESC_UNDERSTORE_MITE_GIANT">
+    <en>Full-sized mite of the Citadel cloaked in an old curtain.</en>
+    <zh>披挂破旧幕帘的圣堡巨型螨虫。</zh>
+  </entry>
+  <entry key="NAME_CRYPT_WORM">
+    <en>Gromling</en>
+    <zh>戈鲁姆幼虫</zh>
+  </entry>
+  <entry key="NAME_BONE_WORM_BLUETURRET">
+    <en>Plasmidas</en>
+    <zh>生质巨蚓</zh>
+  </entry>
+  <entry key="NOTE_LILYPAD_TRAP">
+    <en>A snapping surprise on first encounter, though one easily avoided once aware.</en>
+    <zh>初次遭遇的惊险过后，便再难构成威胁。</zh>
+  </entry>
+  <entry key="NAME_MITE_HEAVY">
+    <en>Drapemite</en>
+    <zh>帷螨</zh>
+  </entry>
+  <entry key="NAME_BONE_HUNTER_TINY">
+    <en>Skarrlid</en>
+    <zh>斯卡尔工蚁</zh>
+  </entry>
+  <entry key="NOTE_BONE_HUNTER_TRAPPER">
+    <en>His tracks and traps... It should have been obvious from the start, this old hunter sought to draw me in. But what reason drove him to test himself so brutally? That answer I suspect I shall never know. </en>
+    <zh>早该察觉他的踪迹与陷阱……但这老猎手对自己进行如此残酷试炼的原因，看来是无从得知了。</zh>
+  </entry>
+  <entry key="DESC_ROACHKEEPER_CHEF_TINY">
+    <en>Brutish cook responsible for dicing Muckroach meat into edible portions.</en>
+    <zh>粗鲁的厨子，负责将淤秽蟑螂肉切分成便于食用的分量。</zh>
+  </entry>
+  <entry key="DESC_SONG_AUTOMATON_FLY">
+    <en>Flighted automaton, responsible for repairing and extending the Core.</en>
+    <zh>负责维修扩建核心的飞行自动机，简单攻击暗藏杀机。</zh>
+  </entry>
+  <entry key="DESC_BONE_THUMPER">
+    <en>Giant roller of the lowlands. Its ridged hide will crush smaller creatures beneath it.</en>
+    <zh>在低地区域横冲直撞的巨型生物，带棱甲的躯体能轻易碾碎小型生物。</zh>
+  </entry>
+  <entry key="DESC_SONG_THREADED_HUSK_SPIN">
+    <en>Shell of a small bug possessed by Silk dregs. The husk will stretch its Silk to form a crude, crushing wheel.</en>
+    <zh>被灵丝残渣附身的小型甲虫躯壳，伸展灵丝形成粗糙碾压轮。</zh>
+  </entry>
+  <entry key="DESC_CROWMAN">
+    <en>Rag-winged adult crawbug bearing a scavenged pin.</en>
+    <zh>翅膀破烂的腐囊成虫，使用捡来刺针作为武器。</zh>
+  </entry>
+  <entry key="NAME_DUSTROACH">
+    <en>Muckroach</en>
+    <zh>淤秽蟑螂</zh>
+  </entry>
+  <entry key="NOTE_SONG_AUTOMATON_BALL">
+    <en>I have not yet seen the bell this automaton is designed to ring, nor do I ever wish to hear it. Such a clamour would no doubt be unpleasant to experience.</en>
+    <zh>它们机械臂摆动的节奏暗合圣咏旋律，若真让这些击钹者齐聚奏响终章，恐怕整个机枢核心都会在共振中崩塌。</zh>
+  </entry>
+  <entry key="NAME_CLOVERSTAG_WHITE">
+    <en>Palestag</en>
+    <zh>苍白苜鹿</zh>
+  </entry>
+  <entry key="NOTE_CORAL_JUDGE_CHILD">
+    <en>If allowed the opportunity, these creatures will grow into a form larger and more oppressive.</en>
+    <zh>此刻脆弱，却是未来灾祸的种子。放任其成长将成为巨大威胁。</zh>
+  </entry>
+  <entry key="NOTE_SETH">
+    <en>He offered fair warning and challenge, a duel in the purest sense. I admire his honour, and his skill. </en>
+    <zh>他向我发起了正式的挑战，那是一场最纯粹的决斗。我敬佩他的荣誉感，也钦佩他的技艺。</zh>
+  </entry>
+  <entry key="DESC_STICK_INSECT_CHARGER">
+    <en>Insect formed to imitate a branch, born with sharp, retractable horns atop its head.</en>
+    <zh>头部配备可收缩尖角的拟态树枝虫。</zh>
+  </entry>
+  <entry key="DESC_BONE_GOOMBA">
+    <en>Small, soft bug that uses the hard skulls of the Marrow for protection and disguise.</en>
+    <zh>小型软体虫，利用髓骨洞窟内硬质头骨作为自己的护甲和伪装。</zh>
+  </entry>
+  <entry key="NOTE_FIELDS_FLYER">
+    <en>When roosting, it would look convincingly plant-like. In flight, its bulbous body quickly ruins the ruse.</en>
+    <zh>停栖时，双翼能完美伪装成远野的草叶。但这小聪明总在飞行时露出破绽——它膨大的腹部让伪装功亏一篑。</zh>
+  </entry>
+  <entry key="NAME_CORAL_FLYER_THROW">
+    <en>Yago</en>
+    <zh>雅戈</zh>
+  </entry>
+  <entry key="NAME_FIELDS_FLYER">
+    <en>Flapping Fertid</en>
+    <zh>拟草蛾</zh>
+  </entry>
+  <entry key="DESC_MITE_HEAVY">
+    <en>Cloth-covered crawler with sharpened forelimbs. Lives and breeds in dark places.</en>
+    <zh>栖息暗处的爬虫，身覆布料，前肢锐利。</zh>
+  </entry>
+  <entry key="NAME_BELL_FLY">
+    <en>Winged Furm</en>
+    <zh>披钟绒甲虫</zh>
+  </entry>
+  <entry key="NOTE_UNDERSTORE_THROWER">
+    <en>The cost of so much grandeur... Did I peer closely enough into the foundations of my own kingdom?</en>
+    <zh>辉煌背后的代价……我是否也曾如此审视过自己王国的根基？</zh>
+  </entry>
+  <entry key="DESC_CROWMAN_DAGGER">
+    <en>Stout adult crawbug bearing several short pins.</en>
+    <zh>手持短刺的矮胖腐囊成虫。</zh>
+  </entry>
+  <entry key="NAME_TAR_SLUG">
+    <en>Lavalug</en>
+    <zh>熔岩蛞蝓</zh>
+  </entry>
+  <entry key="NOTE_CITADEL_BAT_LARGE">
+    <en>Greed will always see some bugs swell above their kin.</en>
+    <zh>贪婪终会导致膨胀，这是所有生物共通的教训。</zh>
+  </entry>
+  <entry key="NOTE_HUNTER_QUEEN">
+    <en>This graceful ruler once possessed skill to rival my own. At her youthful peak, her voice united all Skarr in her service. </en>
+    <zh>这位优雅的统治者曾拥有与我匹敌的武艺。在她巅峰时期，其歌喉能让所有斯卡尔蚁族臣服效命。</zh>
+  </entry>
+  <entry key="DESC_WHITE_PALACE_FLY">
+    <en>False fly with a rune etched shell. A tortured mix of soul and void is caged within.</en>
+    <zh>外壳刻有符文的飞虫形装置，内部囚禁着灵魂与虚空的痛苦混合物。</zh>
+  </entry>
+  <entry key="DESC_SWAMP_DUCTSUCKER">
+    <en>Suction creature surviving on the thick slime that coats its caves. </en>
+    <zh>依赖洞壁浓稠粘液维生的吸附生物。</zh>
+  </entry>
+  <entry key="DESC_ROACHFEEDER_TALL">
+    <en>Tall roach tender charged to feed Muckroaches on a lean diet of maggot gruel. </en>
+    <zh>负责用蛆虫糊喂养腐汁蟑螂的高瘦饲育者。</zh>
+  </entry>
+  <entry key="DESC_SHELLWOOD_GNAT">
+    <en>Tiny, soft creature that armours itself using the hard, hollow growths of Shellwood. </en>
+    <zh>用甲木林硬质空茎武装自身的脆弱飞虫。</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_03">
+    <en>Taken by Pharloom’s Haunting, the bug is now capable of little more than prayer and aggression.</en>
+    <zh>丝咒侵蚀了它们的理智，如今这些虫子只剩祷告与攻击的本能。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_03">
+    <en>Pilgrim Groveller</en>
+    <zh>伏地朝圣者</zh>
+  </entry>
+  <entry key="DESC_GIANT_FLEA">
+    <en>Oversized bug, briefly consumed by anger after its long time caged.</en>
+    <zh>长期囚禁后暴怒的巨型跳蚤。</zh>
+  </entry>
+  <entry key="NOTE_ARBORIUM_KEEPER">
+    <en>From the outset, theirs was a hopeless task. Those wild lands could never be replicated within a space so artificial.</en>
+    <zh>从最初这就是徒劳之举——自然的荒野绝无可能在虫子造出的空间刻意复现。</zh>
+  </entry>
+  <entry key="DESC_SPINE_FLOATER">
+    <en>Spine-shooting drifter of the lowlands. </en>
+    <zh>低地地区的游荡者，绒毛下暗藏钢刺并具备远程发射能力。</zh>
+  </entry>
+  <entry key="DESC_CORAL_JUDGE_CHILD">
+    <en>Wriggling young grub that lives in darkness. </en>
+    <zh>在黑暗中蠕动的幼虫。</zh>
+  </entry>
+  <entry key="NOTE_SONG_PILGRIM_02">
+    <en>Their procedures with Silk may have prolonged life within the Citadel, but they unknowingly gifted many minds to the monarch.</en>
+    <zh>他们的灵丝手术虽维系了圣堡的生命，却无意中将所有心智献予了君主。</zh>
+  </entry>
+  <entry key="DESC_BLOOM_SHOOTER">
+    <en>Floral foe that reacts instinctively to movement nearby. Spits pellets of crackling pollen that burst on impact.</en>
+    <zh>对周围动静极其敏感的植物，能够喷射噼啪作响的花粉弹。</zh>
+  </entry>
+  <entry key="NAME_SLAB_PRISONER_LEAPER_NEW">
+    <en>Penitent</en>
+    <zh>悔罪者</zh>
+  </entry>
+  <entry key="NAME_FIELDS_GOOMBA">
+    <en>Fertid</en>
+    <zh>拟草虫</zh>
+  </entry>
+  <entry key="NAME_SHELLWOOD_GNAT">
+    <en>Shellwood Gnat</en>
+    <zh>甲木蚋虫</zh>
+  </entry>
+  <entry key="NAME_SONG_KNIGHT">
+    <en>Second Sentinel</en>
+    <zh>次席戍卫</zh>
+  </entry>
+  <entry key="NOTE_CORAL_HUNTER">
+    <en>In contests of speed against strength, I have seen the swift more often triumphant, a lesson I have taken to my own heart.</en>
+    <zh>见证这以快制胜的案例，更坚定了我对敏捷的追求。</zh>
+  </entry>
+  <entry key="NAME_UNDERSTORE_THROWER">
+    <en>Underloft</en>
+    <zh>圣厂投掷者</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_FISHER">
+    <en>Pondcatcher</en>
+    <zh>渔夫</zh>
+  </entry>
+  <entry key="NAME_STICK_INSECT">
+    <en>Splinter</en>
+    <zh>碎裂者</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_BELLTHROWER_FLY">
+    <en>Pilgrim endowed with large wings, carrying a brace of iron bells.</en>
+    <zh>配备一对铁钟的飞行朝圣者。</zh>
+  </entry>
+  <entry key="NAME_BONE_HUNTER_FLY">
+    <en>Spear Skarr </en>
+    <zh>斯卡尔长矛手</zh>
+  </entry>
+  <entry key="NOTE_BONE_HUNTER_FLY">
+    <en>In my youth, I envied all bugs with wings. I even fancied I might grow a pair... I have since learned better. Accept the limitations of one’s body... and augment with tools as needed.</en>
+    <zh>年少时，我曾一度羡慕生来便有翅膀的虫族，甚至曾幻想自己也能长出一对来……如今我已明白，接受身体上的限制，并学会用工具弥补缺陷才是正途。</zh>
+  </entry>
+  <entry key="DESC_SHELL_FOSSIL_MIMIC">
+    <en>Devious ambusher that poses as a fossil.</en>
+    <zh>伪装成化石的狡诈伏击者。</zh>
+  </entry>
+  <entry key="NAME_WRAITH">
+    <en>Wraith</en>
+    <zh>丝魂</zh>
+  </entry>
+  <entry key="NOTE_SONG_REED_GRAND">
+    <en>This bug bears a spool of Silk, which they flail to attack. Though somewhat crude, theirs is a technique much reminiscent of Weavers. I wonder who taught them such a use?</en>
+    <zh>这只虫子携带着一轴灵丝，并挥舞它进行攻击。动作虽略显粗糙，但竟带着几分织者的神韵。不知是谁教会了它这样使用灵丝？</zh>
+  </entry>
+  <entry key="NOTE_FLOWER_QUEEN">
+    <en>Her presence would once have maintained the wood’s fragile order, allowing the safe passage of bugs across its branches.</en>
+    <zh>昔日的她维持领域内脆弱的平衡，护佑虫子们安然通行其枝干。</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_MOSS_SPITTER">
+    <en>Overgrown Pilgrim</en>
+    <zh>苔蚀朝圣者</zh>
+  </entry>
+  <entry key="NOTE_HORNET_DRAGONFLY">
+    <en>Though generally passive, their sharp masks can cause injury if carelessly blundered into.</en>
+    <zh>虽性情温顺，但若冒失冲撞其锋利面甲仍会受伤。</zh>
+  </entry>
+  <entry key="NAME_MITEFLY">
+    <en>Fluttermite</en>
+    <zh>飞蚀螨</zh>
+  </entry>
+  <entry key="NOTE_PINSTRESS_BOSS">
+    <en>I like her. For her willingness to teach and her spirit still strong, despite a long age spent solitary... she has my respect. </en>
+    <zh>我欣赏她——甘于传授技艺，孤寂长年也未磨灭斗志，值得尊敬。</zh>
+  </entry>
+  <entry key="NAME_STICK_INSECT_FLYER">
+    <en>Splinterbark</en>
+    <zh>裂皮碎裂者</zh>
+  </entry>
+  <entry key="NOTE_CORAL_WARRIOR_GREY">
+    <en>They held long at their vigil, far beyond the age of their brethren, yet still when roused they swung their blade with remarkable ease.</en>
+    <zh>他们戍边的年岁就能远超同辈寿命，苏醒时仍能挥动利刃，动作流畅自如。</zh>
+  </entry>
+  <entry key="DESC_RHINO">
+    <en>Long-horned beast of Pharloom’s lowlands. Relies on its horn both to impale and to wrench the ground beneath it, flinging dangerous debris.</en>
+    <zh>纺络低地的长角巨兽，依赖长角穿刺敌人并掘起地面制造危险碎片云。</zh>
+  </entry>
+  <entry key="NOTE_ROACHKEEPER_CHEF_TINY">
+    <en>Could their actions be called skill? I see only a crude mangling of meat. Yet I wonder, before the Haunting snared their minds was it any different?</en>
+    <zh>这般行径怎能称为厨艺？我只见到对血肉的粗暴摧残。它在丝咒侵蚀前，或许不会像现在这样粗鄙行事？</zh>
+  </entry>
+  <entry key="DESC_GRASSHOPPER_SLASHER">
+    <en>Darting warrior with sharpened forelimbs and heightened senses. </en>
+    <zh>前肢尖利且感官强化的迅捷战士。</zh>
+  </entry>
+  <entry key="DESC_SONG_HEAVY_SENTRY">
+    <en>Mighty percussive disciple of the Choir, wielding a mallet and a Silk spool to wrap and enhance their attacks.</en>
+    <zh>圣咏团的打击乐信徒，挥舞槌棒，并利用灵丝轴强化它们的攻击。</zh>
+  </entry>
+  <entry key="DESC_CLOVER_DANCER">
+    <en>Dual princes of old Verdania, beloved by their subjects for their grace and for the ballet of death they delivered upon outsiders.</en>
+    <zh>昔日翠庭王国的双生王子，以恩典治国，深受子民爱戴。对于不怀好意的外来者，他们会为其献上一支死亡芭蕾。</zh>
+  </entry>
+  <entry key="NOTE_BELL_FLY">
+    <en>Huge and soft, a fantastic combination ruined by their haunted aggression.</en>
+    <zh>明明是个蓬松的大毛球，可惜被丝咒搞得见谁都想撞两下。</zh>
+  </entry>
+  <entry key="NAME_BONE_HOPPER">
+    <en>Hardbone Hopper</en>
+    <zh>硬骨跳跃者</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_BELLTHROWER_FLY">
+    <en>On uneven terrain their union of flight and range can prove a challenge even for me.</en>
+    <zh>崎岖地形中，其飞行阵列的配合连我也需谨慎应对。</zh>
+  </entry>
+  <entry key="NOTE_UNDERSTORE_POKER">
+    <en>They toiled incessantly for the Citadel, their shells bent and greyed, and now the kingdom’s curse means not even death can relieve them.</en>
+    <zh>他们为圣堡鞠躬尽瘁直至甲壳弯折灰败，如今连死亡都无法终结这诅咒。</zh>
+  </entry>
+  <entry key="NOTE_SHELLWOOD_WASP">
+    <en>Destroying the hives will limit their presence in the wood. Useful to me now, as I pass along the branches. Dangerous in time for the wood’s order. Even a small disruption can tip a fragile balance.</en>
+    <zh>摧毁蜂巢会限制它们在林中的活动。对我而言，这在穿行丛林时十分有用。但从长远来看，即便是微小的干扰，也可能打破丛林脆弱的生态平衡。</zh>
+  </entry>
+  <entry key="NOTE_SONG_AUTOMATON_SHIELD">
+    <en>It has no true mind, and yet fights effectively, adjusting its strategy to my movements. Where exactly are its thoughts written?</en>
+    <zh>当它用盾牌格挡我的织针突刺，同时以刁钻角度刺出长枪时，我仿佛在与某个沉睡在齿轮中的古老剑客对决。</zh>
+  </entry>
+  <entry key="NOTE_LACE">
+    <en>A bug born entirely of thread. Much Silk would have been needed to see her sustained. A fragile form of life, but life nonetheless.</en>
+    <zh>完全由灵丝编织而成的虫子。维持这种丝造生命需耗费海量的灵丝资源，虽形态脆弱却真实鲜活。</zh>
+  </entry>
+  <entry key="NAME_SWAMP_SHAMAN">
+    <en>Groal the Great</en>
+    <zh>伟大的格洛</zh>
+  </entry>
+  <entry key="NOTE_MITE">
+    <en>Individually they offer little challenge, but their numbers are surely vast, and most remain hidden.</en>
+    <zh>单只不足为惧，但其庞大族群多潜藏暗处，如同阴影永难根除。</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_05">
+    <en>A lucky bug to be able to grow old. Pharloom’s roads take most much earlier.</en>
+    <zh>能在纺络活到这样的年纪堪称奇迹，只可惜这份长寿化作了更持久的折磨。</zh>
+  </entry>
+  <entry key="DESC_CRYSTAL_DRIFTER_GIANT">
+    <en>Huge flighted creature formed from coldshard.</en>
+    <zh>由冰晶碎片构成的巨型飞行生物。</zh>
+  </entry>
+  <entry key="NOTE_SHAKRA">
+    <en>She has lived a mere fraction of my lifetime and yet her rings prove a ferocious match. As gifted a warrior as I have ever encountered, and one I am fortunate to call a friend.</en>
+    <zh>她的年岁不过我生命的一小段，但她的战环却展现出凶狠的实力。她是我所遇过最出色的战士之一，很庆幸能和她成为朋友。</zh>
+  </entry>
+  <entry key="NOTE_BONE_THUMPER">
+    <en>Sheer bulk makes for an effective weapon, but requires much sustenance. This creature would have spent most of its time eating. An acceptable life for some.</en>
+    <zh>庞大的身躯是它们致命的武器，但也需要大量营养来维持。这种生物绝大多数时间都在进食，倒也活得纯粹。</zh>
+  </entry>
+  <entry key="NOTE_ABYSS_CRAWLER_LARGE">
+    <en>These ones grow large, yet I have never observed them eating, or sleeping. They seem such simple bugs... but I suspect they are not truly our cousins.</en>
+    <zh>体型虽庞大，却从未见其进食或休眠。看似普通的虫子……实则与我们并非同类。</zh>
+  </entry>
+  <entry key="DESC_BONE_BEAST">
+    <en>Huge, hardbone bug that lives within and travels through the veins of old bells across Pharloom.</en>
+    <zh>居住在古钟里并穿梭于纺络广阔钟脉里的骨甲大块头。</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_03_SONG">
+    <en>Winged devout of the Citadel, carrying a brace of gilded bells.</en>
+    <zh>圣堡的带翼信徒，背负一对镀金巨钟作战。</zh>
+  </entry>
+  <entry key="NOTE_PEAKS_DRIFTER">
+    <en>This one would make a perfect pet, but for the freezing temperatures it requires for comfort.</en>
+    <zh>本可成为完美的宠物，但其生存需依赖刺骨的低温。</zh>
+  </entry>
+  <entry key="NOTE_DUSTROACH_POLLYWOG">
+    <en>These creatures look to have been bred deliberately in watery pens. If they are food to be, their scent suggests they must taste vile.</en>
+    <zh>刻意养殖的水栖变种，若作食用，其恶臭已昭示其滋味堪忧。</zh>
+  </entry>
+  <entry key="NOTE_BONE_HUNTER_CHIEF">
+    <en>Their skill once saw them chosen, and I can plainly see why. They would have lived and trained only for this duty.</en>
+    <zh>它们的高超技艺我已亲身体会，必然是终生磨练只为履行职责。</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_04_SONG">
+    <en>For this bug to have survived Pharloom’s climb it must have teamed with stouter companions. I cannot imagine it succeeding alone.</en>
+    <zh>单凭自身的力量，这虫子绝无可能攀越纺络的天堑，成功进入圣堡。想必曾与更强壮的伙伴互为倚仗。</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_02_SONG">
+    <en>Did this one grow large thanks to the Citadel’s excess, or was its formidable size the reason it ever survived to reach this place?</en>
+    <zh>这家伙的巨大体型是因圣堡的恩赐而异变，还是正因其巨大体型才得以存活至此？</zh>
+  </entry>
+  <entry key="NOTE_SKULL_KING">
+    <en>Though surely fierce, the skull it bears looks taken from an even larger beast. If not for the bones as proof, I would scarcely believe bugs could grow to such scale.</en>
+    <zh>它头顶的骷髅战盔竟取自更庞大的生物——若非有骸骨为证，我简直难以相信世间存在如此巨虫。</zh>
+  </entry>
+  <entry key="NAME_BLADE_SPIDER">
+    <en>Pharlid</en>
+    <zh>法利德蛛</zh>
+  </entry>
+  <entry key="NAME_FARMER_SCISSORS">
+    <en>Silk Snipper</en>
+    <zh>裁丝疯匠</zh>
+  </entry>
+  <entry key="NAME_SONG_AUTOMATON_BALL">
+    <en>Cogwork Clapper</en>
+    <zh>机枢击钹者</zh>
+  </entry>
+  <entry key="NOTE_CLOCKWORK_DANCER">
+    <en>Two cogwork bugs, and yet the soul seemed singular? A sad, yet masterful imitation of life, imbued inside shells of iron.</en>
+    <zh>两只自动机虫却共享单一灵魂？这是栖身于铁壳内的生命仿品，展现出精湛的制造技艺，却难掩其悲哀的命运。</zh>
+  </entry>
+  <entry key="NAME_BONE_WORM_BLUEBLOOD">
+    <en>Plasmid</en>
+    <zh>生质幼蚓</zh>
+  </entry>
+  <entry key="DESC_DRAGONFLY_LARGE">
+    <en>Heavy insect that lives near large bodies of water. Its weighty body is best avoided.</en>
+    <zh>栖息大型水域附近的笨重昆虫，遇到最好绕道而行。</zh>
+  </entry>
+  <entry key="NAME_BONE_CRAWLER">
+    <en>Kilik</en>
+    <zh>刺铠虫</zh>
+  </entry>
+  <entry key="DESC_FLOWER_DRIFTER">
+    <en>Drifting bug disguised as a flower. Disperses crackling clouds of pollen if threatened.</en>
+    <zh>伪装成花朵的漂浮生物，遇到威胁时会释放噼啪作响的花粉云自卫。</zh>
+  </entry>
+  <entry key="DESC_BLACK_THREAD_CORE">
+    <en>Dense knot of husks bound tight by void soaked Silk.</en>
+    <zh>由虚空浸染的灵丝捆缚的躯壳，密集成团。</zh>
+  </entry>
+  <entry key="NAME_SONG_AUTOMATON_FLY">
+    <en>Cogworker</en>
+    <zh>机枢工匠</zh>
+  </entry>
+  <entry key="NAME_SONG_THREADED_HUSK_SPIN">
+    <en>Dregwheel</en>
+    <zh>残丝轮骸</zh>
+  </entry>
+  <entry key="NOTE_BLADE_SPIDER_HANG">
+    <en>A smart hunter learns to wait long in ambush, always ready to strike the first blow.</en>
+    <zh>优秀的猎手都懂得：耐心蹲点，一击必杀。</zh>
+  </entry>
+  <entry key="DESC_BONE_HOPPER">
+    <en>Grazing creature with sharp senses that nimbly retreats from danger. </en>
+    <zh>感官敏锐的食草生物，遇到危险会灵活撤退。</zh>
+  </entry>
+  <entry key="DESC_FIELDS_FLOCK_FLYERS">
+    <en>Tiny, timid creatures that huddle in flocks and flee at the first hint of danger.</en>
+    <zh>胆小的小型群居生物，一旦察觉到危险便四散奔逃。</zh>
+  </entry>
+  <entry key="NOTE_DOCK_GUARD_THROWER">
+    <en>Lost in the madness of the Haunting, they still commanded the endless excavation of their caves.</en>
+    <zh>即便深陷丝咒癫狂，仍持续号令无休止的矿洞挖掘。</zh>
+  </entry>
+  <entry key="NAME_CROWMAN_JUROR_TINY">
+    <en>Craw Juror</en>
+    <zh>腐囊陪审官</zh>
+  </entry>
+  <entry key="NOTE_GRASSHOPPER_SLASHER">
+    <en>They rarely relax, always alert for potential danger, even deep in their own territory. To defeat them my focus must match their own.</en>
+    <zh>就算在其领地深处，他们仍保持高度警戒。要想击败他们，我的专注力必须达到与其相当的水平。</zh>
+  </entry>
+  <entry key="DESC_SONG_AUTOMATON_02">
+    <en>Steam shooting automaton, forged to clean the Cogwork Core and keep it free of infestation.</en>
+    <zh>喷射蒸汽清洁机枢核心的自动机。</zh>
+  </entry>
+  <entry key="NAME_BONE_BEAST">
+    <en>Bell Beast</en>
+    <zh>钟道兽</zh>
+  </entry>
+  <entry key="DESC_SLAB_FLY_SMALL">
+    <en>Sticky young fly, born and grown in service to the Slab.</en>
+    <zh>自幼服务于罪石牢狱的黏腻幼蝇。</zh>
+  </entry>
+  <entry key="NAME_HORNET_DRAGONFLY">
+    <en>Pendra</en>
+    <zh>佩德拉</zh>
+  </entry>
+  <entry key="NAME_SHELLWOOD_WASP">
+    <en>Wood Wasp</en>
+    <zh>木蜂</zh>
+  </entry>
+  <entry key="NAME_ROSARY_THIEF">
+    <en>Snitchfly</en>
+    <zh>念珠窃贼</zh>
+  </entry>
+  <entry key="NOTE_SWAMP_DUCTSUCKER">
+    <en>This mindless bug seems to sense only through its tendrils, yet despite that simplicity it still poses a serious threat.</en>
+    <zh>虽只能凭借触须感知外界，这种虫子仍可以构成极大的威胁。</zh>
+  </entry>
+  <entry key="NAME_ASPID_COLLECTOR">
+    <en>Aknid</en>
+    <zh>阿克尼</zh>
+  </entry>
+  <entry key="NAME_BONE_GOOMBA_LARGE">
+    <en>Skull Brute</en>
+    <zh>头骨傀儡</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_03">
+    <en>Basic bug of Pharloom, laid low upon the ground.</en>
+    <zh>匍匐在地的纺络平民。</zh>
+  </entry>
+  <entry key="NOTE_BONE_CRAWLER">
+    <en>I am fond of simple, effective traps such as this bug’s extendable spikes. An unwary predator would be skewered clean through.</en>
+    <zh>我很欣赏它这一招，简单有效。莽撞的捕食者肯定会被它的背刺一击穿透。</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_04">
+    <en>Short pilgrim that uses their long horn to launch upon threats.</en>
+    <zh>用长角将自己弹射向敌人的矮小朝圣者。</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_05">
+    <en>Thick-set bug consumed by haunted thread. Uses their solid frame to crush others.</en>
+    <zh>被诅咒之丝缠裹的壮硕老者，用沉重甲壳碾压敌人。</zh>
+  </entry>
+  <entry key="DESC_MOSSBONE_CRAWLER">
+    <en>Fur covered crawler with a series of sharp spikes along its back.</en>
+    <zh>背部带刺的毛虫。</zh>
+  </entry>
+  <entry key="DESC_BONE_WORM">
+    <en>Burrowing worm that uses its many blunted teeth to dig through even the hardest bone.</en>
+    <zh>拥有密集钝齿的穴居虫类，极其坚硬的骨质层也能被它们钻透。</zh>
+  </entry>
+  <entry key="NOTE_SLAB_FLY_BROODMOTHER">
+    <en>With this one vanquished, I hope to have sped the end for that jail and its distasteful order. </en>
+    <zh>击败她或将加速那座监狱与其恶心秩序的终结。</zh>
+  </entry>
+  <entry key="DESC_CORAL_SWIMMER_SMALL">
+    <en>Gelatinous coral drifter of simple mind and placid demeanour.</en>
+    <zh>思维简单的凝胶状珊瑚生物，性情温和。</zh>
+  </entry>
+  <entry key="DESC_WISP_PYRE_EFFIGY">
+    <en>Totem and god, built and worshipped by the Burning Bugs.</en>
+    <zh>焚身信徒建造并敬奉的图腾神像。</zh>
+  </entry>
+  <entry key="NAME_CORAL_CONCH_SHOOTER">
+    <en>Driznit</en>
+    <zh>掷面虫</zh>
+  </entry>
+  <entry key="DESC_FIELDS_GOOMBA">
+    <en>Skittish scrambler of the Far Fields. Its antennae resemble stalks of grass to aid in camouflage.</en>
+    <zh>远野地区极易受惊的爬虫，触须能够伪装成草茎。</zh>
+  </entry>
+  <entry key="DESC_SLAB_FLY_SMALL_FRESH">
+    <en>Infant fly, freshly hatched. At this age the soft, blind fly is little more than a bother. </en>
+    <zh>刚破卵的盲眼软体幼蝇，不过是些烦扰的小东西。</zh>
+  </entry>
+  <entry key="NAME_CITADEL_BAT">
+    <en>Drapefly</en>
+    <zh>帷虫</zh>
+  </entry>
+  <entry key="DESC_BONE_HOPPER_GIANT">
+    <en>Tall creature with sharp senses. Defends its herd with powerful legs and a sharp-tipped mask. </en>
+    <zh>感官敏锐的生物，以尖角面甲与强健后肢守护族群。</zh>
+  </entry>
+  <entry key="NAME_BONE_CIRCLER_VICIOUS">
+    <en>Vicious Caranid</en>
+    <zh>狂躁刃尾蜂</zh>
+  </entry>
+  <entry key="DESC_SONG_PILGRIM_02">
+    <en>Cruel physician of Whiteward, responsible for operations and modifications on the Citadel’s bugs.</en>
+    <zh>白愈厅的残酷医者，负责对圣堡甲虫实施手术与改造。</zh>
+  </entry>
+  <entry key="NOTE_LAST_JUDGE">
+    <en>The huge Judge likely stood through countless generations, never defeated, never wavering in their charge.</en>
+    <zh>这庞然裁决者已矗立无数世代，未尝败绩，坚守职责从未动摇。</zh>
+  </entry>
+  <entry key="NOTE_FARMER_CATCHER">
+    <en>These bugs look to have spent every waking moment at their work. Grim, endless labour in service of the unseen Citadel above.</en>
+    <zh>这些虫子似乎将全部生命投入劳作。为自己从未见过的圣堡执行着阴郁无边的苦役。</zh>
+  </entry>
+  <entry key="NAME_SWAMP_GOOMBA">
+    <en>Miremite</en>
+    <zh>蚀沼虫</zh>
+  </entry>
+  <entry key="NAME_GRASSHOPPER_FLY">
+    <en>Escalion</en>
+    <zh>埃斯卡里昂</zh>
+  </entry>
+  <entry key="NAME_FLOWER_DRIFTER">
+    <en>Phacia</en>
+    <zh>幻形花虻</zh>
+  </entry>
+  <entry key="NOTE_BONE_HOPPER">
+    <en>Despite the Haunting of its shell, it has not been overcome with aggression. Its desire to flee remains too strong.</en>
+    <zh>即使甲壳被丝咒侵蚀，其强烈的逃生本能依然压制住了被赋予的攻击性。</zh>
+  </entry>
+  <entry key="DESC_CORAL_GOOMBA_LARGE">
+    <en>Coral hulk with a dense shell, bred to immense size by the Citadel’s Memorium.</en>
+    <zh>被圣堡忆廊催生至庞然体型的珊瑚厚甲虫。</zh>
+  </entry>
+  <entry key="NAME_BONE_CIRCLER">
+    <en>Caranid</en>
+    <zh>刃尾蜂</zh>
+  </entry>
+  <entry key="NAME_BONE_HUNTER">
+    <en>Skarr Stalker</en>
+    <zh>斯卡尔追猎者</zh>
+  </entry>
+  <entry key="NAME_PILGRIM_BELL_THROWER">
+    <en>Pilgrim Bellbearer</en>
+    <zh>朝圣钟卫</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_02">
+    <en>Sturdy bug lost to the Haunting. Rolls at threats with no care for its own discomfort.</en>
+    <zh>被丝咒侵蚀的健壮虫子。滚动碾压构成威胁的一切，无视自身痛楚。</zh>
+  </entry>
+  <entry key="DESC_GLOOMFLY">
+    <en>Tiny empty creature, barely a bug. Swallows its prey whole and sucks their nutrients until nothing remains.</en>
+    <zh>微型的虚无生物，几乎算不上是虫子。吞噬猎物至渣滓都不剩。</zh>
+  </entry>
+  <entry key="NAME_UNDERSTORE_SMALL">
+    <en>Underworker</en>
+    <zh>圣厂工虫</zh>
+  </entry>
+  <entry key="NOTE_FLOWER_DRIFTER">
+    <en>Quite a beautiful creature. In my own kingdom’s court, it would have been highly favoured as an ornamental pet.</en>
+    <zh>如此美丽的生物。若在我故国的宫廷，定会成为贵族追捧的装饰性宠物。</zh>
+  </entry>
+  <entry key="NOTE_BONE_HOPPER_GIANT">
+    <en>There is surprising strength hidden in their thin, elegant limbs. It would be a pleasure to ride upon it...</en>
+    <zh>优雅纤细的后肢中蕴含强大的力量，若能驯服必是绝佳坐骑。</zh>
+  </entry>
+  <entry key="NOTE_SPINE_FLOATER">
+    <en>Whatever admiration I had for its fleecy down is spoilt by its disturbing mask... and its steely spines.</en>
+    <zh>蓬松绒毛的吸引力被其阴森气质与钢刺彻底破坏。</zh>
+  </entry>
+  <entry key="NAME_FARMER_WISP">
+    <en>Burning Bug</en>
+    <zh>焚身信徒</zh>
+  </entry>
+  <entry key="DESC_SHIELD_DOCK_WORKER">
+    <en>Cymbal bearing worker of the Deep Docks. Pans the hauls of smokerock to find traces of more precious minerals.</en>
+    <zh>深坞持钹工人，筛选烟岩中的珍贵矿物残渣。</zh>
+  </entry>
+  <entry key="DESC_TAR_SLUG">
+    <en>Sticky mollusc that defends itself by spraying burning fluid from growths on its back.</en>
+    <zh>通过背部凸起喷射燃烧体液的防御型软体生物。</zh>
+  </entry>
+  <entry key="NOTE_SWAMP_DRIFTER">
+    <en>This one is pretty, but not as soft as first it seems. The plant it mimics is flaked and coarse, and the bug’s coat shares similar texture.</en>
+    <zh>看似柔美实则粗粝，与其拟态植物的质感完全一致。</zh>
+  </entry>
+  <entry key="DESC_DOCK_WORKER">
+    <en>Low level worker lost to Pharloom’s Haunting. Instinct keeps them at their task, though in much simpler fashion than before.</en>
+    <zh>被丝咒侵蚀的低级劳工，仍凭本能重复着旧日工作。</zh>
+  </entry>
+  <entry key="NOTE_BLADE_SPIDER">
+    <en>Something in their assault reminds me of my own skill, though their talents are born purely of instinct. My technique is formed from hard training.</en>
+    <zh>攻击套路和我有几分相像。不过他们靠的是祖传本能，我则是勤学苦练。</zh>
+  </entry>
+  <entry key="NOTE_RHINO">
+    <en>Certain tools and skills can pierce its defences. I should adjust my strategy as needed.</en>
+    <zh>正面硬撼绝非明智之举——只有特定的工具和技艺能撕开它的防御。</zh>
+  </entry>
+  <entry key="NAME_SILK_BOSS">
+    <en>Grand Mother Silk</en>
+    <zh>苍白之母</zh>
+  </entry>
+  <entry key="NAME_ROACHKEEPER_CHEF">
+    <en>Disgraced Chef Lugoli</en>
+    <zh>“失格大厨”卢戈利</zh>
+  </entry>
+  <entry key="DESC_FARMER_CATCHER">
+    <en>Bug charged to catch dregs of Silk that fall from the Citadel. Will attack with its staff if provoked.</en>
+    <zh>专职收集圣堡掉落灵丝碎屑的劳工，受干扰时会挥杖攻击。</zh>
+  </entry>
+  <entry key="NOTE_MITEFLY">
+    <en>Similar bugs would gnaw away at unguarded food supplies in my homeland. As a child, I would hunt them, eager to make use of myself and test my skills.</en>
+    <zh>我的故土也有类似的飞虫，它们会啃食未加看守的食物补给。年少时我经常猎杀它们，既为守护食物也为试炼技艺。</zh>
+  </entry>
+  <entry key="DESC_SONG_AUTOMATON_GOOMBA">
+    <en>Automaton built in the shape of a scuttling bug. Its back contains retractable pins, intended to cut song cylinders free of any obstruction.</en>
+    <zh>仿造爬虫外形的自动机，背部探针可切除阻塞音筒的障碍物。</zh>
+  </entry>
+  <entry key="NAME_SPIKE_SWIMMER">
+    <en>Steelspine Kai</en>
+    <zh>钢脊凯虫</zh>
+  </entry>
+  <entry key="DESC_PILGRIM_STAFF_UNDERSTORE">
+    <en>Uses their steel-bristled pin to scrub the soot from vents and pipes.</en>
+    <zh>以钢鬃尖刺清理管道煤灰的劳工。</zh>
+  </entry>
+  <entry key="DESC_BONE_HUNTER_TRAPPER">
+    <en>Huge, yet stealthy Skarr. An expert trapper and master of the undergrowth. </en>
+    <zh>精通丛林陷阱的斯卡尔猎手，身形庞大却又善于潜行。</zh>
+  </entry>
+  <entry key="DESC_ABYSS_TENDRIL">
+    <en>Lashing fragments of pure darkness, shaped into sharpened tentacles. </en>
+    <zh>由纯粹黑暗凝聚而成的尖锐触手。</zh>
+  </entry>
+  <entry key="NAME_BELL_GOOMBA">
+    <en>Furm</en>
+    <zh>绒甲虫</zh>
+  </entry>
+  <entry key="NAME_CLOCKWORK_DANCER">
+    <en>Cogwork Dancers</en>
+    <zh>机枢舞者</zh>
+  </entry>
+  <entry key="DESC_BONE_GOOMBA_LARGE">
+    <en>Soft bug beneath a huge, horned skull. Charges at intruders to protect its territory and its smaller companions.</en>
+    <zh>顶着怪兽头骨的软体虫，为保护地盘和自身柔软的内部，常对入侵者进行无差别冲锋。</zh>
+  </entry>
+  <entry key="DESC_BONE_CIRCLER">
+    <en>Common winged bug of the lowlands. Generally docile, but will attack if threats come close.</en>
+    <zh>低地区域常见的温顺飞虫，不过被惹急了也会攻击来犯者。</zh>
+  </entry>
+  <entry key="NOTE_SLAB_FLY_SMALL">
+    <en>Foul creatures birthed into servitude. Their plight elicits no sympathy from me.</en>
+    <zh>这些可悲的生物从蛹中钻出的瞬间，就被烙上了终生奴役的印记——但它们啃噬死囚腐肉时发出的欢快嗡鸣，实在让人难以怜悯。</zh>
+  </entry>
+  <entry key="NOTE_SHIELD_DOCK_WORKER">
+    <en>The Haunting has stolen some important part of these bugs, yet still they attempt their former task. Until, that is, they sense my presence...</en>
+    <zh>它们机械地重复着筛矿动作，直到感应到活物气息——那一刻，铜钹便化作呼啸的断头刃。</zh>
+  </entry>
+  <entry key="NAME_CONDUCTOR_BOSS">
+    <en>The Unravelled</en>
+    <zh>散茧魂渊</zh>
+  </entry>
+  <entry key="NAME_CORAL_SWIMMER_SMALL">
+    <en>Yuma</en>
+    <zh>尤玛</zh>
+  </entry>
+  <entry key="DESC_BONE_WORM_BLUEBLOOD">
+    <en>Mutated young worm infected with Plasmium. The new form displays potent regenerative skill.</en>
+    <zh>受生质液感染而变异的蠕虫幼体。其新形态展现出强大的再生能力。</zh>
+  </entry>
+  <entry key="NAME_MOSSBONE_MOTHER">
+    <en>Moss Mother</en>
+    <zh>苔翼母虫</zh>
+  </entry>
+  <entry key="NOTE_SONG_AUTOMATON_01">
+    <en>Its core is filled with fine mechanisms, but that alone should not produce such a convincing mimic of life. Silk must also be used to animate this artifice, though exactly how I am not sure.</en>
+    <zh>当灵丝顺着齿轮缝隙游走时，这台机器竟发出类似心跳的震颤——圣堡匠人究竟将多少生命奥秘编织进了这些钢铁躯壳？</zh>
+  </entry>
+  <entry key="NOTE_STICK_INSECT_CHARGER">
+    <en>Its shell gives it the advantage of surprise, but also forces it into a slender, brittle shape that cannot withstand a heavy attack.</en>
+    <zh>拟态外壳带来突袭优势，但纤细脆弱的体型难以承受重击。</zh>
+  </entry>
+  <entry key="DESC_LILYPAD_TRAP">
+    <en>Predatory plant with a powerful jaw shaped to resemble a lily pad.</en>
+    <zh>伪装成睡莲的捕食性植物，拥有强有力的颚部。</zh>
+  </entry>
+  <entry key="NAME_SHIELD_DOCK_WORKER">
+    <en>Smokerock Sifter</en>
+    <zh>烟岩筛工</zh>
+  </entry>
+  <entry key="NAME_GRASS_GOOMBA">
+    <en>Leaf Roller</en>
+    <zh>卷叶虫</zh>
+  </entry>
+  <entry key="DESC_MITEFLY">
+    <en>Airborne pest, less common than its grounded siblings. Attacks with sharp fangs if agitated.</en>
+    <zh>其陆行同类的飞行变种，较为稀少。受到刺激时会使用利齿攻击。</zh>
+  </entry>
+  <entry key="NOTE_CONDUCTOR_BOSS">
+    <en>The souls of so many bugs, obsessed with Silk, consumed by it. Their pain shall forever remain in that pit. Even I do not possess strength enough to cleanse it.</en>
+    <zh>无数沉溺灵丝终被吞噬的灵魂，其苦痛将永远禁锢在这坑里。纵使是我也无力净化。</zh>
+  </entry>
+  <entry key="DESC_LOST_LACE">
+    <en>Silk-spun child possessed by the void.</en>
+    <zh>被虚空侵蚀的灵丝造物。</zh>
+  </entry>
+  <entry key="DESC_ABYSS_CRAWLER">
+    <en>Shell-plated worm found only in the deepest depths. Seems to survive despite consuming no food or liquid.</en>
+    <zh>仅存于最深处的甲壳蠕虫，无需进食或饮水仍能存活。</zh>
+  </entry>
+  <entry key="NAME_SONG_PILGRIM_03">
+    <en>Choristor</en>
+    <zh>圣咏使徒</zh>
+  </entry>
+  <entry key="NAME_SCROLLKEEPER">
+    <en>Scrollreader</en>
+    <zh>诵经使</zh>
+  </entry>
+  <entry key="DESC_SWAMP_MUCKMAN_TALL">
+    <en>Trap setting bug carrying a pouch of sharpened long-stakes.</en>
+    <zh>携带尖锐长木桩布置陷阱的虫子。</zh>
+  </entry>
+  <entry key="NAME_CITADEL_BAT_LARGE">
+    <en>Drapelord</en>
+    <zh>帷虫之主</zh>
+  </entry>
+  <entry key="DESC_GNAT_GIANT">
+    <en>Aged female mite, grown larger and stronger than most of its kin.</en>
+    <zh>年迈的雌性螨虫，体型力量都远超同类。</zh>
+  </entry>
+  <entry key="DESC_ABYSS_MASS">
+    <en>Mass of old masks swollen and animated by writhing void.</en>
+    <zh>由纠缠的虚空驱动而膨胀、复活的一团古老面甲。</zh>
+  </entry>
+  <entry key="DESC_ROSARY_THIEF">
+    <en>Pernicious looter found all over Pharloom. </en>
+    <zh>在纺络全境四处劫掠的卑劣盗虫。</zh>
+  </entry>
+  <entry key="DESC_SLAB_PRISONER_FLY_NEW">
+    <en>Small bug, shackled and cowled for sin committed within the Citadel.</en>
+    <zh>戴着镣铐，被蒙住头部的圣堡罪徒。</zh>
+  </entry>
+  <entry key="DESC_HORNET_DRAGONFLY">
+    <en>Flighty insect that lives beside still waters.</en>
+    <zh>栖息静水边的敏感飞虫。</zh>
+  </entry>
+  <entry key="NOTE_SONG_AUTOMATON_GOOMBA">
+    <en>Its form is certainly based on bugs found outside the Citadel. In my own craftwork, I too often look to nature for inspiration.</en>
+    <zh>那对仿生复眼能精准识别音筒纹路，探针起舞时溅起的火花，竟在钢壁上刻出类似灵丝符文的痕迹。</zh>
+  </entry>
+  <entry key="NAME_SONG_HANDMAIDEN">
+    <en>Clawmaiden</en>
+    <zh>丝偶侍女</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_04">
+    <en>Birth equipped this one well. In its assault it becomes its own projectile.</en>
+    <zh>它们生来就是活体投掷物——将整个身躯化作飞矛，用长角贯穿目标。</zh>
+  </entry>
+  <entry key="NOTE_DOCK_CHARGER">
+    <en>Their heavier bells armour them well against my strikes, but against that oppressive heat... can they help at all?</en>
+    <zh>它们厚重的钟甲可以抵挡我的针刃，但在酷热环境中恐怕难有作为。</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_02">
+    <en>A rare built bug within these ailing lands. Most pilgrims’ shells seem small by comparison. What nourishment did they discover to grow so large?</en>
+    <zh>在纺络这片病恹恹的土地上，这般体型的虫子实属罕见。与它们相比，其他朝圣者的外壳简直孱弱如卵。它们究竟吞食了什么，才能膨胀至此等体型？</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_01">
+    <en>With a softer shell than most, they would have relied on their athleticism to survive.</en>
+    <zh>甲壳柔软脆弱，全靠昔日矫健的身手生存。</zh>
+  </entry>
+  <entry key="NAME_ROACHFEEDER_SHORT">
+    <en>Roachcatcher</en>
+    <zh>蟑群牧者</zh>
+  </entry>
+  <entry key="DESC_SURFACE_SCUTTLER">
+    <en>Common crawler that lives beneath sand.</en>
+    <zh>栖息沙地的常见爬虫。</zh>
+  </entry>
+  <entry key="NAME_ROCK_ROLLER">
+    <en>Flintbeetle</en>
+    <zh>燧甲虫</zh>
+  </entry>
+  <entry key="NAME_CORAL_SWIMMER_LARGE">
+    <en>Shillfin</en>
+    <zh>巨鳍者</zh>
+  </entry>
+  <entry key="NAME_BONE_FLYER">
+    <en>Beastfly</en>
+    <zh>兽蝇</zh>
+  </entry>
+  <entry key="NOTE_BLACK_THREAD_CORE">
+    <en>Silk and shells corrupted. That void seeks now to claim this land whole. These poor shells are only the beginning.</en>
+    <zh>灵丝与甲壳皆遭腐蚀，虚空正逐步蚕食这地界，这些可怜的甲壳不过是开端。</zh>
+  </entry>
+  <entry key="DESC_CROW">
+    <en>Screeching scavenger that roosts high in caverns and preys on passing pilgrims.</en>
+    <zh>盘踞洞顶的食腐飞虫，惯用群体战术袭击朝圣者。</zh>
+  </entry>
+  <entry key="DESC_STICK_INSECT">
+    <en>Insect formed to imitate a branch, capable of remaining perfectly still for long periods, but unexpectedly swift when roused.</en>
+    <zh>能长期静止拟态成树枝，受惊时发动闪电突袭。</zh>
+  </entry>
+  <entry key="NOTE_CRYSTAL_DRIFTER_GIANT">
+    <en>This larger form carries so much weight it can barely move from its place.</en>
+    <zh>庞大身躯使其几乎无法离开原位。</zh>
+  </entry>
+  <entry key="NAME_SURFACE_SCUTTLER">
+    <en>Skrill</en>
+    <zh>沙行虫</zh>
+  </entry>
+  <entry key="DESC_WEAVER_SERVITOR">
+    <en>Small construct built by Weavers past, brought to life through Silk runes threaded within.</en>
+    <zh>远古织者铸造的小型装置，通过灵丝符文赋予生命。</zh>
+  </entry>
+  <entry key="NOTE_SLAB_FLY_SMALL_FRESH">
+    <en>The less these gruesome bugs breed, the better.</en>
+    <zh>这种烦扰的虫子繁殖得越少越好。</zh>
+  </entry>
+  <entry key="DESC_SCROLLKEEPER">
+    <en>Gilded servant of the Whispering Vaults, born to read and recall the near endless scrolls of prayer.</en>
+    <zh>低语书库的金袍仆从，专司诵读那些浩繁无尽的经文。</zh>
+  </entry>
+  <entry key="NAME_CROWMAN_DAGGER">
+    <en>Squatcraw</en>
+    <zh>矮囊虫</zh>
+  </entry>
+  <entry key="NOTE_SONG_AUTOMATON_FLY_SPIKE">
+    <en>I cannot decipher its function to the greater Core. Is it built for defence? If so, its passivity seems far from optimal.</en>
+    <zh>这些悬浮铁球会在入侵者靠近时突然爆开尖刺，但过于迟缓的反应速度，让它们更像布满锈迹的装饰品。</zh>
+  </entry>
+  <entry key="NOTE_MOSSBONE_CRAWLER">
+    <en>If not for the spikes, I would think it an appealing bug.</en>
+    <zh>若没有尖刺，我会觉得它笨拙可爱。</zh>
+  </entry>
+  <entry key="DESC_SWAMP_MOSQUITO_SKINNY">
+    <en>Hovering pest with a hollowed proboscis able to spit gobs of sizzling bile.</en>
+    <zh>通过中空口器喷射胆汁的悬浮虫。</zh>
+  </entry>
+  <entry key="NOTE_SURFACE_SCUTTLER">
+    <en>This surface dweller is free of Silk. Its nature remains its own. The monarch’s influence must only have stretched below it.</en>
+    <zh>这地表生物未被丝咒侵蚀，看来圣堡君主的控制尚未延伸至此。</zh>
+  </entry>
+  <entry key="NOTE_SCROLLKEEPER">
+    <en>Did they ever truly understand those inscrutable scrolls? Or is it all merely pretence, an endless act to maintain their order’s station within the Citadel?</en>
+    <zh>他们是否真的理解那些晦涩的经文？还是说，这一切不过是伪装，一场无休止的表演，只为维持他们在城堡中的地位？</zh>
+  </entry>
+  <entry key="NAME_CORAL_SPIKE_GOOMBA">
+    <en>Coral Furm</en>
+    <zh>珊瑚绒甲虫</zh>
+  </entry>
+  <entry key="NOTE_STICK_INSECT_FLYER">
+    <en>Its assault... like a young bug’s toy turned deadly. Could I, in time, fashion a spinning tool to match?</en>
+    <zh>其攻击如同将孩童的玩具变成致命武器，或许我能制作类似原理的纺织工具？</zh>
+  </entry>
+  <entry key="NOTE_PHANTOM">
+    <en>Though grey with age, their frayed form suggested a being strung from Silk, one who welcomed a decisive end in combat over a slow decline.</en>
+    <zh>苍老的躯壳布满灵丝束痕。比起缓慢凋零，它更渴求战死的终局。</zh>
+  </entry>
+  <entry key="NAME_GIANT_FLEA">
+    <en>Huge Flea</en>
+    <zh>巨蚤</zh>
+  </entry>
+  <entry key="DESC_SMALL_CRAB">
+    <en>Infant form of the more formidable Craggler. </en>
+    <zh>酸蚀巨螯的幼年形态，通过同类相残争夺成长机会。</zh>
+  </entry>
+  <entry key="NOTE_BONE_GOOMBA_LARGE">
+    <en>Either its size has made it fearless or the Haunting has removed its sense of self-preservation.</en>
+    <zh>要么是巨大的体型给了它勇气，要么是丝咒把它怕死的本性麻痹了。</zh>
+  </entry>
+  <entry key="NOTE_ZAP_CORE_ENEMY">
+    <en>Barely a bug, and possessing only basic thought, yet instinct alone proved enough to turn it deadly.</en>
+    <zh>几乎算不上虫子，只有最基本的思维。然而，其攻击的本能已足够致命。</zh>
+  </entry>
+  <entry key="NAME_SONG_AUTOMATON_FLY_SPIKE">
+    <en>Cogwork Spine</en>
+    <zh>机枢棘球</zh>
+  </entry>
+  <entry key="NOTE_SAND_CENTIPEDE">
+    <en>Bursts forth at movement sensed close, and will consume any object or bug careless enough to fall into its maw.</en>
+    <zh>当流沙开始诡谲涌动时，你只剩半次心跳的时间逃离那张深渊巨口。</zh>
+  </entry>
+  <entry key="DESC_GRASS_GOOMBA">
+    <en>Pointed scurrier posing as plant life.</en>
+    <zh>伪装成植物的带刺疾行者。</zh>
+  </entry>
+  <entry key="DESC_MITE">
+    <en>Verminous pest, common throughout the dark corners of Greymoor.</en>
+    <zh>灰沼阴暗角落滋生的害虫。</zh>
+  </entry>
+  <entry key="NOTE_CORAL_SPIKE_GOOMBA">
+    <en>Its fur is thick and silky. Sadly, lost to its Haunting, I shall never safely be able to touch it.</en>
+    <zh>厚实丝绒般的皮毛令人神往，可惜其受丝咒侵蚀，再难安全抚触。</zh>
+  </entry>
+  <entry key="NAME_SPINE_FLOATER">
+    <en>Hoker</en>
+    <zh>绒棘虫</zh>
+  </entry>
+  <entry key="NAME_VAMPIRE_GNAT">
+    <en>Moorwing</en>
+    <zh>荒沼翼主</zh>
+  </entry>
+  <entry key="NOTE_SPINNER_BOSS">
+    <en>Her body seemed a Weaver’s, but her mask had been forcibly removed, and her own Silk was bound useless by heavy pins lodged through her spine.</en>
+    <zh>她身形似织者，但面甲被强行剥离，脊背打入的重钉也使其灵丝失效。</zh>
+  </entry>
+  <entry key="NOTE_GRASSHOPPER_CHILD">
+    <en>Fierce and fast, and defending their lands even from birth. These are children to be proud of. </en>
+    <zh>凶猛迅捷，自出生起就守卫故土，是值得骄傲的后裔。</zh>
+  </entry>
+  <entry key="NOTE_CITADEL_BAT">
+    <en>Like fabric somehow sprung to life. Its pelt is perfectly matched to the rags it infests. </en>
+    <zh>外色颜色与寄居的布料完美融合，就像被赋予生命的织物。</zh>
+  </entry>
+  <entry key="NOTE_BONE_CIRCLER_VICIOUS">
+    <en>Its wings are quite small compared to its bulk. Perhaps it uses the warm air of these fiery lands to help stay airborne. Clever, if so.</en>
+    <zh>翅膀小身体胖，估计是利用这片炽热地带的热气流飞起来的——还挺聪明。</zh>
+  </entry>
+  <entry key="DESC_SONG_ADMINISTRATOR">
+    <en>Gold ranked disciple of the Choir and direct servant to the Citadel’s Conductors.</en>
+    <zh>圣咏团的高阶信徒，圣堡指挥家的直系仆从。</zh>
+  </entry>
+  <entry key="NOTE_PILGRIM_STAFFWIELDER">
+    <en>The large bell seems to signify them as once leader of a climbing troupe, though the Haunting has erased that former authority.</en>
+    <zh>那柄铭刻朝圣路线的钟杖曾是领袖象征，如今却成了敲碎追随者颅骨的凶器。</zh>
+  </entry>
+  <entry key="NOTE_STICK_INSECT">
+    <en>Avoiding their ambush is a good test of my senses, and my ability to rapidly retaliate.</en>
+    <zh>规避其伏击是对感知力的考验，快速反击能力同样关键。</zh>
+  </entry>
+  <entry key="NOTE_LOST_LACE">
+    <en>To quell the mother’s rage, and see this kingdom saved, I will claim her back. This one... the dark shall not take.</en>
+    <zh>为了平息苍白之母的暴怒、拯救这个王国，我必夺回这个孩子的本心——绝不容许虚空将她吞噬。</zh>
+  </entry>
+  <entry key="NAME_SLAB_FLY_MID">
+    <en>Guardfly</en>
+    <zh>狱卒蝇</zh>
+  </entry>
+  <entry key="NAME_LOST_LACE">
+    <en>Lost Lace</en>
+    <zh>失心蕾丝</zh>
+  </entry>
+  <entry key="DESC_SONG_KNIGHT">
+    <en>Cogwork knight of Pharloom, once protector of its pilgrims, and master of the scissor blade. </en>
+    <zh>曾护卫朝圣者的机械骑士，如今双刃剪成为致命凶器。</zh>
+  </entry>
+</sheet>

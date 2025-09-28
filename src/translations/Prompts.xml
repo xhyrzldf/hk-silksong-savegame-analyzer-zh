@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Prompts">
+  <entry key="TOLL_BENCH">
+    <en>A machine with a symbol of a bench.</en>
+    <zh>一台印有长椅符号的机器。</zh>
+  </entry>
+  <entry key="GET_NEEDOLIN_1">
+    <en>Play ancient melodies by stringing Silk along the needle.</en>
+    <zh>用灵丝给织针上弦，拨弹悠长的古调。</zh>
+  </entry>
+  <entry key="PROMPT_PARRY">
+    <en>Parry</en>
+    <zh>弹反</zh>
+  </entry>
+  <entry key="SPEAK">
+    <en>SPEAK</en>
+    <zh>交谈</zh>
+  </entry>
+  <entry key="SLAB_LOCK_A">
+    <en>A lock with the mark of ‘Indolent’.</en>
+    <zh>带有“怠惰”标记的锁。</zh>
+  </entry>
+  <entry key="SPAR_PINSTRESS">
+    <en>Challenge Pinstress?</en>
+    <zh>挑战针姬？</zh>
+  </entry>
+  <entry key="SLAB_LOCK_E">
+    <en>A lock with the mark of ‘First Sin’.</en>
+    <zh>带有“原罪”标记的锁。</zh>
+  </entry>
+  <entry key="SLAB_LOCK_D">
+    <en>A lock with the mark of ‘Apostate’.</en>
+    <zh>带有“叛教”标记的锁。</zh>
+  </entry>
+  <entry key="CLAIM">
+    <en>CLAIM</en>
+    <zh>领取</zh>
+  </entry>
+  <entry key="GET_SPRINT_2">
+    <en>Chase down prey and leap great distances.</en>
+    <zh>追猎目标并进行超远距离跳跃。</zh>
+  </entry>
+  <entry key="CHALLENGE">
+    <en>CHALLENGE</en>
+    <zh>挑战</zh>
+  </entry>
+  <entry key="UI_MSG_DESC_EVAHEAL_2">
+    <en>Silk will regenerate while resting at a bench.</en>
+    <zh>在长椅休息时恢复灵丝。</zh>
+  </entry>
+  <entry key="TAKE">
+    <en>TAKE</en>
+    <zh>拾取</zh>
+  </entry>
+  <entry key="PROMPT_SKILL">
+    <en>Silk Skill</en>
+    <zh>灵丝技能</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO_SILKSKILL">
+    <en>Bound the Silk Skill</en>
+    <zh>已缚丝于灵丝技能</zh>
+  </entry>
+  <entry key="BUTTON_DESC_NONE">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SPAR_GARMOND">
+    <en>Duel with Garmond?</en>
+    <zh>与加蒙德决斗？</zh>
+  </entry>
+  <entry key="THROW_TOOL_PIN">
+    <en>Throw Pin</en>
+    <zh>掷出刺针</zh>
+  </entry>
+  <entry key="ENTER">
+    <en>ENTER</en>
+    <zh>进入</zh>
+  </entry>
+  <entry key="TRADE">
+    <en>TRADE</en>
+    <zh>交易</zh>
+  </entry>
+  <entry key="UI_MSG_HCOMBO_2_NAME">
+    <en>Hunter</en>
+    <zh>猎人</zh>
+  </entry>
+  <entry key="TRAVEL">
+    <en>TRAVEL</en>
+    <zh>旅行</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO_GET_RECEIVE">
+    <en>Received the</en>
+    <zh>已收到</zh>
+  </entry>
+  <entry key="THROW_EQUIP_GENERIC">
+    <en>Equip Tools</en>
+    <zh>装备工具</zh>
+  </entry>
+  <entry key="SLAB_LOCK_A_READY">
+    <en>Use Key of Indolent?</en>
+    <zh>使用怠惰之钥？</zh>
+  </entry>
+  <entry key="GET_SILKBOMB_1">
+    <en>Weave runes of blazing Silk upon enemies.</en>
+    <zh>在敌人身上缝上剧烈燃烧的灵丝符文。</zh>
+  </entry>
+  <entry key="CONSTRUCT_FARSIGHT">
+    <en>Assemble Farsight?</en>
+    <zh>组装遥观仪？</zh>
+  </entry>
+  <entry key="GET_BELLBEAST_MELODY_2">
+    <en>Summon the Beastlings and return together to their mother.</en>
+    <zh>召唤钟道兽群，并一同前往其母亲所在之处。</zh>
+  </entry>
+  <entry key="GET_SILKDASH_1">
+    <en>Pierce through enemies in a blur of blade and Silk.</en>
+    <zh>灵丝与刃锋交织，高速穿透多个敌人。</zh>
+  </entry>
+  <entry key="CONSTRUCT_MATERIUM">
+    <en>Assemble Materium?</en>
+    <zh>组装物质库？</zh>
+  </entry>
+  <entry key="GET_SPHERE_1">
+    <en>Attack by whipping a storm of Silk around oneself.</en>
+    <zh>挥舞灵丝形成环绕自身的灵丝风暴。</zh>
+  </entry>
+  <entry key="DONATE">
+    <en>Donate</en>
+    <zh>捐赠</zh>
+  </entry>
+  <entry key="THROW_TOOL_GENERIC">
+    <en>Use Tool</en>
+    <zh>使用工具</zh>
+  </entry>
+  <entry key="CONSUME">
+    <en>CONSUME</en>
+    <zh>汲取</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO_GET">
+    <en>Obtained the</en>
+    <zh>已获得</zh>
+  </entry>
+  <entry key="PROMPT_CONDITION_BENCH">
+    <en>At Bench</en>
+    <zh>在长椅处</zh>
+  </entry>
+  <entry key="UI_MSG_TITLE_FARSIGHT">
+    <en>Farsight</en>
+    <zh>遥观仪</zh>
+  </entry>
+  <entry key="REST">
+    <en>REST</en>
+    <zh>休息</zh>
+  </entry>
+  <entry key="PROMPT_USE_CONSUMABLE">
+    <en>Break</en>
+    <zh>击破</zh>
+  </entry>
+  <entry key="GIVE">
+    <en>GIVE</en>
+    <zh>交付</zh>
+  </entry>
+  <entry key="GET_CHARGESLASH_2">
+    <en />
+    <zh />
+  </entry>
+  <entry key="PROMPT_SUPER_JUMP">
+    <en>Super Jump</en>
+    <zh>超级跳</zh>
+  </entry>
+  <entry key="GET_CHARGESLASH_1">
+    <en>Charge power in the needle, then release as a deadly attack.</en>
+    <zh>将力量凝聚于针刃，释放出致命一击。</zh>
+  </entry>
+  <entry key="CALL">
+    <en>CALL</en>
+    <zh>呼唤</zh>
+  </entry>
+  <entry key="GET_DESC_HEART_CLOVER">
+    <en>It beats sharp and clear.</en>
+    <zh>跳动急剧清晰。</zh>
+  </entry>
+  <entry key="GET_WEAVER_ART">
+    <en>Silk Skills can be equipped in the Crest screen of the Menu.</en>
+    <zh>可在菜单的纹章界面装备灵丝技能。</zh>
+  </entry>
+  <entry key="REQUEST_AID">
+    <en>Request aid in battle?</en>
+    <zh>请求战斗支援？</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO_GET_A">
+    <en>Obtained a</en>
+    <zh>已获得</zh>
+  </entry>
+  <entry key="UI_MSG_HCOMBO_PREFIX">
+    <en>Evolved the Crest of</en>
+    <zh>已进化纹章</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO1">
+    <en>Learned the</en>
+    <zh>已学习</zh>
+  </entry>
+  <entry key="GET_HARPOON_2">
+    <en>Silk will be expended. Strike enemies to replenish Silk.</en>
+    <zh>此举会消耗灵丝。攻击敌人可补充灵丝。</zh>
+  </entry>
+  <entry key="UI_MSG_HCOMBO_2_DESC">
+    <en>Strike enemies repeatedly to become focused, making needle attacks deadlier.&lt;br&gt;Heighten focus with additional strikes, and further increase lethality.</en>
+    <zh>连续攻击敌人进入凝聚状态，强化织针威力。&lt;br&gt;继续攻击可提升凝聚等级，进一步增强杀伤力 。</zh>
+  </entry>
+  <entry key="GET_HARPOON_1">
+    <en>Fling the needle as a harpoon and launch forcefully towards it.</en>
+    <zh>掷针为锚，牵引冲刺。</zh>
+  </entry>
+  <entry key="DIVE">
+    <en>DIVE</en>
+    <zh>潜入</zh>
+  </entry>
+  <entry key="NO">
+    <en>No</en>
+    <zh>否</zh>
+  </entry>
+  <entry key="PROMPT_NEEDLETHROW">
+    <en>Throw Needle</en>
+    <zh>掷出织针</zh>
+  </entry>
+  <entry key="BUTTON_DESC_RELEASE">
+    <en>Release</en>
+    <zh>放开</zh>
+  </entry>
+  <entry key="TRACK">
+    <en>TRACK</en>
+    <zh>追踪</zh>
+  </entry>
+  <entry key="GET_WALLJUMP_1">
+    <en>Cling to sheer surfaces and leap to rapidly scale heights.</en>
+    <zh>攀附绝壁并向上弹跳，快速跃升至高处。</zh>
+  </entry>
+  <entry key="PROMPT_SUPERDASH">
+    <en>Harpoon</en>
+    <zh>飞针索</zh>
+  </entry>
+  <entry key="GET_SUPERJUMP_1">
+    <en>Fling the needle upwards and launch to tremendous heights.</en>
+    <zh>向空中掷出织针并跃升至高处。</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO_SILKHEART">
+    <en>Consumed a</en>
+    <zh>已汲取</zh>
+  </entry>
+  <entry key="GET_SUPERJUMP_2">
+    <en>Silk will be expended. Strike enemies to replenish Silk.</en>
+    <zh>此举会消耗灵丝。攻击敌人可补充灵丝。</zh>
+  </entry>
+  <entry key="BUTTON_DESC_HOLD_FOCUS">
+    <en>Hold</en>
+    <zh>按住</zh>
+  </entry>
+  <entry key="UI_MSG_TITLE_EVAHEAL">
+    <en>Sylphsong</en>
+    <zh>风灵谣</zh>
+  </entry>
+  <entry key="ASCEND">
+    <en>ASCEND</en>
+    <zh>上升</zh>
+  </entry>
+  <entry key="SLAB_LOCK_B">
+    <en>A lock with the mark of ‘Heretic’.</en>
+    <zh>带有“异端”标记的锁。</zh>
+  </entry>
+  <entry key="UI_MSG_HCOMBO_1_DESC">
+    <en>Strike enemies repeatedly to build focus.&lt;br&gt;Once focused, needle attacks will become deadlier.</en>
+    <zh>通过连续攻击敌人积累凝聚力。&lt;br&gt;进入凝聚状态后，织针攻击将更加致命。</zh>
+  </entry>
+  <entry key="PLAY_GAME">
+    <en>PLAY</en>
+    <zh>继续游戏</zh>
+  </entry>
+  <entry key="UI_MSG_HCOMBO_1_NAME">
+    <en>Hunter</en>
+    <zh>猎人</zh>
+  </entry>
+  <entry key="PROMPT_INTERACT">
+    <en>Interact</en>
+    <zh>互动</zh>
+  </entry>
+  <entry key="GET_DESC_HEART_HUNTER">
+    <en>It beats steady and strong.</en>
+    <zh>跳动稳健有力。</zh>
+  </entry>
+  <entry key="TAKE_LIVING">
+    <en>TAKE</en>
+    <zh>抱起</zh>
+  </entry>
+  <entry key="ABANDONED_TOWN_DOWN">
+    <en>A small tunnel leading downward.&lt;br&gt;Descend to Pharloom?</en>
+    <zh>通向纺络的狭窄通道。&lt;br&gt;是否下降至纺络？</zh>
+  </entry>
+  <entry key="GET_SILK_BOSS_NEEDLE_2">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GET_DESC_WHITE_FLOWER_2">
+    <en>Its pale light wards against the void.</en>
+    <zh>散发出能够驱散虚空的柔光。</zh>
+  </entry>
+  <entry key="GET_DESC_WHITE_FLOWER_1">
+    <en>Fragile flower taken from a deep and distant memory. </en>
+    <zh>采自深层忆境的娇嫩花朵。</zh>
+  </entry>
+  <entry key="TASKLIST_INTRO_PREFIX">
+    <en>New Objective</en>
+    <zh>新目标</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO1_SIMPLE">
+    <en>Learned</en>
+    <zh>已学习</zh>
+  </entry>
+  <entry key="GET_DOUBLEJUMP_1">
+    <en>Fabled feather down, layered within the cloak. Leap again while airborne. </en>
+    <zh>披风内缝入传说中的羽绒。可在空中进行二段跳。</zh>
+  </entry>
+  <entry key="PROMPT_BROLLY">
+    <en>Float</en>
+    <zh>浮空</zh>
+  </entry>
+  <entry key="BUTTON_DESC_WALLJUMP">
+    <en>Press</en>
+    <zh>按下</zh>
+  </entry>
+  <entry key="MEMORY_MSG_DESC_SILKHEART_1">
+    <en>Regained the power to regenerate Silk within one’s shell.</en>
+    <zh>恢复甲壳内灵丝再生的能力。</zh>
+  </entry>
+  <entry key="GET_PARRY_1">
+    <en>Bind Silk around the needle to deflect enemy attacks and instantly strike back.</en>
+    <zh>用灵丝缠绕织针格挡敌人的攻击，并立即进行反击。</zh>
+  </entry>
+  <entry key="BUTTON_DESC_HOLD">
+    <en>Hold</en>
+    <zh>按住</zh>
+  </entry>
+  <entry key="PROMPT_DJ">
+    <en>Air Jump</en>
+    <zh>空中跳跃</zh>
+  </entry>
+  <entry key="WISH_PROMISED">
+    <en>Wish Promised</en>
+    <zh>心愿已允诺</zh>
+  </entry>
+  <entry key="SLAB_LOCK_C">
+    <en>A lock with the mark of ‘Apostate’.</en>
+    <zh>带有“叛教”标记的锁。</zh>
+  </entry>
+  <entry key="PROMPT_DASH">
+    <en>Sprint</en>
+    <zh>冲刺</zh>
+  </entry>
+  <entry key="GET_BROLLY_1">
+    <en>Flare the cloak to ride strong winds or glide gracefully.</en>
+    <zh>展开斗篷以乘风而行，或以悠然滑翔。</zh>
+  </entry>
+  <entry key="YESNO_ITEM_MAXED">
+    <en>Max Held</en>
+    <zh>已达到持有上限</zh>
+  </entry>
+  <entry key="GET_MEMORY_MELODY_2">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHOP">
+    <en>SHOP</en>
+    <zh>购物</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO_SILKSKILL_PHANTOM">
+    <en>Learned the Silk Skill</en>
+    <zh>已学习灵丝技能</zh>
+  </entry>
+  <entry key="GET_BELLBEAST_MELODY_1">
+    <en>Mimic the song of the Bell Beast.</en>
+    <zh>模仿钟道兽的歌声。</zh>
+  </entry>
+  <entry key="INSPECT">
+    <en>INSPECT</en>
+    <zh>检查</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO_POWERUP">
+    <en>Bound the Ancestral Art</en>
+    <zh>已缚丝于先祖技艺</zh>
+  </entry>
+  <entry key="UI_MSG_DESC_FARSIGHT_2">
+    <en>Completion quantities will be displayed in Menus.</en>
+    <zh>菜单中将显示完成数量。</zh>
+  </entry>
+  <entry key="SLAB_LOCK_B_READY">
+    <en>Use Key of Heretic?</en>
+    <zh>使用异端之钥？</zh>
+  </entry>
+  <entry key="PROMPT_HARPOON">
+    <en>Harpoon</en>
+    <zh>飞针索</zh>
+  </entry>
+  <entry key="ATTACK">
+    <en>ATTACK</en>
+    <zh>攻击</zh>
+  </entry>
+  <entry key="ABANDONED_TOWN_UP">
+    <en>A small tunnel leading upward.&lt;br&gt;Ascend to the surface?</en>
+    <zh>通往地面的狭小通道。&lt;br&gt;是否上升至位于地面的墟野？</zh>
+  </entry>
+  <entry key="UI_MSG_DESC_EVAHEAL_1">
+    <en>Eva’s soul and strength reside within.</en>
+    <zh>封存着伊娃的灵魂与力量。</zh>
+  </entry>
+  <entry key="BUTTON_DESC_TAP">
+    <en>Tap</en>
+    <zh>轻按</zh>
+  </entry>
+  <entry key="WATCH">
+    <en>WATCH</en>
+    <zh>观看</zh>
+  </entry>
+  <entry key="BUTTON_DESC_PRESS">
+    <en>Press</en>
+    <zh>按下</zh>
+  </entry>
+  <entry key="SLAB_LOCK_E_READY">
+    <en>Use Key of First Sin?</en>
+    <zh>使用原罪之钥？</zh>
+  </entry>
+  <entry key="GET_MAP_2">
+    <en>View a detailed map of the world in the Map pane of the Menu.</en>
+    <zh>在“菜单”的“地图”界面查看纺络的详细地图。</zh>
+  </entry>
+  <entry key="DESCEND">
+    <en>DESCEND</en>
+    <zh>下降</zh>
+  </entry>
+  <entry key="SLAB_LOCK_D_READY">
+    <en>Use Key of Apostate?</en>
+    <zh>使用叛教之钥？</zh>
+  </entry>
+  <entry key="PLAY">
+    <en>PLAY</en>
+    <zh>播放</zh>
+  </entry>
+  <entry key="WEAVER_ART_EQUIP">
+    <en>Equip Silk Skills in the Crest screen of the Menu.</en>
+    <zh>在菜单的纹章界面装备灵丝技能。</zh>
+  </entry>
+  <entry key="OPEN">
+    <en>OPEN</en>
+    <zh>开启</zh>
+  </entry>
+  <entry key="GET_SILK_BOSS_NEEDLE">
+    <en>Spin lethal talons from thread that seek out enemies.</en>
+    <zh>利用灵丝编织出追踪敌人的致命利爪。</zh>
+  </entry>
+  <entry key="WISH_GRANTED">
+    <en>Wish Granted</en>
+    <zh>心愿已达成</zh>
+  </entry>
+  <entry key="TASKLIST_INTRO_1">
+    <en>Ascend through the lands of Pharloom to reach the Citadel at the kingdom’s peak.</en>
+    <zh>穿越纺络之境，上升至王国顶点的圣堡。</zh>
+  </entry>
+  <entry key="GET_NEEDOLIN_2">
+    <en>Silk will be expended. Strike enemies to replenish Silk.</en>
+    <zh>此举会消耗灵丝。攻击敌人可补充灵丝。</zh>
+  </entry>
+  <entry key="BELLWAY_UNLOCK_NAME">
+    <en>Bell Beast</en>
+    <zh>钟道兽</zh>
+  </entry>
+  <entry key="SLAB_LOCK_C_READY">
+    <en>Use Key of Apostate?</en>
+    <zh>使用叛教之钥？</zh>
+  </entry>
+  <entry key="LISTEN">
+    <en>LISTEN</en>
+    <zh>聆听</zh>
+  </entry>
+  <entry key="GET_BROLLY_2">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GET_ITEM_INTRO_EVAHEAL">
+    <en>Bound Eva’s Art</en>
+    <zh>已缚丝于伊娃的技艺</zh>
+  </entry>
+  <entry key="PROMPT_USE_CONSUMABLE_GRUB">
+    <en>Consume</en>
+    <zh>汲取</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO_BEFRIEND">
+    <en>Befriended the</en>
+    <zh>已帮助</zh>
+  </entry>
+  <entry key="MEMORY_MSG_TITLE_SILKHEART">
+    <en>Silk Heart</en>
+    <zh>丝之心</zh>
+  </entry>
+  <entry key="TASKLIST_INTRO_2">
+    <en>View Objectives in the Tasks screen of the Menu.</en>
+    <zh>在“菜单”的“任务”界面查看目标。</zh>
+  </entry>
+  <entry key="UI_MSG_DESC_FARSIGHT_1">
+    <en>The state of the world can be sensed.</en>
+    <zh>纺络的瞬息变化皆可感知。</zh>
+  </entry>
+  <entry key="NOT_ENOUGH_CURRENCY">
+    <en>Not enough</en>
+    <zh>念珠不足</zh>
+  </entry>
+  <entry key="PROMPT_JUMP">
+    <en>Jump</en>
+    <zh>跳跃</zh>
+  </entry>
+  <entry key="TURNIN">
+    <en>TURN IN</en>
+    <zh>交付</zh>
+  </entry>
+  <entry key="GET_ITEM_INTRO_FARSIGHT">
+    <en>Constructed the</en>
+    <zh>已组装</zh>
+  </entry>
+  <entry key="GET_WALLJUMP_2">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GET_NEEDLE_THROW_1">
+    <en>Attack by throwing the needle forward. Silk will be expended.</en>
+    <zh>消耗灵丝，向前掷针突刺。</zh>
+  </entry>
+  <entry key="YES">
+    <en>Yes</en>
+    <zh>是</zh>
+  </entry>
+  <entry key="GET_DOUBLEJUMP_2">
+    <en>Soar above foes. Reach new heights. Strike from above.</en>
+    <zh>腾空而起，突破高度限制，并从俯冲袭击敌人。</zh>
+  </entry>
+  <entry key="SPAR_SHAKRA">
+    <en>Duel with Shakra?</en>
+    <zh>与沙克拉决斗？</zh>
+  </entry>
+  <entry key="SIT">
+    <en>SIT</en>
+    <zh>坐下</zh>
+  </entry>
+  <entry key="PROMPT_QUICKMAP">
+    <en>View Map</en>
+    <zh>快速查看地图</zh>
+  </entry>
+  <entry key="ACCEPT">
+    <en>ACCEPT</en>
+    <zh>接受</zh>
+  </entry>
+  <entry key="PROMPT_BIND">
+    <en>Bind</en>
+    <zh>缚丝</zh>
+  </entry>
+  <entry key="EXIT">
+    <en>EXIT</en>
+    <zh>退出</zh>
+  </entry>
+  <entry key="GET_DESC_HEART_CORAL">
+    <en>It beats deep and slow.</en>
+    <zh>跳动沉重缓慢。</zh>
+  </entry>
+  <entry key="PROMPT_ATTACK">
+    <en>Attack</en>
+    <zh>攻击</zh>
+  </entry>
+  <entry key="GET_SPRINT_1">
+    <en>Sprint at blinding speed, beyond one’s natural limits.</en>
+    <zh>以突破生理极限的速度，向前疾速冲刺。</zh>
+  </entry>
+  <entry key="BUTTON_DESC_AIR">
+    <en>in air</en>
+    <zh>在空中</zh>
+  </entry>
+  <entry key="PROMPT_NEEDOLIN">
+    <en>Needolin</en>
+    <zh>织忆弦针</zh>
+  </entry>
+  <entry key="PROMPT_LOOK_DOWN">
+    <en>Look Down</en>
+    <zh>向下看</zh>
+  </entry>
+  <entry key="GET_MEMORY_MELODY_1">
+    <en>Draw out memories of Pharloom’s forgotten past.</en>
+    <zh>提取纺络之地被遗忘的往昔记忆。</zh>
+  </entry>
+  <entry key="GET_MAP_1">
+    <en>to view a map of the current area.</en>
+    <zh>以查看当前区域的地图</zh>
+  </entry>
+  <entry key="GET_DESC_HEART_FLOWER">
+    <en>It beats faint and fast.</en>
+    <zh>跳动轻盈快速。</zh>
+  </entry>
+</sheet>

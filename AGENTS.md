@@ -9,6 +9,9 @@ Install dependencies with `npm install`. `npm run dev` starts the Vite dev serve
 ## Coding Style & Naming Conventions
 Use TypeScript with functional React components. Follow the existing two-space indentation, trailing semicolons, and double-quoted strings. Components stay in PascalCase (`FileUpload`) and hooks in camelCase prefixed with `use`. Prefer named exports (`export const Foo`) over defaults and group imports by origin. Run `npm run lint` before committing to let ESLint enforce these rules.
 
+## Internationalization
+UI 文案必须经过 `useI18n`，不要再出现硬编码字符串。原始翻译对照存放在 `src/translations/*.xml`，由 `src/i18n/` 下的 loader 在运行时解析；新增文案时，请同步更新 `customTranslations.ts` 或补齐 XML 词条，并确保英文/中文同时完善。调试缺失翻译时，可借助控制台输出或临时日志，但提交前务必清理。
+
 ## Testing Guidelines
 There is no automated test harness yet, so document manual verification steps in PRs (e.g., upload a known save and confirm progress totals). When adding coverage, co-locate `*.test.ts` files near the code using Vitest + React Testing Library, and extend the `npm test` script accordingly. Keep fixtures anonymized and small.
 

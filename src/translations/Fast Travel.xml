@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Fast Travel">
+  <entry key="STATION_NAME_SHELLWOOD">
+    <en>Shellwood</en>
+    <zh>甲木林</zh>
+  </entry>
+  <entry key="STATION_NAME_DOCKS">
+    <en>Deep Docks</en>
+    <zh>深坞</zh>
+  </entry>
+  <entry key="STATION_NAME_SHADOW">
+    <en>Bilewater</en>
+    <zh>腐汁泽</zh>
+  </entry>
+  <entry key="TUBE_NAME_HANG">
+    <en>High Halls</en>
+    <zh>高庭</zh>
+  </entry>
+  <entry key="TUBE_LIST_TITLE">
+    <en>VENTRICA</en>
+    <zh>圣脉枢管</zh>
+  </entry>
+  <entry key="TUBE_NAME_SONG">
+    <en>Choral Chambers</en>
+    <zh>圣咏殿</zh>
+  </entry>
+  <entry key="TUBE_NAME_HUB">
+    <en>Terminus</en>
+    <zh>终界站</zh>
+  </entry>
+  <entry key="STATION_NAME_BONEFOREST_EAST">
+    <en>Far Fields</en>
+    <zh>远野</zh>
+  </entry>
+  <entry key="STATION_NAME_WEAVE">
+    <en>Weavenest</en>
+    <zh>织巢</zh>
+  </entry>
+  <entry key="MAP_LIST_TITLE">
+    <en>BELLWAYS</en>
+    <zh>钟道站</zh>
+  </entry>
+  <entry key="STATION_NAME_CITADEL">
+    <en>Grand Bellway</en>
+    <zh>圣堡钟道</zh>
+  </entry>
+  <entry key="TUBE_NAME_CITYBELLWAY">
+    <en>Grand Bellway</en>
+    <zh>圣堡钟道</zh>
+  </entry>
+  <entry key="STATION_NAME_BELLTOWN">
+    <en>Bellhart</en>
+    <zh>钟心镇</zh>
+  </entry>
+  <entry key="STATION_NAME_BONETOWN">
+    <en>Bone Bottom</en>
+    <zh>骸底镇</zh>
+  </entry>
+  <entry key="PAY_TOLL_MSG">
+    <en>Insert Rosaries?</en>
+    <zh>投入念珠？</zh>
+  </entry>
+  <entry key="TUBE_NAME_ENCLAVE">
+    <en>First Shrine</en>
+    <zh>始源钟殿</zh>
+  </entry>
+  <entry key="STATION_NAME_PEAK">
+    <en>The Slab</en>
+    <zh>罪石牢狱</zh>
+  </entry>
+  <entry key="STATION_NAME_AQUEDUCT">
+    <en>Putrified Ducts</en>
+    <zh>腐殖渠</zh>
+  </entry>
+  <entry key="TUBE_NAME_UNDER">
+    <en>Underworks</en>
+    <zh>圣堡工厂</zh>
+  </entry>
+  <entry key="STATION_NAME_BONE">
+    <en>The Marrow</en>
+    <zh>髓骨洞窟</zh>
+  </entry>
+  <entry key="STATION_NAME_CORAL_TOWER">
+    <en>Blasted Steps</en>
+    <zh>蚀阶</zh>
+  </entry>
+  <entry key="STATION_NAME_GREYMOOR">
+    <en>Greymoor</en>
+    <zh>灰沼</zh>
+  </entry>
+  <entry key="TUBE_NAME_ARBORIUM">
+    <en>Memorium</en>
+    <zh>忆廊</zh>
+  </entry>
+</sheet>

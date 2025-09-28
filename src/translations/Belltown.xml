@@ -1,0 +1,735 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Belltown">
+  <entry key="COURIER_SHOP_REPEAT_ACT3">
+    <en>&lt;page=S&gt;Miss courier! Pharloom’s bugs are wishing, waiting, sad and scared. The deliverings are needed, now more than more!</en>
+    <zh>&lt;page=S&gt;救星小姐！纺络的虫子们又怕又急，都等着物资呢！现在送货是十分要紧的事！</zh>
+  </entry>
+  <entry key="RELIC_DEALER_RELICS_FIRST">
+    <en>But what’s this?! I smell something on you right now! You have a relic for me!</en>
+    <zh>慢着！你身上有味儿！揣着古董呢！</zh>
+  </entry>
+  <entry key="DOCTOR_CURSE_FIX_OFFER">
+    <en>Aha! The spines! Specimen, you have them! Then it is time, indeed! Bzzt! To free you of your wriggling torment, and show my genius clear! </en>
+    <zh>啊哈！棘刺到手！病患，该手术了！滋滋！让你摆脱痛苦，见证本神医天才手段吧！</zh>
+  </entry>
+  <entry key="SHOPKEEP_CURSED">
+    <en>Oh my, what a state you’re in! You look like you’re one breath away from keeling over dead!&lt;hpage&gt;I will continue to live, madam, but I am indeed afflicted. A parasite has taken root within my shell... Perhaps you have something that could help me? A medicine?&lt;page&gt;Mmm, not so sure I stock anything like that. You should ask Pavo there. It’s his job to give directions and such, so he may have some useful advice.&lt;page&gt;In the meantime... shopping itself is a type of medicine, isn’t it? You should buy something now. Given your condition, this might be your last chance!</en>
+    <zh>圣堡在上！你这模样看着像要咽气了似的！&lt;hpage&gt;还死不了，女士，但确实抱恙。甲壳遭受寄生……可有药能治？&lt;page&gt;唔，我这不卖药。去问帕沃吧，他管指路，或许有招。&lt;page&gt;话说回来……购物也算疗愈嘛！趁还能动快买点，过了这村没这店！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_CURSED_TALK_1">
+    <en>&lt;page=S&gt;Ughhh! What-what is this? Your body is all twisting, creaking! Horrid fiend inside! &lt;hpage&gt;A parasite has lodged deep inside my shell. It has taken some strength of will to keep its thrashing at bay.&lt;page=T&gt;With a shell like such, you cannot be taking no deliverings! Infect the goods you would-would!&lt;hpage&gt;Very well, couriers. If I somehow manage to remove the parasite, I may return to offer aid.</en>
+    <zh>&lt;page=S&gt;呃！什、什么东西？您甲壳里在扭动！有怪物！&lt;hpage&gt;是寄生体，暂时压制住了。&lt;page=T&gt;这样可不能送货！会污、污染货物！&lt;hpage&gt;有道理，若我能除掉它，或许再来帮忙。</zh>
+  </entry>
+  <entry key="BELLHERMIT_MEET">
+    <en>What do you want, slave?&lt;hpage&gt;Slave? I am a traveller, stranger, not a slave.&lt;page&gt;Grnk. Exactly what a slave would say. Begone!</en>
+    <zh>你来做什么，奴隶？&lt;hpage&gt;奴隶？我是旅者，不是奴隶。&lt;page&gt;哼，奴隶都这么说。滚！</zh>
+  </entry>
+  <entry key="GREETER_REPEAT2_ACT3">
+    <en>&lt;hpage&gt;Soon, Pavo, I shall calm the chaos. Please guard these bugs safe till then.&lt;page&gt;Of course, dear resident! Of course! Know all our faith, and our wishes go with you.</en>
+    <zh>&lt;hpage&gt;帕沃，我会尽快平息混乱。在此之前，请守护好这些虫子。&lt;page&gt;放心吧，亲爱的居民！请带上我们全体的信念与祈愿前行吧。</zh>
+  </entry>
+  <entry key="SHOP_ITEM_ROSARYSTRING_M_DESC">
+    <en>Loose rosaries will escape your pockets at the worst of times, and I’m a deft claw at stringing them tight! I can string you a whole necklace, safe and stylish.</en>
+    <zh>危急时刻念珠易失，但我能将其编成项链！既牢靠又时髦！</zh>
+  </entry>
+  <entry key="COURIER_SHORT_QUEST_ACCEPTED">
+    <en>&lt;hpage&gt;I have taken your wish, Tipp. If I find your brother safe, I’ll be sure to send him back this way.&lt;page&gt;My many thanks, miss saving! You are brave-brave. Same as brother! My faith goes all with you!</en>
+    <zh>&lt;hpage&gt;我接下了你的祈愿，若找到皮尔，会让他回这里。&lt;page&gt;多谢救星小姐！您和皮尔一样勇、勇敢！祝您好运！</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_REPEAT">
+    <en>Up there, in that Citadel, the fabled oil is waiting. Bestow it upon this fine pinmaster, and your blade shall sing louder yet.&lt;hpage&gt;I will find the oil, pinmaster. Keep your skills sharp.</en>
+    <zh>圣堡藏着秘油。取来此油，你的针鸣将响彻纺络！&lt;hpage&gt;我会寻得此油，请针匠磨好利爪等候。</zh>
+  </entry>
+  <entry key="DOCTOR_CURSE_OFFER">
+    <en>Now now! What’s all this? Infested are you, bzzt?&lt;page&gt;Do you even know who I am? Why, ‘tis the great Yarnaby, genius physician, unfairly outcast, who now towers before you!&lt;hpage&gt;I apologise for intruding upon your work, but if you are the skilled physician you claim, I ask your assistance.&lt;hpage&gt;A parasite has wormed its way inside of me. Its roots twist and pull inside my shell, draining my strength. If you possess the skills and tools, I would see it removed.&lt;page&gt;Bzzt! Well, well! So you’re a special, sickly specimen, are you?! That changes matters, yes. Turns them on their head!&lt;page&gt;Let me see. Hm. Not haunted, indeed. No Silk-sickness. But something strange has certainly clawed its way in!&lt;page&gt;These “roots” that torment you so... I’m not altogether familiar with them, but it matters not!&lt;page&gt;If there’s something nasty inside a shell that must come out, we use great Yarnaby’s Extricator! It’s your only hope, bzzt!&lt;page&gt;...Hmmm, but to crack your stiff shell we’ll first need some extra strength. The healing can be done, yes! But before that my mighty Extricator needs an upgrade!</en>
+    <zh>哟哟！这是什么情况？被寄生了，滋滋？&lt;page&gt;知道我是谁吗？伟大的雅纳碧！遭庸才排挤的天才医师！&lt;hpage&gt;冒昧打扰，但若您真如自称般医术高明，还请相助。&lt;hpage&gt;有寄生体钻入了我的躯壳，在体内扎根生长，吸收气力。若您真有本事，请帮我去除。&lt;page&gt;滋滋！哎哟！特殊病例啊？！这就另当别论了！&lt;page&gt;让本神医瞧瞧。嗯……非邪咒非丝病。但确实有怪东西钻进去了！&lt;page&gt;折磨你的'根须’……虽然不常见，但无所谓！&lt;page&gt;只要是壳里有脏东西，就用本神医的剥离机！这是你的唯一希望，滋滋！&lt;page&gt;……但想撬开你这硬壳，得先升级机器！</zh>
+  </entry>
+  <entry key="SHOP_ITEM_SHARD_POUCH">
+    <en>Travellers should always keep spare shards close by. We Bellharters were once praised for our fine claw-work. An art lost on most modern pilgrims... excepting yourself I’m sure.</en>
+    <zh>旅者该随身带碎片。钟心镇的虫昔年以各种技艺闻名，如今朝圣者都不懂……你除外。</zh>
+  </entry>
+  <entry key="BELLHERMIT_SAVED_3">
+    <en>What a persistent little worm you are. Amuse me then. Why did you cut those poor bugs from their comforting curse?&lt;hpage&gt;There was old power in the creature that guided the thread, and a talent of Silk, now taken, that shall prove useful to me.&lt;hpage&gt;That the town is freed and its service returned is a benefit too. I may ofttimes feel myself apart from these bugs, but even I recoil to see Silk strung in such sickening service.&lt;page&gt;Grnk. To free them was no favour. But the gathering of power... In that goal, we may understand each other some.</en>
+    <zh>真是阴魂不散的虫子。行啊，陪我解个闷。为何要把那些可怜虫从舒坦的诅咒里拽出来？&lt;hpage&gt;操控丝咒的古兽有我要的力量，它的灵丝天赋现已归我。&lt;hpage&gt;顺带让镇子回复往常也算好事。我虽与这些虫子不同，但见到灵丝被这般滥用也觉得恶心。&lt;page&gt;哼……蠢材才会解救他们！不过夺取力量这点……咱们倒是臭味相投。</zh>
+  </entry>
+  <entry key="RELIC_DEALER_RELICS">
+    <en>Ahh... I smell something on you. Heavy with the past, you are. You have a relic for me, don’t you?</en>
+    <zh>啊哈……闻着老灰味儿了。你肯定藏着好货！</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_OFFER">
+    <en>&lt;hpage&gt;Your skills are impressive. My needle sings from your care. But I must ask, can the blade be honed further?&lt;page&gt;You seek further sharpening? Further than Plinney does provide? Impertinence! But... Maybe? But... No...&lt;hpage&gt;You hesitate? Then it is possible? Are you incapable? Should I seek others within the kingdom?&lt;page&gt;Wait! Yes. Seek not others, but an oil, fabled and fine. With it the Citadel once brought gleaming edge and point to its pins.&lt;page&gt;Though the Citadel’s pinmasters are long past, some small store of that miraculous elixir may remain within its halls.&lt;page&gt;Were even a meagre drop pilfered, and gifted upon Plinney, your blade could shine brighter still...&lt;page&gt;Just know, dear friend, the veiled bugs would be oh so unkind to the thief who’d claim that fine prize for themself.</en>
+    <zh>&lt;hpage&gt;针匠手艺了得，此针经你打磨如获新生。但还能更锋利么？&lt;page&gt;还想更锋利？嫌普林尼手艺糙？真是无礼！不过……或许？但……不行……&lt;hpage&gt;犹豫？那就是可行？难道你办不到？我得另寻高匠？&lt;page&gt;慢着！不用找别家，但要找油。传说圣堡藏着秘油，昔年靠它磨出绝世神锋。&lt;page&gt;虽说圣堡针匠早已绝迹，但没准还囤着点。&lt;page&gt;偷来几滴给我，您这针刃还能更亮……&lt;page&gt;但丑话说前头，覆面虫对偷油贼可不客气。</zh>
+  </entry>
+  <entry key="SHOP_ITEM_TOOL_POUCH_DESC">
+    <en>You’ve a tool pouch on you? I can add a few pockets so you can carry more tools, and more shards to make’em. My sewing skills are quite renowned in these parts.</en>
+    <zh>带着工具袋？我可以给你多缝几格，附近就数我的手艺最好了。</zh>
+  </entry>
+  <entry key="COURIER_SHOP_MEET">
+    <en>&lt;page=S&gt;Miss saving! We are together, at last! My brother and myself, both returned to safety’s safe.&lt;hpage&gt;I am pleased you have found one another. If you are planning to venture out again, I would urge you reconsider for the sake of your shells.&lt;page=S&gt;We know it! Muchly-much! We cannot be leaving this home of bells. No more! Heres we will remain, for shells to survive. &lt;page=T&gt;But we instead did plan, together, clever! Yes-yes. Those pilgrims, them that pass, maybes they will help? For small reward as we have?&lt;page=T&gt;Even you, miss saving! Yes-yes! Saving is done. Our wishes now we ask. Now is time for miss courier!</en>
+    <zh>&lt;page=S&gt;救星小姐！我们兄弟终于团圆啦！&lt;hpage&gt;我很欣慰你们能重逢，但若再想外出送货，要小心。&lt;page=S&gt;知、知道啦！我们再也不离开钟心镇了。保命要紧。&lt;page=T&gt;但我们想了个妙、妙招！让路过的朝圣者帮忙送货，给点小报酬！&lt;page=T&gt;救星小姐也可以！您送完了货，换我们帮您实现愿望！&lt;page=S&gt;每单顺、顺利送达，客户都会给念珠！快看待送清单！</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_REOFFER">
+    <en>Lost within that fortress above, the fabled oil of my profession... Such sharpness one could achieve...&lt;page&gt;But, oh! ‘Tis an awful thing. Too cruel, the many stabbing pins you’d face in its seeking.</en>
+    <zh>圣堡里头藏着的针匠秘油……那锋利劲……&lt;page&gt;唉，但要寻得，这一路上有多险呐！多少针刺等着扎穿您的壳呢。</zh>
+  </entry>
+  <entry key="SHOPKEEP_PAINT_POST">
+    <en>We’ve made a good start on the painting, resident! Give us a little more time and your bell’ll be shining like new.</en>
+    <zh>刷漆进度不错！再给点时间，保准焕然一新！</zh>
+  </entry>
+  <entry key="BELLHERMIT_SNARE">
+    <en>Hnff... So the slave comes seeking?&lt;page&gt;I’ve heard it. Wishing on a world cut free, yes? Along with my nephew up there. Sounds he’s sunk as simple as you.&lt;hpage&gt;Will you not provide your aid, bug? This trap he plans requires power, and I suspect you’re hoarding more than most.&lt;page&gt;Oh no. I’ll give it. Not in the hope you’ll succeed... Bah! In that, there’s slim chance. I give just to see that restless energy unleashed.&lt;page&gt;So much soul, found and formed. Generations of it, all going to waste. Better it’s given a chance to blaze.</en>
+    <zh>嗤……奴隶来讨东西了？&lt;page&gt;听说了。想挣脱束缚，取得自由？还有我侄儿掺和？他跟你一样蠢。&lt;hpage&gt;不帮忙吗？他那陷阱缺少力量，而你囤了不少吧？&lt;page&gt;帮，当然帮。但不是指望你们成事……哈！八成没戏。就想看你们折腾。&lt;page&gt;囤了世代的灵魂全在浪费，不如放把火烧个痛快。</zh>
+  </entry>
+  <entry key="DOCTOR_DOOR_INSPECT">
+    <en>A locked bellhome.&lt;br&gt;Call out?</en>
+    <zh>上锁的钟居。&lt;br&gt;要喊门吗？</zh>
+  </entry>
+  <entry key="DOCTOR_LIFEBLOOD_STATE">
+    <en>&lt;hpage&gt;Madam, my shell has been overcome by a foreign force. Plasmium, it has been called in your land.&lt;hpage&gt;Though the substance provides some regenerative aid, I feel my mind at dangerous risk of being overtaken.&lt;page&gt;Bzzt! Maybe overtaken is good? Better even? Why go thinking yours is a mind so precious?&lt;page&gt;The great Yarnaby treats the sick! Not those that benefit from their afflictions. Enjoy its advantage and leave me in peace!</en>
+    <zh>&lt;hpage&gt;女士，我的躯壳遭异物侵占，在您这似乎叫生质液。&lt;hpage&gt;此物虽然能疗伤，但我感到意识有被夺舍的风险。&lt;page&gt;滋滋！被占岂不是更好？你这脑子有啥金贵的？&lt;page&gt;本神医只医病患！不医因病得利的。享你的福去，别烦我！</zh>
+  </entry>
+  <entry key="RELIC_DEALER_MEET_ACT3">
+    <en>What? What now? What’s all that great racket? What is it?&lt;hpage&gt;Greetings, ma’am. If you are disturbed by the rending of these lands, I fear some blame is mine to bear.&lt;page&gt;Pah. I care not for the miseries and struggles of them outside! None of them have my keen sense, my respect for the past!&lt;page&gt;You seem able, though. Sneaky, too. If you find any fine old stuff, anything with a history to it, bring it here. I’ll take it.</en>
+    <zh>干嘛呢？这么闹腾？叮叮咣咣的搞什么？&lt;hpage&gt;女士，若您被外面的响动打扰，那我很抱歉。&lt;page&gt;嘁。外头虫子的死活关我屁事！他们没我这眼力见儿，不懂敬重历史！！&lt;page&gt;但你倒像块料，鬼精的。要是找到老物件，有年头的，就往这儿送。我收！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_INPROGRESS_1">
+    <en>&lt;page=S&gt;Keep safe, miss courier! You and your deliverings, fragile both can be!</en>
+    <zh>&lt;page=S&gt;保重啊救星小姐！您和货物都伤不得！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_INPROGRESS_3">
+    <en>&lt;page=T&gt;Do not wait, miss courier! You hold the deliverings, so nows you must away! A quick-quick bug, you must become yourself.</en>
+    <zh>&lt;page=T&gt;救星小姐，别耽搁了！拿着货物赶紧动、动身吧！要快！</zh>
+  </entry>
+  <entry key="COURIER_SHORT_GOURMAND_HINT">
+    <en>&lt;hpage&gt;Tipp, I have promised a wish to an old bug of the Citadel, ingredients for a dish to stir a gourmand’s stomach.&lt;hpage&gt;Do you hold in your belongings a Courier’s Rasher? It seems a key element.&lt;page&gt;Courier’s Rasher! Not me, miss savings! Smelly, fatty foods, good for most. Not good for my sensitive stomach!&lt;page&gt;You want-want my brother, Pill! Pill is big. Pill loves rashers! Can prepare them fresh for you, but first, Pill must be found, saved, safe-safe!</en>
+    <zh>&lt;hpage&gt;蒂普，我答应了圣堡老虫做道大菜，需要送货虫的熏肉。&lt;hpage&gt;你身上有存货吗？若有，我想讨要。&lt;page&gt;熏肉？我才不带！油腻腻的，我肠胃可受不了！&lt;page&gt;您应、应该找皮尔！他块头大，爱死熏肉了！但得先找到他，救、救回来！</zh>
+  </entry>
+  <entry key="DOCTOR_CLOSED_QUEST_END">
+    <en>Bzzt! What now?! Not another bother for the great Yarnaby?&lt;hpage&gt;Madam, I have returned with the spines requested. Allow me to enter, that you may remove this parasite from my shell.</en>
+    <zh>滋滋！又干嘛？！还来烦伟大的雅纳碧？&lt;hpage&gt;女士，棘刺已准备好，请开门为我去除寄生体。</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADE_PROMPT">
+    <en>Sharpen Needle?</en>
+    <zh>要磨针吗？</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADED_COMPLETE">
+    <en>That blade! By claw! My finest work by far. Pharloom may ail, but across its morbid dim, your needle will shine bright. </en>
+    <zh>瞧这针刃！利爪啊！我毕生的杰作！旅者，纵使纺络病入膏肓，您的针芒也将照亮死寂！</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_SPA_DESC">
+    <en>Care to refresh yourself in a steaming spa? Given your hard labours, I’m sure your shell would thank you for it.</en>
+    <zh>想不想泡个蒸汽浴？劳累这么久，甲壳该舒坦下！</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_LIGHTS_DESC">
+    <en>Twine-strung globes filled with gleamflies. These’ll brighten up even the darkest bell.</en>
+    <zh>充满荧虫的玻璃球串成的灯串，再黑的钟屋都能照亮！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_DUSTPENSSLAVE_RETRY">
+    <en>&lt;page=S&gt;Another egg. Another grossy eater queen. Delivery for the big-big creature beyond the roaches. Maybe this one travels safer than last?</en>
+    <zh>&lt;page=S&gt;又一枚噬丝蛆女王的卵，给蟑螂堆旁的大、大块头。这次会比上回安全些吗？</zh>
+  </entry>
+  <entry key="DOCTOR_SLAP_PRE">
+    <en>Specimen, we must! There are secrets to uncover, bzzt! Progress can not be denied!</en>
+    <zh>病患，我们必须搞清楚！有秘密就有揭秘，滋滋！进步是不可阻挡的！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_CURSED_REPEAT">
+    <en>&lt;page=T&gt;With your shell all a’wriggle, you can’t be taking no deliverings! Infect the goods you would!&lt;hpage&gt;Very well, couriers. If I somehow manage to remove the parasite, I may return to offer aid.</en>
+    <zh>&lt;page=T&gt;甲壳里有东西在动，不能送货！会搞砸的！&lt;hpage&gt;嗯，若能解决寄生体，我会再来。</zh>
+  </entry>
+  <entry key="DOCTOR_CURSE_ACCEPT">
+    <en>Bzzt! Bravo! A specimen who sees my brilliance!&lt;page&gt;The task for you is simple. Head over into that tangled mess of cages, on the roads above the moors.&lt;page&gt;Two bugs hide away there, Benjin and Crull. Simple types, woefully ignorant... yet they have been useful in procuring me materials.&lt;page&gt;It’s Steel Spines I need. A full bundle of them, forged hard and sharp. Tougher than I’ve ever had. Tough enough to crack stone! And to pierce your thick shell, bzzt!&lt;hpage&gt;Then prepare your machine for my return, madam. I shall soon return with the spines, for I am eager to see myself freed.</en>
+    <zh>滋滋！上道！是个识货的病患！&lt;page&gt;任务很简单：去沼地上边的铁笼堆找班金和克鲁尔。&lt;page&gt;那俩蠢货有我要的钢棘——要硬过石头！利到能捅穿你厚壳！&lt;hpage&gt;那请女士准备好机器，我这就去取棘刺来。</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_DESK_NAME">
+    <en>Desk</en>
+    <zh>桌子</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_ACCEPT">
+    <en>&lt;hpage&gt;I will find the oil, pinmaster. My needle has seen much use in this cruel kingdom, and I suspect many more battles are due. I will value your further skills upon my blade. &lt;page&gt;It is a dangerous wish you accept of this poor pinmaster. I welly hope this one’s professional desire does not cost you your life.</en>
+    <zh>&lt;hpage&gt;我会把油取来，针匠。往后旅途愈发凶险，这针刃还多有用处，你的手艺对我大有助益。&lt;page&gt;我这祈愿确实太过危险，希望您别为此送了命。</zh>
+  </entry>
+  <entry key="BELLHERMIT_CURSED_REPEAT">
+    <en>If you insist on surviving your infestation, seek the one exiled from Bellhart, little Yarnaby. She was chased out, high up into the moors, last I heard.</en>
+    <zh>非要治这寄生物，就去找被钟心镇放逐的雅纳碧。听说她被赶到灰沼了。</zh>
+  </entry>
+  <entry key="BELLHERMIT_REPEAT">
+    <en>I’ll waste no more words on a slave. Begone.</en>
+    <zh>懒得跟奴隶废话了，滚。</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_FIXER_RETRY">
+    <en>&lt;page=T&gt;More deliverings for those sad survivors in their cave below. &lt;page=S&gt;Deliver them quick-quick, miss courier! They will help much.</en>
+    <zh>&lt;page=T&gt;再给下面洞穴里那些可怜虫送趟货吧。&lt;page=S&gt;快点送去吧，救星小姐！能帮大忙呢！</zh>
+  </entry>
+  <entry key="GREETER_TWISTED_BUD_HINT">
+    <en>That cry upon you, sister! Those are the sour sobs of a grey and twisted thing.&lt;hpage&gt;You speak of the bud? It is a mysterious thing indeed. In the dank swamps above the moor, I sought towards its plaintive wails, and found it resting there... Waiting, it almost seemed.&lt;hpage&gt;But you speak of its form, without sighting it upon me. Is it a thing familiar to you?... Have you heard these cries before?&lt;page&gt;Aye, yes! Not your own specimen, surely, but way back, other travellers did sometimes carry similar. Odd types they all were. Offerings they’d call the crying things, and towards the core of Shellwood they would trek.&lt;page&gt;Never I did see one again, not the buds nor the bugs that brought the gift...&lt;page&gt;If you’re planning to follow their path, I’ll wish on your safety, but ‘tis an ill omen to hear such sad sounds returned after so long.</en>
+    <zh>旅者小姐，你身上那哭声！是灰色扭曲之物发出的哀鸣。&lt;hpage&gt;你是说那花苞？确实神秘。我在沼泽深处追寻它的哀鸣，发现它就躺在那里……仿佛在等待着什么。&lt;hpage&gt;可你未见过实物却知其形态，莫非你认得此物？……或是曾听过这哭声？&lt;page&gt;啊，没错！以前确实有旅者携带过类似之物，尽是些怪客。他们称这哭嚎之物为祭品，然后向着甲木林深处进发。&lt;page&gt;此后我再未见过那些花苞，也没再遇见过献祭之虫……&lt;page&gt;如果你要去寻找它们的踪迹，愿你平安。但这悲哭声重现，实属不祥之兆。</zh>
+  </entry>
+  <entry key="RELIC_DEALER_MEET">
+    <en>What? What, what? Who is it? What’ve you got? What do you want?&lt;hpage&gt;I am just a traveller, one hoping you were not too badly affected by the cursed snare set upon this town.&lt;page&gt;Pah! What binds them outside means nothing to me. None of them have my keen sense, my respect for the past!&lt;page&gt;You seem able, though. Sneaky, too. If you find any fine old stuff, anything with a history to it, bring it here. I’ll take it.</en>
+    <zh>干嘛？要干嘛？你是谁？带了什么来？想要什么？&lt;hpage&gt;过路客而已，想看看你有没有被镇上的邪咒祸害。&lt;page&gt;嘁！外头虫子中招关我屁事！他们没我这眼力见儿，不懂敬重历史！&lt;page&gt;但你倒像块料，鬼精的。要是找到老物件，有年头的，就往这儿送。我收！</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_COMPLETED">
+    <en>And now! This pinmaster must work! Let the sharpening begin!</en>
+    <zh>好了！针匠该干活了！纺络许久未见的锋芒该再现了！</zh>
+  </entry>
+  <entry key="BELLHERMIT_SAVED_1_ALT">
+    <en>Hff. The noise from above has returned, that pitiful clamour. The threads have been cut.&lt;page&gt;You... It was you who cut them. Do not deny it!&lt;hpage&gt;Why should I deny it, sir? I defeated the cruel creature above the town, and awoke the old bell stilled by Silk. Are you displeased?&lt;page&gt;Displeased! If I breathe, if I live, I am displeased. Only the dead are satisfied.&lt;page&gt;You are a slave, and a nuisance... begone.</en>
+    <zh>嗤，上头又闹腾了，可怜虫们吵吵嚷嚷。丝线被斩断了。&lt;page&gt;你……就是你干的！别想抵赖！&lt;hpage&gt;何必抵赖？我斩了镇子上头的恶兽，敲醒了被灵丝封禁的古钟。你不满意？&lt;page&gt;满意？喘气的活虫哪有满意的！只有死虫才消停。&lt;page&gt;你是奴隶，是瘟神……滚。</zh>
+  </entry>
+  <entry key="GREETER_TALK1_ACT3">
+    <en>Resident! What a marvel you are, continuing to dare the wilds and darkness, and returning home to us unscathed.&lt;hpage&gt;I return with hope worth sharing, Pavo. I have seen a way to calm this chaos, one I now work swiftly towards.&lt;hpage&gt;The chance remains slim, but if this town can hold, and my efforts succeed, Pharloom may see a future yet.</en>
+    <zh>居民！您真是奇迹般的存在，外面如此黑暗危险，不仅仍旧只身闯荡，还能安然无恙地回来。&lt;hpage&gt;我是带着值得分享的希望回来的，帕沃。我已找到平息混乱之法，正全力推进。&lt;hpage&gt;虽然希望渺茫，但只要你们能继续坚守，只要我的努力能成功，纺络或许仍有未来。</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_GRAMAPHONE_DESC">
+    <en>The Citadel crafted some marvellous machines, and this looks to be one of its finest! Apparently sent by some creepy slitherer hidden away up there, for sale only to you! </en>
+    <zh>圣堡精工杰作！据说是上头阴森爬行的家伙带来的，这宝贝我只卖给你！</zh>
+  </entry>
+  <entry key="RELIC_DEALER_EMPTY">
+    <en>It’s my calling it is, to gather the relics of the past. If you find any fine old stuff, anything with a history to it, bring it here. I’ll take it.</en>
+    <zh>我活着的念想就是收罗老古董！要是找到老物件，有年头的，就往这儿送。我收！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_NOTACCEPTED">
+    <en>&lt;hpage&gt;I can not aid you, couriers. Not now. My own tasks are too pressing to consider taking on your deliveries. &lt;hpage&gt;With luck, some pilgrims may pass with sound mind and strength remaining. They may choose to promise your wishes.&lt;page=T&gt;Then we shall pray they come, miss saving! Our thanks go muchly with you, still.</en>
+    <zh>&lt;hpage&gt;我帮不了，有要事在身。&lt;hpage&gt;若有神志清醒的朝圣者路过，或许他们会帮忙。&lt;page=T&gt;那就祈祷他们快来！还是谢谢您！</zh>
+  </entry>
+  <entry key="BELLHERMIT_SAVED_1">
+    <en>Hff. The noise from above has returned, that pitiful clamour. The threads have been cut.&lt;page&gt;You... It was you who cut them down. Do not deny it!&lt;hpage&gt;Why should I deny it, sir? I severed the thread and defeated the creature guiding the curse upon the town. Are you displeased?&lt;page&gt;Displeased! If I breathe, if I live, I am displeased. Only the dead are satisfied.&lt;page&gt;You are a slave, and a nuisance... begone.</en>
+    <zh>嗤，上头又闹腾了，可怜虫们吵吵嚷嚷。丝线被斩断了。&lt;page&gt;你……就是你干的！别想抵赖！&lt;hpage&gt;何必抵赖？我斩了丝线，灭了给镇子下咒的怪物。你不满意？&lt;page&gt;满意？喘气的活虫哪有满意的！只有死虫才消停。&lt;page&gt;你是奴隶，是瘟神……滚。</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_FLEATOPIA">
+    <en>&lt;page=T&gt;We’s heard the word! Many fleas together, settled high in Pharloom, calling out their wants of us!&lt;page=T&gt;Clever grubbers, fleas, but theys too need-need our deliverings. See them served, miss courier! Always goodly-good to gain the thanks of fleas.</en>
+    <zh>&lt;page=T&gt;听说跳蚤们在上面建了窝！找我们要货！&lt;page=T&gt;跳蚤们都很机、机灵，送货交朋友准没、没错！</zh>
+  </entry>
+  <entry key="SHOPKEEP_MEET_ALT">
+    <en>&lt;hpage&gt;Greetings, shopkeeper. I’d ask to trade, but your store seems a little bare.&lt;page&gt;Ahem! Well, yes. Our little town’s seen some dire times, and now my courier’s gone and got themself lost.&lt;page&gt;But don’t worry! I’ve a few small things, still! And if that courier ever makes it safely back, we’ll have plenty more treasures to haggle over.</en>
+    <zh>&lt;hpage&gt;日安，店主。本想交易，但货架有点空。&lt;page&gt;咳！时局艰难，送货虫又跑丢了。&lt;page&gt;别急！还有点小玩意！等那小子平安归来，货品管够。</zh>
+  </entry>
+  <entry key="DOCTOR_LIFEBLOOD_STATE_REPEAT">
+    <en>Bzzt! Leave me in peace! The great Yarnaby treats the sick! Not those that benefit from their afflictions. Enjoy its advantage and leave me in peace!&lt;hpage&gt;Very well, madam. I did not mean to waste your time.</en>
+    <zh>滋滋！别烦我！本神医只医病患！享你的福去！&lt;hpage&gt;好吧，女士。无意浪费您的时间。</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADE_FINISHED">
+    <en>Bonva! It is done, brave warrior. By my expert claw, your strange blade has received some fast-sharp shine. It shall cut cleaner than ever before.&lt;hpage&gt;Your efforts provide great aid, pinmaster. You have my thanks.</en>
+    <zh>好了！完活啦勇士！经我利爪打磨，您这针刃寒光逼人，削铁如泥啊！&lt;hpage&gt;有劳了，针匠。感激不尽。</zh>
+  </entry>
+  <entry key="COURIER_SHOP_MEET_ACT3">
+    <en>&lt;page=T&gt;Miss courier! What horror here! The caves shake-shake, crying pain of hurt most savage.&lt;page=T&gt;And see all our poor friends below, newly found, crowded inside this home of bells, hearts fast for fear.&lt;page=S&gt;But what-what for you? You are here to help, yes-yes? The deliverings, they are needed now at most! When caves turn dark, the deliverings are essential, more than more.</en>
+    <zh>&lt;page=T&gt;救星小姐！这儿太可怕了！洞窟震得像在惨叫！&lt;page=T&gt;钟居底下挤满了可怜的新朋友，全都吓坏了。&lt;page=S&gt;但您、您是来帮忙的对吧？现在最需要送货了！情况越危险，送货就越要紧！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BROKEN">
+    <en>&lt;page=T&gt;The deliverings! They are broken-broke! Gone and spilled!&lt;page=T&gt;Do not lose hearty-heart, miss courier! This is Pharloom! Danger, deadly. In times as these, is a rarer thing for goods to get to their goings.&lt;page=S&gt;Would you try-try again? For the bugs so much in need of their deliverings?</en>
+    <zh>&lt;page=T&gt;货毁、毁了！全丢了！&lt;page=T&gt;别灰、灰心！纺络现在处处凶、凶险，能送到才是稀罕事！&lt;page=S&gt;要再试一次吗？那么多虫等着货救、救命呢！</zh>
+  </entry>
+  <entry key="BELLHERMIT_SAVED_2">
+    <en>Those bugs, cowering in their gleaming bells. Grnk. They claim a common calling, to serve the pilgrims as they make their path upwards.&lt;page&gt;Such a crucial role they award themselves, surely worthy of praise!&lt;page&gt;A sweet lie, of course. They, like their predecessors, are simply too weak and fearful to venture any farther. A settlement born from indolence.</en>
+    <zh>那些缩在亮堂钟屋里的怂包，哼。自诩要侍奉攀登圣堡的朝圣者。&lt;page&gt;给自己戴高帽，真当是个人物！&lt;page&gt;甜美的谎言罢了。他们和前代一样，不过是没胆往上爬的懦夫。这镇子就是怠惰的产物。</zh>
+  </entry>
+  <entry key="SHOPKEEP_MEET_ACCEPTEDWISH">
+    <en>&lt;hpage&gt;He would have been wise to do so. If, on my travels, I happen upon the errant bug, I’ll make sure to send him your way.</en>
+    <zh>&lt;hpage&gt;他倒是聪明。要是在路上遇见那迷途虫，我会让他来寻你。&lt;page&gt;那就谢谢了！敢闯荒野帮助同类的虫可不多见。</zh>
+  </entry>
+  <entry key="PINSMITH_BELLTOWN_MEET_OFFER">
+    <en>By claw! Are you then our saviour in the shell? Standing so calm and cool on entrance to Plinney’s bellhome!&lt;hpage&gt;What clue, sir, tells of my part in your town’s liberation?&lt;page&gt;Why your blade, fierce warrior! Any fine pinmaster would detect the sign of deadly work upon that needle’s edge.&lt;page&gt;T’was a vile curse that struck here. No simple bug, nor basic pin could have granted our release. No!&lt;page&gt;That blade though, so expertly clutched in claw. That could welly have met the task. It was you who cut us free, yes?&lt;hpage&gt;I’ll grant you’ve sharp sight, pinmaster, and your saving is fortuitous. This blade that restored your town would now benefit from your service.&lt;page&gt;Welly, yes! I’ve a busy backlog of pins to tend, but your gracious heroism decrees that unique weapon receives my care this very moment! What’s say I take a look?</en>
+    <zh>利爪啊！您就是我们的大救星？踏进普林尼的华美钟居还这般气定神闲！&lt;hpage&gt;先生怎么知道我插手了镇子的事？&lt;page&gt;看你的针刃啊勇士！但凡有点眼力的针匠都认得出这针尖染过血。&lt;page&gt;那邪咒凶恶得很，寻常虫和寻常针可破不了。但您这把利刃……&lt;page&gt;握爪稳当，做工精良！肯定是您救了我们，对不对？&lt;hpage&gt;眼力不错，针匠。你既然得救，这针刃也该由你照料了。&lt;page&gt;好嘞！虽然我手上活计不少，但英雄的面子最大，立马给您开小灶！这就让我看看针刃？</zh>
+  </entry>
+  <entry key="RELIC_DEALER_POSTWINDOW">
+    <en>More, then! Bring me more relics of the past! Records, seals, idols! Let’s gather up the history of the world and hoard it all here, nice and safe!</en>
+    <zh>继续！多找点老物件！典籍、印玺、神像！把全纺络的过往都放在这儿才安稳！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_REPEAT">
+    <en>&lt;page=S&gt;Many deliverings still need making, miss courier! We is much needing your help, when you is ready for the giving of it-it!</en>
+    <zh>&lt;page=S&gt;还有好多货要送呢！等您有空了一定帮帮忙！</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_UPGRADED">
+    <en>Done, it is! Marvel of Pharloom! See how it gleams, your long, fine blade. Havast! That the pins of our land all once held such shine. So much we have lost...&lt;hpage&gt;This is fine service, pinmaster. It has been a long age since I have seen my needle such. I had not remembered the finesse of its forging.&lt;page&gt;Welly, ho! It is certain! Yours is a blade of finer make than most, one of few that could bear even more sharpening.&lt;page&gt;If ever upon your long road more oil is acquired, seek my service with haste! Who knows what form we could find deeper within your weapon’s sharpened steel!</en>
+    <zh>成啦！纺络的奇迹！瞧这寒光，长刃如新。唉！想当年万针皆有如此锋芒，如今……&lt;hpage&gt;针匠果然手艺精湛。此针许久未曾焕发如此神采，几乎快忘了它的锻造之精良。&lt;page&gt;哎呀呀！没错！您这针刃底子绝佳，还能更锋利！&lt;page&gt;要是再得到秘油，就来找我！谁知这针还能磨砺出何等锋芒！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_NOTACCEPTED_REPEAT">
+    <en>&lt;hpage&gt;For the moment, I can not aid you, couriers. My own tasks are too pressing.&lt;page=T&gt;Then we shall hope you see them soon achieved! If the deliverings are not made, Pharloom’s bugs will suffer muchly-much!</en>
+    <zh>&lt;hpage&gt;眼下实在帮不了，有要事在身。&lt;page=T&gt;希望您早日达成目标！要是货送不到，大伙可遭、遭殃咯！</zh>
+  </entry>
+  <entry key="PINSMITH_BELLTOWN_POST_SAVED">
+    <en>&lt;hpage&gt;It is fortune to see you returned, pinmaster. The roads between here and that deep woods’ grave crawl with violent foes. I had concerns for your safety.&lt;page&gt;Brave warrior, my hero! T’was indeed a fearful scramble home, but safe I now am! And a warmly pleasure to see you too, for the world has darkened indeed!&lt;page&gt;In such times, the task for a pinmaster is clear, to polish and sharpen and refine, suchly that the glimmer of your blade may pierce through the encroaching murk!</en>
+    <zh>&lt;hpage&gt;能见你平安归来真是万幸，针匠。从深林墓穴到此地的路上遍布凶险，我确实有些担心你的安危。&lt;page&gt;勇敢的战士，我的英雄！回家路上确实惊险万分，但我现在安全了！在这愈发黑暗的世道能遇见您真是令我欣慰！&lt;page&gt;在这危难时刻，针匠的职责再清晰不过——打磨、淬锋、精炼，让您的兵刃锋利到足以刺破这渐浓的黑暗！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_DUSTPENSSLAVE">
+    <en>&lt;page=S&gt;We is got requested times a’many for this, a queeny egg of those eaters of Silk. Wish from big, sticky creature, near many roaches caged. Wants it muchly! &lt;hpage&gt;The creature, I have met them, a timid, fawning sort. Nonetheless, their tending of Silkeaters can be a benefit for me.&lt;hpage&gt;If a queen delivered could improve their harvest, I too would gain from the trade.&lt;page=S&gt;Miss courier, and big, sticky creature? Both are like to liking things so grossly-gross? We think yous are muchly strange...</en>
+    <zh>&lt;page=S&gt;接了个怪单！蟑螂笼子旁的黏糊大块头想、想要噬丝蛆女王的卵！&lt;hpage&gt;我见过那大块头，是个怂包。他们养蛆虽然恶心，但对我有利。&lt;hpage&gt;要是能提高他们的产量，倒也划算。&lt;page=S&gt;救星小姐和黏糊怪都好重口！真搞不懂……</zh>
+  </entry>
+  <entry key="COURIER_SHOP_FIRST_MEET_ACT3">
+    <en>&lt;page=T&gt;Miss saving! We thought us safe, brothers together at last, but what horror even here! The caves shake-shake, crying pain of hurt most savage.&lt;page=T&gt;And see all our poor friends below, newly found, crowded inside this home of bells, hearts fast for fear.&lt;page=S&gt;But what-what for you? You are here to help, yes-yes? The deliverings, they are needed now at most! Alas, for our shells to survive we cannot now leave this home of bells. No more. Heres we must remain.&lt;page=T&gt;But we instead did plan, together, clever! Yes-yes. Those strong ones, like yourselfs, maybes they will help? For small reward as we have?&lt;page=S&gt;Our savings is done, and the caves turn dark. Now the deliveries are needed, desperate. Now is time for miss courier! </en>
+    <zh>&lt;page=T&gt;救星小姐！本以为我们兄弟团聚就安全了，谁知这里也遭了灾！洞窟震、震个不停，像在惨叫似的。&lt;page=T&gt;您看钟居底下这些可怜的新朋友，全都挤作一团，心都快吓跳出来了。&lt;page=S&gt;但您、您是来帮忙的对吧？现在最需要送货了！可我们这副样子……实在不敢离开钟居了。只能守在这儿。&lt;page=T&gt;不过我们想、想了个聪明主意！像您这样的强者，说不定愿意帮忙？酬劳虽然不多……&lt;page=S&gt;我们的积蓄都花光了，洞窟也危在旦夕。现在送货是救命的事！该您出马了，救星小姐！</zh>
+  </entry>
+  <entry key="RELIC_DEALER_MEET_ALT">
+    <en>What? What, what? Who is it? What’ve you got? What do you want?&lt;hpage&gt;I am just a traveller. May I ask, though, what work occupies you here?&lt;page&gt;What occupies me, you ask? The past! The voices of ages gone by, they speak to me through what is left behind.&lt;page&gt;Those outside, those dreary pilgrims and bell-adorned dullards... none of them have my keen sense, my respect for the past!&lt;page&gt;You seem able, though. Sneaky, too. If you find any fine old stuff, anything with a history to it, bring it here. I’ll take it.</en>
+    <zh>干嘛？要干嘛？你是谁？带了什么来？想要什么？&lt;hpage&gt;过路客而已，请问您在忙什么？&lt;page&gt;忙什么？忙着挖掘历史！这些老物件都会跟我诉说过往呢！&lt;page&gt;外头那些呆瓜朝圣者和钟里的蠢货……没一个懂行！&lt;page&gt;但你倒像块料，鬼精的。要是找到老物件，有年头的，就往这儿送。我收！</zh>
+  </entry>
+  <entry key="GREETER_HOUSE_MID_TALK">
+    <en>Your continued help to Bellhart has not gone unnoticed, miss traveller.&lt;page&gt;In these terrible times, it’s rare enough to see any wish granted. Now to see such care come from a stranger! Why, that’s simply unheard of!&lt;hpage&gt;I have seen the scale of suffering wrought across Pharloom, Pavo. And I will admit, fulfilling these requests may do little to affect the cause... Even still, I have found it a rewarding task.&lt;hpage&gt;To aid another... The small warmth of it, I had almost forgotten.</en>
+    <zh>您对钟心镇的援助有目共睹，小姐。&lt;page&gt;这世道，能实现祈愿已是奇迹，更何况还是出自外乡客！闻所未闻！&lt;hpage&gt;我也目睹纺络遍地疮痍。实现祈愿虽难以撼动其根源，但总能得到些许慰藉。&lt;hpage&gt;助虫为乐……这份悸动，我几乎忘却。</zh>
+  </entry>
+  <entry key="RELIC_DEALER_NO_RELICS">
+    <en>It’s my calling it is, to gather the relics of the past. Look at my collection, if you fancy! Look, look!</en>
+    <zh>我活着的念想就是收罗老古董！想看我的珍藏不？来！快看看！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_BONETOWNFIXER_RETRY">
+    <en>&lt;page=T&gt;Goods for the camp at base, where pilgrims’ journey starts. We muchly hope this delivering goes well!</en>
+    <zh>&lt;page=T&gt;给骸底营地的货物，希望这趟一路顺利！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_INPROGRESS_2">
+    <en>&lt;page=S&gt;You have the good-goods, miss courier! Now only the deliverings needs doing. Don’t wait here-here!</en>
+    <zh>&lt;page=S&gt;救星小姐，拿、拿了货物，快出发吧！</zh>
+  </entry>
+  <entry key="DOCTOR_CURSE_REPEAT">
+    <en>Off with you! Head over to that tangled mess of cages, in those roads above the moors.&lt;page&gt;Those two bugs, Benjin and Crull, can surely scrounge up what I need. A full bundle of hard, sharp spines!</en>
+    <zh>赶紧去！找沼地上边铁笼堆的班金和克鲁尔，拿钢棘回来！</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADE_4_POST">
+    <en>That blade! By claw! It is done. Sharper than this pinmaster would have believed achievable. Shining pale and clear.&lt;page&gt;Bonva! Stranger, you have granted my wish, and more. Your blade is accomplishment to match those of great pinmasters past.&lt;page&gt;Pharloom may ail, but throughout its morbid dim, your needle will shine bright. </en>
+    <zh>瞧这针刃！利爪啊！完成了！这苍白皎洁的锋芒，简直超乎我这针匠想象。&lt;page&gt;太好了！您不止完成了我的祈愿，还助此针达成了不逊于古匠的成就！&lt;page&gt;纵使纺络病入膏肓，您的针芒也将照亮死寂！</zh>
+  </entry>
+  <entry key="RELIC_DEALER_DECLINE">
+    <en>What? You refuse to pass it on? What good do you think it’ll do you?!</en>
+    <zh>干嘛？为什么不交？留着能下崽啊？！</zh>
+  </entry>
+  <entry key="GREETER_REPEAT_ACT3">
+    <en>&lt;hpage&gt;Stay safe, Pavo. Keep these poor bugs close and their spirits from sorrow.&lt;page&gt;None shall leave these walls, dear resident, and all still are welcome. Any that can be saved.&lt;page&gt;Better we bugs be together, here at the end of it all.</en>
+    <zh>&lt;hpage&gt;保重，帕沃。保护好这些可怜虫，别让他们陷入绝望。&lt;page&gt;没有虫会离开这里的，旅者小姐！这里永远欢迎任何幸存的虫。&lt;page&gt;末日将至，能聚在一起已值得庆幸。</zh>
+  </entry>
+  <entry key="PINSMITH_SAVED_REPEAT">
+    <en>&lt;hpage&gt;Stay alert on your journey home, pinmaster. If you encounter other bugs upon the road, I advise you avoid them as you are able.</en>
+    <zh>&lt;hpage&gt;回程多留神，针匠。路上遇虫尽量躲着点。</zh>
+  </entry>
+  <entry key="DOCTOR_SLAP_POST">
+    <en>Auugh! Bzzt! Again the world lashes out at me!&lt;page&gt;But the pain... it means nothing to Yarnaby!&lt;page&gt;Nothing can deter my great work! Not for long! I must not be stopped!</en>
+    <zh>嗷！滋滋！这该死世道又针对我！&lt;page&gt;但痛苦……对雅纳碧而言没有意义！&lt;page&gt;什么都挡不住本神医的伟业！什么都不行！</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_PAINT_NAME">
+    <en>Bell Lacquer</en>
+    <zh>钟漆</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_FIXER">
+    <en>&lt;page=S&gt;A new destination this-this! And desperate these supplies are asked.&lt;page=T&gt;Deliverings for them-them escaped from the crumbled camp beside the bone, those few still living.&lt;page=T&gt;Hurting and hungry, those few must be. </en>
+    <zh>&lt;page=S&gt;这、这是新目的地！这批物资要得急！&lt;page=T&gt;送给骸骨营地的幸存者，就剩那么几个了。&lt;page=T&gt;他们肯定又惊又饿。</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_GOURMAND">
+    <en>&lt;page=T&gt;It is yours, miss courier! Meats prepared fresh as fresh, in our special way.&lt;page=T&gt;Miss courier must know! Our rasher is delicious, strong, fatty food, but is not long to last. If not stored quick, it-it is flavour fast turns foul.&lt;hpage&gt;If the rasher is likely to spoil, then I shall make fast for the Citadel. I’ve no desire to see your efforts, or your scant supplies wasted.</en>
+    <zh>&lt;page=T&gt;给您备好啦！送货虫特制熏肉，仅此一家！&lt;page=T&gt;熏肉香浓肥美但不耐存！得赶紧送！&lt;hpage&gt;既然如此，我即刻动身。不枉你们辛苦。</zh>
+  </entry>
+  <entry key="FISHER_DLG_03">
+    <en>Shellwood’s grown more dangerous in recent times, but I’m a lifelong catcher, right down to my core. Ain’t nothing that’ll change that. </en>
+    <zh>甲木林近来愈发凶险，但我生来就是渔夫的命，避不开。</zh>
+  </entry>
+  <entry key="SHOP_ITEM_MULTIBIND">
+    <en>I rarely sell objects as intriguing as this. Supposed to improve a bug’s natural ability to heal! Can’t say I’ve felt its effects myself, but then I keep more healthy than most.</en>
+    <zh>这可是少见的好玩意！据说能提升自愈力。我身子一向健康，倒是没感受过。</zh>
+  </entry>
+  <entry key="RELIC_DEALER_GOT">
+    <en>Yes... This fits my collection well. Look, then! Look at what I have!</en>
+    <zh>真不错……这玩意配得上我的珍藏。瞧啊！这才叫宝贝！</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADE_DECLINED">
+    <en>Ahh. ‘Tis your choice, warrior. If you’re choosing different in times ahead, Plinney shall be here to provide eager aid.</en>
+    <zh>唉。随您，勇士。改主意了随时来找普林尼。</zh>
+  </entry>
+  <entry key="GREETER_CURSED">
+    <en>My sickly friend! Pavo can sense that you are ailing, but fret not! For in Bellhart, pilgrims may rest and recuperate until they are fit to travel once more!&lt;hpage&gt;Your hospitality is appreciated, Pavo, but I fear rest alone will not suffice for this illness. A parasite has taken root inside me, one I can not remove through strength alone.&lt;hpage&gt;Tell me, are there any you know who might help me? A healer, or a physician?&lt;page&gt;A physician? Well... we did once have one... A frightening fiend! Callous and crude in her practice. For the health of glorious Bellhart we voted, unanimously, to expel her!&lt;page&gt;I know not where she buzzed away to, and I prefer to keep it that way! But if you really must seek her out, you might start by speaking to the old hermit skulking beneath the Bellway.&lt;page&gt;Yes... that hermit seems mad, but he has a way of accumulating knowledge. He might be able to tell you where that wretched physician is lurking.</en>
+    <zh>旅者小姐！帕沃察觉到您疾病缠身，但无需担心！您可以待在钟心镇疗养至康复！&lt;hpage&gt;心领了，但此症并非静养可以治愈，甲壳内寄生体难以驱除。&lt;hpage&gt;你可知道哪里能寻得医者？&lt;page&gt;医者？过去镇上曾有一虫……但手段可怕至极！因疗法过于粗暴遭全民驱逐！&lt;page&gt;如今行踪不明，但执意要寻找的话……可以问问在钟道下藏身的老隐士。&lt;page&gt;那老头虽然疯疯癫癫，但知道不少，或许能告知庸医的下落。</zh>
+  </entry>
+  <entry key="GREETER_HOUSE_FULL_REPEAT">
+    <en>We are lucky to have you, miss traveller. In Bellhart you are always welcome, you and your big, sharp blade!</en>
+    <zh>有您相助真是钟心镇之幸！这里随时欢迎您，以及您的针刃！</zh>
+  </entry>
+  <entry key="GREETER_TALK_1">
+    <en>&lt;hpage&gt;What do you remember of your time caught upon the thread, Pavo?&lt;page&gt;Oh, ahh. It is difficult... Upsetting even to think. Strange, sad memories, not my own, and my own thoughts smothered amidst the tangle.&lt;page&gt;If one could choose to connect themself to something grander, that curse may seem a wonder. For myself, it now seems a horror.</en>
+    <zh>&lt;hpage&gt;帕沃，还记得被邪丝操控时的记忆么？&lt;page&gt;唉……回想起来有些痛苦……尽是陌生悲伤的回忆，自身的思绪仿佛被扼杀其中。&lt;page&gt;要是自愿投身于宏伟存在，这份诅咒或许是恩赐。但对于我……终究是梦魇。</zh>
+  </entry>
+  <entry key="SPINNER_INTRO">
+    <en>Oh! Ohhhh! They shall join... Union upon your thread... A gift, for your waking. A world strung to serve...&lt;hpage&gt;Creature, your claws guide those cursed threads, but you are not their source. What role do you play in this vile affliction?</en>
+    <zh>哦！哦哦哦！他们将归附……缠绕在您的丝线中……献予您的苏醒之礼，一个以侍奉之名编织的世界……&lt;hpage&gt;怪物，你虽然操纵邪丝却并非其源头。在这卑劣诅咒中你扮演什么角色？</zh>
+  </entry>
+  <entry key="COURIER_SHOP_FIRSTDELIVERY">
+    <en>&lt;page=T&gt;But hold, miss courier! Before depart you mustly know, all deliverings are in needing of great-great care!&lt;page=S&gt;No bump! No shake! No taking funny transport! Only leg, claw, wing must be used to see them where they need be going.&lt;page=S&gt;Carry the deliverings safe-safe, miss courier! Cared for like your own shell.</en>
+    <zh>等等！出发前得知道：所有货物必须轻拿轻放！&lt;page&gt;不准磕！不准晃！只能用腿脚翅膀运送！&lt;page&gt;要当成自己甲壳一样护着货！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_FLEATOPIA_RETRY">
+    <en>&lt;page=T&gt;Those good-goods, all packed fresh for the clever fleas. Take thems up for us, miss courier. Maybe new friends you might be making with your service? Yes-yes? </en>
+    <zh>给聪明跳蚤们的新鲜货。送去说不定能交新朋友？对、对吧？</zh>
+  </entry>
+  <entry key="DOCTOR_CLOSED">
+    <en>Bzzt! Who’s bothering me now?! Leave the great Yarnaby in peace! Shoo shoo!</en>
+    <zh>滋滋！谁在聒噪？！让伟大的雅纳碧静静！去去去！</zh>
+  </entry>
+  <entry key="DOCTOR_CLOSED_CURSED">
+    <en>&lt;hpage&gt;I am sick, madam, and badly in need of your service. I’ve become host to a vile infestation. It leeches my strength, and attempts to wrest control of my shell.</en>
+    <zh>&lt;hpage&gt;我身体抱恙，女士，需要您诊治。壳里寄生了恶心玩意，不仅吸我气力，还想夺舍躯体。</zh>
+  </entry>
+  <entry key="DOCTOR_CONVO_1">
+    <en>Halfwits, the lot of them! Such grand achievement, wrought by Yarnaby! A bug healed full by my marvellous machine!&lt;page&gt;A few weaklings expire, and they all raise their claws. Is there no place for progress in their tiny minds?!</en>
+    <zh>全是蠢材！这是雅纳碧创造的奇迹！被神机治愈的病患！&lt;page&gt;死几个弱虫就举爪抗议！他们的小脑仁就这么容不下进步？！</zh>
+  </entry>
+  <entry key="FISHER_DLG_02">
+    <en>Bellhart’s lost much of its lustre, but we still offer some comfort to the pilgrims who climb this high.</en>
+    <zh>钟心镇是风光不再了，但还能为登高的朝圣者提供些慰藉。</zh>
+  </entry>
+  <entry key="GREETER_MEET_ACT3">
+    <en>&lt;page&gt;Dear resident! To see you return alive is such a glimmer of light, even as the dark descends upon us all.&lt;hpage&gt;All these pilgrims gathered here... I had not expected so many to survive. The destruction beyond these bells suggested worse.&lt;page&gt;Indeed! Things should be worse! Would be worse, but for your tall warrior friend, her of those shining rings, who so fortunately chose our town to camp.&lt;page&gt;That brave bug now acts alone to guard our town and those pilgrims who flee for it.&lt;page&gt;For her efforts, our shells have stayed safe, though how long she can remain at that task... I do not dare to consider.</en>
+    <zh>&lt;page&gt;旅者小姐！看到您平安归来，就像一道萤火驱散了钟心镇的黑暗。&lt;hpage&gt;想不到有如此多朝圣者幸存，镇外的景象可是惨烈得很。&lt;page&gt;情况确实本应更糟！但幸运的是有您这样的勇士驻守。&lt;page&gt;正是有您的保护，朝圣者们才能逃难至此。&lt;page&gt;有您在，镇子才能暂时安全，但不知这景象能维持多久……</zh>
+  </entry>
+  <entry key="COURIER_SHORT_QUEST_AVAILABLE">
+    <en>My brother, Pill, still out there. Help-help others he must be, taking good-goods all across. I’m is only hope he stay safe-safe, but gone long is Pill. Too long!&lt;page&gt;On the wishwall, I’m placed my wish-wish, that my brother returns to me, and these bells of safety’s safe.&lt;hpage&gt;I shall check the wall, Tipp. If your wish aligns with my journey, I may track him down.</en>
+    <zh>我兄弟皮尔还在外面送、送货，他肯定还在帮、帮别的虫，但去太久了！&lt;page&gt;我在祈愿墙上许、许了愿：希望他平安归来，还有钟心镇也永远平安。&lt;hpage&gt;我会查看祈愿墙，蒂普。若是顺路，或许能找到他的踪迹。</zh>
+  </entry>
+  <entry key="SHOPKEEP_MEET_EXPANDED_ALT">
+    <en>&lt;hpage&gt;Greetings, shopkeeper. Given the hardships of the lands beyond these bells, your store seems in remarkable order. &lt;page&gt;Aye, well, we’ve had our tough times too! Of once bustling Bellhart, only a few residents now remain.&lt;page&gt;But things are turned around for old Frey! Ho, yes! The town at least feels briefly at peace, and my courier has returned with fresh goods to trade. &lt;page&gt;Whether pilgrim or traveller, mine is the finest store you’ll have the fortune to visit throughout our blighted lands.</en>
+    <zh>&lt;hpage&gt;日安，店主。钟心镇外世道艰难，你这铺子倒打理得井井有条。&lt;page&gt;唉，我也吃过苦头的！往日热闹的钟心镇，如今只剩几口虫啦。&lt;page&gt;但老芙蕾时来运转！哈哈！镇子外总算消停会儿，送货虫也带新鲜货回来了。&lt;page&gt;不管是朝圣者还是旅者，走遍这破地儿也找不着比我家更棒的铺子！</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_SPA_NAME">
+    <en>Personal Spa</en>
+    <zh>私人温泉</zh>
+  </entry>
+  <entry key="SHOPKEEP_SAVED_COURIER_1">
+    <en>&lt;hpage&gt;Greetings again, shopkeeper. Your shelves are looking better stocked. I see the courier made their way back to you safely.&lt;page&gt;Oh yes, the cheeky little so-and-so came by and dropped his cargo off at last.&lt;page&gt;Poor dear was so shaken by his misadventures, I almost didn’t have the heart to dock his earnings.&lt;page&gt;All’s well now, though! Take a look at the lovely new goods I have available!</en>
+    <zh>&lt;hpage&gt;日安，店主。货架充实不少，看来送货虫平安归来了。&lt;page&gt;可不，那小滑头终于把货带到了。&lt;page&gt;可怜虫吓得够呛，我都不忍扣他工钱。&lt;page&gt;现在齐活啦！瞧瞧这些新宝贝！</zh>
+  </entry>
+  <entry key="SPINNER_INTRO_2">
+    <en>Ohhhh! She is here! The rare birthling! Precious child of Wyrm and Weaver!&lt;page&gt;Spawn of those who dared to flee. She has found her way home... at last.&lt;page&gt;How fine her shell, and Silk, and claw... For you, mother... let me claim her all for you!</en>
+    <zh>哦哦哦！她来了！稀世子嗣！沃姆与织者的结晶！&lt;page&gt;逃亡者的后代，终于归乡……&lt;page&gt;多么完美的甲壳、灵丝与利爪……母亲啊……让我将她献予您！</zh>
+  </entry>
+  <entry key="SHOPKEEP_FURNISHING">
+    <en>A fine purchase you’ve made! Allow us a moment and we’ll get it set up in your bellhome.</en>
+    <zh>好买卖！稍等就给你装点进钟居。</zh>
+  </entry>
+  <entry key="RELIC_DEALER_CYLINDER">
+    <en>Ah! That relic you possess! A cylinder of the Citadel’s sacred vault! That there is a mighty find. You will give it, yes?&lt;hpage&gt;I will not, seeker. To extract what knowledge it holds, this cylinder requires a listening device, one you do not possess.&lt;hpage&gt;If it were passed, whatever secrets it contains would remain forever hidden from us both.&lt;page&gt;Pah... If it will not speak to me, I do not want it! Don’t trouble me until you have something worth my taking!</en>
+    <zh>啊！你手里那东西！圣堡秘库的音筒！这可是大发现。交给我吧？&lt;hpage&gt;不行，要听取其中知识，需要特殊机械，而你没有。&lt;hpage&gt;现在交出来，是埋没了它。&lt;page&gt;嘁……哑巴筒子我也不稀罕！弄到真宝贝再来！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BROKEN_SHORT">
+    <en>&lt;page=T&gt;The deliverings, all broken-broke? Would you try-try again, miss courier? Pharloom’s bugs are so much in need of your help!</en>
+    <zh>&lt;page=T&gt;货全毁、毁了？要再试一次吗？大伙可全指、指望您啦！</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_CANCOMPLETE_REOFFER">
+    <en>Bonva, traveller! You have the oil! Will you allow me to work wonder upon your blade?</en>
+    <zh>旅者！你真的带秘油来了！可以让我用在你的针刃上？</zh>
+  </entry>
+  <entry key="GREETER_MEET_ALT">
+    <en>Welcome, welcome, weary pilgrim! Though glorious Bellhart may be past its finest shine, it still remains the last friendly stop before the Citadel. &lt;page&gt;It is the task of I, fair Pavo, to extend the warmest of welcome to those passing devout, such as your good self!&lt;page&gt;Now! I insist you enjoy our remaining hospitality, if only for a moment. We’ve wares to buy and services to enjoy!&lt;page&gt;Even in our reduced state, you’ll find ours as cosy a stop as can be offered in these ailing lands.</en>
+    <zh>欢迎欢迎，疲惫的朝圣者！钟心镇虽不复往昔，但仍是攀登圣堡前最后一处友善驿站。&lt;page&gt;我，帕沃，专为虔行旅者献上最热忱的欢迎——比如尊驾您！&lt;page&gt;希望您能好好感受圣途前最后的余温！这里有货可购，有乐可享！&lt;page&gt;即便衰微，钟心镇仍是这病土中最温馨的歇脚处！</zh>
+  </entry>
+  <entry key="GREETER_CURSED_ACT_3">
+    <en>My sickly friend! I can sense that you are ailing. Has the black curse struck even your sturdy shell?&lt;hpage&gt;This illness stems from a different source, Pavo. A parasite has taken root inside me, one I can not remove through strength alone.&lt;hpage&gt;Tell me, are there any you know who might help me? A healer, or a physician?&lt;page&gt;A physician? Well... we did once have one... A frightening fiend! Callous and crude in her practice. For the health of glorious Bellhart we voted, unanimously, to expel her!&lt;page&gt;I know not where she buzzed away to, but the world beyond the bells is full of danger. If you must seek her service, I expect she would not have travelled far...</en>
+    <zh>哎朋友，你脸色不太好啊！帕沃一眼就瞧出来了。难道连你那坚硬的外壳，也被黑色的诅咒侵蚀了吗？&lt;hpage&gt;不，帕沃，这病根源另有其处，我体内寄生着异物，靠蛮力根本无法将它驱除。&lt;hpage&gt;你知道有谁能帮我摆脱异物吗？养疗师，医师都行？&lt;page&gt;有认识的医师吗？嗯……的确有过一个……不过是个恶魔！她行事冷酷，手段粗野。为了钟心镇的安宁，我们众口一辞，驱逐了她！&lt;page&gt;她嗡地飞走了，不知道去了哪儿。但钟声之外的世界，危机四伏。若你执意寻她的医术，我想她应该走得不远……</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_DECLINE">
+    <en>Welly, nay? Certainly you make the safer choice. Better to keep one’s shell intact. </en>
+    <zh>哎呀呀！保命要紧，理解理解。</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_PILGRIMSREST_RETRY">
+    <en>&lt;page=T&gt;Supplies for the rest-stop in the fields. We is used to like this delivering, when we was young and muchly brave.</en>
+    <zh>&lt;page=T&gt;远野驿站的补给，我们年轻时也经常送这里的货。</zh>
+  </entry>
+  <entry key="COURIER_SHORT_REPEAT">
+    <en>This town feel safe, just, but I’m is worries for others. Is Pharloom needing its good-goods?&lt;page&gt;Many bugs helped by us couriers, me and brother Pill. Special now when danger grows big-big. </en>
+    <zh>镇子暂时安全，但我担心别处，其他虫不需要货、货物吗？&lt;page&gt;我们送货虫兄弟俩，我和皮尔，可帮过不少虫。尤其现在世道这么凶、凶险。</zh>
+  </entry>
+  <entry key="SHOPKEEP_TAKEN_COURIER_1">
+    <en>I saw it! Took my wish off the board, you did! Heading out after my stray courier, then?&lt;hpage&gt;My own tasks see me travel far, shopkeeper. If, on my journey, I happen upon the errant bug, I’ll make sure to send them your way.&lt;page&gt;Then you’ll have my thanks and more! It’s a rare bug who’d brave the wilds to aid a fellow.</en>
+    <zh>我看见了！你接了我的祈愿？要去找我那跑丢的送货虫？&lt;hpage&gt;我本就需要远行，店主。要是在路上遇见那迷途虫，我会让他来寻你。&lt;page&gt;那可多谢了！如今肯为同类闯进荒野的虫可太难找了！</zh>
+  </entry>
+  <entry key="SHOP_ITEM_SPOOL_SEGMENT_DESC">
+    <en>For a spool bearing no Silk, it’s surprisingly heavy. Do you think perhaps it could be a gift left behind by the old creeping ones?</en>
+    <zh>虽是空的灵丝轴，但却挺沉。莫非是古织者留下的？</zh>
+  </entry>
+  <entry key="GREETER_CURSED_REPEAT">
+    <en>If you really must find that wretched physician, speak to the old hermit lurking beneath Bellhart. He knows much more than he admits of the world...</en>
+    <zh>如果您执意要寻找那庸医，可以问问镇子下方的老隐士。他肚子里藏的秘密可不少……</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADE_3_POST">
+    <en>Welly, done! What miracle to work again upon steel so fine. Few pins left in Pharloom could attain such a sheen!&lt;page&gt;You must tell me, traveller, wherever did you come upon so splendid a weapon?&lt;hpage&gt;The blade was a gift, given by a noble tribe of my homeland. They forged the strongest steel, though it was rarely seen beyond their hive.&lt;hpage&gt;That tribe has now long passed, and with them the secrets to their craft.&lt;page&gt;Ahhh. If they are gone, it’s a rarer piece than would be guessed! But what grand luck for this humble pinmaster to have worked with such a weapon!</en>
+    <zh>哎呀呀！成啦！圣油配上如此精钢，真是奇迹。纺络还剩几根针能有此锋芒！&lt;page&gt;旅者，我得问问你，哪里得来如此神兵？&lt;hpage&gt;故土一贵族部落所赠，其族以锻钢之术闻名，但成品鲜少外流。&lt;hpage&gt;该族早已灭绝，其锻造秘技随之消逝。&lt;page&gt;唉呀！竟然还是件孤品！我这卑微针匠能照料此针，也是三生有幸！</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_GRAMAPHONE_NAME">
+    <en>Gramophone</en>
+    <zh>留声机</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_SONGCLAVE_RETRY">
+    <en>&lt;page=T&gt;Good-goods for the pilgrims up high! Thems brave ones, settled up on that big-big Citadel.&lt;page=S&gt;These deliverings they will muchly need, miss courier. Carry them safe-safe, for us!</en>
+    <zh>&lt;page=T&gt;给高处朝圣者的货！敢待在圣、圣堡，都是勇士。&lt;page=S&gt;都是要紧物资，救星小姐务必平、平安送到！</zh>
+  </entry>
+  <entry key="DOCTOR_CURSE_FIX_DECLINE">
+    <en>Bzz-zzt! You hesitate! But your fear of my Extricator is born from mere ignorance, and you can overcome it with effort. Take a moment. Reconsider!</en>
+    <zh>滋——滋！犹豫什么！怕剥离机是你无知！给你点时间，再想想！</zh>
+  </entry>
+  <entry key="DOCTOR_CURSE_REOFFER">
+    <en>The great Yarnaby can rid you of those nasty “roots”, but to crack your stiff shell my mighty Extricator needs an upgrade!</en>
+    <zh>本神医能治你体内的“根须”。但要撬开壳，得先升级剥离机！</zh>
+  </entry>
+  <entry key="SHOPKEEP_GENERIC">
+    <en>Hello again! Fancy buying something special before your tasks whisk you away?</en>
+    <zh>又来啦！出远门前不挑点特别的？</zh>
+  </entry>
+  <entry key="COURIER_SHOP_MENTION_GOURMAND">
+    <en>&lt;hpage&gt;Couriers, I require a rasher of meat, for an old bug in the Citadel. Can you prepare it for me?&lt;page=T&gt;A bug up-up? Theys knows our finest food? If theys appreciate, we can prepare it most prompt! Miss courier has only to ask.</en>
+    <zh>&lt;hpage&gt;我需要熏肉送给圣堡老虫，能帮忙准备吗？&lt;page=T&gt;上头有虫识货？随时都能准备！救星小姐知会一声就行。</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_DESK_DESC">
+    <en>A sturdy desk is the heart of any bellhome! Use it to take stock of your situation or organise your artefacts.</en>
+    <zh>一张结实桌子可是钟居的核心！理货记账必备。</zh>
+  </entry>
+  <entry key="DOCTOR_CURSE_FIX_REOFFER">
+    <en>These roots that torment you so... I’m not altogether familiar with them, but it matters not!&lt;page&gt;If there’s something inside a body that must come out, we use great Yarnaby’s Extricator! It’s your only hope, bzzt!</en>
+    <zh>折磨你的“根须”……虽然不常见，但无所谓！&lt;page&gt;只要是壳里有脏东西，就用本神医的剥离机！这是你的唯一希望，滋滋！</zh>
+  </entry>
+  <entry key="DOCTOR_CURSE_DECLINE">
+    <en>You’d ask my aid, but won’t assist yourself? Then leave! Remain suffering, and stop being a bother to me, bzzt!</en>
+    <zh>想求医却不帮忙？滚！继续遭罪去吧，别来烦我，滋滋！</zh>
+  </entry>
+  <entry key="SHOPKEEP_GENERIC_ACT3">
+    <en>Fellow resident! The world quakes and crumbles, but while my shell stays safe, my shop stays open.</en>
+    <zh>好邻居！世道混乱，但只要我这壳不碎，铺子照开！</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_COMPLETE_REFUSE">
+    <en>Welly, nay? You hold the precious oil for yourself? For what purpose do you deny a pinmaster their work? There is only I alive to work with such a wondrous substance!</en>
+    <zh>哎呀呀！你怎么私藏圣油？不让针匠干活？整个纺络只剩我能用此圣物！</zh>
+  </entry>
+  <entry key="GREETER_CURSED_REPEAT_ACT_3">
+    <en>Find that wretched physician fast, dear resident! I know not where she buzzed away to, but the world beyond the bells is full of danger.&lt;page&gt;If you must seek her service, I expect she would not have travelled far...</en>
+    <zh>老乡啊，要找她得赶快了！她嗡地飞走了，不知道去了哪儿。但钟声之外的世界，危机四伏。&lt;page&gt;若你执意寻她的医术，我想她应该走得不远……</zh>
+  </entry>
+  <entry key="RELIC_DEALER_REMEET_ACT3">
+    <en>What? What now? What’s all that great racket, what is it?&lt;hpage&gt;Greetings, ma’am. It is only I. If you are disturbed by the rending of these lands, I fear some blame is mine to bear.&lt;page&gt;Blame, is it? Pah. Those who come after us can apportion blame as they see fit.&lt;page&gt;For now, my collection is the only thing that matters! I must protect it!</en>
+    <zh>干嘛呢？这么闹腾？叮叮咣咣的搞什么？&lt;hpage&gt;女士，是我。抱歉打扰到了您。&lt;page&gt;跟我有什么好说抱歉的，你在外头做的事自有后虫评判。&lt;page&gt;眼下我的珍藏最要紧！得保护好了！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_MASKMAKER">
+    <en>&lt;page=S&gt;A delivery deadly, dangerous, fiercably cold, for old bug up there that does need it much-much! Serves us all he does, so we serve back.&lt;page=T&gt;And great test for you, miss courier! Most challenging-challenge this. The lacquer to bring is sloshy-slosh. A hard carry even for the best.&lt;hpage&gt;I have met this maker. His is a long service, worthy of respect. I will be glad to aid his efforts.</en>
+    <zh>&lt;page=S&gt;急单！但危险！把液状漆送给山上的老工匠。他造福大伙，我们得回报。&lt;page=T&gt;救星小姐，这可是巨、巨大挑战！液状漆晃荡难带，专业送货虫都犯、犯难。&lt;hpage&gt;我敬重这位匠师，乐意相助。</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_PILGRIMSREST">
+    <en>&lt;page=S&gt;Deliverings for the waystation in the fields at Pharloom’s edge, a small rest-stop, still serving.&lt;page=S&gt;This journey is maybe not so very hard for you, miss courier? We think you is perfect for this wish!</en>
+    <zh>&lt;page=S&gt;给远野驿站的货，那小站还在营业。&lt;page=S&gt;对您不算难吧？您是最合适的人选！</zh>
+  </entry>
+  <entry key="GREETER_REPEAT">
+    <en>Welcome, welcome, travellers all! Rest your weary shell and revive your flagging spirit!&lt;page&gt;Bellhart! Glorious, gleaming, and very very safe! Stay a while before you begin your final climb!</en>
+    <zh>欢迎诸位旅者！请尽情舒展甲壳，养好精神！&lt;page&gt;这里是钟心镇！辉煌、璀璨，更重要的是十分安全！启程前不妨多留一会！</zh>
+  </entry>
+  <entry key="DOCTOR_MAGGOT_REPEAT">
+    <en>Go and rest! Bzzt! Free yourself of your trifling ailment and leave me in peace! The great Yarnaby has no time for petty maladies!&lt;hpage&gt;Very well, madam. I did not mean to waste your time.</en>
+    <zh>歇着去！滋滋！小病自己治，别烦我！本神医不接轻症！&lt;hpage&gt;好吧，女士。无意浪费您的时间。</zh>
+  </entry>
+  <entry key="SHOPKEEP_MEET_EXPANDED">
+    <en>&lt;hpage&gt;Greetings, shopkeeper. It seems you’ve recovered well from that silken affliction.&lt;page&gt;Ah! Well, I’m a clever bug. When that strange thread struck down from above, I shut up tight and huddled in my bellhome.&lt;page&gt;Might’ve been a problem for the others about here, but my store was flush with supplies, so no fear I’d go hungry.&lt;hpage&gt;Your preparedness served you well then, and it seems your store is still well-stocked.&lt;page&gt;Oh yes, even my supplier is back to work, so I have plenty of goods to show you!</en>
+    <zh>&lt;hpage&gt;日安，店主。看来你已从丝咒中恢复。&lt;page&gt;啊哈！我机灵着呢。那怪丝掉下来的时候，我立马缩进钟居紧闭门户。&lt;page&gt;其他虫或许遭了殃，但我存货充足，饿不着。&lt;hpage&gt;未雨绸缪是好事。而且……你这铺子货还挺全。&lt;page&gt;可不！连送货虫都平安回来了，新到的好货随你挑！</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADE_4_PRE_REOFFER">
+    <en>Welly now! You have the oil, traveller! Allow me to bring about a shine bright as none before!</en>
+    <zh>哎呀！你拿到油了，旅者！该让这柄针刃成为绝顶神兵了！</zh>
+  </entry>
+  <entry key="RELIC_DEALER_ASK_PROMPT_PLURAL">
+    <en>Give Relics?</en>
+    <zh>交付遗物？</zh>
+  </entry>
+  <entry key="DOCTOR_CONVO_2">
+    <en>But, hold! There is something more about you... I’ve sliced the shells of countless filthy pilgrims! All those plain, greying innards! Yours are something else entirely!&lt;page&gt;It tickles at my mind, still! Bzzt! What is it of your shell that eludes even my perfect, precise perception?&lt;page&gt;Would you show me, specimen? Go on! Let the great Yarnaby peer at your deeper, darker secrets!&lt;hpage&gt;I’ve no desire to see my shell pried into further, healer. Your service has succeeded, and taken its toll in pain. I hope only that I never again need to seek your aid.</en>
+    <zh>慢着！你壳里还有料……本神医剖过无数病壳！全是灰扑扑的！你的截然不同！&lt;page&gt;滋滋！到底是什么连本神医都看不透？&lt;page&gt;让我瞧瞧，病患！快！让本神医看看你藏着什么黑暗秘密！&lt;hpage&gt;我不想再被剖壳，医师。治疗虽然成功，但代价着实巨大。希望我们永远不用再见。</zh>
+  </entry>
+  <entry key="PINSMITH_FURTHER_REPEAT">
+    <en>If ever upon your long road more oil is acquired, seek my service with haste! Who knows what form we could find deeper within your blade’s sharpened steel!</en>
+    <zh>要是再得到秘油，就来找我！谁知这针还能磨砺出何等锋芒！</zh>
+  </entry>
+  <entry key="DOCTOR_CLOSED_ACT3">
+    <en>Gahh! Who keeps making all that racket out there?! Such horrid shaking and screaming. The crucial work is being spoiled! Bzzzt!</en>
+    <zh>哼！外面谁在吵吵？！震动和尖叫没完没了的！我的研究正值关键时刻呢！滋滋！</zh>
+  </entry>
+  <entry key="DOCTOR_CURSE_ENDED">
+    <en>The operation... a success! The simpletons hiding in that blasted bellvein would shudder into dust if they saw how much I achieve without them!&lt;hpage&gt;Madam... I shan’t lie, that was an ordeal such as I have rarely suffered...&lt;hpage&gt;And yet, the parasite does seem to have been... unbound somewhat. Whatever remnant still lingers in my shell feels calmed, enough for me to claim its power as my own.&lt;hpage&gt;Perhaps this is a fortunate result after all.&lt;page&gt;Of course. Of course! Great Yarnaby has healed you! Shout it through the caverns. Scream it from the great spinning towers!&lt;page&gt;Just make sure they hear you in the so-called ‘civilised’ settlements of this ignorant land!</en>
+    <zh>手术……成功！钟脉那帮庸才见这场面得吓成渣！&lt;hpage&gt;女士……不瞒您说，这真是毕生难忘的体验……&lt;hpage&gt;但寄生物似乎……松开了。残存部分很平静，反而能为我所用。&lt;hpage&gt;或许能算因祸得福了。&lt;page&gt;当然！本神医治好了你！快去各大洞穴传颂，去纺塔顶上喊出来！&lt;page&gt;让那些自诩“文明”的无知村镇都听听！</zh>
+  </entry>
+  <entry key="RELIC_DEALER_POSTWINDOW_COMPLETE_REPEAT">
+    <en>A mighty collection of the past, is it not? If only I could hoard all of history here with me!</en>
+    <zh>这等珍藏，够气派吧？我恨不得把全纺络的历史都囤在这儿！</zh>
+  </entry>
+  <entry key="SHOPKEEP_MEET_ACT3">
+    <en>Fellow resident, welcome home! The world may quake and crumble, and threaten its end, but while my shell stays safe my shop stays open.</en>
+    <zh>欢迎回来，好邻居！世道混乱，但只要我这壳不碎，铺子照开！</zh>
+  </entry>
+  <entry key="DOCTOR_CURSE_FIX_ACCEPT">
+    <en>Yes... yes! Bzzt! Finally, a specimen worthy of my mighty Extricator! My beautiful, unfairly-maligned Extricator! Come this way, bzzt...</en>
+    <zh>对……对！滋滋！终于有配得上我伟大的剥离机的病例！来这边，滋滋……</zh>
+  </entry>
+  <entry key="PINSMITH_BELLTOWN_MEET_OFFER_ALT">
+    <en>By claw! Who is this bold warrior, standing so calm and cool on entrance to Plinney’s bellhome!&lt;hpage&gt;Merely a traveller, sir, though one whose blade could benefit from your service.&lt;page&gt;Your blade! Of course, fierce warrior! Any fine pinmaster would detect the sign of deadly work upon that needle’s edge.&lt;page&gt;If your weapon sharpened would see our lands that much safer, then honour decrees it receives my care this very moment! What’s say I take a look?&lt;hpage&gt;</en>
+    <zh>利爪啊！这位踏进普林尼的华美钟居还面不改色的勇士是谁！&lt;hpage&gt;过路客而已，不过针刃需要照料。&lt;page&gt;您的针刃！好说好说！是个针匠都看得出这针尖沾过多少条命。&lt;page&gt;如果磨利此针能保护镇子，自然应该优先照料！这就开始？</zh>
+  </entry>
+  <entry key="DOCTOR_CLOSED_QUEST">
+    <en>Come back with those spines, or not at all! The great Yarnaby’s time is precious, bzzt! I will not be distracted from my work!</en>
+    <zh>带棘刺来再敲门！本神医时间金贵，滋滋！没空分心！</zh>
+  </entry>
+  <entry key="PINSMITH_SAVED_TALK">
+    <en>Ahh... how welly romantic t’would’ve been, had the lost pilgrims struck me down beside her grave, to lie together forever as the world crumbles all ‘round...&lt;page&gt;But fortune has claimed otherwise! And perhaps ‘tis best for this humble pinmaster to continue his trade a little longer. These uncertain times will bring much new work, I should think!</en>
+    <zh>啊……要是迷途朝圣者把我和她一块埋了，在崩塌世界里相拥长眠……该多浪漫……&lt;page&gt;但看来我命不该绝！或许纺络就是要我这卑微针匠多干几年。在这乱世，新活计可多着呢！</zh>
+  </entry>
+  <entry key="BELLHERMIT_CURSED">
+    <en>What’s this... twitching inside of you? A slave within a slave! Given over your shell to grow something greater?&lt;hpage&gt;A parasite has made its home within me. It saps my energy, and I can not purge it with strength alone...&lt;page&gt;Grnk. Lie down and die then, for all I care. Allow that wriggling thing its chance at life.&lt;page&gt;Or else... hff. Go seek the one exiled from Bellhart, little Yarnaby. She was chased out, high up into the moors, last I heard.</en>
+    <zh>你壳里……有东西在扭？奴隶套奴隶！养着个更大的玩意？&lt;hpage&gt;寄生体在我壳里扎了根，单凭气力无法驱散它……&lt;page&gt;哼。那就躺平等死，让那玩意替你活。&lt;page&gt;或者……嗤。去找被镇子放逐的雅纳碧，听说她被赶到灰沼了。</zh>
+  </entry>
+  <entry key="RELIC_DEALER_POSTWINDOW_FIRST">
+    <en>More, then! Bring me more relics of the past! Records, seals, idols! Let’s gather up the history of the world and hoard it all here, nice and safe!&lt;hpage&gt;If I happen upon more curiosities of this kingdom’s past, I may visit again. Until that time, keep yourself safe.</en>
+    <zh>继续！多找点老物件！典籍、印玺、神像！把全纺络的过往都放在这儿才安稳！&lt;hpage&gt;若找到这王国的遗物，我会再来。在此之前，请多保重。</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_MASKMAKER_RETRY">
+    <en>&lt;page=T&gt;More for you, miss courier! Lacquer, filled fresh, for the maker on the mount. We have much, so don’t worry for our supply. &lt;page=S&gt;To climb the frozen peak, it is a journey most difficult! Our thanks go full with you that tries again!</en>
+    <zh>&lt;page=T&gt;拿好，救星小姐！满满漆水送给山上匠师。货物管够！尽管送！&lt;page=S&gt;攀爬冰峰危险得很！多谢您原意冒险！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_GOURMAND_RETRY">
+    <en>&lt;page=T&gt;More meats for you, miss courier! Best you be delivering it swiftly quick! If left not stored, our rasher’s flavour fast turns foul.</en>
+    <zh>&lt;page=T&gt;熏肉准备好啦！救星小姐快快出发！放久了会变味！</zh>
+  </entry>
+  <entry key="DOCTOR_CLOSED_REPEAT">
+    <en>Shoo I say! Unless you’ve brought a worthy specimen, with something truly nasty inside them, bzzt! Otherwise, leave the great Yarnaby in peace!</en>
+    <zh>说了走开！除非带够劲的病患来，壳里长真家伙的！不然别烦本神医！</zh>
+  </entry>
+  <entry key="COURIER_SHORT_MEET">
+    <en>Miss saving! Thanks again for you and your big-big blade! I’m is made it back, and grumpy grub-grub got her goods. She seemed happy, even!&lt;page&gt;I’m won’t be travelling out for a while-while methinks. Too many beasties! All about theys are. Even those pilgrims! All now going angry, a bit like old grub-grub.&lt;hpage&gt;This town remains safe for the moment, Tipp. You’re a smart bug to stay within its walls.</en>
+    <zh>救星小姐！多亏了您，还有那柄长、长刀！我安全回来了，暴躁虫、虫婆婆也收到货啦！她可高兴呢！&lt;page&gt;我暂、暂时不出远门啦。外面全是发狂的野兽！连朝圣者都变凶了，跟虫婆婆一个德行。&lt;hpage&gt;眼下镇上还算安全，待在这里是明智选择。</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_PAINT_DESC">
+    <en>You’ve a good, solid bell up there, though its surface is showing its age. Why not have us paint it fresh? A protective coat and a little flair!</en>
+    <zh>你的钟屋结实但显旧。刷层护漆加点花纹如何？</zh>
+  </entry>
+  <entry key="FISHER_DLG_MEET">
+    <en>&lt;hpage&gt;You seem hard at work, good bug. Are you a hunter, of a sort?&lt;page&gt;Of a simple sort, aye. I’m a pondcatcher around these parts. The last remaining, in fact! &lt;page&gt;Us few Bellharters are badly needing for fresh food, so my lone shell’s carrying quite the responsibility.&lt;page&gt;At least Shellwood Pond’s still full of good meat, ‘specially if your aim with a longpin’s as good as mine.</en>
+    <zh>&lt;hpage&gt;你似乎很忙，也是个猎手？&lt;page&gt;勉强算吧，我是个渔夫。全镇最后一个渔夫！&lt;page&gt;钟心镇的虫个个饥肠辘辘，担子全压我的壳上。&lt;page&gt;好在甲木林池塘鱼肥，像我这样擅使长针的总能带点收获回来。</zh>
+  </entry>
+  <entry key="BELLHERMIT_SNARE_REPEAT">
+    <en>My part’s been given, slave. We’ve no more need to speak.&lt;page&gt;Go and spin your spider’s web. Allow our kingdom’s restless soul its chance to blaze.</en>
+    <zh>东西给了，奴隶。不跟你废话了。&lt;page&gt;去织你的网吧。让这王国里躁动的灵魂烧个痛快。</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADE_3_PRE">
+    <en>&lt;hpage&gt;I have more oil, pinmaster. Its acquisition was no small task, but if it aids my blade, those challenges will be well rewarded.&lt;page&gt;Even more oil? What preposterous luck! That unseen gift, in quantity unheard, discovered by a single bug!&lt;page&gt;Would you pass the oil, traveller, and perhaps a few rosaries for the ongoing effort? Allow this pinmaster to again work wonder upon your blade?</en>
+    <zh>&lt;hpage&gt;我又得到秘油了，针匠。取之不易，但为了磨砺针刃，冒点风险也是值当。&lt;page&gt;还有秘油？您这运气！这老些圣物竟都被同一只虫找到了。&lt;page&gt;那就把油给我吧，再赏几颗念珠当辛苦费如何？让我再施展一次针匠的绝活！</zh>
+  </entry>
+  <entry key="SHOP_ITEM_CRESTSOCKET_BELLHART">
+    <en>An exquisite item, containing a cherished memory. I have an excellent memory myself, but I’m sure you can make good use of it.</en>
+    <zh>用来记录珍贵记忆的雅物。我记性好用不着，不过你应该用得上。</zh>
+  </entry>
+  <entry key="DOCTOR_SLAP_INTRO">
+    <en>Don’t act the fool, specimen! Bzzt! Share more of yourself, that I may gain greater understanding! Learning! What other hope is there to save our blighted, thankless world?! &lt;hpage&gt;I have declined, bug. Whatever you seek, you shall not find it either upon or within my shell.</en>
+    <zh>别装傻，病患！滋滋！奉献自己，帮助本神医领悟！不然怎么拯救这不知感恩的世界！&lt;hpage&gt;我拒绝，你所求之物不在我身上。</zh>
+  </entry>
+  <entry key="GREETER_HOUSE_FULL_TALK">
+    <en>&lt;page&gt;Miss traveller! Thanks to your valiant contributions, our little town’s starting to feel like its old self again. Homes have been hoisted, and the square shines!&lt;hpage&gt;I have seen the changes myself, Pavo. It is pleasing to hear my contributions have not been in vain. &lt;page&gt;Indeed! Your generosity is a guide for others! We’ve only one thing now sorely missing...&lt;page&gt;Bugs! What is a town without its residents? Age, scarcity, deadly thread... Bellhart is beset by endless ills. Now there’s just us remaining few as you’ve met.&lt;page&gt;In recognition of your noble efforts, and as one small step to solving the problem, I have decreed a grand gift should be given! A bellhome of your very own!&lt;page&gt;A place to reflect. A bed to lay in. It’s hanging up there at the top, beside our good pinmaster. &lt;hpage&gt;I have no plans to settle, Pavo, but for now my task in Pharloom remains, and while it does, a residence may prove useful.&lt;page&gt;Of course! Of course! Your fortitude inspires us all! And if trouble ever descends anew, it surely won’t hurt to have a resident warrior close at claw!</en>
+    <zh>&lt;page&gt;旅者小姐！感谢您的无私奉献，钟心镇逐渐重现旧貌！屋舍纷纷重立，广场熠熠生辉！&lt;hpage&gt;镇上变化我也看在眼里，得知奉献没有付诸东流，很是欣慰。&lt;page&gt;正是！您的慷慨堪称楷模！现在只剩……&lt;page&gt;居民！没有居民哪有镇子？衰老、贫瘠、邪丝……钟心镇灾厄不绝。如今只剩您见过的寥寥数虫。&lt;page&gt;因此，为感谢您的无私援助，我们决定赠予您一份礼物——专属钟居！&lt;page&gt;钟居既是静思之所，也是安眠之榻。您的钟居位置高悬上方，与针匠大师为邻。&lt;hpage&gt;我无意久留，但现在既在此处，有居所也是方便。&lt;page&gt;好说好说！您的坚毅激励镇上众虫！况且万一有新的灾祸，身旁有勇士相助总是好的！</zh>
+  </entry>
+  <entry key="DOCTOR_REPEAT">
+    <en>If you refuse to share your secrets, then distract me no more, specimen! Bzzt!&lt;page&gt;There is still much work ahead for the great Yarnaby! Much thought, much learning!&lt;page&gt;Though the ungrateful world shuns me, still, by my own claws shall it be saved!</en>
+    <zh>不分享秘密就别烦我了，病患！滋滋！&lt;page&gt;本神医还有伟大事业！要继续想、继续学！&lt;page&gt;就算这不知感恩的世道唾弃我，我也要亲手拯救！</zh>
+  </entry>
+  <entry key="PINSMITH_SAVED_THANK_1">
+    <en>Welly’o! What a fearful fright you’ve saved poor Plinney from! Such a delight, at longest last, to see that fine needle dance and sing!</en>
+    <zh>哎呀呀！您可真是救了可怜的普林尼一命！终于又能瞧见亮闪闪的针刃起舞啦！</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADE_4_PRE">
+    <en>&lt;hpage&gt;Again, pinmaster, I must ask your skilled service. I bring another gland of oil.&lt;page&gt;Oil, so much! This bug is past surprise! It is time methinks, to see your blade’s work finished! To bring about a shine bright as none before!&lt;page&gt;Welly now! Why wait? Would you have me begin, traveller?</en>
+    <zh>&lt;hpage&gt;要再劳烦针匠了，新得一些秘油。&lt;page&gt;这么多圣油！我都不觉得惊讶了！不过是时候了，该让这柄针刃成为绝顶神兵了！&lt;page&gt;哎呀呀！还等什么！快开始吧？</zh>
+  </entry>
+  <entry key="PINSMITH_SAVED_THANK_2">
+    <en>&lt;hpage&gt;These are deadly roads to wander, pinmaster, especially with the black soaked threads tearing the lands apart.&lt;hpage&gt;Your greatest chance for safety lies in Bellhart, with your fellows. You can protect one another, and perhaps in time rebuild.&lt;page&gt;Oh yes, of course! T’was not Plinney’s wish to abandon his dear bellfriends, but with the world now ending, I had to come and say one last farewell to my sweet Melatolla.&lt;page&gt;I should be returning though, quite rightly. Our town will be needing a pinmaster’s fine work now more than ever!</en>
+    <zh>&lt;hpage&gt;如今世道凶险，针匠，尤其黑灾使各处分崩离析。&lt;hpage&gt;最安生的去处还是钟心镇，和同胞互相照应，或许还能重建家园。&lt;page&gt;是啊是啊！普林尼本不想抛下镇子里的老友，但想到要完蛋了，总得和亲爱的梅拉托拉道个别。&lt;page&gt;不过该回去啦！镇上如今可比任何时候都缺针匠手艺！</zh>
+  </entry>
+  <entry key="RELIC_DEALER_POSTWINDOW_COMPLETE">
+    <en>Yes... yes. This is a mighty collection indeed!&lt;page&gt;So many relics safely piled up in here, nice and safe! I’ve done so well to gather it all up!&lt;hpage&gt;If your collection pleases you, some acknowledgement of my own contribution to its growth is not undue.&lt;page&gt;Pah! Is it gratitude you seek?&lt;page&gt;I will allow you to keep viewing my collection. That is gratitude enough for what little you’ve given me!</en>
+    <zh>好……真好！这才是称得上是珍藏！&lt;page&gt;这么多遗物安安稳稳地堆在这儿！我得算是劳苦功高！&lt;hpage&gt;若您对这珍藏满意，也请念我几分功劳。&lt;page&gt;嘁！讨谢来了？&lt;page&gt;就你交的那点东西，准你多看几眼我的珍藏，就当是谢礼了！</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_BONETOWNFIXER">
+    <en>&lt;page=S&gt;Once was common, this delivery, for the bugs in their camp beside the bone. Now even this is-is challenge.&lt;page=T&gt;Down there at base, where many pilgrims’ journey start. To ready for their climb, these deliverings will give much value.</en>
+    <zh>&lt;page=S&gt;这本是寻常单子，给骸底营地的虫。现在竟、竟然也成难题了。&lt;page=T&gt;那儿是朝圣者起点，货到能帮大忙。</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADE_3_PRE_REOFFER">
+    <en>Would you pass the oil, traveller, and perhaps a few rosaries for their ongoing effort? Allow this pinmaster to again work wonder upon your blade?</en>
+    <zh>那就把油给我吧，再赏几颗念珠当辛苦费如何？让我再施展一次针匠的绝活！</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_TROPHYCAB_DESC">
+    <en>Found some fancy trophies on your travels? Then you’ll be needing these shelves to show them off!</en>
+    <zh>旅途中搜罗了不少珍奇战利品？正好放上这架子显摆！</zh>
+  </entry>
+  <entry key="FISHER_DLG_04">
+    <en>Just passing through these lands, are you, miss? I’d warn you not to stray far from Bellhart, but you’ve the look of one who can manage themself.</en>
+    <zh>只是路过吗？劝你别离镇子太远，不过瞧你倒像是有本事的。</zh>
+  </entry>
+  <entry key="FISHER_DLG_05">
+    <en>If you’re heading out across the pond, be wary of the other catchers. They’re all long lost to Pharloom’s Haunting.&lt;page&gt;Weak minds, the lotta them. Still, their longpins remain sharp enough.</en>
+    <zh>如果要经过池塘，当心其他渔夫，全被邪咒侵染了。&lt;page&gt;大多是心智软弱的家伙，但使长针的手艺没丢。</zh>
+  </entry>
+  <entry key="SHOPKEEP_HOUSE">
+    <en>Well, well! Welcome to you, our newest resident! I hope you’re finding your new home to your taste.&lt;hpage&gt;It is a finely forged bell, madam. I am fortunate to have a safe space to rest, even if my stay here may be short.&lt;page&gt;However long you’re with us, I’ve been holding onto some fine goods that’ll cosy up your home. This stuff ain’t for the riff-raff winding through, but a fellow Bellharter deserves the finest! </en>
+    <zh>哟嗬！新住户！钟居可还满意？&lt;hpage&gt;铸造精良，女士。虽然是暂居，但能有一处安身之所实属幸事。&lt;page&gt;住多久随意，我留着些好货专供钟心镇自己人！过路粗客可配不上这档次！</zh>
+  </entry>
+  <entry key="GREETER_MEET">
+    <en>Welcome, welcome, weary pilgrim! Though glorious Bellhart may be past its finest shine, it still remains the last friendly stop before the Citadel. &lt;page&gt;It is the task of I, fair Pavo, to extend the warmest of welcome to those passing devout, such as your good self!&lt;hpage&gt;Your town seems returned to healthy form, good bug. I had some concern that, upon cutting you free, I’d find only husks.&lt;page&gt;Yes, well, many ahh... err... most of our residents did not fare so well... Still, it’s no good to dwell on dark things! We shall build, and grow, and welcome! As is any good bellbug’s task.</en>
+    <zh>欢迎欢迎，疲惫的朝圣者！钟心镇虽然不复往昔，但仍是攀登圣堡前最后一处友善驿站。&lt;page&gt;我，帕沃，专为虔行旅者献上最热忱的欢迎——比如尊驾您！&lt;hpage&gt;看来镇子已然恢复生机，原以为斩断丝咒后只能见空壳遍地。&lt;page&gt;呃……这个……许多居民确实没挺过来……但沉溺于哀伤没有意义！我等将重建、成长、迎接！此乃钟心镇虫民的天职。</zh>
+  </entry>
+  <entry key="FISHER_DLG_01">
+    <en>You’ve met Frey, miss? She’s usually stocking useful items for travellers such as yourself.</en>
+    <zh>见过芙蕾了么？她那常备着些旅者用得上的好货。</zh>
+  </entry>
+  <entry key="SHOPKEEP_PAINT_PRE">
+    <en>The perfect choice! Your bell’s about to be looking the finest in town. We’ll get the work started straight away.</en>
+    <zh>选得好！你这钟屋就要变成全镇最好的一间了。立马开工！</zh>
+  </entry>
+  <entry key="GREETER_FURNISHINGS">
+    <en>If you’re ever finding that bellhome a little bare, make sure to speak with Frey. She’s been known to gather all sorts of fancy furnishings.&lt;page&gt;That stock’s useless for a passing pilgrim, but for a new resident it’s just the stuff to turn a bell into home.</en>
+    <zh>如果觉得钟居空荡，可找芙蕾购置家具。&lt;page&gt;那些家具对过客无用，但对新住民来说正好可以营造归家之感。</zh>
+  </entry>
+  <entry key="COURIER_SHOP_BEGIN_SONGCLAVE">
+    <en>&lt;page=S&gt;Up-up, in the big Citadel, a new place we heard is now claimed safety-safe! Theys too needing our deliverings, we is sure!&lt;page=T&gt;That Citadel. We knows its truths! Not so nicely-nice as pilgrims tells! Even if brave bugs would settle, danger still is close!&lt;page=S&gt;They would need deliverings, for food, for healings, for protection. Please takes them, miss courier!</en>
+    <zh>&lt;page=S&gt;听说上、上面的圣堡有新据点！肯定缺物资！&lt;page=T&gt;我们知道圣堡真相！根本没朝圣者说的那、那么好！就算有勇者定居也危险！需要食物药品护具——救星小姐去送吧！</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_COMPLETE_ACCEPT">
+    <en>Tarano! We shall work, now as never. What joy you grant this humble artisan, traveller. Let us seek that shine thought lost within these lands...</en>
+    <zh>开工！这是毕生难求的机会。旅者，谢谢您让我这卑微匠人重拾失传荣光……</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_ALREADY_GOT">
+    <en>&lt;page&gt;Welly, ho! That oil! You have it! That rare substance, hoarded close by the Citadel. Few are the pinmasters of our age that ever chanced to work its wonders.&lt;page&gt;Would you see it, traveller? The finest work of this fair pinmaster and your blade sharper still! Pass me the oil, and we can commence!</en>
+    <zh>&lt;page&gt;哎呀呀！那就是圣油！您竟然有！圣堡秘藏的圣物，当世针匠谁摸过这玩意！&lt;page&gt;旅者，可愿见证纺络针匠的绝活？把油给我，肯定不会让您失望！</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_TROPHYCAB_NAME">
+    <en>Memento Shelf</en>
+    <zh>纪念品架</zh>
+  </entry>
+  <entry key="RELIC_DEALER_ASK_PROMPT">
+    <en>Give Relic?</en>
+    <zh>交付遗物？</zh>
+  </entry>
+  <entry key="PINSMITH_UPGRADE_REOFFER">
+    <en>Welly, yay? Reconsider my offer? Your blade would gleam at my fine skill!</en>
+    <zh>哎呀呀！改主意了？我这手艺保准让刃口锃亮！</zh>
+  </entry>
+  <entry key="DOCTOR_MAGGOT">
+    <en>&lt;hpage&gt;Madam, I am sickly. Maggots of the fetid bogs beyond the moors writhe upon my shell. I would ask your aid in removing them.&lt;page&gt;Maggots! That’s all you bring the great Yarnaby?! My time is precious! Only for the seriously afflicted! The truly, hideously enfeebled. Bzzt!&lt;page&gt;Find a bench, or a bed, or a rock! It’s only rest you need. Settle yourself somewhere, and those maggots will soon wriggle themselves out of your shell. </en>
+    <zh>&lt;hpage&gt;女士，沼地的蛆虫在我壳上乱爬，请您帮忙清除。&lt;page&gt;蛆虫？！就为这破玩意烦本神医？！重症！我要治的是重症！惨不忍睹那种！滋滋！&lt;page&gt;找长椅、床铺、石头歇着去！睡一觉蛆虫自会掉光。</zh>
+  </entry>
+  <entry key="SHOPKEEP_GENERIC_HOUSE">
+    <en>Welcome, fellow resident! Can I interest you in something special before you’re away again on your travels?</en>
+    <zh>欢迎你，好邻居！出门前要不要买点特别的东西？</zh>
+  </entry>
+  <entry key="SHOPKEEP_MEET">
+    <en>&lt;hpage&gt;Greetings, shopkeeper. It seems you’ve recovered well from that silken affliction.&lt;page&gt;Ah! Well, I’m a clever bug. When that strange thread struck down from above, I shut up tight and huddled in my bellhome.&lt;page&gt;Might’ve been a problem for the others about here, but my store was flush with supplies, so no fear I’d go hungry.&lt;hpage&gt;Your preparedness served you well then. Although... your store now seems quite bare.&lt;page&gt;Ahem. Yes. I’ll admit, the wait was longer than I’d anticipated, and a bug has to eat...&lt;page&gt;I’ll have more to offer you once my courier turns up. No doubt he’s been avoiding Bellhart since the curse set its sights on us.</en>
+    <zh>&lt;hpage&gt;日安，店主。看来你已从丝咒中恢复。&lt;page&gt;哈！我机灵着呢。那怪丝掉下来的时候，我立马缩进钟居紧闭门户。&lt;page&gt;其他虫或许遭了殃，但我存货充足，饿不着。&lt;hpage&gt;未雨绸缪是好事。不过……你这铺子如今空荡得很。&lt;page&gt;咳，是。实话说，这劫难拖得比预期久，虫总要吃饭嘛……&lt;page&gt;等我家送货虫回来就有新货了，那小子肯定绕着钟心镇躲灾呢。</zh>
+  </entry>
+  <entry key="SHOP_ITEM_FURNISHING_LIGHTS_NAME">
+    <en>Gleamlights</en>
+    <zh>莹灯</zh>
+  </entry>
+  <entry key="BELLHERMIT_ENSLAVED_1">
+    <en>You bother me again? Begone, I said!&lt;hpage&gt;I ask only if you know what has happened to the bugs above us. They hang trapped in a vast snare of thread.&lt;page&gt;Hff. Hardly surprising. That there’s the final fate for all in Pharloom. Just come seeking a little sooner for them above.&lt;page&gt;Surely, oh surely, you don’t imagine your own end will be different? All that hunger, and fear, and pride, filling your fragile heart. You too are bound to end ensnared!&lt;page&gt;Grnk! Begone. In Pharloom, only a fool believes themselves free.</en>
+    <zh>又来烦我？说了滚！&lt;hpage&gt;我只想问你可知上头虫子的遭遇？他们受困于邪丝之中。&lt;page&gt;嗤，迟早的事。纺络的众生终归此路，他们不过是早走一步。&lt;page&gt;难道……你觉得自己能逃过？饥渴、恐惧、傲慢塞满你那脆壳，你早晚也得落网！&lt;page&gt;哼！滚吧。在纺络，相信自己自由的都是蠢货。</zh>
+  </entry>
+  <entry key="BELLHERMIT_ENSLAVED_2">
+    <en>You want to cut them down? Hff. Yes, you look cruel enough.&lt;page&gt;Once the strings are cut, pain will return to them. They will remember fear and longing.&lt;page&gt;What a choice you make for them! Such power you grant yourself!</en>
+    <zh>想斩断丝线？嗤，瞧你倒有几分机灵。&lt;page&gt;丝线一断，痛苦、恐惧、渴求都将复归。&lt;page&gt;你替他们选的好啊！好大的威风！</zh>
+  </entry>
+  <entry key="PINSMITH_QUEST_CANCOMPLETE">
+    <en>&lt;hpage&gt;Pinmaster, I have acquired oil with which my needle may see further sharpening.&lt;page&gt;Bonva! What wonder? What wish? To steal a gift so fine. Few are the pinmasters of our age who ever worked with such a substance.</en>
+    <zh>&lt;hpage&gt;针匠，我取来磨针秘油了。&lt;page&gt;太好了！这等圣物，这年头还有哪个针匠能摸到这宝贝！</zh>
+  </entry>
+</sheet>

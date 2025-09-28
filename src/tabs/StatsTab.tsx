@@ -7,12 +7,18 @@ function formatSecondsToHMS(seconds: number): string {
     .map(unit => String(unit).padStart(2, '0'))
     .join(':');
 }
+import { useI18n } from "../i18n/I18nContext";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 import type { TabRenderProps } from "./types";
 
 export function StatsTab({ parsedJson, decrypted }: TabRenderProps) {
+  const { t, translate } = useI18n();
   if (!decrypted || !parsedJson) {
-    return <div className="text-white text-center">Load a save file to view mask shard data.</div>;
+    const message = t("UI_LOAD_SAVE_PROMPT", "Load a save file to view {section} data.").replace(
+      "{section}",
+      translate("Stats"),
+    );
+    return <div className="text-white text-center">{message}</div>;
   }
 
   const statsCategory = CATEGORIES.find(cat => cat.name === "Stats");
@@ -25,8 +31,8 @@ export function StatsTab({ parsedJson, decrypted }: TabRenderProps) {
           <table className="table-auto border-collapse divide-y divide-gray-600" style={{ minWidth: 0 }}>
             <thead>
               <tr className="text-left">
-                <th className="px-2 py-1 whitespace-nowrap"></th>
-                <th className="px-2 py-1 w-[100px] text-center whitespace-nowrap"></th>
+                <th className="px-2 py-1 whitespace-nowrap" />
+                <th className="px-2 py-1 w-[100px] text-center whitespace-nowrap" />
               </tr>
             </thead>
             <tbody>
@@ -38,7 +44,7 @@ export function StatsTab({ parsedJson, decrypted }: TabRenderProps) {
                 }
                 return (
                   <tr key={index} className="border-b border-gray-700 last:border-b-0">      
-                    <td className="px-2 py-1 truncate whitespace-nowrap">{item.name}</td>
+                    <td className="px-2 py-1 truncate whitespace-nowrap">{translate(item.name)}</td>
                     <td className="px-2 py-1 w-[100px] text-center whitespace-nowrap">{displayValue !== undefined ? String(displayValue) : ''}</td>
                   </tr>
                 );

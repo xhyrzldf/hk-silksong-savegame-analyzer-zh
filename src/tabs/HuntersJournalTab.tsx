@@ -1,12 +1,18 @@
 import type { ReactNode } from "react";
+import { useI18n } from "../i18n/I18nContext";
 import type { TabRenderProps } from "./types";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 
 const JOURNAL_CATEGORY_NAME = "Hunter's Journal";
 
 export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
+  const { t, translate } = useI18n();
   if (!decrypted || !parsedJson) {
-    return <div className="text-white text-center">Load a save file to view the hunter's journal.</div>;
+    const message = t("UI_LOAD_SAVE_PROMPT", "Load a save file to view {section} data.").replace(
+      "{section}",
+      translate(JOURNAL_CATEGORY_NAME),
+    );
+    return <div className="text-white text-center">{message}</div>;
   }
 
   const journalCategory = CATEGORIES.find(cat => cat.name === JOURNAL_CATEGORY_NAME);
@@ -20,9 +26,9 @@ export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
             <tr className="text-left">
               <th className="px-2 py-1 w-[56px]" />
               <th className="px-2 py-1 w-[56px] text-center" />
-              <th className="px-2 py-1 min-w-[120px] max-w-[220px]">Name</th>
-              <th className="px-2 py-1  w-[130px] text-center">Kills Achieved</th>
-              <th className="px-2 py-1  w-[130px] text-center">Kills Required</th>
+              <th className="px-2 py-1 min-w-[120px] max-w-[220px]">{t("UI_TABLE_NAME", "Name")}</th>
+              <th className="px-2 py-1  w-[130px] text-center">{t("UI_TABLE_KILLS_ACHIEVED", "Kills Achieved")}</th>
+              <th className="px-2 py-1  w-[130px] text-center">{t("UI_TABLE_KILLS_REQUIRED", "Kills Required")}</th>
               <th className="px-2 py-1 w-[64px]" />
             </tr>
           </thead>
@@ -40,13 +46,13 @@ export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
                   <td className={`px-2 py-1 min-w-[120px] max-w-[220px] truncate
                     ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}
                   >
-                    {item.name}
+                    {translate(item.name)}
                   </td>
                   <td className="px-2 py-1 min-w-[100px] max-w-[150px] text-center">
                     {killsAchieved}
                   </td>
                   <td className="px-2 py-1 min-w-[100px] max-w-[150px] text-center">
-                    {item.killsRequired ?? "N/A"}
+                    {item.killsRequired ?? t("UI_VALUE_NA", "N/A")}
                   </td>
                   <td className="px-2 py-1 w-[64px] text-center">
                     <button
@@ -60,7 +66,7 @@ export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
                       disabled={!item.mapLink}
                       tabIndex={item.mapLink ? 0 : -1}
                     >
-                      Map
+                      {t("UI_MAP_BUTTON", "Map")}
                     </button>
                   </td>
                 </tr>
@@ -97,6 +103,20 @@ export function getHuntersJournalExtra({ parsedJson, decrypted }: { parsedJson: 
     return null;
   }
 
+  return (
+    <HuntersJournalExtraContent parsedJson={parsedJson} journalEntries={journalEntries} />
+  );
+}
+
+function HuntersJournalExtraContent({
+  parsedJson,
+  journalEntries,
+}: {
+  parsedJson: unknown;
+  journalEntries: (typeof CATEGORIES)[number]["items"];
+}) {
+  const { t } = useI18n();
+
   let completed = 0;
   let encountered = 0;
 
@@ -115,10 +135,19 @@ export function getHuntersJournalExtra({ parsedJson, decrypted }: { parsedJson: 
     }
   });
 
+  const total = journalEntries.length;
+  const completedText = t("UI_JOURNAL_COMPLETED", "Completed {completed} / {total}")
+    .replace("{completed}", String(completed))
+    .replace("{total}", String(total));
+  const encounteredText = t("UI_JOURNAL_ENCOUNTERED", "Encountered {encountered} / {total}")
+    .replace("{encountered}", String(encountered))
+    .replace("{total}", String(total));
+
   return (
     <div className="text-xs mt-1 font-normal">
-      <span className="text-green-400 font-bold">{`Completed ${completed} / ${journalEntries.length}`}</span><br />
-      <span className="text-yellow-400 font-bold">{`Encountered ${encountered} / ${journalEntries.length}`}</span>
+      <span className="text-green-400 font-bold">{completedText}</span>
+      <br />
+      <span className="text-yellow-400 font-bold">{encounteredText}</span>
     </div>
   );
 }

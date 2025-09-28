@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="MainMenu">
+  <entry key="PROFILE_INCOMPATIBLE">
+    <en>Version Incompatible</en>
+    <zh>版本不兼容</zh>
+  </entry>
+  <entry key="UI_MENU_STYLE_HORNET">
+    <en>Silksong</en>
+    <zh>丝之歌</zh>
+  </entry>
+  <entry key="LANG_CURRENT">
+    <en>English</en>
+    <zh>简体中文</zh>
+  </entry>
+  <entry key="UI_MENU_STYLE_ABYSS">
+    <en>Abyss</en>
+    <zh>幽暗深渊</zh>
+  </entry>
+  <entry key="SCREEN_AUDIO">
+    <en>Audio</en>
+    <zh>音量</zh>
+  </entry>
+  <entry key="PAUSE_CONTINUE">
+    <en>Continue</en>
+    <zh>继续</zh>
+  </entry>
+  <entry key="GAME_CAMERA_SHAKE">
+    <en>Camera Shake</en>
+    <zh>镜头抖动</zh>
+  </entry>
+  <entry key="TROPHIES_BASE_SET_TEXT">
+    <en>Trophies for Hollow Knight: Silksong</en>
+    <zh>《空洞骑士：丝之歌》的奖杯列表。</zh>
+  </entry>
+  <entry key="BUTTON_ATTACK">
+    <en>Attack</en>
+    <zh>攻击</zh>
+  </entry>
+  <entry key="VIDEO_DISPLAY">
+    <en>Monitor:</en>
+    <zh>屏幕：</zh>
+  </entry>
+  <entry key="OPTIONS_KEYBOARD">
+    <en>Keyboard</en>
+    <zh>键盘</zh>
+  </entry>
+  <entry key="CTRL_REMAP">
+    <en>Remap Controls</en>
+    <zh>重新映射按键</zh>
+  </entry>
+  <entry key="SCREEN_GAMEPAD_REMAP">
+    <en>Remap Controller</en>
+    <zh>重新映射手柄按键</zh>
+  </entry>
+  <entry key="PS4_SAVE_IMPORT_RESULT_FAILED">
+    <en>{0} out of {1} PS4™ save files were successfully imported.&lt;br&gt;Clear save slots to import PS4™ save files.</en>
+    <zh>成功导入{0}/{1}个PS4™存档。&lt;br&gt;请释放存档槽位以继续导入PS4™存档。</zh>
+  </entry>
+  <entry key="BUTTON_LOOK">
+    <en>Look Up / Down</en>
+    <zh>向上/向下看</zh>
+  </entry>
+  <entry key="SCREEN_GAMEPAD">
+    <en>Controller</en>
+    <zh>游戏手柄</zh>
+  </entry>
+  <entry key="CTRL_DETACHED">
+    <en>No controller connected</en>
+    <zh>未连接游戏手柄</zh>
+  </entry>
+  <entry key="OS_SLIDER">
+    <en>Scale</en>
+    <zh>比例</zh>
+  </entry>
+  <entry key="KEYBOARD_NONE">
+    <en>None</en>
+    <zh>无</zh>
+  </entry>
+  <entry key="UI_MENU_STYLE_SURFACE">
+    <en>Surface</en>
+    <zh>墟野</zh>
+  </entry>
+  <entry key="MODAL_ENGAGE_CONTROLLER">
+    <en>Press any button to start.</en>
+    <zh>按下任意按钮开始。</zh>
+  </entry>
+  <entry key="UI_MENU_ACHIEVEMENTS_XB1">
+    <en>Achievements</en>
+    <zh>成就</zh>
+  </entry>
+  <entry key="UI_MENU_ACHIEVEMENTS_PS4">
+    <en>Trophies</en>
+    <zh>奖杯</zh>
+  </entry>
+  <entry key="DESC_LANG">
+    <en>Change language in the Main Menu</en>
+    <zh>在主菜单中切换语言</zh>
+  </entry>
+  <entry key="OPTIONS_CREDITS">
+    <en>Credits</en>
+    <zh>制作人员</zh>
+  </entry>
+  <entry key="CTRL_UNMAPPED">
+    <en>Unmapped</en>
+    <zh>未映射</zh>
+  </entry>
+  <entry key="PROFILE_CLEAR_CONFIRM">
+    <en>Are you sure?</en>
+    <zh>确认清除？</zh>
+  </entry>
+  <entry key="BUTTON_RIGHT">
+    <en>Right</en>
+    <zh>右</zh>
+  </entry>
+  <entry key="DESC_PARTICLES">
+    <en>Reduce to improve performance on lower end systems.</en>
+    <zh>降低此项可提升低配设备性能。</zh>
+  </entry>
+  <entry key="KEYBOARD_PRESSKEY">
+    <en>...</en>
+    <zh>设定新键位</zh>
+  </entry>
+  <entry key="VIDEO_FULLSCREEN">
+    <en>Full Screen</en>
+    <zh>全屏</zh>
+  </entry>
+  <entry key="LOADING">
+    <en>Loading...</en>
+    <zh>正在加载……</zh>
+  </entry>
+  <entry key="NAV_BACK">
+    <en>Back</en>
+    <zh>返回</zh>
+  </entry>
+  <entry key="PLAYER_VOICE_OPTION_LABEL">
+    <en>Hero Voice</en>
+    <zh>主角声音</zh>
+  </entry>
+  <entry key="MOH_OFF">
+    <en>Off</en>
+    <zh>关闭</zh>
+  </entry>
+  <entry key="GAME_NATIVE_ACHIEVEMENTS_SWITCH">
+    <en>Show Feats</en>
+    <zh>显示任务</zh>
+  </entry>
+  <entry key="PS4_SAVE_IMPORT_PROGRESS">
+    <en>Importing Save Data</en>
+    <zh>存档数据导入中</zh>
+  </entry>
+  <entry key="MOH_NORMAL">
+    <en>Normal</en>
+    <zh>正常</zh>
+  </entry>
+  <entry key="MODAL_ENGAGE_PENDING">
+    <en>Loading user profile.</en>
+    <zh>用户配置文件载入中。</zh>
+  </entry>
+  <entry key="SWITCH_FRAMERATE_DESC">
+    <en>Higher frame rate mode for displays that support 120Hz. Resolution will be reduced.</en>
+    <zh>为支持120Hz的显示设备提供更高帧数模式，但会降低分辨率。</zh>
+  </entry>
+  <entry key="MODE_STEEL">
+    <en>Steel Soul</en>
+    <zh>钢铁之魂</zh>
+  </entry>
+  <entry key="BUTTON_MAP">
+    <en>Quick Map</en>
+    <zh>快速地图</zh>
+  </entry>
+  <entry key="CTRL_PRESSBUTTON">
+    <en>...    </en>
+    <zh>设定新按钮</zh>
+  </entry>
+  <entry key="RESTORE_AUTOSAVE_PROMPT_SUB">
+    <en>(Primary save will be deleted)</en>
+    <zh>（主存档将被删除）</zh>
+  </entry>
+  <entry key="TROPHIES_BASE_SET_TITLE">
+    <en>Hollow Knight: Silksong Trophies</en>
+    <zh>丝之歌奖杯</zh>
+  </entry>
+  <entry key="OS_INSTRUCT">
+    <en>Adjust slider until the frames touch the edges of the screen</en>
+    <zh>调整滑块，直到方框触及屏幕边缘</zh>
+  </entry>
+  <entry key="PS5_ACTIVITY_CARD_NAME">
+    <en>Play Hollow Knight: Silksong</en>
+    <zh>游玩空洞骑士：丝之歌</zh>
+  </entry>
+  <entry key="AUDIO_SOUND_VOL">
+    <en>Sound Volume</en>
+    <zh>音效音量：</zh>
+  </entry>
+  <entry key="AUDIO_MASTER_VOL">
+    <en>Master Volume</en>
+    <zh>全局音量：</zh>
+  </entry>
+  <entry key="PROFILE_DEFEATED">
+    <en>Defeated</en>
+    <zh>已死亡</zh>
+  </entry>
+  <entry key="OPTIONS_AUDIO">
+    <en>Audio</en>
+    <zh>音量</zh>
+  </entry>
+  <entry key="STEEL_MODE_TEXT">
+    <en>No reviving. Death is permanent.</en>
+    <zh>无法复活。永久死亡。</zh>
+  </entry>
+  <entry key="AUDIO_MUSIC_VOL">
+    <en>Music Volume</en>
+    <zh>音乐音量：</zh>
+  </entry>
+  <entry key="MAIN_SWITCH_USER">
+    <en>Switch User</en>
+    <zh>切换用户</zh>
+  </entry>
+  <entry key="DESC_VSYNC">
+    <en>Prevents screen tearing. Leave on for a smoother experience.</en>
+    <zh>消除屏幕撕裂，提供更平滑的体验。</zh>
+  </entry>
+  <entry key="BUTTON_DREAM_NAIL">
+    <en>Needolin</en>
+    <zh>织忆弦针</zh>
+  </entry>
+  <entry key="RESTORE_SAVE_SELECTION_TITLE">
+    <en>Auto Saves</en>
+    <zh>自动存档</zh>
+  </entry>
+  <entry key="BUTTON_DASH">
+    <en>Sprint</en>
+    <zh>冲刺</zh>
+  </entry>
+  <entry key="BUTTON_JUMP">
+    <en>Jump</en>
+    <zh>跳跃</zh>
+  </entry>
+  <entry key="UI_MENU_STYLE">
+    <en>Menu Style:</en>
+    <zh>菜单样式：</zh>
+  </entry>
+  <entry key="VIDEO_BRIGHTNESS">
+    <en>Brightness</en>
+    <zh>亮度</zh>
+  </entry>
+  <entry key="UI_MENU_RUMBLE">
+    <en>Rumble</en>
+    <zh>震动</zh>
+  </entry>
+  <entry key="MODAL_QUIT_TO_MENU">
+    <en>Save and Quit?</en>
+    <zh>退出至菜单？</zh>
+  </entry>
+  <entry key="UI_MENU_STYLE_CURSED">
+    <en>Greyroot</en>
+    <zh>灰蕨之地</zh>
+  </entry>
+  <entry key="DESC_FRAME_CAP">
+    <en>Limit maximum frame rate for a consistent experience.</en>
+    <zh>限制最高帧率以保证稳定体验。</zh>
+  </entry>
+  <entry key="DESC_BACKER_NAMES">
+    <en>Show names of Kickstarter backers alongside their contributions.</en>
+    <zh>展示Kickstarter支持者的名字。</zh>
+  </entry>
+  <entry key="BUTTON_INVENTORY">
+    <en>Inventory</en>
+    <zh>物品栏</zh>
+  </entry>
+  <entry key="BUTTON_TAUNT">
+    <en>Challenge</en>
+    <zh>挑战</zh>
+  </entry>
+  <entry key="DESC_HUD_VISIBILITY">
+    <en>Adjust the scale of the HUD. Will reset on game exit if set to ‘Off’.</en>
+    <zh>调整HUD缩放比例。设为“关闭”时，退出游戏自动还原默认比例。</zh>
+  </entry>
+  <entry key="BUTTON_INVENTORY_MAP">
+    <en>Map</en>
+    <zh>地图</zh>
+  </entry>
+  <entry key="VIDEO_SHADERS">
+    <en>Blur Quality</en>
+    <zh>柔化程度</zh>
+  </entry>
+  <entry key="VID_OPT_BORDERLESS">
+    <en>Borderless</en>
+    <zh>无边框窗口</zh>
+  </entry>
+  <entry key="SCREEN_EXTRAS">
+    <en>Extras</en>
+    <zh>额外内容</zh>
+  </entry>
+  <entry key="SAVE_WARNING">
+    <en>This game saves data automatically at certain points.&lt;br&gt; Please do not turn off the software while this symbol is displayed.</en>
+    <zh>本游戏在某些情况下会自动存档。&lt;br&gt;如果屏幕上出现此标志，请不要强行关闭游戏。</zh>
+  </entry>
+  <entry key="MOH_LOW">
+    <en>Low</en>
+    <zh>低</zh>
+  </entry>
+  <entry key="BUTTON_MOVE">
+    <en>Move</en>
+    <zh>移动</zh>
+  </entry>
+  <entry key="GAME_CONTROLLER_RUMBLE">
+    <en>Rumble</en>
+    <zh>震动</zh>
+  </entry>
+  <entry key="MOH_SMALL">
+    <en>Small</en>
+    <zh>较小比例</zh>
+  </entry>
+  <entry key="GAME_NATIVE_ACHIEVEMENTS">
+    <en>Show Achievements</en>
+    <zh>显示成就</zh>
+  </entry>
+  <entry key="MAIN_EXTRAS">
+    <en>Extras</en>
+    <zh>额外内容</zh>
+  </entry>
+  <entry key="OPTIONS_VIDEO">
+    <en>Video</en>
+    <zh>视频</zh>
+  </entry>
+  <entry key="MAIN_ACHIEVEMENTS">
+    <en>Achievements</en>
+    <zh>成就</zh>
+  </entry>
+  <entry key="UI_MENU_STYLE_CRADLE">
+    <en>Cradle</en>
+    <zh>摇篮圣所</zh>
+  </entry>
+  <entry key="OPEN_CONTROLLER">
+    <en>Controller Recommended</en>
+    <zh>推荐使用游戏手柄</zh>
+  </entry>
+  <entry key="OPTIONS_CONTROLLER">
+    <en>Controller</en>
+    <zh>游戏手柄</zh>
+  </entry>
+  <entry key="VIDEO_DITHERING">
+    <en>Dithering</en>
+    <zh>图像抖动</zh>
+  </entry>
+  <entry key="BUTTON_EMPTY">
+    <en>-</en>
+    <zh>-</zh>
+  </entry>
+  <entry key="GAME_BACKER_NAMES">
+    <en>Backer Credits</en>
+    <zh>支持者名单</zh>
+  </entry>
+  <entry key="PLAYER_VOICE_OPTION_DESC">
+    <en>Hear the hero’s voice during exploration and combat.</en>
+    <zh>探索与战斗时播放主角声音。</zh>
+  </entry>
+  <entry key="ACHIEVEMENTS_BASE_SET_TITLE">
+    <en>Hollow Knight: Silksong Achievements</en>
+    <zh>丝之歌成就</zh>
+  </entry>
+  <entry key="MAIN_START">
+    <en>Start Game</en>
+    <zh>开始游戏</zh>
+  </entry>
+  <entry key="DESC_SHADERS">
+    <en>Reduce to improve performance on lower end systems.</en>
+    <zh>降低此项可提升低配设备性能。</zh>
+  </entry>
+  <entry key="PAUSE_OPTIONS">
+    <en>Options</en>
+    <zh>选项</zh>
+  </entry>
+  <entry key="MOH_LARGE">
+    <en>Large</en>
+    <zh>较大比例</zh>
+  </entry>
+  <entry key="BUTTON_PAUSE">
+    <en>Pause Menu</en>
+    <zh>暂停菜单</zh>
+  </entry>
+  <entry key="PS4_SAVE_IMPORT_SEARCH_FAIL">
+    <en>Failed to find compatible save data.</en>
+    <zh>未找到兼容存档。</zh>
+  </entry>
+  <entry key="PS4_SAVE_IMPORT_RESULT_SUCCESS">
+    <en>{0} out of {1} PS4™ save files were successfully imported.</en>
+    <zh>成功导入{0}/{1}个PS4™存档。</zh>
+  </entry>
+  <entry key="MODAL_PROGRESS_EXHIBITION">
+    <en>Progress will not be saved</en>
+    <zh>当前进度不作保留。</zh>
+  </entry>
+  <entry key="ACHIEVEMENTS_BASE_SET_TEXT">
+    <en>Achievements for Hollow Knight: Silksong.</en>
+    <zh>《空洞骑士：丝之歌》的成就列表。</zh>
+  </entry>
+  <entry key="CTRL_NONE">
+    <en>No controller connected</en>
+    <zh>未连接游戏手柄</zh>
+  </entry>
+  <entry key="TEXT_SKIP_PROMPT">
+    <en>Press any button to skip</en>
+    <zh>按下任意按钮跳过</zh>
+  </entry>
+  <entry key="VIDEO_PARTICLES">
+    <en>Particle Effects</en>
+    <zh>粒子特效</zh>
+  </entry>
+  <entry key="PAUSE_MAIN">
+    <en>Quit to Menu</en>
+    <zh>退出至菜单</zh>
+  </entry>
+  <entry key="PROFILE_LOADING">
+    <en>Loading...</en>
+    <zh>正在读取……</zh>
+  </entry>
+  <entry key="PROFILE_NEW_GAME">
+    <en>New Game</en>
+    <zh>新游戏</zh>
+  </entry>
+  <entry key="MOH_HIGH">
+    <en>High</en>
+    <zh>高</zh>
+  </entry>
+  <entry key="MODAL_CONNECT_CONTROLLER_PROMPT">
+    <en>Connect a controller to continue</en>
+    <zh>连接手柄以继续</zh>
+  </entry>
+  <entry key="MODE_SELECT">
+    <en>Mode Select</en>
+    <zh>模式选择</zh>
+  </entry>
+  <entry key="UI_MENU_STYLE_STEEL">
+    <en>Steel</en>
+    <zh>钢铁之魂</zh>
+  </entry>
+  <entry key="VIDEO_DITHERING_DESC">
+    <en>Reduces colour banding, but may effect performance on lower end systems.</en>
+    <zh>减少色彩断层，但可能影响低配设备的流畅度。</zh>
+  </entry>
+  <entry key="MODAL_PROGRESS">
+    <en>Progress will be saved</en>
+    <zh>进度将自动保存</zh>
+  </entry>
+  <entry key="VIDEO_RESOLUTION">
+    <en>Resolution</en>
+    <zh>分辨率</zh>
+  </entry>
+  <entry key="CTRL_NO_ACTIVE_DESC">
+    <en>Press a button on the controller or connect a new controller to activate</en>
+    <zh>按下手柄上的按钮或连接新手柄以激活</zh>
+  </entry>
+  <entry key="MODAL_KEEP_RES">
+    <en>Keep New Resolution?</en>
+    <zh>保持新分辨率？</zh>
+  </entry>
+  <entry key="BRIGHT_INSTRUCT">
+    <en>Adjust brightness to your desired level.</en>
+    <zh>将亮度调整到所需的程度。</zh>
+  </entry>
+  <entry key="VIDEO_RESOLUTION_ULTRAWIDE">
+    <en>(beta)</en>
+    <zh>（测试）</zh>
+  </entry>
+  <entry key="NAV_YES">
+    <en>Yes</en>
+    <zh>是</zh>
+  </entry>
+  <entry key="MODAL_NO_SAVE">
+    <en>Continue playing without a user?&lt;br&gt;Your progress will not be saved</en>
+    <zh>不选择用户继续游戏？&lt;br&gt;你的进度不会被保存。</zh>
+  </entry>
+  <entry key="NORMAL_MODE_TEXT">
+    <en>Normal play mode.</en>
+    <zh>普通游戏模式。</zh>
+  </entry>
+  <entry key="BUTTON_LEFT">
+    <en>Left</en>
+    <zh>左</zh>
+  </entry>
+  <entry key="BUTTON_SUPER_DASH">
+    <en>Harpoon</en>
+    <zh>飞针索</zh>
+  </entry>
+  <entry key="PS5_ACTIVITY_CARD_LABEL">
+    <en>Story</en>
+    <zh>剧情</zh>
+  </entry>
+  <entry key="MODE_NORMAL">
+    <en>Classic</en>
+    <zh>经典</zh>
+  </entry>
+  <entry key="BUTTON_DOWN">
+    <en>Down</en>
+    <zh>下</zh>
+  </entry>
+  <entry key="SCREEN_OPTIONS">
+    <en>Options</en>
+    <zh>选项</zh>
+  </entry>
+  <entry key="MOH_MED">
+    <en>Medium</en>
+    <zh>中</zh>
+  </entry>
+  <entry key="NAV_RESET">
+    <en>Reset Defaults</en>
+    <zh>重置为默认值</zh>
+  </entry>
+  <entry key="RESTORE_AUTOSAVE_PROMPT">
+    <en>Revert to auto save?</en>
+    <zh>恢复自动存档？</zh>
+  </entry>
+  <entry key="UI_MENU_STYLE_SONG">
+    <en>Citadel of Song</en>
+    <zh>圣歌城堡</zh>
+  </entry>
+  <entry key="MAIN_OPTIONS">
+    <en>Options</en>
+    <zh>选项</zh>
+  </entry>
+  <entry key="VIDEO_FRAME_CAP">
+    <en>Frame Rate Cap</en>
+    <zh>限制帧率</zh>
+  </entry>
+  <entry key="NAV_DONE">
+    <en>Done</en>
+    <zh>完成</zh>
+  </entry>
+  <entry key="SAVE_IMPORT_CONFIRM">
+    <en>Are you sure?</en>
+    <zh>确认导入？</zh>
+  </entry>
+  <entry key="PS4_SAVE_IMPORT_LABEL">
+    <en>Import PS4™ Save Data</en>
+    <zh>PS4™存档导入</zh>
+  </entry>
+  <entry key="BUTTON_UP">
+    <en>Up</en>
+    <zh>上</zh>
+  </entry>
+  <entry key="VIDEO_OVERSCAN">
+    <en>Screen Scale</en>
+    <zh>屏幕缩放</zh>
+  </entry>
+  <entry key="BUTTON_INVENTORY_TOOLS">
+    <en>Crest</en>
+    <zh>纹章</zh>
+  </entry>
+  <entry key="KEYBOARD_UNMAPPED">
+    <en>Unmapped</en>
+    <zh>未设定</zh>
+  </entry>
+  <entry key="BUTTON_CAST">
+    <en>Bind</en>
+    <zh>缚丝</zh>
+  </entry>
+  <entry key="SCREEN_ACHIEVEMENTS">
+    <en>Achievements</en>
+    <zh>成就</zh>
+  </entry>
+  <entry key="PROFILE_INCOMPATIBLE_SMALL">
+    <en>Game Update Required</en>
+    <zh>游戏需要更新</zh>
+  </entry>
+  <entry key="BUTTON_INVENTORY_JOURNAL">
+    <en>Journal</en>
+    <zh>日志</zh>
+  </entry>
+  <entry key="PROFILE_CLEAR_PROMPT">
+    <en>Clear Profile?</en>
+    <zh>清除存档？</zh>
+  </entry>
+  <entry key="MOH_ON">
+    <en>On</en>
+    <zh>开启</zh>
+  </entry>
+  <entry key="EXTRAS_CREDITS">
+    <en>Credits</en>
+    <zh>制作人员</zh>
+  </entry>
+  <entry key="CTRL_NO_ACTIVE">
+    <en>No active controller</en>
+    <zh>未检测到有效手柄</zh>
+  </entry>
+  <entry key="SCREEN_KEYBOARD">
+    <en>Keyboard</en>
+    <zh>键盘</zh>
+  </entry>
+  <entry key="GAME_LANGUAGE">
+    <en>Language</en>
+    <zh>语言</zh>
+  </entry>
+  <entry key="DESC_NATIVE_ACHIEVEMENTS_SWITCH">
+    <en>Show in-game messages when completing a feat.</en>
+    <zh>完成任务时显示游戏内提示。</zh>
+  </entry>
+  <entry key="SREEN_SAVE_PROFILES_DEMO">
+    <en>Select Area</en>
+    <zh>选择区域</zh>
+  </entry>
+  <entry key="VIDEO_VSYNC">
+    <en>V-Sync</en>
+    <zh>垂直同步</zh>
+  </entry>
+  <entry key="BRIGHT_SLIDER">
+    <en>Brightness</en>
+    <zh>亮度</zh>
+  </entry>
+  <entry key="NAV_APPLY_TRUE">
+    <en>Apply</en>
+    <zh>应用</zh>
+  </entry>
+  <entry key="SCREEN_VIDEO">
+    <en>Video</en>
+    <zh>视频</zh>
+  </entry>
+  <entry key="GAME_CONTROLLER_VIBRATION">
+    <en>Vibration</en>
+    <zh>手柄振动</zh>
+  </entry>
+  <entry key="SWITCH_FRAMERATE">
+    <en>TV Mode Frame Rate</en>
+    <zh>底座模式帧率</zh>
+  </entry>
+  <entry key="MODAL_RESTART">
+    <en>Restart?</en>
+    <zh>重新开始？</zh>
+  </entry>
+  <entry key="SCREEN_GAME">
+    <en>Game Options</en>
+    <zh>游戏选项</zh>
+  </entry>
+  <entry key="MODAL_QUIT_GAME">
+    <en>Quit Game?</en>
+    <zh>退出游戏？</zh>
+  </entry>
+  <entry key="SCREEN_SAVE_PROFILES">
+    <en>Select Profile</en>
+    <zh>选择存档</zh>
+  </entry>
+  <entry key="BUTTON_INVENTORY_QUESTS">
+    <en>Tasks</en>
+    <zh>任务</zh>
+  </entry>
+  <entry key="DESC_NATIVE_ACHIEVEMENTS">
+    <en>Show in-game messages when earning an achievement.</en>
+    <zh>获得成就时显示游戏内提示。</zh>
+  </entry>
+  <entry key="PROFILE_CORRUPTED">
+    <en>Save cannot be read</en>
+    <zh>存档损坏</zh>
+  </entry>
+  <entry key="BUTTON_QCAST">
+    <en>Skill / Tool</en>
+    <zh>技能/工具</zh>
+  </entry>
+  <entry key="MOH_REDUCED">
+    <en>Reduced</en>
+    <zh>降低</zh>
+  </entry>
+  <entry key="VIDEO_ADVANCED">
+    <en>Advanced Settings</en>
+    <zh>高级设定</zh>
+  </entry>
+  <entry key="NAV_NO">
+    <en>No</en>
+    <zh>否</zh>
+  </entry>
+  <entry key="PAUSE_MAIN_EXHIBITION">
+    <en>Restart</en>
+    <zh>重新开始</zh>
+  </entry>
+  <entry key="UI_MENU_ACHIEVEMENTS_ALT">
+    <en>Feats</en>
+    <zh>任务</zh>
+  </entry>
+  <entry key="MAIN_QUIT">
+    <en>Quit Game</en>
+    <zh>退出游戏</zh>
+  </entry>
+  <entry key="GAME_HUD_VISIBILITY">
+    <en>HUD Appearance</en>
+    <zh>HUD外观</zh>
+  </entry>
+  <entry key="OPTIONS_GAME">
+    <en>Game</en>
+    <zh>游戏</zh>
+  </entry>
+  <entry key="NAV_APPLY">
+    <en>Back</en>
+    <zh>返回</zh>
+  </entry>
+</sheet>

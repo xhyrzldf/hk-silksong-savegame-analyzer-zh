@@ -1,0 +1,2259 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Titles">
+  <entry key="LARGE_COG_WORK_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_ABYSS_MAIN">
+    <en>Absolom</en>
+    <zh>阿布索伦织巢</zh>
+  </entry>
+  <entry key="ABYSS_MASS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WISP_MAIN">
+    <en>Wisp</en>
+    <zh>火灵竹丛</zh>
+  </entry>
+  <entry key="CITADEL_SHRINE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="COGWORK_DANCERS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_LARGE_ACT3_MAIN">
+    <en>Pilgrim</en>
+    <zh>担忧的朝圣者</zh>
+  </entry>
+  <entry key="GREEN_PRINCE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BROODMOTHER_TINY_MAIN">
+    <en>Broodling</en>
+    <zh>育母幼虫</zh>
+  </entry>
+  <entry key="FLEA_TRACKER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CRADLE_SUPER">
+    <en>The</en>
+    <zh />
+  </entry>
+  <entry key="CORAL_KING_BC_SUPER">
+    <en>Crust King</en>
+    <zh>壳王</zh>
+  </entry>
+  <entry key="FLEAMASTER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SPINNER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SONG_GOLEM_MAIN">
+    <en>Chorus</en>
+    <zh>圣咏团</zh>
+  </entry>
+  <entry key="GARMOND_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLWAY_PILGRIM_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DUST_TRADERS_1_SUB">
+    <en>And Benjin</en>
+    <zh>&amp; 班金</zh>
+  </entry>
+  <entry key="BONEBOTTOM_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CITY_MERCHANT_MAIN">
+    <en>Jubilana</en>
+    <zh>朱比拉娜</zh>
+  </entry>
+  <entry key="MAPPER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BB_PILGRIM_ROUND_MAIN">
+    <en>Pilgrim</en>
+    <zh>沉默的朝圣者</zh>
+  </entry>
+  <entry key="FLOWER_QUEEN_MAIN">
+    <en>Nyleth</en>
+    <zh>尼莱斯</zh>
+  </entry>
+  <entry key="UNDERSTORE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="STEEL_SERVANT_MAIN">
+    <en>Sula</en>
+    <zh>苏拉</zh>
+  </entry>
+  <entry key="UNDERSTORE_MAIN">
+    <en>Underworks</en>
+    <zh>圣堡工厂</zh>
+  </entry>
+  <entry key="DUST_TRADERS_1_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DUSTPENS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SPINNER_MAIN">
+    <en>Widow</en>
+    <zh>黑寡妇</zh>
+  </entry>
+  <entry key="WISP_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEAMEMBER_SHORT_MAIN">
+    <en>Grishkin</en>
+    <zh>格莉什琴</zh>
+  </entry>
+  <entry key="BB_PILGRIM_ROUND_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ICECORE_MAIN">
+    <en>Brightvein</en>
+    <zh>冰晶脉窟</zh>
+  </entry>
+  <entry key="WARD_MAIN">
+    <en>Whiteward</en>
+    <zh>白愈厅</zh>
+  </entry>
+  <entry key="WARD_BOSS_MAIN">
+    <en>Unravelled</en>
+    <zh>散茧魂渊</zh>
+  </entry>
+  <entry key="DOCTOR_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DOCK_GUARD_THROWER_MAIN">
+    <en>Gron</en>
+    <zh>格隆</zh>
+  </entry>
+  <entry key="JUDGE_GATE_PILGRIM_SUPER">
+    <en>Tall</en>
+    <zh />
+  </entry>
+  <entry key="HH_BARTENDER_MAIN">
+    <en>Creige</en>
+    <zh>克雷吉</zh>
+  </entry>
+  <entry key="BIG_CENTIPEDE_MAIN">
+    <en>Bell Eater</en>
+    <zh>噬钟者</zh>
+  </entry>
+  <entry key="GIANT_BONE_FLYER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BB_PILGRIM_HORNED_MAIN">
+    <en>Pilgrim</en>
+    <zh>长角的朝圣者</zh>
+  </entry>
+  <entry key="BIG_CENTIPEDE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MR_MUSHROOM_SUPER">
+    <en>Mister</en>
+    <zh />
+  </entry>
+  <entry key="BELL_HERMIT_MAIN">
+    <en>Hermit</en>
+    <zh>钟之隐者</zh>
+  </entry>
+  <entry key="WILDS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="UNDERSTORE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HUNTRESS_RUNT_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CORAL_STEPS_SUPER">
+    <en>Blasted</en>
+    <zh />
+  </entry>
+  <entry key="FLEACARAVAN_SUPER">
+    <en>Flea</en>
+    <zh />
+  </entry>
+  <entry key="MOSSCREEP_SUPER">
+    <en>Moss</en>
+    <zh />
+  </entry>
+  <entry key="ZAPNEST_BOSS_MAIN">
+    <en>Voltvyrm</en>
+    <zh>伏特维姆</zh>
+  </entry>
+  <entry key="LIBRARIAN_RELIC_MAIN">
+    <en>Cardinius</en>
+    <zh>卡迪尼乌斯</zh>
+  </entry>
+  <entry key="MASK_MAKER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="STEEL_SERVANT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEAMEMBER_TALL_MAIN">
+    <en>Varga</en>
+    <zh>瓦尔加</zh>
+  </entry>
+  <entry key="SETH_SUPER">
+    <en>Shrine Guardian</en>
+    <zh>圣所守卫者</zh>
+  </entry>
+  <entry key="LADYBUG_LARGE_MAIN">
+    <en>Loddie</en>
+    <zh>洛迪</zh>
+  </entry>
+  <entry key="HUNTER_QUEEN_BC_SUPER">
+    <en>Skarrsinger</en>
+    <zh>斯卡尔歌后</zh>
+  </entry>
+  <entry key="FLEATOPIA_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DOCK_GUARD_THROWER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SEAMSTRESS_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEA_LECH_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CORAL_KING_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CREST_UPG_SHRINE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ORGAN_SUPER">
+    <en>Exhaust</en>
+    <zh />
+  </entry>
+  <entry key="LIBRARY_MAIN">
+    <en>Vaults</en>
+    <zh>低语书库</zh>
+  </entry>
+  <entry key="FLEAMASTER_MAIN">
+    <en>Mooshka</en>
+    <zh>穆什卡</zh>
+  </entry>
+  <entry key="BELLHART_SHOPKEEP_MAIN">
+    <en>Frey</en>
+    <zh>芙蕾</zh>
+  </entry>
+  <entry key="DOCKS_MAIN">
+    <en>Docks</en>
+    <zh>深坞</zh>
+  </entry>
+  <entry key="SHERMA_PILGRIM_SUPER">
+    <en>Weary</en>
+    <zh />
+  </entry>
+  <entry key="CHAPEL_WARRIOR_SUPER">
+    <en>Chapel of the</en>
+    <zh />
+  </entry>
+  <entry key="SLAB_SUPER">
+    <en>The</en>
+    <zh />
+  </entry>
+  <entry key="GRUBFARMER_MIMIC_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEA_JUGGLE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GARMOND_BT_MAIN">
+    <en>Garmond</en>
+    <zh>加蒙德</zh>
+  </entry>
+  <entry key="DRILLERS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ZAPNEST_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DUSTPENS_MAIN">
+    <en>Sinner’s Road</en>
+    <zh>罪途</zh>
+  </entry>
+  <entry key="CHAPEL_WITCH_SUPER">
+    <en>Chapel of the</en>
+    <zh />
+  </entry>
+  <entry key="DOCTOR_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CRAWL_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SPLINTER_QUEEN_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MOSSBONE_MOTHER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DOCK_GUARD_DUO_SUPER">
+    <en>Forebrothers</en>
+    <zh>监工兄弟</zh>
+  </entry>
+  <entry key="LADYBUG_LARGE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GREEN_PRINCE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DOCTOR_MAIN">
+    <en>Yarnaby</en>
+    <zh>雅纳碧</zh>
+  </entry>
+  <entry key="DOCK_GUARD_SOLO_SUPER">
+    <en>Forebrother</en>
+    <zh>监工兄弟</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_MAIN">
+    <en>Mort</en>
+    <zh>莫特</zh>
+  </entry>
+  <entry key="FLEAMASTER_SUPER">
+    <en>Fleamaster</en>
+    <zh>跳蚤首领</zh>
+  </entry>
+  <entry key="CHAPEL_WANDERER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLWAY_PILGRIM_MAIN">
+    <en>Pilgrim</en>
+    <zh>怯懦的朝圣者</zh>
+  </entry>
+  <entry key="CORAL_KING_BC_MAIN">
+    <en>Khann</en>
+    <zh>卡汗</zh>
+  </entry>
+  <entry key="WEAVE_FIELDS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_ACT2_LARGE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SPEEDMASTER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BLUE_SCIENTIST_SUPER">
+    <en>Alchemist</en>
+    <zh>炼金术士</zh>
+  </entry>
+  <entry key="SEAMSTRESS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SETH_NPC_BC_MAIN">
+    <en>Seth</en>
+    <zh>赛斯</zh>
+  </entry>
+  <entry key="HUNTRESS_MAIN">
+    <en>Huntress</en>
+    <zh>女猎手</zh>
+  </entry>
+  <entry key="CLOVER_DANCERS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MASK_MAKER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SKULL_KING_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HUNTER_TRAPPER_MAIN">
+    <en>Gurr</en>
+    <zh>格尔</zh>
+  </entry>
+  <entry key="ANT_MERCHANT_MAIN">
+    <en>Skarr</en>
+    <zh>斯卡尔</zh>
+  </entry>
+  <entry key="SETH_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHELLWOOD_WITCH_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LAST_CONDUCTOR_SUPER">
+    <en>Conductor</en>
+    <zh>指挥家</zh>
+  </entry>
+  <entry key="CHEF_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_ACT3_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SETH_NPC_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="COGWORK_DANCERS_SUPER">
+    <en>Cogwork</en>
+    <zh />
+  </entry>
+  <entry key="FLEA_JUGGLE_MAIN">
+    <en>Juggle</en>
+    <zh>跳蚤耍耍</zh>
+  </entry>
+  <entry key="SHERMA_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_SWAMP_MAIN">
+    <en>Murglin</en>
+    <zh>默格林织巢</zh>
+  </entry>
+  <entry key="OLD_STATUE_SUPER">
+    <en>Pious</en>
+    <zh>虔诚的</zh>
+  </entry>
+  <entry key="GILLY_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_ABYSS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLHART_RELICDEALER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_ABYSS_SUPER">
+    <en>Weavenest</en>
+    <zh />
+  </entry>
+  <entry key="GRUBFARMER_MIMIC_MAIN">
+    <en>Skynx</en>
+    <zh>斯金克思</zh>
+  </entry>
+  <entry key="MOSSTOWN_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LOST_LACE_SUPER">
+    <en />
+    <zh>失心</zh>
+  </entry>
+  <entry key="CLOVER_DANCERS_SUPER">
+    <en>Clover</en>
+    <zh />
+  </entry>
+  <entry key="SHERMA_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HANG_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHELLWOOD_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHELLGRAVE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="COURIER_SHORT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FISHER_NPC_SUPER">
+    <en>Pondcatcher</en>
+    <zh>渔夫</zh>
+  </entry>
+  <entry key="LAST_JUDGE_SUPER">
+    <en>Last</en>
+    <zh />
+  </entry>
+  <entry key="FLEA_GAMES_SUB">
+    <en>Of the Flea</en>
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_ACT3_SUPER">
+    <en>Dejected</en>
+    <zh />
+  </entry>
+  <entry key="GOURMAND_SERVANT_MAIN">
+    <en>Mergwin</en>
+    <zh>梅尔格温</zh>
+  </entry>
+  <entry key="WEAVE_PRIME_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WHITE_CLOVERSTAG_MAIN">
+    <en>Palestag</en>
+    <zh>苍白苜鹿</zh>
+  </entry>
+  <entry key="FLEA_LECH_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_CRAWL_MAIN">
+    <en>Karn</en>
+    <zh>卡恩织巢</zh>
+  </entry>
+  <entry key="CROW_LAKE_MAIN">
+    <en>Craw Lake</en>
+    <zh>腐囊虫泽</zh>
+  </entry>
+  <entry key="DICE_PILGRIM_DEFEATED_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHELLWOOD_WITCH_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ABANDONED_TOWN_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHERMA_PILGRIM_MAIN">
+    <en>Pilgrim</en>
+    <zh>疲倦的朝圣者</zh>
+  </entry>
+  <entry key="FLEA_TRACKER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DOCK_GUARD_DUO_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="PINSTRESS_MAIN">
+    <en>Pinstress</en>
+    <zh>针姬</zh>
+  </entry>
+  <entry key="FLEATOPIA_MAIN">
+    <en>Fleatopia</en>
+    <zh>蚤托邦</zh>
+  </entry>
+  <entry key="GRUBFARMER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CORAL_KING_BC_SUB">
+    <en>By Brandon Lieu</en>
+    <zh>设计：Brandon Lieu</zh>
+  </entry>
+  <entry key="HUNTRESS_RUNT_MAIN">
+    <en>Runt</en>
+    <zh>幼兽</zh>
+  </entry>
+  <entry key="CORAL_KING_MAIN">
+    <en>Khann</en>
+    <zh>卡汗</zh>
+  </entry>
+  <entry key="AQUEDUCTS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CRADLE_MAIN">
+    <en>Cradle</en>
+    <zh>摇篮圣所</zh>
+  </entry>
+  <entry key="COURIERS_SHOP_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GREYMOOR_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MOSSCREEP_MAIN">
+    <en>Druid</en>
+    <zh>苔藓德鲁伊</zh>
+  </entry>
+  <entry key="CHAPEL_ARCHITECT_MAIN">
+    <en>Architect</en>
+    <zh>建筑师教堂</zh>
+  </entry>
+  <entry key="DICE_PILGRIM_DEFEATED_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHAPEL_WANDERER_MAIN">
+    <en>Wanderer</en>
+    <zh>漫游者教堂</zh>
+  </entry>
+  <entry key="SETH_NPC_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SWAMP_SHAMAN_MAIN">
+    <en>Groal</en>
+    <zh>伟大的格洛</zh>
+  </entry>
+  <entry key="FIXER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHELLGRAVE_MAIN">
+    <en>Shellgrave</en>
+    <zh>甲冢</zh>
+  </entry>
+  <entry key="SLAB_PRISONER_MAIN">
+    <en>Penitent</en>
+    <zh>忏悔老者</zh>
+  </entry>
+  <entry key="BALLOW_MAIN">
+    <en>Ballow</en>
+    <zh>巴洛</zh>
+  </entry>
+  <entry key="SHADOW_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LACE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GROVE_DUNGEON_MAIN">
+    <en>Greenhaven</en>
+    <zh>绿荫庇护所</zh>
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_ACT2_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CORAL_RIVER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DRILLERS_SUPER">
+    <en>Great</en>
+    <zh />
+  </entry>
+  <entry key="GIANT_BONE_FLYER_MAIN">
+    <en>Beastfly</en>
+    <zh>兽蝇</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_MAIN">
+    <en>Zi</en>
+    <zh>梓</zh>
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_ACT2_SUPER">
+    <en>Humble</en>
+    <zh />
+  </entry>
+  <entry key="HH_PATRON_LEFT_SUPER">
+    <en>Aged</en>
+    <zh />
+  </entry>
+  <entry key="MR_MUSHROOM_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HANG_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GRANDGATE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLHART_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BROODMOTHER_TINY_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEAMEMBER_TALL_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ZAPNEST_BOSS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEAMEMBER_SHORT_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CITADEL_SHRINE_MAIN">
+    <en>Shrine</en>
+    <zh>始源钟殿</zh>
+  </entry>
+  <entry key="ENCLAVE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_CRAWL_SUPER">
+    <en>Weavenest</en>
+    <zh />
+  </entry>
+  <entry key="SLAB_PRISONER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="COURIER_SHORT_SUPER">
+    <en>Courier</en>
+    <zh>送货员</zh>
+  </entry>
+  <entry key="ABYSS_MASS_MAIN">
+    <en>Saviour</en>
+    <zh>虚面救世主</zh>
+  </entry>
+  <entry key="COURIER_TALL_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CROWFATHER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FORGEDAUGHTER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BONETOWN_FUNERAL_LEADER_SUPER">
+    <en>Solemn</en>
+    <zh />
+  </entry>
+  <entry key="GROVE_SUPER">
+    <en>Lost</en>
+    <zh>失落的</zh>
+  </entry>
+  <entry key="TORMENTED_TROBBIO_SUPER">
+    <en>Tormented</en>
+    <zh>苦痛的</zh>
+  </entry>
+  <entry key="FLEA_BOUNCE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BONEBOTTOM_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WARD_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GREYMOOR_MAIN">
+    <en>Greymoor</en>
+    <zh>灰沼</zh>
+  </entry>
+  <entry key="CORAL_STEPS_MAIN">
+    <en>Steps</en>
+    <zh>蚀阶</zh>
+  </entry>
+  <entry key="HH_PATRON_RIGHT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LARGE_COG_WORK_MAIN">
+    <en>Loam</en>
+    <zh>洛姆</zh>
+  </entry>
+  <entry key="COGWORK_CORE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BROODMOTHER_MAIN">
+    <en>Broodmother</en>
+    <zh>育母</zh>
+  </entry>
+  <entry key="CORAL_KING_SUPER">
+    <en>Crust King</en>
+    <zh>壳王</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_MAIN">
+    <en>Zylotol</en>
+    <zh>奇洛托</zh>
+  </entry>
+  <entry key="MISTMAZE_MAIN">
+    <en>Mist</en>
+    <zh>迷瘴</zh>
+  </entry>
+  <entry key="BELLHART_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHURCH_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HUNTER_TRAPPER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BB_PILGRIM_HORNED_SUPER">
+    <en>Horned</en>
+    <zh />
+  </entry>
+  <entry key="HUNTRESS_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ORGAN_MAIN">
+    <en>Organ</en>
+    <zh>废鸣管风琴</zh>
+  </entry>
+  <entry key="COURIER_SHORT_MAIN">
+    <en>Tipp</en>
+    <zh>蒂普</zh>
+  </entry>
+  <entry key="CORAL_TOWER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ANT_MERCHANT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHAPEL_REAPER_SUPER">
+    <en>Chapel of the</en>
+    <zh />
+  </entry>
+  <entry key="SETH_BC_SUB">
+    <en>By Seth Goldman</en>
+    <zh>设计：Seth Goldman</zh>
+  </entry>
+  <entry key="GREYMOOR_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SLAB_PRISONER_SUPER">
+    <en>Old</en>
+    <zh />
+  </entry>
+  <entry key="AQUEDUCTS_MAIN">
+    <en>Ducts</en>
+    <zh>腐殖渠</zh>
+  </entry>
+  <entry key="LADYBUG_LARGE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DOCKS_SUPER">
+    <en>Deep</en>
+    <zh />
+  </entry>
+  <entry key="DUSTPENS_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DOCK_GUARD_SOLO_MAIN">
+    <en>Signis</en>
+    <zh>西格尼斯</zh>
+  </entry>
+  <entry key="SHELLWOOD_WITCH_MAIN">
+    <en>Greyroot</en>
+    <zh>灰蕨</zh>
+  </entry>
+  <entry key="BLUE_ASSISTANT_SUPER">
+    <en>Plasmified</en>
+    <zh>生质异化的</zh>
+  </entry>
+  <entry key="SETH_BC_MAIN">
+    <en>Seth</en>
+    <zh>赛斯</zh>
+  </entry>
+  <entry key="HUNTER_QUEEN_MAIN">
+    <en>Karmelita</en>
+    <zh>卡梅莉塔</zh>
+  </entry>
+  <entry key="LITTLE_PILGRIM_N_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLHART_SHOPKEEP_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CROW_COURT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CRAWL_MAIN">
+    <en>Wormways</en>
+    <zh>沙噬虫道</zh>
+  </entry>
+  <entry key="CROW_COURT_MAIN">
+    <en>Craws</en>
+    <zh>腐囊虫庭</zh>
+  </entry>
+  <entry key="BB_PILGRIM_ROUND_SUPER">
+    <en>Quiet</en>
+    <zh />
+  </entry>
+  <entry key="HALLS_MAIN">
+    <en>Chambers</en>
+    <zh>圣咏殿</zh>
+  </entry>
+  <entry key="LITTLE_PILGRIM_SUPER">
+    <en>Little</en>
+    <zh />
+  </entry>
+  <entry key="LIBRARY_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_PEAK_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHURCHKEEPER_MAIN">
+    <en>Chapel Maid</en>
+    <zh>教堂侍女</zh>
+  </entry>
+  <entry key="TROBBIO_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLHART_GREETER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WARD_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SONG_KNIGHT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SKULL_KING_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SONG_KNIGHT_MAIN">
+    <en>Sentinel</en>
+    <zh>次席戍卫</zh>
+  </entry>
+  <entry key="WISP_SUB">
+    <en>Thicket</en>
+    <zh />
+  </entry>
+  <entry key="WEAVE_PRIME_SUPER">
+    <en>Weavenest</en>
+    <zh />
+  </entry>
+  <entry key="SHELLGRAVE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ARCHITECT_SUPER">
+    <en>Twelfth</en>
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DUST_TRADERS_2_MAIN">
+    <en>Benjin</en>
+    <zh>班金</zh>
+  </entry>
+  <entry key="HH_PATRON_RIGHT_MAIN">
+    <en>Pilgrim</en>
+    <zh>力竭的朝圣者</zh>
+  </entry>
+  <entry key="HALFWAY_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_ACT2_LARGE_MAIN">
+    <en>Pilgrim</en>
+    <zh>布道的朝圣者</zh>
+  </entry>
+  <entry key="SKULL_KING_MAIN">
+    <en>Skull Tyrant</en>
+    <zh>骷髅暴君</zh>
+  </entry>
+  <entry key="FLOWER_QUEEN_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLBEAST_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LOST_LACE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ZAPNEST_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GREY_CORAL_WARRIOR_SUPER">
+    <en>Watcher at the</en>
+    <zh />
+  </entry>
+  <entry key="SWAMP_SHAMAN_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SLAB_MAIN">
+    <en>Slab</en>
+    <zh>罪石牢狱</zh>
+  </entry>
+  <entry key="BELLHART_MAIN">
+    <en>Bellhart</en>
+    <zh>钟心镇</zh>
+  </entry>
+  <entry key="ABYSS_SUPER">
+    <en>The</en>
+    <zh />
+  </entry>
+  <entry key="GRANDGATE_MAIN">
+    <en>Grand Gate</en>
+    <zh>巨扉圣门</zh>
+  </entry>
+  <entry key="DRILLER_SOLO_SUPER">
+    <en>Raging</en>
+    <zh>狂暴的</zh>
+  </entry>
+  <entry key="HUNTER_QUEEN_BC_SUB">
+    <en>By Juan Camus</en>
+    <zh>设计：Juan Camus</zh>
+  </entry>
+  <entry key="FISHER_NPC_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CLOVER_DANCERS_MAIN">
+    <en>Dancers</en>
+    <zh>三叶草舞者</zh>
+  </entry>
+  <entry key="ABYSS_MASS_SUPER">
+    <en>Summoned</en>
+    <zh />
+  </entry>
+  <entry key="PINSTRESS_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHAPEL_REAPER_MAIN">
+    <en>Reaper</en>
+    <zh>收割者教堂</zh>
+  </entry>
+  <entry key="PHANTOM_MAIN">
+    <en>Phantom</en>
+    <zh>幽影</zh>
+  </entry>
+  <entry key="JUDGE_GATE_PILGRIM_SUB">
+    <en> </en>
+    <zh />
+  </entry>
+  <entry key="FLEA_GAMES_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HALLS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MAPPER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DOCKS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WILDS_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HALFWAY_SUPER">
+    <en>Halfway</en>
+    <zh />
+  </entry>
+  <entry key="GROVE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHELLWOOD_MAIN">
+    <en>Shellwood</en>
+    <zh>甲木林</zh>
+  </entry>
+  <entry key="BELLHART_SHOPKEEP_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CROWFATHER_MAIN">
+    <en>Crawfather</en>
+    <zh>腐囊之父</zh>
+  </entry>
+  <entry key="VAMPIRE_GNAT_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FISHER_NPC_MAIN">
+    <en>Reed</en>
+    <zh>里德</zh>
+  </entry>
+  <entry key="BONETOWN_FUNERAL_LEADER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="COURIERS_SHOP_SUPER">
+    <en>Couriers</en>
+    <zh>送货员</zh>
+  </entry>
+  <entry key="ANT_ENTRY_PILGRIM_SUPER">
+    <en>Fearful</en>
+    <zh />
+  </entry>
+  <entry key="DICE_PILGRIM_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHEF_SUPER">
+    <en>Disgraced Chef</en>
+    <zh>失格大厨</zh>
+  </entry>
+  <entry key="MISTMAZE_SUPER">
+    <en>The</en>
+    <zh />
+  </entry>
+  <entry key="GARMOND_BT_SUPER">
+    <en>Lost</en>
+    <zh>失心</zh>
+  </entry>
+  <entry key="LAST_CONDUCTOR_MAIN">
+    <en>Ballador</en>
+    <zh>巴拉多尔</zh>
+  </entry>
+  <entry key="HUNTRESS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEA_DODGE_SUPER">
+    <en>Flea</en>
+    <zh />
+  </entry>
+  <entry key="WILDS_MAIN">
+    <en>Far Fields</en>
+    <zh>远野</zh>
+  </entry>
+  <entry key="MOSSTOWN_MAIN">
+    <en>Mosshome</en>
+    <zh>苔栖乡</zh>
+  </entry>
+  <entry key="BROODMOTHER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WHITE_CLOVERSTAG_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_FIELDS_SUPER">
+    <en>Weavenest</en>
+    <zh />
+  </entry>
+  <entry key="WARD_BOSS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CREST_UPG_SHRINE_MAIN">
+    <en>Eva</en>
+    <zh>伊娃</zh>
+  </entry>
+  <entry key="CORAL_TOWER_MAIN">
+    <en>Coral Tower</en>
+    <zh>珊瑚尖塔</zh>
+  </entry>
+  <entry key="HH_BARTENDER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GRINDLE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LITTLE_PILGRIM_MAIN">
+    <en>Pilgrim</en>
+    <zh>小朝圣者</zh>
+  </entry>
+  <entry key="ARCHITECT_MAIN">
+    <en>Architect</en>
+    <zh>第十二席建筑师</zh>
+  </entry>
+  <entry key="ABANDONED_TOWN_MAIN">
+    <en>Town</en>
+    <zh>无名镇</zh>
+  </entry>
+  <entry key="MOUNTAIN_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BLUE_ASSISTANT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="COURIER_TALL_MAIN">
+    <en>Pill</en>
+    <zh>皮尔</zh>
+  </entry>
+  <entry key="BELLHART_RELICDEALER_SUPER">
+    <en>Relic Seeker</en>
+    <zh>寻宝者</zh>
+  </entry>
+  <entry key="BROODMOTHER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="TROBBIO_MAIN">
+    <en>Trobbio</en>
+    <zh>特罗比奥</zh>
+  </entry>
+  <entry key="GRUBFARMER_MIMIC_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CORAL_TOWER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLHART_HAUNTED_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BROODMOTHER_TINY_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SONG_KNIGHT_SUPER">
+    <en>Second</en>
+    <zh />
+  </entry>
+  <entry key="STEEL_SERVANT_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SETH_MAIN">
+    <en>Seth</en>
+    <zh>赛斯</zh>
+  </entry>
+  <entry key="DRILLER_SOLO_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DUST_TRADERS_1_MAIN">
+    <en>Crull</en>
+    <zh>克鲁尔</zh>
+  </entry>
+  <entry key="CHAPEL_REAPER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CARETAKER_MAIN">
+    <en>Caretaker</en>
+    <zh>看守者</zh>
+  </entry>
+  <entry key="FLEA_DODGE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="PILGRIMS_REST_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHADOW_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="OLD_STATUE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HUNTER_QUEEN_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WARD_BOSS_SUPER">
+    <en>The</en>
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_ACT2_LARGE_SUB">
+    <en>Preacher</en>
+    <zh />
+  </entry>
+  <entry key="SPLINTER_QUEEN_MAIN">
+    <en>Splinter</en>
+    <zh>碎裂者修女</zh>
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_LARGE_ACT3_SUPER">
+    <en>Worried</en>
+    <zh />
+  </entry>
+  <entry key="FLEATOPIA_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CARETAKER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CARETAKER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SEAMSTRESS_MAIN">
+    <en>Seamstress</en>
+    <zh>织女虫</zh>
+  </entry>
+  <entry key="SETH_NPC_BC_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GRINDLE_MAIN">
+    <en>Grindle</en>
+    <zh>格林德尔</zh>
+  </entry>
+  <entry key="GIANT_BONE_FLYER_SUPER">
+    <en>Savage</en>
+    <zh>残暴的</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_SUPER">
+    <en>Steel Seer</en>
+    <zh>钢之先知</zh>
+  </entry>
+  <entry key="MAPPER_MAIN">
+    <en>Shakra</en>
+    <zh>沙克拉</zh>
+  </entry>
+  <entry key="ABYSS_MAIN">
+    <en>Abyss</en>
+    <zh>深渊</zh>
+  </entry>
+  <entry key="LACE_MAIN">
+    <en>Lace</en>
+    <zh>蕾丝</zh>
+  </entry>
+  <entry key="FORGEDAUGHTER_SUPER">
+    <en>Forge</en>
+    <zh />
+  </entry>
+  <entry key="STEEL_SENTINEL_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LIBRARIAN_RELIC_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEAMEMBER_TALL_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MEMORY_RED_SUPER">
+    <en>Red</en>
+    <zh />
+  </entry>
+  <entry key="HH_BARTENDER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SONG_GOLEM_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MOSSBONE_MOTHER_MAIN">
+    <en>Mother</en>
+    <zh>苔藓之母</zh>
+  </entry>
+  <entry key="JUDGE_GATE_PILGRIM_MAIN">
+    <en>Pilgrim</en>
+    <zh>高个朝圣者</zh>
+  </entry>
+  <entry key="DICE_PILGRIM_DEFEATED_MAIN">
+    <en>Lumble</en>
+    <zh>兰布尔</zh>
+  </entry>
+  <entry key="GRUBFARMER_MAIN">
+    <en>Styx</en>
+    <zh>斯堤克斯</zh>
+  </entry>
+  <entry key="HUNTERS_MARCH_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BB_SHOPKEEP_MAIN">
+    <en>Pebb</en>
+    <zh>佩珀</zh>
+  </entry>
+  <entry key="HUNTER_TRAPPER_SUB">
+    <en>The Outcast</en>
+    <zh>被放逐的</zh>
+  </entry>
+  <entry key="SILK_MAIN">
+    <en>Silk</en>
+    <zh>苍白之母</zh>
+  </entry>
+  <entry key="CHAPEL_ARCHITECT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SONG_GOLEM_SUPER">
+    <en>Fourth</en>
+    <zh>第四</zh>
+  </entry>
+  <entry key="FLEA_TRACKER_MAIN">
+    <en>Vog</en>
+    <zh>沃葛</zh>
+  </entry>
+  <entry key="CHEF_MAIN">
+    <en>Lugoli</en>
+    <zh>卢戈利</zh>
+  </entry>
+  <entry key="SETH_BC_SUPER">
+    <en>Shrine Guardian</en>
+    <zh>圣所守卫者</zh>
+  </entry>
+  <entry key="SILK_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_MAIN">
+    <en>Songclave</en>
+    <zh>圣歌盟地</zh>
+  </entry>
+  <entry key="ABANDONED_TOWN_SUPER">
+    <en>Nameless</en>
+    <zh />
+  </entry>
+  <entry key="MR_MUSHROOM_MAIN">
+    <en>Mushroom</en>
+    <zh>蘑菇先生</zh>
+  </entry>
+  <entry key="ORGAN_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEA_JUGGLE_SUPER">
+    <en>Flea</en>
+    <zh />
+  </entry>
+  <entry key="SPEEDMASTER_SUPER">
+    <en>Sprintmaster</en>
+    <zh>飞毛腿</zh>
+  </entry>
+  <entry key="PILGRIMS_REST_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_SUPER">
+    <en>Scared</en>
+    <zh />
+  </entry>
+  <entry key="BB_SHOPKEEP_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="COURIERS_SHOP_MAIN">
+    <en>Tipp &amp; Pill</en>
+    <zh>蒂普 &amp; 皮尔</zh>
+  </entry>
+  <entry key="BELLHART_HAUNTED_SUPER">
+    <en>Haunted</en>
+    <zh>丝咒侵袭的</zh>
+  </entry>
+  <entry key="LIBRARIAN_RELIC_SUPER">
+    <en>Vaultkeeper</en>
+    <zh>书库管理员</zh>
+  </entry>
+  <entry key="CROW_COURT_SUPER">
+    <en>Court Of</en>
+    <zh />
+  </entry>
+  <entry key="GOURMAND_SERVANT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_FIELDS_MAIN">
+    <en>Cindril</en>
+    <zh>辛德里尔织巢</zh>
+  </entry>
+  <entry key="CHAPEL_WARRIOR_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CITY_MERCHANT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SNAIL_SHAMANS_MAIN">
+    <en>Shamans</en>
+    <zh>蜗牛萨满</zh>
+  </entry>
+  <entry key="HUNTER_QUEEN_SUPER">
+    <en>Skarrsinger</en>
+    <zh>斯卡尔歌后</zh>
+  </entry>
+  <entry key="WEAVE_CRAWL_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLOWER_QUEEN_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ANT_MERCHANT_SUPER">
+    <en>Mottled</en>
+    <zh>白斑</zh>
+  </entry>
+  <entry key="SWAMP_SHAMAN_SUB">
+    <en>The Great</en>
+    <zh />
+  </entry>
+  <entry key="BLUE_ASSISTANT_MAIN">
+    <en>Zango</en>
+    <zh>赞戈</zh>
+  </entry>
+  <entry key="MOSSTOWN_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CRAWL_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GRANDGATE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SLAB_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CROWFATHER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BONEFOREST_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CORAL_RIVER_MAIN">
+    <en>Karak</en>
+    <zh>卡拉卡沙川</zh>
+  </entry>
+  <entry key="COURIER_TALL_SUPER">
+    <en>Courier</en>
+    <zh>送货员</zh>
+  </entry>
+  <entry key="SHELLWOOD_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MASK_MAKER_MAIN">
+    <en>Mask Maker</en>
+    <zh>面甲匠</zh>
+  </entry>
+  <entry key="FLEAMEMBER_SHORT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MOSSCREEP_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEA_LECH_MAIN">
+    <en>Kratt</en>
+    <zh>克拉特</zh>
+  </entry>
+  <entry key="FIRST_WEAVER_SUPER">
+    <en>First</en>
+    <zh />
+  </entry>
+  <entry key="HUNTER_FAN_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CITADEL_SHRINE_SUPER">
+    <en>First</en>
+    <zh />
+  </entry>
+  <entry key="GOURMAND_SERVANT_SUPER">
+    <en>Loyal</en>
+    <zh>忠诚的</zh>
+  </entry>
+  <entry key="DRILLERS_MAIN">
+    <en>Conchflies</en>
+    <zh>巨型螺蝇</zh>
+  </entry>
+  <entry key="LARGE_COG_WORK_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GARMOND_MAIN">
+    <en>Garmond</en>
+    <zh>加蒙德</zh>
+  </entry>
+  <entry key="VAMPIRE_GNAT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LAST_JUDGE_MAIN">
+    <en>Judge</en>
+    <zh>末代裁决者</zh>
+  </entry>
+  <entry key="BONEFOREST_MAIN">
+    <en>Marrow</en>
+    <zh>髓骨洞窟</zh>
+  </entry>
+  <entry key="ARBORIUM_MAIN">
+    <en>Memorium</en>
+    <zh>忆廊</zh>
+  </entry>
+  <entry key="ICECORE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHERMA_PILGRIM_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ANT_ENTRY_PILGRIM_MAIN">
+    <en>Pilgrim</en>
+    <zh>怯懦的朝圣者</zh>
+  </entry>
+  <entry key="SETH_NPC_MAIN">
+    <en>Seth</en>
+    <zh>赛斯</zh>
+  </entry>
+  <entry key="CHAPEL_WANDERER_SUPER">
+    <en>Chapel of the</en>
+    <zh />
+  </entry>
+  <entry key="DOCK_GUARD_SOLO_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_PEAK_MAIN">
+    <en>Askar</en>
+    <zh>阿斯卡织巢</zh>
+  </entry>
+  <entry key="ARCHITECT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MOSSBONE_MOTHER_SUPER">
+    <en>Moss</en>
+    <zh />
+  </entry>
+  <entry key="CITY_MERCHANT_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHAPEL_WITCH_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WICKER_BUG_SUPER">
+    <en>Father of the</en>
+    <zh />
+  </entry>
+  <entry key="WEAVE_PEAK_SUPER">
+    <en>Weavenest</en>
+    <zh />
+  </entry>
+  <entry key="LAST_CONDUCTOR_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHADOW_MAIN">
+    <en>Bilewater</en>
+    <zh>腐汁泽</zh>
+  </entry>
+  <entry key="FIXER_MAIN">
+    <en>Flick</en>
+    <zh>弗利克</zh>
+  </entry>
+  <entry key="SPINNER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SETH_NPC_BC_SUB">
+    <en>By Seth Goldman</en>
+    <zh>设计：Seth Goldman</zh>
+  </entry>
+  <entry key="SPEEDMASTER_MAIN">
+    <en>Swift</en>
+    <zh>斯威夫特</zh>
+  </entry>
+  <entry key="ZAPNEST_BOSS_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BIG_CENTIPEDE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLHART_GREETER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CORAL_RIVER_SUPER">
+    <en>Sands of</en>
+    <zh />
+  </entry>
+  <entry key="MOSSCAVE_MAIN">
+    <en>Moss Grotto</en>
+    <zh>苔穴</zh>
+  </entry>
+  <entry key="MISTMAZE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ZAPNEST_MAIN">
+    <en>Voltnest</en>
+    <zh>电荷巢穴</zh>
+  </entry>
+  <entry key="SPLINTER_QUEEN_SUPER">
+    <en>Sister</en>
+    <zh />
+  </entry>
+  <entry key="ABYSS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HH_PATRON_LEFT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHURCHKEEPER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GRINDLE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LOST_LACE_MAIN">
+    <en>Lost Lace</en>
+    <zh>蕾丝</zh>
+  </entry>
+  <entry key="HUNTER_FAN_MAIN">
+    <en>Nuu</en>
+    <zh>努努</zh>
+  </entry>
+  <entry key="TROBBIO_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CORAL_STEPS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CRADLE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SHERMA_MAIN">
+    <en>Sherma</en>
+    <zh>谢尔玛</zh>
+  </entry>
+  <entry key="CREST_UPG_SHRINE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="PINSMITH_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GRUBFARMER_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BB_SHOPKEEP_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHURCH_MAIN">
+    <en>Chapel</en>
+    <zh>颓败教堂</zh>
+  </entry>
+  <entry key="FLEACARAVAN_MAIN">
+    <en>Caravan</en>
+    <zh>跳蚤旅团</zh>
+  </entry>
+  <entry key="GREEN_PRINCE_MAIN">
+    <en>Green Prince</en>
+    <zh>绿王子</zh>
+  </entry>
+  <entry key="WICKER_BUG_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLHART_RELICDEALER_MAIN">
+    <en>Scrounge</en>
+    <zh>拾荒奇</zh>
+  </entry>
+  <entry key="CHAPEL_WARRIOR_MAIN">
+    <en>Beast</en>
+    <zh>野兽教堂</zh>
+  </entry>
+  <entry key="DOCK_GUARD_DUO_MAIN">
+    <en>Signis &amp; Gron</en>
+    <zh>西格尼斯 &amp; 格隆</zh>
+  </entry>
+  <entry key="HH_PATRON_LEFT_MAIN">
+    <en>Pilgrim</en>
+    <zh>年迈的朝圣者</zh>
+  </entry>
+  <entry key="VAMPIRE_GNAT_MAIN">
+    <en>Moorwing</en>
+    <zh>荒沼翼主</zh>
+  </entry>
+  <entry key="BALLOW_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="SNAIL_SHAMANS_SUPER">
+    <en>Snail</en>
+    <zh />
+  </entry>
+  <entry key="PINSTRESS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEA_GAMES_MAIN">
+    <en>Festival</en>
+    <zh>跳蚤节</zh>
+  </entry>
+  <entry key="SNAIL_SHAMANS_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FIRST_WEAVER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHURCHKEEPER_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEACARAVAN_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHURCH_SUPER">
+    <en>Ruined</en>
+    <zh />
+  </entry>
+  <entry key="FLEA_BOUNCE_SUPER">
+    <en>Flea</en>
+    <zh />
+  </entry>
+  <entry key="SILK_SUPER">
+    <en>Grand Mother</en>
+    <zh />
+  </entry>
+  <entry key="BELL_HERMIT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ANT_ENTRY_PILGRIM_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BONEFOREST_SUPER">
+    <en>The</en>
+    <zh />
+  </entry>
+  <entry key="GREY_CORAL_WARRIOR_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GARMOND_SUB">
+    <en>And Zaza</en>
+    <zh>&amp; 扎扎</zh>
+  </entry>
+  <entry key="DOCK_GUARD_THROWER_SUPER">
+    <en>Forebrother</en>
+    <zh>监工兄弟</zh>
+  </entry>
+  <entry key="LAST_JUDGE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GARMOND_BT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GROVE_DUNGEON_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HUNTERS_MARCH_MAIN">
+    <en>March</en>
+    <zh>猎者小径</zh>
+  </entry>
+  <entry key="BELL_HERMIT_SUPER">
+    <en>Bell</en>
+    <zh />
+  </entry>
+  <entry key="CROW_LAKE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LITTLE_PILGRIM_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="WEAVE_SWAMP_SUPER">
+    <en>Weavenest</en>
+    <zh />
+  </entry>
+  <entry key="COGWORK_CORE_MAIN">
+    <en>Core</en>
+    <zh>机枢核心</zh>
+  </entry>
+  <entry key="LITTLE_PILGRIM_N_MAIN">
+    <en>Pilby</en>
+    <zh>皮尔比</zh>
+  </entry>
+  <entry key="DRILLER_SOLO_MAIN">
+    <en>Conchfly</en>
+    <zh>螺蝇</zh>
+  </entry>
+  <entry key="HUNTRESS_RUNT_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GROVE_DUNGEON_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FORGEDAUGHTER_MAIN">
+    <en>Daughter</en>
+    <zh>熔炉之女</zh>
+  </entry>
+  <entry key="GILLY_MAIN">
+    <en>Gilly</en>
+    <zh>吉莉</zh>
+  </entry>
+  <entry key="CROW_LAKE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BONETOWN_FUNERAL_LEADER_MAIN">
+    <en>Pilgrim</en>
+    <zh>严肃的朝圣者</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="PINSMITH_MAIN">
+    <en>Plinney</en>
+    <zh>普林尼</zh>
+  </entry>
+  <entry key="WICKER_BUG_MAIN">
+    <en>Flame</en>
+    <zh>炽焰之父</zh>
+  </entry>
+  <entry key="BELLHART_GREETER_MAIN">
+    <en>Pavo</en>
+    <zh>帕沃</zh>
+  </entry>
+  <entry key="BELLBEAST_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FIXER_SUB">
+    <en>The Fixer</en>
+    <zh>维修师</zh>
+  </entry>
+  <entry key="GREY_CORAL_WARRIOR_MAIN">
+    <en>Edge</en>
+    <zh>边陲守望者</zh>
+  </entry>
+  <entry key="CHAPEL_ARCHITECT_SUPER">
+    <en>Chapel Of The</en>
+    <zh />
+  </entry>
+  <entry key="WEAVE_PRIME_MAIN">
+    <en>Atla</en>
+    <zh>阿特拉织巢</zh>
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_ACT3_MAIN">
+    <en>Pilgrim</en>
+    <zh>沮丧的朝圣者</zh>
+  </entry>
+  <entry key="MOSSCAVE_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="PHANTOM_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="PHANTOM_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HUNTER_QUEEN_BC_MAIN">
+    <en>Karmelita</en>
+    <zh>卡梅莉塔</zh>
+  </entry>
+  <entry key="TORMENTED_TROBBIO_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DICE_PILGRIM_SUB">
+    <en>The Lucky</en>
+    <zh>幸运儿</zh>
+  </entry>
+  <entry key="MEMORY_RED_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="LITTLE_PILGRIM_N_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLWAY_PILGRIM_SUPER">
+    <en>Fearful</en>
+    <zh />
+  </entry>
+  <entry key="OLD_STATUE_MAIN">
+    <en>Isamor</en>
+    <zh>伊萨莫尔</zh>
+  </entry>
+  <entry key="PINSMITH_SUPER">
+    <en>Pinmaster</en>
+    <zh>针匠</zh>
+  </entry>
+  <entry key="FIRST_WEAVER_MAIN">
+    <en>Sinner</en>
+    <zh>原罪者</zh>
+  </entry>
+  <entry key="HH_PATRON_RIGHT_SUPER">
+    <en>Exhausted</en>
+    <zh />
+  </entry>
+  <entry key="ICECORE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BELLBEAST_MAIN">
+    <en>Bell Beast</en>
+    <zh>钟道兽</zh>
+  </entry>
+  <entry key="WEAVE_SWAMP_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_ACT2_MAIN">
+    <en>Pilgrim</en>
+    <zh>虔诚的朝圣者</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_MAIN">
+    <en>Dancers</en>
+    <zh>机枢舞者</zh>
+  </entry>
+  <entry key="AQUEDUCTS_SUPER">
+    <en>Putrified</en>
+    <zh />
+  </entry>
+  <entry key="BONEBOTTOM_MAIN">
+    <en>Bone Bottom</en>
+    <zh>骸底镇</zh>
+  </entry>
+  <entry key="DUST_TRADERS_2_SUB">
+    <en>And Crull</en>
+    <zh>&amp; 克鲁尔</zh>
+  </entry>
+  <entry key="TORMENTED_TROBBIO_MAIN">
+    <en>Trobbio</en>
+    <zh>特罗比奥</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HUNTER_FAN_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="DUST_TRADERS_2_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="GROVE_MAIN">
+    <en>Verdania</en>
+    <zh>翠庭</zh>
+  </entry>
+  <entry key="WHITE_CLOVERSTAG_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_LARGE_ACT3_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="FLEA_DODGE_MAIN">
+    <en>Dodge</en>
+    <zh>跳蚤溜溜</zh>
+  </entry>
+  <entry key="COGWORK_CORE_SUPER">
+    <en>Cogwork</en>
+    <zh />
+  </entry>
+  <entry key="MEMORY_RED_MAIN">
+    <en>Memory</en>
+    <zh>赤红忆境</zh>
+  </entry>
+  <entry key="ARBORIUM_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="MOUNTAIN_SUPER">
+    <en>Mount</en>
+    <zh />
+  </entry>
+  <entry key="DICE_PILGRIM_MAIN">
+    <en>Lumble</en>
+    <zh>兰布尔</zh>
+  </entry>
+  <entry key="FLEA_BOUNCE_MAIN">
+    <en>Bounce</en>
+    <zh>跳蚤蹦蹦</zh>
+  </entry>
+  <entry key="LIBRARY_SUPER">
+    <en>Whispering</en>
+    <zh />
+  </entry>
+  <entry key="BELLHART_HAUNTED_MAIN">
+    <en>Bellhart</en>
+    <zh>钟心镇</zh>
+  </entry>
+  <entry key="ARBORIUM_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HALLS_SUPER">
+    <en>Choral</en>
+    <zh />
+  </entry>
+  <entry key="GILLY_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="CHAPEL_WITCH_MAIN">
+    <en>Witch</en>
+    <zh>女巫教堂</zh>
+  </entry>
+  <entry key="HUNTERS_MARCH_SUPER">
+    <en>Hunter’s</en>
+    <zh />
+  </entry>
+  <entry key="ENCLAVE_PILGRIM_MAIN">
+    <en>Pilgrim</en>
+    <zh>惊惶的朝圣者</zh>
+  </entry>
+  <entry key="LACE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BALLOW_SUPER">
+    <en />
+    <zh />
+  </entry>
+  <entry key="PILGRIMS_REST_MAIN">
+    <en>Pilgrim’s Rest</en>
+    <zh>朝圣者憩所</zh>
+  </entry>
+  <entry key="MOSSCAVE_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="BB_PILGRIM_HORNED_SUB">
+    <en />
+    <zh />
+  </entry>
+  <entry key="HANG_MAIN">
+    <en>High Halls</en>
+    <zh>高庭</zh>
+  </entry>
+  <entry key="MOUNTAIN_MAIN">
+    <en>Fay</en>
+    <zh>费耶山</zh>
+  </entry>
+  <entry key="HALFWAY_MAIN">
+    <en>Home</en>
+    <zh>中途酒馆</zh>
+  </entry>
+</sheet>

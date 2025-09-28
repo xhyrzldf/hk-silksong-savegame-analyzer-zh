@@ -1,0 +1,5327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Song">
+  <entry key="HUNTER_FAN_02">
+    <en>Clever Nuu must know them all!</en>
+    <zh>聪明努努都知晓！</zh>
+  </entry>
+  <entry key="HUNTER_FAN_03">
+    <en>Wings that beat, legs that crawl...</en>
+    <zh>振翅的飞者，爬行的走兽……</zh>
+  </entry>
+  <entry key="HUNTER_FAN_04">
+    <en>In waters deep and caverns tall...</en>
+    <zh>在深水与高穴中……</zh>
+  </entry>
+  <entry key="CITADEL_BAT_04">
+    <en>Smaller, catch the prey!</en>
+    <zh>小的，抓起来！</zh>
+  </entry>
+  <entry key="BONEGRAVE_03">
+    <en>...Climb and serve...</en>
+    <zh>……攀以侍奉……</zh>
+  </entry>
+  <entry key="SETH_GUARDIAN_03">
+    <en>Guardian’s call...</en>
+    <zh>守护者召唤……</zh>
+  </entry>
+  <entry key="BROODMOTHER_01">
+    <en>Hatchy, hatchy!</en>
+    <zh>破壳吧！破壳吧！</zh>
+  </entry>
+  <entry key="UNDERWORKER_LOAM_01">
+    <en>See me work...</en>
+    <zh>看我劳作……</zh>
+  </entry>
+  <entry key="GREY_WARRIOR_04">
+    <en>Watching... always...</en>
+    <zh>注视……永久……</zh>
+  </entry>
+  <entry key="SLAB_FLY_CAGE_02">
+    <en>Lay yourself down...</en>
+    <zh>俯首认罪……</zh>
+  </entry>
+  <entry key="ROACHKEEPER_04">
+    <en>None shall starve...</en>
+    <zh>无饥饿之忧……</zh>
+  </entry>
+  <entry key="PILGRIM_GREATGATE_03">
+    <en>We have followed the path...</en>
+    <zh>我们追循圣道而来……</zh>
+  </entry>
+  <entry key="DOCK_ELDER_B_03">
+    <en>World’s blood runs hot...</en>
+    <zh>地心炽血奔流……</zh>
+  </entry>
+  <entry key="BONE_HOPPER_04">
+    <en>Mark of circle, mark of death...</en>
+    <zh>圆环印记，死亡印记……</zh>
+  </entry>
+  <entry key="FLEATOPIA_02">
+    <en>The road behind us, all dangers passed...</en>
+    <zh>险途已过，危机尽除……</zh>
+  </entry>
+  <entry key="SEAMSTRESS_01">
+    <en>Darn it. Stitch it. Make it whole...</en>
+    <zh>缝补、缀合，复其完整……</zh>
+  </entry>
+  <entry key="ARCHITECT_01">
+    <en>...To mend...Unending...</en>
+    <zh>……修缮……永无止境……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_BLOOM_03">
+    <en>...To seed... To grow...</en>
+    <zh>……播种……生长……</zh>
+  </entry>
+  <entry key="BELLTOWN_ACT3_06">
+    <en>Black threads...</en>
+    <zh>黑暗之灾……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ORGAN_TANK_02">
+    <en>She spun us to break...</en>
+    <zh>她编织我们的崩坏……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ORGAN_TANK_03">
+    <en>Why us, sister?</en>
+    <zh>为何是我们，姐妹？……</zh>
+  </entry>
+  <entry key="SPIDER_GENERIC_04">
+    <en>Always ours...</en>
+    <zh>永远属于我们……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ORGAN_TANK_01">
+    <en>She spun us to fade...</en>
+    <zh>她编织我们的消亡……</zh>
+  </entry>
+  <entry key="HUNTER_05">
+    <en>No nest, no home...</en>
+    <zh>无巢无家……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ORGAN_TANK_04">
+    <en>Why us?</en>
+    <zh>为何是我们？……</zh>
+  </entry>
+  <entry key="SPIDER_GENERIC_01">
+    <en>Our caves...</en>
+    <zh>我们的洞穴……</zh>
+  </entry>
+  <entry key="SPIDER_GENERIC_02">
+    <en>Our darkness...</en>
+    <zh>我们的黑暗……</zh>
+  </entry>
+  <entry key="SPIDER_GENERIC_03">
+    <en>To hide... To nest... To live...</en>
+    <zh>藏匿……筑巢……生存……</zh>
+  </entry>
+  <entry key="PLINNEY_SHELLGRAVE_03">
+    <en>Claw’s touch... warm whisper...</en>
+    <zh>利爪轻触……温暖低语……</zh>
+  </entry>
+  <entry key="PLINNEY_SHELLGRAVE_02">
+    <en>Shining moments, brief, eternal...</en>
+    <zh>闪耀刹那，短暂永恒……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_PONTIFF_03">
+    <en>We sang your chains...</en>
+    <zh>为枷锁歌颂……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ARCHITECT_03">
+    <en>Always another...</en>
+    <zh>代代相继……</zh>
+  </entry>
+  <entry key="WISP_TOTEM_05">
+    <en>Flare together!</en>
+    <zh>共燃烈焰！</zh>
+  </entry>
+  <entry key="WARD_SURGEON_06">
+    <en>None may die! None may die!</en>
+    <zh>不得死亡！不能！</zh>
+  </entry>
+  <entry key="BLOAT_ROACH_05">
+    <en>Burn them... bite them...</en>
+    <zh>灼烧它们……撕咬它们……</zh>
+  </entry>
+  <entry key="BONETOWN_ACT3_02">
+    <en>...To climb...</en>
+    <zh>……为攀登……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SONG_SMALL_ROOM_02">
+    <en>...All our glory...</en>
+    <zh>……我们的荣耀……</zh>
+  </entry>
+  <entry key="CLOVER_DANCERS_06">
+    <en>Hearts entwined...</en>
+    <zh>灵犀相通……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_AQUEDUCT_04">
+    <en>The bites... the stench...</en>
+    <zh>撕咬……恶臭……</zh>
+  </entry>
+  <entry key="GILLY_04">
+    <en>I’ll sniff it out!</en>
+    <zh>我会嗅出答案！</zh>
+  </entry>
+  <entry key="BONETOWN_ACT3_04">
+    <en>...Help us...</en>
+    <zh>……帮帮我们……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_AQUEDUCT_03">
+    <en>...All turned rotten...</en>
+    <zh>……腐烂变质……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_AQUEDUCT_02">
+    <en>...So dark...</en>
+    <zh>……如此黑暗……</zh>
+  </entry>
+  <entry key="HUNTRESS_03">
+    <en>Chase the prey fled in fear...</en>
+    <zh>追猎惊逃猎物……</zh>
+  </entry>
+  <entry key="VAULTS_STATUE_01">
+    <en>Pilgrims... all...</en>
+    <zh>朝圣者……皆为……</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_FINAL_01">
+    <en>...Life for all...</en>
+    <zh>……为众生续命……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_MUCKLANDS_GATE_02">
+    <en>...All your will... </en>
+    <zh>……你的意志……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_MUCKLANDS_GATE_03">
+    <en>...All your wishes...</en>
+    <zh>……你的祈愿……</zh>
+  </entry>
+  <entry key="ENCLAVE_02">
+    <en>Where is your light?</en>
+    <zh>你的光芒在何方？……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_MUCKLANDS_GATE_01">
+    <en>...None beyond...</en>
+    <zh>……前路空无……</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_05">
+    <en>Our honour! Our peace!</en>
+    <zh>吾等荣光！吾等安宁！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_MUCKLANDS_GATE_04">
+    <en>...All ours...</en>
+    <zh>……皆为我等所求……</zh>
+  </entry>
+  <entry key="STEEL_SERVANT_06">
+    <en>Bound... forever...</en>
+    <zh>在他们的凝视下粉碎！</zh>
+  </entry>
+  <entry key="CORAL_WARRIOR_04">
+    <en>For order brought, by claw and blade!</en>
+    <zh>为爪刃所铸之序。</zh>
+  </entry>
+  <entry key="VAULT_KEEPER_05">
+    <en>Words that only we may speak...</en>
+    <zh>唯我们能诵读的经文……</zh>
+  </entry>
+  <entry key="GREEN_PRINCE_02">
+    <en>Our claws clasped...</en>
+    <zh>利爪相扣……</zh>
+  </entry>
+  <entry key="TORMENTED_TROBBIO_02">
+    <en>Fell fated fallen!</en>
+    <zh>天命陨落！</zh>
+  </entry>
+  <entry key="MEMORY_FIRST_SINNER_02">
+    <en>Know our power...</en>
+    <zh>知晓我们的力量……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_CAPITAL_04">
+    <en>Our wish...</en>
+    <zh>我们的愿望……</zh>
+  </entry>
+  <entry key="SNAIL_SHAMAN_02">
+    <en>A kingdom lost...</en>
+    <zh>王国倾覆……</zh>
+  </entry>
+  <entry key="LAST_CONDUCTOR_03">
+    <en>Now only silence...</en>
+    <zh>如今只剩沉寂……</zh>
+  </entry>
+  <entry key="RELIC_DEALER_01">
+    <en>The past’s long shadow!</en>
+    <zh>往昔的长影！</zh>
+  </entry>
+  <entry key="RELIC_DEALER_02">
+    <en>Whispers of the dead...</en>
+    <zh>亡者的低语……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_PILGRIMS_CRAWL_06">
+    <en>...Worthy...</en>
+    <zh>……值得……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_PILGRIMS_CRAWL_05">
+    <en>...Remembered...</en>
+    <zh>……被铭记……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_PILGRIMS_CRAWL_04">
+    <en>...Held in our hearts...</en>
+    <zh>……永存心间……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_PILGRIMS_CRAWL_03">
+    <en>...Suffer no more...</en>
+    <zh>……不再受苦……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_PILGRIMS_CRAWL_02">
+    <en>...Harden the path...</en>
+    <zh>……巩固道路……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_PILGRIMS_CRAWL_01">
+    <en>...Dear one...</en>
+    <zh>……同胞……</zh>
+  </entry>
+  <entry key="BELLTOWN_06">
+    <en>We serve, safe...</en>
+    <zh>安全地服务……</zh>
+  </entry>
+  <entry key="CITADEL_BAT_01">
+    <en>Swooping and feeding...</en>
+    <zh>俯冲掠食……</zh>
+  </entry>
+  <entry key="HUNTER_MOTTLED_CHILD_01">
+    <en>For death... I give death...</en>
+    <zh>带来死亡……赐予死亡……</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_LONELY_06">
+    <en>To dance... ...</en>
+    <zh>起舞……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SONG_SMALL_ROOM_04">
+    <en>...Beauty... faded...</en>
+    <zh>……美丽……褪色……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_05">
+    <en>Only the holy may judge!</en>
+    <zh>唯圣者能够裁决……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_GREYMOOR_DARK_02">
+    <en>...None left...</en>
+    <zh>……孑然一身……</zh>
+  </entry>
+  <entry key="BELLTOWN_ACT3_05">
+    <en>Pharloom... we failed...</en>
+    <zh>纺络，我们失败了……</zh>
+  </entry>
+  <entry key="BONETOWN_FUNERAL_01">
+    <en>Fallen brother...</en>
+    <zh>倒下的兄弟……</zh>
+  </entry>
+  <entry key="BONETOWN_FUNERAL_02">
+    <en>Your journey ends...</en>
+    <zh>你们的旅程虽然终结……</zh>
+  </entry>
+  <entry key="MOSSCREEP_05">
+    <en>In branches, in fields!</en>
+    <zh>在枝头上，在旷野上！</zh>
+  </entry>
+  <entry key="HUNTER_QUEEN_02">
+    <en>Feel my claws!</en>
+    <zh>感受我的利爪！</zh>
+  </entry>
+  <entry key="PHANTOM_06">
+    <en>Claws quivering...</en>
+    <zh>救我脱离湮灭宿命……</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_LONELY_05">
+    <en>... ...Our peace...</en>
+    <zh>……安宁……</zh>
+  </entry>
+  <entry key="WRAITH_06">
+    <en>You will be lost...</en>
+    <zh>而你终将迷失……</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_LONELY_03">
+    <en>Claws... ...Blades...</en>
+    <zh>利爪……锋刃……</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_LONELY_02">
+    <en>... ...Dance alone...</en>
+    <zh>……独舞……</zh>
+  </entry>
+  <entry key="MEMORY_HUNTER_QUEEN_05">
+    <en>For you, my children...</en>
+    <zh>为了你们，我的孩子……</zh>
+  </entry>
+  <entry key="WISPFLY_01">
+    <en>Burn! Burn! Burn!</en>
+    <zh>燃烧！燃烧！燃烧！</zh>
+  </entry>
+  <entry key="GARMOND_05">
+    <en>Till the end... together...</en>
+    <zh>直至终末……同心……</zh>
+  </entry>
+  <entry key="GARMOND_ACT3_04">
+    <en>Our duty... till the end...</en>
+    <zh>坚守职责……至死方休……</zh>
+  </entry>
+  <entry key="BONE_CREATURE_03">
+    <en>Scratching, seeking...</en>
+    <zh>抓挠，寻觅……</zh>
+  </entry>
+  <entry key="FIRST_SINNER_SPIRE_02">
+    <en>...Forgotten...</en>
+    <zh>……遗忘……</zh>
+  </entry>
+  <entry key="BONE_HOPPER_01">
+    <en>World’s breath, rustling leaf...</en>
+    <zh>叶丛沙沙，世界之息……</zh>
+  </entry>
+  <entry key="SONG_CREEPER_08">
+    <en>All is needed!</en>
+    <zh>一切皆有所需！</zh>
+  </entry>
+  <entry key="PLINNEY_04">
+    <en>May Pharloom’s pins gleam bright for all!</en>
+    <zh>愿纺络的刺针永耀众生！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CRAWL_ASSISTANT_04">
+    <en>Too dark... </en>
+    <zh>太暗了……</zh>
+  </entry>
+  <entry key="FARMER_WISP_02">
+    <en>Sear us, scold us!</en>
+    <zh>灼烧我们，叱责我们！</zh>
+  </entry>
+  <entry key="THREADED_HUSK_03">
+    <en>...I am... fading...</en>
+    <zh>……我正……消散……</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_05">
+    <en>My faith... my reward...</en>
+    <zh>信仰终得回报……</zh>
+  </entry>
+  <entry key="PEAKS_DRIFTER_03">
+    <en>Mother, mother, gleam so brightly...</en>
+    <zh>母亲，母亲，闪耀辉光……</zh>
+  </entry>
+  <entry key="WISP_TOTEM_06">
+    <en>To meet you... Father...</en>
+    <zh>为了见您……父亲……</zh>
+  </entry>
+  <entry key="CRADLE_ACT3_01">
+    <en>...Grace...</en>
+    <zh>……恩典……</zh>
+  </entry>
+  <entry key="SHAKRA_ACT3_02">
+    <en>Until the end...</en>
+    <zh>直至终结……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CORAL_TOWER_03">
+    <en>Remember our strength...</en>
+    <zh>铭记吾等伟力……</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_03">
+    <en>The path... the holy path...</en>
+    <zh>我必成功，拭目以待。</zh>
+  </entry>
+  <entry key="BELLBEAST_STRUNG_02">
+    <en>Strength... stolen...</en>
+    <zh>力量……被夺……</zh>
+  </entry>
+  <entry key="BELLBEAST_STRUNG_01">
+    <en>Pale snare... </en>
+    <zh>苍白陷阱……</zh>
+  </entry>
+  <entry key="ROCK_ROLLER_04">
+    <en>World’s breath, distant call...</en>
+    <zh>世界之息，遥远呼唤……</zh>
+  </entry>
+  <entry key="SWAMP_SHAMAN_01">
+    <en>Behold! True strength!</en>
+    <zh>见证！真正力量！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CORAL_TOWER_05">
+    <en>Now none to resist... But us...</en>
+    <zh>无者敢抗……唯有吾等……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SILK_SIPHON_04">
+    <en>Why... this pain?</en>
+    <zh>为何……如此痛苦？……</zh>
+  </entry>
+  <entry key="MEMORY_RED_06">
+    <en>...Warrior... Queen...</en>
+    <zh>……战士……女王……</zh>
+  </entry>
+  <entry key="RELIC_DEALER_06">
+    <en>Relics... precious and fragile!</en>
+    <zh>遗物……珍贵而脆弱！</zh>
+  </entry>
+  <entry key="SWAMP_MUCKMAN_03">
+    <en>Their shadow... our shame...</en>
+    <zh>他们的阴影……我们的耻辱……</zh>
+  </entry>
+  <entry key="WARD_SURGERY_05">
+    <en>...The Silk!.. All for the Silk!</en>
+    <zh>……为了灵丝！……一切为了灵丝！……</zh>
+  </entry>
+  <entry key="ROSARY_THIEF_01">
+    <en>What you got there, matey matey?</en>
+    <zh>藏了什么，伙计？</zh>
+  </entry>
+  <entry key="UNDER_HANGING_GOLEM_06">
+    <en>...WE ARE ONE...</en>
+    <zh>……我们……一体……</zh>
+  </entry>
+  <entry key="SONG_HANDMAIDEN_02">
+    <en>...Your strength...</en>
+    <zh>……你的力量……</zh>
+  </entry>
+  <entry key="GREY_WARRIOR_01">
+    <en>Teeming... writhing wastes...</en>
+    <zh>翻涌……蠕动的荒原……</zh>
+  </entry>
+  <entry key="CORAL_CREATURE_LARGE_01">
+    <en>Crackling, growing, stretching shell...</en>
+    <zh>外壳噼啪生长……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_WEAVE_WORKSHOP_04">
+    <en>...To keep us free...</en>
+    <zh>……护佑自由……</zh>
+  </entry>
+  <entry key="CORAL_CREATURE_LARGE_03">
+    <en>False chambers... long teeth...</en>
+    <zh>虚假腔室……长牙尖刺……</zh>
+  </entry>
+  <entry key="CORAL_CREATURE_LARGE_02">
+    <en>Water’s source... hidden... lost...</en>
+    <zh>水源……隐匿……枯竭……</zh>
+  </entry>
+  <entry key="UNRAVELLED_10">
+    <en>...Old... glory...</en>
+    <zh>……昔日……荣光……</zh>
+  </entry>
+  <entry key="CORAL_CREATURE_LARGE_04">
+    <en>Poison light... painful lash...</en>
+    <zh>毒光……痛苦鞭笞……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_WEAVE_WORKSHOP_01">
+    <en>...To build... To hope...</en>
+    <zh>……建造……希望……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_WEAVE_WORKSHOP_02">
+    <en>...Strength beyond our Silk...</en>
+    <zh>……超越灵丝之力……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_WEAVE_WORKSHOP_03">
+    <en>...Strength enough...</en>
+    <zh>……足够强大……</zh>
+  </entry>
+  <entry key="EVA_01">
+    <en>This shell of iron...</en>
+    <zh>钢铁躯壳……</zh>
+  </entry>
+  <entry key="GREEN_PRINCE_01">
+    <en>Together we danced...</en>
+    <zh>我们共舞……</zh>
+  </entry>
+  <entry key="SLAB_FLY_02">
+    <en>I’m clean... I’m cleaner!</en>
+    <zh>我很干净……更干净！</zh>
+  </entry>
+  <entry key="CHAPEL_WITCH_04">
+    <en>...Reborn...</en>
+    <zh>……重生……</zh>
+  </entry>
+  <entry key="CHAPEL_WITCH_03">
+    <en>...New growth...</en>
+    <zh>……新生……</zh>
+  </entry>
+  <entry key="CHAPEL_WITCH_02">
+    <en>...Forgotten...</en>
+    <zh>……被遗忘……</zh>
+  </entry>
+  <entry key="CHAPEL_WITCH_01">
+    <en>...Ours...</en>
+    <zh>……我们……</zh>
+  </entry>
+  <entry key="CRYSTAL_CREATURE_02">
+    <en>Rem... mem...</en>
+    <zh>忆……记……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SPINNER_CRADLE_06">
+    <en>Spin... Bind... Punish...</en>
+    <zh>编织……束缚……惩罚……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SPINNER_CRADLE_07">
+    <en>Of the first... the last...</en>
+    <zh>初始……终末……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SPINNER_CRADLE_04">
+    <en>Glory to you...</en>
+    <zh>荣耀归于您……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SPINNER_CRADLE_05">
+    <en>Devotion to you...</en>
+    <zh>虔诚献于您……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SPINNER_CRADLE_02">
+    <en>Our light divine...</en>
+    <zh>我们的神圣之光……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SPINNER_CRADLE_03">
+    <en>Wake... Wake... Wake...</en>
+    <zh>醒来……醒来……醒来……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SPINNER_CRADLE_01">
+    <en>Our mother... true...</en>
+    <zh>我们的母亲……至真……</zh>
+  </entry>
+  <entry key="MOSS_03">
+    <en>Young must eat, grow or die...</en>
+    <zh>幼者求生……吞噬成长……</zh>
+  </entry>
+  <entry key="MOSS_02">
+    <en>Call for danger, hide away...</en>
+    <zh>危险临近……速速隐匿……</zh>
+  </entry>
+  <entry key="MOSS_01">
+    <en>Protect us, mother!</en>
+    <zh>慈母庇佑……保我安宁……</zh>
+  </entry>
+  <entry key="SHERMA_06">
+    <en>To the world’s shining peak!</en>
+    <zh>奔赴世界之巅！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SPINNER_CRADLE_08">
+    <en>We hear you!</en>
+    <zh>我们听见您的声音！</zh>
+  </entry>
+  <entry key="MOSS_04">
+    <en>Sleep and change, have no fear...</en>
+    <zh>蜕变更生……壳中无惧……</zh>
+  </entry>
+  <entry key="SHERMA_05">
+    <en>We pilgrims, blessed...</en>
+    <zh>蒙恩朝圣者……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_GRUBFARMER_NEST_06">
+    <en>My strength or theirs?</en>
+    <zh>是谁的力量？</zh>
+  </entry>
+  <entry key="SHERMA_03">
+    <en>Together we climb...</en>
+    <zh>同心攀登……</zh>
+  </entry>
+  <entry key="CHAPEL_SHAMAN_02">
+    <en>...Our family...</en>
+    <zh>……我们的家族……</zh>
+  </entry>
+  <entry key="ROSARY_PILGRIM_04">
+    <en>To ascend... triumphantly...</en>
+    <zh>荣耀登极……</zh>
+  </entry>
+  <entry key="ROACHKEEPER_01">
+    <en>Herd them...</en>
+    <zh>驱群聚众……</zh>
+  </entry>
+  <entry key="ROSARY_PILGRIM_02">
+    <en>All is mine... for me, for me!</en>
+    <zh>皆属于我……为我所有……</zh>
+  </entry>
+  <entry key="BONETOWN_03">
+    <en>Always up...</en>
+    <zh>不断攀登……</zh>
+  </entry>
+  <entry key="GRAND_REED_02">
+    <en>The holy heights of the Citadel...</en>
+    <zh>圣堡的神圣高处……</zh>
+  </entry>
+  <entry key="ROSARY_PILGRIM_01">
+    <en>Holy, holy, gather it up!</en>
+    <zh>神圣，神圣，尽收囊中！</zh>
+  </entry>
+  <entry key="GRAND_REED_04">
+    <en>May my shell never break...</en>
+    <zh>愿我的甲壳永不破碎……</zh>
+  </entry>
+  <entry key="GRAND_REED_05">
+    <en>For my devotion... unending...</en>
+    <zh>因我奉献……永无止境……</zh>
+  </entry>
+  <entry key="CHAPEL_SHAMAN_04">
+    <en>...Remember...</en>
+    <zh>……铭记……</zh>
+  </entry>
+  <entry key="ARCHITECT_06">
+    <en>...Designs...Divine...</en>
+    <zh>……设计……神圣……</zh>
+  </entry>
+  <entry key="HALFWAY_HOUSE_ACT3_02">
+    <en>Safety...still...</en>
+    <zh>尚存……安全……</zh>
+  </entry>
+  <entry key="HALFWAY_HOUSE_ACT3_03">
+    <en>Cold...</en>
+    <zh>寒冷……</zh>
+  </entry>
+  <entry key="GILLY_FINAL_02">
+    <en>Have I made you proud?</en>
+    <zh>我令您骄傲了吗？</zh>
+  </entry>
+  <entry key="HALFWAY_HOUSE_ACT3_01">
+    <en>The last...nectar...</en>
+    <zh>最后的……蜜露……</zh>
+  </entry>
+  <entry key="HALFWAY_HOUSE_ACT3_04">
+    <en>The last...warmth...</en>
+    <zh>最后的……温暖……</zh>
+  </entry>
+  <entry key="SWAMP_DRIFTER_04">
+    <en>Life... light... threads...</en>
+    <zh>生命……光芒……丝线……</zh>
+  </entry>
+  <entry key="GARMOND_ACT3_05">
+    <en>We remember your light...</en>
+    <zh>我们铭记你的光芒……</zh>
+  </entry>
+  <entry key="FIELDS_CREATURE_01">
+    <en>From heat we grow...</en>
+    <zh>炽热孕育生长……</zh>
+  </entry>
+  <entry key="BELLTOWN_HAUNTED_05">
+    <en>...Divine...light...</en>
+    <zh>……圣……光……</zh>
+  </entry>
+  <entry key="BELLTOWN_HAUNTED_04">
+    <en>...Divine...voice...</en>
+    <zh>……圣……音……</zh>
+  </entry>
+  <entry key="SHERMA_WARD_03">
+    <en>Am I not holy enough?</en>
+    <zh>是我不够虔诚？</zh>
+  </entry>
+  <entry key="BELLTOWN_HAUNTED_06">
+    <en>...We are yours...</en>
+    <zh>……我们属于你……</zh>
+  </entry>
+  <entry key="BELLTOWN_HAUNTED_01">
+    <en>...Your glory...</en>
+    <zh>……你的荣光……</zh>
+  </entry>
+  <entry key="BONETOWN_FUNERAL_04">
+    <en>Fellow pilgrim...</en>
+    <zh>同行的朝圣者啊……</zh>
+  </entry>
+  <entry key="SKULL_KING_01">
+    <en>Break and bash!</en>
+    <zh>破坏，粉碎……</zh>
+  </entry>
+  <entry key="BELLTOWN_HAUNTED_02">
+    <en>...Your grace...</en>
+    <zh>……你的恩典……</zh>
+  </entry>
+  <entry key="SHERMA_CITADEL_01">
+    <en>Brothers... sisters...</en>
+    <zh>兄弟……姊妹……</zh>
+  </entry>
+  <entry key="BANK_WIDE_03">
+    <en>...Our grace...</en>
+    <zh>……我们的荣耀……</zh>
+  </entry>
+  <entry key="PILGRIM_DICE_02">
+    <en>Luck and faith, intertwined...</en>
+    <zh>运气与信仰交织……</zh>
+  </entry>
+  <entry key="SONG_KNIGHT_02">
+    <en>Cut down the cursed...</en>
+    <zh>灵丝异变……</zh>
+  </entry>
+  <entry key="BLOAT_ROACH_02">
+    <en>Warm waters teeming...</en>
+    <zh>暖流涌动……</zh>
+  </entry>
+  <entry key="HUNTER_MERCHANT_02">
+    <en>All for her... </en>
+    <zh>都为了她……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SNARESETTER_01">
+    <en>...Is it done?</en>
+    <zh>……结束了吗？……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SURFACE_05">
+    <en>Now only the wind...</en>
+    <zh>如今只剩风声……</zh>
+  </entry>
+  <entry key="PILGRIMS_REST_ACT3_01">
+    <en>...Shell... safe...</en>
+    <zh>……甲壳……安全……</zh>
+  </entry>
+  <entry key="SWAMP_SHAMAN_02">
+    <en>All are subject to my rule!</en>
+    <zh>众生皆臣服于我！</zh>
+  </entry>
+  <entry key="OLD_PENITENT_05">
+    <en>Voices... pleading...</en>
+    <zh>声音……恳求……</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_06">
+    <en>To dance! Our duty!</en>
+    <zh>起舞吧！此乃吾等职责！</zh>
+  </entry>
+  <entry key="AUTOMATON_02">
+    <en>...Lift it...Fix it...Me?...</en>
+    <zh>……举起……修理……是我？……</zh>
+  </entry>
+  <entry key="FLEATOPIA_04">
+    <en>We fleas together... Till final bells...</en>
+    <zh>跳蚤同心……直至终末钟响……</zh>
+  </entry>
+  <entry key="DUCT_SUCKER_02">
+    <en>Swallow... suffer...</en>
+    <zh>吞噬……不停……</zh>
+  </entry>
+  <entry key="KRATT_LONE_01">
+    <en>Are you hiding from Kratt?</en>
+    <zh>在躲避克拉特吗？</zh>
+  </entry>
+  <entry key="GREAT_GOURMAND_01">
+    <en>...EAT... EAT...</en>
+    <zh>……吃……吃……</zh>
+  </entry>
+  <entry key="WARD_SURGEON_02">
+    <en>We banish you!</en>
+    <zh>我们驱逐你！</zh>
+  </entry>
+  <entry key="ROOF_CRAB_YOUNG_01">
+    <en>Our time has come...</en>
+    <zh>我们的时代来临……</zh>
+  </entry>
+  <entry key="BROODMOTHER_03">
+    <en>Warmly, safely...</en>
+    <zh>温暖，安全……</zh>
+  </entry>
+  <entry key="PILGRIMS_REST_03">
+    <en>Are we worthy?</en>
+    <zh>我配得上吗？……</zh>
+  </entry>
+  <entry key="MEMORY_CORALTOWER_02">
+    <en>For the lord born strong...</en>
+    <zh>为雄主降世……</zh>
+  </entry>
+  <entry key="SPRINTMASTER_03">
+    <en>Speed is strength!</en>
+    <zh>速度！力量！</zh>
+  </entry>
+  <entry key="CROW_JUROR_04">
+    <en>Punish the villain!</en>
+    <zh>严惩恶徒！</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_02">
+    <en>We shall never...Dance alone!</en>
+    <zh>共舞……永不分离！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERWISP_02">
+    <en>In dark, forgotten...</en>
+    <zh>黑暗中，被遗忘……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_PONTIFF_01">
+    <en>Damned bugs...</en>
+    <zh>堕落之虫……</zh>
+  </entry>
+  <entry key="CROW_JUROR_01">
+    <en>Guilty! Guilty!</en>
+    <zh>有罪！有罪！</zh>
+  </entry>
+  <entry key="CROW_JUROR_02">
+    <en>Lay down your judgement!</en>
+    <zh>降下审判！</zh>
+  </entry>
+  <entry key="CROW_JUROR_03">
+    <en>Father, Father!</en>
+    <zh>父亲！父亲！</zh>
+  </entry>
+  <entry key="DUST_TRADER_04">
+    <en>Sat amidst the putrid smell!</en>
+    <zh>坐在这腐臭之中！</zh>
+  </entry>
+  <entry key="SLAB_FLY_06">
+    <en>By toil... by torment...</en>
+    <zh>通过劳作……通过折磨……</zh>
+  </entry>
+  <entry key="SHELLGRAVE_03">
+    <en>...Climb and serve...</en>
+    <zh>……攀以侍奉……</zh>
+  </entry>
+  <entry key="SHELLGRAVE_02">
+    <en>...Alone, without you...</en>
+    <zh>……孑然独行……</zh>
+  </entry>
+  <entry key="SHELLGRAVE_01">
+    <en>...Not worthy...</en>
+    <zh>……不值得……</zh>
+  </entry>
+  <entry key="SONG_HEAVY_SENTRY_02">
+    <en>Prostrate your meagre shells!</en>
+    <zh>伏身卑微形！</zh>
+  </entry>
+  <entry key="SHELLGRAVE_04">
+    <en>...Die and serve...</en>
+    <zh>……亡以侍奉……</zh>
+  </entry>
+  <entry key="CURIOUS_PILGRIM_01">
+    <en>What haunts us?</en>
+    <zh>是什么在纠缠？……</zh>
+  </entry>
+  <entry key="CHAPEL_REAPER_04">
+    <en>...Sow and reap...</en>
+    <zh>……播种与收获……</zh>
+  </entry>
+  <entry key="SAND_CENTIPEDE_03">
+    <en>Hard bone beneath...</en>
+    <zh>骸骨铺地……</zh>
+  </entry>
+  <entry key="SHERMA_CARETAKER_03">
+    <en>Brothers... sisters...</en>
+    <zh>兄弟……姊妹……</zh>
+  </entry>
+  <entry key="BELLTOWN_HAUNTED_03">
+    <en>...We hear it...</en>
+    <zh>……我们听到了……</zh>
+  </entry>
+  <entry key="BONETOWN_ACT3_06">
+    <en>...Glory...</en>
+    <zh>……荣光……</zh>
+  </entry>
+  <entry key="SHELL_FOSSIL_MIMIC_04">
+    <en>May the world ignore me...</en>
+    <zh>愿世界将我遗忘……</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_10">
+    <en>Pull us higher, ever higher...</en>
+    <zh>攀登巅峰，永不停歇……</zh>
+  </entry>
+  <entry key="BELL_EATER_01">
+    <en>Long slumber...</en>
+    <zh>漫漫长眠……</zh>
+  </entry>
+  <entry key="CROW_03">
+    <en>Swoop and scratch...</en>
+    <zh>俯冲偷袭……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_BLOOM_04">
+    <en>...Distant reach... distant life...</en>
+    <zh>……向远处延伸……向远处新生……</zh>
+  </entry>
+  <entry key="BELL_EATER_04">
+    <en>World trembles...</en>
+    <zh>世界震颤……</zh>
+  </entry>
+  <entry key="CHAPEL_REAPER_03">
+    <en>...Pharloom flourished...</en>
+    <zh>……纺络曾繁荣……</zh>
+  </entry>
+  <entry key="SILK_SIPHON_WIDE_01">
+    <en>...Help...</en>
+    <zh>……救……</zh>
+  </entry>
+  <entry key="KRATT_LONE_02">
+    <en>Where are you all...</en>
+    <zh>你们都在哪儿……</zh>
+  </entry>
+  <entry key="SILK_SIPHON_WIDE_03">
+    <en>...Please... remember...</en>
+    <zh>……求……记住……</zh>
+  </entry>
+  <entry key="SILK_SIPHON_WIDE_02">
+    <en>...Eternal?...</en>
+    <zh>……永远？……</zh>
+  </entry>
+  <entry key="PINSTRESS_01">
+    <en>The flurried dance of blades swung swift...</en>
+    <zh>疾舞般翻飞的利刃……</zh>
+  </entry>
+  <entry key="SILK_SIPHON_WIDE_04">
+    <en>...No...</en>
+    <zh>……不……</zh>
+  </entry>
+  <entry key="BONE_CREATURE_06">
+    <en>Claws are sharp...</en>
+    <zh>利爪似镰……</zh>
+  </entry>
+  <entry key="DUSTROACH_POLLYWOG_04">
+    <en>Eat! Eat! Eat!</en>
+    <zh>吃！快吃！</zh>
+  </entry>
+  <entry key="ENCLAVE_06">
+    <en>Our pilgrimage...</en>
+    <zh>目标，消逝……</zh>
+  </entry>
+  <entry key="STEEL_SERVANT_05">
+    <en>Always to watch...</en>
+    <zh>要塞……</zh>
+  </entry>
+  <entry key="STEEL_SERVANT_04">
+    <en>The spires... and beneath...</en>
+    <zh>尖塔……与下方……</zh>
+  </entry>
+  <entry key="SHERMA_04">
+    <en>Together we pray!</en>
+    <zh>同心祈祷！</zh>
+  </entry>
+  <entry key="STEEL_SERVANT_02">
+    <en>The masters’ sight...</en>
+    <zh>主人的注视……</zh>
+  </entry>
+  <entry key="VAULT_KEEPER_01">
+    <en>Ours to guard...</en>
+    <zh>由我们守护……</zh>
+  </entry>
+  <entry key="VAULT_KEEPER_03">
+    <en>Hidden dark and deep...</en>
+    <zh>深藏于黑暗……</zh>
+  </entry>
+  <entry key="VAULT_KEEPER_02">
+    <en>Ours to keep...</en>
+    <zh>由我们保管……</zh>
+  </entry>
+  <entry key="SNITCH_CAVE_02">
+    <en>In ruins is riches...</en>
+    <zh>废墟藏着财富……</zh>
+  </entry>
+  <entry key="VAULT_KEEPER_04">
+    <en>Holy secrets, sacred whispers...</en>
+    <zh>神圣秘密，圣洁低语……</zh>
+  </entry>
+  <entry key="VAULT_KEEPER_06">
+    <en>Songs that only we may sing!</en>
+    <zh>唯我们能吟唱的圣歌！</zh>
+  </entry>
+  <entry key="VAULTKEEPER_CARDINIUS_02">
+    <en>Escape this shell constricting...</en>
+    <zh>挣脱这束缚的甲壳……</zh>
+  </entry>
+  <entry key="FLEA_TRACKER_LONE_02">
+    <en>None can hide...</en>
+    <zh>无处可藏……</zh>
+  </entry>
+  <entry key="ARCHITECT_04">
+    <en>...From these thoughts...Creation...</en>
+    <zh>……由思绪中……创作……</zh>
+  </entry>
+  <entry key="CHAPEL_WANDERER_03">
+    <en>...We climbed...</en>
+    <zh>……我们曾攀登……</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_WARD_04">
+    <en>...Eternal...</en>
+    <zh>……永世……</zh>
+  </entry>
+  <entry key="GRAND_REED_06">
+    <en>May I rise... May I rise...</en>
+    <zh>愿我登极……愿我登极……</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_LONE_06">
+    <en>Lost! Lost!</en>
+    <zh>迷途！迷途！</zh>
+  </entry>
+  <entry key="SLAB_FLY_SMALL_02">
+    <en>Born in filth...</en>
+    <zh>生于污秽！……</zh>
+  </entry>
+  <entry key="SLAB_FLY_SMALL_03">
+    <en>No escape!</en>
+    <zh>无处可逃！</zh>
+  </entry>
+  <entry key="SLAB_FLY_SMALL_01">
+    <en>Sinner!...</en>
+    <zh>罪人！……</zh>
+  </entry>
+  <entry key="HUNTER_06">
+    <en>The caves call... we listen...</en>
+    <zh>洞窟呼唤……我辈聆听……</zh>
+  </entry>
+  <entry key="HUNTER_07">
+    <en>...Is this still her song?</en>
+    <zh>……这仍是她的歌么？</zh>
+  </entry>
+  <entry key="TINY_BROODMOTHER_01">
+    <en>Eggy, eggy, big and warm...</en>
+    <zh>暖和的卵，大大的卵……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_01">
+    <en>Pass only the pure...</en>
+    <zh>唯纯净者可通过……</zh>
+  </entry>
+  <entry key="TINY_BROODMOTHER_03">
+    <en>Grow bigger, bigger, oh so big...</en>
+    <zh>快快长大，越长越大……</zh>
+  </entry>
+  <entry key="HUNTER_03">
+    <en>All for the singer...</en>
+    <zh>为了歌者……</zh>
+  </entry>
+  <entry key="SNAIL_SHAMAN_08">
+    <en>O soulful ones...</en>
+    <zh>魂灵存在……</zh>
+  </entry>
+  <entry key="TINY_BROODMOTHER_04">
+    <en>Fill your belly with lovely eggs!</en>
+    <zh>肚子装满漂亮卵！</zh>
+  </entry>
+  <entry key="MOSSCREEP_01">
+    <en>Beating, beating...</en>
+    <zh>搏动，搏动……</zh>
+  </entry>
+  <entry key="PHANTOM_02">
+    <en>Forgotten...</en>
+    <zh>被遗忘……</zh>
+  </entry>
+  <entry key="MITE_GREYMOOR_04">
+    <en>Claw and fang...</en>
+    <zh>利爪相向……</zh>
+  </entry>
+  <entry key="HUNTER_08">
+    <en>These lands... always ours...</en>
+    <zh>这片土地……永属我等……</zh>
+  </entry>
+  <entry key="WHITE_CLOVERSTAG_01">
+    <en>May echoes gather...</en>
+    <zh>愿回声聚集……</zh>
+  </entry>
+  <entry key="BONE_HOPPER_03">
+    <en>Roaming, feeding, distant depths...</en>
+    <zh>漫游觅食，深入远方……</zh>
+  </entry>
+  <entry key="SNAIL_SHAMAN_03">
+    <en>Only a simple bug...</en>
+    <zh>绝望无力……</zh>
+  </entry>
+  <entry key="SNAIL_SHAMAN_04">
+    <en>Strength in despair...</en>
+    <zh>不过凡虫……</zh>
+  </entry>
+  <entry key="SNAIL_SHAMAN_05">
+    <en>Our power...</en>
+    <zh>吾等之力……</zh>
+  </entry>
+  <entry key="GARMOND_01">
+    <en>Always in our hearts...</en>
+    <zh>永驻心间……</zh>
+  </entry>
+  <entry key="FARMER_WISP_04">
+    <en>Fire is all!</en>
+    <zh>唯火永存！</zh>
+  </entry>
+  <entry key="ARCHITECT_02">
+    <en>...To serve...Eternal...</en>
+    <zh>……侍奉……永恒不息……</zh>
+  </entry>
+  <entry key="SLAB_PRISONER_02">
+    <en>Shame! Shame!</en>
+    <zh>耻辱！耻辱！</zh>
+  </entry>
+  <entry key="WARD_CREMATORIUM_04">
+    <en>...Retrieve it...</en>
+    <zh>……寻回残渣……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SILK_SIPHON_02">
+    <en>To devote... eternal...</en>
+    <zh>奉献……永不终止……</zh>
+  </entry>
+  <entry key="MOSSCRAWLER_GIANT_03">
+    <en>Eat and grow... larger...</en>
+    <zh>进食成长……壮大……</zh>
+  </entry>
+  <entry key="PEAKS_DRIFTER_01">
+    <en>Lightly, lightly, oh so lightly...</en>
+    <zh>轻盈，轻盈，如此放松……</zh>
+  </entry>
+  <entry key="GARMOND_FIGHTER_03">
+    <en>Live or die, make them proud!</en>
+    <zh>生死皆荣！</zh>
+  </entry>
+  <entry key="LADYBUG_06">
+    <en>Spread your wings!</en>
+    <zh>展开你的翅膀！</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_11">
+    <en>We will climb! Climb! Climb forever!</en>
+    <zh>攀登！攀登！永攀不息！</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_01">
+    <en>There is no pain, nor fear, nor death...</en>
+    <zh>无痛无惧，超越死亡……</zh>
+  </entry>
+  <entry key="UNRAVELLED_05">
+    <en>Cannot... remember...</en>
+    <zh>……忆不能存……</zh>
+  </entry>
+  <entry key="CRADLE_ACT3_05">
+    <en>...Sacrificed...</en>
+    <zh>……我们献身……</zh>
+  </entry>
+  <entry key="SLAB_FLY_SMALL_04">
+    <en>Be still! Be still!</en>
+    <zh>安静！安静！</zh>
+  </entry>
+  <entry key="PLINNEY_SHELLGRAVE_04">
+    <en>That memory... my treasure...</en>
+    <zh>那段记忆……我的珍宝……</zh>
+  </entry>
+  <entry key="RELIC_DEALER_03">
+    <en>Keep them safe!</en>
+    <zh>护其周全！</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_ACT3_03">
+    <en>Have we done it?</en>
+    <zh>我们成功了吗？</zh>
+  </entry>
+  <entry key="GILLY_02">
+    <en>Daughter’s promise!</en>
+    <zh>女儿的承诺！</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_DUO_04">
+    <en>Pierce the stone!</en>
+    <zh>钻透岩石！</zh>
+  </entry>
+  <entry key="BONETOWN_01">
+    <en>Our last rest...</en>
+    <zh>我们最后的安歇……</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_LONE_04">
+    <en>Crush! Crush!</en>
+    <zh>碾碎！碾碎！</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_DUO_01">
+    <en>Together! Stronger!</en>
+    <zh>同心！更强！</zh>
+  </entry>
+  <entry key="WRAITH_03">
+    <en>Begone, begone!</en>
+    <zh>滚开！滚开！</zh>
+  </entry>
+  <entry key="FIRST_SINNER_SPIRE_01">
+    <en>...Faded...</en>
+    <zh>……消逝……</zh>
+  </entry>
+  <entry key="UNDER_HANGING_GOLEM_02">
+    <en>...SERVE...BEYOND SHELL...</en>
+    <zh>……侍奉……超脱形骸……</zh>
+  </entry>
+  <entry key="FIRST_SINNER_SPIRE_03">
+    <en>...First...</en>
+    <zh>……初始……</zh>
+  </entry>
+  <entry key="FIRST_SINNER_SPIRE_04">
+    <en>...Our Silk... Our rage...</en>
+    <zh>……我们的灵丝……我们的愤怒……</zh>
+  </entry>
+  <entry key="FIRST_SINNER_SPIRE_05">
+    <en>...Wait, and hate...</en>
+    <zh>……等待并憎恨……</zh>
+  </entry>
+  <entry key="FIRST_SINNER_SPIRE_06">
+    <en>...Wait, and die...</en>
+    <zh>……等待并死去……</zh>
+  </entry>
+  <entry key="EVA_03">
+    <en>This form so fragile...</en>
+    <zh>脆弱形态……</zh>
+  </entry>
+  <entry key="GREAT_GOURMAND_04">
+    <en>...MUCH... EAT... GOOD...</en>
+    <zh>……多多……吃……好……</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_LACE_02">
+    <en>...A child spun loyal...</en>
+    <zh>……用灵丝编织的忠仆……</zh>
+  </entry>
+  <entry key="OLD_PENITENT_02">
+    <en>Silence above...</en>
+    <zh>上方寂静……</zh>
+  </entry>
+  <entry key="LADYBUG_02">
+    <en>Life’s for playing!</en>
+    <zh>生命即游戏！</zh>
+  </entry>
+  <entry key="HUNTER_01">
+    <en>Strength from her. Strength for her...</en>
+    <zh>她的力量，为她而战……</zh>
+  </entry>
+  <entry key="EVA_05">
+    <en>Our silken sight...</en>
+    <zh>灵丝视野……</zh>
+  </entry>
+  <entry key="MEMORY_RED_05">
+    <en>...Warrior... Princess...</en>
+    <zh>……战士……公主……</zh>
+  </entry>
+  <entry key="MEMORY_RED_04">
+    <en>...Hunt... Seek... Slay...</en>
+    <zh>……狩猎……追寻……斩杀……</zh>
+  </entry>
+  <entry key="OLD_PENITENT_04">
+    <en>Sisters... accord...</en>
+    <zh>姊妹……同心……</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_LACE_04">
+    <en>...Pure...</en>
+    <zh>……纯洁……</zh>
+  </entry>
+  <entry key="MEMORY_RED_01">
+    <en>...Child born pale...</en>
+    <zh>……苍白之子……</zh>
+  </entry>
+  <entry key="LAST_CONDUCTOR_05">
+    <en>Only our song...</en>
+    <zh>只剩我们的歌……</zh>
+  </entry>
+  <entry key="ARBORIUM_KEEPER_04">
+    <en>What was will not be forgotten...</en>
+    <zh>过往不会遗忘。</zh>
+  </entry>
+  <entry key="MEMORY_RED_02">
+    <en>...Watch... Wait... Pray...</en>
+    <zh>……观察……等待……祈祷……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_DOCK_FLINTSLATE_01">
+    <en>...Endless heat...</en>
+    <zh>……无尽炽热……</zh>
+  </entry>
+  <entry key="DUSTROACH_04">
+    <en>More and more!</en>
+    <zh>贪求无度……</zh>
+  </entry>
+  <entry key="SKULL_KING_02">
+    <en>Crush and smash!</en>
+    <zh>碾压，摧毁……</zh>
+  </entry>
+  <entry key="BROODMOTHER_04">
+    <en>Yummy! Yummy!</en>
+    <zh>美味！美味！</zh>
+  </entry>
+  <entry key="TORMENTED_TROBBIO_05">
+    <en>Scorned to suffer...</en>
+    <zh>命定受苦……</zh>
+  </entry>
+  <entry key="ROACHKEEPER_03">
+    <en>Feed the many...</en>
+    <zh>饲养投喂……</zh>
+  </entry>
+  <entry key="CHOIR_02">
+    <en>The song sustains!</en>
+    <zh>圣歌维系一切！</zh>
+  </entry>
+  <entry key="BONEGRAVE_02">
+    <en>...Alone, without you...</en>
+    <zh>……孑然独行……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SWAMP_JAILER_02">
+    <en>They wait...</en>
+    <zh>他们在等待……</zh>
+  </entry>
+  <entry key="BONETOWN_10">
+    <en>Climb to death...</en>
+    <zh>攀向死途……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SWAMP_JAILER_01">
+    <en>They watch...</en>
+    <zh>他们在监视……</zh>
+  </entry>
+  <entry key="TROBBIO_01">
+    <en>Awake Pharloom!</en>
+    <zh>觉醒吧纺络！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SWAMP_JAILER_04">
+    <en>The voices... everywhere...</en>
+    <zh>声音……无处不在……</zh>
+  </entry>
+  <entry key="CRYSTAL_CREATURE_03">
+    <en>Memem... rem... mem...</en>
+    <zh>记忆……忆记……</zh>
+  </entry>
+  <entry key="SHERMA_02">
+    <en>We find our way!</en>
+    <zh>寻得前路！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERSTORE_LARGE_PILGRIM_02">
+    <en>...Run...</en>
+    <zh>……奔逃……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERSTORE_LARGE_PILGRIM_03">
+    <en>...Free...</en>
+    <zh>……自由……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERSTORE_LARGE_PILGRIM_01">
+    <en>...Toil...</en>
+    <zh>……劳役……</zh>
+  </entry>
+  <entry key="FIELDS_CREATURE_03">
+    <en>Shells soft...</en>
+    <zh>柔软外壳，叶丛庇护……</zh>
+  </entry>
+  <entry key="CHAPEL_BEAST_02">
+    <en>...Our food...</en>
+    <zh>……我们的食粮……</zh>
+  </entry>
+  <entry key="MEMORY_RED_03">
+    <en>...Child born bound...</en>
+    <zh>……生来受缚的孩子……</zh>
+  </entry>
+  <entry key="GREEN_PRINCE_06">
+    <en>Our gaze... as one...</en>
+    <zh>我们视线……合一……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ARCHITECT_06">
+    <en>Designs... divine...</en>
+    <zh>设计……神圣……</zh>
+  </entry>
+  <entry key="CITADEL_MITE_GIANT_02">
+    <en>Golden claws... snap them...</en>
+    <zh>金色利爪……折断它们……</zh>
+  </entry>
+  <entry key="CITADEL_MITE_GIANT_01">
+    <en>Hidden long... waiting long...</en>
+    <zh>长久隐藏……长久等待……</zh>
+  </entry>
+  <entry key="SNAIL_SHAMAN_06">
+    <en>Hide and wait...</en>
+    <zh>潜藏等待……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SNARESETTER_03">
+    <en>...To bind her... tight...</en>
+    <zh>……只为将她……紧紧束缚……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SURFACE_03">
+    <en>From depths below...</en>
+    <zh>来自遥远之底……</zh>
+  </entry>
+  <entry key="ZAZA_LONE_03">
+    <en>Follow quickly!</en>
+    <zh>速速跟上！</zh>
+  </entry>
+  <entry key="CRADLE_ACT3_04">
+    <en>...We Spun...</en>
+    <zh>……我们编织……</zh>
+  </entry>
+  <entry key="FIRST_SINNER_06">
+    <en>Cursed with Silk!</en>
+    <zh>承受灵丝之咒！</zh>
+  </entry>
+  <entry key="UNRAVELLED_04">
+    <en>Cannot... feel...</en>
+    <zh>……感不能知……</zh>
+  </entry>
+  <entry key="WIDOW_06">
+    <en>For you, holy mother... all for you...</en>
+    <zh>献予您，圣母……一切献予您……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_GREYMOOR_DARK_03">
+    <en>...Lost... Alone...</en>
+    <zh>……迷失……孤寂……</zh>
+  </entry>
+  <entry key="ZAZA_FINAL_04">
+    <en>Let’s meet back home...</en>
+    <zh>归乡再聚……</zh>
+  </entry>
+  <entry key="SLAB_FLY_SMALL_05">
+    <en>No light!</en>
+    <zh>不见光明！</zh>
+  </entry>
+  <entry key="DOCK_WORKER_02">
+    <en>Smelt dug and churned...</en>
+    <zh>熔炼不息……</zh>
+  </entry>
+  <entry key="KRATT_LONE_03">
+    <en>Are you lonely without Kratt?</en>
+    <zh>没有克拉特很孤独吧？</zh>
+  </entry>
+  <entry key="SAND_CENTIPEDE_01">
+    <en>Churning, shifting...</en>
+    <zh>翻腾，流移……</zh>
+  </entry>
+  <entry key="SHERMA_CARETAKER_05">
+    <en>Our strength is shared...</en>
+    <zh>力量共享……</zh>
+  </entry>
+  <entry key="HUNTER_QUEEN_05">
+    <en>My hunters!</en>
+    <zh>我的猎手！</zh>
+  </entry>
+  <entry key="SONG_GOLEM_08">
+    <en>STRONG... STRONG...</en>
+    <zh>刚强……刚强……</zh>
+  </entry>
+  <entry key="ROSARY_THIEF_06">
+    <en>Drop it now, naughty naughty!</en>
+    <zh>快快交出，不要淘气！</zh>
+  </entry>
+  <entry key="SONG_GOLEM_05">
+    <en>SONG... HOLY...</en>
+    <zh>圣歌……至洁……</zh>
+  </entry>
+  <entry key="SONG_GOLEM_04">
+    <en>SACRED... TOIL...</en>
+    <zh>神圣……劳役……</zh>
+  </entry>
+  <entry key="SONG_GOLEM_07">
+    <en>UNENDING... UNYIELDING...</en>
+    <zh>永续……不屈……</zh>
+  </entry>
+  <entry key="SWAMP_CREATURE_02">
+    <en>Choke on bile...</en>
+    <zh>吞咽腐臭浆液……</zh>
+  </entry>
+  <entry key="AUTOMATON_06">
+    <en>...To serve...</en>
+    <zh>……侍奉……</zh>
+  </entry>
+  <entry key="SHELLWOOD_WASP_01">
+    <en>Find the scent...</en>
+    <zh>寻气觅踪……</zh>
+  </entry>
+  <entry key="SHELLWOOD_WASP_02">
+    <en>Dig in deep...</en>
+    <zh>深掘痛饮……</zh>
+  </entry>
+  <entry key="SHELLWOOD_WASP_03">
+    <en>Drink the sap...</en>
+    <zh>啜饮浆露……</zh>
+  </entry>
+  <entry key="SHELLWOOD_WASP_04">
+    <en>Protect the nest...</en>
+    <zh>护巢卫穴……</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_ACT3_04">
+    <en>Life sustained...</en>
+    <zh>生命得以延续……</zh>
+  </entry>
+  <entry key="PILGRIMS_REST_01">
+    <en>A shell still safe...</en>
+    <zh>甲壳仍完好……</zh>
+  </entry>
+  <entry key="MEMORY_CORALTOWER_04">
+    <en>For order brought by claw and blade...</en>
+    <zh>为爪刃所铸之序……</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_DUO_03">
+    <en>This small one... trapped...</en>
+    <zh>猎物……已困……</zh>
+  </entry>
+  <entry key="SEAMSTRESS_02">
+    <en>Fix the fabric. Roll the hem...</en>
+    <zh>修整布料，卷锁边沿……</zh>
+  </entry>
+  <entry key="CHAPEL_BEAST_03">
+    <en>...Life... Death... Nature...</en>
+    <zh>……生……死……自然……</zh>
+  </entry>
+  <entry key="MEMORY_FIRST_SINNER_03">
+    <en>Know our Silk...</en>
+    <zh>知晓我们的灵丝……</zh>
+  </entry>
+  <entry key="CHAPEL_BEAST_01">
+    <en>...Our foes...</en>
+    <zh>……我们的敌人……</zh>
+  </entry>
+  <entry key="SETH_GUARDIAN_02">
+    <en>Ages pass...</en>
+    <zh>世代更迭……</zh>
+  </entry>
+  <entry key="ZAZA_FINAL_01">
+    <en>Old bug... old friend...</en>
+    <zh>老虫……老友……</zh>
+  </entry>
+  <entry key="CHAPEL_BEAST_04">
+    <en>...Remember...</en>
+    <zh>……铭记……</zh>
+  </entry>
+  <entry key="ZAZA_FINAL_05">
+    <en>Thank you...</en>
+    <zh>谢谢你……</zh>
+  </entry>
+  <entry key="WISP_TOTEM_02">
+    <en>Feed us, free us!</en>
+    <zh>饲育我们！解放我们！</zh>
+  </entry>
+  <entry key="RELIC_DEALER_04">
+    <en>Keep them close...</en>
+    <zh>贴身珍藏……</zh>
+  </entry>
+  <entry key="SKULL_KING_03">
+    <en>Crowned as ruler...</en>
+    <zh>加冕为王……</zh>
+  </entry>
+  <entry key="PILGRIMS_REST_ACT3_02">
+    <en>...Survive...</en>
+    <zh>……幸存……</zh>
+  </entry>
+  <entry key="GREYROOT_CHAMBER_01">
+    <en>We come...</en>
+    <zh>我们前来……</zh>
+  </entry>
+  <entry key="FORGE_DUO_06">
+    <en>We continue the task...</en>
+    <zh>我们继业不息……</zh>
+  </entry>
+  <entry key="TROBBIO_05">
+    <en>A performer unmatched!</en>
+    <zh>空前的表演者！</zh>
+  </entry>
+  <entry key="GREYROOT_CHAMBER_02">
+    <en>We... bring you...</en>
+    <zh>我们……带你来……</zh>
+  </entry>
+  <entry key="SPRINTMASTER_04">
+    <en>Even fate can be outpaced!</en>
+    <zh>命运亦可超越！</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_FINAL_03">
+    <en>...A source...</en>
+    <zh>……源流……</zh>
+  </entry>
+  <entry key="FARMER_04">
+    <en>Even these dregs...</en>
+    <zh>纵使残渣……</zh>
+  </entry>
+  <entry key="CHAPEL_REAPER_05">
+    <en>...Remember...</en>
+    <zh>……铭记……</zh>
+  </entry>
+  <entry key="GRUBFARMER_01">
+    <en>The weak must serve...</en>
+    <zh>弱者必须侍奉……</zh>
+  </entry>
+  <entry key="WHITE_CLOVERSTAG_03">
+    <en>Forgotten or lost...</en>
+    <zh>遗忘或迷失……</zh>
+  </entry>
+  <entry key="GOURMAND_SERVANT_04">
+    <en>Your holy, shining gaze!</en>
+    <zh>您神圣闪耀的目光！</zh>
+  </entry>
+  <entry key="LAST_JUDGE_06">
+    <en>Our duty, eternal...</en>
+    <zh>职责永恒……</zh>
+  </entry>
+  <entry key="LAST_JUDGE_05">
+    <en>The purity of flame...</en>
+    <zh>烈焰净罪……</zh>
+  </entry>
+  <entry key="LAST_JUDGE_04">
+    <en>For the Citadel strong!</en>
+    <zh>为强盛圣堡！</zh>
+  </entry>
+  <entry key="LAST_JUDGE_03">
+    <en>Only the holy may judge!</en>
+    <zh>唯圣者能够裁决！</zh>
+  </entry>
+  <entry key="LAST_JUDGE_02">
+    <en>Smite the sinners!</en>
+    <zh>罪人需严惩！</zh>
+  </entry>
+  <entry key="LAST_JUDGE_01">
+    <en>Only the pure may pass!</en>
+    <zh>唯纯净者可通过！</zh>
+  </entry>
+  <entry key="ENCLAVE_04">
+    <en>Dear Pharloom...</en>
+    <zh>亲爱的纺络……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CRAWL_ASSISTANT_01">
+    <en>To our dead lands... life...</en>
+    <zh>赐予死地……生机……</zh>
+  </entry>
+  <entry key="GARMOND_04">
+    <en>For dear friends lost...</en>
+    <zh>为逝去的挚友……</zh>
+  </entry>
+  <entry key="GILLY_03">
+    <en>Secrets of a living land!</en>
+    <zh>生机之地的秘密！</zh>
+  </entry>
+  <entry key="BONE_CREATURE_02">
+    <en>Shells are strong...</en>
+    <zh>坚硬甲壳……</zh>
+  </entry>
+  <entry key="WHITE_CLOVERSTAG_05">
+    <en>What is remembered...</en>
+    <zh>所忆为何……</zh>
+  </entry>
+  <entry key="WHITE_CLOVERSTAG_04">
+    <en>Winding ways meet again...</en>
+    <zh>曲径终相逢……</zh>
+  </entry>
+  <entry key="SHELL_FOSSIL_MIMIC_01">
+    <en>May time harden me...</en>
+    <zh>愿时间将我固化……</zh>
+  </entry>
+  <entry key="SHELL_FOSSIL_MIMIC_02">
+    <en>May darkness hide me..</en>
+    <zh>愿黑暗将我隐藏……</zh>
+  </entry>
+  <entry key="SHELL_FOSSIL_MIMIC_03">
+    <en>May rock sustain me...</en>
+    <zh>愿岩石将我支撑……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_01">
+    <en>Teeming...thriving...</en>
+    <zh>盎然生机……繁荣昌盛……</zh>
+  </entry>
+  <entry key="SLAB_FLY_CAGE_01">
+    <en>O sinner! O filth!</en>
+    <zh>罪人啊！污秽啊！</zh>
+  </entry>
+  <entry key="ROOF_CRAB_02">
+    <en>Sear their shells...</en>
+    <zh>灼烧甲壳……</zh>
+  </entry>
+  <entry key="RHINO_04">
+    <en>Scarred shell!</en>
+    <zh>撕裂甲壳！</zh>
+  </entry>
+  <entry key="ROCK_ROLLER_03">
+    <en>Spark bright... Defy the dark...</en>
+    <zh>星火闪耀……驱散黑暗……</zh>
+  </entry>
+  <entry key="VAULTKEEPER_CARDINIUS_04">
+    <en>Through understanding... power...</en>
+    <zh>借领悟……获力量……</zh>
+  </entry>
+  <entry key="BONE_WORM_02">
+    <en>Through bone, through shell...</en>
+    <zh>穿透骸甲，凿穿岩层……</zh>
+  </entry>
+  <entry key="UNRAVELLED_07">
+    <en>Your Silk... pure!</en>
+    <zh>你的灵丝……纯净！</zh>
+  </entry>
+  <entry key="WIDOW_01">
+    <en>The last... The last...</en>
+    <zh>末裔……末裔……</zh>
+  </entry>
+  <entry key="BROODMOTHER_05">
+    <en>Grow the brood...</en>
+    <zh>子嗣成长……</zh>
+  </entry>
+  <entry key="GRUBFARMER_04">
+    <en>Old laws, fresh wounds...</en>
+    <zh>旧律法，新创伤……</zh>
+  </entry>
+  <entry key="GRUBFARMER_05">
+    <en>The precious, sweet life...</en>
+    <zh>一口食粮，甜美生机……</zh>
+  </entry>
+  <entry key="GRUBFARMER_02">
+    <en>The strong, provide...</en>
+    <zh>强者供给食粮……</zh>
+  </entry>
+  <entry key="BONE_WORM_04">
+    <en>Deep scent...</en>
+    <zh>深处的气息……</zh>
+  </entry>
+  <entry key="WARD_SURGERY_06">
+    <en>...Reformed... Repaired...</en>
+    <zh>……重塑……修复……</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_ACT3_02">
+    <en>In plasmium, truth...</en>
+    <zh>生质液蕴含真理……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_GREYMOOR_DARK_04">
+    <en>...So dark...</en>
+    <zh>……如此黑暗……</zh>
+  </entry>
+  <entry key="TROBBIO_07">
+    <en>Your saviour... Your hero... Trobbio!</en>
+    <zh>你们的救星……英雄特罗比奥！</zh>
+  </entry>
+  <entry key="BONETOWN_07">
+    <en>Why so few?...</en>
+    <zh>为何只剩寥寥？……</zh>
+  </entry>
+  <entry key="SONG_HANDMAIDEN_03">
+    <en>...Ours by birth...</en>
+    <zh>……与生俱来……</zh>
+  </entry>
+  <entry key="MITE_GREYMOOR_02">
+    <en>Deeper, darker...</en>
+    <zh>愈深，愈暗……</zh>
+  </entry>
+  <entry key="RUINED_CHAPEL_05">
+    <en>...Power...</en>
+    <zh>……力量……</zh>
+  </entry>
+  <entry key="DOCTOR_FLY_06">
+    <en>Tear away their pain!</en>
+    <zh>驱散他们的痛苦！</zh>
+  </entry>
+  <entry key="RUINED_CHAPEL_03">
+    <en>...In each life...</en>
+    <zh>……生生……</zh>
+  </entry>
+  <entry key="ROACHKEEPER_CHEF_04">
+    <en>Carve it! Sear it! Stew it!</en>
+    <zh>切割，灼烤，炖煮……</zh>
+  </entry>
+  <entry key="GRUBFARMER_MIMIC_03">
+    <en>Sweet little thingssss...</en>
+    <zh>甜美的小东西……</zh>
+  </entry>
+  <entry key="ROACHKEEPER_CHEF_02">
+    <en>A holy gift...</en>
+    <zh>为神圣恩赐……</zh>
+  </entry>
+  <entry key="ROACHKEEPER_CHEF_01">
+    <en>Is this enough? Is it ever enough?</en>
+    <zh>够了吗？永远不够吗？</zh>
+  </entry>
+  <entry key="GRUBFARMER_MIMIC_04">
+    <en>To feed... To swell...</en>
+    <zh>进食……膨胀……</zh>
+  </entry>
+  <entry key="SHERMA_CITADEL_03">
+    <en>I know it! I swear it!</en>
+    <zh>我确信！我起誓！</zh>
+  </entry>
+  <entry key="GREAT_GOURMAND_02">
+    <en>...FOOD... MEAT... MUCH...</en>
+    <zh>……食物……肉……多多……</zh>
+  </entry>
+  <entry key="ROSARY_PILGRIM_03">
+    <en>A little more... ‘tis all I need...</en>
+    <zh>再多一点……我只需要……</zh>
+  </entry>
+  <entry key="HUNTER_TINY_03">
+    <en>Find it... take it...</en>
+    <zh>找到它……夺取它……</zh>
+  </entry>
+  <entry key="BLOAT_ROACH_04">
+    <en>Meat inside...</en>
+    <zh>内藏鲜肉……</zh>
+  </entry>
+  <entry key="THREADED_HUSK_01">
+    <en>...Stretched... thin...</en>
+    <zh>……延展……稀薄……</zh>
+  </entry>
+  <entry key="FLEAFESTIVAL_03">
+    <en>Our ritual, needed more than ever...</en>
+    <zh>此刻比任何时候都需要仪式……</zh>
+  </entry>
+  <entry key="SONG_KNIGHT_01">
+    <en>Save this Citadel...</en>
+    <zh>守护圣堡……</zh>
+  </entry>
+  <entry key="FLEAFESTIVAL_01">
+    <en>Face the darkness, sing dear friends...</en>
+    <zh>直面黑暗，与友同歌……</zh>
+  </entry>
+  <entry key="WISP_TOTEM_03">
+    <en>Live and die!</en>
+    <zh>生即向死！</zh>
+  </entry>
+  <entry key="FLEAFESTIVAL_06">
+    <en>This world may fall, but we stand till the last...</en>
+    <zh>世界将倾，我们坚守至终……</zh>
+  </entry>
+  <entry key="FLEAFESTIVAL_05">
+    <en>Dance and play, as all fleas past...</en>
+    <zh>像先祖跳蚤般起舞……</zh>
+  </entry>
+  <entry key="FLEAFESTIVAL_04">
+    <en>This time of fleas spent warm, together...</en>
+    <zh>我们共度温暖时光……</zh>
+  </entry>
+  <entry key="BELLTOWN_ACT3_01">
+    <en>Safe?</en>
+    <zh>安全么？……</zh>
+  </entry>
+  <entry key="HORNET_STRUNG_UP_01">
+    <en>Bound... together...</en>
+    <zh>束缚……同命……</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_FINAL_02">
+    <en>...Life for you...</en>
+    <zh>……为你续命……</zh>
+  </entry>
+  <entry key="HUNTRESS_02">
+    <en>Soar the caverns high...</en>
+    <zh>翱翔洞窟高空……</zh>
+  </entry>
+  <entry key="HUNTER_MERCHANT_01">
+    <en>Strength... faded...</en>
+    <zh>力量……渐衰……</zh>
+  </entry>
+  <entry key="HUNTRESS_01">
+    <en>Stalk, and smell, and seek...</en>
+    <zh>潜行，嗅探，追寻……</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_05">
+    <en>...obey their laws...</en>
+    <zh>……恪守律法……</zh>
+  </entry>
+  <entry key="HUNTRESS_06">
+    <en>That I may know your masks bold...</en>
+    <zh>愿能识你真容……</zh>
+  </entry>
+  <entry key="HUNTRESS_04">
+    <en>All must feed... </en>
+    <zh>众生皆需饱食……</zh>
+  </entry>
+  <entry key="HUNTRESS_05">
+    <en>That I may see your claws sharp...</en>
+    <zh>愿见你利爪锋锐……</zh>
+  </entry>
+  <entry key="BELLTOWN_ACT3_03">
+    <en>What did we do?</en>
+    <zh>我们做错了什么？……</zh>
+  </entry>
+  <entry key="PILGRIM_FISHER_06">
+    <en>Hidden... under...</en>
+    <zh>潜藏……其下……</zh>
+  </entry>
+  <entry key="PILGRIM_FISHER_04">
+    <en>Read the reeds...</en>
+    <zh>察苇知向……</zh>
+  </entry>
+  <entry key="PILGRIM_FISHER_05">
+    <en>To feed... them...</en>
+    <zh>为饲……他们……</zh>
+  </entry>
+  <entry key="PILGRIM_FISHER_02">
+    <en>The pond’s bounty...</en>
+    <zh>池水丰饶……</zh>
+  </entry>
+  <entry key="PILGRIM_FISHER_03">
+    <en>Watch the ripples...</en>
+    <zh>观漪辨踪……</zh>
+  </entry>
+  <entry key="PILGRIM_FISHER_01">
+    <en>Hunt to feed...</en>
+    <zh>捕猎为饲……</zh>
+  </entry>
+  <entry key="SETH_01">
+    <en>To the beginning and back...</en>
+    <zh>从起点到归途……</zh>
+  </entry>
+  <entry key="GOURMAND_SERVANT_03">
+    <en>So majestic! So mighty!</en>
+    <zh>如此威严！如此强大！</zh>
+  </entry>
+  <entry key="GREEN_PRINCE_04">
+    <en>Together we ruled...</en>
+    <zh>我们共治……</zh>
+  </entry>
+  <entry key="DOCTOR_FLY_05">
+    <en>Yet Yarnaby will save them...</en>
+    <zh>但雅纳碧将拯救他们……</zh>
+  </entry>
+  <entry key="CROW_01">
+    <en>Shiny, shiny, all for us!</en>
+    <zh>闪亮之物，皆归我有……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_DOCK_FLINTSLATE_03">
+    <en>...Pharloom’s fury...</en>
+    <zh>……纺络之怒……</zh>
+  </entry>
+  <entry key="DUSTROACH_02">
+    <en>Bite and claw...</en>
+    <zh>利爪撕扯……</zh>
+  </entry>
+  <entry key="CROW_02">
+    <en>Our nest! Our clan!</en>
+    <zh>我的巢穴！我的秩序！</zh>
+  </entry>
+  <entry key="CROW_05">
+    <en>Our caves! Our land!</en>
+    <zh>我的洞窟！我的土地！</zh>
+  </entry>
+  <entry key="CROW_04">
+    <en>Crack their shells... </en>
+    <zh>利爪碎甲……</zh>
+  </entry>
+  <entry key="SHAKRA_ACT3_01">
+    <en>Still I stand... </en>
+    <zh>我依然屹立……</zh>
+  </entry>
+  <entry key="CROW_06">
+    <en>Take their treasures!</en>
+    <zh>夺取他们的珍宝！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_STEPS_START_01">
+    <en>The gate, so near...</en>
+    <zh>门扉，近在咫尺……</zh>
+  </entry>
+  <entry key="UNRAVELLED_06">
+    <en>...Our claws... Our shells...</en>
+    <zh>……爪子……甲壳……</zh>
+  </entry>
+  <entry key="LAST_CONDUCTOR_01">
+    <en>Dear devout... have we failed?</en>
+    <zh>虔诚的信徒啊……我们失败了吗？</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ARCHITECT_01">
+    <en>Our hope...</en>
+    <zh>我们的希望……</zh>
+  </entry>
+  <entry key="CRADLE_08">
+    <en>That we may sing...</en>
+    <zh>使我们得以歌颂……</zh>
+  </entry>
+  <entry key="GILLY_01">
+    <en>Father’s wish...</en>
+    <zh>父亲的遗愿……</zh>
+  </entry>
+  <entry key="PINSTRESS_MOUNTAIN_03">
+    <en>Sisters, faded... all’s adrift...</en>
+    <zh>姊妹消逝……万物凋零……</zh>
+  </entry>
+  <entry key="BONETOWN_04">
+    <en>Stay together...</en>
+    <zh>齐力同心……</zh>
+  </entry>
+  <entry key="CRADLE_03">
+    <en>Spun... Served... Sacrificed...</en>
+    <zh>编织……侍奉……献祭……</zh>
+  </entry>
+  <entry key="CRADLE_02">
+    <en>Holy Silk...</en>
+    <zh>神圣灵丝……</zh>
+  </entry>
+  <entry key="CRADLE_01">
+    <en>By your grace...</en>
+    <zh>承蒙恩典……</zh>
+  </entry>
+  <entry key="VAULT_KEEPER_ACOLYTE_03">
+    <en>Holy words for us to speak!</en>
+    <zh>神圣经文由我们诵读！</zh>
+  </entry>
+  <entry key="CRADLE_07">
+    <en>That we may pray...</en>
+    <zh>使我们得以祈祷……</zh>
+  </entry>
+  <entry key="CRADLE_06">
+    <en>That we may bow...</en>
+    <zh>使我们得以躬身……</zh>
+  </entry>
+  <entry key="CRADLE_05">
+    <en>Your will... Your bounty...</en>
+    <zh>您的意志……您的慷慨……</zh>
+  </entry>
+  <entry key="CRADLE_04">
+    <en>Your gift... divine...</en>
+    <zh>您的恩赐……至圣……</zh>
+  </entry>
+  <entry key="FLEATOPIA_05">
+    <en>Rejoice! Remember! Those long gone...</en>
+    <zh>欢庆！追忆！逝去过往……</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_06">
+    <en>...execute their will...</en>
+    <zh>……执行意志……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_BLOOM_02">
+    <en>...Health of the heart...</en>
+    <zh>……治愈心灵……</zh>
+  </entry>
+  <entry key="SNITCH_CAVE_04">
+    <en>Caves ripe for us snitches...</en>
+    <zh>洞窟属于窃贼……</zh>
+  </entry>
+  <entry key="FLEATOPIA_ACT3_06">
+    <en>We live and die and roam as one!</en>
+    <zh>一同前行，生死与共！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_PONTIFF_04">
+    <en>Divine Silk...</en>
+    <zh>神圣灵丝……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ARCHITECT_04">
+    <en>Always eternal...</en>
+    <zh>永恒延续……</zh>
+  </entry>
+  <entry key="GRAND_REED_01">
+    <en>Those worthiest may climb...</en>
+    <zh>最虔诚者可攀登……</zh>
+  </entry>
+  <entry key="PILGRIM_MERCHANT_04">
+    <en>Hide away... holy sight...</en>
+    <zh>藏匿起来……神圣景象……</zh>
+  </entry>
+  <entry key="OLD_PENITENT_03">
+    <en>Drawn down... blessed call...</en>
+    <zh>受感召而下……神圣呼唤……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ARCHITECT_02">
+    <en>Build... Craft... Pass...</en>
+    <zh>建造……锻铸……传承……</zh>
+  </entry>
+  <entry key="DOCK_ELDER_B_02">
+    <en>Breathe it deep, dark burning air...</en>
+    <zh>深吸灼气……</zh>
+  </entry>
+  <entry key="ZAZA_FINAL_02">
+    <en>Brave to the end...</en>
+    <zh>勇毅至终……</zh>
+  </entry>
+  <entry key="BONETOWN_ACT3_03">
+    <en>...Dark... Afraid...</en>
+    <zh>……黑暗……畏惧……</zh>
+  </entry>
+  <entry key="SWAMP_SHAMAN_05">
+    <en>This power is ours!</en>
+    <zh>我的伟力！</zh>
+  </entry>
+  <entry key="SWAMP_SHAMAN_06">
+    <en>No truce... No bargain...</en>
+    <zh>贪婪善妒的蜗牛！</zh>
+  </entry>
+  <entry key="SONG_ADMINISTRATOR_01">
+    <en>Grant us resonance!</en>
+    <zh>赐予我们共鸣！</zh>
+  </entry>
+  <entry key="MR_MUSH_02">
+    <en>Stone will break and steel shall rust...</en>
+    <zh>顽石终究会碎，钢铁必然会锈……</zh>
+  </entry>
+  <entry key="SONG_ADMINISTRATOR_03">
+    <en>Holy masters!</en>
+    <zh>神圣的主人！</zh>
+  </entry>
+  <entry key="SONG_ADMINISTRATOR_02">
+    <en>Great Conductors!</en>
+    <zh>伟大的指挥家！</zh>
+  </entry>
+  <entry key="SONG_ADMINISTRATOR_05">
+    <en>Your devotion compels us!</en>
+    <zh>您的奉献激励我们！</zh>
+  </entry>
+  <entry key="SONG_ADMINISTRATOR_04">
+    <en>Your vision guides us...</en>
+    <zh>您的愿景指引我们……</zh>
+  </entry>
+  <entry key="DOCK_WORKER_06">
+    <en>By holy light...</en>
+    <zh>圣光指引……</zh>
+  </entry>
+  <entry key="SONG_ADMINISTRATOR_06">
+    <en>Highest of the high!</en>
+    <zh>至高无上！</zh>
+  </entry>
+  <entry key="AUTOMATON_04">
+    <en>...Work...Eternal...</en>
+    <zh>……劳作……永恒……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SWAMP_UMBRELLA_03">
+    <en>Revered by all...</en>
+    <zh>曾受万众敬仰……</zh>
+  </entry>
+  <entry key="FLEACARAVAN_04">
+    <en>All fleas must come...</en>
+    <zh>跳蚤都应投奔我们……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SWAMP_UMBRELLA_01">
+    <en>Must we hide?</en>
+    <zh>必须躲藏吗？……</zh>
+  </entry>
+  <entry key="MITE_MOTHER_GREYMOOR_04">
+    <en>Darker, quieter... more...</en>
+    <zh>愈暗，愈静……愈甚……</zh>
+  </entry>
+  <entry key="FLEA_LECH_03">
+    <en>What waits at journey’s end?</en>
+    <zh>旅途尽头有什么？</zh>
+  </entry>
+  <entry key="MITE_MOTHER_GREYMOOR_02">
+    <en>Rip and rend...</en>
+    <zh>残躯断肢……</zh>
+  </entry>
+  <entry key="MITE_MOTHER_GREYMOOR_03">
+    <en>Raise the many...</en>
+    <zh>召唤同伴……</zh>
+  </entry>
+  <entry key="PLINNEY_02">
+    <en>All blades honed perfect as can be!</en>
+    <zh>锋刃磨砺至完美！</zh>
+  </entry>
+  <entry key="ENCLAVE_03">
+    <en>Was it our sin?</en>
+    <zh>这是我们的罪吗？……</zh>
+  </entry>
+  <entry key="MEMORY_CORALTOWER_WIDE_04">
+    <en>...Might...</en>
+    <zh>……伟力……</zh>
+  </entry>
+  <entry key="MEMORY_CORALTOWER_WIDE_05">
+    <en>...By claw... By us...</en>
+    <zh>……用爪……用我们……</zh>
+  </entry>
+  <entry key="MEMORY_CORALTOWER_WIDE_06">
+    <en>...Great lord...</en>
+    <zh>……伟大君主……</zh>
+  </entry>
+  <entry key="PLINNEY_01">
+    <en>Sharper, sharper, can’t you see...</en>
+    <zh>更锋利，再锋利，你看……</zh>
+  </entry>
+  <entry key="GRUBFARMER_03">
+    <en>Our nest, our haven...</en>
+    <zh>巢穴即庇护所……</zh>
+  </entry>
+  <entry key="MEMORY_CORALTOWER_WIDE_01">
+    <en>...The river...</en>
+    <zh>……长河……</zh>
+  </entry>
+  <entry key="MEMORY_CORALTOWER_WIDE_02">
+    <en>...The tower... tall...</en>
+    <zh>……高……塔……</zh>
+  </entry>
+  <entry key="MEMORY_CORALTOWER_WIDE_03">
+    <en>...Beat... flow...</en>
+    <zh>……搏动……流淌……</zh>
+  </entry>
+  <entry key="BELL_EATER_02">
+    <en>Wake now...</en>
+    <zh>如今觉醒……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ANT_TRAPPER_01">
+    <en>...The last...</en>
+    <zh>……最后的……</zh>
+  </entry>
+  <entry key="CITADEL_MITE_GIANT_04">
+    <en>Double steps... strike quickly!</en>
+    <zh>双足踏近……速速攻击！</zh>
+  </entry>
+  <entry key="HALFWAY_HOUSE_04">
+    <en>Pharloom’s warmth...</en>
+    <zh>纺络的温暖……</zh>
+  </entry>
+  <entry key="SLAB_PRISONER_03">
+    <en>Punish us... cleanse us...</en>
+    <zh>惩罚我们……净化我们……</zh>
+  </entry>
+  <entry key="PILGRIM_GREATGATE_04">
+    <en>Open! Open!</en>
+    <zh>开启！开启！</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_WARD_01">
+    <en>...Connected...</en>
+    <zh>……相连……</zh>
+  </entry>
+  <entry key="SLAB_FLY_03">
+    <en>I’ll be cleansed...</en>
+    <zh>我将被净化……</zh>
+  </entry>
+  <entry key="GRINDLE_01">
+    <en>What you got is mine, my love!</en>
+    <zh>你的就是我的，宝贝儿！</zh>
+  </entry>
+  <entry key="ASPID_COLLECTOR_02">
+    <en>Fill the nest...</en>
+    <zh>充盈巢穴……</zh>
+  </entry>
+  <entry key="WRAITH_05">
+    <en>Those who wander... will die...</en>
+    <zh>徘徊者……终将死亡……</zh>
+  </entry>
+  <entry key="SEAMSTRESS_03">
+    <en>Mend the tears and twine the thread...</en>
+    <zh>弥合裂痕，捻紧丝线……</zh>
+  </entry>
+  <entry key="CHAPEL_WANDERER_04">
+    <en>...We fell...</en>
+    <zh>……我们曾坠落……</zh>
+  </entry>
+  <entry key="HUNTER_MOTTLED_CHILD_04">
+    <en>Strength... shall not fade...</en>
+    <zh>力量……永不衰退……</zh>
+  </entry>
+  <entry key="TORMENTED_TROBBIO_06">
+    <en>Light’s final gleam...</en>
+    <zh>最后的光芒……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_04">
+    <en>Glory to the gilded...</en>
+    <zh>荣光归于圣堡……</zh>
+  </entry>
+  <entry key="HUNTER_MOTTLED_CHILD_02">
+    <en>Our mark is no curse...</en>
+    <zh>印记并非诅咒……</zh>
+  </entry>
+  <entry key="HUNTER_MOTTLED_CHILD_03">
+    <en>We still hear it...</en>
+    <zh>我们共奉一音……</zh>
+  </entry>
+  <entry key="MEMORY_HUNTER_QUEEN_02">
+    <en>For the mother...</en>
+    <zh>为了母亲……</zh>
+  </entry>
+  <entry key="MOSSCREEP_04">
+    <en>The world’s rhythms...</en>
+    <zh>世界律动……</zh>
+  </entry>
+  <entry key="CHAPEL_ARCHITECT_01">
+    <en>...As it was built...</en>
+    <zh>……当它建成时……</zh>
+  </entry>
+  <entry key="CHAPEL_ARCHITECT_02">
+    <en>...It shall not end...</en>
+    <zh>……永不会终结……</zh>
+  </entry>
+  <entry key="CHAPEL_ARCHITECT_03">
+    <en>...Our memories... Our record...</en>
+    <zh>……我们的记忆……我们的记录……</zh>
+  </entry>
+  <entry key="CHAPEL_ARCHITECT_04">
+    <en>...Our existence...</en>
+    <zh>……我们的存在……</zh>
+  </entry>
+  <entry key="CHAPEL_ARCHITECT_05">
+    <en>...Remember...</en>
+    <zh>……铭记……</zh>
+  </entry>
+  <entry key="CHAPEL_ARCHITECT_06">
+    <en>...Build... grow...</en>
+    <zh>……建造……成长……</zh>
+  </entry>
+  <entry key="MEMORY_HUNTER_QUEEN_04">
+    <en>Stalk proud... Roam far...</en>
+    <zh>昂首阔步……远途巡狩……</zh>
+  </entry>
+  <entry key="CHAPEL_REAPER_01">
+    <en>...Honour to the reapers...</en>
+    <zh>……荣耀归于收割者……</zh>
+  </entry>
+  <entry key="HUNTER_QUEEN_06">
+    <en>My voice will not fade!</en>
+    <zh>我的声音永不消逝！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CRAWL_ASSISTANT_03">
+    <en>Only a little... Only a spark... </en>
+    <zh>只需一丝……星火……</zh>
+  </entry>
+  <entry key="GARMOND_06">
+    <en>Only our duty... Only our claws...</en>
+    <zh>唯余职责……唯余利爪……</zh>
+  </entry>
+  <entry key="BONE_CREATURE_04">
+    <en>Warm and dark...</en>
+    <zh>温暖幽暗……</zh>
+  </entry>
+  <entry key="CORAL_KING_04">
+    <en>Let the weak crumble away!</en>
+    <zh>任弱者崩解！</zh>
+  </entry>
+  <entry key="SHERMA_CITADEL_02">
+    <en>You shall have your reward...</en>
+    <zh>我们终得报偿……</zh>
+  </entry>
+  <entry key="CORAL_KING_06">
+    <en>Defy your limits!</en>
+    <zh>突破极限！</zh>
+  </entry>
+  <entry key="ENCLAVE_08">
+    <en>Are we the chosen?</en>
+    <zh>我们是被选中的么？……</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_04">
+    <en>Forever... ...</en>
+    <zh>永远……永远……</zh>
+  </entry>
+  <entry key="CORAL_KING_03">
+    <en>Serve and die!</en>
+    <zh>侍奉至死！</zh>
+  </entry>
+  <entry key="CORAL_KING_02">
+    <en>By strength, overwhelm!</en>
+    <zh>以力碾压！</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_03">
+    <en>All born free...</en>
+    <zh>生来自由……</zh>
+  </entry>
+  <entry key="WISP_TOTEM_04">
+    <en>Burn bright! Burn hot!</en>
+    <zh>耀眼燃烧！炽热燃烧！</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_04">
+    <en>My soul... my shell. For you!</en>
+    <zh>献上心脏，奉上甲壳，都为了你。</zh>
+  </entry>
+  <entry key="ROOF_CRAB_04">
+    <en>All is mine... only mine!</en>
+    <zh>唯余我辈……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_CAPITAL_02">
+    <en>Our hearts... together...</en>
+    <zh>我们心意……相通……</zh>
+  </entry>
+  <entry key="CRADLE_ACT3_02">
+    <en>...Divine...</en>
+    <zh>……神圣……</zh>
+  </entry>
+  <entry key="DOCK_ELDER_B_01">
+    <en>Break the stone, seek the ore...</en>
+    <zh>凿石寻矿……</zh>
+  </entry>
+  <entry key="GRUBFARMER_MIMIC_01">
+    <en>I shall not be?...</en>
+    <zh>我将不复存在？……</zh>
+  </entry>
+  <entry key="PINSTRESS_MOUNTAIN_04">
+    <en>One final clash... one final gift...</en>
+    <zh>最终交锋……最终馈赠……</zh>
+  </entry>
+  <entry key="FLEA_TRACKER_LONE_04">
+    <en>Lost fleas...</en>
+    <zh>失散的蚤群……</zh>
+  </entry>
+  <entry key="MOORWING_03">
+    <en>Scratch and slash...</en>
+    <zh>抓挠撕扯……</zh>
+  </entry>
+  <entry key="BEASTFLY_06">
+    <en>Fly far, fly far!</en>
+    <zh>远飞！远飞！</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_BROKEN_01">
+    <en>...keep... IMPULSELOST...</en>
+    <zh>……坚守……指令丢失……</zh>
+  </entry>
+  <entry key="BEASTFLY_04">
+    <en>Distant dark, vivid red...</en>
+    <zh>遥远的黑暗，刺目的鲜红……</zh>
+  </entry>
+  <entry key="BEASTFLY_05">
+    <en>Hunt the weak, devour the dead!</en>
+    <zh>猎杀弱者，吞噬亡者！</zh>
+  </entry>
+  <entry key="BEASTFLY_02">
+    <en>Scars and cracks and stolen lives...</en>
+    <zh>伤痕与裂缝，夺走的生命……</zh>
+  </entry>
+  <entry key="BEASTFLY_03">
+    <en>Break through, break through...</en>
+    <zh>突破，突破……</zh>
+  </entry>
+  <entry key="BEASTFLY_01">
+    <en>Ancestor’s echo, rumbling cry!</en>
+    <zh>先祖的回响，轰鸣的呼喊！</zh>
+  </entry>
+  <entry key="SWAMP_MUCKMAN_04">
+    <en>Our land! Their grave!</en>
+    <zh>我们的土地！他们的坟墓！</zh>
+  </entry>
+  <entry key="CORAL_WARRIOR_02">
+    <en>For a lord born strong...</en>
+    <zh>为雄主降世……</zh>
+  </entry>
+  <entry key="SETH_04">
+    <en>Fresh shell... clear sight...</en>
+    <zh>崭新甲壳……清澈目光……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_OATH_04">
+    <en>Remember...</en>
+    <zh>铭记……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_CHILD_04">
+    <en>Let’s grow stronger!</en>
+    <zh>成长强壮！</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_OATH_01">
+    <en>Remember...</en>
+    <zh>记住……</zh>
+  </entry>
+  <entry key="TROBBIO_03">
+    <en>See my spark!</en>
+    <zh>见证我的火花！</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_OATH_03">
+    <en>Our strength...</en>
+    <zh>我们的力量……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_OATH_02">
+    <en>Our oath...</en>
+    <zh>我们的誓言……</zh>
+  </entry>
+  <entry key="CORAL_CREATURE_03">
+    <en>Our shells made strong...</en>
+    <zh>吾甲坚不可摧……</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_FINAL_04">
+    <en>...Dear one...</en>
+    <zh>……同伴……</zh>
+  </entry>
+  <entry key="LADYBUG_05">
+    <en>Count your spots...</en>
+    <zh>数数你的斑点……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_CHILD_02">
+    <en>All together! All together!</en>
+    <zh>齐聚一堂！同心协力！</zh>
+  </entry>
+  <entry key="MITE_GREYMOOR_06">
+    <en>Hide below them...</en>
+    <zh>藏于其下……</zh>
+  </entry>
+  <entry key="FLEA_TRACKER_LONE_01">
+    <en>Sniffed... Sensed...</en>
+    <zh>嗅探……感知……</zh>
+  </entry>
+  <entry key="RUINED_CHAPEL_01">
+    <en>...Will...Worshipped...</en>
+    <zh>……意志……受崇……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SILK_SIPHON_06">
+    <en>Please...</en>
+    <zh>别忘……</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_LACE_01">
+    <en>...Mine...</en>
+    <zh>……属于我……</zh>
+  </entry>
+  <entry key="SLAB_FLY_04">
+    <en>Why was I born in the filth?</en>
+    <zh>为何生于污秽？</zh>
+  </entry>
+  <entry key="BELL_EATER_03">
+    <en>We must... feed...</en>
+    <zh>必须……进食……</zh>
+  </entry>
+  <entry key="HUNTER_TINY_01">
+    <en>For her! For her!</en>
+    <zh>为了她！为了她！</zh>
+  </entry>
+  <entry key="BLOAT_ROACH_06">
+    <en>Swallow them...</en>
+    <zh>吞噬殆尽……</zh>
+  </entry>
+  <entry key="DUST_TRADER_01">
+    <en>Grey guts, ragged shell...</en>
+    <zh>灰败内脏，破旧甲壳……</zh>
+  </entry>
+  <entry key="UNRAVELLED_09">
+    <en>Ours... ours...</en>
+    <zh>交给我们！</zh>
+  </entry>
+  <entry key="UNRAVELLED_08">
+    <en>Your shell... strong!</en>
+    <zh>你的躯壳……强壮！</zh>
+  </entry>
+  <entry key="ARBORIUM_KEEPER_03">
+    <en>Saved, preserved, perfect...</en>
+    <zh>守护，封存，完美……</zh>
+  </entry>
+  <entry key="SLAB_FLY_FRESH_03">
+    <en>Eat! Eat!</en>
+    <zh>快吃！快吃！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_HUNTER_QUEEN_02">
+    <en>...Remember, my children... </en>
+    <zh>……记住，孩子们……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_HUNTER_QUEEN_03">
+    <en>...Curse the creature pale...</en>
+    <zh>……诅咒那苍白存在……</zh>
+  </entry>
+  <entry key="THREADED_HUSK_05">
+    <en>...The shell... I was...</en>
+    <zh>……我的……样貌……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_HUNTER_QUEEN_01">
+    <en>...All for you, my hunters strong...</en>
+    <zh>……为了你们，我的勇猛猎手……</zh>
+  </entry>
+  <entry key="UNRAVELLED_01">
+    <en>Who... we...</en>
+    <zh>我们是谁？……</zh>
+  </entry>
+  <entry key="CHOIR_05">
+    <en>Our voices will be heard!</en>
+    <zh>我们的声音将被聆听！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_HUNTER_QUEEN_04">
+    <en>...Remember the song...</en>
+    <zh>……记住那首歌……</zh>
+  </entry>
+  <entry key="UNRAVELLED_02">
+    <en>Where... when...</en>
+    <zh>何处？……何时？</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_GRUBFARMER_NEST_01">
+    <en>Who to be?</en>
+    <zh>成为谁？</zh>
+  </entry>
+  <entry key="ARCHITECT_05">
+    <en>...From these memories...Skill...</en>
+    <zh>……由记忆中……技艺……</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_09">
+    <en>Shining bright, our Citadel waits...</en>
+    <zh>圣堡辉光，静候朝觐……</zh>
+  </entry>
+  <entry key="SONG_GOLEM_06">
+    <en>SACRED... LIGHT...</en>
+    <zh>圣光……辉煌……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_TANKS_08">
+    <en>Essence... true essence...</en>
+    <zh>精华……纯粹精华……</zh>
+  </entry>
+  <entry key="FLEATOPIA_03">
+    <en>Swim and sing, ease stiffened shells...</en>
+    <zh>戏水欢歌，舒展甲壳……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_TANKS_05">
+    <en>Preserved... remembered...</en>
+    <zh>保存……铭记……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_TANKS_04">
+    <en>Pharloom’s soul...</en>
+    <zh>纺络之灵魂……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_TANKS_07">
+    <en>For you all... </en>
+    <zh>献予众生……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_TANKS_06">
+    <en>From you all...</en>
+    <zh>取自众生……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_TANKS_01">
+    <en>This holy taste...</en>
+    <zh>这神圣滋味……</zh>
+  </entry>
+  <entry key="CLOVER_DANCERS_05">
+    <en>Hearts united...</en>
+    <zh>心心相印……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_TANKS_03">
+    <en>Pharloom’s flavour...</en>
+    <zh>纺络之风味……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_TANKS_02">
+    <en>Shells to soak... and define...</en>
+    <zh>甲壳浸泡……定下调味……</zh>
+  </entry>
+  <entry key="CURIOUS_PILGRIM_04">
+    <en>Song... thread... resonates...</en>
+    <zh>扭曲……扭曲……</zh>
+  </entry>
+  <entry key="PILGRIM_GREATGATE_01">
+    <en>Have mercy! Have pity!</en>
+    <zh>开恩啊！怜悯啊！</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_04">
+    <en>The gilded threshold! </en>
+    <zh>镀金门庭！</zh>
+  </entry>
+  <entry key="MASK_MAKER_05">
+    <en>What greater gift?</en>
+    <zh>还有何更伟大的馈赠？</zh>
+  </entry>
+  <entry key="MR_MUSH_01">
+    <en>Lies and truths must be discussed...</en>
+    <zh>真伪需辨明……</zh>
+  </entry>
+  <entry key="FIELDS_CREATURE_02">
+    <en>Between bone we sprout...</en>
+    <zh>骸骨缝隙萌芽……</zh>
+  </entry>
+  <entry key="BANK_WIDE_04">
+    <en>...Holy measure...</en>
+    <zh>……神圣的计量……</zh>
+  </entry>
+  <entry key="GREEN_PRINCE_05">
+    <en>Together... perfect...</en>
+    <zh>一体……完美……</zh>
+  </entry>
+  <entry key="CRYSTAL_CREATURE_01">
+    <en>Mem... remem...</en>
+    <zh>记……忆……</zh>
+  </entry>
+  <entry key="GRAND_REED_03">
+    <en>May my voice never fade...</en>
+    <zh>愿我的声音永不消逝……</zh>
+  </entry>
+  <entry key="CLOVER_DANCERS_03">
+    <en>An end... together...</en>
+    <zh>共赴终局……</zh>
+  </entry>
+  <entry key="BANK_WIDE_02">
+    <en>...Our wealth...</en>
+    <zh>……我们的财富……</zh>
+  </entry>
+  <entry key="SHERMA_WARD_04">
+    <en>This place... hidden from holy light...</en>
+    <zh>此地……圣光不及……</zh>
+  </entry>
+  <entry key="SONG_KNIGHT_03">
+    <en>Protect the pure...</en>
+    <zh>斩尽咒孽……</zh>
+  </entry>
+  <entry key="UNDERWORKER_LOAM_05">
+    <en>For your light...</en>
+    <zh>为了您的光芒……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SURFACE_02">
+    <en>Sweet promises whispered...</en>
+    <zh>甜蜜诺言的低语……</zh>
+  </entry>
+  <entry key="MOSSCRAWLER_GIANT_02">
+    <en>Little sisters... hide away...</en>
+    <zh>小妹们……躲藏好……</zh>
+  </entry>
+  <entry key="WHITE_CLOVERSTAG_02">
+    <en>Lonely specks, adrift...</en>
+    <zh>孤尘飘零……</zh>
+  </entry>
+  <entry key="SONG_HEAVY_SENTRY_01">
+    <en>Bow your heads in reverence!</en>
+    <zh>垂首示虔敬！</zh>
+  </entry>
+  <entry key="SONG_HEAVY_SENTRY_04">
+    <en>Know our lords divine!</en>
+    <zh>敬拜神圣之主！</zh>
+  </entry>
+  <entry key="LAST_CONDUCTOR_02">
+    <en>Remember their voices...</en>
+    <zh>记住他们的声音……</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_BROKEN_02">
+    <en>...peak... ascent...</en>
+    <zh>……巅峰……登极……</zh>
+  </entry>
+  <entry key="CHAPEL_WANDERER_05">
+    <en>...Once we wandered...</en>
+    <zh>……我们曾漫游……</zh>
+  </entry>
+  <entry key="GILLY_FINAL_04">
+    <en>The secret... I’ll learn it yet...</en>
+    <zh>那个秘密……我终将知晓……</zh>
+  </entry>
+  <entry key="CITADEL_BAT_03">
+    <en>Larger, hide away!</en>
+    <zh>大的，躲起来！</zh>
+  </entry>
+  <entry key="WARD_CREMATORIUM_03">
+    <en>...From fire, purity...</en>
+    <zh>……火中粹纯……</zh>
+  </entry>
+  <entry key="WARD_CREMATORIUM_02">
+    <en>...Let none go wasted...</en>
+    <zh>……物尽其用……</zh>
+  </entry>
+  <entry key="TINY_BROODMOTHER_02">
+    <en>When you’re hungry, eat and eat!</en>
+    <zh>饿了就要吃吃吃！</zh>
+  </entry>
+  <entry key="DUCT_SUCKER_03">
+    <en>Swallow... swell...</en>
+    <zh>蠕动的微粒……</zh>
+  </entry>
+  <entry key="GREYROOT_CHAMBER_03">
+    <en>Old... accord...</en>
+    <zh>古老……契约……</zh>
+  </entry>
+  <entry key="SONG_PILGRIM_10">
+    <en>None shall die...</en>
+    <zh>不应有死亡……</zh>
+  </entry>
+  <entry key="FORGE_DUO_02">
+    <en>The work endures...</en>
+    <zh>造物永存……</zh>
+  </entry>
+  <entry key="LACE_06">
+    <en>Let fate’s bindings choke you away!</en>
+    <zh>让命运的束缚扼杀你！</zh>
+  </entry>
+  <entry key="CORAL_CREATURE_04">
+    <en>Our nest made secret...</en>
+    <zh>巢穴隐秘难寻……</zh>
+  </entry>
+  <entry key="SNITCH_CAVE_06">
+    <en>We take it if we want!</en>
+    <zh>我们随心所欲！</zh>
+  </entry>
+  <entry key="FLEATOPIA_01">
+    <en>Safe together, home at last...</en>
+    <zh>终抵家园，安全团聚……</zh>
+  </entry>
+  <entry key="PILGRIMS_REST_02">
+    <en>Pharloom’s mercy...</en>
+    <zh>纺络之垂怜……</zh>
+  </entry>
+  <entry key="RELIC_DEALER_05">
+    <en>Stained by history...</en>
+    <zh>浸染历史……</zh>
+  </entry>
+  <entry key="MEMORY_CORALTOWER_03">
+    <en>For life... its beat, its flow...</en>
+    <zh>为生之搏动……</zh>
+  </entry>
+  <entry key="PILGRIM_CORPSE_04">
+    <en>Citadel...</en>
+    <zh>圣堡……</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_01">
+    <en>You and I...I and You...</en>
+    <zh>你与我……我与你……</zh>
+  </entry>
+  <entry key="TORMENTED_TROBBIO_01">
+    <en>Woe...Woe...</en>
+    <zh>悲哉……悲哉……</zh>
+  </entry>
+  <entry key="PILGRIM_CORPSE_01">
+    <en>Sacred... path...</en>
+    <zh>神圣……之路……</zh>
+  </entry>
+  <entry key="PILGRIM_CORPSE_02">
+    <en>Holy... reward...</en>
+    <zh>虔诚……报偿……</zh>
+  </entry>
+  <entry key="PILGRIM_CORPSE_03">
+    <en>Pilgrimage...</en>
+    <zh>朝圣……</zh>
+  </entry>
+  <entry key="UNDERSTORE_08">
+    <en>The sacred toil...</en>
+    <zh>神圣劳作……</zh>
+  </entry>
+  <entry key="HALFWAY_HOUSE_02">
+    <en>Nectar from the teat...</en>
+    <zh>甜美蜜露……</zh>
+  </entry>
+  <entry key="TORMENTED_TROBBIO_04">
+    <en>Alone against the dark...</en>
+    <zh>独抗黑暗……</zh>
+  </entry>
+  <entry key="ZAZA_LONE_01">
+    <en>Hurry hurry!</en>
+    <zh>快！快！</zh>
+  </entry>
+  <entry key="CURIOUS_PILGRIM_03">
+    <en>Whose whispers do I hear?</en>
+    <zh>是谁在低语？</zh>
+  </entry>
+  <entry key="WRAITH_04">
+    <en>Leave this place...</en>
+    <zh>离开此地……</zh>
+  </entry>
+  <entry key="SNAIL_SHAMAN_07">
+    <en>Hide and watch...</en>
+    <zh>隐匿观察……</zh>
+  </entry>
+  <entry key="UNRAVELLED_03">
+    <en>Cannot... see...</en>
+    <zh>……目不能视……</zh>
+  </entry>
+  <entry key="PILGRIM_GREATGATE_02">
+    <en>O great gate...</en>
+    <zh>伟大的门扉……</zh>
+  </entry>
+  <entry key="CHOIR_06">
+    <en>For our song, the precious Silk!</en>
+    <zh>为圣歌献上珍贵灵丝！</zh>
+  </entry>
+  <entry key="SHERMA_WARD_01">
+    <en>All this suffering...</en>
+    <zh>这般苦痛……</zh>
+  </entry>
+  <entry key="DOCK_WORKER_04">
+    <en>Tunnel, breach, bore...</en>
+    <zh>凿穿岩层……</zh>
+  </entry>
+  <entry key="SONG_GOLEM_01">
+    <en>WE... ARE... ONE...</en>
+    <zh>吾等……为一……</zh>
+  </entry>
+  <entry key="PINSTRESS_02">
+    <en>Warriors proud in battle’s midst...</en>
+    <zh>傲立于战阵的勇士……</zh>
+  </entry>
+  <entry key="COURIER_04">
+    <en>Not too hasty, now!</en>
+    <zh>别太急，要稳当！</zh>
+  </entry>
+  <entry key="FLEACARAVAN_02">
+    <en>Join our company, moving free!</en>
+    <zh>加入旅团，安全自由！……</zh>
+  </entry>
+  <entry key="ROSARY_THIEF_03">
+    <en>...give me, give me!</en>
+    <zh>……给我拿来！</zh>
+  </entry>
+  <entry key="WARD_PIT_06">
+    <en>...Pit... Deep...</en>
+    <zh>……深坑……无底……</zh>
+  </entry>
+  <entry key="GOURMAND_SERVANT_02">
+    <en>Your taste, so refined!</en>
+    <zh>您的品味，如此高雅！</zh>
+  </entry>
+  <entry key="ENCLAVE_01">
+    <en>Where is your glory?</en>
+    <zh>你的荣耀在哪里？……</zh>
+  </entry>
+  <entry key="WARD_PIT_05">
+    <en>...Where?... Why?</en>
+    <zh>……何处？……为何？……</zh>
+  </entry>
+  <entry key="WARD_PIT_02">
+    <en>...No escape...</en>
+    <zh>……无处可逃……</zh>
+  </entry>
+  <entry key="WARD_PIT_03">
+    <en>...Lost... Lost...</en>
+    <zh>……迷失……迷失……</zh>
+  </entry>
+  <entry key="WARD_PIT_01">
+    <en>...No release...</en>
+    <zh>……无法解脱……</zh>
+  </entry>
+  <entry key="SHERMA_CARETAKER_01">
+    <en>Huddle together...</en>
+    <zh>相偎相依……</zh>
+  </entry>
+  <entry key="PHANTOM_05">
+    <en>Shell stiffened...</en>
+    <zh>躯壳僵化……</zh>
+  </entry>
+  <entry key="FLEATOPIA_ACT3_05">
+    <en>Our wish, this one last grand endeavour...</en>
+    <zh>唯愿庆典，终得成功……</zh>
+  </entry>
+  <entry key="RUNT_02">
+    <en>Why so weak?</en>
+    <zh>为何如此无力？</zh>
+  </entry>
+  <entry key="WIDOW_05">
+    <en>The gift, of strength and Silk...</en>
+    <zh>力量与灵丝之赐……</zh>
+  </entry>
+  <entry key="CLOVER_DANCERS_02">
+    <en>What life alone?</en>
+    <zh>独身怎过一生？</zh>
+  </entry>
+  <entry key="COURIER_02">
+    <en>Carefully, careful now!</en>
+    <zh>需谨慎，需小心！</zh>
+  </entry>
+  <entry key="MEMORY_FIRST_SINNER_01">
+    <en>Know our rage...</en>
+    <zh>知晓我们的愤怒……</zh>
+  </entry>
+  <entry key="SLAB_PRISONER_01">
+    <en>Chastise us... o shame!</en>
+    <zh>惩戒我们……耻辱啊！</zh>
+  </entry>
+  <entry key="PILGRIM_MERCHANT_03">
+    <en>Gather what you can! Sweet gifts!</en>
+    <zh>尽量收集！甜美赠礼！</zh>
+  </entry>
+  <entry key="SONG_CREEPER_05">
+    <en>Let nothing be wasted...</en>
+    <zh>物尽其用……</zh>
+  </entry>
+  <entry key="SONG_CREEPER_04">
+    <en>Even these dregs...</en>
+    <zh>纵使渣滓……</zh>
+  </entry>
+  <entry key="SONG_CREEPER_07">
+    <en>All are holy...</en>
+    <zh>神性仍存……</zh>
+  </entry>
+  <entry key="SONG_CREEPER_06">
+    <en>Even these husks...</en>
+    <zh>纵使空壳……</zh>
+  </entry>
+  <entry key="SONG_CREEPER_01">
+    <en>Save the Silk...</en>
+    <zh>守护灵丝……</zh>
+  </entry>
+  <entry key="CHAPEL_WANDERER_02">
+    <en>...We walked...</en>
+    <zh>……我们曾行走……</zh>
+  </entry>
+  <entry key="SONG_CREEPER_03">
+    <en>Holy, wonder... Preserved through flame...</en>
+    <zh>神圣造物……历火存真……</zh>
+  </entry>
+  <entry key="SKULL_KING_04">
+    <en>All beasts must bow!</en>
+    <zh>万众臣伏……</zh>
+  </entry>
+  <entry key="WEAVER_SPIRE_08">
+    <en>...For those who come after...</en>
+    <zh>……为了后来者……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_06">
+    <en>Ever vigilant!</en>
+    <zh>不得放松警惕！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_GREYMOOR_DARK_01">
+    <en>...Where now?</en>
+    <zh>……该往何方？……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_CAPITAL_01">
+    <en>Our joy... together...</en>
+    <zh>我们同享……喜悦……</zh>
+  </entry>
+  <entry key="WEAVER_SPIRE_03">
+    <en>...Bound...</en>
+    <zh>……束缚……</zh>
+  </entry>
+  <entry key="MOSSCREEP_06">
+    <en>And why not here?!</en>
+    <zh>此处为何例外？！</zh>
+  </entry>
+  <entry key="BELL_CREATURE_01">
+    <en>Rings from high, hide away...</en>
+    <zh>高处钟鸣，消失无踪……</zh>
+  </entry>
+  <entry key="WEAVER_SPIRE_07">
+    <en>...Wait, and die...</en>
+    <zh>……等待并死去……</zh>
+  </entry>
+  <entry key="STICK_INSECT_04">
+    <en>Sister, sister, your dismay!</en>
+    <zh>姐妹！姐妹！为何忧愁！</zh>
+  </entry>
+  <entry key="WEAVER_SPIRE_05">
+    <en>...Through ages... </en>
+    <zh>……历经世代……</zh>
+  </entry>
+  <entry key="WEAVER_SPIRE_04">
+    <en>...Our Silk... Our memory...</en>
+    <zh>……我们的灵丝……我们的记忆……</zh>
+  </entry>
+  <entry key="STICK_INSECT_01">
+    <en>Hidey, hidey, here I lay!</en>
+    <zh>躲藏！躲藏！伏于此地！</zh>
+  </entry>
+  <entry key="STICK_INSECT_03">
+    <en>Brother, brother, time to play!</en>
+    <zh>兄弟！兄弟！嬉戏时刻！</zh>
+  </entry>
+  <entry key="STICK_INSECT_02">
+    <en>Monster, monster, run away!</en>
+    <zh>怪物！怪物！速速退散！</zh>
+  </entry>
+  <entry key="PHANTOM_01">
+    <en>Show me strength, spider...</en>
+    <zh>展现力量吧，蜘蛛……</zh>
+  </entry>
+  <entry key="FLEACARAVAN_01">
+    <en>Hear our voices! Hear our plea!</en>
+    <zh>听我们的声音！我们的请求！……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERSTORE_ORGAN_TOP_04">
+    <en>...Remember... peace...</en>
+    <zh>……记住……平和……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERSTORE_ORGAN_TOP_03">
+    <en>...Remember... silence...</en>
+    <zh>……记住……安宁……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERSTORE_ORGAN_TOP_02">
+    <en>...No more...</en>
+    <zh>……静默吧……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERSTORE_ORGAN_TOP_01">
+    <en>...This ceaseless sound...</en>
+    <zh>……这无休之声……</zh>
+  </entry>
+  <entry key="BONE_HOPPER_02">
+    <en>Hard bone beneath...</en>
+    <zh>坚硬骸骨，深埋脚下……</zh>
+  </entry>
+  <entry key="DOCK_WORKER_03">
+    <en>Toil, and toil, and toil...</en>
+    <zh>劳作不止……</zh>
+  </entry>
+  <entry key="CRYSTAL_CREATURE_04">
+    <en>Mem...</en>
+    <zh>记忆……</zh>
+  </entry>
+  <entry key="WEAVER_SPIRE_02">
+    <en>...Forgotten...</en>
+    <zh>……遗忘……</zh>
+  </entry>
+  <entry key="GOURMAND_SERVANT_01">
+    <en>O glorious master!</en>
+    <zh>辉煌的主人啊！</zh>
+  </entry>
+  <entry key="ROOF_CRAB_YOUNG_04">
+    <en>Now we grow... we grow...</en>
+    <zh>我们成长……就在此刻……</zh>
+  </entry>
+  <entry key="WIDOW_02">
+    <en>Eternity... Alone...</en>
+    <zh>永恒……孤寂……</zh>
+  </entry>
+  <entry key="SLAB_FLY_05">
+    <en>You! The filth! It’s you!</en>
+    <zh>你！污秽！是你！</zh>
+  </entry>
+  <entry key="DOCTOR_FLY_03">
+    <en>Pry apart the jaws of fate!</en>
+    <zh>撬开命运之颚！</zh>
+  </entry>
+  <entry key="BELL_EATER_05">
+    <en>Great noise... louder...</en>
+    <zh>巨响……愈隆……</zh>
+  </entry>
+  <entry key="GARMOND_FIGHTER_02">
+    <en>Meet your enemy’s gaze!</en>
+    <zh>直视敌人！</zh>
+  </entry>
+  <entry key="DUST_TRADER_03">
+    <en>Nothing left but dust to sell...</en>
+    <zh>只剩尘屑可贩卖……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_07">
+    <en>Paths lost in shade...</en>
+    <zh>树荫遮蔽……</zh>
+  </entry>
+  <entry key="SHERMA_CARETAKER_02">
+    <en>Let’s keep our spirits strong...</en>
+    <zh>保持信念……</zh>
+  </entry>
+  <entry key="WIDOW_04">
+    <en>Hear her voice! </en>
+    <zh>听她的呼唤！</zh>
+  </entry>
+  <entry key="SHERMA_CARETAKER_04">
+    <en>We still have our voices!</en>
+    <zh>我们仍有歌喉！</zh>
+  </entry>
+  <entry key="HORNET_STRUNG_UP_04">
+    <en>Your Shell... our Shell...</en>
+    <zh>你的甲壳……我们的甲壳……</zh>
+  </entry>
+  <entry key="SHERMA_CARETAKER_06">
+    <en>Our bond is unbroken...</en>
+    <zh>羁绊不灭……</zh>
+  </entry>
+  <entry key="HORNET_STRUNG_UP_02">
+    <en>Awoken... together...</en>
+    <zh>苏醒……同时……</zh>
+  </entry>
+  <entry key="HORNET_STRUNG_UP_03">
+    <en>Your Silk... our Silk...</en>
+    <zh>你的灵丝……我们的灵丝……</zh>
+  </entry>
+  <entry key="PINSTRESS_04">
+    <en>Lethal talents beyond compare...</en>
+    <zh>无与伦比的杀伐技艺……</zh>
+  </entry>
+  <entry key="ROCK_ROLLER_01">
+    <en>Crack them... Crunch them...</en>
+    <zh>碾碎外壳……嚼烂骨骸……</zh>
+  </entry>
+  <entry key="CRADLE_ACT3_06">
+    <en>...Served...</en>
+    <zh>……我们侍奉……</zh>
+  </entry>
+  <entry key="PILGRIM_DICE_04">
+    <en>Let holy chance decide!</en>
+    <zh>让神圣机运决定！</zh>
+  </entry>
+  <entry key="SPINE_FLOATER_03">
+    <en>Spines to spear...</en>
+    <zh>棘刺为矛……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CORAL_TOWER_06">
+    <en>Alone... against the pale light...</en>
+    <zh>唯有吾等，独面苍白之光……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_AQUEDUCT_01">
+    <en>...Trapped...</en>
+    <zh>……被困……</zh>
+  </entry>
+  <entry key="DOCK_ELDER_A_04">
+    <en>Rest together! Rise together!</en>
+    <zh>一同休憩！一同崛起！</zh>
+  </entry>
+  <entry key="SWAMP_MUCKMAN_06">
+    <en>Dark... twisting... betrayal’s heart...</en>
+    <zh>黑暗……扭曲……背叛之心……</zh>
+  </entry>
+  <entry key="FLEA_LECH_02">
+    <en>Sweet, brave Kratt...</en>
+    <zh>勇敢的克拉特……</zh>
+  </entry>
+  <entry key="PILGRIM_WEARY_03">
+    <en>Sing... </en>
+    <zh>歌唱……</zh>
+  </entry>
+  <entry key="HUNTER_QUEEN_04">
+    <en>My children!</en>
+    <zh>我的子嗣！</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_04">
+    <en>...remember their song...</en>
+    <zh>……铭记圣歌……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ANT_TRAPPER_03">
+    <en>...Pale...prey...</en>
+    <zh>……苍白猎物……</zh>
+  </entry>
+  <entry key="UNDER_HANGING_GOLEM_01">
+    <en>...WE...ALL...TOGETHER...</en>
+    <zh>……我们……同心……</zh>
+  </entry>
+  <entry key="PLINNEY_03">
+    <en>We’ll work and serve until we fall...</en>
+    <zh>劳作侍奉至殒身……</zh>
+  </entry>
+  <entry key="UNDERSTORE_01">
+    <en>For the light, unseen...</en>
+    <zh>为了未见之光……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_RESTAURANT_02">
+    <en>To serve...</en>
+    <zh>侍奉……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_RESTAURANT_03">
+    <en>To feed...</en>
+    <zh>哺育……</zh>
+  </entry>
+  <entry key="UNDERSTORE_04">
+    <en>We... were chosen...</en>
+    <zh>我们……被选中……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_RESTAURANT_01">
+    <en>For hunger... unending...</en>
+    <zh>为饥饿……无尽……</zh>
+  </entry>
+  <entry key="UNDERSTORE_06">
+    <en>Shells bend, shells break...</en>
+    <zh>身躯弯折，甲壳破裂……</zh>
+  </entry>
+  <entry key="UNDERSTORE_07">
+    <en>Through duty, purity...</en>
+    <zh>恪尽职守，保持圣洁……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_RESTAURANT_04">
+    <en>All must toil... all must eat...</en>
+    <zh>皆需劳作……皆需进食……</zh>
+  </entry>
+  <entry key="VAULTS_STATUE_02">
+    <en>Siblings... serving... </en>
+    <zh>姊妹……兄弟……</zh>
+  </entry>
+  <entry key="PILGRIM_MERCHANT_02">
+    <en>Darker now than ever before...</en>
+    <zh>比往昔更幽暗……</zh>
+  </entry>
+  <entry key="DOCK_ELDER_A_03">
+    <en>Sing together! Work together!</en>
+    <zh>一同歌唱！一同劳作！</zh>
+  </entry>
+  <entry key="DOCK_ELDER_A_02">
+    <en>Break your shell, brother!</en>
+    <zh>熔铸新爪吧，姊妹！</zh>
+  </entry>
+  <entry key="DOCK_ELDER_A_01">
+    <en>Burn your claws, sister!</en>
+    <zh>粉碎旧壳吧，兄弟！</zh>
+  </entry>
+  <entry key="MEMORY_HUNTER_QUEEN_06">
+    <en>For you, I sing...</en>
+    <zh>为你们而歌唱……</zh>
+  </entry>
+  <entry key="SPRINTMASTER_01">
+    <en>Movement is life!</en>
+    <zh>生命不息，运动不止！</zh>
+  </entry>
+  <entry key="CITADEL_MITE_GIANT_03">
+    <en>Scalding breath... take cover...</en>
+    <zh>灼热吐息……快快躲避……</zh>
+  </entry>
+  <entry key="SPRINTMASTER_02">
+    <en>Faster now, faster now!</en>
+    <zh>更快！再快！</zh>
+  </entry>
+  <entry key="MOORWING_04">
+    <en>Kill the captors!</en>
+    <zh>杀死捕手！</zh>
+  </entry>
+  <entry key="MOORWING_02">
+    <en>Free to fly...</en>
+    <zh>自由翱翔……</zh>
+  </entry>
+  <entry key="GRUBFARMER_MIMIC_02">
+    <en>No more me?...</en>
+    <zh>再无自我？……</zh>
+  </entry>
+  <entry key="PHANTOM_08">
+    <en>Free me! </en>
+    <zh>你的力量……你的形态……</zh>
+  </entry>
+  <entry key="MOORWING_01">
+    <en>Free to feed...</en>
+    <zh>自由觅食……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_GRUBFARMER_NEST_03">
+    <en>The one who serves...</en>
+    <zh>侍奉者……</zh>
+  </entry>
+  <entry key="PILGRIM_MERCHANT_01">
+    <en>Long and lonely halls...</en>
+    <zh>漫长孤寂的回廊……</zh>
+  </entry>
+  <entry key="VAULTKEEPER_CARDINIUS_05">
+    <en>Pharloom! Reveal your secrets...</en>
+    <zh>纺络啊！揭示你的秘密……</zh>
+  </entry>
+  <entry key="ROACHKEEPER_02">
+    <en>Bind them...</en>
+    <zh>约束管教……</zh>
+  </entry>
+  <entry key="PILGRIM_SHOPKEEP_04">
+    <en>O holy gleam!</en>
+    <zh>神圣的辉光！</zh>
+  </entry>
+  <entry key="FLEA_TRACKER_LONE_03">
+    <en>Lost lands...</en>
+    <zh>失落的故土……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_GRUBFARMER_NEST_05">
+    <en>The one to fear...</en>
+    <zh>恐惧化身……</zh>
+  </entry>
+  <entry key="DOCTOR_FLY_04">
+    <en>They hate, they lie!</en>
+    <zh>他们憎恨，他们说谎！</zh>
+  </entry>
+  <entry key="CHAPEL_SHAMAN_01">
+    <en>...Our power...</en>
+    <zh>……我们的力量……</zh>
+  </entry>
+  <entry key="DOCTOR_FLY_02">
+    <en>None else can see the truth...</en>
+    <zh>唯我能见真相……</zh>
+  </entry>
+  <entry key="MOSSCRAWLER_GIANT_04">
+    <en>Change... hidden change...</en>
+    <zh>蜕变……悄然蜕变……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_CHILD_05">
+    <en>Let’s grow holy!</en>
+    <zh>成长虔圣！</zh>
+  </entry>
+  <entry key="SNITCH_CAVE_03">
+    <en>Treasures and trinkets...</en>
+    <zh>散落宝物杂玩……</zh>
+  </entry>
+  <entry key="SWAMP_DRIFTER_03">
+    <en>Land... so fertile...</en>
+    <zh>土地……如此肥沃……</zh>
+  </entry>
+  <entry key="CLOVER_DANCERS_04">
+    <en>Each breath shared...</en>
+    <zh>同息同命……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_CHILD_06">
+    <en>We will serve! All will serve!</en>
+    <zh>吾将侍奉！皆应侍奉！</zh>
+  </entry>
+  <entry key="GILLY_05">
+    <en>Hidden... searching...</en>
+    <zh>隐藏着……探寻着……</zh>
+  </entry>
+  <entry key="ARCHITECT_03">
+    <en>...Always an Architect...</en>
+    <zh>……永为建筑师……</zh>
+  </entry>
+  <entry key="WEAVER_SPIRE_01">
+    <en>...Faded...</en>
+    <zh>……消逝……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ARCHITECT_05">
+    <en>Can it end?</en>
+    <zh>可有终时？……</zh>
+  </entry>
+  <entry key="VAULTKEEPER_CARDINIUS_01">
+    <en>Transcend this mind so limited...</en>
+    <zh>超越这受限的心智……</zh>
+  </entry>
+  <entry key="SONG_KNIGHT_05">
+    <en>Awake... Alone...Forever?</en>
+    <zh>手足……皆逝……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SNARESETTER_04">
+    <en>...To keep us free...</en>
+    <zh>……换得自由……</zh>
+  </entry>
+  <entry key="ZAZA_LONE_04">
+    <en>Friend spider...</en>
+    <zh>蜘蛛朋友……</zh>
+  </entry>
+  <entry key="DUSTROACH_POLLYWOG_03">
+    <en>Poison’s flow...</en>
+    <zh>毒液流淌……</zh>
+  </entry>
+  <entry key="DUSTROACH_POLLYWOG_02">
+    <en>Grow or die!</en>
+    <zh>不成长就死亡！</zh>
+  </entry>
+  <entry key="DUSTROACH_POLLYWOG_01">
+    <en>Eat and grow...</en>
+    <zh>进食就能成长……</zh>
+  </entry>
+  <entry key="ROACHFEEDER_01">
+    <en>Poke them, slash them...</en>
+    <zh>穿刺斩切……</zh>
+  </entry>
+  <entry key="CORAL_CREATURE_01">
+    <en>The crust covers...</en>
+    <zh>硬壳覆盖……</zh>
+  </entry>
+  <entry key="CORAL_CREATURE_02">
+    <en>The crust conceals...</en>
+    <zh>硬壳隐匿……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_STEPS_START_03">
+    <en>Why now, must we fade?</en>
+    <zh>为何我们，在此消逝？……</zh>
+  </entry>
+  <entry key="LACE_02">
+    <en>Bring ruin...</en>
+    <zh>带来毁灭……</zh>
+  </entry>
+  <entry key="LACE_03">
+    <en>Welcome, Spider. Welcome!</en>
+    <zh>欢迎，蜘蛛，欢迎！</zh>
+  </entry>
+  <entry key="SLAB_FLY_01">
+    <en>You! You! You are the sinner!</en>
+    <zh>你！你！罪人是你！</zh>
+  </entry>
+  <entry key="LACE_01">
+    <en>Bring chaos...</en>
+    <zh>带来混乱……</zh>
+  </entry>
+  <entry key="AUTOMATON_01">
+    <en>...Am I...Who?...</en>
+    <zh>……我是……谁？……</zh>
+  </entry>
+  <entry key="LACE_04">
+    <en>Feel pain, so pure!</en>
+    <zh>感受纯粹的痛苦！</zh>
+  </entry>
+  <entry key="LACE_05">
+    <en>Feel freedom false!</en>
+    <zh>感受虚假的自由！</zh>
+  </entry>
+  <entry key="BROODMOTHER_02">
+    <en>Eggy, eggy...</en>
+    <zh>暖和的卵，大大的卵……</zh>
+  </entry>
+  <entry key="DUCT_SUCKER_01">
+    <en>Eating... eat...</en>
+    <zh>滑溜的光……</zh>
+  </entry>
+  <entry key="SLAB_FLY_CAGE_03">
+    <en>Be caged! Be caged!</en>
+    <zh>囚禁！囚禁！</zh>
+  </entry>
+  <entry key="SONG_PILGRIM_03">
+    <en>Your ringing halls...</en>
+    <zh>这钟鸣殿堂……</zh>
+  </entry>
+  <entry key="SPINE_FLOATER_02">
+    <en>Dwellings deep...</en>
+    <zh>栖所幽深……</zh>
+  </entry>
+  <entry key="BONEGRAVE_04">
+    <en>...Die and serve...</en>
+    <zh>……亡以侍奉……</zh>
+  </entry>
+  <entry key="FARMER_SCISSOR_04">
+    <en>Cut their Silk...</en>
+    <zh>剪断灵丝……</zh>
+  </entry>
+  <entry key="FARMER_SCISSOR_05">
+    <en>Cut! Spool!</en>
+    <zh>裁剪、卷收……</zh>
+  </entry>
+  <entry key="FARMER_SCISSOR_06">
+    <en>Cut it all away!</en>
+    <zh>全部剪除！</zh>
+  </entry>
+  <entry key="MEMORY_CORALTOWER_01">
+    <en>For the river long...</en>
+    <zh>为长河恒流……</zh>
+  </entry>
+  <entry key="FARMER_SCISSOR_01">
+    <en>Cut! Stretch! Spin...</en>
+    <zh>裁剪、拉伸、纺线……</zh>
+  </entry>
+  <entry key="FARMER_SCISSOR_02">
+    <en>Cut their shells...</en>
+    <zh>剪碎甲壳……</zh>
+  </entry>
+  <entry key="FARMER_SCISSOR_03">
+    <en>Cut! Cut! Cut!</en>
+    <zh>剪碎、剪碎、剪碎……</zh>
+  </entry>
+  <entry key="FARMER_05">
+    <en>The air... the fields...</en>
+    <zh>空气……原野……</zh>
+  </entry>
+  <entry key="FARMER_06">
+    <en>Are we only dregs?</en>
+    <zh>我们只是残渣？</zh>
+  </entry>
+  <entry key="SWAMP_DRIFTER_02">
+    <en>Water... so nourishing...</en>
+    <zh>水流……如此滋润……</zh>
+  </entry>
+  <entry key="FARMER_01">
+    <en>Spin it, send it...</en>
+    <zh>纺线，运送……</zh>
+  </entry>
+  <entry key="FARMER_02">
+    <en>Catch it, spool it...</en>
+    <zh>抓牢，卷收……</zh>
+  </entry>
+  <entry key="FARMER_03">
+    <en>Why... always this?</en>
+    <zh>为何一成不变？……</zh>
+  </entry>
+  <entry key="RHINO_02">
+    <en>Vast... wild...</en>
+    <zh>广袤……原野……</zh>
+  </entry>
+  <entry key="BELLBEAST_STRUNG_04">
+    <en>Chosen... caught... </en>
+    <zh>天选……遭缚……</zh>
+  </entry>
+  <entry key="ROACHFEEDER_03">
+    <en>Locks tight...</en>
+    <zh>牢锁紧闭……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERWISP_01">
+    <en>Heat... and quiet...</en>
+    <zh>炽热……寂静……</zh>
+  </entry>
+  <entry key="FLOWER_QUEEN_05">
+    <en>...you too, distant shape...</en>
+    <zh>……远方的身影……</zh>
+  </entry>
+  <entry key="SAND_CENTIPEDE_02">
+    <en>Scouring wind!</en>
+    <zh>蚀骨之风！</zh>
+  </entry>
+  <entry key="CHOIR_08">
+    <en>All must gather! All must sing!</en>
+    <zh>全体聚集！全体歌唱！</zh>
+  </entry>
+  <entry key="GRUBFARMER_MIMIC_05">
+    <en>To cleanssse...</en>
+    <zh>净化……</zh>
+  </entry>
+  <entry key="ASPID_COLLECTOR_01">
+    <en>Seek the sweet...</en>
+    <zh>寻觅甘甜……</zh>
+  </entry>
+  <entry key="CRAWFATHER_05">
+    <en>I condemn! I punish!</en>
+    <zh>我谴责！我惩处！</zh>
+  </entry>
+  <entry key="SAND_CENTIPEDE_04">
+    <en>Rattling, wriggling...</en>
+    <zh>窸窣，蠕动……</zh>
+  </entry>
+  <entry key="BELLTOWN_02">
+    <en>Almost there...</en>
+    <zh>就要完成……</zh>
+  </entry>
+  <entry key="BONETOWN_ACT3_01">
+    <en>...Live...</en>
+    <zh>……生……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SONG_SMALL_ROOM_03">
+    <en>...All to end... like this?</en>
+    <zh>……一切终结……于此？</zh>
+  </entry>
+  <entry key="WARD_SURGERY_04">
+    <en>...Straps tight...</en>
+    <zh>……束带收紧……</zh>
+  </entry>
+  <entry key="WARD_SURGERY_03">
+    <en>...How old?... How long?</en>
+    <zh>……多久了？……多少年？……</zh>
+  </entry>
+  <entry key="WARD_SURGERY_02">
+    <en>...Fading... Forgetting...</en>
+    <zh>……消散……遗忘……</zh>
+  </entry>
+  <entry key="WARD_SURGERY_01">
+    <en>...Pins... Pain...</en>
+    <zh>……针尖……疼痛……</zh>
+  </entry>
+  <entry key="SHELLWOOD_CREATURE_01">
+    <en>Shifting root... grasping branch...</en>
+    <zh>盘根错节……枝干缠绕……</zh>
+  </entry>
+  <entry key="MEMORY_HUNTER_QUEEN_03">
+    <en>For these hunters bold...</en>
+    <zh>为了无畏的猎手……</zh>
+  </entry>
+  <entry key="CHAPEL_REAPER_06">
+    <en>...Gather... for the many...</en>
+    <zh>……为众生收集……</zh>
+  </entry>
+  <entry key="ARBORIUM_KEEPER_02">
+    <en>These lands, eternal...</en>
+    <zh>此地，永存……</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_LONE_01">
+    <en>That scent... carried still...</en>
+    <zh>气息……仍未消散……</zh>
+  </entry>
+  <entry key="SETH_03">
+    <en>Fateless and free...</en>
+    <zh>不循命运，无拘无束……</zh>
+  </entry>
+  <entry key="FLEACARAVAN_06">
+    <en>We live and die and roam as one!</en>
+    <zh>一同前行，生死与共！</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_LONE_02">
+    <en>Alone! Alone!</en>
+    <zh>孤独！孤独！</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_LONE_05">
+    <en>Pierce your shell!</en>
+    <zh>刺穿汝壳！</zh>
+  </entry>
+  <entry key="FLEA_LECH_01">
+    <en>The fleas’ guiding light...</en>
+    <zh>跳蚤的指路明灯……</zh>
+  </entry>
+  <entry key="ENCLAVE_05">
+    <en>All haunted, even here...</en>
+    <zh>连此处也染上丝缚之咒……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CRAWL_ASSISTANT_02">
+    <en>The buds must grow...</en>
+    <zh>花蕾必须绽放……</zh>
+  </entry>
+  <entry key="ROACHKEEPER_CHEF_03">
+    <en>For the work to sustain...</en>
+    <zh>为延续伟业……</zh>
+  </entry>
+  <entry key="PILGRIM_DICE_03">
+    <en>Faces of the fallen...</en>
+    <zh>逝者的面容……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_CAPITAL_05">
+    <en>Our strength...</en>
+    <zh>我们的力量……</zh>
+  </entry>
+  <entry key="STEEL_SERVANT_01">
+    <en>Cruel as steel!</en>
+    <zh>如钢铁般冷酷！</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_BELLBEAST_04">
+    <en>...Strong...</en>
+    <zh>……强大……</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_02">
+    <en>...await their return...</en>
+    <zh>……静候归期……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_CAPITAL_03">
+    <en>Reflection made real...</en>
+    <zh>镜中愿景成真……</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_WARD_03">
+    <en>...Strung to serve...</en>
+    <zh>……缚命效忠……</zh>
+  </entry>
+  <entry key="SWAMP_CREATURE_04">
+    <en>Resist the rot...</en>
+    <zh>抵抗腐朽……</zh>
+  </entry>
+  <entry key="SWAMP_CREATURE_03">
+    <en>Feed... or starve...</en>
+    <zh>掠食……或饥饿……</zh>
+  </entry>
+  <entry key="GRINDLE_03">
+    <en>What they got I’ll take, my love!</en>
+    <zh>他们的我会拿走，宝贝儿！</zh>
+  </entry>
+  <entry key="SWAMP_CREATURE_01">
+    <en>Survive in smog...</en>
+    <zh>在毒雾中求生……</zh>
+  </entry>
+  <entry key="SETH_GUARDIAN_01">
+    <en>Memories kept...</en>
+    <zh>记忆封存……</zh>
+  </entry>
+  <entry key="WARD_SURGEON_01">
+    <en>O death! O sinful waste!</en>
+    <zh>死亡啊！可耻的浪费！</zh>
+  </entry>
+  <entry key="CHAPEL_WANDERER_06">
+    <en>...The lands revealed...</en>
+    <zh>……真实的土地……</zh>
+  </entry>
+  <entry key="WARD_SURGEON_04">
+    <en>Silk... holy life...</en>
+    <zh>灵丝……神圣的生命……</zh>
+  </entry>
+  <entry key="WARD_SURGEON_05">
+    <en>None may rest or idly lie...</en>
+    <zh>不得停歇或懈怠……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_02">
+    <en>Crush sin upon the step!</en>
+    <zh>罪孽皆在此阶前碾碎……</zh>
+  </entry>
+  <entry key="SONG_GOLEM_02">
+    <en>WE... ARE... MANY...</en>
+    <zh>吾等……为众……</zh>
+  </entry>
+  <entry key="TROBBIO_06">
+    <en>These wings blaze radiant!</en>
+    <zh>羽翼燃耀辉煌！</zh>
+  </entry>
+  <entry key="SETH_GUARDIAN_04">
+    <en>Sacred seeds...</en>
+    <zh>神圣之种</zh>
+  </entry>
+  <entry key="MOSSCREEP_02">
+    <en>In coral, in shell...</en>
+    <zh>在珊瑚中，在甲壳中……</zh>
+  </entry>
+  <entry key="PHANTOM_07">
+    <en>Free me from this fading fate...</en>
+    <zh>解放我！</zh>
+  </entry>
+  <entry key="MITE_GREYMOOR_03">
+    <en>Shriek and scratch them...</en>
+    <zh>尖啸撕扯……</zh>
+  </entry>
+  <entry key="SEAMSTRESS_04">
+    <en>Spin and spin. Forget the dead...</en>
+    <zh>纺织不停，忘却亡者……</zh>
+  </entry>
+  <entry key="MASK_MAKER_01">
+    <en>A mask to hide...</en>
+    <zh>面具用以隐藏……</zh>
+  </entry>
+  <entry key="DOCTOR_FLY_01">
+    <en>Yarnaby! The tortured one!</en>
+    <zh>雅纳碧！受尽折磨者！</zh>
+  </entry>
+  <entry key="SLAB_FLY_FRESH_01">
+    <en>Light! Light!</en>
+    <zh>光明！光芒！</zh>
+  </entry>
+  <entry key="HUNTER_TINY_04">
+    <en>Strong together! Strong forever!</en>
+    <zh>团结则强！永远同心！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SILK_SIPHON_05">
+    <en>Remember my voice... </en>
+    <zh>别忘了我的声音……</zh>
+  </entry>
+  <entry key="PEAKS_DRIFTER_04">
+    <en>Glidey! Glidey! Glidey!</en>
+    <zh>滑翔！自由滑翔！</zh>
+  </entry>
+  <entry key="FARMER_WISP_01">
+    <en>Father, father!</en>
+    <zh>父亲，父亲！</zh>
+  </entry>
+  <entry key="HUNTER_TINY_02">
+    <en>Away... toward...</en>
+    <zh>离开……前往……</zh>
+  </entry>
+  <entry key="THREADED_HUSK_02">
+    <en>...Why?... again...</en>
+    <zh>……为何？……重复……</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_06">
+    <en>Raise me higher! Pull me closer!</en>
+    <zh>攀至更高！行至更近！</zh>
+  </entry>
+  <entry key="PEAKS_DRIFTER_02">
+    <en>Drifty, drifty, oh so nicely...</en>
+    <zh>飘荡，飘荡，如此美妙……</zh>
+  </entry>
+  <entry key="FLOWER_QUEEN_02">
+    <en>...wandering seed...</en>
+    <zh>……飘零之种……</zh>
+  </entry>
+  <entry key="VAULT_KEEPER_ACOLYTE_02">
+    <en>The scrolls have spoken!</en>
+    <zh>经卷已明示！</zh>
+  </entry>
+  <entry key="SPINE_FLOATER_01">
+    <en>Rising heat...</en>
+    <zh>炽气升腾……</zh>
+  </entry>
+  <entry key="THREADED_HUSK_04">
+    <en>...Remember... shell...</en>
+    <zh>……记住……样貌……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_WIDE_04">
+    <en>...Forgotten...</en>
+    <zh>……被遗忘……</zh>
+  </entry>
+  <entry key="SHERMA_CITADEL_04">
+    <en>Let us keep our faith!</en>
+    <zh>必须坚守信仰！</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_WIDE_01">
+    <en>...Lands green...</en>
+    <zh>……翠绿大地……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_WIDE_03">
+    <en>...Free...</en>
+    <zh>……自由……</zh>
+  </entry>
+  <entry key="LACE_TOWER_06">
+    <en>See me, your daughter...</en>
+    <zh>看看我，你的孩子……</zh>
+  </entry>
+  <entry key="LACE_TOWER_05">
+    <en>See me, your knight...</en>
+    <zh>看着我，你的骑士……</zh>
+  </entry>
+  <entry key="LACE_TOWER_04">
+    <en>I will not fade! I will not take!</en>
+    <zh>但我不会消失！不是负担！……</zh>
+  </entry>
+  <entry key="LACE_TOWER_03">
+    <en>A child, too broken...</en>
+    <zh>我是，残缺的造物……</zh>
+  </entry>
+  <entry key="LACE_TOWER_02">
+    <en>See me cut! See me serve!</en>
+    <zh>看我的利刃！看我的忠诚！……</zh>
+  </entry>
+  <entry key="LACE_TOWER_01">
+    <en>Why her... Mother...</en>
+    <zh>为何选择她……母亲……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_05">
+    <en>For shoot, and sheath, and blade...</en>
+    <zh>为了新芽，叶鞘与利刃……</zh>
+  </entry>
+  <entry key="CORAL_WARRIOR_03">
+    <en>For life... its beat, its flow...</en>
+    <zh>为生之搏动……</zh>
+  </entry>
+  <entry key="BELLTOWN_ACT3_02">
+    <en>Crushed... Consumed?</en>
+    <zh>被碾碎……被吞噬？……</zh>
+  </entry>
+  <entry key="OLD_PENITENT_01">
+    <en>From wastes, from darkness...</en>
+    <zh>自荒芜而来，自黑暗而来……</zh>
+  </entry>
+  <entry key="FLOWER_QUEEN_03">
+    <en>...it longs... the whole...</en>
+    <zh>……渴求……完整……</zh>
+  </entry>
+  <entry key="RHINO_01">
+    <en>Break through!</en>
+    <zh>冲破！</zh>
+  </entry>
+  <entry key="VAULT_KEEPER_ACOLYTE_04">
+    <en>Secret songs for us to keep!</en>
+    <zh>秘密圣歌由我们传承！</zh>
+  </entry>
+  <entry key="PLINNEY_SHELLGRAVE_01">
+    <en>At world’s dim end, we met...</en>
+    <zh>在世界晦暗尽头相遇……</zh>
+  </entry>
+  <entry key="VAULT_KEEPER_ACOLYTE_01">
+    <en>We are blessed! We are chosen!</en>
+    <zh>我们蒙恩！我们天选！</zh>
+  </entry>
+  <entry key="FLAME_CREATURE_04">
+    <en>Protection in pain...</en>
+    <zh>痛楚铸就护甲……</zh>
+  </entry>
+  <entry key="FLAME_CREATURE_03">
+    <en>Never enough...</en>
+    <zh>永不满足……</zh>
+  </entry>
+  <entry key="FLAME_CREATURE_02">
+    <en>Deeper... Hotter...</en>
+    <zh>愈深……愈炽……</zh>
+  </entry>
+  <entry key="FLAME_CREATURE_01">
+    <en>Feel its burn...</en>
+    <zh>感受灼烧……</zh>
+  </entry>
+  <entry key="SONG_GOLEM_03">
+    <en>VOICES... TOGETHER...</en>
+    <zh>心声……共鸣……</zh>
+  </entry>
+  <entry key="SWAMP_MUCKMAN_02">
+    <en>They wither! We survive!</en>
+    <zh>他们枯萎！我们存活！</zh>
+  </entry>
+  <entry key="CORAL_KING_05">
+    <en>In my name, conquer all!</en>
+    <zh>以吾之名征服！</zh>
+  </entry>
+  <entry key="STEEL_SERVANT_03">
+    <en>Escape! Escape!</en>
+    <zh>逃离！逃离！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_DOCK_FLINTSLATE_02">
+    <en>...Ignite... Incinerate...</en>
+    <zh>……点燃……焚尽……</zh>
+  </entry>
+  <entry key="DUSTROACH_01">
+    <en>Gouge and gnaw...</en>
+    <zh>啮咬啃噬……</zh>
+  </entry>
+  <entry key="BELL_CREATURE_03">
+    <en>Shining shells, find your own...</en>
+    <zh>甲壳烁烁，自寻其路……</zh>
+  </entry>
+  <entry key="ROACHFEEDER_04">
+    <en>Sharp jaws, and teeth...</en>
+    <zh>尖颚利齿……</zh>
+  </entry>
+  <entry key="SNITCH_CAVE_05">
+    <en>Give it all to us!</en>
+    <zh>全都交给我们！</zh>
+  </entry>
+  <entry key="ARBORIUM_KEEPER_01">
+    <en>Our past, remembered...</en>
+    <zh>过往，铭记……</zh>
+  </entry>
+  <entry key="WRAITH_02">
+    <en>Nothing for you... here...</en>
+    <zh>没有东西给你……</zh>
+  </entry>
+  <entry key="GREAT_GOURMAND_03">
+    <en>...EAT... FEED...</en>
+    <zh>……吃……喂食……</zh>
+  </entry>
+  <entry key="KRATT_LONE_04">
+    <en>O fleas, o fleas!</en>
+    <zh>噢，跳蚤啊，跳蚤！</zh>
+  </entry>
+  <entry key="CHOIR_07">
+    <en>Waver not! Wither not!</en>
+    <zh>不要动摇！不要枯萎！</zh>
+  </entry>
+  <entry key="UNDERSTORE_02">
+    <en>These halls kept clean...</en>
+    <zh>廊殿永保洁净……</zh>
+  </entry>
+  <entry key="CHAPEL_SHAMAN_03">
+    <en>...All ours...</en>
+    <zh>……我们的……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SWAMP_JAILER_03">
+    <en>Surrounded...</en>
+    <zh>陷入包围……</zh>
+  </entry>
+  <entry key="CRADLE_10">
+    <en>Highest... holy...</en>
+    <zh>至高……至圣……</zh>
+  </entry>
+  <entry key="SPLINTER_QUEEN_04">
+    <en>Sisters, sisters, so long gone!</en>
+    <zh>姊妹，久别……</zh>
+  </entry>
+  <entry key="GARMOND_FIGHTER_04">
+    <en>For their sake, fight fiercely on!</en>
+    <zh>为他们奋战到底！</zh>
+  </entry>
+  <entry key="SONG_PILGRIM_01">
+    <en>To live eternal... in the light...</en>
+    <zh>沐浴圣光，得享永生……</zh>
+  </entry>
+  <entry key="SONG_PILGRIM_02">
+    <en>I am chosen!</en>
+    <zh>我为圣选？……</zh>
+  </entry>
+  <entry key="GLOOM_01">
+    <en>...</en>
+    <zh>……</zh>
+  </entry>
+  <entry key="SONG_PILGRIM_04">
+    <en>Your shining walls...</en>
+    <zh>这辉煌高墙……</zh>
+  </entry>
+  <entry key="SONG_PILGRIM_05">
+    <en>The song...</en>
+    <zh>但圣歌何在？……</zh>
+  </entry>
+  <entry key="SONG_PILGRIM_06">
+    <en>Where is the song?</en>
+    <zh>圣歌在何处？……</zh>
+  </entry>
+  <entry key="SONG_PILGRIM_07">
+    <en>When may I rest?</en>
+    <zh>何时能安歇？……</zh>
+  </entry>
+  <entry key="SONG_PILGRIM_08">
+    <en>Is this the way?</en>
+    <zh>这真是正道？……</zh>
+  </entry>
+  <entry key="SONG_PILGRIM_09">
+    <en>None shall starve...</en>
+    <zh>不应有饥馁……</zh>
+  </entry>
+  <entry key="WISP_LAMP_01">
+    <en>Burning shape, all together...</en>
+    <zh>共燃之形……</zh>
+  </entry>
+  <entry key="MR_MUSH_04">
+    <en>But Mister Mushroom readjusts...</en>
+    <zh>但蘑菇先生永存……</zh>
+  </entry>
+  <entry key="VAULTKEEPER_CARDINIUS_03">
+    <en>Through knowledge... release...</en>
+    <zh>借知识……得解脱……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CORAL_TOWER_02">
+    <en>All lost to fear...</en>
+    <zh>万念俱湮……</zh>
+  </entry>
+  <entry key="SHAKRA_01">
+    <en>Beyond land’s bounds...</en>
+    <zh>疆界之外……</zh>
+  </entry>
+  <entry key="SHAKRA_03">
+    <en>We fall with weapons high...</en>
+    <zh>武器高举……</zh>
+  </entry>
+  <entry key="SHAKRA_02">
+    <en>Warrior’s call...</en>
+    <zh>战士召唤……</zh>
+  </entry>
+  <entry key="TORMENTED_TROBBIO_03">
+    <en>Pain... Despair... Torment...</en>
+    <zh>痛苦……绝望……折磨……</zh>
+  </entry>
+  <entry key="MOSSMOTHER_06">
+    <en>Follow creeping green...</en>
+    <zh>追随蔓延的绿意……</zh>
+  </entry>
+  <entry key="MOSSMOTHER_05">
+    <en>My young, my young...</en>
+    <zh>我的孩子，我的孩子……</zh>
+  </entry>
+  <entry key="MOSSMOTHER_04">
+    <en>See what you’ll become!</en>
+    <zh>预见你之未来……</zh>
+  </entry>
+  <entry key="MOSSMOTHER_03">
+    <en>See my form, now!</en>
+    <zh>见证我之形骸……</zh>
+  </entry>
+  <entry key="MOSSMOTHER_02">
+    <en>Eat... grow... hide away...</en>
+    <zh>吞噬壮大，深藏庇护……</zh>
+  </entry>
+  <entry key="MOSSMOTHER_01">
+    <en>For none but us...</en>
+    <zh>唯有我等……</zh>
+  </entry>
+  <entry key="WARD_SURGEON_03">
+    <en>We cut you away!</en>
+    <zh>我们剪除你！</zh>
+  </entry>
+  <entry key="FLEATOPIA_ACT3_04">
+    <en>All fleas must gather, now or never...</en>
+    <zh>万蚤齐聚，刻不容缓……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SURFACE_04">
+    <en>Friends seduced...</en>
+    <zh>同伴皆被蛊惑……</zh>
+  </entry>
+  <entry key="FLEATOPIA_ACT3_02">
+    <en>These caves quake black, and shake, and groan...</en>
+    <zh>洞穴震颤，崩塌在即……</zh>
+  </entry>
+  <entry key="FLEATOPIA_ACT3_03">
+    <en>The ritual calls, before the end...</en>
+    <zh>仪式召唤，终焉之前……</zh>
+  </entry>
+  <entry key="DOCK_WORKER_01">
+    <en>For grace above...</en>
+    <zh>为至上恩典……</zh>
+  </entry>
+  <entry key="FLEATOPIA_ACT3_01">
+    <en>Our home found safe, so briefly known...</en>
+    <zh>家园方安，转瞬即逝……</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_BELLBEAST_03">
+    <en>...Bound...</en>
+    <zh>……束缚……</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_BELLBEAST_02">
+    <en>...Summoned by Silk...</en>
+    <zh>……受灵丝召唤……</zh>
+  </entry>
+  <entry key="MITE_MOTHER_GREYMOOR_01">
+    <en>Screech and smash them...</en>
+    <zh>尖嚎撕裂……</zh>
+  </entry>
+  <entry key="BLOAT_ROACH_01">
+    <en>Gurgling... gasping...</en>
+    <zh>汩汩……吁吁……</zh>
+  </entry>
+  <entry key="CHOIR_01">
+    <en>Raise your voices, chosen few!</en>
+    <zh>齐声高歌，天选者们！</zh>
+  </entry>
+  <entry key="FIRST_SINNER_08">
+    <en>The sin... the truth...</en>
+    <zh>罪孽……真相……</zh>
+  </entry>
+  <entry key="ROSARY_THIEF_04">
+    <en>Click clacky, lovely lovely!</en>
+    <zh>咔嗒作响，可爱可爱！</zh>
+  </entry>
+  <entry key="ROSARY_THIEF_05">
+    <en>Shiny shiny, takey takey!</en>
+    <zh>宝光闪闪，归我归我！</zh>
+  </entry>
+  <entry key="FIRST_SINNER_05">
+    <en>Cursed by Silk!</en>
+    <zh>被灵丝诅咒！</zh>
+  </entry>
+  <entry key="DUST_TRADER_02">
+    <en>Knock me on the head, old girl!</en>
+    <zh>敲敲我的脑袋，老姑娘！</zh>
+  </entry>
+  <entry key="FIRST_SINNER_07">
+    <en>Cursed to know...</en>
+    <zh>知识即是诅咒……</zh>
+  </entry>
+  <entry key="AUTOMATON_05">
+    <en>...To mend...</en>
+    <zh>……修复……</zh>
+  </entry>
+  <entry key="FIRST_SINNER_01">
+    <en>I did not wane!</en>
+    <zh>我未曾退却！</zh>
+  </entry>
+  <entry key="FLEACARAVAN_05">
+    <en>The ritual beckons... the road is long...</en>
+    <zh>仪式召唤，前路漫长……</zh>
+  </entry>
+  <entry key="FIRST_SINNER_03">
+    <en>Sustained by fury!</en>
+    <zh>以怒火维续生命！</zh>
+  </entry>
+  <entry key="FIRST_SINNER_02">
+    <en>I did not forget!</en>
+    <zh>我未曾遗忘！</zh>
+  </entry>
+  <entry key="DUCT_SUCKER_05">
+    <en>Slime... Slick...</en>
+    <zh>纠缠……一切……</zh>
+  </entry>
+  <entry key="OLD_PENITENT_06">
+    <en>The sin... the sin!</en>
+    <zh>罪孽……罪孽啊！</zh>
+  </entry>
+  <entry key="SNAIL_SHAMAN_10">
+    <en>Glimmering trails...</en>
+    <zh>微光轨迹……</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_DUO_06">
+    <en>We found each other...</en>
+    <zh>终得重逢……</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_02">
+    <en>Bound by purpose...</en>
+    <zh>使命束缚……</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_03">
+    <en>Bound by ore...</en>
+    <zh>钢铁禁锢……</zh>
+  </entry>
+  <entry key="BROODMOTHER_06">
+    <en>Eat the food...</en>
+    <zh>食粮送至……</zh>
+  </entry>
+  <entry key="ROOF_CRAB_YOUNG_02">
+    <en>The great one, defeated...</en>
+    <zh>巨物已被击败……</zh>
+  </entry>
+  <entry key="PILGRIMS_REST_04">
+    <en>I will survive!</en>
+    <zh>我必将幸存！……</zh>
+  </entry>
+  <entry key="MEMORY_FIRST_SINNER_04">
+    <en>Know our truth...</en>
+    <zh>知晓我们的真相……</zh>
+  </entry>
+  <entry key="MR_MUSH_03">
+    <en>Caps and shells may fall to dust...</en>
+    <zh>甲壳终将化作尘土……</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_03">
+    <en>Claws clash! Blades sing!</en>
+    <zh>利爪铿锵！锋刃鸣响！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERWISP_03">
+    <en>Toil no more...</en>
+    <zh>不再劳作……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_PONTIFF_02">
+    <en>We prayed a cage...</en>
+    <zh>我们竟为牢笼祈祷……</zh>
+  </entry>
+  <entry key="HALFWAY_HOUSE_03">
+    <en>To sit, to rest... to stop...</en>
+    <zh>坐下，休憩……停止……</zh>
+  </entry>
+  <entry key="SONG_HANDMAIDEN_04">
+    <en>...Ours by right...</en>
+    <zh>……理所当然……</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_LONE_03">
+    <en>Empty... nest...</en>
+    <zh>空巢……寂寥……</zh>
+  </entry>
+  <entry key="DOCK_ELDER_B_04">
+    <en>For Pharloom, we toil...</en>
+    <zh>为纺络劳役……</zh>
+  </entry>
+  <entry key="ASPID_COLLECTOR_03">
+    <en>Flee the danger... </en>
+    <zh>逃离危险……</zh>
+  </entry>
+  <entry key="FLOWER_01">
+    <en>Drifting, dancing, falling seeds...</en>
+    <zh>种子飘落……随风起舞……</zh>
+  </entry>
+  <entry key="SHAKRA_ACT3_04">
+    <en>For those too weak...</en>
+    <zh>为弱小者……</zh>
+  </entry>
+  <entry key="BELL_CREATURE_04">
+    <en>Watch the darkness, hear the bells...</en>
+    <zh>留心黑暗，聆听钟鸣……</zh>
+  </entry>
+  <entry key="DUCT_SUCKER_04">
+    <en>Touching... tasting...</en>
+    <zh>触碰……品尝……</zh>
+  </entry>
+  <entry key="SHAKRA_ACT3_05">
+    <en>My rings ready... for you all...</en>
+    <zh>我的环刃……为你们而战……</zh>
+  </entry>
+  <entry key="UNDERSTORE_03">
+    <en>Rest and fade...</en>
+    <zh>休憩，消逝……</zh>
+  </entry>
+  <entry key="BONETOWN_ACT3_05">
+    <en>...Save us...</en>
+    <zh>……救救我们……</zh>
+  </entry>
+  <entry key="BELL_CREATURE_02">
+    <en>Rings from low, hidden prey...</en>
+    <zh>低处回响，猎物潜藏……</zh>
+  </entry>
+  <entry key="PHANTOM_04">
+    <en>Silk stretched thin...</en>
+    <zh>灵丝将断……</zh>
+  </entry>
+  <entry key="FLOWER_QUEEN_06">
+    <en>...convened within... lost without...</en>
+    <zh>……内聚……外散……</zh>
+  </entry>
+  <entry key="FLOWER_QUEEN_04">
+    <en>...reaching... forward and out...</en>
+    <zh>……延伸……向外……</zh>
+  </entry>
+  <entry key="ROOF_CRAB_YOUNG_03">
+    <en>Fallen shell, fallen feast!</en>
+    <zh>甲壳坠落，盛宴开场！</zh>
+  </entry>
+  <entry key="WISP_LAMP_03">
+    <en>Burn it! Burn it!</en>
+    <zh>烧尽一切！</zh>
+  </entry>
+  <entry key="CHAPEL_REAPER_02">
+    <en>...Praise their toil...</en>
+    <zh>……赞颂他们的劳作……</zh>
+  </entry>
+  <entry key="SHELLWOOD_CREATURE_04">
+    <en>Climbing, climbing...</en>
+    <zh>攀升，攀升……</zh>
+  </entry>
+  <entry key="GREY_WARRIOR_05">
+    <en>Scouring wind...</en>
+    <zh>蚀骨之风……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_08">
+    <en>Peace earned by claw...</en>
+    <zh>以利爪赢得的和平……</zh>
+  </entry>
+  <entry key="BONE_CREATURE_05">
+    <en>Digging, hiding...</en>
+    <zh>掘藏，潜形……</zh>
+  </entry>
+  <entry key="SHELLWOOD_CREATURE_02">
+    <en>Creeping, creeping...</en>
+    <zh>蔓生，蔓生……</zh>
+  </entry>
+  <entry key="SHELLWOOD_CREATURE_03">
+    <en>High and low, all around...</en>
+    <zh>上下四方……无所不及……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SWAMP_UMBRELLA_02">
+    <en>Dear sisters... </en>
+    <zh>亲爱的姐妹……</zh>
+  </entry>
+  <entry key="PINSTRESS_MOUNTAIN_01">
+    <en>Pin’s edge... Kingdom’s peak...</en>
+    <zh>针锋所指……王国之巅……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_02">
+    <en>All born brave...</en>
+    <zh>生来勇敢……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_02">
+    <en>Carve and cook...</en>
+    <zh>雕切烹调……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_03">
+    <en>Let none go hungry...</en>
+    <zh>不能出现饥饿……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_04">
+    <en>Holy bounty...</en>
+    <zh>神圣馈赠……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_05">
+    <en>Eternal feast!</en>
+    <zh>永恒盛宴……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_06">
+    <en>Food... life...</en>
+    <zh>食物……生命……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CHEF_01">
+    <en>Boil and bake...</en>
+    <zh>熬煮烘烤……</zh>
+  </entry>
+  <entry key="WRAITH_01">
+    <en>You are not wanted here!</en>
+    <zh>此处不欢迎你！</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_04">
+    <en>Sprout tall... Spread far...</en>
+    <zh>茁壮成长……蔓延无边……</zh>
+  </entry>
+  <entry key="CRADLE_ACT3_03">
+    <en>...We sung...</en>
+    <zh>……我们歌颂……</zh>
+  </entry>
+  <entry key="UNDERWORKER_LOAM_03">
+    <en>More... More... More...</en>
+    <zh>更多……更多……更多……</zh>
+  </entry>
+  <entry key="GILLY_FINAL_01">
+    <en>Is this... long trail’s end?</en>
+    <zh>这就是……漫长旅途终点？</zh>
+  </entry>
+  <entry key="ROOF_CRAB_01">
+    <en>Become like stone...</en>
+    <zh>化为磐石……</zh>
+  </entry>
+  <entry key="PILGRIM_SHOPKEEP_02">
+    <en>Blessed am I...</en>
+    <zh>蒙受恩典……</zh>
+  </entry>
+  <entry key="PILGRIM_SHOPKEEP_03">
+    <en>Guide my ascent...</en>
+    <zh>指引我登极……</zh>
+  </entry>
+  <entry key="WISP_TOTEM_01">
+    <en>Dancing, dancing, burn away!</en>
+    <zh>狂舞！燃尽！</zh>
+  </entry>
+  <entry key="LAST_CONDUCTOR_04">
+    <en>Only our sickness...</en>
+    <zh>只剩我们的病痛……</zh>
+  </entry>
+  <entry key="BONE_WORM_01">
+    <en>Dig... dig... dig...</en>
+    <zh>挖掘不息，永不停歇……</zh>
+  </entry>
+  <entry key="SWAMP_SHAMAN_04">
+    <en>Obey me! Obey me!</en>
+    <zh>臣服！臣服！</zh>
+  </entry>
+  <entry key="TROBBIO_04">
+    <en>See my flare!</en>
+    <zh>见证我的烈焰！</zh>
+  </entry>
+  <entry key="PILGRIMS_REST_ACT3_04">
+    <en>...Please...</en>
+    <zh>……求求你！……</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_LONELY_01">
+    <en>You and I... ...</en>
+    <zh>你与我……</zh>
+  </entry>
+  <entry key="UNDER_HANGING_GOLEM_04">
+    <en>...REMEMBER US...</en>
+    <zh>……记住我们……</zh>
+  </entry>
+  <entry key="PILGRIMS_REST_ACT3_03">
+    <en>...Pharloom...</en>
+    <zh>……纺络……</zh>
+  </entry>
+  <entry key="MITE_GREYMOOR_01">
+    <en>Smell it, starving...</en>
+    <zh>饥饿，嗅探……</zh>
+  </entry>
+  <entry key="TROBBIO_02">
+    <en>Awake and witness!</en>
+    <zh>醒来并见证！</zh>
+  </entry>
+  <entry key="HUNTER_02">
+    <en>Strike hard. Strike lethal...</en>
+    <zh>重击，致命……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ANT_TRAPPER_02">
+    <en>...The hunt...</en>
+    <zh>……追猎……</zh>
+  </entry>
+  <entry key="ROCK_ROLLER_02">
+    <en>Find the glint... Seek the gleam...</en>
+    <zh>寻觅闪光……追逐辉芒……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_CHILD_03">
+    <en>We are chosen! All are chosen!</en>
+    <zh>吾乃天选！皆为天选！</zh>
+  </entry>
+  <entry key="BELLBEAST_BATTLE_02">
+    <en>Return to the bells...</en>
+    <zh>归返钟群……</zh>
+  </entry>
+  <entry key="BELLBEAST_BATTLE_03">
+    <en>Feeding, growing...</en>
+    <zh>吞噬，壮大……</zh>
+  </entry>
+  <entry key="RUINED_CHAPEL_06">
+    <en>...Pale essence...</en>
+    <zh>……苍白本质……</zh>
+  </entry>
+  <entry key="BELLBEAST_BATTLE_01">
+    <en>Time will come...</en>
+    <zh>时机将至……</zh>
+  </entry>
+  <entry key="FORGE_DUO_04">
+    <en>Tempered... moulded...</en>
+    <zh>淬炼……锻造……</zh>
+  </entry>
+  <entry key="PINSTRESS_03">
+    <en>An order lost of maidens fair...</en>
+    <zh>逝去的窈窕教团……</zh>
+  </entry>
+  <entry key="FARMER_WISP_03">
+    <en>All is fire!</en>
+    <zh>万物皆燃！</zh>
+  </entry>
+  <entry key="HUNTER_MERCHANT_03">
+    <en>The last, loyal... loved...</en>
+    <zh>忠诚末裔……得蒙垂爱……</zh>
+  </entry>
+  <entry key="FORGE_DUO_01">
+    <en>Heat it... Shape it...</en>
+    <zh>熔炼……塑形……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SILK_SIPHON_01">
+    <en>To serve... beyond shell...</en>
+    <zh>侍奉……超越形骸……</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_BROKEN_05">
+    <en>...obey... LOSTORHIDDEN...</en>
+    <zh>……服从……目标遗失……</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_BROKEN_06">
+    <en>...WAKE... guard... WAKE...</en>
+    <zh>……苏醒……守卫……苏醒……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SWAMP_UMBRELLA_04">
+    <en>Feared by all...</en>
+    <zh>曾被万物畏惧……</zh>
+  </entry>
+  <entry key="MOSSCRAWLER_GIANT_01">
+    <en>Mother’s voice... distant...</en>
+    <zh>母亲声音……渐远……</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_BELLBEAST_01">
+    <en>...Serve...</en>
+    <zh>……侍奉……</zh>
+  </entry>
+  <entry key="THREADED_HUSK_06">
+    <en>...The pain... forget the pain...</en>
+    <zh>……痛楚……忘却痛楚……</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_02">
+    <en>Am I worthy?</en>
+    <zh>我有资格？当真如此？</zh>
+  </entry>
+  <entry key="GOURMAND_SERVANT_05">
+    <en>You are the best of us!</en>
+    <zh>您是我们中的至臻！</zh>
+  </entry>
+  <entry key="CHOIR_04">
+    <en>Fill the chambers, sacred song...</en>
+    <zh>充盈殿堂，神圣歌声……</zh>
+  </entry>
+  <entry key="SLAB_FLY_FRESH_02">
+    <en>Mother...</en>
+    <zh>母亲……</zh>
+  </entry>
+  <entry key="GREY_WARRIOR_03">
+    <en>Tower...</en>
+    <zh>高塔……</zh>
+  </entry>
+  <entry key="SHAKRA_ACT3_03">
+    <en>For those remaining...</en>
+    <zh>为残存者……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CORAL_TOWER_04">
+    <en>Remember our rule...</en>
+    <zh>铭记吾等统治……</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_08">
+    <en>Raise my shell! Pull me closer!</en>
+    <zh>抬起躯壳！引我前行！</zh>
+  </entry>
+  <entry key="HUNTER_MERCHANT_04">
+    <en>Why this way?</en>
+    <zh>为何至此境地？</zh>
+  </entry>
+  <entry key="DUCT_SUCKER_06">
+    <en>Sliding... wet...</en>
+    <zh>滑行……湿润……</zh>
+  </entry>
+  <entry key="CRADLE_09">
+    <en>...Eternal...</en>
+    <zh>……永恒……</zh>
+  </entry>
+  <entry key="HUNTER_QUEEN_01">
+    <en>Know my pride!</en>
+    <zh>见证我的骄傲！</zh>
+  </entry>
+  <entry key="RUNT_01">
+    <en>Why so small?</en>
+    <zh>为何如此弱小？</zh>
+  </entry>
+  <entry key="SETH_02">
+    <en>Where others tread... and beyond...</en>
+    <zh>他人足迹之外……</zh>
+  </entry>
+  <entry key="RUNT_03">
+    <en>To grow... and be...</en>
+    <zh>为成长……为生存……</zh>
+  </entry>
+  <entry key="GREY_WARRIOR_06">
+    <en>Our might...</en>
+    <zh>吾等伟力……</zh>
+  </entry>
+  <entry key="UNDER_HANGING_GOLEM_03">
+    <en>...LIGHT...SEE US...</en>
+    <zh>……圣光，见证……</zh>
+  </entry>
+  <entry key="RUNT_04">
+    <en>To feed...</en>
+    <zh>为进食……</zh>
+  </entry>
+  <entry key="MASK_MAKER_02">
+    <en>A mask to be...</en>
+    <zh>面具用以存在……</zh>
+  </entry>
+  <entry key="MASK_MAKER_03">
+    <en>Fresh faces for all...</en>
+    <zh>为众生换新颜……</zh>
+  </entry>
+  <entry key="MASK_MAKER_04">
+    <en>A land defined...</en>
+    <zh>疆域由此界定……</zh>
+  </entry>
+  <entry key="EVA_02">
+    <en>This life confined...</en>
+    <zh>禁锢之生……</zh>
+  </entry>
+  <entry key="BELLTOWN_ACT3_04">
+    <en>Why must we suffer?</en>
+    <zh>为何要承受这些？……</zh>
+  </entry>
+  <entry key="GREEN_PRINCE_03">
+    <en>You and I... always...</en>
+    <zh>你与我……永不分离……</zh>
+  </entry>
+  <entry key="PHANTOM_03">
+    <en>Discarded...</en>
+    <zh>被抛弃……</zh>
+  </entry>
+  <entry key="PILGRIM_DICE_01">
+    <en>Worn and winding ways...</en>
+    <zh>蜿蜒破败之路……</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_ACT3_01">
+    <en>We can save them... still...</en>
+    <zh>我们仍能拯救……</zh>
+  </entry>
+  <entry key="BANK_WIDE_01">
+    <en>...Count... Collect... Conserve...</en>
+    <zh>……清点……收集……储存……</zh>
+  </entry>
+  <entry key="EVA_04">
+    <en>Our senses’ limits...</en>
+    <zh>感知局限……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_DOCK_FLINTSLATE_04">
+    <en>...Pharloom’s might...</en>
+    <zh>……纺络之力……</zh>
+  </entry>
+  <entry key="SONG_KNIGHT_04">
+    <en>Siblings...Gone...</en>
+    <zh>护佑纯真……</zh>
+  </entry>
+  <entry key="ASPID_COLLECTOR_04">
+    <en>For the hatching...</en>
+    <zh>为了孵化……</zh>
+  </entry>
+  <entry key="UNDERWORKER_LOAM_02">
+    <en>Harder... Longer...</en>
+    <zh>更久……更苦……</zh>
+  </entry>
+  <entry key="FLOWER_QUEEN_01">
+    <en>...the form... a memory...</en>
+    <zh>……形骸……如烟……</zh>
+  </entry>
+  <entry key="COGWORK_DANCERS_LONELY_04">
+    <en>... ...Threshold...</en>
+    <zh>……门庭……</zh>
+  </entry>
+  <entry key="MEMORY_SHELLWOODSHRINE_03">
+    <en>Serve... Eat... Sustain... </en>
+    <zh>侍奉……进食……延续……</zh>
+  </entry>
+  <entry key="MEMORY_SHELLWOODSHRINE_02">
+    <en>Twist... Wind... Protect...</en>
+    <zh>缠绕……蜿蜒……守护……</zh>
+  </entry>
+  <entry key="MEMORY_SHELLWOODSHRINE_01">
+    <en>Grow... Settle... Seed... </en>
+    <zh>生长……扎根……萌芽……</zh>
+  </entry>
+  <entry key="BONETOWN_08">
+    <en>For you, dear Pharloom...</en>
+    <zh>为了你，亲爱的纺络……</zh>
+  </entry>
+  <entry key="BONETOWN_09">
+    <en>Climb to glory!</en>
+    <zh>攀向荣光！……</zh>
+  </entry>
+  <entry key="PINSTRESS_05">
+    <en>I remember you... My sisters passed...</en>
+    <zh>我记得你们……逝去的姊妹……</zh>
+  </entry>
+  <entry key="BELLBEAST_BATTLE_04">
+    <en>Meat for the young...</en>
+    <zh>育嗣之粮……</zh>
+  </entry>
+  <entry key="MEMORY_SHELLWOODSHRINE_04">
+    <en>Bramble... Root... Branch...</en>
+    <zh>荆棘……根系……枝干……</zh>
+  </entry>
+  <entry key="CITADEL_BAT_02">
+    <en>Hiding, hiding...</en>
+    <zh>潜伏，潜伏……</zh>
+  </entry>
+  <entry key="BONETOWN_02">
+    <en>To reach your light...</en>
+    <zh>为接近你的光芒……</zh>
+  </entry>
+  <entry key="FLEA_LECH_04">
+    <en>The flea of fleas, oh yes!</en>
+    <zh>万蚤之蚤，正是如此！</zh>
+  </entry>
+  <entry key="ENCLAVE_ACT3_02">
+    <en>Crushed... Consumed?</en>
+    <zh>被碾碎……被吞噬？</zh>
+  </entry>
+  <entry key="ENCLAVE_ACT3_03">
+    <en>What new sin?</en>
+    <zh>新的罪行是什么？……</zh>
+  </entry>
+  <entry key="BONETOWN_06">
+    <en>Defeat your fear...</en>
+    <zh>克服恐惧……</zh>
+  </entry>
+  <entry key="ENCLAVE_ACT3_01">
+    <en>What new test?</en>
+    <zh>新的试炼是什么？……</zh>
+  </entry>
+  <entry key="ENCLAVE_ACT3_06">
+    <en>Our path...</en>
+    <zh>我们的道路……</zh>
+  </entry>
+  <entry key="BONETOWN_05">
+    <en>Save your strength...</en>
+    <zh>留存体力……</zh>
+  </entry>
+  <entry key="ENCLAVE_ACT3_04">
+    <en>Why must we suffer?</en>
+    <zh>为何要遭受这些？……</zh>
+  </entry>
+  <entry key="ENCLAVE_ACT3_05">
+    <en>Pharloom, we failed...</en>
+    <zh>纺络，我们辜负了……</zh>
+  </entry>
+  <entry key="RHINO_03">
+    <en>Gouging rock...</en>
+    <zh>凿穿岩层……</zh>
+  </entry>
+  <entry key="SNITCH_CAVE_01">
+    <en>Sneaking, snatching...</en>
+    <zh>潜行，窃取……</zh>
+  </entry>
+  <entry key="CRAWFATHER_01">
+    <en>Hear me, hear me!</en>
+    <zh>听我宣判！听我宣判！</zh>
+  </entry>
+  <entry key="CRAWFATHER_02">
+    <en>O clattorous chorus!</en>
+    <zh>喧哗众声！</zh>
+  </entry>
+  <entry key="CRAWFATHER_03">
+    <en>This spinderous spiderling...</en>
+    <zh>这蛛形孽种……</zh>
+  </entry>
+  <entry key="CRAWFATHER_04">
+    <en>Sinner! I say sinner!</en>
+    <zh>罪人！我判为罪人！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_BLOOM_01">
+    <en>...Spirit of the wood...</en>
+    <zh>……森林之魂……</zh>
+  </entry>
+  <entry key="CRAWFATHER_06">
+    <en>A calamitous criminal!</en>
+    <zh>滔天罪犯！</zh>
+  </entry>
+  <entry key="CURIOUS_PILGRIM_02">
+    <en>Thread... holds memory...</en>
+    <zh>更深……更深……</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_BROKEN_04">
+    <en>...ENEMY...</en>
+    <zh>……敌袭……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERWISP_04">
+    <en>Too tired... Too hungry...</en>
+    <zh>太疲惫……太饥饿……</zh>
+  </entry>
+  <entry key="LADYBUG_01">
+    <en>Take your aim...</en>
+    <zh>瞄准目标……</zh>
+  </entry>
+  <entry key="FIELDS_CREATURE_04">
+    <en>Leaves hide...</en>
+    <zh>深藏其中，无惧窥探……</zh>
+  </entry>
+  <entry key="SHAKRA_04">
+    <en>We fight on... fearless...</en>
+    <zh>无畏奋战……</zh>
+  </entry>
+  <entry key="VAULTS_STATUE_03">
+    <en>Devout... unwavering...</en>
+    <zh>虔诚……坚定……</zh>
+  </entry>
+  <entry key="BONEGRAVE_01">
+    <en>...Not worthy...</en>
+    <zh>……不值得……</zh>
+  </entry>
+  <entry key="BELLBEAST_STRUNG_03">
+    <en>Fight... struggle...</en>
+    <zh>反抗……挣扎……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SNARESETTER_02">
+    <en>...Our runes... Our Silk...</en>
+    <zh>……吾等符文……吾等灵丝……</zh>
+  </entry>
+  <entry key="ZAZA_LONE_02">
+    <en>Hunter in red...</en>
+    <zh>红衣猎手……</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_01">
+    <en>Watch long... Record clear... Remember...</en>
+    <zh>长久守望……清晰记录……铭记……</zh>
+  </entry>
+  <entry key="LADYBUG_03">
+    <en>Old tribe’s gone...</en>
+    <zh>旧部族已逝……</zh>
+  </entry>
+  <entry key="FLOWER_03">
+    <en>Sleeping... Sleeping...</en>
+    <zh>沉睡……永眠……</zh>
+  </entry>
+  <entry key="PINSTRESS_06">
+    <en>You were the finest... bravest... caste...</en>
+    <zh>你们是最精锐……最勇毅的……</zh>
+  </entry>
+  <entry key="FLEAFESTIVAL_02">
+    <en>Joy and merry till it all ends...</en>
+    <zh>欢庆至最后一刻……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_CAPITAL_06">
+    <en>Our land...</en>
+    <zh>我们的家园……</zh>
+  </entry>
+  <entry key="SHERMA_WARD_02">
+    <en>How did it escape the Citadel’s sight?</en>
+    <zh>为何圣堡视而不见？</zh>
+  </entry>
+  <entry key="DOCK_WORKER_05">
+    <en>Seek the shine... find the ore...</en>
+    <zh>追寻矿辉……</zh>
+  </entry>
+  <entry key="UNDERSTORE_05">
+    <en>See us faithful!</en>
+    <zh>见证我们虔诚！……</zh>
+  </entry>
+  <entry key="AUTOMATON_03">
+    <en>...The Core...Holy...</en>
+    <zh>……圣枢……至高……</zh>
+  </entry>
+  <entry key="FLEACARAVAN_03">
+    <en>All fleas must find us...</en>
+    <zh>跳蚤都应寻找我们……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_06">
+    <en>Stones washed green...</en>
+    <zh>青石遍布……</zh>
+  </entry>
+  <entry key="ROSARY_THIEF_02">
+    <en>Show me, show me...</en>
+    <zh>让我瞧瞧……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_UNDERSTORE_LARGE_PILGRIM_04">
+    <en>...No... more...</en>
+    <zh>……不……再……</zh>
+  </entry>
+  <entry key="FORGE_DUO_03">
+    <en>Forged by holy duty...</en>
+    <zh>圣职铸就……</zh>
+  </entry>
+  <entry key="PINSTRESS_MOUNTAIN_02">
+    <en>A noble end is all we seek!</en>
+    <zh>唯求崇高终局！</zh>
+  </entry>
+  <entry key="FLEATOPIA_06">
+    <en>Soon... the ritual, bold, loud, strong!</en>
+    <zh>盛大仪式……即将开场！……</zh>
+  </entry>
+  <entry key="WISP_LAMP_04">
+    <en>Swoop... Burn... Seek!</en>
+    <zh>俯冲……灼烧……寻觅！</zh>
+  </entry>
+  <entry key="CORAL_WARRIOR_01">
+    <en>For the river long...</en>
+    <zh>为长河恒流……</zh>
+  </entry>
+  <entry key="UNDER_HANGING_GOLEM_05">
+    <en>...WE WERE MANY...</en>
+    <zh>……我们曾浩荡……</zh>
+  </entry>
+  <entry key="SONG_HEAVY_SENTRY_03">
+    <en>Tremble before our masters!</en>
+    <zh>战栗恭迎吾主！</zh>
+  </entry>
+  <entry key="WISP_LAMP_02">
+    <en>Call us, call us...</en>
+    <zh>召唤我们……</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_DUO_02">
+    <en>Protect our caves...</en>
+    <zh>守护吾巢……</zh>
+  </entry>
+  <entry key="GREYROOT_CHAMBER_04">
+    <en>Rite...</en>
+    <zh>仪式……</zh>
+  </entry>
+  <entry key="SLAB_PRISONER_04">
+    <en>Holy silence... swallow our shame...</en>
+    <zh>神圣的寂静……吞没我们的耻辱……</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_04">
+    <en>Plasmium, potent, pure! </en>
+    <zh>生质液，纯粹、强劲！</zh>
+  </entry>
+  <entry key="GARMOND_ACT3_02">
+    <en>For dear friends gone!</en>
+    <zh>为逝去的挚友！</zh>
+  </entry>
+  <entry key="GARMOND_ACT3_03">
+    <en>For family passed!</en>
+    <zh>为离去的亲族！</zh>
+  </entry>
+  <entry key="GARMOND_ACT3_01">
+    <en>Cut down the darkness!</en>
+    <zh>斩破黑暗！</zh>
+  </entry>
+  <entry key="HALFWAY_HOUSE_01">
+    <en>A hearth stoked hot...</en>
+    <zh>炉火炽热……</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_02">
+    <en>Escape even death...</en>
+    <zh>超越死亡……</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_03">
+    <en>All secrets, all knowledge...</en>
+    <zh>所有秘密，所有知识……</zh>
+  </entry>
+  <entry key="GRINDLE_04">
+    <en>What I take is what I got!</en>
+    <zh>我拿走的就是我的！</zh>
+  </entry>
+  <entry key="SHAKRA_05">
+    <en>Strength and courage...</en>
+    <zh>力量与勇气……</zh>
+  </entry>
+  <entry key="CHAPEL_WANDERER_01">
+    <en>...Remember...</en>
+    <zh>……铭记……</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_WARD_02">
+    <en>...Cursed...</en>
+    <zh>……诅咒……</zh>
+  </entry>
+  <entry key="SWAMP_MUCKMAN_05">
+    <en>Flowing poison... hidden claw...</en>
+    <zh>流淌的毒液……暗藏的利爪……</zh>
+  </entry>
+  <entry key="GRINDLE_02">
+    <en>What I got is mine, my love!</en>
+    <zh>我的还是我的，宝贝儿！</zh>
+  </entry>
+  <entry key="CORAL_DRILLER_DUO_05">
+    <en>Break the shell!</en>
+    <zh>击碎甲壳！</zh>
+  </entry>
+  <entry key="TROBBIO_08">
+    <en>The light! The heat! The glory!</en>
+    <zh>光芒！炽热！荣耀！</zh>
+  </entry>
+  <entry key="FORGE_DUO_05">
+    <en>For Pharloom everlasting...</en>
+    <zh>为永恒纺络……</zh>
+  </entry>
+  <entry key="MEMORY_SILKHEART_LACE_03">
+    <en>...Loyal...</en>
+    <zh>……忠诚……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SONG_SMALL_ROOM_01">
+    <en>...All our wealth...</en>
+    <zh>……我们的财富……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_03">
+    <en>The edict, absolute...</en>
+    <zh>敕令即绝对……</zh>
+  </entry>
+  <entry key="BONETOWN_FUNERAL_03">
+    <en>We carry your memory...</en>
+    <zh>我们承载你们的记忆……</zh>
+  </entry>
+  <entry key="MEMORY_HUNTER_QUEEN_01">
+    <en>For the singer...</en>
+    <zh>为了歌者……</zh>
+  </entry>
+  <entry key="PILGRIM_WEARY_02">
+    <en>Climb... the climb...</en>
+    <zh>攀登……永不停歇……</zh>
+  </entry>
+  <entry key="MOSSCREEP_03">
+    <en>Beat beat beat!</en>
+    <zh>搏动不息！</zh>
+  </entry>
+  <entry key="BELLTOWN_01">
+    <en>Gleaming rest...</en>
+    <zh>辉光憩所……</zh>
+  </entry>
+  <entry key="MEMORY_WIDOW_06">
+    <en>Awake... we beg you!</en>
+    <zh>醒来吧……我们乞求！</zh>
+  </entry>
+  <entry key="BELLTOWN_03">
+    <en>Still alive...</en>
+    <zh>只要一息尚存……</zh>
+  </entry>
+  <entry key="MEMORY_WIDOW_04">
+    <en>Awake for your subjects!</en>
+    <zh>为您的仆从醒来！……</zh>
+  </entry>
+  <entry key="MEMORY_WIDOW_05">
+    <en>Awake to your legions loyal!</en>
+    <zh>为忠诚军团醒来！……</zh>
+  </entry>
+  <entry key="MEMORY_WIDOW_02">
+    <en>Of the first... the last...</en>
+    <zh>初始……终末……</zh>
+  </entry>
+  <entry key="MEMORY_WIDOW_03">
+    <en>Your heart, I will guide...</en>
+    <zh>我将指引您的心……</zh>
+  </entry>
+  <entry key="ENCLAVE_07">
+    <en>Are we the last?</en>
+    <zh>我们是最后幸存的么？……</zh>
+  </entry>
+  <entry key="MEMORY_WIDOW_01">
+    <en>Holy mother... All for you...</en>
+    <zh>母亲啊……一切为您……</zh>
+  </entry>
+  <entry key="GARMOND_03">
+    <en>We shall fight...</en>
+    <zh>我们奋战……</zh>
+  </entry>
+  <entry key="FLOWER_04">
+    <en>Voice! Wake! Voice calls out...</en>
+    <zh>苏醒之音！召唤传来……</zh>
+  </entry>
+  <entry key="GREY_WARRIOR_02">
+    <en>King...</en>
+    <zh>君王……</zh>
+  </entry>
+  <entry key="BONE_CREATURE_01">
+    <en>Rumbling, crackling...</en>
+    <zh>轰鸣，铮响……</zh>
+  </entry>
+  <entry key="WIDOW_03">
+    <en>Hear her heart!</en>
+    <zh>听她的心跳！</zh>
+  </entry>
+  <entry key="WARD_CREMATORIUM_01">
+    <en>...Return it...</en>
+    <zh>……回归本源……</zh>
+  </entry>
+  <entry key="UNDERWORKER_LOAM_04">
+    <en>This shell, still strong...</en>
+    <zh>这副躯壳，依然强壮……</zh>
+  </entry>
+  <entry key="GARMOND_FIGHTER_01">
+    <en>Keep your hornlance high!</en>
+    <zh>高举长枪！</zh>
+  </entry>
+  <entry key="LADYBUG_04">
+    <en>Let’s win! Let’s lose!</en>
+    <zh>即有赢！也有输！</zh>
+  </entry>
+  <entry key="MOSS_PILGRIM_03">
+    <en>We shall join you...</en>
+    <zh>我等将归附……</zh>
+  </entry>
+  <entry key="MOSS_PILGRIM_02">
+    <en>Caves all green...</en>
+    <zh>洞窟遍翠色……</zh>
+  </entry>
+  <entry key="MOSS_PILGRIM_01">
+    <en>Caves grown holy...</en>
+    <zh>洞窟成圣所……</zh>
+  </entry>
+  <entry key="SPINE_FLOATER_04">
+    <en>Predators near...</en>
+    <zh>天敌环伺……</zh>
+  </entry>
+  <entry key="COURIER_01">
+    <en>Bring it now, bring it now!</en>
+    <zh>立刻送达！不容有失！</zh>
+  </entry>
+  <entry key="PILGRIM_GENERIC_07">
+    <en>Lives end, journeys begin...</en>
+    <zh>生命终结，旅程开始……</zh>
+  </entry>
+  <entry key="ROOF_CRAB_03">
+    <en>Larger, greater!</en>
+    <zh>愈巨愈庞……</zh>
+  </entry>
+  <entry key="MOSS_PILGRIM_04">
+    <en>Safe in damp and dim...</en>
+    <zh>安隐湿暗中……</zh>
+  </entry>
+  <entry key="SNAIL_SHAMAN_09">
+    <en>Spiralling outward...</en>
+    <zh>螺旋扩散……</zh>
+  </entry>
+  <entry key="CLOVER_DANCERS_01">
+    <en>What kingdom without you?</en>
+    <zh>无汝何成王国？</zh>
+  </entry>
+  <entry key="BELLTOWN_04">
+    <en>For the pilgrims, many...</en>
+    <zh>为万千朝圣者……</zh>
+  </entry>
+  <entry key="BONE_WORM_03">
+    <en>Find it... find it...</en>
+    <zh>找到它……找到它……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_CORAL_TOWER_01">
+    <en>All to bow...</en>
+    <zh>万众俯首……</zh>
+  </entry>
+  <entry key="PILGRIM_WEARY_01">
+    <en>Forget... your pain...</en>
+    <zh>忘却……你的痛苦……</zh>
+  </entry>
+  <entry key="WARD_PIT_04">
+    <en>...Pain... No more...</en>
+    <zh>……痛苦……不止……</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_03">
+    <en>...keep their secrets...</en>
+    <zh>……守护秘密……</zh>
+  </entry>
+  <entry key="SONG_CREEPER_02">
+    <en>The beautiful Silk...</en>
+    <zh>至美灵丝……</zh>
+  </entry>
+  <entry key="COURIER_03">
+    <en>Not too slowly, now!</en>
+    <zh>别太慢，要抓紧！</zh>
+  </entry>
+  <entry key="GILLY_FINAL_03">
+    <en>Is something hidden... farther still?</en>
+    <zh>是否还有隐秘……在更深处？</zh>
+  </entry>
+  <entry key="SHAKRA_06">
+    <en>Discipline and skill...</en>
+    <zh>纪律与技艺……</zh>
+  </entry>
+  <entry key="PILGRIM_WEARY_04">
+    <en>Have... faith...</en>
+    <zh>心怀……信仰……</zh>
+  </entry>
+  <entry key="VAULTS_STATUE_04">
+    <en>All... are equal...</en>
+    <zh>众生……皆平等……</zh>
+  </entry>
+  <entry key="SWAMP_MUCKMAN_01">
+    <en>They fall! We rise!</en>
+    <zh>他们倒下！我们崛起！</zh>
+  </entry>
+  <entry key="HUNTER_QUEEN_03">
+    <en>Hear my song!</en>
+    <zh>聆听我的战歌！</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_ANT_TRAPPER_04">
+    <en>...Come to me...</en>
+    <zh>……来我身边……</zh>
+  </entry>
+  <entry key="CORAL_JUDGE_CHILD_01">
+    <en>Warmly shifting, dancing sands...</en>
+    <zh>暖沙流动，翩跹舞动……</zh>
+  </entry>
+  <entry key="MITE_GREYMOOR_05">
+    <en>Find it. Take it...</en>
+    <zh>寻找，夺取……</zh>
+  </entry>
+  <entry key="RUINED_CHAPEL_04">
+    <en>...In each shell...</en>
+    <zh>……世世……</zh>
+  </entry>
+  <entry key="GILLY_06">
+    <en>I’ll solve it! Me!</en>
+    <zh>我会破解！就靠自己！</zh>
+  </entry>
+  <entry key="HUNTER_04">
+    <en>To leap, and run, and slay!</en>
+    <zh>腾跃，奔袭，戮敌！</zh>
+  </entry>
+  <entry key="RUINED_CHAPEL_02">
+    <en>...Souls formed strong...</en>
+    <zh>……铸就强大灵魂……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SILK_SIPHON_03">
+    <en>...Must we?</en>
+    <zh>……必须如此么？……</zh>
+  </entry>
+  <entry key="ZAZA_FINAL_03">
+    <en>So strong... so kind...</en>
+    <zh>如此强大……如此仁善……</zh>
+  </entry>
+  <entry key="BLOAT_ROACH_03">
+    <en>Soft shells...</en>
+    <zh>柔软甲壳……</zh>
+  </entry>
+  <entry key="SONG_HANDMAIDEN_01">
+    <en>...Your Silk...</en>
+    <zh>……你的灵丝……</zh>
+  </entry>
+  <entry key="SLAB_FLY_CAGE_04">
+    <en>Let my duty... absolve me...</en>
+    <zh>让我的职责……免除……</zh>
+  </entry>
+  <entry key="CORAL_KING_01">
+    <en>Hone yourself!</en>
+    <zh>磨砺自身！</zh>
+  </entry>
+  <entry key="FLOWER_02">
+    <en>Thirsty roots creeping down...</en>
+    <zh>饥渴根系……深扎地底……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_GRUBFARMER_NEST_02">
+    <en>Who is me?</en>
+    <zh>我是谁？</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_01">
+    <en>...watch their halls...</en>
+    <zh>……守望殿堂……</zh>
+  </entry>
+  <entry key="GRUBFARMER_06">
+    <en>Seek... and hide...</en>
+    <zh>寻觅……与藏匿……</zh>
+  </entry>
+  <entry key="PILGRIM_SHOPKEEP_01">
+    <en>O shining beads!</en>
+    <zh>闪耀的念珠啊！</zh>
+  </entry>
+  <entry key="SWAMP_SHAMAN_03">
+    <en>Swirling, pale flame...</en>
+    <zh>涡旋，苍白之焰……</zh>
+  </entry>
+  <entry key="SPLINTER_QUEEN_06">
+    <en>Creeping, creaking...</en>
+    <zh>匍匐缓行，嘎吱作响……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_GRUBFARMER_NEST_04">
+    <en>The one who breeds...</en>
+    <zh>繁衍者……</zh>
+  </entry>
+  <entry key="SPLINTER_QUEEN_05">
+    <en>Other, other, sleeping deep...</en>
+    <zh>其余，深眠……</zh>
+  </entry>
+  <entry key="SPLINTER_QUEEN_02">
+    <en>This land is ours, now!</en>
+    <zh>此地今属吾有！</zh>
+  </entry>
+  <entry key="SPLINTER_QUEEN_03">
+    <en>By our claws, none but us now!</en>
+    <zh>利爪之下，唯吾独尊！</zh>
+  </entry>
+  <entry key="CHOIR_03">
+    <en>Holy call of the Citadel...</en>
+    <zh>圣堡的神圣召唤……</zh>
+  </entry>
+  <entry key="SPLINTER_QUEEN_01">
+    <en>Children, children, hide and strike!</en>
+    <zh>子嗣们，潜伏突袭！</zh>
+  </entry>
+  <entry key="WHITE_CLOVERSTAG_06">
+    <en>Facets many, shining apart...</en>
+    <zh>碎片散落……各绽辉光……</zh>
+  </entry>
+  <entry key="GARMOND_02">
+    <en>We shall remember...</en>
+    <zh>我们铭记……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SLAB_04">
+    <en>I failed you...</en>
+    <zh>我辜负了你……</zh>
+  </entry>
+  <entry key="WEAVER_SERVITOR_BROKEN_03">
+    <en>...REFORMINSTINCT...</en>
+    <zh>……重组本能……</zh>
+  </entry>
+  <entry key="SWAMP_DRIFTER_01">
+    <en>Air... so warm...</en>
+    <zh>空气……如此温暖……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SLAB_01">
+    <en>...Your light...</en>
+    <zh>你的光芒……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SLAB_02">
+    <en>...Forgive my silence...</en>
+    <zh>原谅我的沉默……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SLAB_03">
+    <en>...Too weak... to return...</en>
+    <zh>太虚弱……无法返回……</zh>
+  </entry>
+  <entry key="BLUE_SCIENTIST_01">
+    <en>Heal all wounds...</en>
+    <zh>治愈所有创伤……</zh>
+  </entry>
+  <entry key="EVA_06">
+    <en>What worlds beyond?</en>
+    <zh>外界如何？</zh>
+  </entry>
+  <entry key="SNAIL_SHAMAN_01">
+    <en>So many souls...</en>
+    <zh>万千灵魂……</zh>
+  </entry>
+  <entry key="BONETOWN_ACT3_07">
+    <en>...Dear Pharloom...</en>
+    <zh>……亲爱的纺络……</zh>
+  </entry>
+  <entry key="MEMORY_VERDANIA_WIDE_02">
+    <en>...Paths wild...</en>
+    <zh>……荒野小径……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_SURFACE_01">
+    <en>The weaving ones beckon...</en>
+    <zh>多足织者的召唤……</zh>
+  </entry>
+  <entry key="SHERMA_01">
+    <en>In song’s embrace...</en>
+    <zh>于圣歌怀抱中……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_STEPS_START_04">
+    <en>The Citadel... the holy Citadel...</en>
+    <zh>圣堡……至高圣堡……</zh>
+  </entry>
+  <entry key="DUSTROACH_03">
+    <en>Eat it all...</en>
+    <zh>吞噬殆尽……</zh>
+  </entry>
+  <entry key="SLAB_FLY_FRESH_04">
+    <en>Warm air...</en>
+    <zh>温暖的气息……</zh>
+  </entry>
+  <entry key="BELL_EATER_06">
+    <en>Feed... eat...</en>
+    <zh>吞噬……不止……</zh>
+  </entry>
+  <entry key="ROACHFEEDER_02">
+    <en>Teach them fear...</en>
+    <zh>教习恐惧……</zh>
+  </entry>
+  <entry key="WEAVER_SPIRE_06">
+    <en>...Wait, and sleep...</en>
+    <zh>……等待并沉眠……</zh>
+  </entry>
+  <entry key="BELLTOWN_05">
+    <en>We serve, selfless...</en>
+    <zh>无私地奉献……</zh>
+  </entry>
+  <entry key="THREAD_MEMORY_STEPS_START_02">
+    <en>The climb, so sheer...</en>
+    <zh>攀登，难以逾越……</zh>
+  </entry>
+  <entry key="HUNTER_FAN_01">
+    <en>Every beast, great and small...</en>
+    <zh>所有野兽，无论大小……</zh>
+  </entry>
+</sheet>

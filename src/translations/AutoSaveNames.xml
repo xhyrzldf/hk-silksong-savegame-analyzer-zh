@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="AutoSaveNames">
+  <entry key="GAINED_MELODY_BEAST">
+    <en>LearntBeastMelody</en>
+    <zh>已学习唤兽曲</zh>
+  </entry>
+  <entry key="SAVED_BELLHART">
+    <en>SavedBellhart</en>
+    <zh>已拯救钟心镇</zh>
+  </entry>
+  <entry key="GAINED_BROLLY">
+    <en>GotDrifterCloak</en>
+    <zh>获得流浪者披风</zh>
+  </entry>
+  <entry key="GAINED_REAPER">
+    <en>GotReaperCrest</en>
+    <zh>获得收割者纹章</zh>
+  </entry>
+  <entry key="GAINED_MELODY_CONDUCTOR">
+    <en>LearntConductMelody</en>
+    <zh>已学习指挥家旋律</zh>
+  </entry>
+  <entry key="GAINED_DOUBLE_JUMP">
+    <en>GotFayCloak</en>
+    <zh>获得幻羽披风</zh>
+  </entry>
+  <entry key="ACT_3">
+    <en>Act3Start</en>
+    <zh>第三幕开启</zh>
+  </entry>
+  <entry key="ACT_2">
+    <en>Act2Start</en>
+    <zh>第二幕开启</zh>
+  </entry>
+  <entry key="ACT_1">
+    <en>Act1Start</en>
+    <zh>第一幕开启</zh>
+  </entry>
+  <entry key="GAINED_WHITE_FLOWER">
+    <en>GotWhiteFlower</en>
+    <zh>获得永绽花</zh>
+  </entry>
+  <entry key="SLAB_CAPTURED">
+    <en>Caged</en>
+    <zh>关入罪石牢狱</zh>
+  </entry>
+  <entry key="GAINED_SILKNEEDLE">
+    <en>GotPaleNails</en>
+    <zh>已学习苍白之爪</zh>
+  </entry>
+  <entry key="GAINED_SILKSPEAR">
+    <en>GotSilkspear</en>
+    <zh>已学习丝之矛</zh>
+  </entry>
+  <entry key="GAINED_BEAST">
+    <en>GotBeastCrest</en>
+    <zh>获得野兽纹章</zh>
+  </entry>
+  <entry key="GAINED_HEART_BLOOM">
+    <en>DefeatedNyleth</en>
+    <zh>击败尼莱斯</zh>
+  </entry>
+  <entry key="GAINED_MELODY_LIBRARIAN">
+    <en>LearntVaultMelody</en>
+    <zh>已学习管理员旋律</zh>
+  </entry>
+  <entry key="GAINED_SPRINT">
+    <en>GotSwiftStep</en>
+    <zh>已学习疾风步</zh>
+  </entry>
+  <entry key="GAINED_SUPER_JUMP">
+    <en>GotSilkSoar</en>
+    <zh>已学习灵丝升腾</zh>
+  </entry>
+  <entry key="GAINED_THREADSPHERE">
+    <en>GotThreadStorm</en>
+    <zh>已学习灵丝风暴</zh>
+  </entry>
+  <entry key="GAINED_CURSE">
+    <en>Cursed</en>
+    <zh>畸芽之咒</zh>
+  </entry>
+  <entry key="GAINED_WANDERER">
+    <en>GotWandererCrest</en>
+    <zh>获得漫游者纹章</zh>
+  </entry>
+  <entry key="GAINED_TOOMASTER">
+    <en>GotArchitectCrest</en>
+    <zh>获得建筑师纹章</zh>
+  </entry>
+  <entry key="GAINED_HARPOON">
+    <en>GotClawline</en>
+    <zh>已学习飞针冲刺</zh>
+  </entry>
+  <entry key="GAINED_WALLJUMP">
+    <en>GotClingGrip</en>
+    <zh>已学习蛛攀术</zh>
+  </entry>
+  <entry key="GAINED_MELODY_ARCHITECT">
+    <en>LearntCogMelody</en>
+    <zh>已学习建筑师旋律</zh>
+  </entry>
+  <entry key="GAINED_HEART_HUNTER">
+    <en>DefeatedKarmelita</en>
+    <zh>击败卡梅莉塔</zh>
+  </entry>
+  <entry key="GAINED_NEEDOLIN">
+    <en>GotNeedolin</en>
+    <zh>已学习织忆弦针</zh>
+  </entry>
+  <entry key="GAINED_MELODY_DEEP">
+    <en>LearntDeepMelody</en>
+    <zh>已学习深邃挽歌</zh>
+  </entry>
+  <entry key="GAINED_HEART_CLOVER">
+    <en>DefeatedCloverDancers</en>
+    <zh>击败三叶草舞者</zh>
+  </entry>
+  <entry key="GAINED_SILKCHARGE">
+    <en>GotSharpdart</en>
+    <zh>已学习丝刃镖</zh>
+  </entry>
+  <entry key="GAINED_WITCH">
+    <en>GotWitchCrest</en>
+    <zh>获得女巫纹章</zh>
+  </entry>
+  <entry key="GAINED_SLYTHSONG">
+    <en>GotSylphsong</en>
+    <zh>已学习风灵谣</zh>
+  </entry>
+  <entry key="GAINED_SHAMAN">
+    <en>GotShamanCrest</en>
+    <zh>获得萨满纹章</zh>
+  </entry>
+  <entry key="UNLOCKED_MELODY_LIFT">
+    <en>OpenCradleLift</en>
+    <zh>开启摇篮升降笼</zh>
+  </entry>
+  <entry key="GAINED_RUNE_BOMB">
+    <en>GotRuneRage</en>
+    <zh>已学习符文之怒</zh>
+  </entry>
+  <entry key="GAINED_PARRY">
+    <en>GotCrossStitch</en>
+    <zh>已学习十字绣</zh>
+  </entry>
+  <entry key="GAINED_HEART_CORAL">
+    <en>DefeatedKhann</en>
+    <zh>击败壳王卡汗</zh>
+  </entry>
+</sheet>
