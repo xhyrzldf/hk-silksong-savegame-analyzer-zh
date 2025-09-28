@@ -15,6 +15,7 @@ There is no automated test harness yet, so document manual verification steps in
 ## Commit & Pull Request Guidelines
 Write commits in the imperative mood with short subjects (`Fix parser offsets`, `Add Relics tab styles`). Prefix with a tag such as `Fix:` or `Feat:` when it clarifies intent, mirroring recent history. Squash noisy work-in-progress commits before pushing. PRs should summarize the change, link related issues, list manual test results, and add screenshots or GIFs for UI tweaks. Ensure `npm run build` and `npm run lint` pass locally before requesting review.
 Treat this as a local-only project: do not push to remote hosts, but keep the local repository healthy. After completing any task, create a commit immediately with a clear Chinese subject (e.g., `文档: 更新面板说明`). Never rewrite or delete commit history unless explicitly instructed.
+All报告、答复与 PR 描述应使用中文，便于原始开发者查阅。
 
 ## Save Data & Security Notes
 Never commit personal or unreleased save files—use synthetic or sanitized samples. Treat decrypted output as sensitive: delete temporary JSON exports after debugging and avoid logging raw save contents to the console in production builds.
