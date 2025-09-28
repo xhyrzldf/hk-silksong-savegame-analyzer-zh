@@ -1,0 +1,1439 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Quests">
+  <entry key="Q_SOUL_SNARE_PRE_DESC_WALL">
+    <en>Oi! I’m wishin’ for that bothersome bellringer! That you readin’ this? Then head up top beside the shrine. Might be we two should have a little chat...</en>
+    <zh>喂！我有事找那个烦人的敲钟者！你有看到吗？看到了就来上面钟殿找我。我们得聊两句……</zh>
+  </entry>
+  <entry key="SQ_MELODY_ARCHITECT_PROMPT">
+    <en>One part of the Threefold Melody, entrusted to the industrious Architects.</en>
+    <zh>三重旋律之一，托付给了勤劳的建筑师。</zh>
+  </entry>
+  <entry key="SQ_BLACKTHREAD_5_FLOWER_DESC_END">
+    <en>The Pollen Heart has been claimed from Nyleth.</en>
+    <zh>已从花语之喉处获得花粉之心。</zh>
+  </entry>
+  <entry key="QUEST_COURIER_BONEBOTTOM_NAME">
+    <en>Bone Bottom Supplies</en>
+    <zh>骸底补给</zh>
+  </entry>
+  <entry key="QUEST_DOCTOR_CURSE_CURE_LOC">
+    <en>Yarnaby of Greymoor</en>
+    <zh>灰沼雅纳碧</zh>
+  </entry>
+  <entry key="QUEST_TROBBIO_2_DESC_INV">
+    <en>Return to the Citadel’s Stage, beside the Whispering Vaults.</en>
+    <zh>返回低语书库旁的圣堡剧台。</zh>
+  </entry>
+  <entry key="QUEST_MRMUSHROOM_DESC_END">
+    <en>That the age may pass, this shroom its witness.</en>
+    <zh>菌主临鉴纪元歇。</zh>
+  </entry>
+  <entry key="MQ_DIVINGBELL_3_NAME">
+    <en>The Dark Below</en>
+    <zh>暗藏其下</zh>
+  </entry>
+  <entry key="QUEST_TROBBIO_2_TITLE">
+    <en>Pain, Anguish and Misery</en>
+    <zh>苦痛巡礼</zh>
+  </entry>
+  <entry key="QUEST_ROCK_ROLLERS_LOC">
+    <en>Residents of Bone Bottom</en>
+    <zh>骸底镇居民</zh>
+  </entry>
+  <entry key="QUEST_ROCK_ROLLERS_DESC_WALL">
+    <en>Flintbeetles have awoken in the Marrow. The gems that grow in their bellies provide a pure, constant warmth. Harvest these treasures and be rewarded!</en>
+    <zh>髓骨洞窟的燧甲虫苏醒了，它们腹中的宝石能提供纯净恒温。收割这些宝物换取奖励吧！</zh>
+  </entry>
+  <entry key="MQ_CITADEL_ASCENT_DESC_SILK">
+    <en>Confront the one who haunts the lands of Pharloom.</en>
+    <zh>直面萦绕纺络的灾厄。</zh>
+  </entry>
+  <entry key="QUEST_HUNTRESS_NAME">
+    <en>Broodfeast</en>
+    <zh>育巢盛宴</zh>
+  </entry>
+  <entry key="QUEST_FLEAGAMES_LOC">
+    <en>Mooshka of Fleatopia</en>
+    <zh>蚤托邦的穆什卡</zh>
+  </entry>
+  <entry key="MQ_DIVINGBELL_2_DESC">
+    <en>Find aid in Deep Docks to access its diving bell and descend beneath Pharloom.</en>
+    <zh>在深坞寻求帮助并找到潜钟以潜入纺络之下。</zh>
+  </entry>
+  <entry key="QUEST_PINSTRESS_BATTLE_PRE_DESC_WALL">
+    <en>If the world is truly ending, I would test my pin in combat one last time. Come to my home at border’s edge and accept my challenge!</en>
+    <zh>若世界真要终结，我希望最后一次用针证明自己。来边境小屋接受挑战！</zh>
+  </entry>
+  <entry key="MQ_CITADEL_INVESTIGATE_NAME">
+    <en>Silent Halls</en>
+    <zh>寂静圣堡</zh>
+  </entry>
+  <entry key="QUEST_PINSTRESS_BATTLE_TITLE">
+    <en>Fatal Resolve</en>
+    <zh>针锋对决</zh>
+  </entry>
+  <entry key="GARMOND_BLACK_THREADED_LOC">
+    <en>Residents of Bellhart</en>
+    <zh>钟心镇居民</zh>
+  </entry>
+  <entry key="QUEST_STEELSENTINEL_DESC">
+    <en>Investigate the resting sites marked by Steel Seer Zi to uncover the location of her vassal.</en>
+    <zh>调查钢之先知·梓标记的安息地并寻找其侍从。</zh>
+  </entry>
+  <entry key="QUEST_SHINY_BELL_GOOMBAS_LOC">
+    <en>Residents of Bellhart</en>
+    <zh>钟心镇居民</zh>
+  </entry>
+  <entry key="QUEST_PINSTRESS_BATTLE_LOC">
+    <en>Pinstress of Blasted Steps</en>
+    <zh>针姬</zh>
+  </entry>
+  <entry key="QUEST_COURIER_FLEATOPIA_NAME">
+    <en>Fleatopia Supplies</en>
+    <zh>蚤托邦补给</zh>
+  </entry>
+  <entry key="QUEST_CROW_PRE_DESC">
+    <en>Speak to Creige of the Halfway Home in Greymoor.</en>
+    <zh>前往灰沼中途酒馆与克雷吉对话。</zh>
+  </entry>
+  <entry key="QUEST_BELL_HOUSE_CONT_TITLE">
+    <en>Bellhart’s Glory</en>
+    <zh>钟心荣光</zh>
+  </entry>
+  <entry key="QUEST_SAVE CITYMERCHANT_LOC">
+    <en>Residents of Songclave</en>
+    <zh>圣歌盟地居民</zh>
+  </entry>
+  <entry key="QUEST_BEASTFLY_DESC_READY">
+    <en>Turn in the Horn Fragment to Bellhart’s wishwall and collect the reward.</en>
+    <zh>向钟心镇祈愿墙提交兽角碎片领取奖励。</zh>
+  </entry>
+  <entry key="MQ_CITADEL_SEEKER_DESC">
+    <en>Ascend through the lands of Pharloom and reach the Citadel at the kingdom’s peak.</en>
+    <zh>穿越纺络大地，抵达王国巅峰的圣堡。</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_5_NAME">
+    <en>The Old Hearts</en>
+    <zh>古之心</zh>
+  </entry>
+  <entry key="Q_SOUL_SNARE_LOC">
+    <en>Caretaker of Songclave</en>
+    <zh>圣歌盟地看守者</zh>
+  </entry>
+  <entry key="QUEST_BROLLY_GET_DESC">
+    <en>Hunt Hokers in the Far Fields and collect Spine Cores.</en>
+    <zh>在远野猎杀棘背虫并收集棘刺芯。</zh>
+  </entry>
+  <entry key="TYPE_HUNT_2_TITLE">
+    <en>Grand Hunt</en>
+    <zh>狩王试炼</zh>
+  </entry>
+  <entry key="QUEST_COURIER_SLAVE_NAME">
+    <en>Queen’s Egg</en>
+    <zh>女王之卵</zh>
+  </entry>
+  <entry key="QUEST_STEELSENTINEL_DESC_2">
+    <en>Return to Steel Seer Zi and inform her of Sula’s escape.</en>
+    <zh>返回告知梓关于苏拉逃脱的消息。</zh>
+  </entry>
+  <entry key="QUEST_SHAKRA_FINAL_TITLE">
+    <en>Trail’s End</en>
+    <zh>终迹</zh>
+  </entry>
+  <entry key="QUEST_EXTRACTOR_B2_NAME">
+    <en>Advanced Alchemy</en>
+    <zh>高阶炼金</zh>
+  </entry>
+  <entry key="QUEST_ROACH_KILL_LOC">
+    <en>Crull and Benjin of Sinner’s Road</en>
+    <zh>罪途 克鲁尔与班金</zh>
+  </entry>
+  <entry key="QUEST_ROCK_ROLLERS_TITLE">
+    <en>Volatile Flintbeetles</en>
+    <zh>暴烈燧甲虫</zh>
+  </entry>
+  <entry key="QUEST_SHELL_FLOWER_TITLE">
+    <en>Rite of the Pollip</en>
+    <zh>花芯仪式</zh>
+  </entry>
+  <entry key="QUEST_CROW_PRE_DESC_WALL">
+    <en>Those blasted crawbugs are fouling up my roof! I’ve come up with a clever solution to keep them away, but I’ll need some help. Enquire at the Halfway Home if you’re fit for the task.</en>
+    <zh>那些该死的腐囊虫弄脏了我的屋顶！我有个绝妙的解决办法，但需要帮助。有能力者请来中途酒馆洽谈。</zh>
+  </entry>
+  <entry key="UI_PROMPT_ACCEPT">
+    <en>Promise Wish?</en>
+    <zh>承接祈愿？</zh>
+  </entry>
+  <entry key="QUEST_SAVE_COURIER_SHORT_DESC">
+    <en>Search for traces of the courier, Tipp, and track his location.&lt;br&gt;&lt;br&gt;Tipp was last seen in lower Shellwood.</en>
+    <zh>寻找送货员蒂普的踪迹。&lt;br&gt;&lt;br&gt;他最后出现在甲木林下层。</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_0_NAME">
+    <en>After the Fall</en>
+    <zh>坠落之后</zh>
+  </entry>
+  <entry key="SQ_BLACKTHREAD_5_ANT_DESC">
+    <en>Claim the Hunter’s Heart.</en>
+    <zh>获取猎手之心。</zh>
+  </entry>
+  <entry key="QUEST_COURIER_FIXER_NAME">
+    <en>Survivor’s Camp Supplies</en>
+    <zh>幸存者营地补给</zh>
+  </entry>
+  <entry key="QUEST_PINSMITHTOOLS_LOC">
+    <en>The Citadel</en>
+    <zh>圣堡</zh>
+  </entry>
+  <entry key="QUEST_PILGRIM_RAGS_DESC_WALL">
+    <en>Those mad, violent pilgrims who haunt the great path... we could make use of their shawls here in Bone Bottom. And felling them would surely be a mercy!</en>
+    <zh>那些在外游荡的癫狂朝圣者……其披肩对骸底镇大有用处。诛灭此等暴虐之徒，实为赐予慈悲解脱！</zh>
+  </entry>
+  <entry key="MQ_DIVINGBELL_1_DESC">
+    <en>In Deep Docks, find a way to descend beneath Pharloom.</en>
+    <zh>在深坞找到方法潜入纺络之下。</zh>
+  </entry>
+  <entry key="QUEST_COURIER_MASKMAKER_NAME">
+    <en>Liquid Lacquer</en>
+    <zh>液状漆</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_5_DESC">
+    <en>Enliven and acquire the old hearts of Pharloom.</en>
+    <zh>激活并获取纺络的古老心脏。</zh>
+  </entry>
+  <entry key="SQ_MELODY_CONDUCTOR_PROMPT">
+    <en>One part of the Threefold Melody, entrusted to the Conductors.</en>
+    <zh>三重旋律之一，托付给了指挥家。</zh>
+  </entry>
+  <entry key="QUEST_FLEAS_LOC">
+    <en>Mooshka of the Flea Caravan</en>
+    <zh>跳蚤旅团 穆什卡</zh>
+  </entry>
+  <entry key="QUEST_BROODMOTHER_DESC_READY">
+    <en>Turn in the Broodmother’s Eye to Songclave’s wishwall and collect the reward.</en>
+    <zh>向圣歌盟地祈愿墙提交育母之眼领取奖励。</zh>
+  </entry>
+  <entry key="QUEST_SPRINT_KILL_TITLE">
+    <en>Fastest in Pharloom</en>
+    <zh>纺络竞速冠军</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_SLAVE_DESC">
+    <en>Fragile egg containing a young Silkeater Queen. Though the Queen cannot gather Silk itself, with time and care it could be raised to breed more Silkeaters.</en>
+    <zh>内含噬丝蛆女王的脆弱虫卵。虽不能自行收集灵丝，但培养后可繁殖更多噬丝蛆。</zh>
+  </entry>
+  <entry key="QUEST_SONGCLAVE_DONATE_LOC">
+    <en>Caretaker of Songclave</en>
+    <zh>圣歌盟地看守者</zh>
+  </entry>
+  <entry key="MQ_CITADEL_SEEKER_NAME">
+    <en>The Great Citadel</en>
+    <zh>至伟圣堡</zh>
+  </entry>
+  <entry key="QUEST_BELLHART_DONATION_CONT_LOC">
+    <en>Pavo of Bellhart</en>
+    <zh>钟心镇 帕沃</zh>
+  </entry>
+  <entry key="QUEST_HUNTRESS_LOC">
+    <en>Huntress, in the Putrified Ducts.</en>
+    <zh>腐殖渠 女猎手</zh>
+  </entry>
+  <entry key="TYPE_SPRINT_TITLE">
+    <en>Sprint</en>
+    <zh>竞速</zh>
+  </entry>
+  <entry key="QUEST_WITCH_CURSE_DESC">
+    <en>Bind the Twisted Bud.</en>
+    <zh>将扭曲的畸芽缚于体内。</zh>
+  </entry>
+  <entry key="QUEST_SHAKRA_FINAL_DESC_WALL">
+    <en>Child Wielding Needle, I have caught fresh scent of my master in those stricken swamps beside the Citadel. I ask you now to follow, to meet together at trail’s end.</en>
+    <zh>使针的小姑娘，我在圣堡旁的沼泽嗅到了导师的新踪迹。请随我一同前往踪迹终点。</zh>
+  </entry>
+  <entry key="QUEST_FLEAS_DESC_READY">
+    <en>Return to Fleamaster Mooshka of the Flea Caravan, in the Marrow.</en>
+    <zh>返回髓骨洞窟向穆什卡复命。</zh>
+  </entry>
+  <entry key="QUEST_FLEAGAMES_PRE_DESC_WALL">
+    <en>As was warned long ago, the black times have come. There is one last act to perform. Meet us at what was once called Fleatopia.</en>
+    <zh>正如古老预言警示，黑暗时代已至，但尚存最后一幕等待上演。请前往曾经的蚤托邦。</zh>
+  </entry>
+  <entry key="SQ_MELODY_LIBRARIAN_LOC">
+    <en>Whispering Vaults</en>
+    <zh>低语书库</zh>
+  </entry>
+  <entry key="QUEST_COURIER_FIXER_LOC">
+    <en>The Marrow</en>
+    <zh>髓骨洞窟</zh>
+  </entry>
+  <entry key="UI_BOARD_REWARD_TITLE">
+    <en>Reward</en>
+    <zh>奖励</zh>
+  </entry>
+  <entry key="QUEST_SAVE_CITYMERCHANT_BRIDGE_DESC">
+    <en>Search for traces of the merchant, Jubilana, and track her location.&lt;br&gt;&lt;br&gt;Jubilana was last seen near the Citadel’s Memorium.</en>
+    <zh>寻找朱比拉娜的踪迹。&lt;br&gt;&lt;br&gt;她最后出现在圣堡忆廊附近。</zh>
+  </entry>
+  <entry key="QUESTBOARD_PROMPT">
+    <en>Promise Wish</en>
+    <zh>承诺祈愿</zh>
+  </entry>
+  <entry key="QUEST_COURIER_PILGRIMSREST_LOC">
+    <en>Pilgrim’s Rest</en>
+    <zh>朝圣者憩所</zh>
+  </entry>
+  <entry key="INV_TOGGLE_COMPLETED_ON">
+    <en>Show Completed</en>
+    <zh>显示已完成</zh>
+  </entry>
+  <entry key="QUEST_SAVE_CITYMERCHANT_BRIDGE_DESC_WALL">
+    <en>Our dear merchant left to scavenge treasures from the Citadel’s Memorium. She’s been gone far too long. Please make sure she’s safe!</en>
+    <zh>我们的商人去圣堡忆廊寻宝后失踪太久，请确认她的安全！</zh>
+  </entry>
+  <entry key="GARMOND_BLACK_THREADED_DESC">
+    <en>Seek out the distressed bug near the Blasted Steps Bellway.</en>
+    <zh>在蚀阶钟道附近寻找遇险者。</zh>
+  </entry>
+  <entry key="QUEST_BROLLY_GET_DESC_READY">
+    <en>Give the Spine Cores to the Seamstress waiting in Far Fields.</en>
+    <zh>将棘刺芯交给在远野等待的裁缝。</zh>
+  </entry>
+  <entry key="QUEST_EXTRACTOR_B_DESC_INV">
+    <en>Collect Plasmium from Plasmium buds in the lower Wormways.&lt;br&gt;&lt;br&gt;Plasmium can be extracted from buds using a fully charged stab from the Needle Phial tool.</en>
+    <zh>在沙噬虫道下层的生质花苞上收集生质液。&lt;br&gt;&lt;br&gt;使用蓄满力的储液注射器抽取。</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_MASK_NAME">
+    <en>Liquid Lacquer</en>
+    <zh>液状漆</zh>
+  </entry>
+  <entry key="QUEST_SAVE COURIER_TALL_LOC">
+    <en>Tipp of Bellhart</en>
+    <zh>钟心镇 蒂普</zh>
+  </entry>
+  <entry key="SQ_MELODY_CONDUCTOR_LOC">
+    <en>High Halls</en>
+    <zh>高庭</zh>
+  </entry>
+  <entry key="MQ_CITADEL_ASCENT_DESC_MELODY_COMPLETABLE">
+    <en>Play the Threefold Melody before the statues at the Citadel’s heart.</en>
+    <zh>在圣堡核心的雕像前演奏三重旋律。</zh>
+  </entry>
+  <entry key="TYPE_DONATE_1_TITLE">
+    <en>Donate</en>
+    <zh>捐献</zh>
+  </entry>
+  <entry key="QUEST_SONGCLAVE_DONATE_2_DESC_INV">
+    <en>Donate rosaries to aid the Songclave’s residents.</en>
+    <zh>捐献念珠援助圣歌盟地居民。</zh>
+  </entry>
+  <entry key="QUEST_PINSTRESS_BATTLE_PRE_DESC">
+    <en>Travel to Pinstress’s home at the far edge of Blasted Steps and accept her challenge.</en>
+    <zh>前往蚀阶边缘的针姬居所，接受她的挑战。</zh>
+  </entry>
+  <entry key="QUEST_ROACH_KILL_TITLE">
+    <en>Roach Guts</en>
+    <zh>蟑螂内脏</zh>
+  </entry>
+  <entry key="MQ_THREADSPUN_TOWN_LOC">
+    <en>Bellhart</en>
+    <zh>钟心镇</zh>
+  </entry>
+  <entry key="QUEST_COURIER_FLEATOPIA_LOC">
+    <en>Fleatopia</en>
+    <zh>蚤托邦</zh>
+  </entry>
+  <entry key="TYPE_HUNT_1_TITLE">
+    <en>Hunt</en>
+    <zh>狩猎</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_MEAT_TARGET_MASK">
+    <en>Deliver to Mask Maker on Mount Fay.</en>
+    <zh>将物资送至费耶山的面甲匠。</zh>
+  </entry>
+  <entry key="QUEST_FIXER2_DESC_INV">
+    <en>Donate shell shards to aid the construction of an icon of hope.</en>
+    <zh>捐献甲壳碎片帮助建造希望丰碑。</zh>
+  </entry>
+  <entry key="QUEST_ANT_TRAPPER_DESC_READY">
+    <en>Turn in the Grass Doll to Bellhart’s wishwall and collect the reward.</en>
+    <zh>向钟心镇祈愿墙提交草娃娃领取奖励</zh>
+  </entry>
+  <entry key="ITEM_EXTRACTOR_PINS_NAME">
+    <en>Steel Spines</en>
+    <zh>钢棘</zh>
+  </entry>
+  <entry key="QUEST_MOSSBERRY1_PRE_DESC_WALL">
+    <en>Sweetness! Sourness! Bitterness! I need it all with hastiness! If you have the precious fruits, come to me in Mosshome and share all you have! </en>
+    <zh>甜味！酸味！苦味！我要所有莓果！如果有珍果，到苔栖乡找我分享！</zh>
+  </entry>
+  <entry key="QUEST_JOURNAL_DESC_READY">
+    <en>Present the filled out Hunter’s Journal to Nuu at the Halfway Home in Greymoor.</en>
+    <zh>向灰沼中途酒馆的努努出示完整猎手日志。</zh>
+  </entry>
+  <entry key="QUEST_FLEAGAMES_PRE_DESC">
+    <en>Speak to Fleamaster Mooshka of Fleatopia.</en>
+    <zh>与蚤托邦的跳蚤首领穆什卡交谈。</zh>
+  </entry>
+  <entry key="QUEST_SPRINT_KILL_LOC">
+    <en>Sprintmaster Swift of Far Fields</en>
+    <zh>远野的飞毛腿斯威夫特</zh>
+  </entry>
+  <entry key="SQ_MELODY_CONDUCTOR_DESC">
+    <en>Search the gilded heights of the Citadel for the melody of the Conductors.</en>
+    <zh>在圣堡鎏金穹顶寻找指挥家的旋律。</zh>
+  </entry>
+  <entry key="QUEST_FLEAS_TITLE">
+    <en>The Lost Fleas</en>
+    <zh>迷途跳蚤</zh>
+  </entry>
+  <entry key="QUEST_EXTRACTOR_B2_DESC_READY">
+    <en>Give the Plasmified Blood to the Alchemist at the top of the Wormways.</en>
+    <zh>将生质血交给沙噬虫道顶部的炼金师。</zh>
+  </entry>
+  <entry key="QUEST_SHELL_FLOWER_LOC">
+    <en>Greyroot of Shellwood</en>
+    <zh>甲木林 灰蕨</zh>
+  </entry>
+  <entry key="QUEST_CROW_TITLE">
+    <en>Crawbug Clearing</en>
+    <zh>清剿腐囊虫</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_ITEM_TARGET_FIXER">
+    <en>Deliver to the Survivors’ Camp in the Marrow.</en>
+    <zh>将物资送至髓骨洞窟的幸存者营地。</zh>
+  </entry>
+  <entry key="MQ_TYPE_DEFEAT">
+    <en>Defeat</en>
+    <zh>击败</zh>
+  </entry>
+  <entry key="MQ_CITADEL_ASCENT_DESC_MELODY">
+    <en>Learn the Threefold Melody and open the path to the Citadel’s crest.</en>
+    <zh>学会三重旋律的三个部分，开启通往圣堡核心的道路。</zh>
+  </entry>
+  <entry key="SQ_BLACKTHREAD_5_FLOWER_NAME">
+    <en>Heart of the Woods</en>
+    <zh>森之心</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_1_DESC">
+    <en>Confront the Caretaker and his family in the Ruined Chapel beside Bone Bottom.</en>
+    <zh>在骸底镇旁的颓败教堂直面看守者及其家族。</zh>
+  </entry>
+  <entry key="QUEST_GOURMAND_DESC">
+    <en>Collect rare delicacies of Pharloom.</en>
+    <zh>收集纺络的稀有美食。</zh>
+  </entry>
+  <entry key="QUEST_COURIER_PILGRIMSREST_NAME">
+    <en>Pilgrim’s Rest Supplies</en>
+    <zh>朝圣者憩所补给</zh>
+  </entry>
+  <entry key="TYPE_GATHER_1_TITLE">
+    <en>Gather</en>
+    <zh>收集</zh>
+  </entry>
+  <entry key="SQ_MELODY_ARCHITECT_DESC_GOT">
+    <en>The Architect’s Melody has been learned.</en>
+    <zh>已学会建筑师的旋律。</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_MEAT_TARGET_GOURMAND">
+    <en>Deliver to Mergwin in Choral Chambers.</en>
+    <zh>将物资送至圣咏殿的梅尔格温。</zh>
+  </entry>
+  <entry key="QUEST_CROW_INV_DESC">
+    <en>Hunt Crawbugs in Greymoor and collect their Ragpelt.</en>
+    <zh>猎杀灰沼腐囊虫并收集破毛皮。</zh>
+  </entry>
+  <entry key="SQ_MELODY_CONDUCTOR_DESC_GOT">
+    <en>The Conductor’s Melody has been learned.</en>
+    <zh>已学会指挥家的旋律。</zh>
+  </entry>
+  <entry key="QUEST_FINEPINS_DESC_WALL">
+    <en>Our settlement sits defenceless! No more! When the worst comes, we must stand ready. Bring us pins of the choirbugs, those blades still sharp and strong.</en>
+    <zh>我们的聚落需要防卫！带来机枢咏者的锋利尖钉。</zh>
+  </entry>
+  <entry key="MQ_BELLSHRINES_NAME">
+    <en>Grand Gate</en>
+    <zh>巨扉圣门</zh>
+  </entry>
+  <entry key="QUEST_STEELSENTINEL_TITLE">
+    <en>A Vassal Lost</en>
+    <zh>失踪侍从</zh>
+  </entry>
+  <entry key="QUEST_MOSSBERRY1_TITLE">
+    <en>Berry Picking</en>
+    <zh>莓果采集</zh>
+  </entry>
+  <entry key="QUEST_ROCK_ROLLERS_DESC_INV">
+    <en>Track down Flintbeetles in the Marrow and defeat them to collect Flintgems.&lt;br&gt;&lt;br&gt;Flintbeetles can be tracked by their stone-sheddings and their aromatic dung.</en>
+    <zh>在髓骨洞窟追踪并击败燧甲虫收集燧晶。&lt;br&gt;&lt;br&gt;可通过石屑和带香味的粪便追踪。</zh>
+  </entry>
+  <entry key="QUEST_SAVE_CITYMERCHANT_DESC">
+    <en>Search for traces of the merchant, Jubilana, and track her location.&lt;br&gt;&lt;br&gt;Jubilana was last seen in the lower Choral Chambers.</en>
+    <zh>寻找商人朱比拉娜的踪迹。&lt;br&gt;&lt;br&gt;她最后出现在圣咏殿下层。</zh>
+  </entry>
+  <entry key="QUEST_BELL_HOUSE_CONT_DESC_INV">
+    <en>Donate rosaries to complete the rebuilding of Bellhart.</en>
+    <zh>捐献念珠完成钟心镇重建。</zh>
+  </entry>
+  <entry key="QUEST_FIXER2_TITLE">
+    <en>An Icon of Hope</en>
+    <zh>希望丰碑</zh>
+  </entry>
+  <entry key="QUEST_SHINY_BELL_GOOMBAS_TITLE">
+    <en>Silver Bells</en>
+    <zh>银光铃铛</zh>
+  </entry>
+  <entry key="QUEST_SAVE COURIER_SHORT_LOC">
+    <en>Frey of Bellhart</en>
+    <zh>钟心镇 芙蕾</zh>
+  </entry>
+  <entry key="QUEST_DOCTOR_CURSE_CURE_DESC">
+    <en>Acquire Steel Spines from Crull and Benjin in Sinner’s Road so Yarnaby can remove the parasite.</en>
+    <zh>从罪途的克鲁尔与班金身上获取钢棘用于寄生体清除。</zh>
+  </entry>
+  <entry key="QUEST_COURIER_SONGCLAVE_DESC">
+    <en>Deliver supplies to the Caretaker in Songclave.</en>
+    <zh>向盟地看守者运送补给。</zh>
+  </entry>
+  <entry key="QUEST_CROW_INV_DESC_READY">
+    <en>Give the Ragpelt to Creige of the Halfway Home in Greymoor.</en>
+    <zh>将破毛皮交给灰沼中途酒馆的克雷吉。</zh>
+  </entry>
+  <entry key="QUEST_DOCTOR_CURSE_CURE_NAME">
+    <en>Infestation Operation</en>
+    <zh>寄生手术</zh>
+  </entry>
+  <entry key="QUEST_PINSMITHTOOLS_DESC_READY">
+    <en>Give Pale Oil to Plinney of Bellhart.</en>
+    <zh>将苍白油交给钟心镇的普林尼。</zh>
+  </entry>
+  <entry key="QUEST_BROODMOTHER_DESC_WALL">
+    <en>Horrible cries have been heard from that prison beside the Citadel. What profanities must be happening within to cause such awful sound?</en>
+    <zh>圣堡旁的监狱传出可怕哀嚎，里面究竟发生了什么？</zh>
+  </entry>
+  <entry key="INV_TOGGLE_COMPLETED_OFF">
+    <en>Hide Completed</en>
+    <zh>隐藏已完成</zh>
+  </entry>
+  <entry key="MQ_DIVINGBELL_3_DESC">
+    <en>Use the diving bell in Deep Docks to descend beneath Pharloom.</en>
+    <zh>使用深坞的潜钟潜入纺络之下。</zh>
+  </entry>
+  <entry key="QUEST_SONGCLAVE_LOC">
+    <en>Residents of Songclave</en>
+    <zh>圣歌盟地居民</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_2_NAME">
+    <en>The Dark Below</en>
+    <zh>暗藏其下</zh>
+  </entry>
+  <entry key="QUEST_PILGRIM_RAGS_LOC">
+    <en>Residents of Bone Bottom</en>
+    <zh>骸底镇居民</zh>
+  </entry>
+  <entry key="QUEST_SONGCLAVE_DONATE_2_DESC_WALL">
+    <en>How do all of these wretched, lost bugs keep finding their way here?! Each hungry and squalling for shelter! We need more rosaries, so empty your pockets.</en>
+    <zh>为什么总有迷途的可怜虫找到这里？！我们需要更多念珠，快掏空你的口袋！</zh>
+  </entry>
+  <entry key="QUEST_THREADCORES_TITLE">
+    <en>Dark Hearts</en>
+    <zh>暗蚀之心</zh>
+  </entry>
+  <entry key="QUEST_BROODMOTHER_DESC">
+    <en>Track down the wailing creature in the Slab and slay it.&lt;br&gt;&lt;br&gt;The creature can be tracked by its slime trail.</en>
+    <zh>追踪并击杀罪石牢狱的哀嚎生物。&lt;br&gt;&lt;br&gt;可以通过生物的黏液痕迹追踪。</zh>
+  </entry>
+  <entry key="ITEM_EXTRACTOR_PINS_DESC">
+    <en>Hard forged spines, intended for use in heavy machinery and able to pierce through even the toughest shell.</en>
+    <zh>锻造尖刺，专门用在重型机械上，连最硬的甲壳都能扎穿。</zh>
+  </entry>
+  <entry key="MQ_TYPE_BELLSHRINES">
+    <en>Open</en>
+    <zh>开启</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_4_DESC">
+    <en>Return to the Snail Shamans in the Ruined Chapel beside Bone Bottom.</en>
+    <zh>返回骸底镇旁的颓败教堂寻找蜗牛萨满。</zh>
+  </entry>
+  <entry key="QUEST_THREADCORES_DESC">
+    <en>Destroy Void Masses throughout Pharloom.</en>
+    <zh>清除纺络各地的虚空聚合体。</zh>
+  </entry>
+  <entry key="QUEST_FINEPINS_DESC_INV">
+    <en>Hunt pin-wielding choirbugs of the Citadel and collect Fine Pins.</en>
+    <zh>猎杀机枢咏者并收集精致刺针。</zh>
+  </entry>
+  <entry key="QUEST_COURIER_FLEATOPIA_DESC">
+    <en>Deliver supplies to the Fleamaster Mooshka in Fleatopia.</en>
+    <zh>向跳蚤首领穆什卡运送补给。</zh>
+  </entry>
+  <entry key="QUEST_EXTRACTOR_LOC">
+    <en>Alchemist Zylotol of the Wormways</en>
+    <zh>沙噬虫道炼金师奇洛托。</zh>
+  </entry>
+  <entry key="QUEST_DOCTOR_CURSE_CURE_DESC_READY">
+    <en>Deliver the Steel Spines to Yarnaby in Greymoor so they can remove the parasite.</en>
+    <zh>将钢棘交给灰沼的雅纳碧进行手术。</zh>
+  </entry>
+  <entry key="QUEST_SAVE_CITYMERCHANT_BRIDGE_NAME">
+    <en>The Lost Merchant</en>
+    <zh>再寻商贾</zh>
+  </entry>
+  <entry key="MQ_SILK_SNARE_NAME">
+    <en>Soul Snare</en>
+    <zh>魂丝陷阱</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_ITEM_TARGET_FLEATOPIA">
+    <en>Deliver to Fleatopia.</en>
+    <zh>送往蚤托邦。</zh>
+  </entry>
+  <entry key="QUEST_EXTRACTOR_B_NAME">
+    <en>Alchemist’s Assistant</en>
+    <zh>炼金助手</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_ITEM_TARGET_SONGCLAVE">
+    <en>Deliver to Songclave.</en>
+    <zh>送往圣歌盟地。</zh>
+  </entry>
+  <entry key="QUEST_MOSSBERRY1_PRE_LOC">
+    <en>Druid of Mosshome</en>
+    <zh>苔栖乡 德鲁伊</zh>
+  </entry>
+  <entry key="QUEST_SHININGCOGS_DESC_READY">
+    <en>Turn in the Shining Cogs to Songclave’s wishwall and collect the reward.</en>
+    <zh>向圣歌盟地祈愿墙提交闪亮齿轮领取奖励。</zh>
+  </entry>
+  <entry key="UI_PROMPT_ACCEPTED">
+    <en>Wish Promised</en>
+    <zh>祈愿应诺</zh>
+  </entry>
+  <entry key="TYPE_JOURNAL_TITLE">
+    <en>Learn</en>
+    <zh>研习</zh>
+  </entry>
+  <entry key="UI_TITLE_QUESTS_COMPLETE">
+    <en>Completed</en>
+    <zh>已完成</zh>
+  </entry>
+  <entry key="QUEST_FIXER3_DESC_WALL">
+    <en>I’ve heard tell pilgrims sometimes fall down that big hole beside the settlement. Nasty way to end your journey, before it even begins. I could build a bridge, if I only had the materials!</en>
+    <zh>听说有些朝圣者会掉进聚居地旁边的大坑里，还没开始旅程就悲惨结束。如果有材料，我可以造座桥！</zh>
+  </entry>
+  <entry key="MQ_CITADEL_ASCENT_NAME_SILK">
+    <en>Pale Monarch</en>
+    <zh>苍白君主</zh>
+  </entry>
+  <entry key="SQ_MELODY_LIBRARIAN_PROMPT">
+    <en>One part of the Threefold Melody, entrusted to the secretive Vaultkeepers.</en>
+    <zh>三重旋律之一，托付给了神秘的书库管理员。</zh>
+  </entry>
+  <entry key="QUEST_SONGPILGRIM_CLOAKS_DESC_WALL">
+    <en>Our haunted brethren wandering the great halls still wear their fine white cloaks. This settlement would greatly benefit from their protection. Please fetch some for us!</en>
+    <zh>那些游荡在外的同袍们，至今仍披完好的白色外衣。如果能拿到这些外衣，大家就更安全了！请帮我们带一些回来！</zh>
+  </entry>
+  <entry key="QUEST_ROCK_ROLLERS_DESC_READY">
+    <en>Turn in the Flintgems to Bone Bottom’s wishwall and collect the reward.</en>
+    <zh>向骸底镇祈愿墙提交燧晶领取奖励。</zh>
+  </entry>
+  <entry key="QUEST_ROACH_KILL_DESC_READY">
+    <en>Deliver the Roach Guts to Crull and Benjin of Sinner’s Road.</en>
+    <zh>将蟑螂内脏交给罪途的克鲁尔与班金。</zh>
+  </entry>
+  <entry key="SQ_BLACKTHREAD_5_CORAL_DESC">
+    <en>Claim the Encrusted Heart.</en>
+    <zh>获取壳王之心</zh>
+  </entry>
+  <entry key="QUEST_SHELL_FLOWER_DESC_READY">
+    <en>Give the Pollip Hearts to Greyroot of Shellwood.</en>
+    <zh>将花芯交给壳木林的灰蕨。</zh>
+  </entry>
+  <entry key="QUEST_SHELL_FLOWER_DESC_INV">
+    <en>Collect Pollip Hearts from the purple flowers of Shellwood.</en>
+    <zh>从甲木林的紫色花朵中收集花芯。</zh>
+  </entry>
+  <entry key="QUEST_EXTRACTOR_B_DESC_READY">
+    <en>Give the collected Plasmium to the Alchemist at the top of the Wormways.</en>
+    <zh>将生质液交给沙噬虫道顶部的炼金师。</zh>
+  </entry>
+  <entry key="QUEST_SONG_KNIGHT_TITLE">
+    <en>Final Audience</en>
+    <zh>最终觐见</zh>
+  </entry>
+  <entry key="QUEST_PINSMITHTOOLS_NAME">
+    <en>Pinmaster’s Oil</en>
+    <zh>针匠秘油</zh>
+  </entry>
+  <entry key="MQ_BELLSHRINES_LOC">
+    <en>Pharloom</en>
+    <zh>纺络</zh>
+  </entry>
+  <entry key="QUEST_SAVE_CITYMERCHANT_DESC_WALL">
+    <en>The old merchant pilgrim, Jubilana, was seen wandering down in the Choral Chambers, but she never made it up here. Has some foul fortune befallen her?</en>
+    <zh>据说老商贩朱比拉娜在圣咏殿下层徘徊，但她从未到达这里。她遭遇不幸了吗？</zh>
+  </entry>
+  <entry key="QUEST_ANT_TRAPPER_DESC_WALL">
+    <en>A huge red-shell stole my precious keepsake and disappeared into the fields! Please chase down the thief and recover my treasure!</en>
+    <zh>有个红壳大块头偷走了我的草娃娃并逃进原野！请追回我的宝物！</zh>
+  </entry>
+  <entry key="QUEST_SHININGCOGS_DESC_WALL">
+    <en>(shining cogs wall desc)</en>
+    <zh>(shining cogs wall desc)</zh>
+  </entry>
+  <entry key="QUEST_PINSTRESS_BATTLE_DESC">
+    <en>Find Pinstress on the stormward side of Mount Fay and defeat her in battle.</en>
+    <zh>在费耶山风暴面找到针姬并击败她。</zh>
+  </entry>
+  <entry key="QUEST_BELL_HOUSE_START_DESC">
+    <en>Harken, ye holy! Our home has been cleansed of evil, but now we are tasked with restoring its former glory! Share your rosaries with us, that the work may begin.</en>
+    <zh>聆听吧虔信者们！我们的家园净化了邪恶，现在要重现昔日荣光！捐献念珠助力重建吧！</zh>
+  </entry>
+  <entry key="QUEST_SONG_KNIGHT_LOC">
+    <en>Second Sentinel</en>
+    <zh>次席戍卫</zh>
+  </entry>
+  <entry key="QUEST_GOURMAND_DESC_READY">
+    <en>Deliver the rare delicacies to Mergwin in the dining chamber of the Citadel.</en>
+    <zh>将稀有美食交给圣堡餐厅的梅尔格温。</zh>
+  </entry>
+  <entry key="SQ_TYPE_MELODY">
+    <en>Learn</en>
+    <zh>学习</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_1_NAME">
+    <en>Awaiting the End</en>
+    <zh>等候终局</zh>
+  </entry>
+  <entry key="SQ_MELODY_ARCHITECT_DESC">
+    <en>Search the mechanised core of the Citadel for the melody of the Architects.</en>
+    <zh>在圣堡机械核心寻找建筑师的旋律。</zh>
+  </entry>
+  <entry key="TYPE_HERALD_TITLE">
+    <en>Witness</en>
+    <zh>见证</zh>
+  </entry>
+  <entry key="QUEST_RUNTRESS_NAME">
+    <en>Runtfeast</en>
+    <zh>遗孤盛宴</zh>
+  </entry>
+  <entry key="MQ_CITADEL_INVESTIGATE_DESC">
+    <en>Venture inside the Citadel and confront the veiled bugs.</en>
+    <zh>潜入圣堡内部，直面覆面之虫</zh>
+  </entry>
+  <entry key="QUEST_SHININGCOGS_TITLE">
+    <en>Shining Cogs</en>
+    <zh>闪亮齿轮</zh>
+  </entry>
+  <entry key="SQ_BLACKTHREAD_5_CORAL_NAME">
+    <en>Heart of Might</en>
+    <zh>力量之心</zh>
+  </entry>
+  <entry key="QUEST_SONG_KNIGHT_DESC_WALL">
+    <en>Attend this Sentinel’s request, Hunter in Red. Meet in halls high, the chamber of its fellows. The way shall be marked.</en>
+    <zh>红衣猎手，应戍卫要求前往高庭，在其族裔群聚之厅会面，路径已有标记。</zh>
+  </entry>
+  <entry key="QUEST_SAVE CITYMERCHANT_BRIDGE_LOC">
+    <en>Residents of Songclave</en>
+    <zh>圣歌盟地居民</zh>
+  </entry>
+  <entry key="QUEST_GOURMAND_TITLE">
+    <en>Great Taste of Pharloom</en>
+    <zh>纺络珍馐</zh>
+  </entry>
+  <entry key="QUEST_COURIER_MASKMAKER_LOC">
+    <en>Mount Fay</en>
+    <zh>费耶山</zh>
+  </entry>
+  <entry key="QUEST_FLEAS_PRE_DESC_WALL">
+    <en>I am Mooshka, humble stranger to this land and master of the Flea Caravan! I wish for aid, that all fleas may travel safely together!</en>
+    <zh>我是穆什卡，这片土地的新来者，也是跳蚤旅团的主事！希望能得到帮助，让所有跳蚤都能安全同行！</zh>
+  </entry>
+  <entry key="QUEST_FLEAS_PRE_DESC">
+    <en>Speak to Fleamaster Mooshka of the Flea Caravan, in the Marrow.</en>
+    <zh>在髓骨洞窟与跳蚤旅团的穆什卡对话。</zh>
+  </entry>
+  <entry key="QUEST_SAVE_SHERMA_DESC_WALL">
+    <en>For the sake of our ailing brothers and sisters, I will descend into the holy Whiteward and search for healing supplies. If you are able, please join me! Company will make the work much merrier.</en>
+    <zh>为了生病的同伴，我将前往圣堡白愈厅寻找治疗物资。如果愿意，请与我同行！</zh>
+  </entry>
+  <entry key="QUEST_WITCH_CURSE_TITLE">
+    <en>Rite of Rebirth</en>
+    <zh>重生仪式</zh>
+  </entry>
+  <entry key="UI_PROMPT_PROGRESS">
+    <en>Wish Updated</en>
+    <zh>祈愿更新</zh>
+  </entry>
+  <entry key="QUEST_COURIER_PILGRIMSREST_DESC">
+    <en>Deliver supplies to Mort in Pilgrim’s Rest.</en>
+    <zh>向憩所的莫特运送补给。</zh>
+  </entry>
+  <entry key="Q_SOUL_SNARE_DESC">
+    <en>Acquire the necessary components to build a powerful trap.</en>
+    <zh>收集必要组件制作强力陷阱。</zh>
+  </entry>
+  <entry key="UI_BOARD_DONATE_TITLE">
+    <en>Donation</en>
+    <zh>捐献</zh>
+  </entry>
+  <entry key="QUEST_HUNTRESS_DESC">
+    <en>Use tools to acquire organs of various types so Huntress may feed her brood.</en>
+    <zh>使用工具获取各类器官喂养幼兽。</zh>
+  </entry>
+  <entry key="QUEST_PILGRIM_RAGS_TITLE">
+    <en>Garb of the Pilgrims</en>
+    <zh>朝圣者的衣装</zh>
+  </entry>
+  <entry key="QUEST_FLEAGAMES_TITLE">
+    <en>Ecstasy of the End</en>
+    <zh>终幕狂欢</zh>
+  </entry>
+  <entry key="SQ_MELODY_LIBRARIAN_NAME">
+    <en>Vaultkeeper’s Melody</en>
+    <zh>管理员的旋律</zh>
+  </entry>
+  <entry key="SQ_MELODY_CONDUCTOR_NAME">
+    <en>Conductor’s Melody</en>
+    <zh>指挥家的旋律</zh>
+  </entry>
+  <entry key="QUEST_PINSMITHTOOLS_DESC_INV">
+    <en>Retrieve Pale Oil from the Citadel.</en>
+    <zh>从圣堡取回苍白油。</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_3_DESC">
+    <en>Escape the Abyss.</en>
+    <zh>逃离深渊</zh>
+  </entry>
+  <entry key="QUEST_MRMUSHROOM_TITLE">
+    <en>Passing of the Age</en>
+    <zh>纪元终章</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_ITEM_DESC">
+    <en>Heavy cloth sack containing tools, trinkets and medical aids.</en>
+    <zh>装有工具、饰品和药品的厚实布袋。</zh>
+  </entry>
+  <entry key="QUEST_SHINY_BELL_GOOMBAS_DESC_READY">
+    <en>Turn in the Silver Bells to Bellhart’s wishwall and collect the reward.</en>
+    <zh>向钟心镇祈愿墙提交银光铃铛领取奖励。</zh>
+  </entry>
+  <entry key="QUEST_MRMUSHROOM_DESC_4">
+    <en>Up towers spinning, near the surgeon spurned,</en>
+    <zh>纺塔孤医灰沼别，</zh>
+  </entry>
+  <entry key="TYPE_WAYFARER_1_TITLE">
+    <en>Wayfarer</en>
+    <zh>旅者助行</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_0_DESC">
+    <en>Discover the fate of Pharloom.</en>
+    <zh>探明纺络的命运。</zh>
+  </entry>
+  <entry key="QUEST_BELLHART_LOC">
+    <en>Residents of Bellhart</en>
+    <zh>钟心镇居民</zh>
+  </entry>
+  <entry key="QUEST_HUNTRESS_DESC_READY">
+    <en>Return to Huntress with the organs.</en>
+    <zh>带着器官返回复命。</zh>
+  </entry>
+  <entry key="QUEST_COURIER_MASKMAKER_DESC">
+    <en>Deliver Liquid Lacquer to the Mask Maker upon Mount Fay.</en>
+    <zh>将液状漆交给费耶山的面甲匠。</zh>
+  </entry>
+  <entry key="SQ_TYPE_BLACKTHREAD_5">
+    <en>Claim</en>
+    <zh>获取</zh>
+  </entry>
+  <entry key="QUEST_COURIER_BONEBOTTOM_DESC">
+    <en>Deliver supplies to the fixer Flick in Bone Bottom.</en>
+    <zh>向骸底镇的维修师弗利克运送补给。</zh>
+  </entry>
+  <entry key="QUEST_BELL_HOUSE_START_DESC_INV">
+    <en>Donate rosaries to aid the rebuilding of Bellhart.</en>
+    <zh>捐献念珠帮助重建钟心镇。</zh>
+  </entry>
+  <entry key="SQ_MELODY_ARCHITECT_LOC">
+    <en>Cogwork Core</en>
+    <zh>机枢核心</zh>
+  </entry>
+  <entry key="QUEST_ANT_TRAPPER_TITLE">
+    <en>The Hidden Hunter</en>
+    <zh>隐秘猎手</zh>
+  </entry>
+  <entry key="SQ_MELODY_LIBRARIAN_RETURN_DESC">
+    <en>Find a means to play the Sacred Cylinder within the Whispering Vaults.</en>
+    <zh>找到在低语书库演奏音筒的方法。</zh>
+  </entry>
+  <entry key="QUEST_BELL_HOUSE_CONT_DESC">
+    <en>The work of restoring our sacred home is almost complete! May those blessed with rosaries share them with us for this holy purpose!</en>
+    <zh>重建家园的工程即将完成！请为这神圣事业捐献念珠！</zh>
+  </entry>
+  <entry key="QUEST_FIXER1_TITLE">
+    <en>Bone Bottom Repairs</en>
+    <zh>骸底修缮</zh>
+  </entry>
+  <entry key="MQ_TYPE_SAVE">
+    <en>Save</en>
+    <zh>拯救</zh>
+  </entry>
+  <entry key="QUEST_SONGCLAVE_DONATE_1_TITLE">
+    <en>Building Up Songclave</en>
+    <zh>建设圣歌盟地</zh>
+  </entry>
+  <entry key="QUEST_BEASTFLY_DESC_WALL">
+    <en>O Beastfly, raging through the scorching wildlands below! May you hinder good pilgrims no longer! May you be struck down by a holy fury!</en>
+    <zh>在焦热远野横冲直撞的兽蝇啊！愿你不再阻碍虔信者！愿你被神圣怒火击溃！</zh>
+  </entry>
+  <entry key="MQ_TYPE_DESTROY">
+    <en>Destroy</en>
+    <zh>毁灭</zh>
+  </entry>
+  <entry key="QUEST_EXTRACTOR_B2_DESC_INV">
+    <en>Collect Plasmified Blood from infected creatures in the Wormways.&lt;br&gt;&lt;br&gt;Plasmified Blood can be extracted with a fully charged stab from the Needle Phial tool.</en>
+    <zh>从沙噬虫道感染生物身上收集生质血。&lt;br&gt;&lt;br&gt;使用蓄满力的储液注射器抽取。</zh>
+  </entry>
+  <entry key="QUEST_FINEPINS_TITLE">
+    <en>Fine Pins</en>
+    <zh>精致刺针</zh>
+  </entry>
+  <entry key="QUEST_BROODMOTHER_LOC">
+    <en>Residents of Songclave</en>
+    <zh>圣歌盟地居民</zh>
+  </entry>
+  <entry key="QUEST_SKULL_KING_LOC">
+    <en>Residents of Bone Bottom</en>
+    <zh>骸底镇居民</zh>
+  </entry>
+  <entry key="QUEST_FINEPINS_DESC_READY">
+    <en>Turn in the Fine Pins to Songclave’s wishwall and collect the reward.</en>
+    <zh>向圣歌盟地祈愿墙提交精致刺针领取奖励。</zh>
+  </entry>
+  <entry key="SQ_BLACKTHREAD_5_ANT_DESC_END">
+    <en>The Hunter’s Heart has been claimed from Skarrsinger Karmelita.</en>
+    <zh>已从斯卡尔歌后卡梅莉塔处获得猎手之心。</zh>
+  </entry>
+  <entry key="QUEST_SHAKRA_FINAL_LOC">
+    <en>Shakra</en>
+    <zh>沙克拉</zh>
+  </entry>
+  <entry key="QUEST_SONGCLAVE_DONATE_1_DESC_WALL">
+    <en>If this place must provide shelter for every ragged bug who wanders in, we’ll need supplies and currency. So if you’re reading this, empty your pockets!</en>
+    <zh>如果要收容每个流浪至此的可怜虫，我们需要大量物资。看到这条就掏空你的口袋吧！</zh>
+  </entry>
+  <entry key="QUEST_BROODMOTHER_TITLE">
+    <en>The Wailing Mother</en>
+    <zh>哀嚎母体</zh>
+  </entry>
+  <entry key="QUEST_SAVE_CITYMERCHANT_NAME">
+    <en>The Wandering Merchant</en>
+    <zh>商贾无踪</zh>
+  </entry>
+  <entry key="QUEST_FIXER3_DESC_INV">
+    <en>Donate shell shards to aid the building of a bridge.</en>
+    <zh>捐献甲壳碎片帮助建造桥梁。</zh>
+  </entry>
+  <entry key="SQ_MELODY_ARCHITECT_NAME">
+    <en>Architect’s Melody</en>
+    <zh>建筑师的旋律</zh>
+  </entry>
+  <entry key="MQ_DIVINGBELL_1_NAME">
+    <en>The Dark Below</en>
+    <zh>暗藏其下</zh>
+  </entry>
+  <entry key="SQ_MELODY_LIBRARIAN_DESC">
+    <en>Search the cloistered wing of the Citadel for the melody of the Vaultkeepers.</en>
+    <zh>在圣堡隐秘区域寻找书库管理员的旋律</zh>
+  </entry>
+  <entry key="QUEST_SKULL_KING_DESC">
+    <en>Hunt a Skull Tyrant of the Marrow.</en>
+    <zh>猎杀髓骨洞窟的骷髅暴君。</zh>
+  </entry>
+  <entry key="QUEST_SAVE_COURIER_TALL_DESC">
+    <en>Search for traces of the courier, Pill, and track his location.&lt;br&gt;&lt;br&gt;Pill was last seen in lower Greymoor.</en>
+    <zh>寻找送货员皮尔的踪迹。&lt;br&gt;&lt;br&gt;他最后出现在灰沼下层。</zh>
+  </entry>
+  <entry key="GARMOND_BLACK_THREADED_NAME">
+    <en>Hero’s Call</en>
+    <zh>英勇救援</zh>
+  </entry>
+  <entry key="TYPE_STEELSENTINEL_TITLE">
+    <en>Steel</en>
+    <zh>钢铁</zh>
+  </entry>
+  <entry key="TYPE_COURIER_TITLE">
+    <en>Delivery</en>
+    <zh>递送</zh>
+  </entry>
+  <entry key="QUEST_PILGRIM_RAGS_DESC_READY">
+    <en>Turn in the Pilgrim Shawls to Bone Bottom’s wishwall and collect the reward.</en>
+    <zh>向骸底镇祈愿墙提交朝圣者披肩领取奖励。</zh>
+  </entry>
+  <entry key="QUEST_COURIER_BONEBOTTOM_LOC">
+    <en>Bone Bottom</en>
+    <zh>骸底镇</zh>
+  </entry>
+  <entry key="QUEST_SONGPILGRIM_CLOAKS_LOC">
+    <en>Residents of Songclave</en>
+    <zh>圣歌盟地居民</zh>
+  </entry>
+  <entry key="QUEST_JOURNAL_DESC">
+    <en>Defeat the many creatures of Pharloom and fill out the Hunter’s Journal.</en>
+    <zh>击败纺络众多生物完善猎手日志。</zh>
+  </entry>
+  <entry key="QUEST_FIXER2_DESC_WALL">
+    <en>The road is hard for we pilgrims. I want to build a beautiful symbol of hope, to stand beside Bone Bottom and welcome all those who are about to begin their long journey.</en>
+    <zh>朝圣之路太过艰难。我想建造一座希望的象征，矗立在骸底镇用以指引即将开始艰苦旅程的朝圣者。</zh>
+  </entry>
+  <entry key="QUEST_FIXER1_DESC_INV">
+    <en>Donate shell shards to aid repairs around Bone Bottom.</en>
+    <zh>捐献甲壳碎片帮助骸底镇修缮。</zh>
+  </entry>
+  <entry key="QUEST_SAVE_COURIER_TALL_NAME">
+    <en>My Missing Brother</en>
+    <zh>寻虫启事</zh>
+  </entry>
+  <entry key="QUEST_SONGCLAVE_DONATE_1_DESC_INV">
+    <en>Donate rosaries to aid the growing Songclave.</en>
+    <zh>捐献念珠帮助圣歌盟地建设。</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_6_DESC">
+    <en>Dive into the void and cut Pharloom free.</en>
+    <zh>进入虚空，切断纺络的枷锁。</zh>
+  </entry>
+  <entry key="QUESTBOARD_TITLE">
+    <en>Wishwall</en>
+    <zh>祈愿墙</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_4_NAME">
+    <en>Spell Seeker</en>
+    <zh>追寻咒语</zh>
+  </entry>
+  <entry key="QUEST_PILGRIM_RAGS_DESC_INV">
+    <en>Hunt haunted pilgrims of Pharloom and collect Pilgrim Shawls from their bodies.</en>
+    <zh>猎杀在纺络游荡的咒蚀朝圣者并收集披肩。</zh>
+  </entry>
+  <entry key="QUEST_TROBBIO_2_DESC_WALL">
+    <en>In the darkest of shadows, all is made clear. Pharloom draws its final breath, and we few remaining must bear its dying pain. Come to the Citadel’s Stage and let us suffer together.</en>
+    <zh>在最黑暗的阴影中，真相终将显现。王国正咽下最后一口痛苦之气，而我们仍要完成演出。来圣堡剧台共赴苦难……</zh>
+  </entry>
+  <entry key="QUEST_ROACH_KILL_DESC">
+    <en>Hunt the Muckroaches of Sinner’s Road and collect Roach Guts from their bodies.</en>
+    <zh>猎杀罪途的淤秽蟑螂并收集内脏。</zh>
+  </entry>
+  <entry key="QUEST_COURIER_SONGCLAVE_LOC">
+    <en>Songclave</en>
+    <zh>圣歌盟地</zh>
+  </entry>
+  <entry key="QUEST_FLEAS_DESC">
+    <en>Seek fleas across the lands of Pharloom and guide them to the Flea Caravan.</en>
+    <zh>寻回纺络各地的迷途跳蚤并引至旅团。</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_3_NAME">
+    <en>Return to Pharloom</en>
+    <zh>返回纺络</zh>
+  </entry>
+  <entry key="QUEST_MOSSBERRY1_PRE_DESC">
+    <en>Speak to the Druid in Mosshome.</en>
+    <zh>与苔栖乡的德鲁伊对话。</zh>
+  </entry>
+  <entry key="QUEST_JOURNAL_TITLE">
+    <en>Bugs of Pharloom</en>
+    <zh>纺络虫族图鉴</zh>
+  </entry>
+  <entry key="MQ_PROMPT_BEGIN">
+    <en>New Objective</en>
+    <zh>新目标</zh>
+  </entry>
+  <entry key="QUEST_GOURMAND_LOC">
+    <en>Mergwin of the Citadel</en>
+    <zh>圣堡 梅尔格温</zh>
+  </entry>
+  <entry key="MQ_SILK_SNARE_DESC">
+    <en>Scale the Citadel and ensnare its monarch in a deadly trap.</en>
+    <zh>攀登圣堡，用致命陷阱禁锢其君主。</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_ITEM_TARGET_PILGRIMSREST">
+    <en>Deliver to Pilgrim’s Rest.</en>
+    <zh>送往朝圣者憩所。</zh>
+  </entry>
+  <entry key="UI_BOARD_DELIVER_TITLE">
+    <en>Deliver</en>
+    <zh>交付</zh>
+  </entry>
+  <entry key="QUEST_COURIER_FIXER_DESC">
+    <en>Deliver supplies to Flick at the Survivors’ Camp.</en>
+    <zh>向幸存者营地的弗利克交付补给品。</zh>
+  </entry>
+  <entry key="QUEST_SPRINT_PRE_DESC">
+    <en>Meet with Sprintmaster Swift at the furthest border of the Far Fields.</en>
+    <zh>与飞毛腿斯威夫特在远野边际见面。</zh>
+  </entry>
+  <entry key="QUEST_SKULL_KING_DESC_READY">
+    <en>Turn in the Crown Fragment to Bone Bottom’s wishwall and collect the reward.</en>
+    <zh>向骸底镇祈愿墙提交王冠碎片领取奖励。</zh>
+  </entry>
+  <entry key="QUEST_MOSSBERRY1_DESC">
+    <en>Collect Mossberries from the moss-covered areas of Pharloom’s lowlands.</en>
+    <zh>在纺络低地的苔藓区域收集苔莓。</zh>
+  </entry>
+  <entry key="MQ_TYPE_SEEK">
+    <en>Seek</en>
+    <zh>寻觅</zh>
+  </entry>
+  <entry key="SQ_MELODY_LIBRARIAN_RETURN_DESC_GOT">
+    <en>The Vaultkeeper’s Melody has been learned.</en>
+    <zh>已学会书库管理员的旋律。</zh>
+  </entry>
+  <entry key="QUEST_SAVE_COURIER_TALL_DESC_WALL">
+    <en>Need help-help quick! Me brother Pill is gone missing, vanished somewhere in Greymoor! Please, to help me find-find him!</en>
+    <zh>急需帮助！我兄弟皮尔在灰沼某处失踪了，请帮我找到他！</zh>
+  </entry>
+  <entry key="SQ_BLACKTHREAD_5_ANT_NAME">
+    <en>Heart of the Wild</en>
+    <zh>野性之心</zh>
+  </entry>
+  <entry key="QUEST_BELLHART_DONATION_START_LOC">
+    <en>Pavo of Bellhart</en>
+    <zh>钟心镇 帕沃</zh>
+  </entry>
+  <entry key="QUEST_SPRINT_KILL_DESC">
+    <en>Race Sprintmaster Swift to discover Pharloom’s fastest bug.</en>
+    <zh>挑战飞毛腿斯威夫特，看看谁是纺络最快的虫子。</zh>
+  </entry>
+  <entry key="QUEST_MRMUSHROOM_DESC_5">
+    <en>Cage of one who raged against the silken lie,</en>
+    <zh>囚笼首罪逆丝客，</zh>
+  </entry>
+  <entry key="MQ_PROMPT_COMPLETE">
+    <en>Objective Completed</en>
+    <zh>目标完成</zh>
+  </entry>
+  <entry key="QUEST_MRMUSHROOM_DESC_7">
+    <en>Past cradle’s peak, last test of fitness,</en>
+    <zh>摇篮极顶终试炼，</zh>
+  </entry>
+  <entry key="QUEST_MRMUSHROOM_DESC_6">
+    <en>Fell heart of frost, who soars on high,</en>
+    <zh>霜心振翼费岳阙，</zh>
+  </entry>
+  <entry key="QUEST_JOURNAL_LOC">
+    <en>Nuu at the Halfway Home</en>
+    <zh>中途酒馆 努努</zh>
+  </entry>
+  <entry key="QUEST_MRMUSHROOM_LOC">
+    <en>Pharloom</en>
+    <zh>纺络</zh>
+  </entry>
+  <entry key="QUEST_MRMUSHROOM_DESC_3">
+    <en>Scorched field on edge, shells black and burned,</en>
+    <zh>焦土边际髓骨灼，</zh>
+  </entry>
+  <entry key="QUEST_MRMUSHROOM_DESC_2">
+    <en>Over camp collapsed to the black thread plight,</en>
+    <zh>骸营覆灭黑丝劫，</zh>
+  </entry>
+  <entry key="QUEST_SAVE_SHERMA_DESC">
+    <en>Search for traces of the pilgrim, Sherma, and track his location.&lt;br&gt;&lt;br&gt;Sherma was travelling to the Citadel’s Whiteward.</en>
+    <zh>寻找朝圣者谢尔玛的踪迹。&lt;br&gt;&lt;br&gt;他正在前往圣堡白愈厅。</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_ITEM_NAME">
+    <en>Courier’s Swag</en>
+    <zh>送货员行囊</zh>
+  </entry>
+  <entry key="Q_SOUL_SNARE_PRE_DESC">
+    <en>Meet with Caretaker in Songclave.</en>
+    <zh>到圣歌盟地找看守者</zh>
+  </entry>
+  <entry key="QUEST_FIXER3_LOC">
+    <en>Flick of Bone Bottom</en>
+    <zh>骸底镇 弗利克</zh>
+  </entry>
+  <entry key="QUEST_FLEAGAMES_DESC_READY">
+    <en>Speak to Fleamaster Mooshka and commence the final ceremony.</en>
+    <zh>与跳蚤首领穆什卡交谈，开启最终仪式。</zh>
+  </entry>
+  <entry key="MQ_BELLSHRINES_DESC">
+    <en>Awaken the old bells throughout the lands.</en>
+    <zh>复苏各地尘封的古钟。</zh>
+  </entry>
+  <entry key="QUEST_RUNTRESS_DESC_READY">
+    <en>Return to Runt with the organs.</en>
+    <zh>带着器官返回复命。</zh>
+  </entry>
+  <entry key="QUEST_SAVE_SHERMA_NAME">
+    <en>Balm for the Wounded</en>
+    <zh>愈伤良方</zh>
+  </entry>
+  <entry key="QUEST_SHINY_BELL_GOOMBAS_DESC_WALL">
+    <en>When searching the bellveins carefully, you can sometimes find rare, silver bells. If we can salvage some, the material would be of great use!</en>
+    <zh>仔细探索钟脉，有时能找到稀有的银光铃铛。收集它们会很有用！</zh>
+  </entry>
+  <entry key="QUEST_THREADCORES_DESC_READY">
+    <en>Return to Bellhart’s wishwall to collect the reward.</en>
+    <zh>返回钟心镇祈愿墙领取奖励。</zh>
+  </entry>
+  <entry key="QUEST_TROBBIO_2_LOC">
+    <en>The Tormented One</en>
+    <zh>受难者</zh>
+  </entry>
+  <entry key="MQ_TYPE_ASCEND">
+    <en>Ascend</en>
+    <zh>攀升</zh>
+  </entry>
+  <entry key="MQ_CITADEL_ASCENT_DESC_LIFT">
+    <en>Rise above the Citadel and confront the one who haunts the lands of Pharloom.</en>
+    <zh>跨越圣堡之巅，直面灾厄之源。</zh>
+  </entry>
+  <entry key="QUEST_BEASTFLY_TITLE">
+    <en>Savage Beastfly</en>
+    <zh>暴怒兽蝇</zh>
+  </entry>
+  <entry key="SQ_BLACKTHREAD_5_FLOWER_DESC">
+    <en>Claim the Pollen Heart.</en>
+    <zh>获取花粉之心。</zh>
+  </entry>
+  <entry key="QUEST_BEASTFLY_DESC">
+    <en>Track down the Savage Beastfly in the Far Fields and defeat it.&lt;br&gt;&lt;br&gt;The Beastfly can be tracked by its shell sheddings and claw marks.</en>
+    <zh>在远野追踪并击败兽蝇。&lt;br&gt;&lt;br&gt;可通过外壳脱落物和爪痕追踪。</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_ITEM_TARGET_BONEBOTTOM">
+    <en>Deliver to Bone Bottom.</en>
+    <zh>送往骸底镇。</zh>
+  </entry>
+  <entry key="QUEST_SONGCLAVE_DONATE_2_TITLE">
+    <en>Strengthening Songclave</en>
+    <zh>强化圣歌盟地</zh>
+  </entry>
+  <entry key="QUEST_HUNTRESS_GIVE_NAME">
+    <en>Organs</en>
+    <zh>器官</zh>
+  </entry>
+  <entry key="QUEST_SHAKRA_FINAL_DESC_INV">
+    <en>Search for Shakra and her master in Bilewater.&lt;br&gt;&lt;br&gt;Shakra can be tracked by her trail of rings.</en>
+    <zh>在腐汁泽寻找沙克拉与其导师。&lt;br&gt;&lt;br&gt;可通过她遗留的环状痕迹追踪。</zh>
+  </entry>
+  <entry key="QUEST_FIXER1_LOC">
+    <en>Flick of Bone Bottom</en>
+    <zh>骸底镇 弗利克</zh>
+  </entry>
+  <entry key="QUEST_SPRINT_PRE_DESC_WALL">
+    <en>Be you nimble? Be you quick? If you would prove yourself Pharloom’s fastest bug, meet me at the furthest border of the Far Fields! With all haste!</en>
+    <zh>身法够快？动作迅捷？若想证明自己是纺络最快的虫子，就来远野边际见我！刻不容缓！</zh>
+  </entry>
+  <entry key="QUEST_MOSSBERRY1_DESC_READY">
+    <en>Give the Mossberries to the Druid of Mosshome.</en>
+    <zh>将苔莓交给苔栖乡的德鲁伊。</zh>
+  </entry>
+  <entry key="GARMOND_BLACK_THREADED_WALL">
+    <en>A distressed bug was heard calling for help near the Bellway atop the great sandy steps. Will no one come to the sad wretch’s aid?</en>
+    <zh>在蚀阶顶部的钟道附近听到了求救声，难道没有能者帮助那个可怜虫吗？</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_2_DESC">
+    <en>Reach the source of the black threads within the Abyss.</en>
+    <zh>在深渊中找到黑灾的源头。</zh>
+  </entry>
+  <entry key="QUEST_FIXER2_LOC">
+    <en>Flick of Bone Bottom</en>
+    <zh>骸底镇 弗利克</zh>
+  </entry>
+  <entry key="QUEST_BELL_HOUSE_START_TITLE">
+    <en>Restoration of Bellhart</en>
+    <zh>重振钟心镇</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_5_DESC_END">
+    <en>Bring the old hearts to the Snail Shamans in the Ruined Chapel beside Bone Bottom.</en>
+    <zh>将古老心脏带给颓败教堂的蜗牛萨满。</zh>
+  </entry>
+  <entry key="QUEST_FLEAGAMES_DESC">
+    <en>Achieve the high score in all Flea Games and become the Grand Champion.</en>
+    <zh>在所有跳蚤游戏中夺得最高分，成为终极冠军。</zh>
+  </entry>
+  <entry key="QUEST_SAVE_COURIER_SHORT_NAME">
+    <en>My Missing Courier</en>
+    <zh>失踪送货员</zh>
+  </entry>
+  <entry key="MQ_THREADSPUN_TOWN_DESC_INV">
+    <en>Break the silken curse ensnaring the town of Bellhart.</en>
+    <zh>破除缠绕钟心镇的丝缚诅咒。</zh>
+  </entry>
+  <entry key="MQ_RESCUE_BELLBEAST_DESC">
+    <en>Descend into the bellway and defeat the hostile creature within.</en>
+    <zh>深入钟道，击败其中的凶恶生物。</zh>
+  </entry>
+  <entry key="MQ_CITADEL_ASCENT_NAME">
+    <en>Pharloom’s Crown</en>
+    <zh>纺络王冕</zh>
+  </entry>
+  <entry key="QUEST_WITCH_CURSE_LOC">
+    <en />
+    <zh />
+  </entry>
+  <entry key="COURIER_SUPPLIES_MEAT_DESC">
+    <en>Fatty meat of indeterminate origin. Once prepared it will quickly spoil if not stored properly.</en>
+    <zh>来源不明的肥肉，若不妥善保存会快速变质。</zh>
+  </entry>
+  <entry key="QUEST_MRMUSHROOM_DESC_1">
+    <en>Under chapel fallen to the monarch’s might,</en>
+    <zh>圣堂倾颓君威下，</zh>
+  </entry>
+  <entry key="QUEST_COURIER_SLAVE_DESC">
+    <en>Deliver the Queen’s Egg to Styx of Sinner’s Road.</en>
+    <zh>将女王之卵交给罪途的奴仆。</zh>
+  </entry>
+  <entry key="QUEST_CROW_LOC">
+    <en>Creige of the Halfway Home</en>
+    <zh>中途酒馆 克雷吉</zh>
+  </entry>
+  <entry key="QUEST_SHININGCOGS_DESC_INV">
+    <en>Hunt Cogworks in Cogwork Core and collect Shining Cogs.</en>
+    <zh>猎杀机枢核心的机械虫并收集闪亮齿轮。</zh>
+  </entry>
+  <entry key="QUEST_COURIER_SONGCLAVE_NAME">
+    <en>Songclave Supplies</en>
+    <zh>圣歌盟地补给</zh>
+  </entry>
+  <entry key="QUEST_SONGPILGRIM_CLOAKS_DESC_INV">
+    <en>Hunt cloaked choirbugs of the Citadel and collect Choir Cloaks from their bodies.</en>
+    <zh>猎杀圣堡游荡的圣咏机兵并收集外衣。</zh>
+  </entry>
+  <entry key="MQ_BELLSHRINES_DESC_READY">
+    <en>Return to the Grand Gate and open the way to the Citadel.</en>
+    <zh>返回巨扉圣门，叩启通往圣堡的道路。</zh>
+  </entry>
+  <entry key="MQ_PROMPT_PROGRESS">
+    <en>Objective Updated</en>
+    <zh>目标更新</zh>
+  </entry>
+  <entry key="QUEST_STEELSENTINEL_DESC_READY">
+    <en>Investigate the ritual site beside Bonegrave.</en>
+    <zh>调查骸冢旁的仪式地点。</zh>
+  </entry>
+  <entry key="SQ_BLACKTHREAD_5_CORAL_DESC_END">
+    <en>The Encrusted Heart has been claimed from Crust King Khann.</en>
+    <zh>已从壳王卡汗处获得壳王之心。</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_SLAVE_NAME">
+    <en>Queen’s Egg</en>
+    <zh>女王之卵</zh>
+  </entry>
+  <entry key="QUEST_SAVE_SHERMA_LOC">
+    <en>Sherma of Songclave</en>
+    <zh>圣歌盟地 谢尔玛</zh>
+  </entry>
+  <entry key="QUEST_SKULL_KING_DESC_WALL">
+    <en>A Skull Tyrant, largest of the Marrow’s loathsome bony predators, prowls the caves above the great path. Slay the beast and keep us all safe!</en>
+    <zh>髓骨洞窟最巨大的骸骨掠食者——骷髅暴君正在上层洞穴游荡。斩杀它以保大家平安！</zh>
+  </entry>
+  <entry key="MQ_TYPE_DESCEND">
+    <en>Descend</en>
+    <zh>潜降</zh>
+  </entry>
+  <entry key="QUEST_SONGPILGRIM_CLOAKS_TITLE">
+    <en>Cloaks of the Choir</en>
+    <zh>圣咏外衣</zh>
+  </entry>
+  <entry key="MQ_CITADEL_SEEKER_LOC">
+    <en>Pharloom</en>
+    <zh>纺络</zh>
+  </entry>
+  <entry key="QUEST_ANT_TRAPPER_LOC">
+    <en>Gilly of Far Fields</en>
+    <zh>远野 吉莉</zh>
+  </entry>
+  <entry key="QUEST_COURIER_SLAVE_LOC">
+    <en>Sinner’s Road</en>
+    <zh>罪途</zh>
+  </entry>
+  <entry key="QUEST_ANT_TRAPPER_DESC">
+    <en>Track the one who stole Gilly’s keepsake near the Bellshrine between Deep Docks and Far Fields.</en>
+    <zh>追踪在深坞与远野之间的钟殿附近偷走吉莉纪念品的窃贼。</zh>
+  </entry>
+  <entry key="Q_SOUL_SNARE_NAME">
+    <en>Silk and Soul</en>
+    <zh>灵丝与灵魂</zh>
+  </entry>
+  <entry key="MQ_TYPE_INVESTIGATE">
+    <en>Search</en>
+    <zh>探查</zh>
+  </entry>
+  <entry key="MQ_BLACKTHREAD_6_NAME">
+    <en>Last Dive</en>
+    <zh>最终潜跃</zh>
+  </entry>
+  <entry key="MQ_CITADEL_ASCENT_DESC">
+    <en>Scale the Citadel and confront the one who haunts the lands of Pharloom.</en>
+    <zh>攀登圣堡，直面萦绕纺络的灾厄。</zh>
+  </entry>
+  <entry key="QUEST_SKULL_KING_TITLE">
+    <en>The Terrible Tyrant</en>
+    <zh>暴君讨伐</zh>
+  </entry>
+  <entry key="QUEST_BROLLY_GET_TITLE">
+    <en>Flexile Spines</en>
+    <zh>柔韧棘芯</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_MASK_DESC">
+    <en>Pale glaze used in the preparation and protection of bone masks.</en>
+    <zh>用于骨甲面甲制备和防护的苍白涂料。</zh>
+  </entry>
+  <entry key="Q_SOUL_SNARE_DESC_GOT">
+    <en>Give the collected components to the Caretaker of Songclave.</en>
+    <zh>将收集的组件交给圣歌盟地看守者。</zh>
+  </entry>
+  <entry key="MQ_DIVINGBELL_2_NAME">
+    <en>The Dark Below</en>
+    <zh>暗藏其下</zh>
+  </entry>
+  <entry key="QUEST_BROLLY_GET_LOC">
+    <en>Seamstress of Far Fields</en>
+    <zh>远野裁缝</zh>
+  </entry>
+  <entry key="QUEST_FIXER1_DESC_WALL">
+    <en>A lotta repairs to be done around here, but I need more materials! All I wish for is some shell shards so I can get to work. Not asking too much, am I?</en>
+    <zh>这里有很多东西要修理，但我需要更多材料！我只想要些甲壳碎片来开工，这要求不过分吧？</zh>
+  </entry>
+  <entry key="QUEST_SAVE_COURIER_SHORT_DESC_WALL">
+    <en>My dear little courier was last seen in Shellwood. Please someone, find Tipp and send him home, along with all of his precious stock!</en>
+    <zh>我的小送货员最后一次出现在甲木林，请帮忙找到蒂普并送他回家，还有他那些珍贵的货物！</zh>
+  </entry>
+  <entry key="QUEST_THREADCORES_DESC_WALL">
+    <en>Such horror upon the roads! Those black mounds formed of husks and bugs, corrupting everything around. If only someone would cut them down and grant the poor souls their rest!</en>
+    <zh>道路上的恐怖景象！那些由空壳与虫尸堆成的黑色肿块，正腐蚀周边一切。希望有人能斩除它们，让可怜的灵魂安息！</zh>
+  </entry>
+  <entry key="QUEST_FIXER3_TITLE">
+    <en>A Lifesaving Bridge</en>
+    <zh>救命桥</zh>
+  </entry>
+  <entry key="MQ_THREADSPUN_TOWN_NAME">
+    <en>The Threadspun Town</en>
+    <zh>丝缚小镇</zh>
+  </entry>
+  <entry key="QUEST_SONGPILGRIM_CLOAKS_DESC_READY">
+    <en>Turn in the Choir Cloaks to Songclave’s wishwall and collect the reward.</en>
+    <zh>向圣歌盟地祈愿墙提交圣咏外衣领取奖励。</zh>
+  </entry>
+  <entry key="MQ_RESCUE_BELLBEAST_NAME">
+    <en>Beast in the Bells</en>
+    <zh>钟道兽患</zh>
+  </entry>
+  <entry key="QUEST_SONG_KNIGHT_DESC">
+    <en>Track the Second Sentinel by their markers left near Songclave.</en>
+    <zh>通过圣歌盟地附近的标记追踪次席戍卫。</zh>
+  </entry>
+  <entry key="QUEST_SHINY_BELL_GOOMBAS_DESC_INV">
+    <en>Collect Silver Bells in the bellvein tunnels above and below Bellhart.</en>
+    <zh>在钟心镇上下的钟脉收集银光铃铛。</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_MEAT_NAME">
+    <en>Courier’s Rasher</en>
+    <zh>送货虫的熏肉</zh>
+  </entry>
+  <entry key="COURIER_SUPPLIES_MEAT_TARGET_SLAVE">
+    <en>Deliver to Styx of Sinner’s Road.</en>
+    <zh>将物资送至罪途的奴仆。</zh>
+  </entry>
+  <entry key="QUEST_RUNTRESS_DESC">
+    <en>Use tools to acquire organs of various types so Runt may feed.</en>
+    <zh>使用工具获取各类器官喂养幼兽。</zh>
+  </entry>
+  <entry key="QUEST_BEASTFLY_LOC">
+    <en>Residents of Bellhart</en>
+    <zh>钟心镇居民</zh>
+  </entry>
+</sheet>

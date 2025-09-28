@@ -28,6 +28,7 @@ export interface TabRenderProps {
 export interface TabDefinition {
   id: TabId;
   label: string;
+  labelKey?: string;
   render: (props: TabRenderProps) => ReactNode;
   getExtra?: (props: { parsedJson: unknown; decrypted: boolean }) => ReactNode;
 }

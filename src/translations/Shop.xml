@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Shop">
+  <entry key="THUNTER_ITEM_BLASTEDLANDS">
+    <en>Blasted Steps</en>
+    <zh>蚀阶</zh>
+  </entry>
+  <entry key="THUNTER_ITEM_FIELDLANDS">
+    <en>Fieldlands</en>
+    <zh>远野地区</zh>
+  </entry>
+  <entry key="THUNTER_ITEM_MUCKLANDS">
+    <en>Bilelands</en>
+    <zh>腐沼地区</zh>
+  </entry>
+  <entry key="TITLE_COURIERS_QUESTS">
+    <en>Deliveries</en>
+    <zh>送货员</zh>
+  </entry>
+  <entry key="THUNTER_ITEM_PEAKLANDS">
+    <en>Mount Fay</en>
+    <zh>费耶山</zh>
+  </entry>
+  <entry key="THUNTER_ITEMS_TITLE">
+    <en>Flea Findings</en>
+    <zh>跳蚤线索</zh>
+  </entry>
+  <entry key="THUNTER_ITEM_CITADEL">
+    <en>The Citadel</en>
+    <zh>圣堡</zh>
+  </entry>
+  <entry key="THUNTER_ITEM_MARROWLANDS">
+    <en>Bonelands</en>
+    <zh>骸骨地区</zh>
+  </entry>
+  <entry key="THUNTER_ITEM_MIDLANDS">
+    <en>Midlands</en>
+    <zh>中部地区</zh>
+  </entry>
+</sheet>

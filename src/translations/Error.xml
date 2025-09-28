@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Error">
+  <entry key="OK">
+    <en>OK</en>
+    <zh>确定</zh>
+  </entry>
+  <entry key="SAVE_FAILED_DESC">
+    <en>Please try again. If the issue persists, please visit hollowknightsilksong.com/help for more info.</en>
+    <zh>请再次尝试保存。如果问题仍未解决，请访问 hollowknightsilksong.com/help 获取技术支持。</zh>
+  </entry>
+  <entry key="SAVE_CORRUPTED_TITLE">
+    <en>Save file can not be read.</en>
+    <zh>无法读取存档文件。</zh>
+  </entry>
+  <entry key="SAVE_CORRUPTED_DESC">
+    <en>You may try restoring a previous auto save using the option below.</en>
+    <zh>您可以通过下方选项尝试恢复之前的自动存档。</zh>
+  </entry>
+  <entry key="SAVE_FAILED_TITLE">
+    <en>Save could not be written.</en>
+    <zh>无法保存进度。</zh>
+  </entry>
+</sheet>

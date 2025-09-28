@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Wilds">
+  <entry key="SEAMSTRESS_BROLLY_QUEST_REOFFER">
+    <en>Ready to reconsider my offer? Good for you! You won’t be going far without my help, dear.</en>
+    <zh>回心转意了？明智的选择！没我帮忙你可走不远。</zh>
+  </entry>
+  <entry key="SEAMSTRESS_REPEAT">
+    <en>I’ll grant you my courtesy, stray one. I’ll even offer aid where I’m able. Just don’t be hanging around too long.&lt;page&gt;I may not be a fan of that Citadel, but I’m smart enough to avoid its ire.</en>
+    <zh>我愿意给你几分面子，浪游者。需要帮助时也会搭把手，但可别赖着不走。&lt;page&gt;我虽然厌恶圣堡，但可没傻到去触霉头。</zh>
+  </entry>
+  <entry key="ANT_MERCHANT_REPEAT">
+    <en>Kha mauak. Noku gri?</en>
+    <zh>喀 玛阿克。诺库 格日？</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_REMEET">
+    <en>Back here again? It’s a strange pilgrimage that bends and doubles back on itself. Still, you may as well take the opportunity to share your rosaries.</en>
+    <zh>又绕回来了？没见过像你这样在朝圣路上兜兜转转的。不过正好把念珠拿来交易。</zh>
+  </entry>
+  <entry key="SEAMSTRESS_EXTRA_LORE_2_ALT">
+    <en>I’m loath to spoil the surprise, but curiosity begs me to ask. Do you know why they pursued you? Those Citadel bugs?&lt;hpage&gt;I have seen their Citadel and its state, and I have strong suspicion...&lt;hpage&gt;They hunt me for my nature. For the Silk produced within my shell. Not for themselves but for the one atop it all. &lt;page&gt;Ahh ha! Truth. In Pharloom, yours is a rare skill, prized beyond measure, to channel one’s soul within a thread. Soul and Silk inseparably linked.&lt;page&gt;It is a skill almost lost from Pharloom. Those old Weavers shared it, but they’re long dead now.&lt;hpage&gt;The one atop this kingdom... They share my nature, or some part of it. I’ve seen their Silk at work, in vast scale.&lt;hpage&gt;It snares the shells of those upon the roads, and guides with false life the many hollowed husks left to lapse.&lt;page&gt;Hmm... You’ve looked far towards the truth of it. Closer even than I’d dare to dig. But then you’re clearly of the countenance to be coping with such heady stuff...&lt;page&gt;Now! It’s past time you were going! Your style and your Silk sure are fine, but stay too long and you’ll only be trouble for me!</en>
+    <zh>我本来不想多嘴，但实在好奇，圣堡的虫为何追你？&lt;hpage&gt;见过如今的圣堡后，我怀疑……&lt;hpage&gt;它们觊觎我甲壳产出灵丝的能力，而且是为了顶上那位。&lt;page&gt;哈！肯定是这样！在纺络，以魂注丝是无价神技，让魂与丝成为一体。&lt;page&gt;这技艺近乎失传。曾经的织者倒是会，如今早死绝了。&lt;hpage&gt;王国之上那位……与我同源，曾见识过相似的灵丝。&lt;hpage&gt;用丝线缠缚朝圣者，操纵空壳作为傀儡&lt;page&gt;嗯……你眼力不错！圣堡啊……答案都在那条路上，慢慢攀吧姑娘。&lt;page&gt;好了，你该走了！虽你长得英姿飒爽，但身负灵丝，久留只会给我惹祸！</zh>
+  </entry>
+  <entry key="SEAMSTRESS_BROLLY_QUEST_ACCEPT">
+    <en>A smart choice. Get out there and gather those spine cores, and best you be quick about it.&lt;page&gt;As nice as it is to have the company, if you hang around too long, those Citadel bugs’ll turn their gaze on me as well. </en>
+    <zh>明智的选择。那就快去收集棘刺吧，最好手脚麻利点。&lt;page&gt;虽说有身边个伴也挺好，但你在这待太久会连累我也遭到圣堡注目。</zh>
+  </entry>
+  <entry key="SEAMSTRESS_BROLLY_QUEST_OFFER">
+    <en>If you’re planning to ascend from these low fields, you’ll be needing some lift, and I’m just the bug to help.&lt;page&gt;Head for the caves beyond my home. The bugs within produce a spine with a marvellous core, flexible yet strong.&lt;page&gt;Cut their spines and collect the cores. Return to me, and I’ll soon have your old cloak transformed into something far more buoyant.</en>
+    <zh>想从这低地往上去，得靠点助力，我正好能帮忙。&lt;page&gt;去我家附近的洞窟，里头的甲虫能产出一种奇妙棘刺，柔韧又结实。&lt;page&gt;收集棘刺交给我，保准把你的旧披风改造得轻巧如羽！</zh>
+  </entry>
+  <entry key="ANT_QUEEN_BG_MEET">
+    <en>Pale beast... bringing ruin... we had sensed it... you writing harsh our final fate...&lt;page&gt;If power... you come seeking... mine is faded.... mortal... time taken...&lt;hpage&gt;I seek only to save these lands, great one, to break them free from this fatal sickness born of thread and void.&lt;page&gt;Kcha! If you may... beast... If you can... </en>
+    <zh>苍白异兽……携灾而至……吾等早有预感……汝书写的，是斯卡尔的终章……&lt;page&gt;若力量……是汝所求……吾已衰微……凡躯……时日无多……&lt;hpage&gt;我只为拯救这片土地而来，蚁后，将众生从丝线与虚空带来的灾厄中解放。喀嚓！……若汝能……异兽……若汝可……</zh>
+  </entry>
+  <entry key="SEAMSTRESS_BROLLY_HANDIN_ASK">
+    <en>Well, then! I can tell by the rattling from within your cloak, your hunt was a success! If you’ll kindly pass over the cores, I can get to work.</en>
+    <zh>嗯，我能听到你披风里的窸窣声，看来是满载而归！棘刺拿来，我马上开工。</zh>
+  </entry>
+  <entry key="ANT_QUEEN_BG_REPEAT">
+    <en>Save them... if you can... pale beast...</en>
+    <zh>拯救他们……若汝可……苍白异兽……</zh>
+  </entry>
+  <entry key="RESTING_PILGRIM_REPEAT">
+    <en>Ahhh... I am so tired. But to tarry long would be sacrilege...</en>
+    <zh>唉……太累……但久留便是渎神……</zh>
+  </entry>
+  <entry key="HUNTRESS_QUEST_DECLINE">
+    <en>Very well, ssspiidderr. Keep your organsss, for now. </en>
+    <zh>好吧，小蜘蛛……留着你的内脏，咝——暂时。</zh>
+  </entry>
+  <entry key="SEAMSTRESS_VISITED_CITADEL">
+    <en>&lt;page&gt;Oooh! Stray one. Do tell, how goes the journey?&lt;hpage&gt;I have ventured high, seen the Citadel and its state. That place is long lost... generations lost, a gilded tomb, drowned in Silk dregs.&lt;hpage&gt;For its minions, so compelled in my capture, I now see clearly the source of their unity, and their strange strength... They are husks bound tight by the one who waits at its crest...&lt;page&gt;Agh! Look at you! Seeing right through to the truth of it! Closer even than I’d dare to dig. But then you’re clearly of the countenance to be coping with such heady stuff...&lt;page&gt;Now! Best you be heading. You’re clearly planning to stir up some serious trouble. I don’t want to be close when it kicks off!</en>
+    <zh>&lt;page&gt;哟！浪游者。最近怎么样？&lt;hpage&gt;我攀到了高处，见到了如今的圣堡。宛如一座镀金坟冢，浸在腐朽丝渣里。&lt;hpage&gt;那些想抓我的喽啰，我也看清了。都是被顶端那位用丝线操控的傀儡……&lt;page&gt;嗬！这就看清了真相！比我更敢深究。看你这副神情，摆明了是要碰一碰这硬茬……&lt;page&gt;那就赶紧上路！既然你要惹大麻烦，我可不想被波及！</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_ITEM_DESC_TOOLPOUCH">
+    <en>That pouch of yours... With the scraps left here and a little work, I could add some pockets for you, let you carry more tools and shards while on the road. That’d be nice, wouldn’t it?</en>
+    <zh>你这工具袋……我能加点布料，让它能多塞工具。这样路上也方便，对吧？</zh>
+  </entry>
+  <entry key="HUNTRESS_REPEAT">
+    <en>All those gooey bugssss, all so reluctant to share their organs. Sssooo much coaxing and gnawing, and prodding.&lt;page&gt;They should be proud! Their ssmall sssacrifice would become much sssustenance for my ferocious young.</en>
+    <zh>那些黏糊糊的虫子，个个抠门不肯掏出内脏给我。咝——连哄带骗，又咬又戳，才肯给我。&lt;page&gt;他们该骄傲！咝——这点小牺牲能养大我那群凶猛的孩子。</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_TALK_DELIVERY_POST">
+    <en>For your efforts, take these rosaries as payment. May they not lay too heavy upon your shell.</en>
+    <zh>这是酬劳，但愿念珠不会压垮你的行囊。</zh>
+  </entry>
+  <entry key="HUNTRESS_QUEST_ACCEPT">
+    <en>&lt;hpage&gt;I will not offer my own organs, hunter, though I may bring the meat of others slain.&lt;page&gt;Good ssspidderr! Ssskewered. Ssshredded. Ssseared! Bring it all. Much will be needed, enough to sate my brood to come.&lt;hpage&gt;Several of my tools can prepare the meats as you request. I have been fortunate to find so varied an arsenal within your lands.&lt;page&gt;My brood has not long till hatching, ssssspiddderrr. Do your duty ssswift, and you shall sssee reward for the sssslaughter.</en>
+    <zh>&lt;hpage&gt;猎手，我不会为你献上自己的内脏，但也许我能带给你其他猎物的血肉。&lt;page&gt;咝——！好啊，小蜘蛛！串烧、撕碎、炙烤！统统带来。我的孩子需要大量血肉才能饱足。&lt;hpage&gt;我带的工具能按你的要求处理血肉。你们这地界真像个武器库，各种装备种类齐全。&lt;page&gt;我的孩子就快孵化了，咝——小蜘蛛……动作快点，完成我的需求，必有重谢。</zh>
+  </entry>
+  <entry key="SEAMSTRESS_BROLLY_QUEST_REPEAT">
+    <en>&lt;hpage&gt;I’ll have the spine cores for you shortly, madam.&lt;page&gt;Good, good! The caves just beyond here are full of the creatures, floating carelessly in the warm air.&lt;page&gt;I’m sure your big needle there can coax them into sharing their spines. Then it’s only a quick matter of cutting them open and grabbing the cores.</en>
+    <zh>&lt;hpage&gt;我稍候就带来棘刺，女士。&lt;page&gt;好！附近的洞窟里到处是那种浮空的蠢虫。&lt;page&gt;你的长针肯定能"劝"它们献出棘刺。</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_ITEM_DESC_WEIGHTED_ANKLET">
+    <en>A holy burden to help maintain your poise. Whether striking others or being struck yourself, you’ll remain firmly in place.</en>
+    <zh>这份神圣负赘能帮助你维持姿态，无论攻守都能稳如磐石。</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_CANCEL">
+    <en>Not interested in trade? I wonder, will your rosaries weigh you down during your ascent?</en>
+    <zh>不做买卖？揣着念珠攀登不怕负担过重？</zh>
+  </entry>
+  <entry key="SEAMSTRESS_BROLLY_QUEST_COMPLETE">
+    <en>Perfect! These should be more than enough. Wait there just a moment and we’ll soon have you soaring up and away from these lowlands.</en>
+    <zh>完美！这些够用了。稍等片刻，保你能够腾空而起，远离这破地方。</zh>
+  </entry>
+  <entry key="ANT_MERCHANT_MEET">
+    <en>Rkraha. Uohk kha!&lt;hpage&gt;My apologies, sir. Though I can grasp the language of many bugs, your words are unfamiliar even to me.&lt;page&gt;Kha... kha mauak. Noku... gri?&lt;hpage&gt;&lt;hpage&gt;These items you have collected. These are the wares of a warrior. Do you wish to trade?&lt;page&gt;Noku... noku!</en>
+    <zh>尔克拉哈。乌奥赫克 喀！&lt;hpage&gt;抱歉，先生。虽然我略懂各族虫语，但你的语言我实在不熟。&lt;page&gt;喀……喀 玛阿克。诺库……格日？&lt;hpage&gt;&lt;hpage&gt;你收集的这些东西……是战士的货。你想交易？&lt;page&gt;诺库……诺库！</zh>
+  </entry>
+  <entry key="SEAMSTRESS_ACT_3_REPEAT">
+    <en>Get a move on, stray one! We’re all suffering for your conflict... Maybe next time you act towards calmer conclusions, aye?</en>
+    <zh>快去吧！大伙都在遭罪……下次闹腾的时候悠着点行不？</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_ITEM_DESC_SHARD_POUCH">
+    <en>These humble shards can form together into something grand, if you possess the vision to shape them.</en>
+    <zh>这些碎片应该能拼凑成形，但要看你有无打磨的技巧。</zh>
+  </entry>
+  <entry key="SEAMSTRESS_BROLLY_HANDIN_REFUSE">
+    <en>After all that hunting, you won’t trust me with your spoils? You’re a funny one. They won’t do you any good just filling up your pockets!</en>
+    <zh>大费周折取来棘刺，却信不过我？你可真逗。揣着这些刺有什么用！</zh>
+  </entry>
+  <entry key="SEAMSTRESS_WEARING_ORDER_BADGE">
+    <en>That’s a fancy pin you’re flaunting upon your cloak there. Here’s hoping you didn’t have to kill to claim it.&lt;hpage&gt;The emblem was given freely, Seamstress, as reward for a fierce duel won fair.&lt;page&gt;Given freely!? My, my. So my sister’s welcomed another to the order... Sounds like age might’ve softened even her stoic style.&lt;page&gt;Can’t say I think too fondly on the old ways... but some rituals, and some memories... those are still worth preserving.</en>
+    <zh>披风上别着的针徽挺漂亮嘛，但愿不是从尸壳上抢来的。&lt;hpage&gt;这针徽是公平比斗赢来的，女士。&lt;page&gt;她自愿给的？！哎呀呀，竟然纳新成员入团……岁月到底是软了她古板心肠。&lt;page&gt;我不待见那些古训……但有些仪式，有些回忆……还是值得留存。</zh>
+  </entry>
+  <entry key="ANT_MERCHANT_SHARD_POUCH_DESC">
+    <en>Rkraha. Tnk uokn.</en>
+    <zh>尔克拉哈。滕克 乌奥肯。</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_PURCHASED">
+    <en>Yes, that’s better. Sharing your devotion with me will surely bring you luck.</en>
+    <zh>这就对了。分我一份虔信自会带来好运。</zh>
+  </entry>
+  <entry key="SEAMSTRESS_MEET_ALT">
+    <en>Well, aren’t you a sight! No, don’t tell me! You’re as odd as they come.&lt;page&gt;Your poise! Your form! Are you hunted? Pursued? The Citadel would see a fine prize in you.&lt;hpage&gt;It is as you say, madam. Veiled bugs of the Citadel brought me to your land. I now seek for one who would answer why, and will ask with force as needed.&lt;page&gt;Ha! Fierce too! These are bleak times, but a powerful stray like you could certainly cause some change.&lt;page&gt;Well then! I’ve no love for that holy caste, and I do worry for this kingdom’s ailing state. If you’re seeking to settle a score, perhaps I can lend some aid?</en>
+    <zh>瞧瞧这模样！让我猜猜，你不是这里的虫吧？&lt;page&gt;这仪态！这身姿！你正被追杀？被通缉？圣堡肯定很重视你。&lt;hpage&gt;如你所言，女士。覆面虫将我带来此地，我打算向圣堡讨个说法。&lt;page&gt;哈！还挺凶！现在外面乱得很，你这般强悍的浪客肯定能搅出点动静。&lt;page&gt;正好！我也讨厌那群圣徒，也忧心王国的灾祸。你要找他们算账的话，或许我能帮衬？</zh>
+  </entry>
+  <entry key="RESTING_PILGRIM_DAZED">
+    <en>Uohhhhh.... Ahhh.....</en>
+    <zh>呃啊啊……唉……</zh>
+  </entry>
+  <entry key="HUNTRESS_QUEST_REPEAT">
+    <en>I await the meat, sspiidder. Bring me much. Enough to sate my brood to come.</en>
+    <zh>我在等着血肉呢，小蜘蛛。咝——多带些，要够喂饱我的孩子们。</zh>
+  </entry>
+  <entry key="HUNTRESS_MEET">
+    <en>Ssssppiidderr... Your ssstench is strange... yet similar. Your tension isss smelt strong. Do I ssseem a threat to you?&lt;hpage&gt;This whole land keeps me cautious, tall one, and your claws look to have seen much sharp use.&lt;page&gt;Yesss... I kill, gladly, but only to feed my ssshhhell, and my brood to come.&lt;page&gt;Your meat... much ssssustanence it could grant... but too hard to pry... Your long, false claw would ssslash back ssswift.&lt;hpage&gt;Good, so you can sense my skill, as I yours. A truce then, that we both shall live beyond our meeting.</en>
+    <zh>&lt;page&gt;咝——小蜘蛛……你的气味既陌生又熟悉……紧张感浓得刺鼻。我看你对我很戒备，是不是？&lt;hpage&gt;这片土地危机四伏，高个子，我自然得保持戒备。我看你刃爪锋利，想必是久经厮杀。&lt;page&gt;咝——没错……我乐于杀戮，但也只是为了喂饱自己，以及我即将出生的孩子们。&lt;page&gt;你的血肉……能为我提供不少给养……但太难撬开……咝——你那长针会立刻反击。&lt;hpage&gt;很好，看来你清楚我的手段，正如我知晓你的能耐。立个和平协议吧，高个子——让咱们都能活着离开这里。</zh>
+  </entry>
+  <entry key="SEAMSTRESS_ACT_3_MEET">
+    <en>Stray one! Things were already falling grim when last you left. Now it’s worse! The whole world quaking and wailing, and all stretched through with blackened strands! &lt;page&gt;This wouldn’t be your doing, by chance?&lt;hpage&gt;...I am in part responsible, though know this outcome was not my intent, and that I shall work to calm it.&lt;page&gt;I knew it! Course it had to be you. Here I was, hoping you’d bring a shake up. Instead you’ve brought an ending!&lt;page&gt;Well, move it, I say! Get to your fixing. We’re all now suffering for the scale your conflict... Maybe this time you act towards calmer conclusions, aye?</en>
+    <zh>浪游者！上次分别时外面就够乱的了，现在更糟！到处都在晃荡，到处都是黑丝！&lt;page&gt;该不会是你干的吧？&lt;hpage&gt;……我确实有责任，但这结果不在我预料之内。我定会平息这场灾祸。&lt;page&gt;就知道！盼着你能搅局，没想到竟是末日！&lt;page&gt;赶紧的！快去补救。大伙都在遭罪……下次闹腾的时候悠着点行不？</zh>
+  </entry>
+  <entry key="H_RUNT_QUEST_ACCEPT_LACK_TOOLS">
+    <en>&lt;hpage&gt;In time, child, I may provide the meats, though first I must acquire tools appropriate to the task. My current arsenal will not grant your wish in full.&lt;page&gt;Sssss... Time, yesss?... Then usss too will grow?... Sharpsss clawss... hard shell... like siblings goness...</en>
+    <zh>&lt;hpage&gt;小不点，过阵子兴许能给你血肉，不过得先找合适的工具。我手上的家伙不够用。&lt;page&gt;咝……要等？……到时候我也能长壮了？……爪子尖利……甲壳坚硬……像离我而去的兄弟姐妹一样……</zh>
+  </entry>
+  <entry key="H_RUNT_QUEST_COMPLETE">
+    <en>Yesss... Now. We’sss too growsss... feastsss... Be like brood... gone... all... far gone...&lt;hpage&gt;Good luck to you, small one. If this land can be saved, I hope you come to find your place within it.</en>
+    <zh>咝——好……现在。我也能长壮了……也能大吃特吃了……像其他兄弟姐妹一样……远走高飞的兄弟姐妹……&lt;hpage&gt;祝你好运，小不点。若是我能拯救这片土地，希望你到时候能找到自己归属。</zh>
+  </entry>
+  <entry key="HUNTRESS_QUEST_ACCEPT_LACK_TOOLS">
+    <en>&lt;hpage&gt;I will not offer my own organs, tall one, though I may bring the meat of others slain.&lt;page&gt;Good ssspidderr! Ssskewered. Ssshredded. Ssseared! Bring it all. Much will be needed, enough to sssate my brood to come.&lt;hpage&gt;Your demand is extensive. First, I must acquire tools appropriate to the task. My current arsenal will not grant your wish in full.&lt;page&gt;My brood has not long till hatching, ssssspiddderrr. Find your tools. Do your duty ssswift, and you shall ssee reward for the sssslaughterrr.</en>
+    <zh>&lt;hpage&gt;猎手，我不会为你献上自己的内脏，但也许我能带给你其他猎物的血肉。&lt;page&gt;咝——！好啊，小蜘蛛！串烧、撕碎、炙烤！统统带来。我的孩子需要大量血肉才能饱足。&lt;hpage&gt;你的要求可不简单。我需要先找到合适的工具，眼下手中的家伙可不够用。&lt;page&gt;我的孩子就快孵化了，咝——小蜘蛛……动作快点，找到你需要的工具，完成我的需求，必有重谢。</zh>
+  </entry>
+  <entry key="ANT_MERCHANT_CURVE_CLAWS_DESC">
+    <en>Auakh khe. Rnka. Uakht rk.</en>
+    <zh>咔啊克 赫。恩卡。乌克特 尔克。</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_RUCKUS">
+    <en>That beast! What wicked punishments are sent to test us! Why must we pilgrims, who have done no evil, be so tormented?&lt;page&gt;Tell me, where is it written? This law that says we must suffer every hardship just to earn the merest hope of happiness?&lt;hpage&gt;Wild lands like these are ruled by instinct, not laws. You must rely on your own strength and skill to survive.&lt;page&gt;I have neither! If what you say is true, I may as well crawl outside and let myself be devoured right now. Save myself some worry!&lt;hpage&gt;Do as you wish, but I think perhaps you underestimate yourself. To climb this far and survive here so long is a task beyond most of your fellow pilgrims.&lt;page&gt;Hmph. I’m no better than any of them. It’s only luck that has gotten me this far, and it’s on luck that I shall continue to rely.</en>
+    <zh>那头凶兽！肯定是降罪试炼！我们朝圣者未行恶事，为何要遭此折磨？&lt;page&gt;告诉我，哪本法典写着必须历尽苦难才配期盼幸福？&lt;hpage&gt;荒野奉行本能，而非法典。想要生存，唯有靠自己的能耐。&lt;page&gt;自己的能耐？如果真是如此，不如出去喂了野兽，省得煎熬！&lt;hpage&gt;请便。但别低估了自己，能攀登至此，你已强过多数同袍。&lt;page&gt;哼，我与他们无异。全凭运气苟活，往后也指望运气。</zh>
+  </entry>
+  <entry key="SEAMSTRESS_BROLLY_QUEST_DECLINE">
+    <en>Suit yourself, stray one. Ascending above these fields will prove a tough task without my talent.</en>
+    <zh>随你便，浪游者。没我的手艺，想攀出这片荒野可不是件容易的事。</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_TALK_DELIVERY">
+    <en>&lt;hpage&gt;Sir pilgrim, I bring supplies from Bellhart, for the aid of travellers who pass this waystation.&lt;page&gt;Such service... It seems our prayers do not go completely unheard. Many a small wish will be granted by these supplies.</en>
+    <zh>&lt;hpage&gt;旅者，我带钟心镇的物资来援助此驿站。&lt;page&gt;这份恩赐……看来圣堡仍能回应我等祈祷。这些补给能实现许多小愿。</zh>
+  </entry>
+  <entry key="HUNTRESS_QUEST_REOFFER">
+    <en>Would you gift organs for my brood, sssppiidderr? Upon first waking my children will be consumed with craving.</en>
+    <zh>咝——要献出你的内脏喂我的孩子们吗，小蜘蛛？他们睁眼后可饿得慌，急需饱餐一顿。</zh>
+  </entry>
+  <entry key="H_RUNT_MEET_QUEST_ACTIVE">
+    <en>&lt;hpage&gt;I had promised organs for your mother, child. Though she has passed, I would provide them to you, if some small reward were traded?&lt;page&gt;The meatsss?... For ussss?... Yesss, hunter! We have giftssss... Clawsss long...&lt;page&gt;Bring meatssss... Givess meatsss... Usss’s wantss grow sssstrong... much... Be like siblingsss, sharp, hard...</en>
+    <zh>&lt;hpage&gt;孩子，我答应过给你母亲送来脏器血肉。她虽死了，你若是肯给我点报酬，我可以转送给你。&lt;page&gt;咝——血肉？……给我？……好啊，猎手！我有宝贝……长长的爪子……&lt;page&gt;咝——带血肉来……给我血肉……我要变强壮……像我的兄弟姐妹一样……壳硬爪利……</zh>
+  </entry>
+  <entry key="H_RUNT_REPEAT">
+    <en>Even us’sss... Now we’sss too grow... Fiercesss... Hard...&lt;page&gt;We’sss becomesss hunter too...</en>
+    <zh>咝——就连我……现在也能长壮了……变得凶猛起来……坚硬起来……&lt;page&gt;咝——我也要成为猎手……</zh>
+  </entry>
+  <entry key="SEAMSTRESS_EXTRA_LORE_2">
+    <en>I’m loath to spoil the surprise, but curiosity begs me to ask. Do you know why they pursue you? Those Citadel bugs?&lt;hpage&gt;No certainty, but I’ve a strong suspicion...&lt;hpage&gt;They hunt me for my nature. For the Silk produced within my shell.&lt;page&gt;Ahh ha! Truth, no doubt! In Pharloom, yours is a rare skill, prized beyond measure, to channel one’s soul within a thread. Soul and Silk inseparably linked.&lt;page&gt;It is a skill almost lost from Pharloom. Those old Weavers shared it, but they’re long dead now.&lt;hpage&gt;There is another alive in this kingdom that shares my nature, or some part of it. I’ve seen Silk similar to my own. It snares the shells of those upon the roads.&lt;hpage&gt;I’ve seen it wrap them, possess them whole. There is will within that thread, one that seems to come from somewhere above us. The Citadel...&lt;page&gt;Hmmmm... Good, sharp sight you’ve got. That Citadel... All roads towards and all answers waiting, and a long climb up there m’dear.&lt;page&gt;Now! It’s time you get going! Your style and your Silk sure are fine, but stay too long and you’ll only be trouble for me!</en>
+    <zh>我本来不想多嘴，但实在好奇，圣堡的虫为何追你？&lt;hpage&gt;不确定，但我怀疑……&lt;hpage&gt;它们觊觎我甲壳产出灵丝的能力。&lt;page&gt;哈！肯定是这样！在纺络，以魂注丝是无价神技，让魂与丝成为一体。&lt;page&gt;这技艺近乎失传。曾经的织者倒是会，如今早死绝了。&lt;hpage&gt;此地尚存一虫与我同源，曾见到它用相似灵丝缠缚朝圣者。&lt;hpage&gt;用丝线操纵空壳，且其中藏有源自高处的意志，定是圣堡……&lt;page&gt;嗯……你眼力不错！圣堡啊……答案都在那条路上，慢慢攀吧姑娘。&lt;page&gt;好了，你该走了！虽你长得英姿飒爽，但身负灵丝，久留只会给我惹祸！</zh>
+  </entry>
+  <entry key="H_RUNT_QUEST_COMPLETE_DECLINE">
+    <en>She keepsss?.. We’sss wants meatsss, hunter... We’sss need strengthsss... As much as othersss... As much as mothersss...</en>
+    <zh>你要自己留着吗？……我要血肉，猎手……我要变壮……和其他兄弟姐妹一样……和母亲一样……</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_ITEM_DESC_LOCKET">
+    <en>Memories only weigh us down, but some pilgrims still cling to them with unseemly devotion. This memory isn’t yours, but perhaps you could find some use for it?</en>
+    <zh>记忆只会徒增负累，但有些同袍偏偏紧抓不放。这虽不是你的记忆，但或许有用？</zh>
+  </entry>
+  <entry key="ANT_MERCHANT_FRACTURED_MASK_DESC">
+    <en>Kha uokn. Krka tih.</en>
+    <zh>喀 乌奥肯。克尔卡 提赫。</zh>
+  </entry>
+  <entry key="H_RUNT_QUEST_REOFFER">
+    <en>Us needssss meatsss... hunter... finds... bringsss... So us’sss small does grow like siblingssss...</en>
+    <zh>咝——我需要血肉……猎手……找来……带来……让我这个小个子也能长成其他兄弟姐妹那样……</zh>
+  </entry>
+  <entry key="H_RUNT_QUEST_COMPLETE_PRE">
+    <en>The meatssss... smellsss... You bring?... To grow usss like siblings, strong in ssshellsss?</en>
+    <zh>咝——血肉味……你带来了？……能让我像兄弟姐妹那样，长出强壮的甲壳？</zh>
+  </entry>
+  <entry key="H_RUNT_QUEST_ACCEPT">
+    <en>&lt;hpage&gt;Several of my tools can prepare the meats as you request, child.In time, I shall see your wish granted.&lt;page&gt;Sssss... Usss too will grow?... Sharps claws... hard shell... like siblings goness...</en>
+    <zh>&lt;hpage&gt;小不点，我带的工具恰好能按你的要求处理血肉。我会尽快让你吃上肉。&lt;page&gt;咝……我也能长壮了？……爪子尖利……甲壳坚硬……像离我而去的兄弟姐妹一样……</zh>
+  </entry>
+  <entry key="SEAMSTRESS_EXTRA_LORE_1">
+    <en>Just a moment, dear, before you scurry off!</en>
+    <zh>等一等，亲爱的，先别急着走！</zh>
+  </entry>
+  <entry key="HUNTRESS_QUEST_COMPLETE">
+    <en>You’ve done well, sspppidderrr. Upon these fine meats my children will gorge and grow. &lt;hpage&gt;And better the organs of others than they feed upon your own, yes?&lt;page&gt;Sssssskkkk... One should not be surprised, for the sssspppider to perceive the truth of my requests. &lt;hpage&gt;A child of one like you, many times I’ve seen it similar. They will be born hungry, with sharp tooth and claw.&lt;hpage&gt;In their birth-craze, your own meat would delight as much as another bugs. This feast is distraction, in hope to save your shell.&lt;page&gt;Is that shameful? A mother who would not sacrifice herself for her children to grow sssstttrong? Is it wrong to want? To witnesss their first flight, their first hunt. To see them kill, and grow? &lt;hpage&gt;Your choice is your own, tall mother. You won’t be judged by me. I’ve seen enough sacrifice. I’ve no love for the act.</en>
+    <zh>干得漂亮，小蜘蛛。咝——我的孩子们会啃着这些血肉长得壮壮实实。&lt;hpage&gt;用别的虫的内脏喂养总比用你自己的强，对吧？&lt;page&gt;咝……蜘蛛能看穿我的算盘倒也不稀奇。&lt;hpage&gt;像你这样的母亲生的孩子，我见得多了。他们生下来就张着嘴要进食，牙尖爪利的。&lt;hpage&gt;他们要是饿疯了，你的肉会和别的虫子一样香。现在这顿大餐算是替你保命了。&lt;page&gt;咝——不愿意舍身喂子的母亲，这丢脸吗？谁不想看他们第一次扑腾翅膀，第一次捕猎？&lt;hpage&gt;这是你自己的选择，高个子，我不评判。我已经见过够多牺牲了，没兴趣掺和。</zh>
+  </entry>
+  <entry key="ANT_QUEEN_HASMELODY_FLOWER_OWNED">
+    <en>Pale beast... bringing ruin... we had sensed it... you writing, harsh, our final fate...&lt;page&gt;If power... you come seeking... mine is faded.... mortal... time taken...&lt;hpage&gt;Great one, I come not to see you as you are, rather I would know you as were, before the pale monarch, when once your heart beat bright and brave.&lt;page&gt;Kcha! Then see me... beast... Those distant memories... Mine once was power... wild... proud...</en>
+    <zh>苍白异兽……携灾而至……吾等早有预感……汝书写的，是斯卡尔的终章……&lt;page&gt;若力量……是汝所求……吾已衰微……凡躯……时日无多……&lt;hpage&gt;蚁后，我来此并非为了觐见，而是追忆您昔年的英姿。在苍白君主降临前，当您的英勇之心仍炽烈搏动之时。&lt;hpage&gt;喀嚓！……那就见证……异兽……久远记忆……吾曾执掌……狂野……伟力……傲然……</zh>
+  </entry>
+  <entry key="ANT_QUEEN_HASMELODY_REPEAT">
+    <en>My strength... my power... Could you claim it, pale beast? Are you so strong?...&lt;hpage&gt;Let us find out together, great one...</en>
+    <zh>吾之伟力……吾之权柄……汝可承载？苍白异兽……汝够格否？……&lt;hpage&gt;共同见证吧，伟大的蚁后……</zh>
+  </entry>
+  <entry key="H_RUNT_QUEST_REPEAT">
+    <en>Bringsss meatsss... Hunter... many...&lt;page&gt;Usss too be strong... large... one of brood...</en>
+    <zh>带血肉给我……猎手……多带些……&lt;page&gt;咝——我也要变壮……变强……像我兄弟姐妹那样……</zh>
+  </entry>
+  <entry key="SEAMSTRESS_BROLLY_AFTER_GET">
+    <en>&lt;hpage&gt;This is fine work, Seamstress. Your modifications will aid me greatly.&lt;page&gt;You’re quite welcome, dear. I’ve rare opportunity to practice such intricate sewing, and a warrior sort like you will be able to properly appreciate my additions.&lt;page&gt;Float away now, stray one, and do try not to die. I’d rather not have my hard work go to waste.</en>
+    <zh>&lt;hpage&gt;手艺很精湛，织女虫。这改装对我有很大帮助。&lt;page&gt;亲爱的，你太客气了！难得施展我这手艺，更难得有你这战士能懂欣赏。&lt;page&gt;快走吧，尽量别死，我可不爱白忙活。</zh>
+  </entry>
+  <entry key="HUNTRESS_TALK_CITADEL">
+    <en>Have you seen it... small sspidderrr.... that cruel Citadel, weighing heavy atop tthissss land?&lt;page&gt;My hunger may seem great, but that place... that is consumption unending...</en>
+    <zh>咝——小蜘蛛，我仍能闻到你的紧张感。我还是让你觉得危险？&lt;hpage&gt;这片土地处处危机，高个子，我自然得保持戒备。你的利爪看起来没少沾血。&lt;page&gt;咝——我乐于杀戮，但也只是为了喂饱自己，以及我即将出生的孩子们。&lt;page&gt;那座圣堡压在这片土地之上。咝——那地方的“饥饿”与我的相比，可算是个无底洞。</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_TALK_REPEAT">
+    <en>We pilgrims provide for each other, living or dead. Sharing is a sign of devotion, particularly for those who give.</en>
+    <zh>朝圣者互帮互助，生死不论。分享是信仰的表现，无私奉献更是虔信。</zh>
+  </entry>
+  <entry key="HUNTRESS_QUEST_OFFER">
+    <en>You stay, ssppidderrr? My brood needsss meat, much.. the organsss of othersss, or would you instead offer your own?&lt;page&gt;Gift a sshhell’s warm insidess as sweet feast for my brood’sss birth-meal?</en>
+    <zh>还在呢，小蜘蛛……？咝——我的孩子需要血肉，很多血肉……我需要其他虫子的内脏，或者你献上你自己的？&lt;page&gt;咝——要不把你热乎的内脏当作我孩子们的破卵宴？</zh>
+  </entry>
+  <entry key="HUNTRESS_QUEST_COMPLETE_PRE">
+    <en>You have them, sspiiddderrr! The smell is upon you, all those organs, rich prepared for feasssting.</en>
+    <zh>咝——！你做到了，小蜘蛛！瞧你满身的腥气。这么多内脏，足够给我的孩子开荤了。</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_MEET">
+    <en>Come to rest your weary body? The climb is agonising, and even the devout must mind their limits.&lt;hpage&gt;I’m impressed to find any without firm claw upon a weapon that could ascend so far.&lt;page&gt;Indeed. We’re lucky to have made it here. Luckier than many others. Or perhaps the difference between the lucky and unlucky is merely faith?&lt;page&gt;Now, while we rest, shall we make trade? If you have rosaries, I’ll take them gladly.</en>
+    <zh>是来歇息的么？攀登苦不堪言，再虔诚也要量力而行。&lt;hpage&gt;你赤手空拳能攀登至此，倒是少见。&lt;page&gt;是啊，能到此地实属侥幸，比许多同袍要幸运。或许所谓运气不过是信念之差？&lt;page&gt;既然在这休息，可要做买卖？你有念珠的话，我很乐意交换。</zh>
+  </entry>
+  <entry key="H_RUNT_QUEST_OFFER">
+    <en>Hunter... stayss... Shining claw... still... Does themsss help... seek?&lt;page&gt;Usss need meatsss, much, too... Hunter... Usss wants many... Seared... Skewered... Shredded...&lt;page&gt;Usss’s wantss grow sssstrong... much... Be like siblingsss, sharp, hard.</en>
+    <zh>咝——猎手……你还在这儿……闪亮的爪子……我需要……帮助……&lt;page&gt;咝——我需要血肉，很多血肉……猎手……我要很多……烤的……串的……撕碎的……&lt;page&gt;咝——我要变壮……要像其他兄弟姐妹那样……壳硬爪利……</zh>
+  </entry>
+  <entry key="SEAMSTRESS_MEET">
+    <en>Well, aren’t you a sight! No, don’t tell me! You’re as odd as they come.&lt;page&gt;Your poise! Your form! Are you hunted? Pursued? The Citadel would see a fine prize in you.&lt;hpage&gt;It is as you say, madam. Veiled bugs brought me to your land. I seek them now, for answers.&lt;page&gt;Ha! Fierce too! These are bleak times, but a powerful stray like you could certainly cause some change.&lt;page&gt;Well then! I’ve no love for that holy caste, and I do worry for this kingdom’s ailing state. If you’re seeking to settle a score, perhaps I can lend some aid?</en>
+    <zh>瞧瞧这模样！让我猜猜，你不是这里的虫吧？&lt;page&gt;这仪态！这身姿！你正被追杀？被通缉？圣堡肯定很重视你。&lt;hpage&gt;如你所言，女士。覆面虫将我带来此地，我正在寻找它们。&lt;page&gt;哈！还挺凶！现在外面乱得很，你这般强悍的浪客肯定能搅出点动静。&lt;page&gt;正好！我也讨厌那群圣徒，也忧心王国的灾祸。你要找他们算账的话，或许我能帮衬？</zh>
+  </entry>
+  <entry key="H_RUNT_MEET">
+    <en>Hunter... Shining claw... Do not killsss... Mine is ssshell thin. Taste is poor...&lt;page&gt;Me’sss born not like siblingsss, themsss large and hard... All themsss did feasted and flew.&lt;hpage&gt;I see it clear, child. The tall mother’s meat has fed the brood fresh hatched.&lt;hpage&gt;It was a common fate that found her. Too common, perhaps...&lt;page&gt;Gone... the mother, her meatsss... and lifesss... for siblingss strong... not for usss so small... Neverss for usss...</en>
+    <zh>猎手……闪亮的爪子……别杀我……咝……我的壳薄……肉柴……&lt;page&gt;我生来不像其他兄弟姐妹……咝——他们甲壳又大又硬……吃饱就飞走了。&lt;hpage&gt;看出来了，小不点。你母亲把自己的肉喂给了其他刚破卵的孩子。&lt;hpage&gt;她命该如此。或许……这就是她的宿命……&lt;page&gt;没了……母亲，她的血肉……和生命……养壮了兄弟姐妹……咝……没我的份……永远没有……</zh>
+  </entry>
+  <entry key="ANT_QUEEN_HASMELODY">
+    <en>Pale beast... bringing ruin... we had sensed it... you writing harsh our final fate...&lt;page&gt;If power... you come seeking... mine is faded.... mortal... time taken...&lt;hpage&gt;Great one, I come not to see you as you are, rather I would have you recall what you were, before the pale monarch, when once your heart beat bright and brave.&lt;hpage&gt;That beating heart I would take, though know my intent is worthy.&lt;hpage&gt;I seek it only to save these lands, to break them free from this fatal sickness born of thread and void.&lt;page&gt;Kcha! If you may... beast... If you can... Mine once was power... wild... proud...</en>
+    <zh>苍白异兽……携灾而至……吾等早有预感……汝书写的，是斯卡尔的终章……&lt;page&gt;若力量……是汝所求……吾已衰微……凡躯……时日无多……&lt;hpage&gt;蚁后，我来此并非为了觐见，而是追忆您昔年的英姿。在苍白君主降临前，当您的英勇之心仍炽烈搏动之时。&lt;hpage&gt;我欲取得那份搏动之心，还请您相信我的初衷磊落。&lt;hpage&gt;只为拯救这片土地，斩断丝咒与虚空的腐毒。&lt;page&gt;喀嚓！……若汝能……异兽……若汝可……吾曾执掌……狂野……伟力……傲然……</zh>
+  </entry>
+  <entry key="H_RUNT_QUEST_DECLINE">
+    <en>&lt;hpage&gt;Your land’s fate has turned too dire, child. I cannot delay now to help you in your growth.&lt;page&gt;Sssss... So huntersss live... kill... only for selvesss... same as siblings...</en>
+    <zh>&lt;hpage&gt;你们的这片土地危在旦夕，小不点。时间紧迫，我没法帮你长壮实了。&lt;page&gt;咝……猎手为了生存……而杀戮……只顾自己……和离我而去兄弟姐妹没什么两样……</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_TALK2">
+    <en>These fields are hot and harsh, a miserable place for we pilgrims, and just above are the dreary moors, a place once of abundance lost to falling silt and murky rain.&lt;page&gt;The lands in every direction punish us, but such is our test. Above it all, the Citadel shines, our destination and our reward...&lt;page&gt;I’ll make it there, you’ll see. I’ve easily earned my place in such a paradise.</en>
+    <zh>&lt;page&gt;再往上，是一片阴雨连绵的沼地，过去的丰饶都化作了泥泞。&lt;page&gt;凶险又容易迷失，是对朝圣者的试炼。而圣堡就在上方，既是终点亦是奖赏……&lt;page&gt;我肯定能抵达，等着瞧。入那乐园我当之无愧。</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_TALK1">
+    <en>&lt;hpage&gt;Is this place your permanent home, sir, or do you only make camp?&lt;page&gt;We pilgrims have no home, there is only the path. We climb, and suffer, and are thusly judged.&lt;page&gt;I will linger here only a moment, for the sake of trade. Once I’ve gathered enough rosaries, I’ll be holy enough to ascend without fear.</en>
+    <zh>&lt;hpage&gt;先生可是以此地为家，还是暂驻？&lt;page&gt;朝圣者居无定所，唯有攀登圣途。前路如何，谁能晓得。&lt;page&gt;我小憩片刻就会启程。等攒够念珠，自能无畏登顶。</zh>
+  </entry>
+  <entry key="SEAMSTRESS_MET_PINSTRESS">
+    <en>&lt;hpage&gt;On the far side of Pharloom, I chanced upon a bug starkly similar to yourself.&lt;hpage&gt;From her home, her dress, and her skill, I am guessing you share some relation?&lt;page&gt;Aye. Met my sister, you did, in order at least. Glad to hear she’s still among the living.&lt;page&gt;Last to hold true to the old ways of the pin, she was... I sure ain’t sharing many of those violent values no more.&lt;page&gt;I’ll warn you, stray one, my sister might seem all cheer and charm, but buried beneath there’s the soul of a killer.</en>
+    <zh>&lt;hpage&gt;我在纺络另一端遇见过与你极为相似的虫。&lt;hpage&gt;根据其居所、衣着和技艺，也许是你血亲？&lt;page&gt;是，那是我的姐妹。她还活着呢？也挺好。&lt;page&gt;她是最后恪守古训的针匠……我早就不玩那套杀戮把戏了。&lt;page&gt;提醒你，我那姐妹看着亲切，骨子里可是杀胚。</zh>
+  </entry>
+  <entry key="HUNTRESS_QUEST_COMPLETE_DECLINE">
+    <en>You would deny my brood their strength, ssspiidderr? A cruel creature you are. Surely your sssmall shell needs hardly so much?</en>
+    <zh>你准备饿着我的孩子吗，小蜘蛛？咝——心肠够硬啊。不过，你这小身板能独吞这么多？</zh>
+  </entry>
+  <entry key="PILGRIM_REST_SHOP_ITEM_DESC_COINSET_S">
+    <en>I’ll string your rosaries tight, for a modest fee. It’s the safest way to keep them close.</en>
+    <zh>分我一些念珠，我帮你把它们串牢。贴身保管最稳妥。</zh>
+  </entry>
+  <entry key="RESTING_PILGRIM_MEET">
+    <en>Uoohhh... Sister, my aching shell’s close to breaking. My voice weakens... I can hardly sing a word.&lt;hpage&gt;I fear the path ahead will be no easier for you, ma’am. If you can not abandon your pilgrimage, you should at least rest well before continuing.&lt;page&gt;Ahh... but impurities stalk our every step, sister. If we rest too long, they shall catch us. So... so it is sung...</en>
+    <zh>啊……姐妹，我的甲壳快撑不住了……嗓子也哑……唱不动圣歌了……&lt;hpage&gt;前路只会更加凶险，女士。若不愿放弃朝圣，至少养足精神再走。&lt;page&gt;唉……可邪秽如影随形，歇久了必被追上……圣训……是这么唱的……</zh>
+  </entry>
+</sheet>

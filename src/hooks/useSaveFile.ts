@@ -1,9 +1,11 @@
 import { useCallback, useMemo, useState } from "react";
 import type { DragEvent } from "react";
 
+import { useI18n } from "../i18n/I18nContext";
 import { decodeSave, encodeSave, downloadFile } from "../services/decryptor";
 
 export function useSaveFile() {
+  const { t } = useI18n();
   const [fileName, setFileName] = useState("");
   const [decrypted, setDecrypted] = useState(false);
   const [jsonText, setJsonText] = useState("");
@@ -31,7 +33,7 @@ export function useSaveFile() {
         setJsonText(pretty);
         setDecrypted(true);
       } catch (error) {
-        alert("Failed to decode file");
+        alert(t("ERROR_DECODE_FAILED", "Failed to decode file"));
         console.error(error);
       }
     };

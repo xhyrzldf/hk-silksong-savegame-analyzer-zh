@@ -1,12 +1,18 @@
 import type { ReactNode } from "react";
+import { useI18n } from "../i18n/I18nContext";
 import type { TabRenderProps } from "./types";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 
 const BOSSES_CATEGORY_NAME = "Bosses";
 
 export function BossesTab({ parsedJson, decrypted }: TabRenderProps) {
+  const { t, translate } = useI18n();
   if (!decrypted || !parsedJson) {
-    return <div className="text-white text-center">Load a save file to view boss data.</div>;
+    const message = t("UI_LOAD_SAVE_PROMPT", "Load a save file to view {section} data.").replace(
+      "{section}",
+      translate(BOSSES_CATEGORY_NAME),
+    );
+    return <div className="text-white text-center">{message}</div>;
   }
 
   const bossesCategory = CATEGORIES.find(cat => cat.name === BOSSES_CATEGORY_NAME);
@@ -20,9 +26,9 @@ export function BossesTab({ parsedJson, decrypted }: TabRenderProps) {
             <tr className="text-left">
               <th className="px-2 py-1 w-[56px]" />
               <th className="px-2 py-1 w-[56px] text-center" />
-              <th className="px-2 py-1 min-w-[120px] max-w-[220px]">Name</th>
-              <th className="px-2 py-1 min-w-[140px] max-w-[260px]">Location</th>
-              <th className="px-2 py-1 w-[48px]">Act</th>
+              <th className="px-2 py-1 min-w-[120px] max-w-[220px]">{t("UI_TABLE_NAME", "Name")}</th>
+              <th className="px-2 py-1 min-w-[140px] max-w-[260px]">{t("UI_TABLE_LOCATION", "Location")}</th>
+              <th className="px-2 py-1 w-[48px]">{t("UI_TABLE_ACT", "Act")}</th>
               <th className="px-2 py-1 w-[64px]" />
             </tr>
           </thead>
@@ -40,11 +46,11 @@ export function BossesTab({ parsedJson, decrypted }: TabRenderProps) {
                   <td className={`px-2 py-1 max-w-[120px] truncate 
                     ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}
                   >
-                    {item.name}
+                    {translate(item.name)}
                   </td>
                   <td className={`px-2 py-1 relative relative min-w-[140px] max-w-[260px] break-words whitespace-pre-line 
                       ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}>
-                    {item.location || "TODO"}
+                    {translate(item.location || "TODO")}
                   </td>
                  <td className={`px-2 py-1 w-[48px] text-center ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}>{item.whichAct}</td>
                   <td className="px-2 py-1 w-[64px] text-center">
@@ -60,7 +66,7 @@ export function BossesTab({ parsedJson, decrypted }: TabRenderProps) {
                       disabled={!item.mapLink}
                       tabIndex={item.mapLink ? 0 : -1}
                     >
-                      Map
+                      {t("UI_MAP_BUTTON", "Map")}
                     </button>
                   </td>
                 </tr>

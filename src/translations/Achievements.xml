@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Achievements">
+  <entry key="JOURNAL_FULL_DESC">
+    <en>Receive the Hunter’s Memento</en>
+    <zh>获取猎人记痕</zh>
+  </entry>
+  <entry key="MATERIUM_FULL_NAME">
+    <en>Materialist</en>
+    <zh>物性全知</zh>
+  </entry>
+  <entry key="ALL_MASKS_NAME">
+    <en>Masked</en>
+    <zh>百面千相</zh>
+  </entry>
+  <entry key="ALL_SILK_SPOOLS_DESC">
+    <en>Acquire all Spool Fragments</en>
+    <zh>集齐全部灵丝轴碎片</zh>
+  </entry>
+  <entry key="DEFEATED_LACE_2_NAME">
+    <en>White Knight</en>
+    <zh>白骑士</zh>
+  </entry>
+  <entry key="SPEEDRUN_1_NAME">
+    <en>Speedrunner</en>
+    <zh>疾丝跑者</zh>
+  </entry>
+  <entry key="ALL_MAPS_NAME">
+    <en>Cartographer</en>
+    <zh>制图者</zh>
+  </entry>
+  <entry key="FIRST_MASK_NAME">
+    <en>Protected</en>
+    <zh>面甲护体</zh>
+  </entry>
+  <entry key="JOURNAL_HALF_DESC">
+    <en>Grant Nuu’s wish</en>
+    <zh>实现努努的祈愿</zh>
+  </entry>
+  <entry key="DEFEATED_SONG_GOLEM_DESC">
+    <en>Defeat Fourth Chorus</en>
+    <zh>击败第四圣咏团</zh>
+  </entry>
+  <entry key="FIRST_WISH_DESC">
+    <en>Grant your first wish</en>
+    <zh>实现首个祈愿</zh>
+  </entry>
+  <entry key="ENDING_C_NAME">
+    <en>Snared Silk</en>
+    <zh>缚丝囚神</zh>
+  </entry>
+  <entry key="DEFEATED_CORAL_KING_NAME">
+    <en>Tyrant</en>
+    <zh>暴君殒落</zh>
+  </entry>
+  <entry key="HERALD_WISH_DESC">
+    <en>Grant the Herald’s wish and finish the game</en>
+    <zh>成全使者的心愿，终结这场宿命</zh>
+  </entry>
+  <entry key="DEFEATED_LACE_2_DESC">
+    <en>Defeat Lace in the Cradle</en>
+    <zh>在摇篮圣所击败蕾丝</zh>
+  </entry>
+  <entry key="DEFEATED_WIDOW_NAME">
+    <en>Fanatic</en>
+    <zh>狂热信徒</zh>
+  </entry>
+  <entry key="FIRST_CREST_DESC">
+    <en>Claim your first Crest</en>
+    <zh>获取首枚纹章</zh>
+  </entry>
+  <entry key="STEEL_SOUL_NAME">
+    <en>Steel Soul</en>
+    <zh>钢铁之魂</zh>
+  </entry>
+  <entry key="DEFEATED_HUNTER_QUEEN_DESC">
+    <en>Defeat Skarrsinger Karmelita</en>
+    <zh>击败“斯卡尔歌后”卡梅莉塔</zh>
+  </entry>
+  <entry key="DEFEATED_PHANTOM_1_NAME">
+    <en>Grey Ghost</en>
+    <zh>灰烬残影</zh>
+  </entry>
+  <entry key="SPEED_COMPLETION_NAME">
+    <en>Speed Completion</en>
+    <zh>极速圆满</zh>
+  </entry>
+  <entry key="DEFEATED_SONG_GOLEM_NAME">
+    <en>Servant</en>
+    <zh>圣咏终曲</zh>
+  </entry>
+  <entry key="SPEED_COMPLETION_DESC">
+    <en>Achieve 100% game completion and finish the game in under 30 hours</en>
+    <zh>30小时内达成100%完成度并通关游戏</zh>
+  </entry>
+  <entry key="FIRST_SILK_SKILL_DESC">
+    <en>Bind your first Silk Skill</en>
+    <zh>缚丝首个灵丝技能</zh>
+  </entry>
+  <entry key="GARMOND_FINAL_QUEST_DESC">
+    <en>Defeat Lost Garmond</en>
+    <zh>击败失心加蒙德</zh>
+  </entry>
+  <entry key="DEFEATED_HUNTER_QUEEN_NAME">
+    <en>Diva</en>
+    <zh>猎歌终幕</zh>
+  </entry>
+  <entry key="DEFEATED_COGWORK_DANCERS_NAME">
+    <en>Last Dance</en>
+    <zh>最后一舞</zh>
+  </entry>
+  <entry key="DEFEATED_FIRST_SINNER_DESC">
+    <en>Defeat First Sinner</en>
+    <zh>击败原罪者，并利用缚丝夺取其力量</zh>
+  </entry>
+  <entry key="DEFEATED_LAST_JUDGE_1_DESC">
+    <en>Defeat the Last Judge</en>
+    <zh>击败末代裁决者</zh>
+  </entry>
+  <entry key="ENDING_E_DESC">
+    <en>Defeat Lost Lace and free Pharloom</en>
+    <zh>击败失心蕾丝并解放纺络</zh>
+  </entry>
+  <entry key="ENDING_D_DESC">
+    <en>Defeat Grand Mother Silk while cursed</en>
+    <zh>在畸芽之咒状态下击败苍白之母</zh>
+  </entry>
+  <entry key="FIRST_TOOL_DESC">
+    <en>Acquire your first Tool</en>
+    <zh>获得首个工具</zh>
+  </entry>
+  <entry key="ALL_SILK_SKILLS_NAME">
+    <en>Woven</en>
+    <zh>千丝万缕</zh>
+  </entry>
+  <entry key="HIDDEN_ACHIEVEMENT_TITLE">
+    <en>Secret</en>
+    <zh>隐藏成就</zh>
+  </entry>
+  <entry key="FIRST_SILK_SPOOL_NAME">
+    <en>Restored</en>
+    <zh>丝轴修复</zh>
+  </entry>
+  <entry key="COMPLETION_DESC">
+    <en>Achieve 100% game completion and finish the game</en>
+    <zh>达成100%完成度并通关游戏</zh>
+  </entry>
+  <entry key="ALL_CRESTS_DESC">
+    <en>Claim all Crests</en>
+    <zh>集齐所有纹章</zh>
+  </entry>
+  <entry key="ENDING_A_DESC">
+    <en>Defeat Grand Mother Silk and bind her power</en>
+    <zh>击败苍白之母，并利用缚丝夺取其力量</zh>
+  </entry>
+  <entry key="MEMENTO_FULL_DESC">
+    <en>Collect all Mementos and display them in your Bellhome</en>
+    <zh>收集全部忆痕并在钟居展示</zh>
+  </entry>
+  <entry key="DEFEATED_LAST_JUDGE_1_NAME">
+    <en>Judge</en>
+    <zh>裁决审判者</zh>
+  </entry>
+  <entry key="ALL_CRESTS_NAME">
+    <en>Consumed</en>
+    <zh>万象归宗</zh>
+  </entry>
+  <entry key="DEFEATED_GREEN_PRINCE_NAME">
+    <en>Lamenter</en>
+    <zh>绿庭哀歌</zh>
+  </entry>
+  <entry key="SHAKRA_FINAL_QUEST_NAME">
+    <en>Trail’s End</en>
+    <zh>远行终点</zh>
+  </entry>
+  <entry key="ENDING_B_DESC">
+    <en>Defeat Grand Mother Silk</en>
+    <zh>击败苍白之母</zh>
+  </entry>
+  <entry key="FIRST_WISH_NAME">
+    <en>Granted</en>
+    <zh>初愿成真</zh>
+  </entry>
+  <entry key="BELLWAY_MELODY_DESC">
+    <en>Learn the Beastling Call</en>
+    <zh>掌握唤兽曲</zh>
+  </entry>
+  <entry key="BELLWAYS_FULL_NAME">
+    <en>Connected</en>
+    <zh>钟脉相连</zh>
+  </entry>
+  <entry key="BELLWAYS_FULL_DESC">
+    <en>Open all of Pharloom’s Bellways</en>
+    <zh>开启纺络所有钟道</zh>
+  </entry>
+  <entry key="SPEEDRUN_1_DESC">
+    <en>Complete the game in under 5 hours</en>
+    <zh>5小时内通关游戏</zh>
+  </entry>
+  <entry key="STEEL_SOUL_DESC">
+    <en>Finish the game in Steel Soul mode</en>
+    <zh>以钢铁之魂模式通关游戏</zh>
+  </entry>
+  <entry key="DEFEATED_FLOWER_QUEEN_NAME">
+    <en>Seed</en>
+    <zh>初种飘散</zh>
+  </entry>
+  <entry key="BELLHOME_NAME">
+    <en>Resident</en>
+    <zh>栖钟者</zh>
+  </entry>
+  <entry key="HIDDEN_ACHIEVEMENT_ALT">
+    <en>This feat is hidden</en>
+    <zh>该任务已隐藏</zh>
+  </entry>
+  <entry key="BELLHOME_DESC">
+    <en>Acquire your own Bellhome</en>
+    <zh>获得专属钟居</zh>
+  </entry>
+  <entry key="WHITE_FLOWER_GAINED_DESC">
+    <en>Claim the Everbloom from within a distant memory</en>
+    <zh>从深层忆境中取得永绽花</zh>
+  </entry>
+  <entry key="ENDING_B_NAME">
+    <en>Strung to Serve</en>
+    <zh>缚丝效命</zh>
+  </entry>
+  <entry key="HERALD_WISH_NAME">
+    <en>Passing of the Age</en>
+    <zh>旧纪终焉</zh>
+  </entry>
+  <entry key="DEFEATED_GREEN_PRINCE_DESC">
+    <en>Defeat the Clover Dancers</en>
+    <zh>击败三叶草舞者</zh>
+  </entry>
+  <entry key="STEEL_SOUL_FULL_DESC">
+    <en>Achieve 100% game completion and finish the game in Steel Soul mode</en>
+    <zh>以钢铁之魂模式达成 100%完成度并通关游戏</zh>
+  </entry>
+  <entry key="ALL_TOOLS_NAME">
+    <en>Arsenal</en>
+    <zh>兵械库</zh>
+  </entry>
+  <entry key="CITADEL_SONG_NAME">
+    <en>Harmonious</en>
+    <zh>圣咏三调</zh>
+  </entry>
+  <entry key="HEART_OF_PHARLOOM_DESC">
+    <en>Acquire all other trophies</en>
+    <zh>获得所有奖杯</zh>
+  </entry>
+  <entry key="DEFEATED_BELLBEAST_DESC">
+    <en>Defeat the Bell Beast</en>
+    <zh>击败钟道兽</zh>
+  </entry>
+  <entry key="DEFEATED_FLOWER_QUEEN_DESC">
+    <en>Defeat Nyleth</en>
+    <zh>击败尼莱斯</zh>
+  </entry>
+  <entry key="DEFEATED_TROBBIO_DESC">
+    <en>Defeat Trobbio</en>
+    <zh>击败特罗比奥</zh>
+  </entry>
+  <entry key="COMPLETION_NAME">
+    <en>Completion</en>
+    <zh>圆满无缺</zh>
+  </entry>
+  <entry key="DEFEATED_TROBBIO_NAME">
+    <en>Tragedian</en>
+    <zh>悲剧收尾</zh>
+  </entry>
+  <entry key="ALL_SILK_HEARTS_DESC">
+    <en>Acquire all Silk Hearts</en>
+    <zh>集齐所有丝之心</zh>
+  </entry>
+  <entry key="TUBES_FULL_DESC">
+    <en>Open all of the Citadel’s Ventrica Stations</en>
+    <zh>开启圣堡全部圣脉枢管</zh>
+  </entry>
+  <entry key="ALL_SILK_SKILLS_DESC">
+    <en>Bind all Silk Skills</en>
+    <zh>缚丝于全部灵丝技能</zh>
+  </entry>
+  <entry key="PINSTRESS_WISH_DESC">
+    <en>Defeat Pinstress</en>
+    <zh>击败针姬</zh>
+  </entry>
+  <entry key="FLEAS_HALF_NAME">
+    <en>Flea Finder</en>
+    <zh>跳蚤搜寻者</zh>
+  </entry>
+  <entry key="DEFEATED_LACE_1_DESC">
+    <en>Defeat Lace in Deep Docks</en>
+    <zh>在深坞击败蕾丝</zh>
+  </entry>
+  <entry key="FIRST_TOOL_NAME">
+    <en>Equipped</en>
+    <zh>利器傍身</zh>
+  </entry>
+  <entry key="EVA_FINAL_QUEST_NAME">
+    <en>Entwined</en>
+    <zh>丝魂同契</zh>
+  </entry>
+  <entry key="ALL_TOOLS_DESC">
+    <en>Acquire all Tools</en>
+    <zh>集齐所有工具</zh>
+  </entry>
+  <entry key="GOURMAND_WISH_NAME">
+    <en>Glutton</en>
+    <zh>饕餮客</zh>
+  </entry>
+  <entry key="JOURNAL_FULL_NAME">
+    <en>True Hunter</en>
+    <zh>众灵汇集</zh>
+  </entry>
+  <entry key="ENDING_D_NAME">
+    <en>Twisted Child</en>
+    <zh>畸咒子嗣</zh>
+  </entry>
+  <entry key="ENDING_A_NAME">
+    <en>Weaver Queen</en>
+    <zh>织者女王</zh>
+  </entry>
+  <entry key="PINSTRESS_WISH_NAME">
+    <en>Fatal Resolve</en>
+    <zh>针锋对决</zh>
+  </entry>
+  <entry key="FLEAS_ALL_NAME">
+    <en>Fleafriend</en>
+    <zh>蚤世之主</zh>
+  </entry>
+  <entry key="GARMOND_FINAL_QUEST_NAME">
+    <en>Hero’s Call</en>
+    <zh>骑士挽歌</zh>
+  </entry>
+  <entry key="DEFEATED_FIRST_SINNER_NAME">
+    <en>Heretic</en>
+    <zh>异教徒</zh>
+  </entry>
+  <entry key="ALL_MAPS_DESC">
+    <en>Acquire a map of each area</en>
+    <zh>获得全部区域地图</zh>
+  </entry>
+  <entry key="ALL_SILK_HEARTS_NAME">
+    <en>Regenerated</en>
+    <zh>心丝不绝</zh>
+  </entry>
+  <entry key="DEFEATED_WIDOW_DESC">
+    <en>Defeat Widow</en>
+    <zh>击败黑寡妇</zh>
+  </entry>
+  <entry key="ALL_MASKS_DESC">
+    <en>Acquire all Mask Shards</en>
+    <zh>集齐全部面甲残片</zh>
+  </entry>
+  <entry key="MATERIUM_FULL_DESC">
+    <en>Record all items in the Materium</en>
+    <zh>在物质库录入所有物品</zh>
+  </entry>
+  <entry key="ENDING_ANY_DESC">
+    <en>Finish the game</en>
+    <zh>完成游戏</zh>
+  </entry>
+  <entry key="DEFEATED_PHANTOM_1_DESC">
+    <en>Defeat Phantom</en>
+    <zh>击败幽影</zh>
+  </entry>
+  <entry key="JOURNAL_HALF_NAME">
+    <en>Keen Hunter</en>
+    <zh>猎手之眼</zh>
+  </entry>
+  <entry key="DEFEATED_COGWORK_DANCERS_DESC">
+    <en>Defeat the Cogwork Dancers</en>
+    <zh>击败机枢舞者</zh>
+  </entry>
+  <entry key="SONGSHRINE_FIRST_DESC">
+    <en>Ring your first bell</en>
+    <zh>敲响第一座钟</zh>
+  </entry>
+  <entry key="CITADEL_SONG_DESC">
+    <en>Learn the Citadel’s Threefold song</en>
+    <zh>习得圣堡三重旋律</zh>
+  </entry>
+  <entry key="FIRST_SILK_SKILL_NAME">
+    <en>Bound</en>
+    <zh>丝缚初章</zh>
+  </entry>
+  <entry key="WHITE_FLOWER_GAINED_NAME">
+    <en>Remembrance</en>
+    <zh>永恒绽放</zh>
+  </entry>
+  <entry key="GOURMAND_WISH_DESC">
+    <en>Satiate the Grand Gourmand</en>
+    <zh>满足大胃王的食欲</zh>
+  </entry>
+  <entry key="ALL_SILK_SPOOLS_NAME">
+    <en>Extended</en>
+    <zh>无尽轴丝</zh>
+  </entry>
+  <entry key="SONGSHRINE_FIRST_NAME">
+    <en>Awoken</en>
+    <zh>初醒之音</zh>
+  </entry>
+  <entry key="FIRST_MASK_DESC">
+    <en>Acquire 4 Mask Shards</en>
+    <zh>获得4块面甲残片</zh>
+  </entry>
+  <entry key="STEEL_SOUL_FULL_NAME">
+    <en>Steel Heart</en>
+    <zh>钢铁之心</zh>
+  </entry>
+  <entry key="DEFEATED_LACE_1_NAME">
+    <en>Pharloom’s Welcome</en>
+    <zh>深坞洗礼</zh>
+  </entry>
+  <entry key="DEFEATED_CORAL_KING_DESC">
+    <en>Defeat Crust King Khann</en>
+    <zh>击败壳王卡汗</zh>
+  </entry>
+  <entry key="ENDING_E_NAME">
+    <en>Sister of the Void</en>
+    <zh>虚空姊妹</zh>
+  </entry>
+  <entry key="SHAKRA_FINAL_QUEST_DESC">
+    <en>Grant Shakra’s wish</en>
+    <zh>实现沙克拉的祈愿</zh>
+  </entry>
+  <entry key="BELLWAY_MELODY_NAME">
+    <en>Bonded</en>
+    <zh>兽群号令</zh>
+  </entry>
+  <entry key="MEMENTO_FULL_NAME">
+    <en>Momentous</en>
+    <zh>忆痕永驻</zh>
+  </entry>
+  <entry key="FIRST_CREST_NAME">
+    <en>Claimed</en>
+    <zh>纹章初现</zh>
+  </entry>
+  <entry key="TUBES_FULL_NAME">
+    <en>Transported</en>
+    <zh>圣脉贯通</zh>
+  </entry>
+  <entry key="DEFEATED_BELLBEAST_NAME">
+    <en>Liberated</en>
+    <zh>破钟者</zh>
+  </entry>
+  <entry key="FLEAS_ALL_DESC">
+    <en>Rescue all of Pharloom’s lost fleas and receive their final gift</en>
+    <zh>解救全部迷途跳蚤并领取赠礼</zh>
+  </entry>
+  <entry key="ENDING_C_DESC">
+    <en>Defeat Grand Mother Silk and entrap her with the Soul Snare</en>
+    <zh>用摄魂符禁锢苍白之母</zh>
+  </entry>
+  <entry key="HEART_OF_PHARLOOM_NAME">
+    <en>Pharloom’s Heart</en>
+    <zh>纺络之心</zh>
+  </entry>
+  <entry key="ENDING_ANY_NAME">
+    <en>(Ending Generic)</en>
+    <zh>（旅途终章）</zh>
+  </entry>
+  <entry key="FIRST_SILK_SPOOL_DESC">
+    <en>Acquire 2 Spool Fragments</en>
+    <zh>获得2块灵丝轴碎片</zh>
+  </entry>
+  <entry key="FLEAS_HALF_DESC">
+    <en>Rescue half of Pharloom’s lost fleas</en>
+    <zh>解救半数迷途跳蚤</zh>
+  </entry>
+  <entry key="HIDDEN_ACHIEVEMENT">
+    <en>This achievement is hidden</en>
+    <zh>该成就已隐藏</zh>
+  </entry>
+  <entry key="EVA_FINAL_QUEST_DESC">
+    <en>Bind Eva</en>
+    <zh>缚丝于伊娃</zh>
+  </entry>
+</sheet>

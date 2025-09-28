@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Map Zones">
+  <entry key="BATHHOUSE">
+    <en>Citadel&lt;br&gt;Spa</en>
+    <zh>圣堡汤殿</zh>
+  </entry>
+  <entry key="BONETOWN_GRAVEYARD">
+    <en>Bonegrave</en>
+    <zh>骸冢</zh>
+  </entry>
+  <entry key="BELLHOME">
+    <en>Bellhome</en>
+    <zh>钟居</zh>
+  </entry>
+  <entry key="ABYSS">
+    <en>The Abyss</en>
+    <zh>深渊</zh>
+  </entry>
+  <entry key="CRADLE">
+    <en>The Cradle</en>
+    <zh>摇篮圣所</zh>
+  </entry>
+  <entry key="HALFWAY_HOUSE">
+    <en>Halfway Home</en>
+    <zh>中途酒馆</zh>
+  </entry>
+  <entry key="BONECHURCH">
+    <en>Ruined Chapel</en>
+    <zh>颓败教堂</zh>
+  </entry>
+  <entry key="BONETOWN">
+    <en>Bone Bottom</en>
+    <zh>骸底镇</zh>
+  </entry>
+  <entry key="JUDGE_STEPS">
+    <en>Blasted Steps</en>
+    <zh>蚀阶</zh>
+  </entry>
+  <entry key="MOSS_CAVE">
+    <en>Moss Grotto</en>
+    <zh>苔穴</zh>
+  </entry>
+  <entry key="RED_CORAL_GORGE">
+    <en>Sands of Karak</en>
+    <zh>卡拉卡沙川</zh>
+  </entry>
+  <entry key="WARD">
+    <en>Whiteward</en>
+    <zh>白愈厅</zh>
+  </entry>
+  <entry key="ORGAN">
+    <en>Exhaust Organ</en>
+    <zh>废鸣管风琴</zh>
+  </entry>
+  <entry key="CITY_OF_SONG">
+    <en>The Citadel</en>
+    <zh>圣堡</zh>
+  </entry>
+  <entry key="CITADEL_FORUM">
+    <en>The Forum</en>
+    <zh>大议厅</zh>
+  </entry>
+  <entry key="RED_CORAL_TOWER">
+    <en>Coral Tower</en>
+    <zh>珊瑚尖塔</zh>
+  </entry>
+  <entry key="FLEATOPIA">
+    <en>Fleatopia</en>
+    <zh>蚤托邦</zh>
+  </entry>
+  <entry key="ICECORE">
+    <en>Brightvein</en>
+    <zh>冰晶脉窟</zh>
+  </entry>
+  <entry key="NONE">
+    <en>Unknown</en>
+    <zh>未知区域</zh>
+  </entry>
+  <entry key="SPRINTMASTER_CAVE">
+    <en>Frontier</en>
+    <zh>远野边际</zh>
+  </entry>
+  <entry key="LIBRARY">
+    <en>Whispering Vaults</en>
+    <zh>低语书库</zh>
+  </entry>
+  <entry key="MUCKVILLAGE">
+    <en>Bilehaven</en>
+    <zh>腐安乡</zh>
+  </entry>
+  <entry key="MOSSTOWN">
+    <en>Mosshome</en>
+    <zh>苔栖乡</zh>
+  </entry>
+  <entry key="BELLTOWN_HAUNTED">
+    <en>Haunted Bellhart</en>
+    <zh>丝咒侵蚀的钟心镇</zh>
+  </entry>
+  <entry key="COG_CORE_SHORT">
+    <en>Cog Core</en>
+    <zh>机枢核心</zh>
+  </entry>
+  <entry key="PEAK">
+    <en>Mount Fay</en>
+    <zh>费耶山</zh>
+  </entry>
+  <entry key="DUST_MAZE">
+    <en>The Mist</en>
+    <zh>迷瘴</zh>
+  </entry>
+  <entry key="CITADEL_STAGE">
+    <en>The Stage</en>
+    <zh>剧台</zh>
+  </entry>
+  <entry key="HANG">
+    <en>High Halls</en>
+    <zh>高庭</zh>
+  </entry>
+  <entry key="WEAVER_SHRINE">
+    <en>Weavenest Atla</en>
+    <zh>阿特拉织巢</zh>
+  </entry>
+  <entry key="GREYMOOR">
+    <en>Greymoor</en>
+    <zh>灰沼</zh>
+  </entry>
+  <entry key="VOLTNEST">
+    <en>Voltnest</en>
+    <zh>电荷巢穴</zh>
+  </entry>
+  <entry key="EXTRA_TUBEHUB">
+    <en>Terminus</en>
+    <zh>终界站</zh>
+  </entry>
+  <entry key="HOT_SPRING">
+    <en>Hot Spring</en>
+    <zh>温泉</zh>
+  </entry>
+  <entry key="CITADELSHRINE">
+    <en>First Shrine</en>
+    <zh>始源钟殿</zh>
+  </entry>
+  <entry key="CRAW_LAKE">
+    <en>Craw Lake</en>
+    <zh>腐囊虫泽</zh>
+  </entry>
+  <entry key="CRAWLSPACE">
+    <en>Wormways</en>
+    <zh>沙噬虫道</zh>
+  </entry>
+  <entry key="LIBRARY_SHORT">
+    <en>Vaults</en>
+    <zh>低语书库</zh>
+  </entry>
+  <entry key="DOCKS">
+    <en>Deep Docks</en>
+    <zh>深坞</zh>
+  </entry>
+  <entry key="WHITELAKE">
+    <en>Pale Lake</en>
+    <zh>苍湖</zh>
+  </entry>
+  <entry key="MEMORY">
+    <en>Memory</en>
+    <zh>忆境</zh>
+  </entry>
+  <entry key="FLEA_FESTIVAL">
+    <en>Festival of the Flea</en>
+    <zh>跳蚤节</zh>
+  </entry>
+  <entry key="ENCLAVE">
+    <en>Songclave</en>
+    <zh>圣歌盟地</zh>
+  </entry>
+  <entry key="SWAMP">
+    <en>Bilewater</en>
+    <zh>腐汁泽</zh>
+  </entry>
+  <entry key="UNDERSTORE">
+    <en>Underworks</en>
+    <zh>圣堡工厂</zh>
+  </entry>
+  <entry key="CITADEL_STATION">
+    <en>Grand Bellway</en>
+    <zh>圣堡钟道</zh>
+  </entry>
+  <entry key="COG_CORE">
+    <en>Cogwork &lt;br&gt;Core</en>
+    <zh>机枢核心</zh>
+  </entry>
+  <entry key="HIGH_HALLS">
+    <en>Choral Chambers</en>
+    <zh>圣咏殿</zh>
+  </entry>
+  <entry key="FRONT_GATE">
+    <en>Grand Gate</en>
+    <zh>巨扉圣门</zh>
+  </entry>
+  <entry key="WISP">
+    <en>Wisp Thicket</en>
+    <zh>火灵竹丛</zh>
+  </entry>
+  <entry key="FORGE">
+    <en>Forge</en>
+    <zh>匠心熔炉</zh>
+  </entry>
+  <entry key="CAULDRON">
+    <en>The Cauldron</en>
+    <zh>大熔釜</zh>
+  </entry>
+  <entry key="PATH_OF_BONE">
+    <en>The Marrow</en>
+    <zh>髓骨洞窟</zh>
+  </entry>
+  <entry key="PILGRIMS_REST">
+    <en>Pilgrim’s Rest</en>
+    <zh>朝圣者憩所</zh>
+  </entry>
+  <entry key="CLOVER">
+    <en>Verdania</en>
+    <zh>翠庭</zh>
+  </entry>
+  <entry key="DUSTPENS">
+    <en>Sinner’s Road</en>
+    <zh>罪途</zh>
+  </entry>
+  <entry key="ABOVE_CRADLE">
+    <en>Border Caves</en>
+    <zh>边陲岩洞</zh>
+  </entry>
+  <entry key="SHELLWOOD_THICKET">
+    <en>Shellwood</en>
+    <zh>甲木林</zh>
+  </entry>
+  <entry key="HUNTERS_NEST">
+    <en>Hunter’s March</en>
+    <zh>猎者小径</zh>
+  </entry>
+  <entry key="THE_SLAB">
+    <en>The Slab</en>
+    <zh>罪石牢狱</zh>
+  </entry>
+  <entry key="AQUEDUCT">
+    <en>Putrified Ducts</en>
+    <zh>腐殖渠</zh>
+  </entry>
+  <entry key="BELLTOWN">
+    <en>Bellhart</en>
+    <zh>钟心镇</zh>
+  </entry>
+  <entry key="BAY">
+    <en>Pharloom Bay</en>
+    <zh>纺络湾</zh>
+  </entry>
+  <entry key="ASPID">
+    <en>Great Chasm</en>
+    <zh>大裂渊</zh>
+  </entry>
+  <entry key="MEMORY_RED">
+    <en>Red Memory</en>
+    <zh>赤红忆境</zh>
+  </entry>
+  <entry key="BELLSHRINE">
+    <en>Bellshrine</en>
+    <zh>钟殿</zh>
+  </entry>
+  <entry key="BELLVEIN">
+    <en>Bellvein</en>
+    <zh>钟脉</zh>
+  </entry>
+  <entry key="ARBORIUM">
+    <en>Memorium</en>
+    <zh>忆廊</zh>
+  </entry>
+  <entry key="WILDS">
+    <en>Far Fields</en>
+    <zh>远野</zh>
+  </entry>
+</sheet>

@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Credits List">
+  <entry key="CREDITS_CHARVOICE_HORNET">
+    <en>Hornet</en>
+    <zh>大黄蜂</zh>
+  </entry>
+  <entry key="CREDITS_KNIGHTS_OF_U_SUPPORT_NAME_L">
+    <en>Kamil Kloc&lt;br&gt;Jan Mróz</en>
+    <zh>Kamil Kloc&lt;br&gt;Jan Mróz</zh>
+  </entry>
+  <entry key="CREDITS_TEST_QA">
+    <en>Testing &amp; QA</en>
+    <zh>游戏测试</zh>
+  </entry>
+  <entry key="CREDITS_TESTERS_NAMES_L">
+    <en>Ditte Wad Andersen&lt;br&gt;Matthew Griffin&lt;br&gt;Sam Griffin&lt;br&gt;Daniel James Freer&lt;br&gt;Matthew Trobbiani&lt;br&gt;Peter Yong</en>
+    <zh>Ditte Wad Andersen&lt;br&gt;Matthew Griffin&lt;br&gt;Sam Griffin&lt;br&gt;Daniel James Freer&lt;br&gt;Matthew Trobbiani&lt;br&gt;Peter Yong</zh>
+  </entry>
+  <entry key="CREDITS_ENVIRONDRESSING">
+    <en>Additional Environment Dressing</en>
+    <zh>附加环境加工</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_STRINGS">
+    <en>Strings</en>
+    <zh>弦乐组</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_PROD_SUB">
+    <en>Production</en>
+    <zh>制作</zh>
+  </entry>
+  <entry key="PERMA_GAME_OVER">
+    <en>GAME OVER</en>
+    <zh>游戏结束</zh>
+  </entry>
+  <entry key="CREDITS_CHARVOICE_TROBBIO_AND">
+    <en>and</en>
+    <zh>以及</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_EDITING_NAME">
+    <en>Hew Wagner</en>
+    <zh>Hew Wagner</zh>
+  </entry>
+  <entry key="CREDITS_USS_BPORTUGUESE_TITLE">
+    <en>Brazilian Portuguese</en>
+    <zh>巴西葡萄牙语</zh>
+  </entry>
+  <entry key="CREDITS_USS_ITALIAN_TITLE">
+    <en>Italian</en>
+    <zh>意大利语</zh>
+  </entry>
+  <entry key="CREDITS_THANKS_MUSIC">
+    <en>Special Thanks Music &amp; Sound</en>
+    <zh>特别感谢 - 音乐和音效</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_WIND_BRASS">
+    <en>Wind &amp; Brass</en>
+    <zh>管乐与铜管乐组</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATE_CHINESE_NAME">
+    <en>Finn Wu 吴华锋&lt;br&gt;Hertzz Liu 刘辉洲</en>
+    <zh>Finn Wu 吴华锋&lt;br&gt;Hertzz Liu 刘辉洲</zh>
+  </entry>
+  <entry key="CREDITS_ORCHESTRA_TYPESET_NAME">
+    <en>Nathan Cummins</en>
+    <zh>Nathan Cummins</zh>
+  </entry>
+  <entry key="CREDITS_ENVIRONDRESSING_NAME">
+    <en>Tyler Bartley&lt;br&gt;Nathan Elmer&lt;br&gt;James Ross McNab</en>
+    <zh>Tyler Bartley&lt;br&gt;Nathan Elmer&lt;br&gt;James Ross McNab</zh>
+  </entry>
+  <entry key="CREDITS_KNIGHTS_OF_U_SUPPORT_NAME_R">
+    <en>Jakub Augustyniak&lt;br&gt;Karol Fornalczyk</en>
+    <zh>Jakub Augustyniak&lt;br&gt;Karol Fornalczyk</zh>
+  </entry>
+  <entry key="CREDITS_USS_ITALIAN_NAME">
+    <en>Laura Innocenti&lt;br&gt;Oliver Cozzio</en>
+    <zh>Laura Innocenti&lt;br&gt;Oliver Cozzio</zh>
+  </entry>
+  <entry key="CREDITS_CONGRATS_BODY_PERMA">
+    <en>You played masterfully and proved you have a Steel Soul.&lt;br&gt;Thank you for taking the time to explore and conquer the world of&lt;br&gt;Hollow Knight: Silksong.&lt;br&gt;We’ll meet again with a new challenge for you...</en>
+    <zh>你技艺高超，证明你有着钢铁般的灵魂。&lt;br&gt;感谢你花时间探索和征服我们建立的世界。&lt;br&gt;我们很快会在新的挑战中再次相遇……</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_SINGERS_ADDITIONAL_NAME_R">
+    <en>James Scott&lt;br&gt;Courtney Turner&lt;br&gt;Gerry Masi&lt;br&gt;Hew Wagner&lt;br&gt;Brooke Window </en>
+    <zh>James Scott&lt;br&gt;Courtney Turner&lt;br&gt;Gerry Masi&lt;br&gt;Hew Wagner&lt;br&gt;Brooke Window </zh>
+  </entry>
+  <entry key="CREDITS_ORCHESTRA_TYPESET">
+    <en>Orchestration &amp; Typesetting</en>
+    <zh>管弦乐编曲与谱面制作</zh>
+  </entry>
+  <entry key="CREDITS_EXTRA_THANKS">
+    <en>Extra Special Thanks</en>
+    <zh>特别鸣谢</zh>
+  </entry>
+  <entry key="CREDITS_CHAR_DESIGN_ADDIT_NAME">
+    <en>Makoto Koji</en>
+    <zh>Makoto Koji</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATE_JAPAN_NAME">
+    <en>Kakehashi Games&lt;br&gt;Ryu Ito</en>
+    <zh>Kakehashi Games&lt;br&gt;Ryu Ito</zh>
+  </entry>
+  <entry key="CREDITS_UNITY_TECH_SUPPORT_NAME_L">
+    <en>Paul Burslem&lt;br&gt;Attilio Carotenuto&lt;br&gt;Paul Georges</en>
+    <zh>Paul Burslem&lt;br&gt;Attilio Carotenuto&lt;br&gt;Paul Georges</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATE_JAPAN_BASIC">
+    <en>Japanese</en>
+    <zh>日语</zh>
+  </entry>
+  <entry key="CREDITS_PROGRAM_ADDIT_NAME">
+    <en>Huy Le</en>
+    <zh>Huy Le</zh>
+  </entry>
+  <entry key="CREDITS_CHARVOICES_NAMES_R">
+    <en>Anna Lili&lt;br&gt;Monte Masi&lt;br&gt;Lex Pellen&lt;br&gt;Thomas Pellen&lt;br&gt;Victoria Pellen&lt;br&gt;Zara Pellen&lt;br&gt;Ned Rogers&lt;br&gt;Shalulu&lt;br&gt;Peter Yong&lt;br&gt;Benjamin Zarb</en>
+    <zh>Anna Lili&lt;br&gt;Monte Masi&lt;br&gt;Lex Pellen&lt;br&gt;Thomas Pellen&lt;br&gt;Victoria Pellen&lt;br&gt;Zara Pellen&lt;br&gt;Ned Rogers&lt;br&gt;Shalulu&lt;br&gt;Peter Yong&lt;br&gt;Benjamin Zarb</zh>
+  </entry>
+  <entry key="CREDITS_USS_SPANISH_NAME">
+    <en>Gabriel Pérez-Ayala Huertas&lt;br&gt;Débora Ferroni Avi</en>
+    <zh>Gabriel Pérez-Ayala Huertas&lt;br&gt;Débora Ferroni Avi</zh>
+  </entry>
+  <entry key="CREDITS_UNITY_TECH_SUPPORT_NAME_R">
+    <en>Sebastian Hein&lt;br&gt;Kjetil Kalla&lt;br&gt;Karolis Ozerovas</en>
+    <zh>Sebastian Hein&lt;br&gt;Kjetil Kalla&lt;br&gt;Karolis Ozerovas</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_SINGERS_ADDITIONAL">
+    <en>Additional Singers</en>
+    <zh>合唱团歌手</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_SINGERS_ADDITIONAL_NAME_L">
+    <en>Victoria Coxhill&lt;br&gt;Michael Denholm&lt;br&gt;Christian Evans&lt;br&gt;Adam Goodburn&lt;br&gt;Sidonie Henbest&lt;br&gt;Brock Roberts</en>
+    <zh>Victoria Coxhill&lt;br&gt;Michael Denholm&lt;br&gt;Christian Evans&lt;br&gt;Adam Goodburn&lt;br&gt;Sidonie Henbest&lt;br&gt;Brock Roberts</zh>
+  </entry>
+  <entry key="CREDITS_SCORE">
+    <en>Sound &amp; Music by</en>
+    <zh>音乐和音效</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATE_CHINESE">
+    <en>Chinese Localisation</en>
+    <zh>简体中文本地化</zh>
+  </entry>
+  <entry key="CREDITS_USS_KOREAN_TITLE">
+    <en>Korean</en>
+    <zh>韩语</zh>
+  </entry>
+  <entry key="CREDITS_USS_BPORTUGUESE_NAME">
+    <en>Simone Verdi Fronza&lt;br&gt;Cristine Martin&lt;br&gt;Rafael Antunes Dotti</en>
+    <zh>Simone Verdi Fronza&lt;br&gt;Cristine Martin&lt;br&gt;Rafael Antunes Dotti</zh>
+  </entry>
+  <entry key="CREDITS_MIC_ENGINEERING_NAME">
+    <en>Lachlan Bramble</en>
+    <zh>Lachlan Bramble</zh>
+  </entry>
+  <entry key="CREDITS_CHARVOICES">
+    <en>Character Voices</en>
+    <zh>角色配音</zh>
+  </entry>
+  <entry key="CREDITS_USS_GERMAN_NAME">
+    <en>Alexander Faisst&lt;br&gt;Christoph Bechtel</en>
+    <zh>Alexander Faisst&lt;br&gt;Christoph Bechtel</zh>
+  </entry>
+  <entry key="CREDITS_TEST_LEAD">
+    <en>Testing Leads</en>
+    <zh>测试领队</zh>
+  </entry>
+  <entry key="PERMA_UNLOCK_UNLOCK">
+    <en>Unlocked</en>
+    <zh>已解锁</zh>
+  </entry>
+  <entry key="CREDITS_CHAR_DESIGN_ADDIT">
+    <en>Additional Character Design</en>
+    <zh>附加角色设计</zh>
+  </entry>
+  <entry key="CREDITS_TECH_DIRECT">
+    <en>Technical Director</en>
+    <zh>技术总监</zh>
+  </entry>
+  <entry key="PERMA_UNLOCK_BODY">
+    <en>No Reviving. Death is Permanent.&lt;br&gt;The Ultimate Challenge.</en>
+    <zh>没有复活。死亡是永久的。&lt;br&gt;——终极挑战。</zh>
+  </entry>
+  <entry key="CREDITS_TEST_LEAD_NAME_R">
+    <en>Benjamin Zarb</en>
+    <zh>Benjamin Zarb</zh>
+  </entry>
+  <entry key="CREDITS_CHARVOICE_TROBBIO_TITLE">
+    <en>as Trobbio</en>
+    <zh>特罗比奥</zh>
+  </entry>
+  <entry key="CREDITS_CHARVOICE_LACE_NAME">
+    <en>Mitsuki Hashimoto</en>
+    <zh>Mitsuki Hashimoto</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_SINGERS">
+    <en>Solo Singers</en>
+    <zh>独唱歌手</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_EDITING">
+    <en>Additional Audio Editing</en>
+    <zh>补充音频编辑</zh>
+  </entry>
+  <entry key="PERMA_GAME_OVER_CONTINUE">
+    <en>Press any button to continue.</en>
+    <zh>按任意按钮继续。</zh>
+  </entry>
+  <entry key="CREDITS_UNITY_TECH_SUPPORT">
+    <en>Unity Technical Support</en>
+    <zh>Unity技术支持</zh>
+  </entry>
+  <entry key="MR_MUSH_CONTINUED">
+    <en>TO BE CONTINUED</en>
+    <zh>未完待续</zh>
+  </entry>
+  <entry key="CREDITS_TEST_QA_NAME">
+    <en>Nassim “Simo” Gebrail&lt;br&gt;Benjamin Zarb</en>
+    <zh>Nassim "Simo" Gebrail&lt;br&gt;Benjamin Zarb</zh>
+  </entry>
+  <entry key="CREDITS_GAME_BY">
+    <en>a game by</en>
+    <zh>游戏开发</zh>
+  </entry>
+  <entry key="CREDITS_GAME_BY_NAME">
+    <en>Team Cherry</en>
+    <zh>Team Cherry</zh>
+  </entry>
+  <entry key="CREDITS_TEST_LEAD_NAME_L">
+    <en>Nassim “Simo” Gebrail</en>
+    <zh>Nassim "Simo" Gebrail</zh>
+  </entry>
+  <entry key="CREDITS_THANKS">
+    <en>Special Thanks</en>
+    <zh>特别感谢</zh>
+  </entry>
+  <entry key="CREDITS_ORCHESTRA_TYPESET_MUSIC">
+    <en>Music Orchestration &amp; Typesetting</en>
+    <zh>音乐编曲与谱面制作</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATE_CHINESE_BASIC">
+    <en>Chinese</en>
+    <zh>简体中文</zh>
+  </entry>
+  <entry key="TUTORIAL_CREDIT_NAME_01">
+    <en>Ari Gibson</en>
+    <zh>Ari Gibson</zh>
+  </entry>
+  <entry key="TUTORIAL_CREDIT_NAME_02">
+    <en>William Pellen</en>
+    <zh>William Pellen</zh>
+  </entry>
+  <entry key="TUTORIAL_CREDIT_NAME_03">
+    <en>Jack Vine</en>
+    <zh>Jack Vine</zh>
+  </entry>
+  <entry key="TUTORIAL_CREDIT_NAME_04">
+    <en>Matthew Griffin</en>
+    <zh>Matthew Griffin</zh>
+  </entry>
+  <entry key="TUTORIAL_CREDIT_NAME_05">
+    <en>Matthew Griffin</en>
+    <zh>Matthew Griffin</zh>
+  </entry>
+  <entry key="CREDITS_USS_KOREAN_NAME">
+    <en>Haejung Lee&lt;br&gt;Inwoo Lee</en>
+    <zh>Haejung Lee&lt;br&gt;Inwoo Lee</zh>
+  </entry>
+  <entry key="CREDITS_TESTERS">
+    <en>Playtesters</en>
+    <zh>游戏测试人员</zh>
+  </entry>
+  <entry key="TUTORIAL_CREDIT_SCORE">
+    <en>Sound and Score by</en>
+    <zh>音乐和音效</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_SINGERS_NAME">
+    <en>Amelia Holds&lt;br&gt;Jamie Moffatt&lt;br&gt;Siobhan Owen</en>
+    <zh>Amelia Holds&lt;br&gt;Jamie Moffatt&lt;br&gt;Siobhan Owen</zh>
+  </entry>
+  <entry key="CREDITS_USSPEAKING">
+    <en>Universally Speaking</en>
+    <zh>Universally Speaking</zh>
+  </entry>
+  <entry key="CREDITS_PROGRAM_ADDIT">
+    <en>Additional Programming</en>
+    <zh>附加编程</zh>
+  </entry>
+  <entry key="CREDITS_USS_RUSSIAN_NAME">
+    <en>Dmitry Usov&lt;br&gt;Yuliia Tatsenko</en>
+    <zh>Dmitry Usov&lt;br&gt;Yuliia Tatsenko</zh>
+  </entry>
+  <entry key="CREDITS_CHARVOICES_NAMES_L">
+    <en>Ditte Wad Andersen&lt;br&gt;Adam Atkins&lt;br&gt;Eric Barone&lt;br&gt;Tyler Bartley&lt;br&gt;Beau Fitzgerald&lt;br&gt;Matthew Fitzgerald&lt;br&gt;Nassim “Simo” Gebrail&lt;br&gt;Nic (Bitter Bits)&lt;br&gt;Matthew Griffin&lt;br&gt;Lillian Hollitt&lt;br&gt;Lauren Koopowitz</en>
+    <zh>Ditte Wad Andersen&lt;br&gt;Adam Atkins&lt;br&gt;Eric Barone&lt;br&gt;Tyler Bartley&lt;br&gt;Beau Fitzgerald&lt;br&gt;Matthew Fitzgerald&lt;br&gt;Nassim "Simo" Gebrail&lt;br&gt;Nic (Bitter Bits)&lt;br&gt;Matthew Griffin&lt;br&gt;Lillian Hollitt&lt;br&gt;Lauren Koopowitz</zh>
+  </entry>
+  <entry key="CREDITS_SCORE_NAME">
+    <en>Christopher Larkin</en>
+    <zh>Christopher Larkin</zh>
+  </entry>
+  <entry key="GAME_COMPLETE_PERCENTAGE">
+    <en>PERCENTAGE</en>
+    <zh>百分比</zh>
+  </entry>
+  <entry key="GAME_COMPLETE_TITLE">
+    <en>GAME COMPLETION</en>
+    <zh>游戏完成度</zh>
+  </entry>
+  <entry key="CREDITS_MIC_ENGINEERING">
+    <en>Mics &amp; Engineering Assistance</en>
+    <zh>录音设备与工程支持</zh>
+  </entry>
+  <entry key="CREDITS_THANKS_NAME">
+    <en>Ed Bernard&lt;br&gt;Rohan Fraser&lt;br&gt;Harrison Gibbins&lt;br&gt;David Kazi&lt;br&gt;Lukas Stobie</en>
+    <zh>Ed Bernard&lt;br&gt;Rohan Fraser&lt;br&gt;Harrison Gibbins&lt;br&gt;David Kazi&lt;br&gt;Lukas Stobie</zh>
+  </entry>
+  <entry key="CREDITS_CHARVOICES_ADDITIONAL">
+    <en>Additional Character Voices</en>
+    <zh>补充角色配音</zh>
+  </entry>
+  <entry key="CREDITS_CHARVOICE_LACE">
+    <en>Lace</en>
+    <zh>蕾丝</zh>
+  </entry>
+  <entry key="CREDITS_GUITAR">
+    <en>Guitar</en>
+    <zh>吉他</zh>
+  </entry>
+  <entry key="CREDITS_USS_SPANISH_TITLE">
+    <en>Spanish</en>
+    <zh>西班牙语</zh>
+  </entry>
+  <entry key="CREDITS_CHARVOICE_HORNET_NAME">
+    <en>Makoto Koji</en>
+    <zh>Makoto Koji</zh>
+  </entry>
+  <entry key="CREDITS_CONGRATS_BODY">
+    <en>Through the darkness and dangers, you persevered. &lt;br&gt;  Thank you for exploring the world of Hollow Knight: Silksong.&lt;br&gt; Let’s meet again on the road ahead.</en>
+    <zh>干得漂亮，你成功穿越了重重黑暗与艰难险阻。&lt;br&gt;感谢你游历了《空洞骑士：丝之歌》的世界。&lt;br&gt;我们很快就会在前方的道路上再次相遇。</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_STRINGS_NAME_L">
+    <en>Lachlan Bramble&lt;br&gt;Timothy Cheel&lt;br&gt;Linda Garrett&lt;br&gt;Belinda Gehlert</en>
+    <zh>Lachlan Bramble&lt;br&gt;Timothy Cheel&lt;br&gt;Linda Garrett&lt;br&gt;Belinda Gehlert</zh>
+  </entry>
+  <entry key="CREDITS_EXTRA_THANKS_TEXT">
+    <en>2158 Kickstarter Backers</en>
+    <zh>2158 Kickstarter Backers</zh>
+  </entry>
+  <entry key="CREDIT_PROGRAM">
+    <en>Systems &amp; Tools Programming</en>
+    <zh>系统和工具编程</zh>
+  </entry>
+  <entry key="GAME_COMPLETE_TIME">
+    <en>TIME</en>
+    <zh>时间</zh>
+  </entry>
+  <entry key="CREDITS_USS_RUSSIAN_TITLE">
+    <en>Russian</en>
+    <zh>俄语</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATE_FRENCH">
+    <en>French Localisation</en>
+    <zh>法语本地化</zh>
+  </entry>
+  <entry key="CREDITS_EXTRA_THANKS_SETH_TEXT">
+    <en>&amp;&lt;br&gt;Seth Goldman</en>
+    <zh>&amp;&lt;br&gt;Seth Goldman</zh>
+  </entry>
+  <entry key="TUTORIAL_CREDIT_GAME">
+    <en>a game by</en>
+    <zh>游戏开发</zh>
+  </entry>
+  <entry key="CREDITS_KNIGHTS_OF_U_SUPPORT">
+    <en>The Knights of U</en>
+    <zh>The Knights of U</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_CREATURE_VOCALS_NAME">
+    <en>Tim Whitt</en>
+    <zh>Tim Whitt</zh>
+  </entry>
+  <entry key="CREDITS_SOUND_ASSIST">
+    <en>Additional Atmos</en>
+    <zh>附加环境音</zh>
+  </entry>
+  <entry key="CREDITS_LETH">
+    <en>Marketing &amp; Public Relations</en>
+    <zh>营销和公关</zh>
+  </entry>
+  <entry key="CREDITS_CHARVOICE_TROBBIO_NAME">
+    <en>Matthew Trobbiani</en>
+    <zh>Matthew Trobbiani</zh>
+  </entry>
+  <entry key="CREDITS_SOUND_ASSIST_NAME">
+    <en>Tim Whitt</en>
+    <zh>Tim Whitt</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_CREATURE_VOCALS">
+    <en>Additional Creature Vocal Design</en>
+    <zh>补充生物声效设计</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATE_FRENCH_BASIC">
+    <en>French</en>
+    <zh>法语</zh>
+  </entry>
+  <entry key="CREDITS_CONGRATS">
+    <en>Congratulations</en>
+    <zh>恭喜</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_PROD">
+    <en>Music &amp; Sound</en>
+    <zh>音乐和音效</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATE_GENERIC">
+    <en>Localisation</en>
+    <zh>本地化</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATE_FRENCH_NAME">
+    <en>Shalulu</en>
+    <zh>Shalulu</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATE_JAPAN">
+    <en>Japanese Localisation</en>
+    <zh>日语本地化</zh>
+  </entry>
+  <entry key="CREDITS_USS_GERMAN_TITLE">
+    <en>German</en>
+    <zh>德语</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_WIND_BRASS_NAME_L">
+    <en>Mitch Berick&lt;br&gt;Nathan Cummins&lt;br&gt;Peter Duggan&lt;br&gt;Samantha Hennessy&lt;br&gt;Ed Koltun</en>
+    <zh>Mitch Berick&lt;br&gt;Nathan Cummins&lt;br&gt;Peter Duggan&lt;br&gt;Samantha Hennessy&lt;br&gt;Ed Koltun</zh>
+  </entry>
+  <entry key="CREDITS_TRANSLATION">
+    <en>Translation</en>
+    <zh>翻译</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_STRINGS_NAME_R">
+    <en>Belinda Kendall-Smith&lt;br&gt;Emma Perkins&lt;br&gt;Gemma Phillips</en>
+    <zh>Belinda Kendall-Smith&lt;br&gt;Emma Perkins&lt;br&gt;Gemma Phillips</zh>
+  </entry>
+  <entry key="PERMA_UNLOCK_TITLE">
+    <en>STEEL SOUL MODE</en>
+    <zh>钢铁之魂模式</zh>
+  </entry>
+  <entry key="CREDITS_KNIGHTS_OF_U_SUPPORT_NAME">
+    <en>Kamil Kloc&lt;br&gt;Jan Mróz&lt;br&gt;Jakub Augustyniak&lt;br&gt;Karol Fornalczyk</en>
+    <zh>Kamil Kloc&lt;br&gt;Jan Mróz&lt;br&gt;Jakub Augustyniak&lt;br&gt;Karol Fornalczyk</zh>
+  </entry>
+  <entry key="CREDITS_MUSIC_WIND_BRASS_NAME_R">
+    <en>Hannah Kovilpillai&lt;br&gt;Kathryn Moorhead&lt;br&gt;Jackie Newcomb&lt;br&gt;Joshua Oates</en>
+    <zh>Hannah Kovilpillai&lt;br&gt;Kathryn Moorhead&lt;br&gt;Jackie Newcomb&lt;br&gt;Joshua Oates</zh>
+  </entry>
+  <entry key="PERMA_GAME_OVER_BODY">
+    <en>In attempting the feat, one proves their courage.&lt;br&gt;May your soul find its rest.</en>
+    <zh>在尝试完成这项壮举的过程中，你证明了自己的勇气。&lt;br&gt;愿你的灵魂最终得以安息。</zh>
+  </entry>
+</sheet>

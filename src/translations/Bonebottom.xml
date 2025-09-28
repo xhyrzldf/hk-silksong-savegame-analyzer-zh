@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Bonebottom">
+  <entry key="BB_FIXER_ACT3_MEET">
+    <en>Ah, miss! Course you’d be one to survive through all this! Capable as you seem and all. &lt;page&gt;It’s a sad thing, but I can’t say most folk down here’ve fared so fortunate. And our once fine camp below ain’t no longer safe for any bug, all crushed and consumed by this black calamity.&lt;hpage&gt;Nowhere is safe, sir, but I am glad you few remain. Know I shall work to fix this, as best I’m able.&lt;page&gt;Calming our raging world? That’s a lofty goal, miss. I’m not thinkin’ any one bug’d be able to stop these happenings, but it’s heartenin’ knowing you’ve still got fire enough to feel different.&lt;page&gt;Rest here with us, long as you like. A little company’s about the best thing we few’re wishin’ for now.</en>
+    <zh>啊！小姐。就知道您能挺过来！看着就靠谱。&lt;page&gt;可惜底下多数虫没这运气。咱们的好营地也被黑灾碾碎吞没了，没一处安全。&lt;hpage&gt;无处安全，先生，但各位幸存值得庆幸。我必会竭力修补这残局。&lt;page&gt;平息这混乱世道？志向够远大的，小姐。我不信单凭一虫能办到，但您有这份心总是好的。&lt;page&gt;您想歇多久都行，眼下能期盼的也就是有个陪伴。</zh>
+  </entry>
+  <entry key="BB_FIXER_DELIVERY">
+    <en>&lt;hpage&gt;Sir, I bring supplies from the town of bells up above, to aid your camp and its residents.&lt;page&gt;Ah! Mighty thankful these folks’ll be. Most arrive here with nothin’ but their shell. Your delivery there’ll make things a little easier on ‘em.</en>
+    <zh>&lt;hpage&gt;先生，我从钟心镇带来物资支援此营地和住民。&lt;page&gt;啊！大伙会感激不尽的。多数虫来到这时就剩个空壳，你这趟可算解了燃眉之急。</zh>
+  </entry>
+  <entry key="MOSSCREEP_MEET_ALT">
+    <en>Mm. Mmm! Who is it? An intruder! Terrible! To interrupt a humble druid as they work!&lt;hpage&gt;I meant no intrusion, druid. The sound of your laughter drew me to investigate.&lt;page&gt;What? Laughter? No idea what you mean. Nonsense!</en>
+    <zh>嗯。嗯嗯！谁在那儿？入侵者！可恶！竟敢打扰德鲁伊修行！&lt;hpage&gt;无心冒犯，德鲁伊。你的笑声引我前来探查。&lt;page&gt;什么？笑声？不知所云！荒唐！</zh>
+  </entry>
+  <entry key="BB_CARETAKER_BASEMENT_REPEAT">
+    <en>May your travels bring you fortune, hunter. And may the Citadel come to fear your freedom in our land.</en>
+    <zh>祝你一路顺风，猎手。愿圣堡因你在这片土地上行走而战栗。</zh>
+  </entry>
+  <entry key="BELLWAY_PILGRIM_MEET_2">
+    <en>Hrm? Oh, it’s you again. Please, no more talk of bells or travel. I’m trying to stay hidden.&lt;hpage&gt;I mean no intrusion, ma’am. Are you composing yourself here before you leave on your own journey?&lt;page&gt;Like all the others, my brothers and sisters who trudged off to die? No, I think I’ll linger here a little longer with my thoughts...</en>
+    <zh>什……又是你啊。别提钟啊路啊的了，我正躲清净呢。&lt;hpage&gt;无意打扰，女士。是在为启程做准备？&lt;page&gt;像其他送死的兄弟姐妹一样？我看还是在这多琢磨会儿……</zh>
+  </entry>
+  <entry key="BB_RESIDENT_GOT_SILKSPEAR">
+    <en>Must be terrifying out there, beyond the settlement. Nothing but monsters and madness lurking in the darkness.&lt;page&gt;I’ve heard tales of a safe place, though. Just up above here, where the moss paints the stones green, there’s an old village. Bit of a holy place, apparently, well protected.&lt;hpage&gt;I’ve visited the settlement you speak of. It was built around a burial spire, corpse-home to an ancient Weaver.&lt;hpage&gt;It is hardly safe though. The terrain is treacherous, and predators prowl its commons. I advise you avoid that place.&lt;page&gt;Oh... I see. Of course. Nowhere is really free of danger, is it? That’s just the way for us pilgrims...</en>
+    <zh>外面肯定很可怕，黑暗里潜伏着怪物与疯狂。&lt;page&gt;不过听说上面有安身所。青苔覆石的地方有古村，据说是受庇护的圣地。&lt;hpage&gt;我到过那村落。它围着一座葬仪尖塔而建，是古代织者的安息之所。&lt;hpage&gt;那里并不安全。地势险恶，又有掠食者出没，劝你最好避开。&lt;page&gt;唉……果然。没有真正安全之处。朝圣者命该如此。</zh>
+  </entry>
+  <entry key="FUNERAL_2">
+    <en>For though, as pilgrims, we aim our sights high and never waver from our path, the loss of a brother or sister still stops our trembling limbs in place.</en>
+    <zh>纵然身为朝圣者需心志坚定，但手足殒命仍令我等颤足难行。</zh>
+  </entry>
+  <entry key="BB_CARETAKER_REPEAT">
+    <en>Few are as foreign as you, hunter dear. Visit me when you care.&lt;page&gt;I’ll look forward to hearing how your steps might shake our world. Oho. Yes!</en>
+    <zh>鲜少有虫如你这般，俏丽的异乡猎手。有空的话不妨再来。&lt;page&gt;我期待听到你的针刃撼动这片土地的那天。嚯，定会如此！</zh>
+  </entry>
+  <entry key="MOSSCREEP_COMPLETED_ACT3">
+    <en>Ohh, the world trembles! But we can hear it... beating steady... beating free...</en>
+    <zh>噢，大地战栗！但我们听见了……平稳的搏动……自由的搏动……</zh>
+  </entry>
+  <entry key="MOSSCREEP_REFUSE">
+    <en>Granter refuses! I understand. Granter is petty, evil. Misguided! When your mind clears, return here. Return here and grant my wish!</en>
+    <zh>授愿者拒绝！我懂。授愿者小气，邪恶。误入歧途！待你清醒，再来此地。应我祈愿！</zh>
+  </entry>
+  <entry key="BELLWAY_PILGRIM_MEET_1">
+    <en>Oh... you’ve come to hide down here too, then? ‘Tis a fearful world out there. If you can keep quiet, I don’t mind you joining me.&lt;hpage&gt;You’ve chosen a curious place to rest, ma’am. This pit of bells and the structure around it... they suggest a station for travel, though one long abandoned.&lt;page&gt;Aye. Rumours in the camp say these bells run throughout the lands, great veins of them, forged by our ancient kin.&lt;page&gt;And some even say bugs used to travel through them, in gilded carriages no less!&lt;page&gt;Surely such fanciful travel would be a sin for us pilgrims. We must walk and climb and crawl using only our own meagre claws... Only thus can we prove our devotion.</en>
+    <zh>哦……这位小姐也来躲难？外头真是可怕。你不出声的话，可以一起躲藏。&lt;hpage&gt;女士，你选了个怪地方歇脚。这钟坑与周遭构造……似是废弃驿站。&lt;page&gt;是啊。营地传言说古虫铸就钟脉贯穿大地。&lt;page&gt;还有虫说以前能乘镀金车厢穿行其间！&lt;page&gt;这般奢靡行径对朝圣者可是大不敬！我们该用卑微虫爪攀爬跋涉……唯有如此方能证虔心。</zh>
+  </entry>
+  <entry key="BB_FIXER_Q1_UNACCEPTED">
+    <en>Did you take a look at the wishwall? You might’ve noticed I added a cheeky little wish of my own.&lt;page&gt;Fair’s fair, I did build the thing. Seems like the kingdom should be granting my wish before anyone else’s.</en>
+    <zh>看过许愿墙了？应该注意到我加的小私心了吧。&lt;page&gt;公平嘛，墙是我造的，圣堡该先实现我的愿望才对。</zh>
+  </entry>
+  <entry key="MOSSCREEP_DONT_GIVE">
+    <en>You keep the berries to yourself? All for you? Mmm. Promise breaker! Promise breaker!</en>
+    <zh>私藏莓果？全归你？嗯。背信者！背信者！</zh>
+  </entry>
+  <entry key="BB_RESIDENT_NAME">
+    <en>Never shared my name with you, did I? Awfully remiss of me.&lt;page&gt;It’s Pilby. Been nice spending time with you, miss.&lt;hpage&gt;Likewise, sir. It’s been some time since I had such ample opportunity for friendly conversation.&lt;hpage&gt;My name is Hornet. It is good to be properly acquainted at last.&lt;page&gt;Hornet, eh? Strong name, that. It certainly suits you, miss. Heh heh...</en>
+    <zh>我还未说过姓名吧？真是失礼。&lt;page&gt;我叫皮尔比。和你相处很愉快，小姐。&lt;hpage&gt;我也是，先生。很久没有过友善交谈了。&lt;hpage&gt;我名为大黄蜂。幸会。&lt;page&gt;大黄蜂？好气魄的名字，和你很相配，哈哈……</zh>
+  </entry>
+  <entry key="MOSSCREEP_TRADE_INTRO">
+    <en>The Mossberries. Do you still hunt them, little you? My wish was granted, but clear now that more are needed! More!&lt;page&gt;Bring more Mossberries here. Mmm. Yes, we will trade. Precious rosaries for fresh berries!</en>
+    <zh>苔莓。仍在猎取吗，小小虫？我祈愿已实现，但需要更多！更多！&lt;page&gt;带更多苔莓来。嗯。以念珠换鲜果！</zh>
+  </entry>
+  <entry key="MOSSCREEP_CANCOMPLETE">
+    <en>&lt;hpage&gt;As promised, druid, I have your berries. What is your need for such common fruits?&lt;page&gt;Common!? No. No... Special. Cherished. Only a druid knows it! The berries bright! For my wish. My wish so dear! </en>
+    <zh>&lt;hpage&gt;如约而至，德鲁伊。莓果在此。要这寻常果实有何用？&lt;page&gt;寻常！？不，不……特别。珍贵。只有德鲁伊知晓！莓果明艳！为我祈愿。珍贵祈愿！</zh>
+  </entry>
+  <entry key="BB_SHOPKEEP_NOSTOCK_RETURN">
+    <en>I’ll soon be making my way up to the great Citadel. As holy as I am with rosaries, I’m sure my path will not be an arduous one...</en>
+    <zh>很快要上圣堡了。揣着这么多念珠，肯定能一路顺畅……</zh>
+  </entry>
+  <entry key="BB_FIXER_ACT3_DELIVERY_POST">
+    <en>Oh! And you can’t be leavin’ without some reward for your work. Take these beads for labour.&lt;page&gt;Rosaries ain’t provin’ much use to us lot anymore, but hopefully you in all your journeyin’ can still put ‘em to use.</en>
+    <zh>噢！您可不能白忙活。这些念珠当工钱收下吧。&lt;page&gt;念珠对我们这群家伙早没用了，但您四处奔波说不定还用得上。</zh>
+  </entry>
+  <entry key="MOSSCREEP_OFFER">
+    <en>You’re here, in here, so why did you send you? Hm? Did you hear my wish? Granter of wishes? You?&lt;hpage&gt;Granter of wishes?&lt;page&gt;Wishes, yes! My wish! I need fruits of the world, three little darlings. I need them, so I wish! Does the kingdom not send you, little you, to grant my desire?</en>
+    <zh>你在此处，在此处，为何派你来？嗯？听到我的祈愿了？授愿者？是你？&lt;hpage&gt;授愿者？&lt;page&gt;祈愿，对！我的祈愿！我要这世间的三枚果实，小宝贝果实。我需要，所以祈愿！小小虫，王国没派你来满足我的祈愿？</zh>
+  </entry>
+  <entry key="BB_RESIDENT_BELLHART">
+    <en>Your travels have taken you far, haven’t they? While I’m yet to even start my journey. Shameful behaviour for a pilgrim, really, to tarry here so long.&lt;hpage&gt;I see no shame in it, sir. Your life is your own, and need not be squandered at the ghostly call of the Citadel. Journey out for your own sake, or not at all.&lt;page&gt;Heh... you truly aren’t a pilgrim, that’s for certain. That’s blasphemy, spoken with friendly intentions or not.&lt;page&gt;And yet... I don’t recoil from what you say. Perhaps I’m not much of a pilgrim either.</en>
+    <zh>你已去过许多地方，而我尚未启程。作为朝圣者却在此踌躇不前，实在可耻。&lt;hpage&gt;先生，我未见可耻之处。生命属于你，不必为了圣堡幽灵般的召唤虚掷。你可以为己而行，也可以就此止步。&lt;page&gt;呵……你确实不是朝圣者，这种亵渎之言，无论善意与否都不能说。&lt;page&gt;但……我不抗拒这话。或许我也不是合格的朝圣者。</zh>
+  </entry>
+  <entry key="BB_SHOPKEEP_ITEM_ROSARY_MAGNET_DESC">
+    <en>This stone’s a beauty, isn’t it? They say it’ll help you gather up rosaries on the road ahead. You’ll come back and share some with me, won’t you?</en>
+    <zh>这石头美极了吧？据说能助你在路上收集念珠。等你回来可要分我一些！</zh>
+  </entry>
+  <entry key="FUNERAL_NAME_2">
+    <en>Ah, thank you for sharing, sister. For the honourable and steadfast Pilby, we will sing.</en>
+    <zh>啊，多谢相告，姐妹。我们将为坚定可敬的皮尔比歌唱。</zh>
+  </entry>
+  <entry key="MOSSCREEP_COMPLETED">
+    <en>Mmm. You can hear it, yes? Listen close. Weak, but precious. A pulse, a beat! Faint... Our very own...</en>
+    <zh>嗯。听见了吗？……细听。微弱，但珍贵。搏动，节拍！但渐弱……吾等独有的……</zh>
+  </entry>
+  <entry key="BB_SHOPKEEP_ITEM_ROSARY_SET_DESC">
+    <en>Loose rosaries filling your pockets? I can string ‘em up safe, so you won’t go losing them. Might seem a simple art, but it takes some talent to keep ‘em properly secure. </en>
+    <zh>兜里念珠装满了？我可将其编织成串以防遗失。这手艺看着简单，没点天赋可编不牢靠。</zh>
+  </entry>
+  <entry key="BB_RESIDENT_MEET_ALT">
+    <en>Hm? I recognise you. You’ve returned to the camp, then? Are you a pilgrim, or just a wanderer?&lt;hpage&gt;I am no pilgrim, sir, though I have travelled their paths.&lt;page&gt;Not a pilgrim? Well, it makes no difference, I suppose. We all must walk the roads, up and up, though most of us will fall long before we see the grand gates.&lt;page&gt;If you’re wise, you’ll stop here and rest a while before heading back out into that dangerous world...</en>
+    <zh>嗯？我认得你。重返营地了？是朝圣者还是流浪者？&lt;hpage&gt;我并非朝圣者，先生，但走过他们路途。&lt;page&gt;不是？也罢。众生皆须行路攀爬，但大多未睹圣门便殒命。&lt;page&gt;你若明智，再入险地前应该在此休整……</zh>
+  </entry>
+  <entry key="MOSSCREEP_TRADE_ACCEPT_2">
+    <en>Mmm, the precious fruit! Yes, fragrant and round. So round! For you, you who finds berries, a nice reward of rosaries!</en>
+    <zh>嗯，珍果！芬芳饱满，如此圆润！给你，寻果者，念珠回报！</zh>
+  </entry>
+  <entry key="BB_SHOPKEEP_MEET">
+    <en>O-oh! Traveller! Destined for the Citadel, yes? Well, before you embark, won’t you stop and make trade with an old pilgrim?&lt;hpage&gt;I’d see your wares, madam, though I fear I may have nothing worthy to offer in return.&lt;page&gt;Oh, worry not! If you lack fine goods to trade, we can barter still. In this devout land, we deal in the currency of faith!&lt;page&gt;Rosaries! Those finely carved beads of prayer! If you will only share some with me, I will trade you something fair.</en>
+    <zh>噢！旅者！要上圣堡吧？启程前不如和我这个老朝圣者做笔生意？&lt;hpage&gt;我确实想看看货品，女士，但恐怕没有等价之物。&lt;page&gt;没事！没有等价货物，仍可交易。虔信之地，信仰就是通货！&lt;page&gt;我是说念珠！为祈祷精雕细琢的念珠！要是愿意分享，我肯定给与公道的报酬。</zh>
+  </entry>
+  <entry key="BB_SHOPKEEP_ITEM_TOKEN_FAITH_DESC">
+    <en>Seems like just a key, but who knows what it’ll unlock? I reckon it’s come from the Citadel, so it must open the way to something holy!</en>
+    <zh>看着是把普通钥匙，说不定能打开什么？这东西肯定是来自圣堡的，所以肯定也能开启通往圣物的道路！</zh>
+  </entry>
+  <entry key="BB_SHOPKEEP_ITEM_TOOLMETAL_DESC">
+    <en>A rare find, this. Shinier than faith and harder than a Craggler’s hide. A skilled craftsbug could fashion something nice out of it, if they’ve got the knowledge.</en>
+    <zh>这可是稀罕物。比信仰耀眼，比岩甲坚硬。要是有个懂得门道的巧匠，就能将其打造成宝物。</zh>
+  </entry>
+  <entry key="BB_FIXER_DELIVERY_POST">
+    <en>For comin’ all this way, take a few beads. You’ve well earned ‘em.</en>
+    <zh>大老远跑来，拿几颗念珠走吧，这是你应得的。</zh>
+  </entry>
+  <entry key="MOSSCREEP_INGREDIENT">
+    <en>&lt;hpage&gt;Druid, I require a pitcher of your Mossberry Stew to satiate a gourmand of the Citadel. Will you pass some to me?&lt;page&gt;Mmmm! A bug who’ll consume my berry brew? Strong they’d be to bear a taste so sharp!&lt;page&gt;Here is a flavour so ripe! Searing! Flavour of pleasure and pain! They too may see the visions if they taste it strong. The visions, could they see?&lt;page&gt;Grant the stew! For your bug, mmmm... to share the visions. Yes! We shall pass it!</en>
+    <zh>&lt;hpage&gt;德鲁伊，我需要一些苔莓浓汤满足圣堡饕客。可否分享？&lt;page&gt;嗯嗯！有虫愿意喝我的莓酿？肯定是强者才能接受这等烈味！&lt;page&gt;这风味！炽烈！痛楚与愉悦交织！多喝可见幻象。他们能见得到吗？&lt;page&gt;拿好！给你那虫……分享幻象。对！应当分享！</zh>
+  </entry>
+  <entry key="MOSSCREEP_TRADE_FINAL_2">
+    <en>Ahhh! Ahhh-ohhhh! The smell again! Stronger, stronger now! But still young yet! Listen to your sisters, little one, and grow! Oh, grow!</en>
+    <zh>啊啊！啊——噢！气息再现！浓烈！但仍稚嫩！聆听你的姐妹之声，小家伙，生长吧！啊，生长！</zh>
+  </entry>
+  <entry key="MOSSCREEP_TRADE_FINAL_3">
+    <en>Oh... mmm. Do they hurt you also, the visions? The stink? Nasty, horrible fruits. The pain!&lt;page&gt;Enough berries. We need no more. For you though, my one and only friend. My beloved. A reward!&lt;page&gt;Your amulet. Let me... transfuse. Yes. Your amulet’s tears will flow stronger still!</en>
+    <zh>噢……嗯。幻象可有伤你？腐臭味？是秽果，可憎。痛楚！&lt;page&gt;莓果已足够，无需更多。但为你，我唯一挚友。馈赠！&lt;page&gt;你的护符。让我……灌注。嗯，护符的眼泪将更加汹涌！</zh>
+  </entry>
+  <entry key="MOSSCREEP_TRADE_FINAL_1">
+    <en>Mmm, the precious fruit! So precious! And perhaps now, we have enough. Enough, enough! For our work often begins, but never ends!</en>
+    <zh>嗯，珍果！如此珍稀！或许……已足够。足够，够了！大业常启，但无终时！</zh>
+  </entry>
+  <entry key="BB_RESIDENT_PILGRIMSREST">
+    <en>Ah, hello again! What a blessing to see a familiar face on this treacherous climb.&lt;hpage&gt;Greetings, sir. I see you have begun your pilgrimage, or else set out for your own sake. Either way, I am glad to see you here unharmed.&lt;page&gt;Not quite unharmed... I’ve suffered my share of scrapes and burns. That’s just the nature of the journey, I suppose.&lt;page&gt;But I’ve seen so much! Great metal structures and vast scorched fields! The grandeur of it all is humbling indeed, even for one like me who was so humble to begin with.&lt;page&gt;I’ll rest here just a little longer before resuming my climb.</en>
+    <zh>啊，又见面了！能在这险途中看到熟面孔，感谢圣堡庇佑。&lt;hpage&gt;幸会，先生。见你安然无恙，无论为了朝圣，抑或是为了自己，我都感到欣慰。&lt;page&gt;倒也不是安然无恙。多少有些小伤，攀登之路上难免擦碰。&lt;page&gt;但这一路真是大开眼界！巨型造物、焦黑旷野，宏伟又令人敬畏！&lt;page&gt;我打算休息片刻就继续攀登。</zh>
+  </entry>
+  <entry key="MOSSCREEP_QUESTCOMPLETE">
+    <en>Mmm! Mmm! This is them, the precious, promised fruits!&lt;page&gt;Drop them in, there they go, and now at last we can begin!</en>
+    <zh>嗯嗯！嗯嗯！就是它们，许诺的珍果！&lt;page&gt;投入其中，终于……可以开始！</zh>
+  </entry>
+  <entry key="BB_SHOPKEEP_ITEM_MASK_SHARD_DESC">
+    <en>Just a piece of something greater, but finely crafted. You should take it with you, traveller, for luck.</en>
+    <zh>虽然只剩残片，却很精巧。带上吧旅者，图个吉利。</zh>
+  </entry>
+  <entry key="FUNERAL_FINAL_NONAME">
+    <en>Farewell, little pilgrim. May your shell harden the path for others to tread.</en>
+    <zh>安息吧，小朝圣者。愿你的甲壳为后来者铺路。</zh>
+  </entry>
+  <entry key="BB_FIXER_BENCHREPAIR_REPEAT_ALT">
+    <en>Times like this, all we can do is put our heads down and try to rebuild.</en>
+    <zh>这种时候，除了埋头重建还能干啥？</zh>
+  </entry>
+  <entry key="MOSSCREEP_MEET_ACT3">
+    <en>&lt;page&gt;Mmmm! Is it time? Our lands shake their sorrow! For the new beat, yes? Demanding! For a new rhythm...&lt;hpage&gt;These quakes you feel, they are not your land’s sadness, they are its collapse, one bound to happen if their source cannot be quelled.&lt;page&gt;What? No, no no... the beat... It is the beat our land wishes! Calls for it! Needs one new!</en>
+    <zh>&lt;page&gt;嗯嗯！！时候到了？？大地震颤，哀鸣！是为新的搏动？……如此迫切！为新的韵律……&lt;hpage&gt;你感知的震颤并非大地哀鸣，而是其崩解前兆。若源头不稳，终将倾覆。&lt;page&gt;什么？不，不不……那搏动……是大地所求！大地呼唤！亟需换新！</zh>
+  </entry>
+  <entry key="BB_CARETAKER_CURSED_REPEAT">
+    <en>Head quick for that vein of bells, and find my uncle hidden there. If anyone’s able to point you to a cure for that thing twisting within your shell, it’ll be him. </en>
+    <zh>速速前往钟脉，寻我叔父踪迹。要说有谁能解你甲壳内的扭曲之物，非他莫属。</zh>
+  </entry>
+  <entry key="MOSSCREEP_INPROGRESS">
+    <en>Mmm! Mmm. Who are you, little you? Not a wish granter. For you haven’t enough fruits. Three we need, three I need! Find them, find them!</en>
+    <zh>嗯嗯！嗯。你是谁，小小你？不是授愿者。苔莓不够。要三颗，我要三颗！去找，快去找！</zh>
+  </entry>
+  <entry key="BB_FIXER_BENCHREPAIR">
+    <en>Ah! Here she is, safe after all! I was worried your battle with that enormous beast had left you badly wounded.&lt;page&gt;Shames me to have left you in danger there, missy, but I’m no warrior, and my tools ain’t no match for a creature like that.&lt;hpage&gt;It is well that you kept yourself safe. This settlement needs a fixer now, not a warrior.&lt;page&gt;Heh, maybe that’s true. Times like these all we can do is put our heads down and try to rebuild.</en>
+    <zh>啊！你还活着！我还担心你和那头巨兽搏斗会受重伤。&lt;page&gt;让你独自涉险真是惭愧，但我不是战士，工具也对付不了那种怪物。&lt;hpage&gt;你保全自身是对的。这里需要的是维修师，不是战士。&lt;page&gt;嘿，或许吧。这种时候，埋头干活才是正理。</zh>
+  </entry>
+  <entry key="BB_FIXER_ACT3_REPEAT">
+    <en>Rest here with us, long as you like. Mightn’t be much time left, but at least we few won’t have to face that fate alone.</en>
+    <zh>您想歇多久都行。虽然时日无多，但至少不必孤零零面对。</zh>
+  </entry>
+  <entry key="BB_FIXER_STATUE">
+    <en>Ah! Glad I caught you for a moment, miss. You’ve done a fair service to this camp, given much more’n most.&lt;page&gt;I’d been thinkin’ on all your efforts, and set to making a little something to repay ‘em.&lt;page&gt;S’only a token, really! But I’ve put all me talent into it, much as I’ve got! Something to keep you company on the lonely roads above.&lt;page&gt;Hold onto it on your travels, and remember that you’re always welcome down here with us.</en>
+    <zh>啊！可算遇着你了，小姐。您为这营地做的贡献比谁都多。&lt;page&gt;我琢磨着您的好意，做了个小玩意当回礼。&lt;page&gt;就是个信物！但我把看家本事都使上了！让它在孤独的旅途上陪您解个闷。&lt;page&gt;带着它上路吧，记得这里永远欢迎您。</zh>
+  </entry>
+  <entry key="BB_RESIDENT_CAMP">
+    <en>&lt;hpage&gt;This camp seems in poor condition, good bug. With the lands around turning deadly, I’d worry for its safety.&lt;page&gt;Aye. We surely aren’t seeing its finest moment, but this place has been serving us passing bugs for as long as any can remember.&lt;page&gt;It’s faith, you see! All those pilgrims, now and past. Our devotion holds it together. The camp’ll remain, and provide, no matter the troubles.&lt;page&gt;</en>
+    <zh>&lt;hpage&gt;这处营地破败不堪，周遭又暗藏危险，我担忧其安危。&lt;page&gt;唉，确实不是鼎盛时候。但这里长久以来侍奉过往虫众，已不知过了多少年月。&lt;page&gt;是信仰维系着这片营地，明白吗？是古今朝圣者的虔心庇佑着这里。任外面灾厄横行，营地永存。</zh>
+  </entry>
+  <entry key="FUNERAL_1">
+    <en>&lt;hpage&gt;What ritual calls you all together, pilgrim?&lt;page&gt;Our brother, this poor wretch in my arms, has walked his last aching step. We gather here to sing him farewell, and to mourn our great loss.</en>
+    <zh>&lt;hpage&gt;诸位聚集在此举行什么仪式？&lt;page&gt;这位兄弟，我怀中的可怜虫，已走完最后一步。我们在此唱别，哀悼逝者。</zh>
+  </entry>
+  <entry key="BB_CARETAKER_TALK_02">
+    <en>If the veiled bugs have an interest in you, enough to brave the wastes beyond our borders, then you must be rather special, yes?&lt;hpage&gt;In my own lands, some may once have seen me so. In this place, with my strength sapped, I am just another traveller.&lt;page&gt;Ohho! A traveller, but still something more. I can see it now. Of course! That focus!&lt;page&gt;Did those veiled bugs realise who they snared? Perhaps it is they who should be worried, eh?</en>
+    <zh>既然覆面者对你有兴趣，甚至不惜穿越边境荒原掳走你，你肯定不是什么等闲之辈吧？&lt;hpage&gt;在故土，或许曾有虫如此看待我。但在此地，力衰之躯只不过是一介旅者。&lt;page&gt;嚯嚯！旅者？不止如此。我可看得很清楚，这专注的眼神！&lt;page&gt;那些覆面虫知道自己网住了谁吗？该提心吊胆的怕是他们，对吧？</zh>
+  </entry>
+  <entry key="MOSSCREEP_REOFFER">
+    <en>My wish. Oh my wish! I need fruits of the world, three little darlings. I need them! Does the kingdom not send you, little you, to grant my desire?</en>
+    <zh>我的祈愿。啊我的祈愿！我要这世间的三枚果实，小宝贝果实。我需要！王国没派你，小小你，来满足我的渴求？</zh>
+  </entry>
+  <entry key="BB_CARETAKER_MEET_1">
+    <en>Ahh, awake at last! You should mind your strength, traveller. There’s no use wasting energy on an old nobody like me.&lt;hpage&gt;I see that now, madam. My welcome to your land has not been kind. I had reason to be wary.</en>
+    <zh>啊哈！可算醒了！你该省省力气，旅者。在我这老骨头身上浪费气力可不值当。&lt;hpage&gt;现在我看清了，女士。但此地的待客之道可不友善。我保持警惕自有道理。</zh>
+  </entry>
+  <entry key="BB_CARETAKER_PRE_MEET">
+    <en>Up with you! Up! I won’t have you dying on my floor!</en>
+    <zh>给我起来！快起来！我可不想看你死在我的地板上！</zh>
+  </entry>
+  <entry key="BB_CARETAKER_MEET_3">
+    <en>&lt;hpage&gt;I am no pilgrim. I am Hornet, and I arrive in your land by no choice of my own.&lt;hpage&gt;I was brought to your kingdom by force, captured by strange bugs clad in veils.&lt;page&gt;Oho! How curious! The bugs of the Citadel, at the summit of our land. They veil themselves in service to their faith, or perhaps as slaves to something greater...&lt;hpage&gt;Then I shall seek their Citadel. If the veiled bugs would go to such lengths to bring me here, I intend to find out why.&lt;page&gt;Oho! Ferocious! Intimidating! Yours is no pilgrim’s spirit! You’ve the bearing of a hunter.&lt;page&gt;Welcome then, fierce traveller, to Pharloom! Our holy yet haunted land.&lt;page&gt;Before you depart, permit an old bug a brief warning. Best keep that weapon drawn.&lt;page&gt;Our kingdom is gripped by a curse. Its paths grow wild and dangerous, and though some still attempt the climb to the Citadel at its crest, none return to speak of what they see.</en>
+    <zh>&lt;hpage&gt;我名为大黄蜂。我并非朝圣者，也不是自愿来到这里。&lt;hpage&gt;是一群覆面怪虫将我绑来这里的。&lt;page&gt;嚯！稀奇！那是圣堡的虫子，盘踞在我们土地上头。他们覆面侍奉信仰，或者说……是更可怖之物的奴仆……&lt;hpage&gt;那我会找到圣堡。既然覆面者费心绑我来到这里，我一定会查清缘由。&lt;page&gt;嚯！够凶！这可不是朝圣者的脾性！你分明带着猎手的气魄。&lt;page&gt;那么欢迎你，剽悍的旅者，来到纺络！这个神圣却遭诅咒的国度。&lt;page&gt;启程前容老虫多句嘴，最好时刻握紧你的兵刃。&lt;page&gt;我们的王国正被诅咒啃噬。道路变得混乱凶险，山顶那座圣堡——尽管仍有勇者试图攀登，却无虫归来讲述见闻。</zh>
+  </entry>
+  <entry key="BB_CARETAKER_MEET_2">
+    <en>So you’re another pilgrim then? Scuttled out of the darkness to climb the great path and bow at its gilded peak?</en>
+    <zh>这么说你也是个朝圣者？从黑暗里钻出来就为攀那条路，去镀金尖顶上叩拜？</zh>
+  </entry>
+  <entry key="BB_FIXER_Q1_COMPLETE">
+    <en>Well, look at that! You’ve gone and donated all those shell shards, just like I wished for! I can scarcely believe it!&lt;page&gt;Those shards are valuable, alright. Brilliant for crafting and fixing, very versatile.&lt;page&gt;More than that, though... it was a warm thing you did, the sort of kindness you don’t see much in this weary place.&lt;hpage&gt;Was this kindness? I must take care to learn of this land and claim what advantage I can from it. Answering requests like yours can often fit those ends.&lt;page&gt;Oh, it’s like that, is it? Well, even still, the help’s well appreciated, miss. Best of luck in your travels, and may every wish of yours be granted!</en>
+    <zh>哎呀呀！你居然真捐了这么多甲壳碎片！跟我许的愿一模一样！简直不敢相信！&lt;page&gt;这些碎片用处可不少，又能造东西又能修修补补。&lt;page&gt;不过更重要的是……你做了件暖心事，这破地方可少见这种善举。&lt;hpage&gt;善意？我需要审慎了解这里，好为自己谋取利益。回应你的祈愿只是手段。&lt;page&gt;哦，原来如此？但帮忙总归是好的，小姐。祝旅途顺利，愿你所有愿望都能实现！</zh>
+  </entry>
+  <entry key="BB_SHOPKEEP_POST_BOSS">
+    <en>Oh, oh dear... what fearful events are sent to test we poor pilgrims! How could it be that our path to paradise is infested with such beasts?&lt;page&gt;To brave such a world... oh my. I’ll need more rosaries, that’s for certain. Please traveller, won’t you trade with me?</en>
+    <zh>噢，圣堡啊……为何设置这等可怖灾厄考验可怜的朝圣者！通往乐土之路怎么会遍布恶兽？&lt;page&gt;要继续朝圣之路……唉，需要更多念珠。旅者，愿意交易吗？</zh>
+  </entry>
+  <entry key="MOSSCREEP_WISHWALL">
+    <en>You are my wish granter, yes? My wish! I need fruits of the world, three little darlings. I need them, so I wish!&lt;page&gt;You made the promise. A binding stronger than sin. Bring me the three Mossberries. Precious fruit! Grant my wish, and then the work begins!</en>
+    <zh>你实现我的祈愿，对吧？我的祈愿！我要这世间的三枚果实，小宝贝果实。我需要，所以祈愿！&lt;page&gt;你应诺祈愿，比罪孽更牢固的契约。带给我三颗苔莓。珍果！应我祈愿，大业方启！</zh>
+  </entry>
+  <entry key="BB_RESIDENT_PILGRIMSREST_REPEAT">
+    <en>I’ve a long way to go, and much more to see. For now though, let’s just rest a little while, eh?</en>
+    <zh>前面还有不少路要走，也有不少新鲜事物等着发现。但现在，不如一起休息一会吧。</zh>
+  </entry>
+  <entry key="BB_FIXER_GENERIC">
+    <en>Times are hard, so fresh supplies are always welcome! Bugs arrive here with nothin’ and often leave without much more.</en>
+    <zh>时局艰难，物资紧缺！虫子们来时两手空空，走时也带不走啥。</zh>
+  </entry>
+  <entry key="BB_SHOPKEEP_NOSTOCK">
+    <en>Well now! Seems I’ve traded you the last of my supplies, so I’ve got no more excuses to linger down here.&lt;page&gt;I’ll soon be making my way up to the great Citadel. As holy as I am with rosaries, I’m sure my path will not be an arduous one...</en>
+    <zh>哎呀！最后的存货都换予你了，这下没借口留下啦。&lt;page&gt;很快要上圣堡了。揣着这么多念珠，肯定能一路顺畅……</zh>
+  </entry>
+  <entry key="MOSSCREEP_TRADE_NOBERRY">
+    <en>Bring more Mossberries here. Mmm. Yes, we will trade. Precious rosaries for fresh berries! Seek them wherever you see the green moss grow!</en>
+    <zh>带更多苔莓来。嗯。用念珠换鲜果！青苔生长处都有踪迹！</zh>
+  </entry>
+  <entry key="BB_CARETAKER_TALK_01">
+    <en>You bear your blade well, hunter, and you’ve skill, no doubt, so I don’t mean any unkindness when I say you still seem a little frail.&lt;hpage&gt;I was a long time spent captive, bound by seals strange to me. My strength is diminished, but recoverable.&lt;hpage&gt;By the time I reach that Citadel, I’ll be ready to face what waits.</en>
+    <zh>你执刃的姿态不错，猎手，本领想必了得。不过恕我直言，你看上去仍有些虚弱。&lt;hpage&gt;我遭囚禁多日，又被陌生封印束缚。气力虽然衰微，但尚可恢复。&lt;hpage&gt;等我抵达圣堡之时，自然会做好准备。</zh>
+  </entry>
+  <entry key="BB_CARETAKER_CURSED">
+    <en>Oh! Hunter, aren’t you in a sorry state? You’re all bound up, looking worse than when we first met!&lt;hpage&gt;My shell has become host to a cruel parasite. Though my natural strength keeps it from consuming me entirely, I’m much weakened by its presence.&lt;page&gt;Well, this just won’t do! Pharloom’s already in the snare of one fell curse, we can’t have another vying to leech what life remains.&lt;page&gt;Best you head quick over to that town of bells, at the core of our kingdom. I’ve an uncle hidden about there, an old hermit, and a horrid curmudgeon.&lt;page&gt;That hermit’s a hard one to befriend, but he holds some knowledge about this kingdom’s maladies. If anyone’s able to point you to a cure, it’ll be him.</en>
+    <zh>哦！猎手，看你这副惨状。全身像被缠住，比初见时更狼狈了。&lt;hpage&gt;我受到险恶寄生体的侵蚀。虽凭借本源之力阻止了吞噬，仍被大幅削弱。&lt;page&gt;这怎么行！纺络已然陷于一道诅咒，怎能再让另一道来争夺残存的生机。&lt;page&gt;快去王国腹地的钟心镇，我在那有个隐居的叔父，就是脾气臭得很。&lt;page&gt;与他结交并不容易，但他了解不少病症。要说有谁能指点医治方法，非他莫属。</zh>
+  </entry>
+  <entry key="MOSSCREEP_TRADE_ACCEPT_3">
+    <en>Mmm, the precious fruit! And... oh! Such fruit! Perfectly ripe! Perfectly fragrant! Perfectly round! Take what you have earned, much of much rosaries!</en>
+    <zh>嗯，珍果！啊……极品！熟透！芬芳！浑圆！拿好，念珠多多，你当之无愧！</zh>
+  </entry>
+  <entry key="BB_SHOPKEEP_MEET_ALT">
+    <en>O-oh! Traveller! Won’t you stop and make trade with an old pilgrim? Surely something here will aid you in your great journey!</en>
+    <zh>噢！旅者！来与我做笔交易？总有物件能在旅途中助你一臂之力！</zh>
+  </entry>
+  <entry key="MOSSCREEP_TRADE_REFUSE">
+    <en>You keep the fruit for yourself? For greed? Strange choice! It will only weigh you down...</en>
+    <zh>私藏果实？贪婪？奇怪选择！徒增负担……</zh>
+  </entry>
+  <entry key="BB_FIXER_STATUE_REPEAT">
+    <en>Don’t go thinkin’ fear’s keepin’ me from my own pilgrimage! S’just there’s a lotta work still to do here and few bugs able to do it.</en>
+    <zh>别以为我是怕了才不去朝圣！实在是这里活儿多帮手少。</zh>
+  </entry>
+  <entry key="FUNERAL_4">
+    <en>Sing for our brother, who has died a devout death! All his pains and torments left behind, like the dust shrugged from a traveller’s shawl.</en>
+    <zh>为兄弟而歌，他死得虔诚！所有苦痛皆抛却，如旅者抖落披肩尘埃。</zh>
+  </entry>
+  <entry key="MOSSCREEP_ACCEPT">
+    <en>Promised, then. A binding stronger than sin. Bring me the three Mossberries. Precious fruit! Grant my wish, and then the work begins!</en>
+    <zh>祈愿已承，比罪孽更牢固的契约。带给我三颗苔莓。珍果！应我祈愿，大业方启！</zh>
+  </entry>
+  <entry key="MOSSCREEP_MEET">
+    <en>Mm. Mmm! Who is it? An intruder! Terrible! To interrupt a humble druid as they work!&lt;hpage&gt;I meant no intrusion, druid. The sound of your laughter drew me to investigate.&lt;hpage&gt;This settlement is built around an old structure of the Weavers. Do you know of them? Do they inhabit this land still?&lt;page&gt;Mm? What settlement? What Weavers?! You speak nonsense!</en>
+    <zh>嗯。嗯嗯！谁在那儿？入侵者！可恶！竟敢打扰德鲁伊修行！&lt;hpage&gt;无心冒犯，德鲁伊。你的笑声引我前来探查。&lt;hpage&gt;这聚落环绕古织者遗迹而建。你可知晓他们？是否仍居于此？&lt;page&gt;嗯？什么聚落？什么织者？！胡言乱语！</zh>
+  </entry>
+  <entry key="BB_CARETAKER_SNARE">
+    <en>&lt;hpage&gt;Madam, I return seeking power to aid the construction of a trap, at request of your sibling residing atop the Citadel.&lt;page&gt;Aye, hunter. So you managed to rouse the old fool. I’ve known it coming, felt it, and glad I am! &lt;page&gt;Rest’a my family spent far too long huddled and glum... or dead! Not me! I’d always been thinkin’ it a waste to just take what’s coming, when her up top wakes.&lt;page&gt;Better to fight for freedom or go out in a blaze, oh ho!</en>
+    <zh>&lt;hpage&gt;女士，我应你同胞之请归来，寻求助力建造陷阱——他正蛰伏圣堡之中。&lt;page&gt;啊，猎手。你果然说动了那老顽固。我早有预感，真是欣慰！&lt;page&gt;家族里其他虫要么缩着发愁……要么死了！我不一样！早就觉得坐等顶上那位苏醒是浪费生命。&lt;page&gt;宁可死也要争取自由，嚯嚯！</zh>
+  </entry>
+  <entry key="MOSSCREEP_TRADE_ACCEPT_1">
+    <en>Mmm, the precious fruit! Ah... but! This one is not so fresh. Rotten! Stench of death! A meagre amount of rosaries for you. As much as you deserve!</en>
+    <zh>嗯，珍果！啊……但这颗不鲜。腐坏！死气熏天！只配少少念珠！</zh>
+  </entry>
+  <entry key="FUNERAL_NAME_1">
+    <en>&lt;hpage&gt;Pilby. This pilgrim’s name was Pilby.</en>
+    <zh>&lt;hpage&gt;皮尔比。他名为皮尔比。</zh>
+  </entry>
+  <entry key="BB_FIXER_REPEAT">
+    <en>Once this wishwall is up, bugs’ll be able to seek help from any able shell around. You could even try granting a couple of wishes yourself, missy!</en>
+    <zh>&lt;page&gt;等这祈愿墙立起来，大伙就能向能者求助了。小姐你说不定还能帮忙实现几个愿望呢！</zh>
+  </entry>
+  <entry key="BB_RESIDENT_REPEAT">
+    <en>Rest here with me as long as you like. I’m not ready to leave yet, and a little company is always nice.</en>
+    <zh>你想休息多久都可以。我尚未准备好启程，有个伴总是好的。</zh>
+  </entry>
+  <entry key="BELLWAY_PILGRIM_REPEAT">
+    <en>Down here, you can’t hear the cries of the pilgrims above, only the faintly ringing bells. I’ll stay and meditate a little longer, before I start my own pilgrimage...</en>
+    <zh>在这儿听不见上头朝圣者的哭嚎，只有隐隐钟鸣。启程前我要多冥想会儿……</zh>
+  </entry>
+  <entry key="FUNERAL_FINAL_NAME">
+    <en>Farewell, brother Pilby. May your shell harden the path for others to tread.</en>
+    <zh>永别了，小皮尔比。愿你的甲壳为后来者铺路。</zh>
+  </entry>
+  <entry key="BELLWAY_PILGRIM_AFTER_TRAVEL">
+    <en>Beast! B-b-beast! Horrible beast!</en>
+    <zh>怪物！怪、怪物！吓死虫了！</zh>
+  </entry>
+  <entry key="FUNERAL_3">
+    <en>...Hm. Who here knows the name of this little pilgrim?</en>
+    <zh>……嗯。在场有谁记得这虫的名字？</zh>
+  </entry>
+  <entry key="BB_FIXER_Q1_COMPLETE_R">
+    <en>Common stuff, shell shards, but very practical. I can use ‘em to patch almost anything up, and this camp’s always in need of some mending. </en>
+    <zh>甲壳碎片虽然普通，但实用。我能拿它们修补大半东西，这营地可少不了修修补补。</zh>
+  </entry>
+  <entry key="BB_FIXER_BENCHREPAIR_REPEAT">
+    <en>And another poor pilgrim lost, eh? Just the thought of it makes me weary. Better to put my head down and work ‘til the job’s done...</en>
+    <zh>又没了个朝圣者？光想想就累得慌。还是干活吧……</zh>
+  </entry>
+  <entry key="BB_RESIDENT_MEET">
+    <en>Hm? A fellow pilgrim, are you? About to start your great journey to the holy Citadel up top?&lt;hpage&gt;I am no pilgrim, sir, though it seems we will be travelling a similar path.&lt;page&gt;Not a pilgrim? Well, it makes no difference, I suppose. We all must walk the roads, up and up, though most of us will fall long before we see the grand gates.&lt;page&gt;If you’re wise, you’ll stop here and rest a while before heading out into that dangerous world...</en>
+    <zh>嗯？你也是朝圣者？准备启程攀登圣堡了？&lt;hpage&gt;我并非朝圣者，先生，但前路或许相仿。&lt;page&gt;不是？也罢。众生皆须行路攀爬，但大多未睹圣门便殒命。&lt;page&gt;你若明智，启程前应该在此休整……</zh>
+  </entry>
+  <entry key="MOSSCREEP_QUESTCOMPLETE_D">
+    <en>And for the parting, a gift. An amulet of we druids. Or me druid? No others, I think.&lt;page&gt;May it ease your sorrows, wish granter. May it cry for you when no tears are left!</en>
+    <zh>临别赠礼。我们德鲁伊护符。或者，我的护符？似乎只剩我。&lt;page&gt;希望它能缓解你的哀伤，授愿者。眼泪干涸时，护符为你哭泣！</zh>
+  </entry>
+  <entry key="MOSSCREEP_TRADE_BERRY">
+    <en>Mmm! Mmm! You carry a sweet, precious smell with you. A fruit! Will you trade it for rosaries?</en>
+    <zh>嗯嗯！嗯！你身上的甜美气息。鲜果！用念珠交换？</zh>
+  </entry>
+  <entry key="BB_RESIDENT_TALK">
+    <en>&lt;hpage&gt;I wonder, little pilgrim. What calls you and your fellows up to the Citadel? If the way is dangerous, why take the journey at all?&lt;page&gt;Strange question to be asking of a pilgrim. Our holy land calls on us. To journey up is our greatest task. Who are we to refuse?&lt;page&gt;Guided by faith, we climb through flaming fields, across rolling moors, and up great gilded steps. All to reach that eternal, shining Citadel.&lt;page&gt;Once I’m good and ready, I’ll make the climb myself...</en>
+    <zh>&lt;hpage&gt;小朝圣者，我有些好奇。是什么召唤你前往圣堡？既然道途凶险，为何仍要涉险？&lt;page&gt;问朝圣者这话可真怪。圣堡召唤，攀登就是我等天职。怎么能违抗？&lt;page&gt;凭着信仰穿越火野，踏过灰沼，登上金阶。只为抵达永恒辉煌的圣堡。&lt;page&gt;待准备妥当，我就会启程……</zh>
+  </entry>
+  <entry key="MOSSCREEP_QUESTCOMPLETE_C">
+    <en>Mmm. Mmm! The pain... my mind aches. Why? The berries, the nasty fruits. Oh the visions!&lt;page&gt;You, wish promiser. Wish granter. You brought me what I needed and stayed by my side. Companion through my ordeal. I could ask for nothing more.</en>
+    <zh>嗯。嗯！痛楚……心如火灼。为什么？莓果，秽果。啊，那些幻象！&lt;page&gt;你，应诺者，授愿者。你实现我愿，伴我受难。我再无所求。</zh>
+  </entry>
+  <entry key="MOSSCREEP_QUESTCOMPLETE_B">
+    <en>Ahhh! Ahhh-ohhhh! The smell is right! Like the others! But very young! Oh, voice of the woods! Oh, dance of the queen! Oh... oh! Beat harder, let us hear it! Oh! Ohhhhhhhh!</en>
+    <zh>啊啊！啊——噢！气味对了！就像其他！但尚幼嫩！啊，林间之声！啊，女王之舞！啊……啊！搏动吧，让我聆听！啊！啊啊啊！</zh>
+  </entry>
+  <entry key="FUNERAL_2b">
+    <en>Sing, brothers and sisters! Sing, and drown out this burdensome sorrow! Sing out the name of this poor pilgrim, whose journey had nary begun! </en>
+    <zh>唱吧，兄弟姐妹！用歌声淹没这沉痛哀伤！为这未启程便陨落的朝圣者高歌！</zh>
+  </entry>
+  <entry key="BELLWAY_PILGRIM_TALK_1">
+    <en>Have you heard the talk of what waits just beyond this camp?&lt;page&gt;Brittle caverns of bone, the very base of Pharloom, filled with all manner of deadly creatures and jagged dangers.&lt;page&gt;It’s said ancient bugs once made their homes amidst it.&lt;page&gt;Who could believe! In such a hostile, unstable place! In all my time, I’ve never met a bug so brave.</en>
+    <zh>你可曾听闻营地外的传闻？&lt;page&gt;骸骨脆岩构成纺络的基底，布满凶兽利齿。&lt;page&gt;据说古虫曾在此安家。&lt;page&gt;谁信啊！这种险恶之地！我这辈子没见过这么勇敢的虫。</zh>
+  </entry>
+  <entry key="BB_PILGRIM_HORNED">
+    <en>Sister, sister! What is that long, gleaming tooth you carry with you? Is it a weapon?&lt;hpage&gt;It is indeed, though you need not fear. I will not raise it against you. Its edge is meant for predators and other foes.&lt;hpage&gt;I strongly suggest you arm yourself similarly before your own journey begins.&lt;page&gt;Alas... for a pilgrim, that’s sin you speak of, sister.&lt;page&gt;We arm ourselves with prayer, garb ourselves in faith, and hope they prove enough to reach the Citadel’s glory. Such is our way...</en>
+    <zh>姐妹！你带的闪亮长牙是武器吗？&lt;hpage&gt;正是，但无需惧怕。此刃只与掠食者与敌手相向。&lt;hpage&gt;强烈建议你启程前也备件武器。&lt;page&gt;唉……姐妹此言对朝圣者实属亵渎。我等以祷言为刃，以信仰为盾，唯此方能抵达圣堡。此乃吾辈之道……</zh>
+  </entry>
+  <entry key="BB_FIXER_Q1_INTRO">
+    <en>Oh! Back again? The wishwall is up! Ready for all the poor souls who’ve been left behind down here.&lt;page&gt;In Pharloom, wishes are granted to those truly devout, or so they say. And there ain’t no harm in us dregs having wishes too.&lt;page&gt;Why, I even went and added a little wish of my own to the wishwall! Fair’s fair. I did build the thing. Seems like the kingdom should be granting my wish before anyone else’s.</en>
+    <zh>哦！回来啦？祈愿墙完工了！就等底下这些可怜虫来许愿了。&lt;page&gt;纺络的愿望只赐给真正虔诚的虫，都这么说。但咱这些底层渣滓许个愿总不犯法吧？&lt;page&gt;嘿，我还在墙上偷偷加了自己的小愿望！公平嘛，墙是我造的，圣堡该先实现我的愿望才对。</zh>
+  </entry>
+  <entry key="BB_FIXER_MEET">
+    <en>&lt;hpage&gt;What’s this you’re building, sir? A sign of some kind?&lt;page&gt;Aye, aye. You’re a sharp bug! A wishwall. It’s past time this old camp had one. As the resident fixer, I’ve taken it upon myself to sort it out.&lt;page&gt;They’re a popular thing about Pharloom, wishwalls. Useful too. So many prayers left unanswered. Gives ‘em a place to go.</en>
+    <zh>&lt;hpage&gt;先生这是在建造什么？某种标识？&lt;page&gt;啊，好眼力！这是祈愿墙。这老营地早该有一个。身为驻场维修师，自然该由我操办。&lt;page&gt;祈愿墙在纺络可流行了，很实用。那么多没回音的祈愿，总得有个归处。</zh>
+  </entry>
+  <entry key="BB_PILGRIM_ROUND_REPEAT">
+    <en>I must listen carefully... and pray with uninterrupted devotion. Only then will my faith be strong enough... to carry me upward...</en>
+    <zh>必须专注聆听……虔心祷告。唯有如此，方能坚定信念，支撑我攀登……</zh>
+  </entry>
+  <entry key="BB_CARETAKER_SNARE_REPEAT">
+    <en>S’not a surprise it’s you rallying us to action, hunter. You had the sense about you, a bug bringing change’n all.&lt;page&gt;Course you’re more than just a bug, aint’cha! More than Weaver. Guess it’d take someone like you for my family to dare hope at success.&lt;page&gt;Go and prove our trust now, won’t you? We’ve spent our lifetimes wishing for another path. With a bit of luck, you might grant it.</en>
+    <zh>果然是你来召集我们行动，猎手。我初见便知你是变革者。&lt;page&gt;当然，你并非寻常虫类，也不止是织者。看来只有你这般存在，才让我族敢奢望成功。&lt;page&gt;现在就去证明你值得我们托付吧？我们毕生渴求踏上另一条道路。如果运气眷顾，你或许能成全我们。</zh>
+  </entry>
+  <entry key="FUNERAL_NONAME">
+    <en>Well. Though this pilgrim’s name has been lost, still we sing.</en>
+    <zh>罢了。虽名讳已失，歌声依旧。</zh>
+  </entry>
+  <entry key="BB_RESIDENT_GOT_SPRINT">
+    <en>Been hearing awful whispers in camp, about pilgrims driven mad by the hardships of the climb, crying out and attacking their fellows.&lt;page&gt;You’ve been out there. Tell me, is it really so?&lt;hpage&gt;You’ve heard it true, sir. On the roads, both pilgrims and beasts alike are consumed, driven to violence by a haunted thread, the source of which I have yet to discover.&lt;page&gt;Ah... I’d feared it was so. I won’t be able to trust a single face out on the path, then.&lt;page&gt;The risk of death was daunting enough, but the loneliness of such a journey, that seems almost too much to bear... Ah well. Just another test of our devotion, I suppose.</en>
+    <zh>营地里常听到些可怖的流言，说攀登艰辛逼疯朝圣者，使其癫狂嚎叫，袭击同伴。&lt;page&gt;你是从外面来的。告诉我，真有这种事？&lt;hpage&gt;传言非虚，先生。路上朝圣者与野兽皆遭丝咒侵蚀，陷入狂暴，其源未明。&lt;page&gt;唉……果然。看来路上谁都不能信了。&lt;page&gt;死亡已经足够可怕，但独行的寂寞……简直难以承受……也罢，这是我等信仰必经的试炼。</zh>
+  </entry>
+  <entry key="BB_PILGRIM_HORNED_REPEAT">
+    <en>We pilgrims arm ourselves with prayer, garb ourselves in faith, and hope they prove enough to reach the Citadel’s glory. Such is our way...</en>
+    <zh>朝圣者以祷言为刃，披信仰为甲，唯此方能抵达圣堡。此乃吾辈之道……</zh>
+  </entry>
+  <entry key="BB_CARETAKER_TALK_03">
+    <en>&lt;hpage&gt;What duty binds you to this old chapel, madam? The structure barely stands, and I see no signs of congregation.&lt;page&gt;Aye! Gone! The lot’o them, fled and hidden. But I’m not leaving till I’ve set this place right...&lt;page&gt;...It’s that Citadel above, you see. Even now, in Pharloom’s long decline, the simple bugs, they’re witless before it. Too grand. Too majestic. Too powerful.&lt;page&gt;This building’s state is a sad example of those who’d dare suggest another path...</en>
+    <zh>&lt;hpage&gt;女士，是何职责将你束缚在这破败教堂？此处梁柱倾颓，更无信众踪影。&lt;page&gt;唉！都散了！逃的逃藏的藏。但我要留下……直到把这儿整顿妥当……&lt;page&gt;……你瞧，都是上头圣堡造的孽。即便纺络衰败至此，愚昧虫众仍对其俯首。太宏伟，太威严，太强大。&lt;page&gt;这座建筑的惨状，正是胆敢另辟蹊径者的下场……</zh>
+  </entry>
+  <entry key="BB_FIXER_ACT3_DELIVERY">
+    <en>Eh? What fortune is this? Our wish answered, even in a moment so dark!&lt;page&gt;You’ve proved quite the saviour, miss, and you’ve certainly earned the appreciation of this whole sorry lot.&lt;hpage&gt;You are welcome, sir. For you few, I hope these supplies may aid.</en>
+    <zh>哎呀！这什么好运？这么黑暗危险的时刻祈愿居然实现了。&lt;page&gt;您真是救星啊小姐，我们这群可怜虫都打心眼里感激您。&lt;hpage&gt;能帮上忙就好。希望这点补给对你们有用。</zh>
+  </entry>
+  <entry key="BB_PILGRIM_ROUND">
+    <en>You, in the cloak... pray tread softly. I am meditating, gathering my faith... before my pilgrimage begins.&lt;hpage&gt;My steps are soft enough, madam. If I have disturbed you, it was not my intent.&lt;page&gt;Ahh... even your speech... far too loud. I can scarcely hear my thoughts. Please, be away...</en>
+    <zh>穿披风那位……脚步放轻。我在冥想聚神……为朝圣做准备。&lt;hpage&gt;脚步够轻了，女士。若打扰了你实非本意。&lt;page&gt;唉……连说话声……都太吵。静不下心。请快离开……</zh>
+  </entry>
+  <entry key="BB_CARETAKER_BONEGRAVE">
+    <en>I see you’ve gone and opened up the great bone gate back there. And without even asking my permission! Feeling curious, were you?&lt;hpage&gt;There is a vast grave beyond. I’d assumed most bugs died climbing the path, but it seems many fell before their trek had barely commenced.&lt;page&gt;Aye! Lost their lives to beasts, or to luck turned rotten. Others were simply formed too frail.&lt;page&gt;At least those poor souls can rest together. Death and death and death, the eternal promise of our eternal kingdom. Eventually, it claims us all. </en>
+    <zh>看来你擅自开了后头的巨大骨门，甚至问都不问我！不怕好奇害死虫？&lt;hpage&gt;门后是片巨冢。本以为众虫多是殒命在攀登途中，但似是有许多死于起步？&lt;page&gt;唉！有的死于猛兽，有的运气不好，也有天生孱弱的。&lt;page&gt;但至少这些可怜虫可以共眠。无止尽的死亡，永恒国度的永恒承诺，终将吞噬众生。</zh>
+  </entry>
+  <entry key="BB_CARETAKER_BASEMENT_TALK_01">
+    <en>Hunter! I’m thinking it was you that cleared my basement?&lt;hpage&gt;On first arrival here, the nesting creatures didn’t take kindly to my passing.&lt;page&gt;Ohho. They’re cranky bugs, alright. And they made an awful mess down here with their hatching and breeding.&lt;page&gt;You’ve my many thanks for seeing them off!</en>
+    <zh>猎手！地窖里的那些家伙是你清理的？&lt;hpage&gt;初到此地时，那些栖居者可不待见我路过。&lt;page&gt;哈哈，都是些坏脾气的虫子。他们孵卵繁衍把下面搞得一团糟。&lt;page&gt;多谢你赶走了它们！</zh>
+  </entry>
+</sheet>

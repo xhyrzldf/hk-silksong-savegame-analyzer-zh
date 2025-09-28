@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="General">
+  <entry key="DEMO_END_MESSAGE">
+    <en>Thank you for playing the demo.</en>
+    <zh>试玩版体验结束，感谢您的游玩！</zh>
+  </entry>
+  <entry key="GAME_TITLE">
+    <en>Hollow Knight: Silksong</en>
+    <zh>Hollow Knight: Silksong</zh>
+  </entry>
+  <entry key="PROLOGUE_EXCERPT_02">
+    <en>They see your peace, woven of faith and toil,</en>
+    <zh>赞美你以信仰与劳役编织的片刻安宁，</zh>
+  </entry>
+  <entry key="ACT_3_SUPER">
+    <en>ACT 3</en>
+    <zh>第三幕</zh>
+  </entry>
+  <entry key="SAVE_WARNING">
+    <en>This game saves data automatically at certain points.&lt;br&gt;Please do not turn off the software while this symbol is displayed.</en>
+    <zh>本游戏在某些情况下会自动存档。&lt;br&gt;如果屏幕上出现此标志，请不要强行关闭游戏。</zh>
+  </entry>
+  <entry key="HORNET_NAME">
+    <en>Hornet</en>
+    <zh>大黄蜂</zh>
+  </entry>
+  <entry key="ACT_2_SUPER">
+    <en>ACT 2</en>
+    <zh>第二幕</zh>
+  </entry>
+  <entry key="CONTROL_PROMPT">
+    <en>use of a controller is highly recommended</en>
+    <zh>强烈建议使用游戏手柄</zh>
+  </entry>
+  <entry key="ACT_2_NAME">
+    <en>CITADEL OF SONG</en>
+    <zh>圣歌城堡</zh>
+  </entry>
+  <entry key="PROLOGUE_EXCERPT_AUTHOR">
+    <en>- From ‘Pharloom’s Folly’ by the Conductor Romino</en>
+    <zh>——摘自《纺络谬世录》 指挥家罗米诺 著</zh>
+  </entry>
+  <entry key="ACT_1_SUPER">
+    <en>ACT 1</en>
+    <zh>第一幕</zh>
+  </entry>
+  <entry key="PROLOGUE_EXCERPT_03">
+    <en>They forget your heart, bound in slumber and servitude,</en>
+    <zh>谁又记得你沉睡于桎梏中的野兽之心？</zh>
+  </entry>
+  <entry key="PROLOGUE_EXCERPT_01">
+    <en>They see your beauty, so frail and fine,</en>
+    <zh>虫豸皆敬仰你纤弱的神迹之美，</zh>
+  </entry>
+  <entry key="ACT_1_NAME">
+    <en>PHARLOOM</en>
+    <zh>纺络</zh>
+  </entry>
+  <entry key="ACT_3_NAME">
+    <en>ABYSS</en>
+    <zh>深渊</zh>
+  </entry>
+  <entry key="PROLOGUE_EXCERPT_04">
+    <en>When you wake they shall see your truth, </en>
+    <zh>待你醒来，挣裂千丝缠茧——</zh>
+  </entry>
+  <entry key="PROLOGUE_EXCERPT_05">
+    <en>A beast’s nature bare to all.</en>
+    <zh>本性昭然，众生骇见。</zh>
+  </entry>
+</sheet>

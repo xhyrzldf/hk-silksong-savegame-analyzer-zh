@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Lore">
+  <entry key="MARROW_START_SIGN">
+    <en>Pilgrim&lt;br&gt;You are blessed to walk the foundations of Pharloom.&lt;br&gt;Humble yourself before the shells of those who gave their lives to hold our kingdom’s weight.</en>
+    <zh>朝圣者&lt;br&gt;行走于纺络根基是你的殊荣。&lt;br&gt;在这些为王国献出生命者的躯壳前，应保持谦卑。</zh>
+  </entry>
+  <entry key="RED_MEMORY_ROOT2">
+    <en>&lt;hpage&gt;You are wrong, Lady...&lt;hpage&gt;I knew the wish, and the price to achieve it. And now, across these many ages, I have only come to know it better...&lt;hpage&gt;Strength... in mind, in care, in claw. Strength enough that I may live to see a world better than our own, or to craft a world as I desire. &lt;hpage&gt;That was the wish, of my mother, of my mentor, and of you...&lt;page&gt;...Indeed, spider... So much pain you must have passed to speak our hope so simply...&lt;page&gt;For her you become... who knows clear our desire, and has seen full the darkness beneath our house, I would show you the gift...</en>
+    <zh>&lt;hpage&gt;您错了，夫人……&lt;hpage&gt;我知道您寄望于我，也知道达成这期愿的代价。历经岁月后，如今的我的看法愈发透彻……&lt;hpage&gt;心志、仁念、爪牙——皆需刚强。强大到能让我亲眼见证美好世界之降临，强大到能助我亲手创造一个理想世界。&lt;hpage&gt;此乃生母、恩师与您的共期之愿……&lt;page&gt;……诚然，小蜘蛛……你一定历经了不可估量之苦痛，才得此彻悟……&lt;page&gt;既然你已经成长……明晰我们的期愿，也见识过我们家园下深藏的黑暗……我这便将礼物赠予你……</zh>
+  </entry>
+  <entry key="CORAL_CRUST_TAB_1">
+    <en>Coral sways,&lt;br&gt;Clear water flows,&lt;br&gt;Upon our river free of time.</en>
+    <zh>珊瑚轻摇，&lt;br&gt;净水长流，&lt;br&gt;河流超脱时光之外。</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_BELLBEAST_03">
+    <en>...Arrived... At last...</en>
+    <zh>……终至……于此……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_BELLBEAST_04">
+    <en>...Our Silk...</en>
+    <zh>……我等灵丝……</zh>
+  </entry>
+  <entry key="RED_MEMORY_ROOT3">
+    <en>Witness, the first light. The only means we possess to resist that void with which our family is forever linked.&lt;page&gt;Reach forth, child grown strong. Wrest it from this remembrance. Burn yourself free from our sad fate...</en>
+    <zh>来吧，见证这道最初的光芒。这是我们抵御虚空的唯一手段。而那虚空，却与我们的族群永世相连。&lt;page&gt;伸出手来，我的孩子，你已通过历练变得强大。在这忆境中夺取那光芒，焚尽我们悲惨宿命的枷锁……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_BELLBEAST_05">
+    <en>...Our strength...</en>
+    <zh>……我等力量……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_BELLBEAST_06">
+    <en>...Our nature...</en>
+    <zh>……我等本质……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_LACE_4">
+    <en>...One to wish our waking...</en>
+    <zh>……祈愿吾等苏醒……</zh>
+  </entry>
+  <entry key="RED_MEMORY_BEAST">
+    <en>...Ignore them, daughter... their whispers...&lt;page&gt;...Greater, grander... Weaver, guardian, queen... Those are their desires... not your own. Certainly not mine...&lt;page&gt;...Only if you resist them, you might see it, another hope... beyond...&lt;page&gt;...But to recall these words, in time so far... Will you even remember me, child? Could you?...&lt;page&gt;...A mother... before the mask... before I lay forever in duty...</en>
+    <zh>……莫听，女儿……她们的絮语……&lt;page&gt;……伟大……崇高……织者、守护者、女王……皆为他们所欲……非你所求，更非我所愿……&lt;page&gt;……唯有抵抗，方可见……另一线希望……&lt;page&gt;……但时过境迁，这些话……你可会记得？你可会记得我？...&lt;page&gt;……作为母亲，在戴上面甲之前……在因责任而永眠之前……</zh>
+  </entry>
+  <entry key="RED_MEMORY_WEAVERS">
+    <en>...Show us your craft, child...&lt;page&gt;...Show it splendid, as only we can teach...&lt;page&gt;...Prove yourself more Weaver than Wyrm...</en>
+    <zh>……展现你的技艺，孩子……&lt;page&gt;……展现那唯有我等能传授的绝技……&lt;page&gt;……证明自己更像织者，而非沃姆……</zh>
+  </entry>
+  <entry key="CORAL_CRUST_TAB_2">
+    <en>At water’s source,&lt;br&gt;And coral’s heart,&lt;br&gt;Our lord born last to rule.</en>
+    <zh>水源尽头，&lt;br&gt;珊瑚心核，&lt;br&gt;末生之主将临。</zh>
+  </entry>
+  <entry key="MEMORY_FIRSTWEAVER_2">
+    <en>...She called us daughters... Called us divine... She lied...</en>
+    <zh>……她称我们为女儿……称我们为天选……皆是谎言……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_BELLBEAST_01">
+    <en>...Child... Weaver... </en>
+    <zh>……孩子……织者……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_WARDBOSS_08">
+    <en>...One mind... One union...</en>
+    <zh>……同心……共念……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_BELLBEAST_02">
+    <en>...Child... Spider...</en>
+    <zh>……孩子……蛛族……</zh>
+  </entry>
+  <entry key="RED_MEMORY_ROOT">
+    <en>...Alas... spider’s child...&lt;page&gt;...For our ways you will think us harsh... You will think us uncaring, unrepentant...&lt;page&gt;...And so we must seem, for such is the cost of our wish... </en>
+    <zh>……唉……蜘蛛之子……&lt;page&gt;……你必定认为我等冷酷……认为我等无情且固执……&lt;page&gt;……但我等必须如此，此为实现期愿之代价……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_WARDBOSS_02">
+    <en>...Their memory...</en>
+    <zh>……他们的记忆……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_WARDBOSS_03">
+    <en>...Bind their shells...</en>
+    <zh>……缚其躯壳……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_WARDBOSS_01">
+    <en>...Their voices... Their song...</en>
+    <zh>……他们的歌声……他们的圣咏……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_WARDBOSS_06">
+    <en>...Raise them... Up...</en>
+    <zh>……高举……登阶……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_WARDBOSS_07">
+    <en>...To devote... Eternal...</en>
+    <zh>……献身……永恒……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_WARDBOSS_04">
+    <en>...Bind their souls...</en>
+    <zh>……缚其灵魂……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_WARDBOSS_05">
+    <en>...Bind them all...</en>
+    <zh>……尽数禁锢……</zh>
+  </entry>
+  <entry key="MEMORY_FIRSTWEAVER_1">
+    <en>...She called us daughters... She called us divine...</en>
+    <zh>……她称我们为女儿……称我们为天选……</zh>
+  </entry>
+  <entry key="HEART_OUTRO_FLOWER">
+    <en>...We are life... We are growth... What world without us?...</en>
+    <zh>……我等即生命……我等即生长……无我则世如荒土……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_BELLBEAST_08">
+    <en>...Rise... Rise...</en>
+    <zh>……苏醒……复苏……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_BELLBEAST_FINAL">
+    <en>...Come, child... Witness our waking...</en>
+    <zh>……来吧孩子……见证我等觉醒……</zh>
+  </entry>
+  <entry key="RED_MEMORY_HIVE">
+    <en>...Good... Better...&lt;page&gt;...Yet still you will need to be faster...&lt;page&gt;...In time, they will come for you... Those who fear your nature, and those seeking to claim it...&lt;page&gt;...To survive our world, you must learn to sting... swift and sudden...</en>
+    <zh>……尚可……精进……&lt;page&gt;……你仍需更快一些……&lt;page&gt;……终有一日，畏惧你本性者将至……欲夺你本性者将至……&lt;page&gt;……欲存于世，须学蛰刺……快如闪电……</zh>
+  </entry>
+  <entry key="HEART_OUTRO_CORAL">
+    <en>...Our claws to crush... Our claws to rule... Our claws to save them all...</en>
+    <zh>……以爪粉碎……以爪统治……以爪拯救众生……</zh>
+  </entry>
+  <entry key="HEART_OUTRO_GREEN_PRINCE">
+    <en>...To dance... And love... And end... Together...</en>
+    <zh>……共舞……相爱……同殒……</zh>
+  </entry>
+  <entry key="WILDS_START_TAB">
+    <en>Pilgrim&lt;br&gt;May these fields of flame sear away all impurity.&lt;br&gt; That you be granted ascendance to the verdant lands above.</en>
+    <zh>朝圣者&lt;br&gt;愿这烈焰原野焚尽一切污秽。&lt;br&gt;赐你升入苍翠之地的权利。</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_LACE_1">
+    <en>...Better a child spun mad... than none...</en>
+    <zh>……宁要癫狂之子……也好过膝下无子……</zh>
+  </entry>
+  <entry key="MEMORY_NEEDOLIN_1">
+    <en>...Sisters... spiders... our song sustains...</en>
+    <zh>……姊妹……蛛族……我等歌声长存……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_LACE_2">
+    <en>...Better a child spun frail... than none...</en>
+    <zh>……宁要脆弱之子……也好过膝下无子……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_LACE_3">
+    <en>...Better a child spun pure... than them...</en>
+    <zh>……宁要纯粹之子……也好过它们……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_WARDBOSS_FINAL">
+    <en>...They are ours... Bound forever...</en>
+    <zh>……皆归我等……永世缠缚……</zh>
+  </entry>
+  <entry key="MEMORY_NEEDOLIN_2">
+    <en>...For her light... eternal... our song sustains...</en>
+    <zh>……为她……永恒……我等歌声长存……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_BELLBEAST_07">
+    <en>...We feel it...</en>
+    <zh>……我等感知……</zh>
+  </entry>
+  <entry key="MR_MUSH_RIDDLE_TAB">
+    <en>We speak the wish of the Master Herald,&lt;br&gt;he who signs an Age’s end.&lt;br&gt;&lt;page&gt;Under chapel fallen to the monarch’s might,&lt;br&gt;Over camp collapsed to the black thread plight,&lt;page&gt;Scorched field on edge, shells black and burned,&lt;br&gt;Up towers spinning, near the surgeon spurned,&lt;page&gt;Cage of one who raged against the silken lie,&lt;br&gt;Fell heart of frost, who soars on high,&lt;page&gt;Past cradle’s peak, last test of fitness,&lt;br&gt;That the age may pass, this shroom its witness.</en>
+    <zh>此乃使者大人祈愿，&lt;br&gt;宣告纪元终结到来。&lt;page&gt;圣堂倾颓君威下，&lt;br&gt;骸营覆灭黑丝劫。&lt;page&gt;焦土边际髓骨灼，&lt;br&gt;纺塔孤医灰沼别。&lt;page&gt;囚笼首罪逆丝客，&lt;br&gt;霜心振翼费岳阙。 &lt;page&gt;摇篮极顶终试炼，&lt;br&gt;菌主临鉴纪元歇。 </zh>
+  </entry>
+  <entry key="HEART_OUTRO_ANT">
+    <en>...How we hunted... How we sang... My children, I saw you glorious...</en>
+    <zh>……昔日狩猎……昔日咏唱……我的孩子，我曾见你们辉煌……</zh>
+  </entry>
+  <entry key="SILK_HEART_MEMORY_LACE_FINAL">
+    <en>...From our Silk... A child born loyal...</en>
+    <zh>……以吾灵丝……诞育忠嗣……</zh>
+  </entry>
+  <entry key="MR_MUSH_TAB_TALK">
+    <en>&lt;hpage&gt;So, the Herald visits this land too...&lt;hpage&gt;If he is here, now, then great change or a savage end is inevitable. He would care to see nothing else...</en>
+    <zh>&lt;hpage&gt;使者竟也踏足此地……&lt;hpage&gt;若他在此现身，巨变或浩劫将无可避免。除此之外，他目空一切……</zh>
+  </entry>
+</sheet>

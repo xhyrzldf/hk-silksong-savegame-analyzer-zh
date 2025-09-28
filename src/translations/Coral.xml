@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sheet name="Coral">
+  <entry key="PINSTRESS_INTERIOR_GROUND_POST">
+    <en>How grand! To face an opponent with a bit of energy.&lt;page&gt;You’re a skilled one, clear enough. I hope my training has granted some insight.</en>
+    <zh>痛快！总算遇到像样的对手。&lt;page&gt;身手不错，我的指导对你有用吧？</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_GROUND_MEET">
+    <en>So rude! To raise a Pinstress from their deep meditation!&lt;page&gt;You carry on with that kind of brash behaviour and you’re likely to be stuck quick through!&lt;hpage&gt;I’m surprised to find a bug of sound mind alive in such an inhospitable place. You are a warrior learned in the blades of this land?&lt;page&gt;Aye! A Pinstress! Your needle there might fit you fair, strange as it is’n all, but it’s the pin that’s the glorious weapon of Pharloom.&lt;page&gt;Given I’m now awake, maybe you’d fancy a little training? Care to test the power of a Pinstress? Might be even this old master could show you a thing or two.</en>
+    <zh>无礼之徒！竟敢打断针姬的冥想！&lt;page&gt;再这样莽撞行事，小心被扎成筛子！&lt;hpage&gt;这种荒凉之地居然还有清醒的虫活着？你是学过本地兵器的战士？&lt;page&gt;没错！刺针才是纺络的荣耀武器——你那根怪模怪样的针虽然趁手，但终究不是正统。&lt;page&gt;既然醒了，要不要来练练手？想试试刺针的威力吗？说不定我这老师傅还能教你两招？</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_GROUND_TALK_ACT_3">
+    <en>It’s a right long time since I’ve felt so vigorous. All those dulled pilgrims were useless for testing my talents.&lt;hpage&gt;Your blade proved an impressive challenge, Pinstress. I’ve travelled the length of this kingdom, yet the strength and skills hidden throughout continue to surprise me.&lt;page&gt;You bear your own strange strengths, needle bug. If only we’d met in less troubled times, just think of all we could have learned from one another!</en>
+    <zh>好久没这么热血沸腾了！那些呆滞的朝圣者根本不配当陪练。&lt;hpage&gt;你的技艺令我惊叹。即便我走遍整个王国，仍为这里隐藏的实力感到惊讶。&lt;page&gt;你身上带着奇特的力量。要是我们生在太平年代，本可以互相学习！</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_GROUND_ACCEPTED">
+    <en>Bold choice, needle bug. Let’s get our shells a’shaking!</en>
+    <zh>有胆识！让我们战个痛快！</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_GROUND_PROMPT">
+    <en>Train with Pinstress?</en>
+    <zh>与针姬训练？</zh>
+  </entry>
+  <entry key="WORLD_EDGE">
+    <en>&lt;hpage&gt;These sands mark the edge of Pharloom’s territory. I was brought to this land through the caverns beyond.&lt;hpage&gt;Something at this kingdom’s height still hungers for me. Were I to flee now, I would again be pursued.&lt;hpage&gt;Until I find the source of that hunger, and slay it, I will not be free. </en>
+    <zh>&lt;hpage&gt;这片沙原是纺络的边界。我是穿过远处洞窟被带到此地的。&lt;hpage&gt;纺络的顶端仍有存在渴求着我。若此刻逃离，必将再次受到追捕。&lt;hpage&gt;唯有找到源头并将其斩杀，我才能获得自由。</zh>
+  </entry>
+  <entry key="PINSTRESS_NPC_TALK_01">
+    <en>PINSTRESS_NPC_TALK_01</en>
+    <zh>PINSTRESS_NPC_TALK_01</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_STAND_MEET">
+    <en>Back again, needle bug? Surely you’ve more important places calling than these sandy steps?&lt;hpage&gt;I shan’t stay long, Pinstress. Your home and your skills offer a sense of safety rare about these lands.</en>
+    <zh>还不走？没有更要紧的事要做吗？&lt;hpage&gt;我不会久留。不过有你这般身手，待在这里反而安全。</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_QUEST_REPEAT">
+    <en>Find the vassal... pale It. Return them to us... Save us both from the Masters’ wrath.</en>
+    <zh>找到仆从……苍白者。将其归还……平息主人怒火。</zh>
+  </entry>
+  <entry key="PINSTRESS_FINAL_MEET_RETURN">
+    <en>Needle bug! With those black quakes, Pharloom’s finale is fast arriving.&lt;page&gt;Raise your blade! Let’s see at least one of us end true to our nature!</en>
+    <zh>看这黑色震动，纺络的终局将至了。&lt;page&gt;举针吧！至少让我们中的一个死得其所！</zh>
+  </entry>
+  <entry key="PINSTRESS_FINAL_MEET">
+    <en>Ah ha! Needle bug! Who else would dare wake a Pinstress with such force?!&lt;page&gt;Saw my wish, I’m guessing? Here hopin’ to fulfill it?&lt;hpage&gt;I know what you are seeking, Pinstress... a death duel, an end from battle, not cavern’s collapse.&lt;hpage&gt;I can oblige... to a point... But a greater challenge still awaits me below.&lt;page&gt;Whatever else you’re about, you might be finding it futile now, needle bug. The black quakes... Pharloom’s finale arrives.&lt;page&gt;So let’s stop the yapping, aye! How’s ‘bout we begin? Let’s see at least one of us end true to our nature!</en>
+    <zh>哈！是你！除了你谁敢这么粗暴地吵醒一名针姬！&lt;page&gt;看到我的祈愿了？想来帮我实现？&lt;hpage&gt;我知道你在渴求什么……一场死斗，你想战死而非被沙土掩埋。&lt;hpage&gt;我可以满足你……但下面还有更大的挑战在等着我。&lt;page&gt;不管你要做什么，可能都是徒劳。这黑色震动……纺络的终局将至。&lt;page&gt;少废话！开打吧！至少让我们中的一个死得其所！</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_REOFFER">
+    <en>Creature, higher... It has been sent... by Masters served... to retrieve Zi’s vassal lost?</en>
+    <zh>上位者……主人派你来……回收失联仆从？</zh>
+  </entry>
+  <entry key="STEEL_SERVANT_END_1_ACT3">
+    <en>No. No. No... My saviour slain!&lt;page&gt;Why do you do this, cruel slasher? Why must I stay, and serve, so long, long, long?&lt;hpage&gt;That void must not be called, bug. Already it attacks these lands with enough force to end them. To summon it stronger will only hasten that fall.&lt;hpage&gt;For this moment at least, your shell is saved. It was only by wish of your steel companion, and fear of her Masters’ punishment, that I arrived in time.</en>
+    <zh>不，不……我的眷属被毁了！&lt;page&gt;你为什么这么残忍？为什么要我永世为奴？&lt;hpage&gt;虚空不可被召唤。纺络已然深受其害，再度召唤只会使情况更糟。&lt;hpage&gt;若不是你的钢铁同伴祈愿，我又及时赶到，你必死无疑。</zh>
+  </entry>
+  <entry key="PINSTRESS_FINAL_DEFEATED_PRE">
+    <en>Gah! Bested fair, and yet you choose to stay the killing blow?&lt;hpage&gt;I can test you, Pinstress, and myself for what’s to come, but I will not cut you down.&lt;hpage&gt;Despite its quakes, Pharloom’s demise is not as certain as it seems. I shall act to change that fate.&lt;hpage&gt;If I succeed at my task, the land that remains will require the watch of strong bugs like you.&lt;page&gt;Well, ain’t you an inspiration! Makin’ me seem a right fool, here thinkin’ only on the end while you’re looking to a future fair...&lt;page&gt;Seems you’ve beaten me twice, needle bug, both my pin’s edge, and my heart’s resolve...</en>
+    <zh>咳！你已经赢了，为什么还不动手？&lt;hpage&gt;我可以与你比试，但不会杀你……&lt;hpage&gt;纺络的命运尚有转机，我要改变它。&lt;hpage&gt;若我成功，幸存的世界需要你这样的强者守护。&lt;page&gt;你可真是乐观！显得我像个只想着末日的蠢货……&lt;page&gt;你赢了我两次，无论是武艺还是觉悟……</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_ACCEPT">
+    <en>&lt;hpage&gt;Not for your Masters, but by my own will I may aid you, Zi, as long as the path permits.&lt;hpage&gt;Of your vassal, I have met one before, a scurrilous, scheming sort, and well able to remain hidden.&lt;hpage&gt;If your own servant shares similar disposition, they may prove hard to retrieve. Where would you advise I begin my search?&lt;page&gt;Zi has sensed their movement... She knows their places of rest. For pale It... Zi shall mark their chart.&lt;page&gt;Seek the vassal... Retrieve them, or their corpse... either is appropriate... either will aid... to avoid the Masters’ wrath.</en>
+    <zh>&lt;hpage&gt;若是顺路，我会你一臂之力。但并非为了你主人，而是为了我自己。&lt;hpage&gt;至于那仆从，我曾遇过同类。卑劣狡诈，极善藏匿。&lt;hpage&gt;若你的仆从也是如此，搜寻将很困难。你觉得该从何处下手？&lt;page&gt;梓能感知其动向……知晓其方位……苍白者，梓会在地图标记。&lt;page&gt;找到仆从……无论死活……皆能平息怒火……</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_GROUND_MEET_ACT_3">
+    <en>So rude! To raise a Pinstress from their deep meditation!&lt;page&gt;You carry on with that kind of brash behaviour and you’re likely to be stuck quick through!&lt;hpage&gt;I’m surprised to find any bug still alive in such an inhospitable place. You are a warrior learned in the blades of this land?&lt;page&gt;Aye! A Pinstress! Your needle there might fit you fair, but the pin that’s the glorious weapon of Pharloom, least it was... It’s sure starting to feel like Pharloom doesn’t have long left.&lt;page&gt;Well, given I’m now awake, and time’s suddenly short, maybe you’d fancy a little training? Might be even this old master could show you a thing or two?</en>
+    <zh>无礼之徒！竟敢打断针姬的冥想！&lt;page&gt;再这样莽撞行事，小心被扎成筛子！&lt;hpage&gt;这种荒凉之地居然还有活虫？你是学过本地兵器的战士？&lt;page&gt;没错！刺针曾是纺络的荣耀武器……虽然这王国恐怕撑不久了。&lt;page&gt;既然醒了又时日无多，要不要来练练手？让我这老师傅最后教你两招？</zh>
+  </entry>
+  <entry key="PINSTRESS_NPC_REPEAT">
+    <en>PINSTRESS_NPC_REPEAT</en>
+    <zh>PINSTRESS_NPC_REPEAT</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_SIT_TALK_REPEAT">
+    <en>Off with you now, needle bug. I’ve respect for you and your sharp blade, but my hospitality shouldn’t be abused.</en>
+    <zh>走吧！我敬重你和你的利刃，但别滥用我的善意。</zh>
+  </entry>
+  <entry key="PINSTRESS_FINAL_ICECORE_VISITED">
+    <en>Dunno if you’ve heard it, needle bug, but supposedly there’s a gleaming secret hidden at this mountain’s core.&lt;page&gt;Meant to be a marvel, or so my sisters past once told, a giant cavern all of crystal.&lt;hpage&gt;I have visited the core, Pinstress. It was a remarkable site indeed. I only hope that it shall not soon be lost.&lt;page&gt;Course you’ve seen it! Master at the blade and at the seeking. You’ve proven yourself an imposing talent. &lt;page&gt;Well, given you seem done up here, maybe it’s time you get back to your all important business?</en>
+    <zh>你听说过吗？山脉核心处藏着一份闪亮的秘密。&lt;page&gt;据前辈说是个水晶巨洞奇观。&lt;hpage&gt;我去过那，确实是奇观。希望它不会很快消失。&lt;page&gt;你果然去过！看来你找东西的本事和打架一样好。&lt;page&gt;既然这里的事忙完了，你该去忙正事了吧？</zh>
+  </entry>
+  <entry key="STEEL_SERVANT_END_2">
+    <en>&lt;page&gt;But the seer knows nothing! Nothing of the pain. All small Sula’s to bear... To watch, watch these lands dying, slow, the bugs suffering, falling, while our shell sustains...&lt;page&gt;The steelhearts feel so little... but we forced to serve, we endure it all. We alone. Why?&lt;hpage&gt;...Others may know that pain, small bug... Or at least something similar.&lt;page&gt;So will you chain me again? Herd me by point of your blade, and knowingly return me to that pain?&lt;hpage&gt;...I will not. I will inform the child of steel of what has transpired here, but I cannot force any bug to return to a task so cruel.&lt;page&gt;Then, then... Sula is free? At least to run? By your mercy, bug, these legs must move, quick, quick and far, far!</en>
+    <zh>&lt;page&gt;但先知不懂痛苦！苏拉独自承受……看着大地衰亡……虫民受苦……&lt;page&gt;钢铁之心没有痛觉……而我们独自承受一切……为什么？&lt;hpage&gt;……会有其他虫了解这份痛的，小虫……或类似的苦楚。&lt;page&gt;你要再次禁锢我吗？用针刃逼我回到那里？&lt;hpage&gt;……我不会。我会告知钢铁之子真相，但不会强迫任何虫回去受苦。&lt;page&gt;那么……苏拉自由了？至少能逃亡？谢谢你的慈悲！我要快逃，越远越好！</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_REPEAT">
+    <en>Zi must watch, record... and wait... Always she is true to her function... Ore-bound... To duty.</en>
+    <zh>梓必须观察、记录……等待……恪守职责。</zh>
+  </entry>
+  <entry key="PINSTRESS_FINAL_DEFEATED_REPEAT">
+    <en>A mighty battle we had, my friend... Time now you get to your all important business. I’ll be wishing for your success.</en>
+    <zh>真是场激战啊朋友……快去忙你的事吧。祝你成功。</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_OFFER">
+    <en>...Creature, higher... Its meeting. Zi’s awakening... It is not chance... It has been sent to Zi, yes? By Masters served?... To retrieve her vassal lost?</en>
+    <zh>……上位者，相遇……梓苏醒……并非偶然……是主人派你来？……回收失联仆从？</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_SIT_TALK_01">
+    <en>&lt;hpage&gt;Pinstress, why do you choose to live amidst these storm-swept caverns? Surely there are more hospitable places?&lt;page&gt;Somewhere gentler? Warmer? I’d only go soft! How else is one expected to maintain their wits?&lt;hpage&gt;Then this is not a place of hiding? That Citadel up top seems no friend to the free, or the strong who’d choose to remain apart.&lt;page&gt;...Aye. Well, yes. That too’s a reason, though one that shames me some.&lt;page&gt;Our grand Citadel learnt well from the training of Pinstresses past. Then it went and turned those teachings upon us!&lt;page&gt;Despite our superior skills, our numbers have always been few, and their strength overwhelmed.&lt;page&gt;Of my once revered order, only two of us remain, wormed away in Pharloom’s forgotten corners, and my pin-sibling, she’s lost herself to more peaceable pursuits.</en>
+    <zh>&lt;hpage&gt;针姬，为何要住在风暴肆虐的洞窟？没有更舒适的地方吗？&lt;page&gt;更舒适？更温暖？那样只会让我变迟钝！&lt;hpage&gt;难道是在躲避什么？圣堡似乎容不下自由的强者。&lt;page&gt;……确实有这个原因，说来惭愧。&lt;page&gt;从前圣堡向我们讨教技艺，学成后却反过来对付我们！&lt;page&gt;我们虽然技艺高超，但终究寡不敌众。&lt;page&gt;曾经备受尊崇的教团，如今只剩两个。我躲在这遗忘角落，另一位更是彻底放弃了战斗。</zh>
+  </entry>
+  <entry key="WORLD_EDGE_REPEAT">
+    <en>&lt;hpage&gt;I cannot yet leave this land. Until I slay its source, this kingdom’s hunger for me will never abate.</en>
+    <zh>&lt;hpage&gt;我还不能离开。只要源头尚存，这国度对我的渴求不会消退。</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_DECLINE">
+    <en>Pale It... You would reject the role? Are you not tamed, bound, by Masters?... You would know... obedience is essential.&lt;page&gt;Recall, the fate of those who defy... Even you higher... Especially you higher...&lt;page&gt;...Compression... We have suffered it. We would never wish it upon another.</en>
+    <zh>苍白者……你要违抗？你未被主宰驯服？……你该明白服从的重要性。&lt;page&gt;想想违抗者的下场……即便是上位者……尤其是上位者……&lt;page&gt;……压缩之苦……我们经历过……不愿它降临他者。</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_GROUND_DECLINED">
+    <en>Ahh, is your needle too shy to show its edge? What a shame.</en>
+    <zh>呵，你的针不敢出鞘吗？真没劲。</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_STAND_REPEAT">
+    <en>Even my welcome has limits, needle bug.&lt;page&gt;I’ve become well accustomed to solitude, and it’s unnerving to play host to your strange strength overlong.</en>
+    <zh>我的耐心有限。&lt;page&gt;独居惯了，你这种异常存在让我不安。</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_GROUND_REOFFER">
+    <en>Planning to hang about are you, needle bug?&lt;page&gt;Fancy a little training? Care to test the power of a Pinstress? Might be even this old master could show you a thing or two?</en>
+    <zh>暂时不打算走吗？&lt;page&gt;那要不要来场训练，试试刺针的威力？说不定我这老师傅还能教你两招？</zh>
+  </entry>
+  <entry key="PINSTRESS_FINAL_REOFFER">
+    <en>Having second thoughts on our bout, needle bug? Good! I’ll not hold back my blade, and I’ll expect the same from you.</en>
+    <zh>回心转意了？很好！我不会手下留情，希望你也一样！</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_MEET">
+    <en>...Bug... Higher... It has come seeking... Zi is found... She is awoken.&lt;hpage&gt;Greetings, child of steel. I have known your type, in past. From your presence, it is clear this land too has caught the long gaze of your Masters.&lt;page&gt;Masters... Yes... For them, Zi observes... obedient... always...&lt;page&gt;And you... a creature in half... Pale It... Bug It... old... stubborn... alone... You too are observed.</en>
+    <zh>……虫……上位者……它来寻找……梓被发现了……她苏醒了。&lt;hpage&gt;钢铁之子，我见过你的同类。你的到来说明你的主人已将目光投向此地。&lt;page&gt;主人……是的……梓侍奉他们……永远服从……&lt;page&gt;而你……半身者……苍白者……虫身者……古老……固执……独行……你也被注视着。</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_OFFER_NO_MAP">
+    <en>...Creature, higher... Its meeting, Zi’s awakening... It is not chance... It has been sent, by Masters served?... To retrieve her vassal lost?&lt;page&gt;But no... pale It cannot.. First, a chart is needed. Pale It must acquire one. Only then can Zi provide the marks... Their vassal’s location sensed strong.</en>
+    <zh>……上位者，相遇……梓苏醒……并非偶然……是主人派你来？……回收失联仆从？&lt;page&gt;不……苍白者……须先有地图……梓才能标记其方位……仆从感知强烈。</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_END_1">
+    <en>&lt;hpage&gt;Zi, your vassal is gone, alive, fled beyond these lands.&lt;hpage&gt;I chose to allow their escape, even if your wish may not be granted.&lt;page&gt;The wish? No... pale It... Zi sensed clear your meeting... The rite... The vassal is tarnished. They have touched the dark. By the Masters, they will now be hunted... no matter the distance fled.&lt;hpage&gt;Perhaps, for your vassal, that is preferable? Waste here in servitude or flee free. They made their choice, and proclaimed it clear by their black action.&lt;hpage&gt;Their dark champion is slain, but luck or guile may yet see them survive.&lt;page&gt;Hope!.. Pale It... For a vassal who defies the Masters?... You give Zi a thought, complex...&lt;page&gt;The outcome is different... and Zi must now observe alone... but this may be the better way?&lt;page&gt;Zi shall accept the happening... shall pray the Masters still see her loyal... and Zi too will share the hope... that her vassal lives long unbound.</en>
+    <zh>&lt;hpage&gt;梓，你的仆从已叛逃出境。&lt;hpage&gt;我选择放他们走，即使这样会违背你的愿望。&lt;page&gt;愿望？不……苍白者……梓很清楚……仪式……仆从已玷污，触及黑暗……逃不过主人追猎。&lt;hpage&gt;或许他们觉得这样更好？与其在奴役中腐朽不如自由逃亡。&lt;hpage&gt;其黑暗眷属已除，但或许能凭机遇存活。&lt;page&gt;希望？……苍白者……给背叛主人的仆从？……这想法……令梓困惑……&lt;page&gt;结果不同……梓将独自观察……或许这是更好结局？&lt;page&gt;梓将接受现实……祈祷主人知晓梓忠诚……但梓也希望……她的仆从能自由活着。</zh>
+  </entry>
+  <entry key="PINSTRESS_FINAL_DEFEATED_POST">
+    <en>For your talents, needle bug, in blade and strength... and restraint, take this emblem of my order.&lt;page&gt;Hadn’t ever thought another’d be joining our slim ranks, but you’re as deserving a member as’s ever come before.</en>
+    <zh>为你的武艺、觉悟……和克制，收下我们教团的徽章吧。&lt;page&gt;没想到还会有新成员加入，但你当之无愧。</zh>
+  </entry>
+  <entry key="WORLD_EDGE_ACT3_REPEAT">
+    <en>&lt;hpage&gt;I will not flee. I cannot abandon the kingdom to a collapse of my making.</en>
+    <zh>&lt;hpage&gt;我不会逃走。不能任由下方王国因我而崩塌。</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_REOFFER_NO_MAP">
+    <en>Creature, higher... return when a chart is acquired. A chart is needed, essential, to serve the Masters... to aid Zi.</en>
+    <zh>上位者……取得地图再来……图是侍奉主人……协助梓的必要之物。</zh>
+  </entry>
+  <entry key="PINSTRESS_FINAL_DECLINE">
+    <en>Ahh... Shame. Surely battle’d be the better end, no?&lt;page&gt;If not by blade, we’ll just have to accept whatever conclusion this new quaking calamity flings upon our heads.</en>
+    <zh>唉……真遗憾。战死本是更好的结局不是吗？&lt;page&gt;既然不能战死，我们就只能接受这黑暗带来的结局了。</zh>
+  </entry>
+  <entry key="STEEL_SERVANT_RITUAL">
+    <en>&lt;hpage&gt;Cease your summoning, fool bug!&lt;hpage&gt;Though you may yearn for freedom, that saviour you hope to call will bring only death.</en>
+    <zh>&lt;hpage&gt;停止召唤，蠢虫！&lt;hpage&gt;即便你渴求自由，那救赎者也只会带来死亡。</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_GROUND_TALK">
+    <en>It’s a right long time since I’ve felt so vigorous. All those dulled pilgrims are useless for testing my talents.&lt;hpage&gt;Your blade proved an impressive challenge, Pinstress. The strength and skills hidden about this kingdom continue to surprise me.&lt;page&gt;You bear your own strange strengths, needle bug. More I think than you’d be willing to reveal to me.&lt;page&gt;What, I wonder, are you planning to turn all that power towards?</en>
+    <zh>好久没这么热血沸腾了！那些呆滞的朝圣者根本不配当陪练。&lt;hpage&gt;你的技艺令我惊叹。这王国暗藏的实力总是出乎意料。&lt;page&gt;你身上带着奇特的力量，用针的。远不止你愿意展示的这些吧？&lt;page&gt;我很好奇，你打算用这力量做些什么？</zh>
+  </entry>
+  <entry key="STEEL_SERVANT_END_1">
+    <en>No. No. No... My champion slain!&lt;page&gt;Why do you do this, cruel slasher? Why must I stay, and serve, so long, long, long?&lt;hpage&gt;That void must not be called, bug. Not ever. None can control it, though many have tried. &lt;hpage&gt;Any strength you hoped it offered would fast be proven false.&lt;hpage&gt;Consider yourself fortunate I arrived in time. Your shell is saved, all by wish of your steel companion, and fear of her Masters’ punishment.</en>
+    <zh>不，不……我的眷属被毁了！&lt;page&gt;你为何如此残忍？为何要我永世为奴？&lt;hpage&gt;虚空不可驾驭，故不可召唤，这是无数血泪换来的教训。&lt;hpage&gt;无论你指望能从它身上获取什么力量，你都会后悔。&lt;hpage&gt;你该庆幸我来得及时。若不是你的钢铁同伴祈愿，你必死无疑。</zh>
+  </entry>
+  <entry key="WORLD_EDGE_ACT3">
+    <en>&lt;hpage&gt;If I chose to head beyond, I would abandon Pharloom to a collapse of my making.&lt;hpage&gt;While I live, and still possess the strength to act, I will not allow that end to come to pass.</en>
+    <zh>&lt;hpage&gt;若我选择逃离，下方王国将因我而崩塌。&lt;hpage&gt;只要力气尚存，我绝不容许这样的结局。</zh>
+  </entry>
+  <entry key="PINSTRESS_FINAL_ICECORE">
+    <en>Dunno if you’ve heard it, needle bug, but supposedly there’s a gleaming secret hidden at this mountain’s core.&lt;page&gt;Meant to be a marvel, or so my sisters past once told, a giant cavern all of crystal.&lt;page&gt;If you’re hanging around these heights, and time’s allowing, maybe you’ll get to seeking it?&lt;page&gt;Course you’d first have to find the entrance, but you’ve certainly shown the skills to wriggle up in there, provided you’re so inclined.</en>
+    <zh>你听说过吗？山脉核心处藏着一份闪亮的秘密。&lt;page&gt;据前辈说是个水晶巨洞奇观。&lt;page&gt;要是有时间不妨去找找？&lt;page&gt;当然得先找到入口，不过以你的身手肯定没问题。</zh>
+  </entry>
+  <entry key="STEEL_SENTINEL_END_2">
+    <en>&lt;page&gt;A small gift for you, pale It... for the thought, complex... rock of the home spear... and of Zi’s birth. May it aid your further action in this land.</en>
+    <zh>&lt;page&gt;苍白者，赠礼……为感谢你给的希望……梓诞生故土的岩石……愿它助你在此地的行动。</zh>
+  </entry>
+  <entry key="PINSTRESS_INTERIOR_GROUND_REPEAT">
+    <en>Off with you now, needle bug! A Pinstress of my substantial talent requires their deep meditation, especially after such a satisfying bout.&lt;hpage&gt;Goodbye, Pinstress. May your blade remain sharp.</en>
+    <zh>走吧！针姬需要继续冥想——激烈战斗后更需要静修。&lt;hpage&gt;再会，愿你的锋芒永不褪色。</zh>
+  </entry>
+</sheet>
