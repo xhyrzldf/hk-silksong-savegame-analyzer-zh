@@ -64,7 +64,10 @@ async function discoverWindowsSaves(): Promise<WindowsSaveEntry[]> {
     for (const fileDirent of filesInFolder) {
       console.log('[electron]  - entry:', fileDirent.name, fileDirent.isFile() ? '(file)' : '(dir)');
       if (!fileDirent.isFile()) continue;
-      if (!/^user([1-4])\.dat$/i.test(fileDirent.name)) continue;
+      if (!/^user([1-4])\.dat$/i.test(fileDirent.name)) {
+        console.log('[electron]  - skip non-slot file:', fileDirent.name);
+        continue;
+      }
 
       const filePath = path.join(folderPath, fileDirent.name);
       try {
@@ -72,6 +75,7 @@ async function discoverWindowsSaves(): Promise<WindowsSaveEntry[]> {
           fs.stat(filePath),
           fs.readFile(filePath),
         ]);
+        console.log('[electron]  - push save file:', filePath, 'mtime:', stats.mtime.toISOString());
 
         const slotMatch = fileDirent.name.match(/user([1-4])\.dat/i);
         const slotIndex = slotMatch ? Number(slotMatch[1]) : 0;
