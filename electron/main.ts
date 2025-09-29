@@ -1,8 +1,10 @@
-import { app, BrowserWindow, shell, ipcMain } from 'electron';
+import electron from 'electron';
 import { promises as fs } from 'node:fs';
 import type { Dirent } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
+
+const { app, BrowserWindow, shell, ipcMain } = electron;
 
 process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = 'true';
 
