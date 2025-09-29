@@ -369,7 +369,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Beast Crest": {
     en: "Beast Crest",
-    zh: "野兽纹章",
+    zh: "兽纹纹章",
   },
   "Behind a Arena battle in the Underworks": {
     en: "Behind a Arena battle in the Underworks",
@@ -445,19 +445,19 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Bone Scroll 1": {
     en: "Bone Scroll 1",
-    zh: "骨卷轴 1",
+    zh: "骸骨卷轴 1",
   },
   "Bone Scroll 2": {
     en: "Bone Scroll 2",
-    zh: "骨卷轴 2",
+    zh: "骸骨卷轴 2",
   },
   "Bone Scroll 3": {
     en: "Bone Scroll 3",
-    zh: "骨卷轴 3",
+    zh: "骸骨卷轴 3",
   },
   "Bone Scroll 4": {
     en: "Bone Scroll 4",
-    zh: "骨卷轴 4",
+    zh: "骸骨卷轴 4",
   },
   Bosses: {
     en: "Bosses",
@@ -597,11 +597,11 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Clawline (Needle Harpoon)": {
     en: "Clawline (Needle Harpoon)",
-    zh: "飞针冲刺（飞针索）",
+    zh: "钩索（织针鱼叉）",
   },
   "Cling Grip (Walljump)": {
     en: "Cling Grip (Walljump)",
-    zh: "蛛攀术（壁跃）",
+    zh: "贴壁之握（壁跃）",
   },
   "Cogwork Dancers are fought in the central area of Cogwork Core.": {
     en: "Cogwork Dancers are fought in the central area of Cogwork Core.",
@@ -661,19 +661,19 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Delver's Drill": {
     en: "Delver's Drill",
-    zh: "掘洞钻",
+    zh: "掘行者钻机",
   },
   "Drifters Cloak": {
     en: "Drifters Cloak",
-    zh: "流浪者披风",
+    zh: "漂泊者斗篷",
   },
   "Drifters cloak": {
     en: "Drifters cloak",
-    zh: "流浪者披风",
+    zh: "漂泊者斗篷",
   },
   "Drifters Cloak (Glide)": {
     en: "Drifters Cloak (Glide)",
-    zh: "流浪者披风（滑翔）",
+    zh: "漂泊者斗篷（滑翔）",
   },
   "Druid's Eye / Druid's Eyes": {
     en: "Druid's Eye / Druid's Eyes",
@@ -725,7 +725,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Far fields secret Room. Reachable by Drifters Cloak": {
     en: "Far fields secret Room. Reachable by Drifters Cloak",
-    zh: "远野密室，可借流浪者披风滑翔抵达。",
+    zh: "远野密室，可借漂泊者斗篷滑翔抵达。",
   },
   "Far Fields: Complete Seamstress Wish Flexile Spines": {
     en: "Far Fields: Complete Seamstress Wish Flexile Spines",
@@ -757,7 +757,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Faydown Cloak (Double Jump)": {
     en: "Faydown Cloak (Double Jump)",
-    zh: "幻羽披风（双跳）",
+    zh: "菲伊坠翼斗篷（双跳）",
   },
   "Fleamaster reward (Caravan Location 2, 14 Fleas)": {
     en: "Fleamaster reward (Caravan Location 2, 14 Fleas)",
@@ -769,7 +769,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Garmond and Zaza": {
     en: "Garmond and Zaza",
-    zh: "加蒙德&扎扎",
+    zh: "& 扎扎",
   },
   "Go East of Bellhart after completing Trail's End and hitting the ring as you enter the Greymoor area": {
     en: "Go East of Bellhart after completing Trail's End and hitting the ring as you enter the Greymoor area",
@@ -793,7 +793,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Greymore far left:  Chapel of Reaper": {
     en: "Greymore far left:  Chapel of Reaper",
-    zh: "灰沼最左端：收割者礼拜堂。",
+    zh: "灰沼最左端：死神礼拜堂。",
   },
   "Greymore Secret room (Kratt)": {
     en: "Greymore Secret room (Kratt)",
@@ -841,7 +841,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "In a secret room above Bone Bottom. Easiest to reach wit Drifters Cloak and floating down from above.": {
     en: "In a secret room above Bone Bottom. Easiest to reach wit Drifters Cloak and floating down from above.",
-    zh: "在骸底镇上方的密室，最简单的方式是穿着流浪者披风自上空滑翔降落。",
+    zh: "在骸底镇上方的密室，最简单的方式是穿着漂泊者斗篷自上空滑翔降落。",
   },
   "In an earlier room in the Deep Docks.": {
     en: "In an earlier room in the Deep Docks.",
@@ -1289,7 +1289,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Reaper Crest": {
     en: "Reaper Crest",
-    zh: "收割者纹章",
+    zh: "死神纹章",
   },
   "Reward for the Dark Hearts quest": {
     en: "Reward for the Dark Hearts quest",
@@ -1381,7 +1381,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Silk Soar (Highjump)": {
     en: "Silk Soar (Highjump)",
-    zh: "灵丝升腾（高跳）",
+    zh: "织丝上升（高跳）",
   },
   "Simple Key 1": {
     en: "Simple Key 1",
@@ -1513,7 +1513,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Surgeons Key": {
     en: "Surgeons Key",
-    zh: "医师钥匙",
+    zh: "外科医生之钥",
   },
   "Swift Step (Dash / Sprint)": {
     en: "Swift Step (Dash / Sprint)",
@@ -1561,7 +1561,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Thief's Mark": {
     en: "Thief's Mark",
-    zh: "窃者印记",
+    zh: "盗贼符记",
   },
   "To the left of Deep Docks Bellway. In the corner of an area fill with lavafalls. ": {
     en: "To the left of Deep Docks Bellway. In the corner of an area fill with lavafalls. ",
@@ -1673,7 +1673,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Unlock Wanderer, Beast, Reaper, Architect and Witch Crest / and use Memory Lockets and talk to Eva": {
     en: "Unlock Wanderer, Beast, Reaper, Architect and Witch Crest / and use Memory Lockets and talk to Eva",
-    zh: "解锁漫游者、野兽、收割者、建筑师与巫妪纹章，并使用忆境纪念盒后与伊娃对话。",
+    zh: "解锁旅者、兽纹、死神、建筑师与巫者纹章，并使用忆境纪念盒后与伊娃对话。",
   },
   Upgrades: {
     en: "Upgrades",
@@ -1689,31 +1689,31 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Vesticrest 1": {
     en: "Vesticrest 1",
-    zh: "蜕形纹章 1",
+    zh: "织饰纹章 1",
   },
   "Vesticrest 2": {
     en: "Vesticrest 2",
-    zh: "蜕形纹章 2",
+    zh: "织饰纹章 2",
   },
   "Wakes up to fight you after receiving the Drifter's Cloak.": {
     en: "Wakes up to fight you after receiving the Drifter's Cloak.",
-    zh: "获得流浪者披风后，它会苏醒与您交战。",
+    zh: "获得漂泊者斗篷后，它会苏醒与您交战。",
   },
   "Wanderer Crest": {
     en: "Wanderer Crest",
-    zh: "漫游者纹章",
+    zh: "旅者纹章",
   },
   "Weaver Effigy 1": {
     en: "Weaver Effigy 1",
-    zh: "织者雕像 1",
+    zh: "织者塑像 1",
   },
   "Weaver Effigy 2": {
     en: "Weaver Effigy 2",
-    zh: "织者雕像 2",
+    zh: "织者塑像 2",
   },
   "Weaver Effigy 3": {
     en: "Weaver Effigy 3",
-    zh: "织者雕像 3",
+    zh: "织者塑像 3",
   },
   "West corner of Wisp Thicket.": {
     en: "West corner of Wisp Thicket.",
@@ -1737,11 +1737,11 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Wispfire Latern": {
     en: "Wispfire Latern",
-    zh: "灵火提灯",
+    zh: "灵火灯笼",
   },
   "Witch Crest": {
     en: "Witch Crest",
-    zh: "巫妪纹章",
+    zh: "巫者纹章",
   },
   "Within the Skull Cavern in the Far Fields": {
     en: "Within the Skull Cavern in the Far Fields",
