@@ -1,4 +1,5 @@
 import { contextBridge, ipcRenderer } from 'electron';
+import { Buffer } from 'node:buffer';
 
 type ExposedWindowsSave = {
   id: string;
@@ -19,12 +20,16 @@ contextBridge.exposeInMainWorld('electronAPI', {
     }
 
     const entries = (await ipcRenderer.invoke('auto-saves:list')) as Array<
-      Omit<ExposedWindowsSave, 'data'> & { data: Buffer }
+      Omit<ExposedWindowsSave, 'data'> & { data: Buffer | Uint8Array }
     >;
 
-    return entries.map(entry => ({
-      ...entry,
-      data: entry.data.toString('base64'),
-    }));
+    return entries.map(entry => {
+      const buffer = Buffer.from(entry.data);
+      return {
+        ...entry,
+        data: buffer.toString('base64'),
+      };
+    });
   },
 });
+
