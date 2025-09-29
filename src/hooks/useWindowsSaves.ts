@@ -34,7 +34,10 @@ function base64ToUint8Array(base64: string): Uint8Array {
 export function useWindowsSaves() {
   const { t } = useI18n();
   const isRenderer = typeof window !== "undefined";
-  const hasElectronAPI = isRenderer && !!window.electronAPI?.listWindowsSaves;
+  const electronApi = isRenderer
+    ? (window as Window & { electronAPI?: ElectronAPI }).electronAPI
+    : undefined;
+  const hasElectronAPI = !!electronApi?.listWindowsSaves;
   const [state, setState] = useState<LoadState>({
     isSupported: hasElectronAPI,
     isLoading: false,
@@ -46,14 +49,14 @@ export function useWindowsSaves() {
     let cancelled = false;
 
     async function loadSaves() {
-      if (!hasElectronAPI || !window.electronAPI?.listWindowsSaves) {
+      if (!electronApi?.listWindowsSaves) {
         return;
       }
 
       setState(prev => ({ ...prev, isLoading: true, error: null }));
 
       try {
-        const rawEntries = await window.electronAPI.listWindowsSaves();
+        const rawEntries = await electronApi.listWindowsSaves();
         const processed: AutoSaveSummary[] = [];
 
         for (const entry of rawEntries) {
