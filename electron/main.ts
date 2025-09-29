@@ -40,12 +40,14 @@ async function discoverWindowsSaves(): Promise<WindowsSaveEntry[]> {
   let rootDirEntries: Dirent[];
   try {
     rootDirEntries = await fs.readdir(savesRoot, { withFileTypes: true });
+    console.log('[electron] scanning saves root:', savesRoot);
   } catch (error) {
     console.warn('[electron] Unable to read Silksong save root:', error);
     return [];
   }
 
   for (const dirent of rootDirEntries) {
+    console.log('[electron] found entry in root:', dirent.name, dirent.isDirectory() ? '(dir)' : '(file)');
     if (!dirent.isDirectory()) continue;
     if (!/^\\d+$/.test(dirent.name)) continue;
 
@@ -53,12 +55,14 @@ async function discoverWindowsSaves(): Promise<WindowsSaveEntry[]> {
     let filesInFolder: Dirent[];
     try {
       filesInFolder = await fs.readdir(folderPath, { withFileTypes: true });
+      console.log('[electron] inspecting folder:', folderPath);
     } catch (error) {
       console.warn('[electron] Unable to read Silksong save folder:', folderPath, error);
       continue;
     }
 
     for (const fileDirent of filesInFolder) {
+      console.log('[electron]  - entry:', fileDirent.name, fileDirent.isFile() ? '(file)' : '(dir)');
       if (!fileDirent.isFile()) continue;
       if (!/^user([1-4])\.dat$/i.test(fileDirent.name)) continue;
 
