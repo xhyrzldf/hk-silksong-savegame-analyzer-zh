@@ -95,6 +95,8 @@ async function discoverWindowsSaves(): Promise<WindowsSaveEntry[]> {
     }
   }
 
+  console.log('[electron] total entries discovered:', entries.length);
+
   return entries.sort((a, b) => {
     if (a.slotIndex !== b.slotIndex) {
       return a.slotIndex - b.slotIndex;
