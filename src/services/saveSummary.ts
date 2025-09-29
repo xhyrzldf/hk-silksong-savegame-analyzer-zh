@@ -31,51 +31,6 @@ export function calculateCompletionPercent(parsedJson: unknown): number {
   return Math.round((unlockedSum / maxSum) * 100);
 }
 
-function findNameValue(object: unknown, visited: WeakSet<object>): string | null {
-  if (!object || typeof object !== "object") {
-    return null;
-  }
-
-  if (visited.has(object)) {
-    return null;
-  }
-  visited.add(object);
-
-  const entries = Object.entries(object as AnyRecord);
-
-  for (const [key, value] of entries) {
-    if (typeof value === "string") {
-      const trimmed = value.trim();
-      if (!trimmed) continue;
-      const keyLower = key.toLowerCase();
-      if (
-        keyLower.includes("savename") ||
-        keyLower.includes("save_name") ||
-        keyLower.includes("save slot") ||
-        keyLower.includes("profile") ||
-        keyLower === "name" ||
-        keyLower === "playername" ||
-        (keyLower.includes("slot") && keyLower.includes("name"))
-      ) {
-        if (trimmed.length <= 64) {
-          return trimmed;
-        }
-      }
-    }
-  }
-
-  for (const [, value] of entries) {
-    if (typeof value === "object" && value !== null) {
-      const nested = findNameValue(value, visited);
-      if (nested) {
-        return nested;
-      }
-    }
-  }
-
-  return null;
-}
-
 export function extractSaveDisplayName(parsedJson: unknown): string | null {
   if (!parsedJson || typeof parsedJson !== "object") {
     return null;
@@ -102,5 +57,5 @@ export function extractSaveDisplayName(parsedJson: unknown): string | null {
     }
   }
 
-  return findNameValue(parsedJson, new WeakSet());
+  return null;
 }
