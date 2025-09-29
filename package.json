@@ -67,7 +67,8 @@
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
-      "perMachine": true
+      "perMachine": true,
+      "include": "build/installer.nsh"
     }
   }
 }
