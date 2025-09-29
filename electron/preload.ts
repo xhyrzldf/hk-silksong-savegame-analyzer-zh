@@ -1,4 +1,4 @@
-import { contextBridge, ipcRenderer } from 'electron';
+﻿import { contextBridge, ipcRenderer } from 'electron';
 import { Buffer } from 'node:buffer';
 
 type ExposedWindowsSave = {
@@ -9,6 +9,13 @@ type ExposedWindowsSave = {
   filePath: string;
   modifiedAt: number;
   data: string;
+};
+
+type BackupEntry = {
+  fileName: string;
+  slotIndex: number | null;
+  modifiedAt: number;
+  size: number;
 };
 
 contextBridge.exposeInMainWorld('electronAPI', {
@@ -31,5 +38,16 @@ contextBridge.exposeInMainWorld('electronAPI', {
       };
     });
   },
+  async writeWindowsSlot(payload: { filePath: string; data: Uint8Array }): Promise<void> {
+    await ipcRenderer.invoke('auto-saves:write-slot', payload);
+  },
+  async copyWindowsSlot(payload: { sourcePath: string; targetPath: string }): Promise<void> {
+    await ipcRenderer.invoke('auto-saves:copy-slot', payload);
+  },
+  async listWindowsBackups(): Promise<BackupEntry[]> {
+    return (await ipcRenderer.invoke('auto-saves:list-backups')) as BackupEntry[];
+  },
+  async restoreWindowsBackup(payload: { fileName: string; targetPath: string }): Promise<void> {
+    await ipcRenderer.invoke('auto-saves:restore-backup', payload);
+  },
 });
-

@@ -1818,6 +1818,194 @@ export const CUSTOM_TRANSLATIONS = {
   "Wormways: Bottom right held by a corpse": {
     en: "Wormways: Bottom right held by a corpse",
     zh: "沙噬虫道右下角的尸体持有。",
+  },
+"UI_VIEW_ANALYSIS": {
+    en: "Save Analysis",
+    zh: "存档分析"
+  },
+  "UI_VIEW_EDITOR": {
+    en: "Save Editing",
+    zh: "存档编辑"
+  },
+  "UI_SAVE_EDITOR_PANEL_TITLE": {
+    en: "Save Editing",
+    zh: "存档编辑"
+  },
+  "UI_SAVE_EDITOR_CURRENT_FILE": {
+    en: "Current file: {name}",
+    zh: "当前文件：{name}"
+  },
+  "UI_SAVE_EDITOR_FILE_UNKNOWN": {
+    en: "Unnamed",
+    zh: "未命名"
+  },
+  "UI_SAVE_EDITOR_ACTIVE_SLOT": {
+    en: "Active slot: Slot {index} · {dir}",
+    zh: "当前槽位：槽位{index} · {dir}"
+  },
+  "UI_SAVE_EDITOR_ACTIVE_SLOT_NONE": {
+    en: "No auto-detected slot selected",
+    zh: "未选择自动识别的槽位"
+  },
+  "UI_SAVE_EDITOR_NO_JSON": {
+    en: "Load a save file first",
+    zh: "请先加载存档"
+  },
+  "UI_SAVE_EDITOR_JSON_INVALID": {
+    en: "Unable to parse the current save data",
+    zh: "无法解析当前存档数据"
+  },
+  "UI_SAVE_EDITOR_SAVE_BUTTON": {
+    en: "Save to slot (with backup)",
+    zh: "保存到槽位（自动备份）"
+  },
+  "UI_SAVE_EDITOR_SAVE_UNAVAILABLE": {
+    en: "Slot writing is not supported in this environment",
+    zh: "当前环境不支持写入槽位"
+  },
+  "UI_SAVE_EDITOR_ACTIVE_SLOT_REQUIRED": {
+    en: "Select a destination slot first",
+    zh: "请先选择需要写入的槽位"
+  },
+  "UI_SAVE_EDITOR_SAVE_SUCCESS": {
+    en: "Save written and backup created",
+    zh: "存档写入完成并已备份"
+  },
+  "UI_SAVE_EDITOR_SAVE_FAILED": {
+    en: "Save failed, please try again",
+    zh: "写入失败，请重试"
+  },
+  "UI_SAVE_EDITOR_SAVING": {
+    en: "Saving…",
+    zh: "保存中…"
+  },
+  "UI_SAVE_EDITOR_SLOT_DISPLAY": {
+    en: "Slot {index}",
+    zh: "槽位{index}"
+  },
+  "UI_SAVE_EDITOR_BACKUP_SLOT": {
+    en: "Slot {index}",
+    zh: "槽位{index}"
+  },
+  "UI_SAVE_EDITOR_BACKUP_SLOT_UNKNOWN": {
+    en: "Unknown slot",
+    zh: "未知槽位"
+  },
+  "UI_SAVE_EDITOR_BACKUP_LOAD_ERROR": {
+    en: "Failed to load backup list",
+    zh: "无法读取备份列表"
+  },
+  "UI_SAVE_EDITOR_PREREQS": {
+    en: "Prerequisites: {value}",
+    zh: "前置条件：{value}"
+  },
+  "UI_SAVE_EDITOR_KILLS_REQUIRED": {
+    en: "Target kills: {value}",
+    zh: "目标击杀：{value}"
+  },
+  "UI_SAVE_EDITOR_CURRENT_VALUE": {
+    en: "Current value",
+    zh: "当前值"
+  },
+  "UI_SAVE_EDITOR_TOGGLE_UNLOCKED": {
+    en: "Mark as unlocked",
+    zh: "标记为已解锁"
+  },
+  "UI_SAVE_EDITOR_SECTION_EDIT": {
+    en: "Entry editing",
+    zh: "条目编辑"
+  },
+  "UI_SAVE_EDITOR_SECTION_COPY": {
+    en: "Copy & backup",
+    zh: "存档复制与备份"
+  },
+  "UI_SAVE_EDITOR_COPY_SOURCE": {
+    en: "Source slot",
+    zh: "源槽位"
+  },
+  "UI_SAVE_EDITOR_COPY_TARGET": {
+    en: "Target slot",
+    zh: "目标槽位"
+  },
+  "UI_SAVE_EDITOR_COPY_BUTTON": {
+    en: "Copy to target slot",
+    zh: "复制到目标槽位"
+  },
+  "UI_SAVE_EDITOR_COPYING": {
+    en: "Copying…",
+    zh: "复制中…"
+  },
+  "UI_SAVE_EDITOR_COPY_SLOT_REQUIRED": {
+    en: "Select valid slots first",
+    zh: "请选择有效的槽位"
+  },
+  "UI_SAVE_EDITOR_COPY_SAME_SLOT": {
+    en: "Source and target slots are identical",
+    zh: "源槽位与目标槽位相同"
+  },
+  "UI_SAVE_EDITOR_COPY_CONFIRM": {
+    en: "Copy the source slot and overwrite the target slot? The original file will be backed up automatically.",
+    zh: "确定将源槽位复制并覆盖目标槽位吗？原文件会自动备份。"
+  },
+  "UI_SAVE_EDITOR_COPY_SUCCESS": {
+    en: "Copied and backed up successfully",
+    zh: "复制完成并已备份原文件"
+  },
+  "UI_SAVE_EDITOR_COPY_FAILED": {
+    en: "Copy failed, please try again",
+    zh: "复制失败，请重试"
+  },
+  "UI_SAVE_EDITOR_BACKUP_SECTION": {
+    en: "Backups",
+    zh: "存档备份"
+  },
+  "UI_SAVE_EDITOR_BACKUP_REFRESH": {
+    en: "Refresh backups",
+    zh: "刷新备份"
+  },
+  "UI_SAVE_EDITOR_BACKUP_REFRESHING": {
+    en: "Refreshing…",
+    zh: "刷新中…"
+  },
+  "UI_SAVE_EDITOR_BACKUP_UNAVAILABLE": {
+    en: "Backup management is not available here",
+    zh: "当前环境不支持备份管理"
+  },
+  "UI_SAVE_EDITOR_BACKUP_EMPTY": {
+    en: "No backup files found",
+    zh: "暂无备份文件"
+  },
+  "UI_SAVE_EDITOR_BACKUP_SELECT": {
+    en: "Select backup file",
+    zh: "选择备份文件"
+  },
+  "UI_SAVE_EDITOR_RESTORE_TARGET": {
+    en: "Restore to slot",
+    zh: "恢复到槽位"
+  },
+  "UI_SAVE_EDITOR_RESTORE_BUTTON": {
+    en: "Restore selected backup",
+    zh: "恢复所选备份"
+  },
+  "UI_SAVE_EDITOR_RESTORING": {
+    en: "Restoring…",
+    zh: "恢复中…"
+  },
+  "UI_SAVE_EDITOR_RESTORE_CONFIRM": {
+    en: "Restore the backup and overwrite the target slot? The current file will be backed up automatically.",
+    zh: "确认恢复该备份并覆盖目标槽位吗？当前文件会自动备份。"
+  },
+  "UI_SAVE_EDITOR_RESTORE_SUCCESS": {
+    en: "Backup restored and original file saved",
+    zh: "恢复完成并已备份原文件"
+  },
+  "UI_SAVE_EDITOR_RESTORE_FAILED": {
+    en: "Restore failed, please try again",
+    zh: "恢复失败，请重试"
+  },
+  "UI_SAVE_EDITOR_RESTORE_REQUIRED": {
+    en: "Select both a backup and a target slot",
+    zh: "请选择备份和目标槽位"
   }
 };
 
