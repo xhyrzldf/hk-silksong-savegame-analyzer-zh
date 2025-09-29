@@ -52,11 +52,10 @@ function UpgradesTableSection({ section, upgrades }: { section: string; upgrades
                     </span>
                   </td>
                   <td className="px-2 py-1 break-words whitespace-pre-line">{translate(item.name)}</td>
-                   <td className={`px-2 py-1 relative min-w-[140px] max-w-[260px] break-words whitespace-pre-line 
-                      ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}>
+                   <td className="px-2 py-1 relative min-w-[140px] max-w-[260px] break-words whitespace-pre-line">
                     {translate(item.location)}
                   </td>
-                  <td className={`px-2 py-1 w-[48px] text-center ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}>{item.whichAct}</td>
+                  <td className="px-2 py-1 w-[48px] text-center">{item.whichAct}</td>
                   <td className="px-2 py-1 text-center">
                     <button
                       className={`flex-1 min-w-[48px] py-2 rounded font-semibold transition-colors text-xs ${

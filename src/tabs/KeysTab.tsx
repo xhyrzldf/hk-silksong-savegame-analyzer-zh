@@ -49,11 +49,10 @@ export function KeysTab({ parsedJson, decrypted }: TabRenderProps) {
                     <span className="text-xs text-blue-200 mt-1 font-normal" />
                   </td>
                   <td className="px-2 py-1 min-w-[120px] max-w-[220px] truncate">{translate(item.name)}</td>
-                   <td className={`px-2 py-1 relative min-w-[140px] max-w-[260px] break-words whitespace-pre-line 
-                      ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}>
+                   <td className="px-2 py-1 relative min-w-[140px] max-w-[260px] break-words whitespace-pre-line">
                     {translate(item.location)}
                   </td>
-                  <td className={`px-2 py-1 w-[48px] text-center ${!unlocked ? "blur-sm hover:blur-none transition duration-100" : ""}`}>{item.whichAct}</td>
+                  <td className="px-2 py-1 w-[48px] text-center">{item.whichAct}</td>
                   <td className="px-2 py-1 w-[64px] text-center">
                     <button
                       className={`flex-1 min-w-[48px] py-2 rounded font-semibold transition-colors text-xs ${
