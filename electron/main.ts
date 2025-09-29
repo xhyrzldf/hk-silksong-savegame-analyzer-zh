@@ -1,10 +1,11 @@
-import electron from 'electron';
+import { createRequire } from 'node:module';
 import { promises as fs } from 'node:fs';
 import type { Dirent } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 
-const { app, BrowserWindow, shell, ipcMain } = electron;
+const require = createRequire(import.meta.url);
+const { app, BrowserWindow, shell, ipcMain } = require('electron') as typeof import('electron');
 
 process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = 'true';
 
