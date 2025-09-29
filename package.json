@@ -16,7 +16,7 @@
     "build:electron:main": "tsc -p tsconfig.electron.json",
     "build:renderer:electron": "cross-env BUILD_TARGET=electron tsc -b && cross-env BUILD_TARGET=electron vite build",
     "build:electron": "npm run build:renderer:electron && npm run build:electron:main && electron-builder --win",
-    "electron:start": "wait-on tcp:5173 && cross-env NODE_ENV=development VITE_DEV_SERVER_URL=http://localhost:5173 tsx --tsconfig tsconfig.electron.json electron/main.ts",
+    "electron:start": "wait-on tcp:5173 && npm run build:electron:main && cross-env NODE_ENV=development VITE_DEV_SERVER_URL=http://localhost:5173 electron dist-electron/main.js",
     "dev:electron": "concurrently \"npm run dev\" \"npm run electron:start\""
   },
   "dependencies": {
