@@ -71,6 +71,9 @@
       "createDesktopShortcut": true,
       "perMachine": true,
       "include": "build/installer.nsh"
+    },
+    "extraMetadata": {
+      "type": "commonjs"
     }
   }
 }
