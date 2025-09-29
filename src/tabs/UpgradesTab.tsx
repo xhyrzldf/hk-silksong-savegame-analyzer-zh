@@ -1,5 +1,7 @@
-﻿import type { ReactNode } from "react";
+﻿/* eslint-disable react-refresh/only-export-components */
+import type { ReactNode } from "react";
 
+import { useFilteredCategoryItems, type FilteredCategoryItem } from "../hooks/useResultFilters";
 import { useI18n } from "../i18n/I18nContext";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 import type { TabRenderProps } from "./types";
@@ -10,7 +12,7 @@ function formatPercent(value: number): string {
   return `${Number(value.toFixed(2))}%`;
 }
 
-function UpgradesTableSection({ section, upgrades, parsedJson }: { section: string; upgrades: any[]; parsedJson: any }) {
+function UpgradesTableSection({ section, upgrades }: { section: string; upgrades: FilteredCategoryItem[] }) {
   const { t, translate } = useI18n();
   if (upgrades.length === 0) return null;
   return (
@@ -37,8 +39,8 @@ function UpgradesTableSection({ section, upgrades, parsedJson }: { section: stri
             </tr>
           </thead>
           <tbody>
-            {upgrades.map((item, index) => {
-              const { unlocked } = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
+            {upgrades.map(({ item, result }, index) => {
+              const { unlocked } = result;
               return (
                 <tr key={index} className="border-b border-gray-700 last:border-b-0">
                   <td className="px-2 py-1 text-center align-middle">
@@ -83,6 +85,17 @@ function UpgradesTableSection({ section, upgrades, parsedJson }: { section: stri
 
 export function UpgradesTab({ parsedJson, decrypted }: TabRenderProps) {
   const { t, translate } = useI18n();
+  const upgradeCategory = CATEGORIES.find(cat => cat.name === CATEGORY_NAME);
+  const upgrades = upgradeCategory?.items ?? [];
+  const filteredUpgrades = useFilteredCategoryItems(upgrades, parsedJson);
+  const sections = Array.from(
+    new Set(
+      filteredUpgrades
+        .map(entry => entry.item.section)
+        .filter((section): section is string => typeof section === "string"),
+    ),
+  );
+
   if (!decrypted || !parsedJson) {
     const message = t("UI_LOAD_SAVE_PROMPT", "Load a save file to view {section} data.").replace(
       "{section}",
@@ -91,18 +104,13 @@ export function UpgradesTab({ parsedJson, decrypted }: TabRenderProps) {
     return <div className="text-white text-center">{message}</div>;
   }
 
-  const upgradeCategory = CATEGORIES.find(cat => cat.name === CATEGORY_NAME);
-  const upgrades = upgradeCategory?.items ?? [];
-  const sections = Array.from(new Set(upgrades.map(u => u.section).filter((s): s is string => typeof s === "string")));
-
   return (
     <div className="text-white">
       {sections.map(section => (
         <UpgradesTableSection
           key={section}
           section={section}
-          upgrades={upgrades.filter(u => u.section === section)}
-          parsedJson={parsedJson}
+          upgrades={filteredUpgrades.filter(entry => entry.item.section === section)}
         />
       ))}
     </div>

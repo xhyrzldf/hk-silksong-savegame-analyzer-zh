@@ -1,4 +1,6 @@
+/* eslint-disable react-refresh/only-export-components */
 import type { ReactNode } from "react";
+import { useFilteredCategoryItems } from "../hooks/useResultFilters";
 import { useI18n } from "../i18n/I18nContext";
 import type { TabRenderProps } from "./types";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
@@ -7,6 +9,10 @@ const JOURNAL_CATEGORY_NAME = "Hunter's Journal";
 
 export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
   const { t, translate } = useI18n();
+  const journalCategory = CATEGORIES.find(cat => cat.name === JOURNAL_CATEGORY_NAME);
+  const journalEntries = journalCategory?.items ?? [];
+  const filteredJournalEntries = useFilteredCategoryItems(journalEntries, parsedJson);
+
   if (!decrypted || !parsedJson) {
     const message = t("UI_LOAD_SAVE_PROMPT", "Load a save file to view {section} data.").replace(
       "{section}",
@@ -14,9 +20,6 @@ export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
     );
     return <div className="text-white text-center">{message}</div>;
   }
-
-  const journalCategory = CATEGORIES.find(cat => cat.name === JOURNAL_CATEGORY_NAME);
-  const journalEntries = journalCategory?.items ?? [];
 
   return (
     <div className="text-white">
@@ -33,8 +36,8 @@ export function HuntersJournalTab({ parsedJson, decrypted }: TabRenderProps) {
             </tr>
           </thead>
           <tbody>
-            {journalEntries.map((item, index) => {
-              const { unlocked, returnValue: killsAchieved } = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
+            {filteredJournalEntries.map(({ item, result }, index) => {
+              const { unlocked, returnValue: killsAchieved } = result;
               return (
                 <tr key={index} className="border-b border-gray-700 last:border-b-0">
                   <td className="px-2 py-1 text-center w-[56px] align-middle">
