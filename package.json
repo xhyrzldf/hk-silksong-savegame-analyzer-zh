@@ -2,6 +2,8 @@
   "name": "hk-silksong-savegame-analyzer",
   "private": true,
   "version": "0.0.0",
+  "description": "Hollow Knight Silksong 存档分析与进度追踪工具",
+  "author": "皮一下就很凡@Bilibili",
   "type": "module",
   "homepage": "https://silksong-completionist.com/",
   "main": "dist-electron/main.js",
