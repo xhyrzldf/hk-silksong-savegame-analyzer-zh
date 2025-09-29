@@ -15,10 +15,10 @@ interface FilterButtonProps {
 }
 
 function FilterButton({ label, active, onClick, disabled }: FilterButtonProps) {
-  const baseClass = "px-3 py-1 rounded border text-xs font-semibold transition-colors";
-  const activeClass = "bg-blue-600 border-blue-400 text-white";
-  const inactiveClass = "bg-transparent border-white/30 text-white/80 hover:border-white hover:text-white";
-  const disabledClass = disabled ? "opacity-50 cursor-not-allowed" : "";
+  const baseClass = "rounded-full border px-3 py-1.5 text-xs font-semibold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950";
+  const activeClass = "border-emerald-400/60 bg-emerald-500/90 text-slate-950 shadow";
+  const inactiveClass = "border-white/15 bg-white/5 text-white/70 hover:-translate-y-0.5 hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white";
+  const disabledClass = disabled ? "cursor-not-allowed opacity-50 hover:translate-y-0" : "";
 
   return (
     <button
@@ -36,7 +36,7 @@ function FilterButton({ label, active, onClick, disabled }: FilterButtonProps) {
 function FilterGroup({ label, children }: { label: string; children: ReactNode }) {
   return (
     <div className="flex flex-col gap-2">
-      <span className="text-xs font-semibold text-blue-200">{label}</span>
+      <span className="text-xs font-semibold uppercase tracking-wide text-white/60">{label}</span>
       <div className="flex flex-wrap gap-2">{children}</div>
     </div>
   );
@@ -57,7 +57,7 @@ export function ResultFilterBar({ disabled }: ResultFilterBarProps) {
   );
 
   return (
-    <div className="bg-[#24344d80] rounded-lg px-3 py-3 flex flex-wrap gap-4 justify-center md:justify-between text-white">
+    <div className="flex flex-wrap items-start gap-6 rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-4 text-white">
       <FilterGroup label={t("UI_FILTER_GROUP_STATUS", "Status")}>
         <FilterButton
           label={t("UI_FILTER_INCOMPLETE", "Incomplete")}

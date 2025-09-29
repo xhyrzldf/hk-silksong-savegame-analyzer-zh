@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @custom-variant hover (&:hover);
+
 html {
   scrollbar-gutter: stable both-edges;
-  background-color: black;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
 }
