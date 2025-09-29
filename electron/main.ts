@@ -7,7 +7,7 @@ process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = 'true';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const isDev = process.env.NODE_ENV !== 'production';
+const isDev = !app.isPackaged;
 const devServerUrl = process.env.VITE_DEV_SERVER_URL ?? 'http://localhost:5173';
 
 let mainWindow: BrowserWindow | null = null;
