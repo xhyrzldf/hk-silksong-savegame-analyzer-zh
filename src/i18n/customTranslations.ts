@@ -71,6 +71,34 @@ export const CUSTOM_TRANSLATIONS = {
     en: "selected",
     zh: "已选择",
   },
+  UI_AUTO_SAVES_TITLE: {
+    en: "Detected Windows save slots",
+    zh: "检测到的 Windows 存档",
+  },
+  UI_AUTO_SAVES_LOADING: {
+    en: "Scanning...",
+    zh: "扫描中...",
+  },
+  UI_AUTO_SAVES_EMPTY: {
+    en: "No Windows saves found in the default folder.",
+    zh: "默认路径下未找到 Windows 存档。",
+  },
+  UI_AUTO_SAVES_SLOT: {
+    en: "Slot {index}",
+    zh: "槽位 {index}",
+  },
+  UI_AUTO_SAVES_COMPLETION: {
+    en: "Completion: {percent}%",
+    zh: "完成度：{percent}%",
+  },
+  UI_AUTO_SAVES_MODIFIED: {
+    en: "Last updated: {time}",
+    zh: "最近更新：{time}",
+  },
+  ERROR_AUTO_SAVE_LOAD: {
+    en: "Failed to inspect Windows save folder",
+    zh: "无法读取 Windows 存档目录",
+  },
   UI_COPY_TO_CLIPBOARD: {
     en: "Copied to Clipboard!",
     zh: "已复制到剪贴板！",

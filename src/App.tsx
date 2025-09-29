@@ -1,13 +1,16 @@
-﻿import { useState } from "react";
+﻿import { useCallback, useEffect, useState } from "react";
+import type { DragEvent } from "react";
 
 import HornetBackground from "./assets/HornetBackground.png";
 import { FileUpload } from "./components/FileUpload";
 import { LanguageSwitch } from "./components/LanguageSwitch";
 import { ResultFilterBar } from "./components/ResultFilterBar";
+import { AutoSaveCards } from "./components/AutoSaveCards";
 import { TabBar } from "./components/TabBar";
 import { TotalProgress } from "./components/TotalProgress";
 import { useSaveFile } from "./hooks/useSaveFile";
 import { ResultFiltersProvider } from "./hooks/useResultFilters";
+import { useWindowsSaves, type AutoSaveSummary } from "./hooks/useWindowsSaves";
 import { useI18n } from "./i18n/I18nContext";
 import { tabDefinitions } from "./tabs";
 import type { TabId } from "./tabs/types";
@@ -93,8 +96,8 @@ export default function App() {
     jsonText,
     setJsonText,
     parsedJson,
-    handleFile,
-    handleDrop,
+    handleFile: handleFileInternal,
+    handleDrop: handleDropInternal,
     handleDragOver,
     saveEncrypted,
     savePlain,
@@ -102,6 +105,9 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<TabId>("Stats");
   const [showToast, setShowToast] = useState(false);
   const [activePlatformId, setActivePlatformId] = useState<PlatformId>("Steam");
+  const [activeAutoSaveId, setActiveAutoSaveId] = useState<string | null>(null);
+
+  const autoSaves = useWindowsSaves();
 
   const activePlatform =
     PLATFORM_OPTIONS.find(platform => platform.id === activePlatformId) ?? PLATFORM_OPTIONS[0];
@@ -113,6 +119,29 @@ export default function App() {
   };
 
   const activeTabConfig = tabDefinitions.find(tab => tab.id === activeTab);
+
+  const handleManualFileSelected = useCallback((file: File) => {
+    setActiveAutoSaveId(null);
+    handleFileInternal(file);
+  }, [handleFileInternal]);
+
+  const handleManualDrop = useCallback((event: DragEvent<HTMLDivElement>) => {
+    setActiveAutoSaveId(null);
+    handleDropInternal(event);
+  }, [handleDropInternal]);
+
+  const handleAutoSaveSelect = useCallback((save: AutoSaveSummary) => {
+    setActiveAutoSaveId(save.id);
+    handleFileInternal(save.file);
+  }, [handleFileInternal]);
+
+  useEffect(() => {
+    if (!activeAutoSaveId) return;
+    const stillPresent = autoSaves.saves.some(save => save.id === activeAutoSaveId);
+    if (!stillPresent) {
+      setActiveAutoSaveId(null);
+    }
+  }, [autoSaves.saves, activeAutoSaveId]);
 
   return (
     <ResultFiltersProvider>
@@ -187,10 +216,19 @@ export default function App() {
           </p>
         </div>
 
+        <AutoSaveCards
+          saves={autoSaves.saves}
+          isLoading={autoSaves.isLoading}
+          error={autoSaves.error}
+          isSupported={autoSaves.isSupported}
+          activeSaveId={activeAutoSaveId}
+          onSelect={handleAutoSaveSelect}
+        />
+
         <FileUpload
           fileName={fileName}
-          onFileSelected={handleFile}
-          onDrop={handleDrop}
+          onFileSelected={handleManualFileSelected}
+          onDrop={handleManualDrop}
           onDragOver={handleDragOver}
         />
 
