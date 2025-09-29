@@ -1,5 +1,7 @@
-﻿import type { ReactNode } from "react";
+﻿/* eslint-disable react-refresh/only-export-components */
+import type { ReactNode } from "react";
 
+import { useFilteredCategoryItems, type FilteredCategoryItem } from "../hooks/useResultFilters";
 import { useI18n } from "../i18n/I18nContext";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 import type { TabRenderProps } from "./types";
@@ -10,9 +12,7 @@ function formatPercent(value: number): string {
   return `${Number(value.toFixed(2))}%`;
 }
 
-type ToolItem = (typeof CATEGORIES)[number]["items"][number];
-
-function ToolsTableSection({ section, tools, parsedJson }: { section: string; tools: ToolItem[]; parsedJson: any }) {
+function ToolsTableSection({ section, tools }: { section: string; tools: FilteredCategoryItem[] }) {
   const { t, translate } = useI18n();
   if (tools.length === 0) return null;
   return (
@@ -39,8 +39,8 @@ function ToolsTableSection({ section, tools, parsedJson }: { section: string; to
             </tr>
           </thead>
           <tbody>
-            {tools.map((item, index) => {
-              const { unlocked } = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
+            {tools.map(({ item, result }, index) => {
+              const { unlocked } = result;
               return (
                 <tr key={index} className="border-b border-gray-700 last:border-b-0">
                   <td className="px-2 py-1 text-center align-middle">
@@ -85,6 +85,18 @@ function ToolsTableSection({ section, tools, parsedJson }: { section: string; to
 
 export function ToolsTab({ parsedJson, decrypted }: TabRenderProps) {
   const { t, translate } = useI18n();
+  const toolsCategory = CATEGORIES.find(cat => cat.name === CATEGORY_NAME);
+  const tools = toolsCategory?.items ?? [];
+  const filteredTools = useFilteredCategoryItems(tools, parsedJson);
+
+  const sections = Array.from(
+    new Set(
+      filteredTools
+        .map(entry => entry.item.section)
+        .filter((section): section is string => typeof section === "string"),
+    ),
+  );
+
   if (!decrypted || !parsedJson) {
     const message = t("UI_LOAD_SAVE_PROMPT", "Load a save file to view {section} data.").replace(
       "{section}",
@@ -93,19 +105,13 @@ export function ToolsTab({ parsedJson, decrypted }: TabRenderProps) {
     return <div className="text-white text-center">{message}</div>;
   }
 
-  const toolsCategory = CATEGORIES.find(cat => cat.name === CATEGORY_NAME);
-  const tools = toolsCategory?.items ?? [];
-
-  const sections = Array.from(new Set(tools.map(t => t.section).filter((s): s is string => typeof s === "string")));
-
   return (
     <div className="text-white">
       {sections.map(section => (
         <ToolsTableSection
           key={section}
           section={section}
-          tools={tools.filter(t => t.section === section)}
-          parsedJson={parsedJson}
+          tools={filteredTools.filter(entry => entry.item.section === section)}
         />
       ))}
     </div>

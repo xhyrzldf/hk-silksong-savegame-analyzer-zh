@@ -1,5 +1,7 @@
-﻿import type { ReactNode } from "react";
+﻿/* eslint-disable react-refresh/only-export-components */
+import type { ReactNode } from "react";
 
+import { useFilteredCategoryItems } from "../hooks/useResultFilters";
 import { useI18n } from "../i18n/I18nContext";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 import type { TabRenderProps } from "./types";
@@ -8,6 +10,10 @@ const CATEGORY_NAME = "Fleas";
 
 export function FleasTab({ parsedJson, decrypted }: TabRenderProps) {
   const { t, translate } = useI18n();
+  const fleaCategory = CATEGORIES.find(cat => cat.name === CATEGORY_NAME);
+  const fleas = fleaCategory?.items ?? [];
+  const filteredFleas = useFilteredCategoryItems(fleas, parsedJson);
+
   if (!decrypted || !parsedJson) {
     const message = t("UI_LOAD_SAVE_PROMPT", "Load a save file to view {section} data.").replace(
       "{section}",
@@ -15,9 +21,6 @@ export function FleasTab({ parsedJson, decrypted }: TabRenderProps) {
     );
     return <div className="text-white text-center">{message}</div>;
   }
-
-  const fleaCategory = CATEGORIES.find(cat => cat.name === CATEGORY_NAME);
-  const fleas = fleaCategory?.items ?? [];
 
   return (
     <div className="text-white">
@@ -34,8 +37,8 @@ export function FleasTab({ parsedJson, decrypted }: TabRenderProps) {
             </tr>
           </thead>
           <tbody>
-            {fleas.map((item, index) => {
-              const { unlocked } = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
+            {filteredFleas.map(({ item, result }, index) => {
+              const { unlocked } = result;
               return (
                 <tr key={index} className="border-b border-gray-700 last:border-b-0">
                   <td className="px-2 py-1 text-center w-[56px] align-middle">

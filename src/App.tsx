@@ -3,9 +3,11 @@
 import HornetBackground from "./assets/HornetBackground.png";
 import { FileUpload } from "./components/FileUpload";
 import { LanguageSwitch } from "./components/LanguageSwitch";
+import { ResultFilterBar } from "./components/ResultFilterBar";
 import { TabBar } from "./components/TabBar";
 import { TotalProgress } from "./components/TotalProgress";
 import { useSaveFile } from "./hooks/useSaveFile";
+import { ResultFiltersProvider } from "./hooks/useResultFilters";
 import { useI18n } from "./i18n/I18nContext";
 import { tabDefinitions } from "./tabs";
 import type { TabId } from "./tabs/types";
@@ -113,23 +115,24 @@ export default function App() {
   const activeTabConfig = tabDefinitions.find(tab => tab.id === activeTab);
 
   return (
-    <div
-      className="min-h-screen flex justify-center items-start p-4"
-      style={{
-        backgroundImage: `url(${HornetBackground})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-      }}
-    >
-      <div className="w-full max-w-4xl bg-[#1a1313cc] rounded-lg shadow-lg p-5 mt-0 space-y-5 backdrop-blur-sm">
-        <div className="flex justify-end">
-          <LanguageSwitch />
-        </div>
-        <h1 className="text-2xl font-bold text-white text-center">
-          {t("UI_APP_TITLE", "Hollow Knight Silksong Savegame Analyzer")}
-        </h1>
+    <ResultFiltersProvider>
+      <div
+        className="min-h-screen flex justify-center items-start p-4"
+        style={{
+          backgroundImage: `url(${HornetBackground})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+        }}
+      >
+        <div className="w-full max-w-4xl bg-[#1a1313cc] rounded-lg shadow-lg p-5 mt-0 space-y-5 backdrop-blur-sm">
+          <div className="flex justify-end">
+            <LanguageSwitch />
+          </div>
+          <h1 className="text-2xl font-bold text-white text-center">
+            {t("UI_APP_TITLE", "Hollow Knight Silksong Savegame Analyzer")}
+          </h1>
 
         <div className="text-center text-sm">
           <div className="flex flex-wrap justify-center gap-2 mb-3">
@@ -207,6 +210,8 @@ export default function App() {
           decrypted={decrypted}
         />
 
+        <ResultFilterBar disabled={!decrypted || !parsedJson} />
+
         <div className="mt-4">
           {decrypted && activeTabConfig ? (
             activeTabConfig.render({
@@ -230,8 +235,9 @@ export default function App() {
           <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3571462700" className="underline">{t("UI_STEAM_GUIDE", "Steam Guide")}</a><br />
           <a href="https://www.buymeacoffee.com/Br3zzly" className="underline">{t("UI_BUY_ME_A_COFFEE", "Buy me a coffee")}</a>
         </footer>
+        </div>
       </div>
-    </div>
+    </ResultFiltersProvider>
   );
 }
 
