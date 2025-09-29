@@ -1,0 +1,1428 @@
+[
+  {
+    "key": "Above The Cauldron: Chapel of the Architect",
+    "en": "Above The Cauldron: Chapel of the Architect",
+    "zh": "大熔釜上方：建筑师礼拜堂。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Cauldron",
+        "reference_zh": "大熔釜"
+      }
+    ]
+  },
+  {
+    "key": "Appearing in the Ruined Chapel at the end of Moss Grotto.",
+    "en": "Appearing in the Ruined Chapel at the end of Moss Grotto.",
+    "zh": "出现在苔藓岩窟尽头的颓败教堂（苔穴）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Ruined Chapel",
+        "reference_zh": "颓败教堂"
+      },
+      {
+        "source": 1,
+        "reference_en": "Moss Grotto",
+        "reference_zh": "苔穴"
+      }
+    ]
+  },
+  {
+    "key": "At the end of a long room in the Deep Docks",
+    "en": "At the end of a long room in the Deep Docks",
+    "zh": "位于深坞一条长廊的尽头。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Deep Docks",
+        "reference_zh": "深坞"
+      }
+    ]
+  },
+  {
+    "key": "At the end of a parkour challenge at the top of the Whispering Vaults",
+    "en": "At the end of a parkour challenge at the top of the Whispering Vaults",
+    "zh": "位于低语书库顶部跑酷挑战的终点。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Whispering Vaults",
+        "reference_zh": "低语书库"
+      }
+    ]
+  },
+  {
+    "key": "At the end of a parkour section in the Slab behind a lock which requires the Key of Apostate",
+    "en": "At the end of a parkour section in the Slab behind a lock which requires the Key of Apostate",
+    "zh": "位于石板地带一段需叛者之钥开锁的跑酷区域终点（罪石牢狱）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Slab",
+        "reference_zh": "罪石牢狱"
+      }
+    ]
+  },
+  {
+    "key": "At the top of Brightvein in Mount Fay",
+    "en": "At the top of Brightvein in Mount Fay",
+    "zh": "位于菲伊山的冰晶脉窟顶部（费耶山）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Mount Fay",
+        "reference_zh": "费耶山"
+      }
+    ]
+  },
+  {
+    "key": "Balm for The Wounded quest reward",
+    "en": "Balm for The Wounded quest reward",
+    "zh": "“治疗伤者”心愿奖励（愈伤良方）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "Balm for the Wounded",
+        "reference_zh": "愈伤良方"
+      }
+    ]
+  },
+  {
+    "key": "Behind a breakable wall in High Halls",
+    "en": "Behind a breakable wall in High Halls",
+    "zh": "在高庭的暗墙后方。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "High Halls",
+        "reference_zh": "高庭"
+      }
+    ]
+  },
+  {
+    "key": "Behind a breakable wall in Weavenest Atla",
+    "en": "Behind a breakable wall in Weavenest Atla",
+    "zh": "在阿特拉织巢的暗墙后方。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Weavenest Atla",
+        "reference_zh": "阿特拉织巢"
+      }
+    ]
+  },
+  {
+    "key": "Behind a platforming sequence in the Abyss",
+    "en": "Behind a platforming sequence in the Abyss",
+    "zh": "位于深渊的跑酷段之后。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Abyss",
+        "reference_zh": "深渊"
+      }
+    ]
+  },
+  {
+    "key": "Bellhart: Purchased from Frey after completing My Missing Courier wish",
+    "en": "Bellhart: Purchased from Frey after completing My Missing Courier wish",
+    "zh": "钟城：完成“我遗失的信使”心愿后可向弗雷购入（失踪送货员）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "My Missing Courier",
+        "reference_zh": "失踪送货员"
+      }
+    ]
+  },
+  {
+    "key": "Blasted Steps far left",
+    "en": "Blasted Steps far left",
+    "zh": "灼焰阶地最左侧（蚀阶）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Blasted Steps",
+        "reference_zh": "蚀阶"
+      }
+    ]
+  },
+  {
+    "key": "Blasted Steps: On a narrow platform above the sands",
+    "en": "Blasted Steps: On a narrow platform above the sands",
+    "zh": "蚀阶：沙海上方的狭窄平台。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Blasted Steps",
+        "reference_zh": "蚀阶"
+      }
+    ]
+  },
+  {
+    "key": "Bone Bottom: Complete Volatile Flintbeetles Wish",
+    "en": "Bone Bottom: Complete Volatile Flintbeetles Wish",
+    "zh": "骸底镇：暴烈燧甲虫。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Bone Bottom",
+        "reference_zh": "骸底镇"
+      },
+      {
+        "source": 3,
+        "reference_en": "Volatile Flintbeetles",
+        "reference_zh": "暴烈燧甲虫"
+      }
+    ]
+  },
+  {
+    "key": "Bone Bottom: Purchased from Pebb for 500 Rosaries",
+    "en": "Bone Bottom: Purchased from Pebb for 500 Rosaries",
+    "zh": "骸底镇：可向佩珀以 500 念珠购入。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Bone Bottom",
+        "reference_zh": "骸底镇"
+      }
+    ]
+  },
+  {
+    "key": "Bottom right of the abyss",
+    "en": "Bottom right of the abyss",
+    "zh": "位于深渊右下角。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Abyss",
+        "reference_zh": "深渊"
+      }
+    ]
+  },
+  {
+    "key": "Bottom Right of the Slab. On a corpse",
+    "en": "Bottom Right of the Slab. On a corpse",
+    "zh": "石板地带右下角的尸体上（罪石牢狱）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Slab",
+        "reference_zh": "罪石牢狱"
+      }
+    ]
+  },
+  {
+    "key": "Bottom-right of the Cogwork Core",
+    "en": "Bottom-right of the Cogwork Core",
+    "zh": "位于机枢核心右下角。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "Cogwork Core",
+        "reference_zh": "机枢核心"
+      }
+    ]
+  },
+  {
+    "key": "Bottom-right of the Deep Docks",
+    "en": "Bottom-right of the Deep Docks",
+    "zh": "位于深坞右下角。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Deep Docks",
+        "reference_zh": "深坞"
+      }
+    ]
+  },
+  {
+    "key": "Can be fought in a hidden area in Shellwood, accessed through a breakable wall in the Grand Gate's lift shaft.",
+    "en": "Can be fought in a hidden area in Shellwood, accessed through a breakable wall in the Grand Gate's lift shaft.",
+    "zh": "可在甲木林的隐藏区域挑战，需从巨扉圣门升降井的暗墙进入。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Grand Gate",
+        "reference_zh": "巨扉圣门"
+      }
+    ]
+  },
+  {
+    "key": "Can be found above cogwork core in The Cradle.",
+    "en": "Can be found above cogwork core in The Cradle.",
+    "zh": "位于摇篮区齿轮核心上方（摇篮圣所）（机枢核心）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Cradle",
+        "reference_zh": "摇篮圣所"
+      },
+      {
+        "source": 3,
+        "reference_en": "Cogwork Core",
+        "reference_zh": "机枢核心"
+      }
+    ]
+  },
+  {
+    "key": "Can be found across the pit from the Mosshome exit above Bone Bottom.",
+    "en": "Can be found across the pit from the Mosshome exit above Bone Bottom.",
+    "zh": "骸底镇，从苔乡出口跨过深坑即可找到。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Bone Bottom",
+        "reference_zh": "骸底镇"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in a cave in the Slab after accepting a Grand Hunt quest in Songclave.",
+    "en": "Can be found in a cave in the Slab after accepting a Grand Hunt quest in Songclave.",
+    "zh": "在圣歌盟地接下大狩猎任务后，可于石板地带的洞穴中找到（罪石牢狱）（狩王试炼）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Slab",
+        "reference_zh": "罪石牢狱"
+      },
+      {
+        "source": 3,
+        "reference_en": "Grand Hunt",
+        "reference_zh": "狩王试炼"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in Far Fields after promising the The Hidden Hunter Wish",
+    "en": "Can be found in Far Fields after promising the The Hidden Hunter Wish",
+    "zh": "许下“隐匿猎手”心愿后可在远野找到（隐秘猎手）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      },
+      {
+        "source": 3,
+        "reference_en": "The Hidden Hunter",
+        "reference_zh": "隐秘猎手"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in Greymoor, in the basement of the large building in Craw Lake.",
+    "en": "Can be found in Greymoor, in the basement of the large building in Craw Lake.",
+    "zh": "位于灰沼大型建筑——爬湖的地窖中（腐囊虫泽）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Craw Lake",
+        "reference_zh": "腐囊虫泽"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in Mount Fay, in the same area as the bench halfway up the mountain.",
+    "en": "Can be found in Mount Fay, in the same area as the bench halfway up the mountain.",
+    "zh": "位于菲伊山半山腰长椅所在的区域（费耶山）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Mount Fay",
+        "reference_zh": "费耶山"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in the Blasted Steps, in a room west of the Bellway. He can only be fought during the Hero's Call wish.",
+    "en": "Can be found in the Blasted Steps, in a room west of the Bellway. He can only be fought during the Hero's Call wish.",
+    "zh": "位于灼焰阶地钟道以西的房间，仅在“英雄的号召”心愿期间可战（蚀阶）（英勇救援）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Blasted Steps",
+        "reference_zh": "蚀阶"
+      },
+      {
+        "source": 3,
+        "reference_en": "Hero’s Call",
+        "reference_zh": "英勇救援"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in the Coral Tower, Northeast in Sand of Karak.",
+    "en": "Can be found in the Coral Tower, Northeast in Sand of Karak.",
+    "zh": "珊瑚尖塔。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Coral Tower",
+        "reference_zh": "珊瑚尖塔"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in the extreme bottom left of Bonegrave behind a breakable wall, a sub area of Moss Grotto.",
+    "en": "Can be found in the extreme bottom left of Bonegrave behind a breakable wall, a sub area of Moss Grotto.",
+    "zh": "位于苔藓岩窟分区骨冢的最左下角，需破坏暗墙（苔穴）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Moss Grotto",
+        "reference_zh": "苔穴"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in the lower area of the Slab, accessible after obtaining the Key of Apostate.",
+    "en": "Can be found in the lower area of the Slab, accessible after obtaining the Key of Apostate.",
+    "zh": "位于石板地带下层，需取得叛者之钥方可进入（罪石牢狱）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Slab",
+        "reference_zh": "罪石牢狱"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in the north-west area of the Sands of Karak.",
+    "en": "Can be found in the north-west area of the Sands of Karak.",
+    "zh": "卡拉卡沙川。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Sands of Karak",
+        "reference_zh": "卡拉卡沙川"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in the northeast of Far Fields.",
+    "en": "Can be found in the northeast of Far Fields.",
+    "zh": "位于远野的东北角。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      }
+    ]
+  },
+  {
+    "key": "Can be found in Voltnest within Sands of Karak.",
+    "en": "Can be found in Voltnest within Sands of Karak.",
+    "zh": "卡拉卡沙川。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Sands of Karak",
+        "reference_zh": "卡拉卡沙川"
+      }
+    ]
+  },
+  {
+    "key": "Can only be fought after beginning the Final Audience Wish, found next in south east of High halls.",
+    "en": "Can only be fought after beginning the Final Audience Wish, found next in south east of High halls.",
+    "zh": "启动“最终觐见”心愿后方可挑战，随后会出现在高堂东南侧（高庭）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "High Halls",
+        "reference_zh": "高庭"
+      },
+      {
+        "source": 3,
+        "reference_en": "Final Audience",
+        "reference_zh": "最终觐见"
+      }
+    ]
+  },
+  {
+    "key": "Choral Chambers: At the end of a platforming challenge",
+    "en": "Choral Chambers: At the end of a platforming challenge",
+    "zh": "圣咏殿：跑酷挑战的终点。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Choral Chambers",
+        "reference_zh": "圣咏殿"
+      }
+    ]
+  },
+  {
+    "key": "Choral Chambers: Enter the shaft from this section to turn on a fan, and this section to ride the air current to the top",
+    "en": "Choral Chambers: Enter the shaft from this section to turn on a fan, and this section to ride the air current to the top",
+    "zh": "圣咏殿：从此段进入竖井启动风扇，再回到此处乘气流上升。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Choral Chambers",
+        "reference_zh": "圣咏殿"
+      }
+    ]
+  },
+  {
+    "key": "Cogwork Dancers are fought in the central area of Cogwork Core.",
+    "en": "Cogwork Dancers are fought in the central area of Cogwork Core.",
+    "zh": "机枢舞者位于机枢核心中央区域。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "Cogwork Core",
+        "reference_zh": "机枢核心"
+      }
+    ]
+  },
+  {
+    "key": "Complete The Old Hearts wish",
+    "en": "Complete The Old Hearts wish",
+    "zh": "古之心。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "The Old Hearts",
+        "reference_zh": "古之心"
+      }
+    ]
+  },
+  {
+    "key": "Cylinder auf Vaultkeeper in Whispering Vaults",
+    "en": "Cylinder auf Vaultkeeper in Whispering Vaults",
+    "zh": "低语书库：柱厅门卫所在处。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Whispering Vaults",
+        "reference_zh": "低语书库"
+      }
+    ]
+  },
+  {
+    "key": "Deep Docks: Held by a corpse at the bottom of a magma-filled area found behind the Breakable Wall",
+    "en": "Deep Docks: Held by a corpse at the bottom of a magma-filled area found behind the Breakable Wall",
+    "zh": "深坞：破坏暗墙后，在充满熔浆区域底部的尸体上。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Deep Docks",
+        "reference_zh": "深坞"
+      }
+    ]
+  },
+  {
+    "key": "Deep Docks: In a room that can only be reached after defeating a nearby Arena Battle",
+    "en": "Deep Docks: In a room that can only be reached after defeating a nearby Arena Battle",
+    "zh": "深坞：击败附近竞技战后才能进入的房间。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Deep Docks",
+        "reference_zh": "深坞"
+      }
+    ]
+  },
+  {
+    "key": "Deep Docks: Used for the Diving Bell",
+    "en": "Deep Docks: Used for the Diving Bell",
+    "zh": "深坞：用于潜海钟。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Deep Docks",
+        "reference_zh": "深坞"
+      }
+    ]
+  },
+  {
+    "key": "Encounter her at the entrance of deep docks.",
+    "en": "Encounter her at the entrance of deep docks.",
+    "zh": "在深坞入口处与她相遇。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Deep Docks",
+        "reference_zh": "深坞"
+      }
+    ]
+  },
+  {
+    "key": "Encountered at The Stage after traversing through the Whispering Vaults.",
+    "en": "Encountered at The Stage after traversing through the Whispering Vaults.",
+    "zh": "穿过低语书库后会在舞台与其相遇（剧台）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Whispering Vaults",
+        "reference_zh": "低语书库"
+      },
+      {
+        "source": 1,
+        "reference_en": "The Stage",
+        "reference_zh": "剧台"
+      }
+    ]
+  },
+  {
+    "key": "Encountered at The Stage,above Bellway Station.",
+    "en": "Encountered at The Stage,above Bellway Station.",
+    "zh": "于舞台——也就是钟道站上方——与其相遇（剧台）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Stage",
+        "reference_zh": "剧台"
+      }
+    ]
+  },
+  {
+    "key": "Far fields secret Room. Reachable by Drifters Cloak",
+    "en": "Far fields secret Room. Reachable by Drifters Cloak",
+    "zh": "远野密室，可借漂泊者斗篷滑翔抵达。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      }
+    ]
+  },
+  {
+    "key": "Far Fields: Complete Seamstress Wish Flexile Spines",
+    "en": "Far Fields: Complete Seamstress Wish Flexile Spines",
+    "zh": "远野：完成裁缝心愿“柔脊”（柔韧棘芯）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      },
+      {
+        "source": 3,
+        "reference_en": "Flexile Spines",
+        "reference_zh": "柔韧棘芯"
+      }
+    ]
+  },
+  {
+    "key": "Far Fields: Hidden parkour path to the right of far fields bellway",
+    "en": "Far Fields: Hidden parkour path to the right of far fields bellway",
+    "zh": "远野：钟道右侧的隐藏跑酷路线。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      }
+    ]
+  },
+  {
+    "key": "Far Fields: Pilgrims Rest, purchased from Mort for 150 Rosaries",
+    "en": "Far Fields: Pilgrims Rest, purchased from Mort for 150 Rosaries",
+    "zh": "远野朝圣者之憩：可向莫特以 150 念珠购入。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      }
+    ]
+  },
+  {
+    "key": "Far Fields: Pilgrims Rest, purchased from Mort for 160 Rosaries",
+    "en": "Far Fields: Pilgrims Rest, purchased from Mort for 160 Rosaries",
+    "zh": "远野朝圣者之憩：可向莫特以 160 念珠购入。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      }
+    ]
+  },
+  {
+    "key": "Far Fields: Pilgrims Rest, purchased from Mort for 220 Rosaries",
+    "en": "Far Fields: Pilgrims Rest, purchased from Mort for 220 Rosaries",
+    "zh": "远野朝圣者之憩：可向莫特以 220 念珠购入。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      }
+    ]
+  },
+  {
+    "key": "Far Fields: Watch out for the pressure plate trap!",
+    "en": "Far Fields: Watch out for the pressure plate trap!",
+    "zh": "远野：留意压力板陷阱！",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      }
+    ]
+  },
+  {
+    "key": "Garmond and Zaza",
+    "en": "Garmond and Zaza",
+    "zh": "& 扎扎",
+    "matches": [
+      {
+        "source": 4,
+        "reference_en": "And Zaza",
+        "reference_zh": "& 扎扎"
+      }
+    ]
+  },
+  {
+    "key": "Go East of Bellhart after completing Trail's End and hitting the ring as you enter the Greymoor area",
+    "en": "Go East of Bellhart after completing Trail's End and hitting the ring as you enter the Greymoor area",
+    "zh": "完成“旅途尽头”并在进入灰沼时敲响铃环后，从钟城向东前进（终迹）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "Trail’s End",
+        "reference_zh": "终迹"
+      }
+    ]
+  },
+  {
+    "key": "Grand Bellway, behind a breakable wall above the bellway station",
+    "en": "Grand Bellway, behind a breakable wall above the bellway station",
+    "zh": "大钟道站上方的暗墙后（圣堡钟道）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Grand Bellway",
+        "reference_zh": "圣堡钟道"
+      }
+    ]
+  },
+  {
+    "key": "Greymoore: Inside Halfway Home",
+    "en": "Greymoore: Inside Halfway Home",
+    "zh": "灰沼：位于半途之家内部（中途酒馆）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Halfway Home",
+        "reference_zh": "中途酒馆"
+      }
+    ]
+  },
+  {
+    "key": "In a room at the top of the Exhaust Organ, which acts as an alternative entrance to the Citadel, skipping the Last Judge boss.",
+    "en": "In a room at the top of the Exhaust Organ, which acts as an alternative entrance to the Citadel, skipping the Last Judge boss.",
+    "zh": "在排气风琴顶部的房间内，可作为绕开末代裁判、圣堡（废鸣管风琴）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Exhaust Organ",
+        "reference_zh": "废鸣管风琴"
+      },
+      {
+        "source": 1,
+        "reference_en": "The Citadel",
+        "reference_zh": "圣堡"
+      }
+    ]
+  },
+  {
+    "key": "In a secret room above Bone Bottom. Easiest to reach wit Drifters Cloak and floating down from above.",
+    "en": "In a secret room above Bone Bottom. Easiest to reach wit Drifters Cloak and floating down from above.",
+    "zh": "在骸底镇上方的密室，最简单的方式是穿着漂泊者斗篷自上空滑翔降落。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Bone Bottom",
+        "reference_zh": "骸底镇"
+      }
+    ]
+  },
+  {
+    "key": "In an earlier room in the Deep Docks.",
+    "en": "In an earlier room in the Deep Docks.",
+    "zh": "位于深坞稍前方的房间。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Deep Docks",
+        "reference_zh": "深坞"
+      }
+    ]
+  },
+  {
+    "key": "In The Cauldron (right side from Underworks",
+    "en": "In The Cauldron (right side from Underworks",
+    "zh": "大熔釜：位于下厂区右侧入口。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Cauldron",
+        "reference_zh": "大熔釜"
+      }
+    ]
+  },
+  {
+    "key": "In the northwest section of the Blasted Steps, Hornet encounters a room filled with pinkish conch shells.",
+    "en": "In the northwest section of the Blasted Steps, Hornet encounters a room filled with pinkish conch shells.",
+    "zh": "在灼焰阶地西北区域，黄蜂会遇到一间堆满粉色螺壳的房间（蚀阶）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Blasted Steps",
+        "reference_zh": "蚀阶"
+      }
+    ]
+  },
+  {
+    "key": "In the Slab, top of a frosty section to the left",
+    "en": "In the Slab, top of a frosty section to the left",
+    "zh": "石板地带：冰霜区左侧顶部（罪石牢狱）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Slab",
+        "reference_zh": "罪石牢狱"
+      }
+    ]
+  },
+  {
+    "key": "Inside the Exhaust Organ, there is a room with a silk refill spindle. Go left from there to access it.",
+    "en": "Inside the Exhaust Organ, there is a room with a silk refill spindle. Go left from there to access it.",
+    "zh": "排气风琴内部有一间丝线补充纺锤室，从那里向左前进即可抵达（废鸣管风琴）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Exhaust Organ",
+        "reference_zh": "废鸣管风琴"
+      }
+    ]
+  },
+  {
+    "key": "Left of the Cogwork Core",
+    "en": "Left of the Cogwork Core",
+    "zh": "位于机枢核心左侧。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "Cogwork Core",
+        "reference_zh": "机枢核心"
+      }
+    ]
+  },
+  {
+    "key": "Left of the toll bench in Mount Fay",
+    "en": "Left of the toll bench in Mount Fay",
+    "zh": "菲伊山通行长椅左侧（费耶山）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Mount Fay",
+        "reference_zh": "费耶山"
+      }
+    ]
+  },
+  {
+    "key": "Left part of the Blasted Steps",
+    "en": "Left part of the Blasted Steps",
+    "zh": "灼焰阶地左侧区域（蚀阶）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Blasted Steps",
+        "reference_zh": "蚀阶"
+      }
+    ]
+  },
+  {
+    "key": "Located in The Abyss, under the vast Void Ocean that lies within.",
+    "en": "Located in The Abyss, under the vast Void Ocean that lies within.",
+    "zh": "位于深渊之内、那片虚海之下。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Abyss",
+        "reference_zh": "深渊"
+      }
+    ]
+  },
+  {
+    "key": "Moss Grotto: In a tunnel above the Lore Tablet, Silk Soar required",
+    "en": "Moss Grotto: In a tunnel above the Lore Tablet, Silk Soar required",
+    "zh": "苔穴：铭文石碑上方的通道，需要织丝上升。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Moss Grotto",
+        "reference_zh": "苔穴"
+      }
+    ]
+  },
+  {
+    "key": "Mount Fay: Top of Room in the middle",
+    "en": "Mount Fay: Top of Room in the middle",
+    "zh": "费耶山：中央房间顶部。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Mount Fay",
+        "reference_zh": "费耶山"
+      }
+    ]
+  },
+  {
+    "key": "Near the Deep Docks entrance in the Marrow",
+    "en": "Near the Deep Docks entrance in the Marrow",
+    "zh": "髓质穹顶中靠近深坞入口处（髓骨洞窟）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Deep Docks",
+        "reference_zh": "深坞"
+      },
+      {
+        "source": 1,
+        "reference_en": "The Marrow",
+        "reference_zh": "髓骨洞窟"
+      }
+    ]
+  },
+  {
+    "key": "North east of Sinner's road in the kitchen.",
+    "en": "North east of Sinner's road in the kitchen.",
+    "zh": "位于罪途中东北侧的厨房。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Sinner’s Road",
+        "reference_zh": "罪途"
+      }
+    ]
+  },
+  {
+    "key": "Psalm Cylinder - High Halls",
+    "en": "Psalm Cylinder - High Halls",
+    "zh": "圣咏圆柱——高庭。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "High Halls",
+        "reference_zh": "高庭"
+      }
+    ]
+  },
+  {
+    "key": "Psalm Cylinder - Whispering Vaults",
+    "en": "Psalm Cylinder - Whispering Vaults",
+    "zh": "圣咏圆柱——低语书库。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Whispering Vaults",
+        "reference_zh": "低语书库"
+      }
+    ]
+  },
+  {
+    "key": "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+    "en": "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+    "zh": "完成任务“我遗失的信使”后可向弗雷购入（失踪送货员）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "My Missing Courier",
+        "reference_zh": "失踪送货员"
+      }
+    ]
+  },
+  {
+    "key": "Purchased from Grindle in Blasted Steps",
+    "en": "Purchased from Grindle in Blasted Steps",
+    "zh": "可在灼焰阶地向格林德尔购买（蚀阶）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Blasted Steps",
+        "reference_zh": "蚀阶"
+      }
+    ]
+  },
+  {
+    "key": "Purchased from Jubilana after saving her as part of the The Lost Merchant quest",
+    "en": "Purchased from Jubilana after saving her as part of the The Lost Merchant quest",
+    "zh": "在完成“失踪商贩”心愿救出朱比拉娜后可购买（再寻商贾）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "The Lost Merchant",
+        "reference_zh": "再寻商贾"
+      }
+    ]
+  },
+  {
+    "key": "Putrified Ducts: Bottom-left: Inside a cage. Hit it a few times to get the key out",
+    "en": "Putrified Ducts: Bottom-left: Inside a cage. Hit it a few times to get the key out",
+    "zh": "腐朽管道：左下角的牢笼内，多次击打可取得钥匙（腐殖渠）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Putrified Ducts",
+        "reference_zh": "腐殖渠"
+      }
+    ]
+  },
+  {
+    "key": "Reward for the Dark Hearts quest",
+    "en": "Reward for the Dark Hearts quest",
+    "zh": "暗蚀之心。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "Dark Hearts",
+        "reference_zh": "暗蚀之心"
+      }
+    ]
+  },
+  {
+    "key": "Reward for the Fastest in Pharloom quest",
+    "en": "Reward for the Fastest in Pharloom quest",
+    "zh": "“纺络最快”心愿奖励（纺络竞速冠军）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "Fastest in Pharloom",
+        "reference_zh": "纺络竞速冠军"
+      }
+    ]
+  },
+  {
+    "key": "Reward for the Hidden Hunter quest",
+    "en": "Reward for the Hidden Hunter quest",
+    "zh": "隐秘猎手。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "The Hidden Hunter",
+        "reference_zh": "隐秘猎手"
+      }
+    ]
+  },
+  {
+    "key": "Reward for the Savage Beastfly quest obtainable in Bellhart",
+    "en": "Reward for the Savage Beastfly quest obtainable in Bellhart",
+    "zh": "钟城的“凶蛾狩猎”心愿奖励（暴怒兽蝇）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "Savage Beastfly",
+        "reference_zh": "暴怒兽蝇"
+      }
+    ]
+  },
+  {
+    "key": "Right of the Wisp Thicket",
+    "en": "Right of the Wisp Thicket",
+    "zh": "位于灵光密林右侧（火灵竹丛）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Wisp Thicket",
+        "reference_zh": "火灵竹丛"
+      }
+    ]
+  },
+  {
+    "key": "Sands of Karak: Far-right, held by a corpse sitting on the bench",
+    "en": "Sands of Karak: Far-right, held by a corpse sitting on the bench",
+    "zh": "卡拉卡沙川，长椅上的尸体持有。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Sands of Karak",
+        "reference_zh": "卡拉卡沙川"
+      }
+    ]
+  },
+  {
+    "key": "Sands of Karak: Held by a corpse at the top of the area",
+    "en": "Sands of Karak: Held by a corpse at the top of the area",
+    "zh": "卡拉卡沙川。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Sands of Karak",
+        "reference_zh": "卡拉卡沙川"
+      }
+    ]
+  },
+  {
+    "key": "Sands of Karak: Secret area behind breakable wall",
+    "en": "Sands of Karak: Secret area behind breakable wall",
+    "zh": "卡拉卡沙川：暗墙后的秘区。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Sands of Karak",
+        "reference_zh": "卡拉卡沙川"
+      }
+    ]
+  },
+  {
+    "key": "Secret Room in Far Fields Weaver nest (Sprint Challange)",
+    "en": "Secret Room in Far Fields Weaver nest (Sprint Challange)",
+    "zh": "远野织巢密室（冲刺挑战）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      }
+    ]
+  },
+  {
+    "key": "Section behind a breakable wall on the left of the elevator shaft of the Grand Gate.",
+    "en": "Section behind a breakable wall on the left of the elevator shaft of the Grand Gate.",
+    "zh": "位于巨扉圣门升降井左侧暗墙后的区域。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Grand Gate",
+        "reference_zh": "巨扉圣门"
+      }
+    ]
+  },
+  {
+    "key": "Skull Tyrant can be fought first in The Marrow(center dome).",
+    "en": "Skull Tyrant can be fought first in The Marrow(center dome).",
+    "zh": "骷髅暴君最早可在髓质穹顶中央遭遇（髓骨洞窟）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Marrow",
+        "reference_zh": "髓骨洞窟"
+      },
+      {
+        "source": 4,
+        "reference_en": "Skull Tyrant",
+        "reference_zh": "骷髅暴君"
+      }
+    ]
+  },
+  {
+    "key": "Sold by Grindle for 240 Rosaries (Blasted Steps)",
+    "en": "Sold by Grindle for 240 Rosaries (Blasted Steps)",
+    "zh": "蚀阶：格林德尔以 240 念珠售卖。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Blasted Steps",
+        "reference_zh": "蚀阶"
+      }
+    ]
+  },
+  {
+    "key": "Songclave: On a corpse at the edge of the area. Sold by Jubilana if you dont pick it up before completing The Wandering Merchant Wish. Unlocks the Locked Elevator in Whiteward",
+    "en": "Songclave: On a corpse at the edge of the area. Sold by Jubilana if you dont pick it up before completing The Wandering Merchant Wish. Unlocks the Locked Elevator in Whiteward",
+    "zh": "圣歌盟地：区域边缘的尸体持有，若在完成“流浪商贩”心愿前未拾取，可由朱比拉娜代售；用于开启白愈厅的锁定升降机（商贾无踪）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "The Wandering Merchant",
+        "reference_zh": "商贾无踪"
+      }
+    ]
+  },
+  {
+    "key": "Take Twisted Bud to Greyroot, Complete Rite of Rebirth Wish, Complete Infestation Operation Wish",
+    "en": "Take Twisted Bud to Greyroot, Complete Rite of Rebirth Wish, Complete Infestation Operation Wish",
+    "zh": "携带弯枝花蕾交给灰根，并完成“重生仪式”与“虫巢肃清”心愿（寄生手术）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "Infestation Operation",
+        "reference_zh": "寄生手术"
+      },
+      {
+        "source": 3,
+        "reference_en": "Rite of Rebirth",
+        "reference_zh": "重生仪式"
+      }
+    ]
+  },
+  {
+    "key": "The Bell Beast can be found the very top of the Marrow.",
+    "en": "The Bell Beast can be found the very top of the Marrow.",
+    "zh": "钟兽位于髓质穹顶最顶端（髓骨洞窟）（钟道兽）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Marrow",
+        "reference_zh": "髓骨洞窟"
+      },
+      {
+        "source": 4,
+        "reference_en": "Bell Beast",
+        "reference_zh": "钟道兽"
+      }
+    ]
+  },
+  {
+    "key": "The Lost Merchant Wish completed",
+    "en": "The Lost Merchant Wish completed",
+    "zh": "完成“失踪商贩”心愿（再寻商贾）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "The Lost Merchant",
+        "reference_zh": "再寻商贾"
+      }
+    ]
+  },
+  {
+    "key": "The Slab: Above the lower bench",
+    "en": "The Slab: Above the lower bench",
+    "zh": "石板地带：下方长椅上方（罪石牢狱）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Slab",
+        "reference_zh": "罪石牢狱"
+      }
+    ]
+  },
+  {
+    "key": "The Slab: At the edge of a room entered from above",
+    "en": "The Slab: At the edge of a room entered from above",
+    "zh": "石板地带：从上方进入的房间边缘（罪石牢狱）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Slab",
+        "reference_zh": "罪石牢狱"
+      }
+    ]
+  },
+  {
+    "key": "The Slab: Dropped by the final enemy in a room entered from above",
+    "en": "The Slab: Dropped by the final enemy in a room entered from above",
+    "zh": "石板地带：从上方进入的房间中最后一名敌人掉落（罪石牢狱）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Slab",
+        "reference_zh": "罪石牢狱"
+      }
+    ]
+  },
+  {
+    "key": "The Slab: In a small side-room at the edge of the area",
+    "en": "The Slab: In a small side-room at the edge of the area",
+    "zh": "石板地带：区域边缘的小侧室内（罪石牢狱）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Slab",
+        "reference_zh": "罪石牢狱"
+      }
+    ]
+  },
+  {
+    "key": "The Slab: Inside the shortcut cave. Look out for a breakable wall as you climb a vertical space",
+    "en": "The Slab: Inside the shortcut cave. Look out for a breakable wall as you climb a vertical space",
+    "zh": "石板地带：捷径洞窟内，攀爬竖井时注意暗墙（罪石牢狱）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "The Slab",
+        "reference_zh": "罪石牢狱"
+      }
+    ]
+  },
+  {
+    "key": "To the left of Deep Docks Bellway. In the corner of an area fill with lavafalls. ",
+    "en": "To the left of Deep Docks Bellway. In the corner of an area fill with lavafalls. ",
+    "zh": "位于深坞钟道左侧，处在岩浆瀑布遍布的角落。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Deep Docks",
+        "reference_zh": "深坞"
+      }
+    ]
+  },
+  {
+    "key": "Top of Blasted Steps",
+    "en": "Top of Blasted Steps",
+    "zh": "灼焰阶地顶部（蚀阶）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Blasted Steps",
+        "reference_zh": "蚀阶"
+      }
+    ]
+  },
+  {
+    "key": "Top of Mount Fay",
+    "en": "Top of Mount Fay",
+    "zh": "菲伊山顶部（费耶山）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Mount Fay",
+        "reference_zh": "费耶山"
+      }
+    ]
+  },
+  {
+    "key": "Top of the Grand Gate room",
+    "en": "Top of the Grand Gate room",
+    "zh": "巨扉圣门大厅顶部。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Grand Gate",
+        "reference_zh": "巨扉圣门"
+      }
+    ]
+  },
+  {
+    "key": "Top of the High Halls",
+    "en": "Top of the High Halls",
+    "zh": "高庭顶部。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "High Halls",
+        "reference_zh": "高庭"
+      }
+    ]
+  },
+  {
+    "key": "Top of Wisp Thicket Platform Challange",
+    "en": "Top of Wisp Thicket Platform Challange",
+    "zh": "灵光密林平台挑战的顶部（火灵竹丛）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Wisp Thicket",
+        "reference_zh": "火灵竹丛"
+      }
+    ]
+  },
+  {
+    "key": "Top Right of Songclave: Parkour Challange, Access throught Whispering Vaults",
+    "en": "Top Right of Songclave: Parkour Challange, Access throught Whispering Vaults",
+    "zh": "圣歌盟地右上角：通过低语书库进入的跑酷挑战。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Whispering Vaults",
+        "reference_zh": "低语书库"
+      }
+    ]
+  },
+  {
+    "key": "Underworks: Can be collected only by passing through Wisp Thicket area and traversing a room full of saws.",
+    "en": "Underworks: Can be collected only by passing through Wisp Thicket area and traversing a room full of saws.",
+    "zh": "下层工区：需穿过灵光密林并通过布满锯片的房间才能取得（火灵竹丛）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Wisp Thicket",
+        "reference_zh": "火灵竹丛"
+      }
+    ]
+  },
+  {
+    "key": "West corner of Wisp Thicket.",
+    "en": "West corner of Wisp Thicket.",
+    "zh": "位于灵光密林西侧角落（火灵竹丛）。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Wisp Thicket",
+        "reference_zh": "火灵竹丛"
+      }
+    ]
+  },
+  {
+    "key": "Whispering Vaults: At the top of a tunnel",
+    "en": "Whispering Vaults: At the top of a tunnel",
+    "zh": "低语书库：隧道顶部。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Whispering Vaults",
+        "reference_zh": "低语书库"
+      }
+    ]
+  },
+  {
+    "key": "Whispering Vaults: Hit the box with a long track into its final position to reach this flea.",
+    "en": "Whispering Vaults: Hit the box with a long track into its final position to reach this flea.",
+    "zh": "低语书库：击打带长轨道的箱子至终点位置后即可取得该跳蚤。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Whispering Vaults",
+        "reference_zh": "低语书库"
+      }
+    ]
+  },
+  {
+    "key": "Within the Skull Cavern in the Far Fields",
+    "en": "Within the Skull Cavern in the Far Fields",
+    "zh": "远野颅骨洞窟内部。",
+    "matches": [
+      {
+        "source": 1,
+        "reference_en": "Far Fields",
+        "reference_zh": "远野"
+      }
+    ]
+  },
+  {
+    "key": "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+    "en": "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+    "zh": "完成任务“我遗失的信使”后可向弗雷购入（失踪送货员）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "My Missing Courier",
+        "reference_zh": "失踪送货员"
+      }
+    ]
+  },
+  {
+    "key": "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+    "en": "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+    "zh": "完成任务“我遗失的信使”后可向弗雷购入（失踪送货员）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "My Missing Courier",
+        "reference_zh": "失踪送货员"
+      }
+    ]
+  },
+  {
+    "key": "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\"",
+    "en": "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\"",
+    "zh": "完成任务“我遗失的信使”后可向弗雷购入（失踪送货员）。",
+    "matches": [
+      {
+        "source": 3,
+        "reference_en": "My Missing Courier",
+        "reference_zh": "失踪送货员"
+      }
+    ]
+  }
+]

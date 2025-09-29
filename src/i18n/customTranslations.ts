@@ -9,7 +9,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   UI_TAB_MASK_SHARDS: {
     en: "Mask Shards",
-    zh: "面具碎片",
+    zh: "面甲残片",
   },
   UI_TAB_SPOOL_FRAGMENTS: {
     en: "Spool Fragments",
@@ -33,7 +33,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   UI_TAB_RELICS: {
     en: "Relics",
-    zh: "遗珍",
+    zh: "遗物",
   },
   UI_TAB_FLEAS: {
     en: "Fleas",
@@ -41,7 +41,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   UI_TAB_MEMORY_LOCKETS: {
     en: "Memory Lockets",
-    zh: "记忆锁坠",
+    zh: "忆境纪念盒",
   },
   UI_TAB_KEYS: {
     en: "Keys",
@@ -305,7 +305,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Appearing in the Ruined Chapel at the end of Moss Grotto.": {
     en: "Appearing in the Ruined Chapel at the end of Moss Grotto.",
-    zh: "出现在苔藓岩窟尽头的颓败教堂。",
+    zh: "出现在苔藓岩窟尽头的颓败教堂（苔穴）。",
   },
   "Aquire 25 Tools": {
     en: "Aquire 25 Tools",
@@ -341,7 +341,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "At the end of a parkour section in the Slab behind a lock which requires the Key of Apostate": {
     en: "At the end of a parkour section in the Slab behind a lock which requires the Key of Apostate",
-    zh: "位于石板地带一段需叛者之钥开锁的跑酷区域终点。",
+    zh: "位于石板地带一段需叛者之钥开锁的跑酷区域终点（罪石牢狱）。",
   },
   "At the end of a room above the Hidden Passage in Whiteward, easiest to reach via Silk Soar": {
     en: "At the end of a room above the Hidden Passage in Whiteward, easiest to reach via Silk Soar",
@@ -353,7 +353,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "At the top of Brightvein in Mount Fay": {
     en: "At the top of Brightvein in Mount Fay",
-    zh: "位于菲伊山的冰晶脉窟顶部。",
+    zh: "位于菲伊山的冰晶脉窟顶部（费耶山）。",
   },
   "At the top of Deep Rocks": {
     en: "At the top of Deep Rocks",
@@ -365,7 +365,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Balm for The Wounded quest reward": {
     en: "Balm for The Wounded quest reward",
-    zh: "“治疗伤者”心愿奖励。",
+    zh: "“治疗伤者”心愿奖励（愈伤良方）。",
   },
   "Beast Crest": {
     en: "Beast Crest",
@@ -405,7 +405,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Bellhart: Purchased from Frey after completing My Missing Courier wish": {
     en: "Bellhart: Purchased from Frey after completing My Missing Courier wish",
-    zh: "钟城：完成“我遗失的信使”心愿后可向弗雷购入。",
+    zh: "钟城：完成“我遗失的信使”心愿后可向弗雷购入（失踪送货员）。",
   },
   "Bellhart: Purchased from Frey for 330 Rosaries": {
     en: "Bellhart: Purchased from Frey for 330 Rosaries",
@@ -429,15 +429,15 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Blasted Steps far left": {
     en: "Blasted Steps far left",
-    zh: "灼焰阶地最左侧。",
+    zh: "灼焰阶地最左侧（蚀阶）。",
   },
   "Blasted Steps: On a narrow platform above the sands": {
     en: "Blasted Steps: On a narrow platform above the sands",
-    zh: "灼焰阶地：沙海上方的狭窄平台。",
+    zh: "蚀阶：沙海上方的狭窄平台。",
   },
   "Bone Bottom: Complete Volatile Flintbeetles Wish": {
     en: "Bone Bottom: Complete Volatile Flintbeetles Wish",
-    zh: "骸底镇：完成“易燃燧甲虫”心愿。",
+    zh: "骸底镇：暴烈燧甲虫。",
   },
   "Bone Bottom: Purchased from Pebb for 500 Rosaries": {
     en: "Bone Bottom: Purchased from Pebb for 500 Rosaries",
@@ -473,7 +473,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Bottom Right of the Slab. On a corpse": {
     en: "Bottom Right of the Slab. On a corpse",
-    zh: "石板地带右下角的尸体上。",
+    zh: "石板地带右下角的尸体上（罪石牢狱）。",
   },
   "Bottom-right of the Cogwork Core": {
     en: "Bottom-right of the Cogwork Core",
@@ -489,15 +489,15 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Can be found above cogwork core in The Cradle.": {
     en: "Can be found above cogwork core in The Cradle.",
-    zh: "位于摇篮区齿轮核心上方。",
+    zh: "位于摇篮区齿轮核心上方（摇篮圣所）（机枢核心）。",
   },
   "Can be found across the pit from the Mosshome exit above Bone Bottom.": {
     en: "Can be found across the pit from the Mosshome exit above Bone Bottom.",
-    zh: "在骨底镇上方，从苔乡出口跨过深坑即可找到。",
+    zh: "骸底镇，从苔乡出口跨过深坑即可找到。",
   },
   "Can be found in a cave in the Slab after accepting a Grand Hunt quest in Songclave.": {
     en: "Can be found in a cave in the Slab after accepting a Grand Hunt quest in Songclave.",
-    zh: "在圣歌盟地接下大狩猎任务后，可于石板地带的洞穴中找到。",
+    zh: "在圣歌盟地接下大狩猎任务后，可于石板地带的洞穴中找到（罪石牢狱）（狩王试炼）。",
   },
   "Can be found in a secret room within western Wormways during Act 3": {
     en: "Can be found in a secret room within western Wormways during Act 3",
@@ -513,11 +513,11 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Can be found in Far Fields after promising the The Hidden Hunter Wish": {
     en: "Can be found in Far Fields after promising the The Hidden Hunter Wish",
-    zh: "许下“隐匿猎手”心愿后可在远野找到。",
+    zh: "许下“隐匿猎手”心愿后可在远野找到（隐秘猎手）。",
   },
   "Can be found in Greymoor, in the basement of the large building in Craw Lake.": {
     en: "Can be found in Greymoor, in the basement of the large building in Craw Lake.",
-    zh: "位于灰沼大型建筑——爬湖的地窖中。",
+    zh: "位于灰沼大型建筑——爬湖的地窖中（腐囊虫泽）。",
   },
   "Can be found in Lost Verdania": {
     en: "Can be found in Lost Verdania",
@@ -525,27 +525,27 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Can be found in Mount Fay, in the same area as the bench halfway up the mountain.": {
     en: "Can be found in Mount Fay, in the same area as the bench halfway up the mountain.",
-    zh: "位于菲伊山半山腰长椅所在的区域。",
+    zh: "位于菲伊山半山腰长椅所在的区域（费耶山）。",
   },
   "Can be found in the Blasted Steps, in a room west of the Bellway. He can only be fought during the Hero's Call wish.": {
     en: "Can be found in the Blasted Steps, in a room west of the Bellway. He can only be fought during the Hero's Call wish.",
-    zh: "位于灼焰阶地钟道以西的房间，仅在“英雄的号召”心愿期间可战。",
+    zh: "位于灼焰阶地钟道以西的房间，仅在“英雄的号召”心愿期间可战（蚀阶）（英勇救援）。",
   },
   "Can be found in the Coral Tower, Northeast in Sand of Karak.": {
     en: "Can be found in the Coral Tower, Northeast in Sand of Karak.",
-    zh: "位于卡拉克沙原东北部的珊瑚之塔。",
+    zh: "珊瑚尖塔。",
   },
   "Can be found in the extreme bottom left of Bonegrave behind a breakable wall, a sub area of Moss Grotto.": {
     en: "Can be found in the extreme bottom left of Bonegrave behind a breakable wall, a sub area of Moss Grotto.",
-    zh: "位于苔藓岩窟分区骨冢的最左下角，需破坏暗墙。",
+    zh: "位于苔藓岩窟分区骨冢的最左下角，需破坏暗墙（苔穴）。",
   },
   "Can be found in the lower area of the Slab, accessible after obtaining the Key of Apostate.": {
     en: "Can be found in the lower area of the Slab, accessible after obtaining the Key of Apostate.",
-    zh: "位于石板地带下层，需取得叛者之钥方可进入。",
+    zh: "位于石板地带下层，需取得叛者之钥方可进入（罪石牢狱）。",
   },
   "Can be found in the north-west area of the Sands of Karak.": {
     en: "Can be found in the north-west area of the Sands of Karak.",
-    zh: "位于卡拉克沙原西北部。",
+    zh: "卡拉卡沙川。",
   },
   "Can be found in the northeast of Far Fields.": {
     en: "Can be found in the northeast of Far Fields.",
@@ -553,7 +553,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Can be found in Voltnest within Sands of Karak.": {
     en: "Can be found in Voltnest within Sands of Karak.",
-    zh: "位于卡拉克沙原中的雷网巢。",
+    zh: "卡拉卡沙川。",
   },
   "Can be found West(center area) of Sand of karak": {
     en: "Can be found West(center area) of Sand of karak",
@@ -565,7 +565,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Can only be fought after beginning the Final Audience Wish, found next in south east of High halls.": {
     en: "Can only be fought after beginning the Final Audience Wish, found next in south east of High halls.",
-    zh: "启动“最终觐见”心愿后方可挑战，随后会出现在高堂东南侧。",
+    zh: "启动“最终觐见”心愿后方可挑战，随后会出现在高堂东南侧（高庭）。",
   },
   "Choral Chambers: At the end of a platforming challenge": {
     en: "Choral Chambers: At the end of a platforming challenge",
@@ -609,7 +609,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Complete The Old Hearts wish": {
     en: "Complete The Old Hearts wish",
-    zh: "完成“老旧之心”心愿。",
+    zh: "古之心。",
   },
   Crests: {
     en: "Crests",
@@ -705,11 +705,11 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Encountered at The Stage after traversing through the Whispering Vaults.": {
     en: "Encountered at The Stage after traversing through the Whispering Vaults.",
-    zh: "穿过低语书库后会在舞台与其相遇。",
+    zh: "穿过低语书库后会在舞台与其相遇（剧台）。",
   },
   "Encountered at The Stage,above Bellway Station.": {
     en: "Encountered at The Stage,above Bellway Station.",
-    zh: "于舞台——也就是钟道站上方——与其相遇。",
+    zh: "于舞台——也就是钟道站上方——与其相遇（剧台）。",
   },
   "Encountered at the very top of Lost Verdania, after collecting enough memory orbs throughout the map": {
     en: "Encountered at the very top of Lost Verdania, after collecting enough memory orbs throughout the map",
@@ -729,7 +729,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Far Fields: Complete Seamstress Wish Flexile Spines": {
     en: "Far Fields: Complete Seamstress Wish Flexile Spines",
-    zh: "远野：完成裁缝心愿“柔脊”。",
+    zh: "远野：完成裁缝心愿“柔脊”（柔韧棘芯）。",
   },
   "Far Fields: Hidden parkour path to the right of far fields bellway": {
     en: "Far Fields: Hidden parkour path to the right of far fields bellway",
@@ -769,15 +769,15 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Garmond and Zaza": {
     en: "Garmond and Zaza",
-    zh: "加蒙德与扎扎",
+    zh: "& 扎扎",
   },
   "Go East of Bellhart after completing Trail's End and hitting the ring as you enter the Greymoor area": {
     en: "Go East of Bellhart after completing Trail's End and hitting the ring as you enter the Greymoor area",
-    zh: "完成“旅途尽头”并在进入灰沼时敲响铃环后，从钟城向东前进。",
+    zh: "完成“旅途尽头”并在进入灰沼时敲响铃环后，从钟城向东前进（终迹）。",
   },
   "Grand Bellway, behind a breakable wall above the bellway station": {
     en: "Grand Bellway, behind a breakable wall above the bellway station",
-    zh: "大钟道站上方的暗墙后。",
+    zh: "大钟道站上方的暗墙后（圣堡钟道）。",
   },
   "Great Conchflies": {
     en: "Great Conchflies",
@@ -785,7 +785,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Greymoore: Inside Halfway Home": {
     en: "Greymoore: Inside Halfway Home",
-    zh: "灰沼：位于半途之家内部。",
+    zh: "灰沼：位于半途之家内部（中途酒馆）。",
   },
   "Greymoore: On a ledge above the Mitemother": {
     en: "Greymoore: On a ledge above the Mitemother",
@@ -825,19 +825,19 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Hunters March far right: Chapel of Beast": {
     en: "Hunters March far right: Chapel of Beast",
-    zh: "猎者进军最右端：兽之礼堂。",
+    zh: "猎者小径最右端：兽之礼堂。",
   },
   "Hunters March far right: In a cage at the end of the spiky corridor. Break the cage to loot it.": {
     en: "Hunters March far right: In a cage at the end of the spiky corridor. Break the cage to loot it.",
-    zh: "猎者进军最右侧：在棘刺走廊尽头的牢笼里，打碎牢笼即可取得。",
+    zh: "猎者小径最右侧：棘刺走廊尽头的牢笼中，击碎牢笼即可取得。",
   },
   "Hunters March: At the top of a long series of red fruit.": {
     en: "Hunters March: At the top of a long series of red fruit.",
-    zh: "猎者进军：位于长串红果顶端。",
+    zh: "猎者小径：位于长串红果的顶部。",
   },
   "In a room at the top of the Exhaust Organ, which acts as an alternative entrance to the Citadel, skipping the Last Judge boss.": {
     en: "In a room at the top of the Exhaust Organ, which acts as an alternative entrance to the Citadel, skipping the Last Judge boss.",
-    zh: "在排气风琴顶部的房间内，可作为绕开末代裁判、直通圣歌城堡的捷径。",
+    zh: "在排气风琴顶部的房间内，可作为绕开末代裁判、圣堡（废鸣管风琴）。",
   },
   "In a secret room above Bone Bottom. Easiest to reach wit Drifters Cloak and floating down from above.": {
     en: "In a secret room above Bone Bottom. Easiest to reach wit Drifters Cloak and floating down from above.",
@@ -857,15 +857,15 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "In the northwest section of the Blasted Steps, Hornet encounters a room filled with pinkish conch shells.": {
     en: "In the northwest section of the Blasted Steps, Hornet encounters a room filled with pinkish conch shells.",
-    zh: "在灼焰阶地西北区域，黄蜂会遇到一间堆满粉色螺壳的房间。",
+    zh: "在灼焰阶地西北区域，黄蜂会遇到一间堆满粉色螺壳的房间（蚀阶）。",
   },
   "In the Slab, top of a frosty section to the left": {
     en: "In the Slab, top of a frosty section to the left",
-    zh: "石板地带：冰霜区左侧顶部。",
+    zh: "石板地带：冰霜区左侧顶部（罪石牢狱）。",
   },
   "Inside the Exhaust Organ, there is a room with a silk refill spindle. Go left from there to access it.": {
     en: "Inside the Exhaust Organ, there is a room with a silk refill spindle. Go left from there to access it.",
-    zh: "排气风琴内部有一间丝线补充纺锤室，从那里向左前进即可抵达。",
+    zh: "排气风琴内部有一间丝线补充纺锤室，从那里向左前进即可抵达（废鸣管风琴）。",
   },
   Keys: {
     en: "Keys",
@@ -881,11 +881,11 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Left of the toll bench in Mount Fay": {
     en: "Left of the toll bench in Mount Fay",
-    zh: "菲伊山通行长椅左侧。",
+    zh: "菲伊山通行长椅左侧（费耶山）。",
   },
   "Left part of the Blasted Steps": {
     en: "Left part of the Blasted Steps",
-    zh: "灼焰阶地左侧区域。",
+    zh: "灼焰阶地左侧区域（蚀阶）。",
   },
   "Left part of the Memorium": {
     en: "Left part of the Memorium",
@@ -1173,7 +1173,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Moss Grotto: In a tunnel above the Lore Tablet, Silk Soar required": {
     en: "Moss Grotto: In a tunnel above the Lore Tablet, Silk Soar required",
-    zh: "苔藓岩窟：铭文石碑上方的通道，需要织丝上升。",
+    zh: "苔穴：铭文石碑上方的通道，需要织丝上升。",
   },
   "Mossgrotto far left (Bonegrave): Chapel of Wanderer": {
     en: "Mossgrotto far left (Bonegrave): Chapel of Wanderer",
@@ -1181,11 +1181,11 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Mount Fay: Top of Room in the middle": {
     en: "Mount Fay: Top of Room in the middle",
-    zh: "菲伊山：中央房间顶部。",
+    zh: "费耶山：中央房间顶部。",
   },
   "Near the Deep Docks entrance in the Marrow": {
     en: "Near the Deep Docks entrance in the Marrow",
-    zh: "髓质穹顶中靠近深坞入口处。",
+    zh: "髓质穹顶中靠近深坞入口处（髓骨洞窟）。",
   },
   "Nearly every Tool counts 1% towards completion.": {
     en: "Nearly every Tool counts 1% towards completion.",
@@ -1217,7 +1217,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "North east of Sinner's road in the kitchen.": {
     en: "North east of Sinner's road in the kitchen.",
-    zh: "位于罪人之路东北侧的厨房。",
+    zh: "位于罪途中东北侧的厨房。",
   },
   "On a high-up ledge at the top of the marrows": {
     en: "On a high-up ledge at the top of the marrows",
@@ -1263,13 +1263,13 @@ export const CUSTOM_TRANSLATIONS = {
     en: "Purchased from Bonebottom",
     zh: "可在骸底镇购入",
   },
-  "Purchased from Frey after completing the mission \"My Missing Courier\"": {
-    en: "Purchased from Frey after completing the mission \"My Missing Courier\"",
-    zh: "完成任务“我遗失的信使”后可向弗雷购入。",
+  "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"": {
+    en: "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+    zh: "完成任务“我遗失的信使”后可向弗雷购入（失踪送货员）。",
   },
   "Purchased from Grindle in Blasted Steps": {
     en: "Purchased from Grindle in Blasted Steps",
-    zh: "可在灼焰阶地向格林德尔购买。",
+    zh: "可在灼焰阶地向格林德尔购买（蚀阶）。",
   },
   "Purchased from Jubilana": {
     en: "Purchased from Jubilana",
@@ -1277,11 +1277,11 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Purchased from Jubilana after saving her as part of the The Lost Merchant quest": {
     en: "Purchased from Jubilana after saving her as part of the The Lost Merchant quest",
-    zh: "在完成“失踪商贩”心愿救出朱比拉娜后可购买。",
+    zh: "在完成“失踪商贩”心愿救出朱比拉娜后可购买（再寻商贾）。",
   },
   "Putrified Ducts: Bottom-left: Inside a cage. Hit it a few times to get the key out": {
     en: "Putrified Ducts: Bottom-left: Inside a cage. Hit it a few times to get the key out",
-    zh: "腐朽管道：左下角的牢笼内，多次击打可取得钥匙。",
+    zh: "腐朽管道：左下角的牢笼内，多次击打可取得钥匙（腐殖渠）。",
   },
   "Raging Conchfly": {
     en: "Raging Conchfly",
@@ -1293,19 +1293,19 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Reward for the Dark Hearts quest": {
     en: "Reward for the Dark Hearts quest",
-    zh: "黑暗之心心愿奖励。",
+    zh: "暗蚀之心。",
   },
   "Reward for the Fastest in Pharloom quest": {
     en: "Reward for the Fastest in Pharloom quest",
-    zh: "“纺络最快”心愿奖励。",
+    zh: "“纺络最快”心愿奖励（纺络竞速冠军）。",
   },
   "Reward for the Hidden Hunter quest": {
     en: "Reward for the Hidden Hunter quest",
-    zh: "“隐匿猎手”心愿奖励。",
+    zh: "隐秘猎手。",
   },
   "Reward for the Savage Beastfly quest obtainable in Bellhart": {
     en: "Reward for the Savage Beastfly quest obtainable in Bellhart",
-    zh: "钟城的“凶蛾狩猎”心愿奖励。",
+    zh: "钟城的“凶蛾狩猎”心愿奖励（暴怒兽蝇）。",
   },
   "Right of the Underworks": {
     en: "Right of the Underworks",
@@ -1313,7 +1313,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Right of the Wisp Thicket": {
     en: "Right of the Wisp Thicket",
-    zh: "位于灵光密林右侧。",
+    zh: "位于灵光密林右侧（火灵竹丛）。",
   },
   "Ring all five bells and play the Needolin in front of the door to begin the fight. If it's proving difficult, you can skip it by fighting Phantom instead.": {
     en: "Ring all five bells and play the Needolin in front of the door to begin the fight. If it's proving difficult, you can skip it by fighting Phantom instead.",
@@ -1333,15 +1333,15 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Sands of Karak: Far-right, held by a corpse sitting on the bench": {
     en: "Sands of Karak: Far-right, held by a corpse sitting on the bench",
-    zh: "卡拉克沙原最右端，长椅上的尸体持有。",
+    zh: "卡拉卡沙川，长椅上的尸体持有。",
   },
   "Sands of Karak: Held by a corpse at the top of the area": {
     en: "Sands of Karak: Held by a corpse at the top of the area",
-    zh: "卡拉克沙原区域顶部的尸体持有。",
+    zh: "卡拉卡沙川。",
   },
   "Sands of Karak: Secret area behind breakable wall": {
     en: "Sands of Karak: Secret area behind breakable wall",
-    zh: "卡拉克沙原：暗墙后的秘区。",
+    zh: "卡拉卡沙川：暗墙后的秘区。",
   },
   "Secret Room in Far Fields Weaver nest (Sprint Challange)": {
     en: "Secret Room in Far Fields Weaver nest (Sprint Challange)",
@@ -1401,19 +1401,19 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Sinners Road Top Right (Defeat Roachkeeper)": {
     en: "Sinners Road Top Right (Defeat Roachkeeper)",
-    zh: "罪人之路右上方（击败蟑螂看守）。",
+    zh: "罪途右上方（击败蟑螂看守）。",
   },
   "Sinners Road: Jump over the first cage, then hit the easternmost side of the one holding the flea to set it free.": {
     en: "Sinners Road: Jump over the first cage, then hit the easternmost side of the one holding the flea to set it free.",
-    zh: "罪人之路：跃过第一个牢笼，再敲击最东侧关着跳蚤的牢笼即可放出。",
+    zh: "罪途：跃过第一个牢笼，再敲击最东侧关着跳蚤的牢笼即可放出。",
   },
   "Skull Tyrant can be fought first in The Marrow(center dome).": {
     en: "Skull Tyrant can be fought first in The Marrow(center dome).",
-    zh: "骷髅暴君最早可在髓质穹顶中央遭遇。",
+    zh: "骷髅暴君最早可在髓质穹顶中央遭遇（髓骨洞窟）。",
   },
   "Sold by Grindle for 240 Rosaries (Blasted Steps)": {
     en: "Sold by Grindle for 240 Rosaries (Blasted Steps)",
-    zh: "灼焰阶地：格林德尔以 240 念珠售卖。",
+    zh: "蚀阶：格林德尔以 240 念珠售卖。",
   },
   "Songclave: Can be purchased from Jubilana for 650 Rosaries": {
     en: "Songclave: Can be purchased from Jubilana for 650 Rosaries",
@@ -1421,7 +1421,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Songclave: On a corpse at the edge of the area. Sold by Jubilana if you dont pick it up before completing The Wandering Merchant Wish. Unlocks the Locked Elevator in Whiteward": {
     en: "Songclave: On a corpse at the edge of the area. Sold by Jubilana if you dont pick it up before completing The Wandering Merchant Wish. Unlocks the Locked Elevator in Whiteward",
-    zh: "圣歌盟地：区域边缘的尸体持有，若在完成“流浪商贩”心愿前未拾取，可由朱比拉娜代售；用于开启白愈厅的锁定升降机。",
+    zh: "圣歌盟地：区域边缘的尸体持有，若在完成“流浪商贩”心愿前未拾取，可由朱比拉娜代售；用于开启白愈厅的锁定升降机（商贾无踪）。",
   },
   "South east part of Songclave, Only available in Act 2.": {
     en: "South east part of Songclave, Only available in Act 2.",
@@ -1521,7 +1521,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Take Twisted Bud to Greyroot, Complete Rite of Rebirth Wish, Complete Infestation Operation Wish": {
     en: "Take Twisted Bud to Greyroot, Complete Rite of Rebirth Wish, Complete Infestation Operation Wish",
-    zh: "携带弯枝花蕾交给灰根，并完成“重生仪式”与“虫巢肃清”心愿。",
+    zh: "携带弯枝花蕾交给灰根，并完成“重生仪式”与“虫巢肃清”心愿（寄生手术）。",
   },
   "Talk to Eva in Weavnest Atla": {
     en: "Talk to Eva in Weavnest Atla",
@@ -1529,31 +1529,31 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "The Bell Beast can be found the very top of the Marrow.": {
     en: "The Bell Beast can be found the very top of the Marrow.",
-    zh: "钟兽位于髓质穹顶最顶端。",
+    zh: "钟兽位于髓质穹顶最顶端（髓骨洞窟）（钟道兽）。",
   },
   "The Lost Merchant Wish completed": {
     en: "The Lost Merchant Wish completed",
-    zh: "完成“失踪商贩”心愿。",
+    zh: "完成“失踪商贩”心愿（再寻商贾）。",
   },
   "The Slab: Above the lower bench": {
     en: "The Slab: Above the lower bench",
-    zh: "石板地带：下方长椅上方。",
+    zh: "石板地带：下方长椅上方（罪石牢狱）。",
   },
   "The Slab: At the edge of a room entered from above": {
     en: "The Slab: At the edge of a room entered from above",
-    zh: "石板地带：从上方进入的房间边缘。",
+    zh: "石板地带：从上方进入的房间边缘（罪石牢狱）。",
   },
   "The Slab: Dropped by the final enemy in a room entered from above": {
     en: "The Slab: Dropped by the final enemy in a room entered from above",
-    zh: "石板地带：从上方进入的房间中最后一名敌人掉落。",
+    zh: "石板地带：从上方进入的房间中最后一名敌人掉落（罪石牢狱）。",
   },
   "The Slab: In a small side-room at the edge of the area": {
     en: "The Slab: In a small side-room at the edge of the area",
-    zh: "石板地带：区域边缘的小侧室内。",
+    zh: "石板地带：区域边缘的小侧室内（罪石牢狱）。",
   },
   "The Slab: Inside the shortcut cave. Look out for a breakable wall as you climb a vertical space": {
     en: "The Slab: Inside the shortcut cave. Look out for a breakable wall as you climb a vertical space",
-    zh: "石板地带：捷径洞窟内，攀爬竖井时注意暗墙。",
+    zh: "石板地带：捷径洞窟内，攀爬竖井时注意暗墙（罪石牢狱）。",
   },
   "The Unravelled is a hidden boss found at the top of Whiteward, at the bottom of a disposal pit locked by the Surgeon's Key.": {
     en: "The Unravelled is a hidden boss found at the top of Whiteward, at the bottom of a disposal pit locked by the Surgeon's Key.",
@@ -1621,7 +1621,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Top of Blasted Steps": {
     en: "Top of Blasted Steps",
-    zh: "灼焰阶地顶部。",
+    zh: "灼焰阶地顶部（蚀阶）。",
   },
   "Top of Deepdocks: Pull a Lever down below, and swift step your way up towards it": {
     en: "Top of Deepdocks: Pull a Lever down below, and swift step your way up towards it",
@@ -1629,7 +1629,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Top of Mount Fay": {
     en: "Top of Mount Fay",
-    zh: "菲伊山顶部。",
+    zh: "菲伊山顶部（费耶山）。",
   },
   "Top of the Grand Gate room": {
     en: "Top of the Grand Gate room",
@@ -1645,7 +1645,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Top of Wisp Thicket Platform Challange": {
     en: "Top of Wisp Thicket Platform Challange",
-    zh: "灵光密林平台挑战的顶部。",
+    zh: "灵光密林平台挑战的顶部（火灵竹丛）。",
   },
   "Top Right of Songclave: Parkour Challange, Access throught Whispering Vaults": {
     en: "Top Right of Songclave: Parkour Challange, Access throught Whispering Vaults",
@@ -1657,7 +1657,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "Underworks: Can be collected only by passing through Wisp Thicket area and traversing a room full of saws.": {
     en: "Underworks: Can be collected only by passing through Wisp Thicket area and traversing a room full of saws.",
-    zh: "下层工区：需穿过灵光密林并通过布满锯片的房间才能取得。",
+    zh: "下层工区：需穿过灵光密林并通过布满锯片的房间才能取得（火灵竹丛）。",
   },
   "Underworks: Can be purchased from Twelfth Architect for 110 Rosaries. Used to unlock the Chapel of the Architect": {
     en: "Underworks: Can be purchased from Twelfth Architect for 110 Rosaries. Used to unlock the Chapel of the Architect",
@@ -1717,7 +1717,7 @@ export const CUSTOM_TRANSLATIONS = {
   },
   "West corner of Wisp Thicket.": {
     en: "West corner of Wisp Thicket.",
-    zh: "位于灵光密林西侧角落。",
+    zh: "位于灵光密林西侧角落（火灵竹丛）。",
   },
   "Where Conductor Ballador would be in Act 3.": {
     en: "Where Conductor Ballador would be in Act 3.",
@@ -1750,6 +1750,18 @@ export const CUSTOM_TRANSLATIONS = {
   "Wormways: Bottom right held by a corpse": {
     en: "Wormways: Bottom right held by a corpse",
     zh: "沙噬虫道右下角的尸体持有。",
+  },
+  "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"": {
+    en: "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+    zh: "完成任务“我遗失的信使”后可向弗雷购入（失踪送货员）。",
+  },
+  "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\"": {
+    en: "Purchased from Frey after completing the mission \\\\\\\\\\\\\\\"My Missing Courier\\\\\\\\\\\\\\\"",
+    zh: "完成任务“我遗失的信使”后可向弗雷购入（失踪送货员）。",
+  },
+  "Purchased from Frey after completing the mission \\\\\\\"My Missing Courier\\\\\\\"": {
+    en: "Purchased from Frey after completing the mission \\\\\\\"My Missing Courier\\\\\\\"",
+    zh: "完成任务“我遗失的信使”后可向弗雷购入（失踪送货员）。",
   },
 };
 
