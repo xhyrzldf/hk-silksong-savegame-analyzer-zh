@@ -22,3 +22,11 @@ All报告、答复与 PR 描述应使用中文，便于原始开发者查阅。
 
 ## Save Data & Security Notes
 Never commit personal or unreleased save files—use synthetic or sanitized samples. Treat decrypted output as sensitive: delete temporary JSON exports after debugging and avoid logging raw save contents to the console in production builds.
+
+## 当前项目状态速览（供后续 AI 参考）
+- 已集成 Electron 壳：开发用 `npm run dev:electron`，Windows 打包用 `npm run build:electron`，命令内部区分了 Electron 专用的 Renderer 构建。
+- Electron 主进程代码位于 `electron/`，预加载脚本输出为 CommonJS（见 `tsconfig.electron.json`），渲染端产物采用相对路径（`vite.config.ts` 中 `base: './'`）。
+- 安装器默认安装至 `D:\Silksong Savegame Analyzer`（若 D 盘存在），否则回落至 `C:\Program Files\Silksong Savegame Analyzer`，相关配置见 `build/installer.nsh`。
+- 项目现有图标文件为 `build/icon.ico`（512×512 单尺寸），若需更新只需替换后重新打包。
+- 包含前端资源的便携版与安装包分别输出至 `dist/`，打包前需确保没有旧的便携版进程占用 `dist/*.exe`。
+- 当前未执行 `npm run lint`，若后续需要静态检查可手动运行；构建基线为 `npm run build` 与 `npm run build:electron`。
