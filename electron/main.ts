@@ -1,11 +1,7 @@
 import { app, BrowserWindow, shell } from 'electron';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 
 process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = 'true';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const isDev = !app.isPackaged;
 const devServerUrl = process.env.VITE_DEV_SERVER_URL ?? 'http://localhost:5173';
