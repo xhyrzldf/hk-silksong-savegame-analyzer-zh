@@ -4,12 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://silksong-completionist.com/",
+  "main": "dist-electron/main.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "npm run build && copy dist\\index.html dist\\404.html && gh-pages -d dist"
+    "deploy": "npm run build && copy dist\\index.html dist\\404.html && gh-pages -d dist",
+    "build:electron:main": "tsc -p tsconfig.electron.json",
+    "build:electron": "npm run build && npm run build:electron:main && electron-builder --win",
+    "electron:start": "wait-on tcp:5173 && cross-env NODE_ENV=development VITE_DEV_SERVER_URL=http://localhost:5173 tsx --project tsconfig.electron.json electron/main.ts",
+    "dev:electron": "concurrently \"npm run dev\" \"npm run electron:start\""
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
@@ -21,16 +26,47 @@
   "devDependencies": {
     "@eslint/js": "^9.33.0",
     "@types/crypto-js": "^4.2.2",
+    "@types/node": "^22.10.1",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^9.1.0",
+    "cross-env": "^7.0.3",
+    "electron": "^33.2.0",
+    "electron-builder": "^24.13.3",
     "eslint": "^9.33.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
+    "tsx": "^4.19.2",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
-    "vite": "^7.1.2"
+    "vite": "^7.1.2",
+    "wait-on": "^7.2.0"
+  },
+  "build": {
+    "appId": "com.silksong.savegame.analyzer",
+    "productName": "Silksong Savegame Analyzer",
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "buildResources": "build"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
   }
 }
