@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+﻿import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { decodeSave } from "../services/decryptor";
 import { calculateCompletionPercent, extractSaveDisplayName } from "../services/saveSummary";
@@ -8,6 +8,8 @@ export interface AutoSaveSummary {
   id: string;
   slotIndex: number;
   fileName: string;
+  directoryName: string;
+  filePath: string;
   displayName: string;
   modifiedAt: number;
   completionPercent: number | null;
@@ -31,6 +33,10 @@ function base64ToUint8Array(base64: string): Uint8Array {
   return bytes;
 }
 
+function serializeFile(bytes: Uint8Array, fileName: string): File {
+  return new File([bytes], fileName, { type: "application/octet-stream" });
+}
+
 export function useWindowsSaves() {
   const { t } = useI18n();
   const isRenderer = typeof window !== "undefined";
@@ -46,88 +52,97 @@ export function useWindowsSaves() {
   });
 
   useEffect(() => {
-    let cancelled = false;
+    setState(prev => ({ ...prev, isSupported: hasElectronAPI }));
+  }, [hasElectronAPI]);
 
-    async function loadSaves() {
-      if (!electronApi?.listWindowsSaves) {
-        return;
-      }
-
-      setState(prev => ({ ...prev, isLoading: true, error: null }));
-
-      try {
-        const rawEntries = await electronApi.listWindowsSaves();
-        const processed: AutoSaveSummary[] = [];
-
-        for (const entry of rawEntries) {
-          try {
-            const bytes = base64ToUint8Array(entry.data);
-            const file = new File([bytes], entry.fileName, { type: "application/octet-stream" });
-            const json = decodeSave(bytes);
-            const parsed = JSON.parse(json);
-            const displayName = extractSaveDisplayName(parsed) ?? entry.fileName;
-            const completionPercent = calculateCompletionPercent(parsed);
-            processed.push({
-              id: entry.id,
-              slotIndex: entry.slotIndex,
-              fileName: entry.fileName,
-              displayName,
-              modifiedAt: entry.modifiedAt,
-              completionPercent,
-              file,
-            });
-          } catch (innerError) {
-            console.warn("[auto-saves] Failed to process entry", entry.fileName, innerError);
-          }
-        }
-
-        if (!cancelled) {
-          processed.sort((a, b) => {
-            if (a.slotIndex !== b.slotIndex) {
-              return a.slotIndex - b.slotIndex;
-            }
-            return b.modifiedAt - a.modifiedAt;
-          });
-
-          const uniqueBySlot: AutoSaveSummary[] = [];
-          const seenSlots = new Set<number>();
-          for (const entry of processed) {
-            if (entry.slotIndex && seenSlots.has(entry.slotIndex)) {
-              continue;
-            }
-            if (entry.slotIndex) {
-              seenSlots.add(entry.slotIndex);
-            }
-            uniqueBySlot.push(entry);
-            if (uniqueBySlot.length >= 4) {
-              break;
-            }
-          }
-
-          setState(prev => ({
-            ...prev,
-            saves: uniqueBySlot,
-            isLoading: false,
-          }));
-        }
-      } catch (error) {
-        console.error("[auto-saves] Failed to list windows saves", error);
-        if (!cancelled) {
-          setState(prev => ({
-            ...prev,
-            isLoading: false,
-            error: t("ERROR_AUTO_SAVE_LOAD", "Failed to inspect Windows save folder"),
-          }));
-        }
-      }
+  const loadSaves = useCallback(async () => {
+    if (!electronApi?.listWindowsSaves) {
+      return;
     }
 
-    loadSaves();
+    setState(prev => ({ ...prev, isLoading: true, error: null }));
+
+    try {
+      const rawEntries = await electronApi.listWindowsSaves();
+      const processed: AutoSaveSummary[] = [];
+
+      for (const entry of rawEntries) {
+        try {
+          const bytes = base64ToUint8Array(entry.data);
+          const file = serializeFile(bytes, entry.fileName);
+          const json = decodeSave(bytes);
+          const parsed = JSON.parse(json);
+          const displayName = extractSaveDisplayName(parsed) ?? entry.fileName;
+          const completionPercent = calculateCompletionPercent(parsed);
+          processed.push({
+            id: entry.id,
+            slotIndex: entry.slotIndex,
+            fileName: entry.fileName,
+            directoryName: entry.directoryName,
+            filePath: entry.filePath,
+            displayName,
+            modifiedAt: entry.modifiedAt,
+            completionPercent,
+            file,
+          });
+        } catch (innerError) {
+          console.warn("[auto-saves] Failed to process entry", entry.fileName, innerError);
+        }
+      }
+
+      const uniqueBySlot = processed
+        .sort((a, b) => {
+          if (a.slotIndex !== b.slotIndex) {
+            return a.slotIndex - b.slotIndex;
+          }
+          if (a.directoryName !== b.directoryName) {
+            return a.directoryName.localeCompare(b.directoryName);
+          }
+          return b.modifiedAt - a.modifiedAt;
+        })
+        .reduce<AutoSaveSummary[]>((acc, entry) => {
+          const already = acc.find(item =>
+            item.slotIndex === entry.slotIndex && item.directoryName === entry.directoryName,
+          );
+          if (!already) {
+            acc.push(entry);
+          }
+          return acc;
+        }, []);
+
+      setState(prev => ({
+        ...prev,
+        saves: uniqueBySlot,
+        isLoading: false,
+      }));
+    } catch (error) {
+      console.error("[auto-saves] Failed to list windows saves", error);
+      setState(prev => ({
+        ...prev,
+        isLoading: false,
+        error: t("ERROR_AUTO_SAVE_LOAD", "Failed to inspect Windows save folder"),
+      }));
+    }
+  }, [electronApi, t]);
+
+  useEffect(() => {
+    if (!hasElectronAPI) return;
+
+    let cancelled = false;
+    (async () => {
+      await loadSaves();
+      if (cancelled) {
+        setState(prev => ({ ...prev, isLoading: false }));
+      }
+    })();
 
     return () => {
       cancelled = true;
     };
-  }, [hasElectronAPI, t]);
+  }, [hasElectronAPI, loadSaves]);
 
-  return state;
+  return useMemo(() => ({
+    ...state,
+    refresh: loadSaves,
+  }), [state, loadSaves]);
 }

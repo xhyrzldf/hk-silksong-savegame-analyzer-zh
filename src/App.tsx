@@ -1,4 +1,4 @@
-﻿import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import type { DragEvent } from "react";
 
 import HornetBackground from "./assets/HornetBackground.png";
@@ -8,6 +8,7 @@ import { ResultFilterBar } from "./components/ResultFilterBar";
 import { AutoSaveCards } from "./components/AutoSaveCards";
 import { TabBar } from "./components/TabBar";
 import { TotalProgress } from "./components/TotalProgress";
+import { SaveEditorPage } from "./editor/SaveEditorPage";
 import { useSaveFile } from "./hooks/useSaveFile";
 import { ResultFiltersProvider } from "./hooks/useResultFilters";
 import { useWindowsSaves, type AutoSaveSummary } from "./hooks/useWindowsSaves";
@@ -16,6 +17,7 @@ import { tabDefinitions } from "./tabs";
 import type { TabId } from "./tabs/types";
 
 type PlatformId = "Steam" | "Gamepass(PC)" | "macOS" | "Linux(Steamdeck)" | "Switch";
+type ViewId = "analysis" | "editor";
 
 type PlatformNoteLink = {
   href: string;
@@ -97,7 +99,6 @@ export default function App() {
     setJsonText,
     parsedJson,
     handleFile: handleFileInternal,
-    handleDrop: handleDropInternal,
     handleDragOver,
     saveEncrypted,
     savePlain,
@@ -106,6 +107,7 @@ export default function App() {
   const [showToast, setShowToast] = useState(false);
   const [activePlatformId, setActivePlatformId] = useState<PlatformId>("Steam");
   const [activeAutoSaveId, setActiveAutoSaveId] = useState<string | null>(null);
+  const [activeView, setActiveView] = useState<ViewId>("analysis");
 
   const autoSaves = useWindowsSaves();
 
@@ -126,14 +128,20 @@ export default function App() {
   }, [handleFileInternal]);
 
   const handleManualDrop = useCallback((event: DragEvent<HTMLDivElement>) => {
-    setActiveAutoSaveId(null);
-    handleDropInternal(event);
-  }, [handleDropInternal]);
+    event.preventDefault();
+    const file = event.dataTransfer.files?.[0];
+    if (file) handleFileInternal(file);
+  }, [handleFileInternal]);
 
   const handleAutoSaveSelect = useCallback((save: AutoSaveSummary) => {
     setActiveAutoSaveId(save.id);
     handleFileInternal(save.file);
   }, [handleFileInternal]);
+
+  const activeAutoSave = useMemo(() => {
+    if (!activeAutoSaveId) return null;
+    return autoSaves.saves.find(save => save.id === activeAutoSaveId) ?? null;
+  }, [autoSaves.saves, activeAutoSaveId]);
 
   useEffect(() => {
     if (!activeAutoSaveId) return;
@@ -163,119 +171,150 @@ export default function App() {
             {t("UI_APP_TITLE", "Hollow Knight Silksong Savegame Analyzer")}
           </h1>
 
-        <div className="text-center text-sm">
-          <div className="flex flex-wrap justify-center gap-2 mb-3">
-            {PLATFORM_OPTIONS.map(platform => {
-              const isActive = platform.id === activePlatform.id;
-
+          <div className="flex justify-center gap-3">
+            {(["analysis", "editor"] as ViewId[]).map(view => {
+              const isActive = activeView === view;
               return (
                 <button
-                  key={platform.id}
+                  key={view}
                   type="button"
-                  onClick={() => setActivePlatformId(platform.id)}
-                  className={`px-3 py-1 text-xs font-semibold rounded border transition-colors ${
-                    isActive
-                      ? "bg-green-600 border-green-500 text-white"
-                      : "bg-transparent border-white/30 text-white/80 hover:border-white hover:text-white"
-                  }`}
+                  onClick={() => setActiveView(view)}
+                  className={`px-4 py-1.5 text-sm font-semibold rounded border transition-colors ${isActive ? "bg-green-600 border-green-500 text-white" : "bg-transparent border-white/30 text-white/80 hover:border-white hover:text-white"}`}
                 >
-                  {t(platform.labelKey, platform.label)}
+                  {view === "analysis"
+                    ? t("UI_VIEW_ANALYSIS", "存档分析")
+                    : t("UI_VIEW_EDITOR", "存档编辑")}
                 </button>
               );
             })}
           </div>
 
-          <p className="font-bold text-white mb-4">
-            <span
-              className="text-green-500 hover:underline cursor-pointer"
-              onClick={handleCopyPath}
-              title={t("UI_COPY_PATH", "Copy path")}
-            >
-              {activePlatform.path}
-            </span>
-            <br />
-            {activePlatform.noteKey ? (
-              <span className="font-light italic text-white mb-4">
-                {t(activePlatform.noteKey, activePlatform.noteFallback ?? "")}
-                {activePlatform.noteLink ? (
-                  <>
-                    {activePlatform.noteLink.wrap ? " (" : " "}
-                    <a
-                      className="underline text-green-300 hover:text-green-200"
-                      href={activePlatform.noteLink.href}
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      {t(activePlatform.noteLink.labelKey, activePlatform.noteLink.fallback)}
-                    </a>
-                    {activePlatform.noteLink.wrap ? ")" : ""}
-                  </>
-                ) : null}
+          <div className="text-center text-sm">
+            <div className="flex flex-wrap justify-center gap-2 mb-3">
+              {PLATFORM_OPTIONS.map(platform => {
+                const isActive = platform.id === activePlatform.id;
+
+                return (
+                  <button
+                    key={platform.id}
+                    type="button"
+                    onClick={() => setActivePlatformId(platform.id)}
+                    className={`px-3 py-1 text-xs font-semibold rounded border transition-colors ${isActive ? "bg-green-600 border-green-500 text-white" : "bg-transparent border-white/30 text-white/80 hover:border-white hover:text-white"}`}
+                  >
+                    {t(platform.labelKey, platform.label)}
+                  </button>
+                );
+              })}
+            </div>
+
+            <p className="font-bold text-white mb-4">
+              <span
+                className="text-green-500 hover:underline cursor-pointer"
+                onClick={handleCopyPath}
+                title={t("UI_COPY_PATH", "Copy path")}
+              >
+                {activePlatform.path}
               </span>
-            ) : null}
-          </p>
-        </div>
-
-        <AutoSaveCards
-          saves={autoSaves.saves}
-          isLoading={autoSaves.isLoading}
-          error={autoSaves.error}
-          isSupported={autoSaves.isSupported}
-          activeSaveId={activeAutoSaveId}
-          onSelect={handleAutoSaveSelect}
-        />
-
-        <FileUpload
-          fileName={fileName}
-          onFileSelected={handleManualFileSelected}
-          onDrop={handleManualDrop}
-          onDragOver={handleDragOver}
-        />
-
-        {showToast && (
-          <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-[#454d5c] text-white px-4 py-2 rounded shadow-lg z-50">
-            {t("UI_COPY_TO_CLIPBOARD", "Copied to Clipboard!")}
+              <br />
+              {activePlatform.noteKey ? (
+                <span className="font-light italic text-white mb-4">
+                  {t(activePlatform.noteKey, activePlatform.noteFallback ?? "")}
+                  {activePlatform.noteLink ? (
+                    <>
+                      {activePlatform.noteLink.wrap ? " (" : " "}
+                      <a
+                        className="underline text-green-300 hover:text-green-200"
+                        href={activePlatform.noteLink.href}
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        {t(activePlatform.noteLink.labelKey, activePlatform.noteLink.fallback)}
+                      </a>
+                      {activePlatform.noteLink.wrap ? ")" : ""}
+                    </>
+                  ) : null}
+                </span>
+              ) : null}
+            </p>
           </div>
-        )}
 
-        <TotalProgress parsedJson={parsedJson} />
+          <AutoSaveCards
+            saves={autoSaves.saves}
+            isLoading={autoSaves.isLoading}
+            error={autoSaves.error}
+            isSupported={autoSaves.isSupported}
+            activeSaveId={activeAutoSaveId}
+            onSelect={handleAutoSaveSelect}
+          />
 
-        <TabBar
-          tabs={tabDefinitions}
-          activeTab={activeTab}
-          onSelect={tab => setActiveTab(tab)}
-          parsedJson={parsedJson}
-          decrypted={decrypted}
-        />
+          <FileUpload
+            fileName={fileName}
+            onFileSelected={handleManualFileSelected}
+            onDrop={handleManualDrop}
+            onDragOver={handleDragOver}
+          />
 
-        <ResultFilterBar disabled={!decrypted || !parsedJson} />
-
-        <div className="mt-4">
-          {decrypted && activeTabConfig ? (
-            activeTabConfig.render({
-              parsedJson,
-              decrypted,
-              jsonText,
-              setJsonText,
-              saveEncrypted,
-              savePlain,
-            })
-          ) : (
-            <div className="text-white text-center">
-              {t("UI_NO_SAVE_LOADED", "No Savefile loaded")}
+          {showToast && (
+            <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-[#454d5c] text-white px-4 py-2 rounded shadow-lg z-50">
+              {t("UI_COPY_TO_CLIPBOARD", "Copied to Clipboard!")}
             </div>
           )}
-        </div>
-        <footer className="w-full mt-8 py-4  text-white text-center text-sm  ">
-          {t("UI_MADE_BY", "Made by")} <a href="https://github.com/br3zzly" className="underline">Br3zzly</a><br />
-          {t("UI_WITH_HELP_FROM", "With help from")} <a href="https://github.com/theezeb" className="underline">theezeb</a>, <a href="https://github.com/btastic" className="underline">btastic</a><br />
-          <a href="https://github.com/Br3zzly/hk-silksong-savegame-analyzer" className="underline">{t("UI_GITHUB_REPO", "GitHub Repo")}</a><br />
-          <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3571462700" className="underline">{t("UI_STEAM_GUIDE", "Steam Guide")}</a><br />
-          <a href="https://www.buymeacoffee.com/Br3zzly" className="underline">{t("UI_BUY_ME_A_COFFEE", "Buy me a coffee")}</a>
-        </footer>
+
+          <TotalProgress parsedJson={parsedJson} />
+
+          {activeView === "analysis" ? (
+            <>
+              <TabBar
+                tabs={tabDefinitions}
+                activeTab={activeTab}
+                onSelect={tab => setActiveTab(tab)}
+                parsedJson={parsedJson}
+                decrypted={decrypted}
+              />
+
+              <ResultFilterBar disabled={!decrypted || !parsedJson} />
+
+              <div className="mt-4">
+                {decrypted && activeTabConfig ? (
+                  activeTabConfig.render({
+                    parsedJson,
+                    decrypted,
+                    jsonText,
+                    setJsonText,
+                    saveEncrypted,
+                    savePlain,
+                  })
+                ) : (
+                  <div className="text-white text-center">
+                    {t("UI_NO_SAVE_LOADED", "No Savefile loaded")}
+                  </div>
+                )}
+              </div>
+            </>
+          ) : (
+            <SaveEditorPage
+              parsedJson={parsedJson}
+              jsonText={jsonText}
+              setJsonText={setJsonText}
+              fileName={fileName}
+              activeAutoSave={activeAutoSave}
+              autoSaveSlots={autoSaves.saves}
+              isAutoSaveSupported={autoSaves.isSupported}
+              refreshAutoSaves={autoSaves.refresh}
+              saveEncrypted={saveEncrypted}
+              savePlain={savePlain}
+            />
+          )}
+
+          <footer className="w-full mt-8 py-4  text-white text-center text-sm  ">
+            {t("UI_MADE_BY", "Made by")} <a href="https://github.com/br3zzly" className="underline">Br3zzly</a><br />
+            {t("UI_WITH_HELP_FROM", "With help from")} <a href="https://github.com/theezeb" className="underline">theezeb</a>, <a href="https://github.com/btastic" className="underline">btastic</a><br />
+            <a href="https://github.com/Br3zzly/hk-silksong-savegame-analyzer" className="underline">{t("UI_GITHUB_REPO", "GitHub Repo")}</a><br />
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3571462700" className="underline">{t("UI_STEAM_GUIDE", "Steam Guide")}</a><br />
+            <a href="https://www.buymeacoffee.com/Br3zzly" className="underline">{t("UI_BUY_ME_A_COFFEE", "Buy me a coffee")}</a>
+          </footer>
         </div>
       </div>
     </ResultFiltersProvider>
   );
 }
-

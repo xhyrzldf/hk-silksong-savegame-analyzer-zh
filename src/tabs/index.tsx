@@ -12,7 +12,6 @@ import { MemoryLocketsTab, getMemoryLocketsExtra } from "./MemoryLocketsTab";
 import { BossesTab, getBossesExtra } from "./BossesTab";
 import { KeysTab, getKeysExtra } from "./KeysTab";
 import { getHuntersJournalExtra, HuntersJournalTab } from "./HuntersJournalTab";
-import { JsonEditorTab } from "./JsonEditorTab";
 
 export const tabDefinitions: TabDefinition[] = [
   {
@@ -84,7 +83,7 @@ export const tabDefinitions: TabDefinition[] = [
     render: props => <MemoryLocketsTab {...props} />,
     getExtra: getMemoryLocketsExtra,
   },
-    {
+  {
     id: "Keys",
     label: "Keys",
     labelKey: "UI_TAB_KEYS",
@@ -103,12 +102,6 @@ export const tabDefinitions: TabDefinition[] = [
     label: "Hunters Journal",
     labelKey: "UI_TAB_HUNTERS_JOURNAL",
     render: props => <HuntersJournalTab {...props} />,
-    getExtra: getHuntersJournalExtra, 
-  },
-  {
-    id: "JSON Editor",
-    label: "JSON Editor",
-    labelKey: "UI_TAB_JSON_EDITOR",
-    render: props => <JsonEditorTab {...props} />,
+    getExtra: getHuntersJournalExtra,
   },
 ];
