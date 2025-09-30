@@ -12,7 +12,7 @@ import { CATEGORIES } from "../parsers/dictionary";
 import type { CategoryItem } from "../parsers/dictionary";
 import type { AutoSaveSummary } from "../hooks/useWindowsSaves";
 import { useI18n } from "../i18n/I18nContext";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { TabBar } from "../components/TabBar";
 import { Card, CardContent } from "@/components/ui/card";
 
 interface SaveEditorPageProps {
@@ -37,6 +37,7 @@ export function SaveEditorPage({
 }: SaveEditorPageProps) {
   const { t, translate } = useI18n();
   const [feedback, setFeedback] = useState<FeedbackMessage | null>(null);
+  const [activeTab, setActiveTab] = useState<string>(CATEGORIES[0]?.name || "");
 
   const hasParsedJson = Boolean(parsedJson) && typeof parsedJson === "object";
 
@@ -67,10 +68,27 @@ export function SaveEditorPage({
 
   const categories = useMemo(() => CATEGORIES, []);
 
+  // 将categories转换为TabBar需要的格式
+  const tabDefinitions = useMemo(() =>
+    categories.map(category => ({
+      id: category.name,
+      label: category.name,
+      labelKey: undefined,
+    })),
+    [categories]
+  );
+
+  // 找到当前激活的类别
+  const activeCategory = useMemo(
+    () => categories.find(cat => cat.name === activeTab),
+    [categories, activeTab]
+  );
+
   return (
-    <div className="space-y-6 text-white">
+    <div className="flex h-full flex-col space-y-3">
+      {/* 顶部信息卡片 */}
       <Card className="border-primary/20 bg-gradient-to-br from-primary/5 to-card/60">
-        <CardContent className="p-6">
+        <CardContent className="p-4">
           <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
             <div className="space-y-1">
               <h2 className="text-lg font-semibold text-white/90">
@@ -106,51 +124,50 @@ export function SaveEditorPage({
       </Card>
 
       {!hasParsedJson ? (
-        <Card>
-          <CardContent className="p-6 text-sm text-muted-foreground">
+        <Card className="flex-1">
+          <CardContent className="flex h-full items-center justify-center p-6 text-lg text-white/50">
             {t("UI_SAVE_EDITOR_NO_JSON", "Load a save file first")}
           </CardContent>
         </Card>
       ) : (
-        <Tabs defaultValue={categories[0]?.name} className="w-full">
-          <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-2 h-auto bg-card/50 p-2">
-            {categories.map(category => (
-              <TabsTrigger
-                key={category.name}
-                value={category.name}
-                className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
-              >
-                {translate(category.name)}
-              </TabsTrigger>
-            ))}
-          </TabsList>
+        <div className="flex flex-1 flex-col overflow-hidden">
+          {/* TabBar - 使用和分析页面完全相同的组件 */}
+          <div className="flex-shrink-0">
+            <TabBar
+              tabs={tabDefinitions}
+              activeTab={activeTab}
+              onSelect={setActiveTab}
+              parsedJson={parsedJson}
+              decrypted={hasParsedJson}
+            />
+          </div>
 
-          {categories.map(category => {
-            let currentSection = "";
-            return (
-              <TabsContent key={category.name} value={category.name} className="mt-4">
-                <Card>
-                  <CardContent className="space-y-4 p-6">
-                    {category.description ? (
-                      <p className="text-sm text-muted-foreground border-l-2 border-primary pl-3">
-                        {translate(category.description)}
-                      </p>
-                    ) : null}
+          {/* 内容区域 */}
+          <div className="mt-3 flex-1 overflow-y-auto rounded-xl border border-white/10 bg-slate-950/50 p-4 shadow-inner">
+            {activeCategory ? (
+              <div className="space-y-4">
+                {activeCategory.description ? (
+                  <p className="border-l-2 border-emerald-400 pl-3 text-sm text-white/70">
+                    {translate(activeCategory.description)}
+                  </p>
+                ) : null}
 
-                    <div className="space-y-3">
-                      {category.items.flatMap((item, index) => {
+                <div className="space-y-3">
+                  {(() => {
+                    let currentSection = "";
+                    return activeCategory.items.flatMap((item, index) => {
                       const elements: ReactElement[] = [];
-                        if (item.section && item.section !== currentSection) {
-                          currentSection = item.section;
-                          elements.push(
-                            <div
-                              key={`section-${category.name}-${item.section}-${index}`}
-                              className="mt-4 mb-2 text-sm font-semibold text-foreground border-b border-border pb-2"
-                            >
-                              {translate(item.section)}
-                            </div>,
-                          );
-                        }
+                      if (item.section && item.section !== currentSection) {
+                        currentSection = item.section;
+                        elements.push(
+                          <div
+                            key={`section-${activeCategory.name}-${item.section}-${index}`}
+                            className="mb-2 mt-4 border-b border-white/10 pb-2 text-sm font-semibold text-white/90"
+                          >
+                            {translate(item.section)}
+                          </div>,
+                        );
+                      }
                       const value = getItemValue(parsedJson, item.parsingInfo);
                       const isBoolean = isBooleanItem(item.parsingInfo);
                       const isNumeric = isNumericItem(item.parsingInfo);
@@ -168,70 +185,70 @@ export function SaveEditorPage({
                           )
                         : null;
 
-                        elements.push(
-                          <div
-                            key={`item-${item.name}-${index}`}
-                            className="space-y-3 rounded-lg border border-border/50 bg-card/50 backdrop-blur-sm px-4 py-3 hover:border-primary/30 transition-colors"
-                          >
-                            <div className="space-y-1">
-                              <div className="font-medium text-foreground">{translate(item.name)}</div>
-                              {item.location ? (
-                                <div className="text-xs text-muted-foreground whitespace-pre-line">
-                                  {translate(item.location)}
-                                </div>
-                              ) : null}
-                              {prereqText ? (
-                                <div className="text-xs text-muted-foreground">{prereqText}</div>
-                              ) : null}
-                              {helperText ? (
-                                <div className="text-xs text-muted-foreground">{helperText}</div>
-                              ) : null}
-                            </div>
-                            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                              <div className="text-xs text-muted-foreground">
-                                {t("UI_SAVE_EDITOR_CURRENT_VALUE", "Current value")}: <span className="font-mono">{String(value)}</span>
+                      elements.push(
+                        <div
+                          key={`item-${item.name}-${index}`}
+                          className="space-y-3 rounded-lg border border-white/10 bg-slate-900/50 px-4 py-3 backdrop-blur-sm transition-colors hover:border-emerald-400/30"
+                        >
+                          <div className="space-y-1">
+                            <div className="font-medium text-white/90">{translate(item.name)}</div>
+                            {item.location ? (
+                              <div className="whitespace-pre-line text-xs text-white/60">
+                                {translate(item.location)}
                               </div>
-                              {isBoolean ? (
-                                <label className="flex items-center gap-2 text-sm text-foreground">
-                                  <input
-                                    type="checkbox"
-                                    className="h-4 w-4 rounded border border-input bg-background text-primary focus:ring-ring focus:ring-offset-2"
-                                    checked={Boolean(value)}
-                                    disabled={!hasParsedJson}
-                                    onChange={event => handleValueChange(item, event.target.checked)}
-                                  />
-                                  <span>{t("UI_SAVE_EDITOR_TOGGLE_UNLOCKED", "Mark as unlocked")}</span>
-                                </label>
-                              ) : null}
-                              {isNumeric ? (
-                                <input
-                                  type="number"
-                                  className="w-28 rounded-md border border-input bg-background px-3 py-2 text-right text-sm text-foreground focus:border-ring focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-                                  defaultValue={Number(value) ?? 0}
-                                  min={0}
-                                  max={suggestedMax ?? undefined}
-                                  onBlur={event => {
-                                    const nextValue = Number(event.target.value);
-                                    if (Number.isNaN(nextValue)) {
-                                      return;
-                                    }
-                                    handleValueChange(item, nextValue);
-                                  }}
-                                />
-                              ) : null}
+                            ) : null}
+                            {prereqText ? (
+                              <div className="text-xs text-white/60">{prereqText}</div>
+                            ) : null}
+                            {helperText ? (
+                              <div className="text-xs text-white/60">{helperText}</div>
+                            ) : null}
+                          </div>
+                          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                            <div className="text-xs text-white/60">
+                              {t("UI_SAVE_EDITOR_CURRENT_VALUE", "Current value")}:{" "}
+                              <span className="font-mono text-emerald-300">{String(value)}</span>
                             </div>
-                          </div>,
-                        );
+                            {isBoolean ? (
+                              <label className="flex items-center gap-2 text-sm text-white/80">
+                                <input
+                                  type="checkbox"
+                                  className="h-4 w-4 rounded border border-white/20 bg-slate-800 text-emerald-500 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950"
+                                  checked={Boolean(value)}
+                                  disabled={!hasParsedJson}
+                                  onChange={event => handleValueChange(item, event.target.checked)}
+                                />
+                                <span>{t("UI_SAVE_EDITOR_TOGGLE_UNLOCKED", "Mark as unlocked")}</span>
+                              </label>
+                            ) : null}
+                            {isNumeric ? (
+                              <input
+                                type="number"
+                                className="w-28 rounded-md border border-white/20 bg-slate-800 px-3 py-2 text-right text-sm text-white/90 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 focus:ring-offset-2 focus:ring-offset-slate-950"
+                                defaultValue={Number(value) ?? 0}
+                                min={0}
+                                max={suggestedMax ?? undefined}
+                                onBlur={event => {
+                                  const nextValue = Number(event.target.value);
+                                  if (Number.isNaN(nextValue)) {
+                                    return;
+                                  }
+                                  handleValueChange(item, nextValue);
+                                }}
+                              />
+                            ) : null}
+                          </div>
+                        </div>,
+                      );
 
-                        return elements;
-                      })}
-                    </div>
-                  </CardContent>
-                </Card>
-              </TabsContent>
-            );
-          })}
-        </Tabs>
+                      return elements;
+                    });
+                  })()}
+                </div>
+              </div>
+            ) : null}
+          </div>
+        </div>
       )}
     </div>
   );
