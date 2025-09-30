@@ -11,22 +11,24 @@ const isDev = !app.isPackaged;
 const devServerUrl = process.env.VITE_DEV_SERVER_URL ?? 'http://localhost:5173';
 const BACKUP_DIR_NAME = 'tool_bak';
 
-// 配置日志系统
-if (!isDev) {
-  // 打包后：日志输出到 exe 同目录
-  log.transports.file.resolvePathFn = () => {
-    const exeDir = path.dirname(process.execPath);
-    const logFileName = `silksong-save-analyzer.log`;
-    return path.join(exeDir, logFileName);
-  };
-} else {
-  // 开发模式：使用默认路径
-  log.transports.file.level = 'debug';
-}
+// 配置日志系统 - 统一输出到可执行文件/项目根目录
+log.transports.file.resolvePathFn = () => {
+  let logDir: string;
+  if (isDev) {
+    // 开发模式：输出到项目根目录
+    logDir = app.getAppPath();
+  } else {
+    // 打包后：输出到 exe 同目录
+    logDir = path.dirname(process.execPath);
+  }
+  const logFileName = `silksong-save-analyzer.log`;
+  return path.join(logDir, logFileName);
+};
 
 // 配置日志格式和参数
 log.transports.file.format = '[{y}-{m}-{d} {h}:{i}:{s}.{ms}] [{level}] {text}';
 log.transports.file.maxSize = 5 * 1024 * 1024; // 5MB
+log.transports.file.level = isDev ? 'debug' : 'info';
 log.transports.console.level = isDev ? 'debug' : 'info';
 
 // 初始化日志系统
