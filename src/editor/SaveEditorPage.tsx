@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState, type ReactElement } from "react";
+import { useCallback, useMemo, useState, type ReactElement, type ReactNode } from "react";
 
 import {
   applyItemValue,
@@ -8,10 +8,12 @@ import {
   isBooleanItem,
   isNumericItem,
 } from "../services/saveMutations";
-import { CATEGORIES } from "../parsers/dictionary";
+import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
 import type { CategoryItem } from "../parsers/dictionary";
 import type { AutoSaveSummary } from "../hooks/useWindowsSaves";
 import { useI18n } from "../i18n/I18nContext";
+import { useFilteredCategoryItems } from "../hooks/useResultFilters";
+import { ResultFilterBar } from "../components/ResultFilterBar";
 import { Card, CardContent } from "@/components/ui/card";
 
 interface SaveEditorPageProps {
@@ -27,6 +29,39 @@ type FeedbackMessage = {
   kind: FeedbackKind;
   text: string;
 };
+
+function formatPercent(value: number): string {
+  return `${Number(value.toFixed(2))}%`;
+}
+
+function getCategoryProgress(
+  categoryItems: CategoryItem[],
+  parsedJson: unknown
+): { current: number; total: number; unlocked: number; total_count: number } {
+  if (!parsedJson) {
+    return { current: 0, total: 0, unlocked: 0, total_count: 0 };
+  }
+
+  let currentPercent = 0;
+  let maxPercent = 0;
+  let unlockedCount = 0;
+
+  categoryItems.forEach(item => {
+    maxPercent += item.completionPercent;
+    const { unlocked } = isItemUnlockedInPlayerSave(item.parsingInfo, parsedJson);
+    if (unlocked) {
+      currentPercent += item.completionPercent;
+      unlockedCount++;
+    }
+  });
+
+  return {
+    current: currentPercent,
+    total: maxPercent,
+    unlocked: unlockedCount,
+    total_count: categoryItems.length
+  };
+}
 
 export function SaveEditorPage({
   parsedJson,
@@ -71,6 +106,12 @@ export function SaveEditorPage({
   const activeCategory = useMemo(
     () => categories.find(cat => cat.name === activeTab),
     [categories, activeTab]
+  );
+
+  // 使用筛选功能过滤当前类别的物品
+  const filteredItems = useFilteredCategoryItems(
+    activeCategory?.items ?? [],
+    parsedJson
   );
 
   return (
@@ -126,6 +167,7 @@ export function SaveEditorPage({
               {categories.map(category => {
                 const isActive = category.name === activeTab;
                 const label = translate(category.name);
+                const progress = getCategoryProgress(category.items, parsedJson);
                 const stateClass = isActive
                   ? "border-emerald-400/70 bg-emerald-500/15 text-white shadow-lg shadow-emerald-900/40"
                   : "border-white/10 bg-slate-950/50 text-white/70 hover:-translate-y-1 hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white";
@@ -137,11 +179,21 @@ export function SaveEditorPage({
                   >
                     <div className="flex flex-col items-start gap-1 text-left">
                       <span>{label}</span>
+                      {hasParsedJson && progress.total > 0 && (
+                        <span className="text-xs font-normal text-emerald-200">
+                          {formatPercent(progress.current)} / {formatPercent(progress.total)} · {progress.unlocked}/{progress.total_count}
+                        </span>
+                      )}
                     </div>
                   </button>
                 );
               })}
             </div>
+          </div>
+
+          {/* 筛选栏 */}
+          <div className="mt-3 flex-shrink-0">
+            <ResultFilterBar disabled={!hasParsedJson} />
           </div>
 
           {/* 内容区域 */}
@@ -154,26 +206,32 @@ export function SaveEditorPage({
                   </p>
                 ) : null}
 
-                <div className="space-y-3">
+                {/* 两列网格布局 */}
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
                   {(() => {
                     let currentSection = "";
-                    return activeCategory.items.flatMap((item, index) => {
-                      const elements: ReactElement[] = [];
+                    const elements: ReactElement[] = [];
+
+                    filteredItems.forEach(({ item, result }, index) => {
+                      // 如果有新的section，插入section标题（占据两列）
                       if (item.section && item.section !== currentSection) {
                         currentSection = item.section;
                         elements.push(
                           <div
                             key={`section-${activeCategory.name}-${item.section}-${index}`}
-                            className="mb-2 mt-4 border-b border-white/10 pb-2 text-sm font-semibold text-white/90"
+                            className="col-span-1 lg:col-span-2 mb-2 mt-4 border-b border-white/10 pb-2 text-sm font-semibold text-white/90"
                           >
                             {translate(item.section)}
                           </div>,
                         );
                       }
+
                       const value = getItemValue(parsedJson, item.parsingInfo);
                       const isBoolean = isBooleanItem(item.parsingInfo);
                       const isNumeric = isNumericItem(item.parsingInfo);
                       const suggestedMax = getSuggestedMax(item.parsingInfo);
+                      const isFlagInt = item.parsingInfo.type === "flagInt";
+
                       const prereqText = item.prereqs?.length
                         ? t("UI_SAVE_EDITOR_PREREQS", "Prerequisites: {value}").replace(
                             "{value}",
@@ -190,29 +248,29 @@ export function SaveEditorPage({
                       elements.push(
                         <div
                           key={`item-${item.name}-${index}`}
-                          className="space-y-3 rounded-lg border border-white/10 bg-slate-900/50 px-4 py-3 backdrop-blur-sm transition-colors hover:border-emerald-400/30"
+                          className="space-y-2 rounded-lg border border-white/10 bg-slate-900/50 px-3 py-2.5 backdrop-blur-sm transition-colors hover:border-emerald-400/30"
                         >
                           <div className="space-y-1">
-                            <div className="font-medium text-white/90">{translate(item.name)}</div>
+                            <div className="font-medium text-white/90 text-sm leading-tight">{translate(item.name)}</div>
                             {item.location ? (
-                              <div className="whitespace-pre-line text-xs text-white/60">
+                              <div className="text-xs text-white/50 leading-snug line-clamp-2">
                                 {translate(item.location)}
                               </div>
                             ) : null}
                             {prereqText ? (
-                              <div className="text-xs text-white/60">{prereqText}</div>
+                              <div className="text-xs text-white/50">{prereqText}</div>
                             ) : null}
                             {helperText ? (
-                              <div className="text-xs text-white/60">{helperText}</div>
+                              <div className="text-xs text-white/50">{helperText}</div>
                             ) : null}
                           </div>
-                          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                            <div className="text-xs text-white/60">
+                          <div className="flex items-center justify-between gap-3">
+                            <div className="text-xs text-white/60 flex-shrink-0">
                               {t("UI_SAVE_EDITOR_CURRENT_VALUE", "Current value")}:{" "}
                               <span className="font-mono text-emerald-300">{String(value)}</span>
                             </div>
                             {isBoolean ? (
-                              <label className="flex items-center gap-2 text-sm text-white/80">
+                              <label className="flex items-center gap-2 text-xs text-white/80 flex-shrink-0">
                                 <input
                                   type="checkbox"
                                   className="h-4 w-4 rounded border border-white/20 bg-slate-800 text-emerald-500 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950"
@@ -224,29 +282,43 @@ export function SaveEditorPage({
                               </label>
                             ) : null}
                             {isNumeric ? (
-                              <input
-                                type="number"
-                                className="w-28 rounded-md border border-white/20 bg-slate-800 px-3 py-2 text-right text-sm text-white/90 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 focus:ring-offset-2 focus:ring-offset-slate-950"
-                                defaultValue={Number(value) ?? 0}
-                                min={0}
-                                max={suggestedMax ?? undefined}
-                                onBlur={event => {
-                                  const nextValue = Number(event.target.value);
-                                  if (Number.isNaN(nextValue)) {
-                                    return;
-                                  }
-                                  handleValueChange(item, nextValue);
-                                }}
-                              />
+                              <div className="flex items-center gap-2">
+                                {isFlagInt && suggestedMax ? (
+                                  <span className="text-xs text-white/50 flex-shrink-0">
+                                    (0-{suggestedMax})
+                                  </span>
+                                ) : null}
+                                <input
+                                  type="number"
+                                  className="w-20 rounded-md border border-white/20 bg-slate-800 px-2 py-1 text-right text-sm text-white/90 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 focus:ring-offset-2 focus:ring-offset-slate-950"
+                                  defaultValue={Number(value) ?? 0}
+                                  min={0}
+                                  max={suggestedMax ?? undefined}
+                                  onBlur={event => {
+                                    const nextValue = Number(event.target.value);
+                                    if (Number.isNaN(nextValue)) {
+                                      return;
+                                    }
+                                    handleValueChange(item, nextValue);
+                                  }}
+                                />
+                              </div>
                             ) : null}
                           </div>
                         </div>,
                       );
-
-                      return elements;
                     });
+
+                    return elements;
                   })()}
                 </div>
+
+                {/* 如果筛选后没有结果 */}
+                {filteredItems.length === 0 && (
+                  <div className="text-center text-white/50 py-8">
+                    {t("UI_NO_RESULTS", "没有符合筛选条件的项目")}
+                  </div>
+                )}
               </div>
             ) : null}
           </div>
