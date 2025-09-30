@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { DragEvent } from "react";
+import { toast } from "sonner";
 
 import HornetBackground from "./assets/HornetBackground.png";
 import { FileUpload } from "./components/FileUpload";
@@ -16,6 +17,8 @@ import { useWindowsSaves, type AutoSaveSummary } from "./hooks/useWindowsSaves";
 import { useI18n } from "./i18n/I18nContext";
 import { tabDefinitions } from "./tabs";
 import type { TabId } from "./tabs/types";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 
 type PlatformId = "Steam" | "Gamepass(PC)" | "macOS" | "Linux(Steamdeck)" | "Switch";
 type ViewId = "analysis" | "editor";
@@ -110,7 +113,6 @@ export default function App() {
     savePlain,
   } = useSaveFile();
   const [activeTab, setActiveTab] = useState<TabId>("Stats");
-  const [showToast, setShowToast] = useState(false);
   const [activePlatformId, setActivePlatformId] = useState<PlatformId>("Steam");
   const [activeAutoSaveId, setActiveAutoSaveId] = useState<string | null>(null);
   const [activeView, setActiveView] = useState<ViewId>("analysis");
@@ -122,8 +124,7 @@ export default function App() {
 
   const handleCopyPath = () => {
     navigator.clipboard.writeText(activePlatform.path);
-    setShowToast(true);
-    setTimeout(() => setShowToast(false), 2000);
+    toast.success(t("UI_COPY_TO_CLIPBOARD", "Copied to Clipboard!"));
   };
 
   const activeTabConfig = tabDefinitions.find(tab => tab.id === activeTab);
@@ -185,68 +186,70 @@ export default function App() {
               </div>
 
               {/* 视图切换 */}
-              <div className="flex overflow-hidden rounded-lg border border-white/10 bg-slate-950/60 p-1 shadow-lg">
+              <div className="flex gap-2">
                 {VIEW_OPTIONS.map(option => {
                   const isActive = option.id === activeView;
                   return (
-                    <button
+                    <Button
                       key={option.id}
-                      type="button"
+                      variant={isActive ? "default" : "outline"}
                       onClick={() => setActiveView(option.id)}
-                      className={`${
-                        isActive
-                          ? "bg-emerald-500 text-slate-950 shadow-md"
-                          : "text-white/70 hover:bg-white/5 hover:text-white"
-                      } flex-1 rounded-md px-3 py-2 text-sm font-semibold transition-all duration-200`}
+                      className="flex-1"
                     >
                       {t(option.labelKey, option.fallback)}
-                    </button>
+                    </Button>
                   );
                 })}
               </div>
             </div>
 
             {/* 文件上传区 */}
-            <div className="card-hover rounded-xl border border-white/10 bg-slate-950/50 p-4 shadow-xl transition-all duration-300 hover:border-emerald-500/30 hover:shadow-emerald-500/10">
-              <FileUpload
-                fileName={fileName}
-                onFileSelected={handleManualFileSelected}
-                onDrop={handleManualDrop}
-                onDragOver={handleDragOver}
-              />
-            </div>
+            <Card className="card-hover transition-all duration-300 hover:border-emerald-500/30 hover:shadow-emerald-500/10">
+              <CardContent className="p-4">
+                <FileUpload
+                  fileName={fileName}
+                  onFileSelected={handleManualFileSelected}
+                  onDrop={handleManualDrop}
+                  onDragOver={handleDragOver}
+                />
+              </CardContent>
+            </Card>
 
             {/* 自动存档卡片 */}
-            <div className="card-hover rounded-xl border border-white/10 bg-slate-950/50 p-4 shadow-xl">
-              <AutoSaveCards
-                saves={autoSaves.saves}
-                isLoading={autoSaves.isLoading}
-                error={autoSaves.error}
-                isSupported={autoSaves.isSupported}
-                activeSaveId={activeAutoSaveId}
-                onSelect={handleAutoSaveSelect}
-              />
-            </div>
+            <Card className="card-hover">
+              <CardContent className="p-4">
+                <AutoSaveCards
+                  saves={autoSaves.saves}
+                  isLoading={autoSaves.isLoading}
+                  error={autoSaves.error}
+                  isSupported={autoSaves.isSupported}
+                  activeSaveId={activeAutoSaveId}
+                  onSelect={handleAutoSaveSelect}
+                />
+              </CardContent>
+            </Card>
 
             {/* 进度显示 */}
-            <div className="card-hover space-y-3 rounded-xl border border-emerald-500/20 bg-gradient-to-br from-emerald-950/40 to-slate-950/60 p-4 shadow-xl">
-              <TotalProgress parsedJson={parsedJson} />
-              <div className="space-y-2 text-sm">
-                <div className="flex items-center justify-between text-white/80">
-                  <span className="text-xs uppercase tracking-wide text-white/50">
-                    {t("UI_CURRENT_FILE", "当前文件")}
-                  </span>
-                  <span className="truncate font-medium ml-2">
-                    {fileName || t("UI_NO_SAVE_LOADED", "未加载存档")}
-                  </span>
-                </div>
-                {activeAutoSave && (
-                  <div className="rounded-lg bg-emerald-500/10 px-3 py-1.5 text-xs text-emerald-300">
-                    {t("UI_AUTO_SAVES_SLOT", "槽位 {index}").replace("{index}", String(activeAutoSave.slotIndex))} - {activeAutoSave.displayName}
+            <Card className="card-hover border-emerald-500/20 bg-gradient-to-br from-emerald-950/40 to-slate-950/60">
+              <CardContent className="space-y-3 p-4">
+                <TotalProgress parsedJson={parsedJson} />
+                <div className="space-y-2 text-sm">
+                  <div className="flex items-center justify-between text-white/80">
+                    <span className="text-xs uppercase tracking-wide text-white/50">
+                      {t("UI_CURRENT_FILE", "当前文件")}
+                    </span>
+                    <span className="truncate font-medium ml-2">
+                      {fileName || t("UI_NO_SAVE_LOADED", "未加载存档")}
+                    </span>
                   </div>
-                )}
-              </div>
-            </div>
+                  {activeAutoSave && (
+                    <div className="rounded-lg bg-emerald-500/10 px-3 py-1.5 text-xs text-emerald-300">
+                      {t("UI_AUTO_SAVES_SLOT", "槽位 {index}").replace("{index}", String(activeAutoSave.slotIndex))} - {activeAutoSave.displayName}
+                    </div>
+                  )}
+                </div>
+              </CardContent>
+            </Card>
 
             {/* 平台选择（可折叠，精简版） */}
             <details className="card-hover group rounded-xl border border-white/10 bg-slate-950/50 shadow-xl">
@@ -351,18 +354,14 @@ export default function App() {
                   {VIEW_OPTIONS.map(option => {
                     const isActive = option.id === activeView;
                     return (
-                      <button
+                      <Button
                         key={option.id}
-                        type="button"
+                        variant={isActive ? "default" : "outline"}
                         onClick={() => setActiveView(option.id)}
-                        className={`${
-                          isActive
-                            ? "bg-emerald-500 text-slate-950"
-                            : "bg-white/5 text-white/70"
-                        } flex-1 rounded-lg px-3 py-2 text-sm font-semibold transition-all`}
+                        className="flex-1"
                       >
                         {t(option.labelKey, option.fallback)}
-                      </button>
+                      </Button>
                     );
                   })}
                 </div>
@@ -439,14 +438,6 @@ export default function App() {
             </div>
           </div>
         </main>
-
-        {showToast ? (
-          <div className="pointer-events-none fixed inset-x-0 bottom-10 flex justify-center px-4">
-            <div className="pointer-events-auto rounded-full bg-emerald-500/90 px-5 py-2 text-sm font-semibold text-slate-950 shadow-xl">
-              {t("UI_COPY_TO_CLIPBOARD", "Copied to Clipboard!")}
-            </div>
-          </div>
-        ) : null}
       </div>
     </ResultFiltersProvider>
   );
