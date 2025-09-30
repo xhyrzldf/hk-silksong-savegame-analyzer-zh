@@ -12,7 +12,8 @@ const devServerUrl = process.env.VITE_DEV_SERVER_URL ?? 'http://localhost:5173';
 const BACKUP_DIR_NAME = 'tool_bak';
 
 // 配置日志系统 - 统一输出到可执行文件/项目根目录
-log.transports.file.resolvePathFn = () => {
+// 使用立即执行函数，只计算一次路径
+const logPath = (() => {
   let logDir: string;
   const logFileName = `silksong-save-analyzer.log`;
 
@@ -21,35 +22,24 @@ log.transports.file.resolvePathFn = () => {
     logDir = path.dirname(app.getAppPath());
   } else {
     // 打包后：输出到 exe 同目录
-    // Windows portable 打包：exe 在根目录，我们直接使用 exe 所在目录
     logDir = path.dirname(process.execPath);
-
-    // 记录调试信息到控制台
-    console.log('[electron] 打包模式路径信息:');
-    console.log('[electron]   process.execPath:', process.execPath);
-    console.log('[electron]   process.resourcesPath:', process.resourcesPath);
-    console.log('[electron]   app.getAppPath():', app.getAppPath());
-    console.log('[electron]   计算的日志目录:', logDir);
   }
 
-  const logPath = path.join(logDir, logFileName);
+  const targetPath = path.join(logDir, logFileName);
 
   // 确保目录存在且可写
   try {
     const fs = require('fs');
-    // 测试写入权限
     fs.accessSync(logDir, fs.constants.W_OK);
-    console.log('[electron] 日志将写入到:', logPath);
+    return targetPath;
   } catch (error) {
     // 如果无法写入，fallback 到用户目录
-    console.error('[electron] 无法写入日志到:', logDir, error);
-    logDir = app.getPath('userData');
-    console.log('[electron] 日志将写入到用户目录:', logDir);
-    return path.join(logDir, logFileName);
+    const fallbackDir = app.getPath('userData');
+    return path.join(fallbackDir, logFileName);
   }
+})();
 
-  return logPath;
-};
+log.transports.file.resolvePathFn = () => logPath;
 
 // 配置日志格式和参数
 log.transports.file.format = '[{y}-{m}-{d} {h}:{i}:{s}.{ms}] [{level}] {text}';
