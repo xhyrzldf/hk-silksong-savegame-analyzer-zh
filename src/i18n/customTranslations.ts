@@ -2208,6 +2208,10 @@ export const CUSTOM_TRANSLATIONS = {
   "UI_ORIGINAL_AUTHOR": {
     en: "Original Author",
     zh: "原作者"
+  },
+  "UI_NO_RESULTS": {
+    en: "No items match the filter criteria",
+    zh: "没有符合筛选条件的项目"
   }
 };
 
