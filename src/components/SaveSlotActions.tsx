@@ -3,6 +3,8 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import type { AutoSaveSummary } from "../hooks/useWindowsSaves";
 import { useI18n } from "../i18n/I18nContext";
 import { encodeSave } from "../services/decryptor";
+import { SaveImport } from "./SaveImport";
+import { SaveExport } from "./SaveExport";
 
 type FeedbackKind = "success" | "error" | "info";
 
@@ -295,6 +297,49 @@ export function SaveSlotActions({
     }
   }, [autoSaveSlots, electronApi, loadBackups, refreshAutoSaves, restoreTargetId, selectedBackupName, t]);
 
+  const handleImport = useCallback(async (slotIndex: number, saveData: Uint8Array) => {
+    if (!electronApi?.writeWindowsSlot) {
+      throw new Error(t("UI_SAVE_EDITOR_SAVE_UNAVAILABLE", "Slot writing is not supported in this environment"));
+    }
+    const targetSlot = autoSaveSlots.find(save => save.slotIndex === slotIndex);
+    if (!targetSlot) {
+      throw new Error(t("UI_IMPORT_SLOT_NOT_FOUND", "目标槽位未找到"));
+    }
+    await electronApi.writeWindowsSlot({ filePath: targetSlot.filePath, data: saveData });
+    setFeedback({ kind: "success", text: t("UI_IMPORT_SUCCESS", "成功导入到槽位 {slot}").replace("{slot}", String(slotIndex)) });
+    const refreshResult = refreshAutoSaves();
+    if (isPromiseLike(refreshResult)) {
+      await refreshResult;
+    }
+    await loadBackups();
+  }, [autoSaveSlots, electronApi, loadBackups, refreshAutoSaves, t]);
+
+  const handleExport = useCallback(async (slotIndex: number): Promise<Uint8Array | null> => {
+    const targetSlot = autoSaveSlots.find(save => save.slotIndex === slotIndex);
+    if (!targetSlot) {
+      return null;
+    }
+    // 如果是Electron环境,从文件系统读取
+    if (electronApi?.readWindowsSlot) {
+      try {
+        const data = await electronApi.readWindowsSlot({ filePath: targetSlot.filePath });
+        return data;
+      } catch (error) {
+        console.error("[save-slot-actions] Failed to read slot", error);
+        return null;
+      }
+    }
+    // Web环境,使用当前编辑的JSON
+    if (targetSlot.id === activeAutoSave?.id && hasParsedJson) {
+      const normalized = ensureJsonIsValid();
+      if (!normalized) {
+        return null;
+      }
+      return encodeSave(normalized);
+    }
+    return null;
+  }, [autoSaveSlots, electronApi, activeAutoSave, hasParsedJson, ensureJsonIsValid]);
+
   return (
     <section className="text-white">
       <div className="flex flex-wrap items-center gap-3">
@@ -350,6 +395,25 @@ export function SaveSlotActions({
         >
           {t("UI_SAVE_PLAIN", "导出 .json")}
         </button>
+
+        {/* 导入导出按钮 */}
+        {isAutoSaveSupported && (
+          <>
+            <span className="text-xs text-white/30">|</span>
+            <div className="flex gap-2">
+              <SaveImport
+                saves={autoSaveSlots}
+                isSupported={isAutoSaveSupported}
+                onImport={handleImport}
+              />
+              <SaveExport
+                saves={autoSaveSlots}
+                isSupported={isAutoSaveSupported}
+                onExport={handleExport}
+              />
+            </div>
+          </>
+        )}
 
         {/* 槽位复制按钮组 */}
         {isAutoSaveSupported && autoSaveSlots.length >= 2 && (
