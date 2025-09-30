@@ -12,7 +12,6 @@ import { CATEGORIES } from "../parsers/dictionary";
 import type { CategoryItem } from "../parsers/dictionary";
 import type { AutoSaveSummary } from "../hooks/useWindowsSaves";
 import { useI18n } from "../i18n/I18nContext";
-import { TabBar } from "../components/TabBar";
 import { Card, CardContent } from "@/components/ui/card";
 
 interface SaveEditorPageProps {
@@ -68,16 +67,6 @@ export function SaveEditorPage({
 
   const categories = useMemo(() => CATEGORIES, []);
 
-  // 将categories转换为TabBar需要的格式
-  const tabDefinitions = useMemo(() =>
-    categories.map(category => ({
-      id: category.name,
-      label: category.name,
-      labelKey: undefined,
-    })),
-    [categories]
-  );
-
   // 找到当前激活的类别
   const activeCategory = useMemo(
     () => categories.find(cat => cat.name === activeTab),
@@ -131,15 +120,28 @@ export function SaveEditorPage({
         </Card>
       ) : (
         <div className="flex flex-1 flex-col overflow-hidden">
-          {/* TabBar - 使用和分析页面完全相同的组件 */}
+          {/* 类别选择按钮 - 与分析页面TabBar样式一致 */}
           <div className="flex-shrink-0">
-            <TabBar
-              tabs={tabDefinitions}
-              activeTab={activeTab}
-              onSelect={setActiveTab}
-              parsedJson={parsedJson}
-              decrypted={hasParsedJson}
-            />
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {categories.map(category => {
+                const isActive = category.name === activeTab;
+                const label = translate(category.name);
+                const stateClass = isActive
+                  ? "border-emerald-400/70 bg-emerald-500/15 text-white shadow-lg shadow-emerald-900/40"
+                  : "border-white/10 bg-slate-950/50 text-white/70 hover:-translate-y-1 hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white";
+                return (
+                  <button
+                    key={category.name}
+                    onClick={() => setActiveTab(category.name)}
+                    className={`rounded-2xl border px-4 py-3 text-sm font-semibold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 ${stateClass}`}
+                  >
+                    <div className="flex flex-col items-start gap-1 text-left">
+                      <span>{label}</span>
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
           {/* 内容区域 */}
