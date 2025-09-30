@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState, type ReactElement, type ReactNode } from "react";
+import { useCallback, useMemo, useState, type ReactElement } from "react";
 
 import {
   applyItemValue,
@@ -9,7 +9,7 @@ import {
   isNumericItem,
 } from "../services/saveMutations";
 import { CATEGORIES, isItemUnlockedInPlayerSave } from "../parsers/dictionary";
-import type { CategoryItem } from "../parsers/dictionary";
+import type { CategoryItem, FlagIntParsingInfo } from "../parsers/dictionary";
 import type { AutoSaveSummary } from "../hooks/useWindowsSaves";
 import { useI18n } from "../i18n/I18nContext";
 import { useFilteredCategoryItems } from "../hooks/useResultFilters";
@@ -61,6 +61,20 @@ function getCategoryProgress(
     unlocked: unlockedCount,
     total_count: categoryItems.length
   };
+}
+
+// 检测是否是升级序列的一部分
+function isFlagIntUpgrade(item: CategoryItem): boolean {
+  if (item.parsingInfo.type !== "flagInt") return false;
+  const [fieldName] = (item.parsingInfo as FlagIntParsingInfo).internalId;
+  // 排除不是升级序列的 flagInt（如 CaravanTroupeLocation）
+  return ["nailUpgrades", "ToolPouchUpgrades", "ToolKitUpgrades", "silkRegenMax"].includes(fieldName);
+}
+
+// 获取升级序列的字段名
+function getUpgradeFieldName(item: CategoryItem): string | null {
+  if (item.parsingInfo.type !== "flagInt") return null;
+  return (item.parsingInfo as FlagIntParsingInfo).internalId[0];
 }
 
 export function SaveEditorPage({
@@ -211,8 +225,12 @@ export function SaveEditorPage({
                   {(() => {
                     let currentSection = "";
                     const elements: ReactElement[] = [];
+                    const processedIndices = new Set<number>();
 
-                    filteredItems.forEach(({ item, result }, index) => {
+                    filteredItems.forEach(({ item }, index) => {
+                      // 跳过已处理的项（升级组的后续项）
+                      if (processedIndices.has(index)) return;
+
                       // 如果有新的section，插入section标题（占据两列）
                       if (item.section && item.section !== currentSection) {
                         currentSection = item.section;
@@ -226,87 +244,157 @@ export function SaveEditorPage({
                         );
                       }
 
-                      const value = getItemValue(parsedJson, item.parsingInfo);
-                      const isBoolean = isBooleanItem(item.parsingInfo);
-                      const isNumeric = isNumericItem(item.parsingInfo);
-                      const suggestedMax = getSuggestedMax(item.parsingInfo);
-                      const isFlagInt = item.parsingInfo.type === "flagInt";
+                      // 检查是否是升级序列
+                      if (isFlagIntUpgrade(item)) {
+                        const fieldName = getUpgradeFieldName(item)!;
+                        // 收集同一字段名的所有升级项
+                        const upgradeGroup: Array<{ item: CategoryItem; index: number; threshold: number }> = [];
 
-                      const prereqText = item.prereqs?.length
-                        ? t("UI_SAVE_EDITOR_PREREQS", "Prerequisites: {value}").replace(
-                            "{value}",
-                            item.prereqs.map(pr => translate(pr)).join(", "),
-                          )
-                        : null;
-                      const helperText = item.killsRequired
-                        ? t("UI_SAVE_EDITOR_KILLS_REQUIRED", "Target kills: {value}").replace(
-                            "{value}",
-                            String(item.killsRequired),
-                          )
-                        : null;
+                        filteredItems.forEach((entry, idx) => {
+                          if (idx >= index && getUpgradeFieldName(entry.item) === fieldName) {
+                            const threshold = (entry.item.parsingInfo as FlagIntParsingInfo).internalId[1];
+                            upgradeGroup.push({ item: entry.item, index: idx, threshold });
+                            processedIndices.add(idx);
+                          }
+                        });
 
-                      elements.push(
-                        <div
-                          key={`item-${item.name}-${index}`}
-                          className="space-y-2 rounded-lg border border-white/10 bg-slate-900/50 px-3 py-2.5 backdrop-blur-sm transition-colors hover:border-emerald-400/30"
-                        >
-                          <div className="space-y-1">
-                            <div className="font-medium text-white/90 text-sm leading-tight">{translate(item.name)}</div>
-                            {item.location ? (
-                              <div className="text-xs text-white/50 leading-snug line-clamp-2">
-                                {translate(item.location)}
+                        // 获取当前值
+                        const currentValue = Number(getItemValue(parsedJson, item.parsingInfo)) || 0;
+                        const maxLevel = Math.max(...upgradeGroup.map(g => g.threshold));
+
+                        // 渲染升级组
+                        elements.push(
+                          <div
+                            key={`upgrade-group-${fieldName}-${index}`}
+                            className="space-y-2 rounded-lg border border-white/10 bg-slate-900/50 px-3 py-2.5 backdrop-blur-sm transition-colors hover:border-emerald-400/30"
+                          >
+                            <div className="space-y-1">
+                              <div className="font-medium text-white/90 text-sm leading-tight">
+                                {translate(item.section || item.name)}
                               </div>
-                            ) : null}
-                            {prereqText ? (
-                              <div className="text-xs text-white/50">{prereqText}</div>
-                            ) : null}
-                            {helperText ? (
-                              <div className="text-xs text-white/50">{helperText}</div>
-                            ) : null}
-                          </div>
-                          <div className="flex items-center justify-between gap-3">
-                            <div className="text-xs text-white/60 flex-shrink-0">
-                              {t("UI_SAVE_EDITOR_CURRENT_VALUE", "Current value")}:{" "}
-                              <span className="font-mono text-emerald-300">{String(value)}</span>
+                              <div className="text-xs text-white/50">
+                                {t("UI_SAVE_EDITOR_CURRENT_LEVEL", "当前等级")}: {currentValue} / {maxLevel}
+                              </div>
                             </div>
-                            {isBoolean ? (
-                              <label className="flex items-center gap-2 text-xs text-white/80 flex-shrink-0">
-                                <input
-                                  type="checkbox"
-                                  className="h-4 w-4 rounded border border-white/20 bg-slate-800 text-emerald-500 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950"
-                                  checked={Boolean(value)}
-                                  disabled={!hasParsedJson}
-                                  onChange={event => handleValueChange(item, event.target.checked)}
-                                />
-                                <span>{t("UI_SAVE_EDITOR_TOGGLE_UNLOCKED", "Mark as unlocked")}</span>
-                              </label>
-                            ) : null}
-                            {isNumeric ? (
-                              <div className="flex items-center gap-2">
-                                {isFlagInt && suggestedMax ? (
-                                  <span className="text-xs text-white/50 flex-shrink-0">
-                                    (0-{suggestedMax})
-                                  </span>
-                                ) : null}
-                                <input
-                                  type="number"
-                                  className="w-20 rounded-md border border-white/20 bg-slate-800 px-2 py-1 text-right text-sm text-white/90 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 focus:ring-offset-2 focus:ring-offset-slate-950"
-                                  defaultValue={Number(value) ?? 0}
-                                  min={0}
-                                  max={suggestedMax ?? undefined}
-                                  onBlur={event => {
-                                    const nextValue = Number(event.target.value);
-                                    if (Number.isNaN(nextValue)) {
-                                      return;
-                                    }
-                                    handleValueChange(item, nextValue);
-                                  }}
-                                />
+                            <div className="flex flex-wrap gap-3">
+                              {upgradeGroup.sort((a, b) => a.threshold - b.threshold).map(({ threshold }) => {
+                                const isChecked = currentValue >= threshold;
+                                return (
+                                  <label
+                                    key={`upgrade-${fieldName}-${threshold}`}
+                                    className="flex items-center gap-2 text-xs text-white/80"
+                                  >
+                                    <input
+                                      type="checkbox"
+                                      className="h-4 w-4 rounded border border-white/20 bg-slate-800 text-emerald-500 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950"
+                                      checked={isChecked}
+                                      disabled={!hasParsedJson}
+                                      onChange={event => {
+                                        if (!hasParsedJson) return;
+
+                                        let newValue: number;
+                                        if (event.target.checked) {
+                                          // 勾选：设置为当前等级（会自动勾选更低等级）
+                                          newValue = threshold;
+                                        } else {
+                                          // 取消勾选：设置为前一等级
+                                          newValue = threshold - 1;
+                                        }
+
+                                        // 使用第一个升级项的 parsingInfo 来更新值
+                                        handleValueChange(upgradeGroup[0].item, newValue);
+                                      }}
+                                    />
+                                    <span>等级 {threshold}</span>
+                                  </label>
+                                );
+                              })}
+                            </div>
+                          </div>,
+                        );
+                      } else {
+                        // 非升级项，正常渲染
+                        const value = getItemValue(parsedJson, item.parsingInfo);
+                        const isBoolean = isBooleanItem(item.parsingInfo);
+                        const isNumeric = isNumericItem(item.parsingInfo);
+                        const suggestedMax = getSuggestedMax(item.parsingInfo);
+
+                        const prereqText = item.prereqs?.length
+                          ? t("UI_SAVE_EDITOR_PREREQS", "Prerequisites: {value}").replace(
+                              "{value}",
+                              item.prereqs.map(pr => translate(pr)).join(", "),
+                            )
+                          : null;
+                        const helperText = item.killsRequired
+                          ? t("UI_SAVE_EDITOR_KILLS_REQUIRED", "Target kills: {value}").replace(
+                              "{value}",
+                              String(item.killsRequired),
+                            )
+                          : null;
+
+                        elements.push(
+                          <div
+                            key={`item-${item.name}-${index}`}
+                            className="space-y-2 rounded-lg border border-white/10 bg-slate-900/50 px-3 py-2.5 backdrop-blur-sm transition-colors hover:border-emerald-400/30"
+                          >
+                            <div className="space-y-1">
+                              <div className="font-medium text-white/90 text-sm leading-tight">{translate(item.name)}</div>
+                              {item.location ? (
+                                <div className="text-xs text-white/50 leading-snug line-clamp-2">
+                                  {translate(item.location)}
+                                </div>
+                              ) : null}
+                              {prereqText ? (
+                                <div className="text-xs text-white/50">{prereqText}</div>
+                              ) : null}
+                              {helperText ? (
+                                <div className="text-xs text-white/50">{helperText}</div>
+                              ) : null}
+                            </div>
+                            <div className="flex items-center justify-between gap-3">
+                              <div className="text-xs text-white/60 flex-shrink-0">
+                                {t("UI_SAVE_EDITOR_CURRENT_VALUE", "Current value")}:{" "}
+                                <span className="font-mono text-emerald-300">{String(value)}</span>
                               </div>
-                            ) : null}
-                          </div>
-                        </div>,
-                      );
+                              {isBoolean ? (
+                                <label className="flex items-center gap-2 text-xs text-white/80 flex-shrink-0">
+                                  <input
+                                    type="checkbox"
+                                    className="h-4 w-4 rounded border border-white/20 bg-slate-800 text-emerald-500 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950"
+                                    checked={Boolean(value)}
+                                    disabled={!hasParsedJson}
+                                    onChange={event => handleValueChange(item, event.target.checked)}
+                                  />
+                                  <span>{t("UI_SAVE_EDITOR_TOGGLE_UNLOCKED", "Mark as unlocked")}</span>
+                                </label>
+                              ) : null}
+                              {isNumeric ? (
+                                <div className="flex items-center gap-2">
+                                  {suggestedMax ? (
+                                    <span className="text-xs text-white/50 flex-shrink-0">
+                                      (0-{suggestedMax})
+                                    </span>
+                                  ) : null}
+                                  <input
+                                    type="number"
+                                    className="w-20 rounded-md border border-white/20 bg-slate-800 px-2 py-1 text-right text-sm text-white/90 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 focus:ring-offset-2 focus:ring-offset-slate-950"
+                                    defaultValue={Number(value) ?? 0}
+                                    min={0}
+                                    max={suggestedMax ?? undefined}
+                                    onBlur={event => {
+                                      const nextValue = Number(event.target.value);
+                                      if (Number.isNaN(nextValue)) {
+                                        return;
+                                      }
+                                      handleValueChange(item, nextValue);
+                                    }}
+                                  />
+                                </div>
+                              ) : null}
+                            </div>
+                          </div>,
+                        );
+                      }
                     });
 
                     return elements;
