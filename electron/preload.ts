@@ -21,6 +21,9 @@ type BackupEntry = {
 contextBridge.exposeInMainWorld('electronAPI', {
   platform: process.platform,
   versions: process.versions,
+  async getLogPath(): Promise<string> {
+    return (await ipcRenderer.invoke('get-log-path')) as string;
+  },
   async listWindowsSaves(): Promise<ExposedWindowsSave[]> {
     if (process.platform !== 'win32') {
       return [];
