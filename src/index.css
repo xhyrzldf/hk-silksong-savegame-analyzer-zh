@@ -1,12 +1,101 @@
 @import "tailwindcss";
 @custom-variant hover (&:hover);
 
+/* shadcn/ui Design Tokens - 高级深色主题 */
+:root {
+  --radius: 0.75rem;
+}
+
+.dark {
+  /* 背景层级 - 深邃黑蓝色系 */
+  --background: 222 47% 4%;
+  --foreground: 210 40% 98%;
+
+  /* 卡片系统 - 微妙层级感 */
+  --card: 222 47% 8%;
+  --card-foreground: 210 40% 98%;
+
+  /* 弹出层 */
+  --popover: 222 47% 6%;
+  --popover-foreground: 210 40% 98%;
+
+  /* 主色调 - 优雅的青蓝绿渐变 */
+  --primary: 168 76% 56%;
+  --primary-foreground: 222 47% 11%;
+
+  /* 次要色 */
+  --secondary: 217 33% 17%;
+  --secondary-foreground: 210 40% 98%;
+
+  /* 柔和背景 */
+  --muted: 217 33% 17%;
+  --muted-foreground: 215 20% 65%;
+
+  /* 强调色 - 微妙的紫调 */
+  --accent: 262 52% 47%;
+  --accent-foreground: 210 40% 98%;
+
+  /* 成功色 - 生机绿 */
+  --success: 142 71% 45%;
+  --success-foreground: 222 47% 11%;
+
+  /* 警告色 */
+  --warning: 38 92% 50%;
+  --warning-foreground: 222 47% 11%;
+
+  /* 危险色 */
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+
+  /* 边框与输入 - 极致微妙 */
+  --border: 217 33% 17%;
+  --input: 217 33% 17%;
+  --ring: 168 76% 56%;
+
+  /* 图表色 - 和谐配色 */
+  --chart-1: 168 76% 56%;
+  --chart-2: 262 52% 47%;
+  --chart-3: 142 71% 45%;
+  --chart-4: 280 65% 60%;
+  --chart-5: 38 92% 50%;
+}
+
+/* 注册Tailwind CSS变量 */
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+  --radius: var(--radius);
+}
+
 html {
   scrollbar-gutter: stable both-edges;
+  color-scheme: dark;
 }
 
 body {
-  @apply bg-slate-950 text-slate-100 antialiased;
+  @apply bg-background text-foreground antialiased;
 }
 
 /* 动画效果 */
@@ -81,14 +170,16 @@ body {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
-/* 卡片悬停效果 */
+/* 卡片悬停效果 - 使用新配色 */
 .card-hover {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-hover:hover {
   transform: translateY(-2px);
-  box-shadow: 0 20px 25px -5px rgba(16, 185, 129, 0.1), 0 10px 10px -5px rgba(16, 185, 129, 0.04);
+  box-shadow: 0 20px 25px -5px hsl(var(--primary) / 0.15),
+              0 10px 10px -5px hsl(var(--primary) / 0.08);
+  border-color: hsl(var(--primary) / 0.3);
 }
 
 /* 平滑滚动 */
@@ -96,21 +187,33 @@ body {
   scroll-behavior: smooth;
 }
 
-/* 自定义滚动条 */
+/* 自定义滚动条 - 现代化设计 */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(15, 23, 42, 0.3);
+  background: hsl(var(--background));
+  border-radius: 100vmax;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(100, 116, 139, 0.5);
-  border-radius: 4px;
+  background: hsl(var(--primary) / 0.3);
+  border-radius: 100vmax;
+  border: 2px solid hsl(var(--background));
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(100, 116, 139, 0.7);
+  background: hsl(var(--primary) / 0.5);
+}
+
+/* 高级渐变背景 */
+.gradient-mesh {
+  background:
+    radial-gradient(at 27% 37%, hsl(var(--primary) / 0.12) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, hsl(var(--accent) / 0.08) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, hsl(var(--chart-3) / 0.06) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, hsl(var(--chart-2) / 0.08) 0px, transparent 50%),
+    radial-gradient(at 97% 96%, hsl(var(--primary) / 0.1) 0px, transparent 50%);
 }
