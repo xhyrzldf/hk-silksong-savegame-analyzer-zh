@@ -171,7 +171,7 @@ export default function App() {
       >
         <div className="absolute inset-0 bg-slate-950/85 backdrop-blur-md" />
         <div className="absolute inset-0 bg-gradient-to-br from-emerald-900/40 via-slate-900/35 to-slate-950/95" />
-        <div className="relative z-10 mx-auto max-w-7xl space-y-12 px-4 py-10 sm:px-6 lg:px-8">
+        <div className="relative z-10 mx-auto max-w-[110rem] space-y-12 px-6 py-10 sm:px-8 lg:px-10 xl:px-12">
           <header className="space-y-6">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
               <div className="max-w-3xl space-y-2">
@@ -259,7 +259,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="grid gap-6 xl:grid-cols-2">
+              <div className="grid gap-6 xl:grid-cols-[0.9fr_1.1fr] 2xl:grid-cols-[0.85fr_1.15fr]">
                 <div className="rounded-3xl border border-white/10 bg-slate-900/70 p-6 shadow-2xl backdrop-blur-lg">
                   <AutoSaveCards
                     saves={autoSaves.saves}
