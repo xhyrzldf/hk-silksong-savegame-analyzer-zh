@@ -73,7 +73,6 @@ export function SaveSlotActions({
   parsedJson,
   jsonText,
   setJsonText,
-  fileName,
   activeAutoSave,
   autoSaveSlots,
   isAutoSaveSupported,
@@ -96,7 +95,6 @@ export function SaveSlotActions({
   const [isRestoring, setIsRestoring] = useState(false);
   const [isLoadingBackups, setIsLoadingBackups] = useState(false);
   const [backups, setBackups] = useState<WindowsBackupEntry[]>([]);
-  const [backupError, setBackupError] = useState<string | null>(null);
   const [selectedBackupName, setSelectedBackupName] = useState<string>("");
   const [restoreTargetId, setRestoreTargetId] = useState<string>("");
   const [copySourceId, setCopySourceId] = useState<string>("");
@@ -158,10 +156,9 @@ export function SaveSlotActions({
     try {
       const entries = await electronApi.listWindowsBackups();
       setBackups(entries);
-      setBackupError(null);
     } catch (error) {
       console.error("[save-slot-actions] Failed to list backups", error);
-      setBackupError(t("UI_SAVE_EDITOR_BACKUP_LOAD_ERROR", "Failed to load backup list"));
+      setBackups([]);
     } finally {
       setIsLoadingBackups(false);
     }
@@ -299,29 +296,21 @@ export function SaveSlotActions({
   }, [autoSaveSlots, electronApi, loadBackups, refreshAutoSaves, restoreTargetId, selectedBackupName, t]);
 
   return (
-    <section className="rounded-3xl border border-white/10 bg-gradient-to-br from-emerald-500/10 via-slate-900/70 to-slate-950/80 p-6 text-white shadow-2xl backdrop-blur-lg">
-      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-        <div className="space-y-1">
-          <h2 className="text-lg font-semibold text-white/90">
-            {t("UI_SAVE_MANAGER_TITLE", "Save slot tools")}
-          </h2>
-          <p className="text-xs text-white/60">
-            {fileName
-              ? `${fileName} ${t("UI_FILE_SELECTED_SUFFIX", "selected")}`
-              : t("UI_NO_SAVE_LOADED", "No Savefile loaded")}
-          </p>
-        </div>
-        {activeAutoSave ? (
-          <span className="inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-200">
-            {t("UI_AUTO_SAVES_SLOT", "Slot {index}").replace("{index}", String(activeAutoSave.slotIndex))}
-            <span className="text-white/70">· {activeAutoSave.displayName}</span>
+    <section className="text-white">
+      <div className="flex flex-wrap items-center gap-3">
+        <h2 className="text-sm font-semibold text-white/90">
+          {t("UI_SAVE_MANAGER_TITLE", "存档工具")}
+        </h2>
+        {activeAutoSave && (
+          <span className="rounded-full border border-emerald-400/40 bg-emerald-500/10 px-2.5 py-0.5 text-xs font-semibold text-emerald-200">
+            {t("UI_AUTO_SAVES_SLOT", "槽位 {index}").replace("{index}", String(activeAutoSave.slotIndex))} · {activeAutoSave.displayName}
           </span>
-        ) : null}
+        )}
       </div>
 
-      {feedback ? (
+      {feedback && (
         <div
-          className={`mt-4 rounded-2xl border px-4 py-3 text-sm ${
+          className={`mt-2 rounded-lg border px-3 py-2 text-xs ${
             feedback.kind === "success"
               ? "border-emerald-400/60 bg-emerald-500/15 text-emerald-100"
               : feedback.kind === "error"
@@ -331,180 +320,127 @@ export function SaveSlotActions({
         >
           {feedback.text}
         </div>
-      ) : null}
+      )}
 
-      {!isAutoSaveSupported ? (
-        <div className="mt-4 rounded-2xl border border-white/10 bg-slate-950/50 px-4 py-3 text-sm text-white/70">
-          {t("UI_SAVE_EDITOR_SAVE_UNAVAILABLE", "Slot writing is not supported in this environment")}
-        </div>
-      ) : null}
+      <div className="mt-3 flex flex-wrap gap-2">
+        {/* 快捷操作按钮 - 网格布局 */}
+        <button
+          type="button"
+          onClick={handleSaveToSlot}
+          disabled={!isAutoSaveSupported || !electronApi?.writeWindowsSlot || !hasParsedJson || isSaving}
+          className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition-all ${
+            !isAutoSaveSupported || !electronApi?.writeWindowsSlot || !hasParsedJson || isSaving
+              ? "cursor-not-allowed border-emerald-400/25 bg-emerald-500/10 text-white/50"
+              : "border-emerald-400/70 bg-emerald-500/90 text-slate-950 shadow-md hover:bg-emerald-400/80"
+          }`}
+        >
+          {isSaving ? t("UI_SAVE_EDITOR_SAVING", "保存中...") : t("UI_SAVE_EDITOR_SAVE_BUTTON", "写入槽位")}
+        </button>
+        <button
+          type="button"
+          onClick={handleDownloadDat}
+          className="rounded-lg border border-white/15 bg-white/5 px-3 py-1.5 text-xs font-semibold text-white/70 transition-all hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white"
+        >
+          {t("UI_SAVE_ENCRYPTED", "导出 .dat")}
+        </button>
+        <button
+          type="button"
+          onClick={savePlain}
+          className="rounded-lg border border-white/15 bg-white/5 px-3 py-1.5 text-xs font-semibold text-white/70 transition-all hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white"
+        >
+          {t("UI_SAVE_PLAIN", "导出 .json")}
+        </button>
 
-      <div className="mt-6 grid gap-6 xl:grid-cols-[0.95fr_1.05fr] 2xl:grid-cols-[0.9fr_1.1fr] xl:items-start">
-        <div className="space-y-4">
-          <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-4">
-            <h3 className="text-sm font-semibold text-white/80">
-              {t("UI_SAVE_EDITOR_PANEL_TITLE", "Save Editing")}
-            </h3>
-            <p className="mt-2 text-xs text-white/60">
-              {t("UI_SAVE_MANAGER_HINT", "Write, export, or back up the active slot")}
-            </p>
-            <div className="mt-4 flex flex-wrap gap-2">
-              <button
-                type="button"
-                onClick={handleSaveToSlot}
-                disabled={
-                  !isAutoSaveSupported || !electronApi?.writeWindowsSlot || !hasParsedJson || isSaving
-                }
-                className={`rounded-full border px-4 py-2 text-sm font-semibold transition-all duration-300 ${
-                  !isAutoSaveSupported || !electronApi?.writeWindowsSlot || !hasParsedJson || isSaving
-                    ? "cursor-not-allowed border-emerald-400/25 bg-emerald-500/10 text-white/50"
-                    : "border-emerald-400/70 bg-emerald-500/90 text-slate-950 shadow-lg shadow-emerald-900/40 hover:bg-emerald-400/80"
-                }`}
-              >
-                {isSaving ? t("UI_SAVE_EDITOR_SAVING", "Saving...") : t("UI_SAVE_EDITOR_SAVE_BUTTON", "Save to slot (with backup)")}
-              </button>
-              <button
-                type="button"
-                onClick={handleDownloadDat}
-                className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm font-semibold text-white/70 transition-all duration-300 hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white"
-              >
-                {t("UI_SAVE_ENCRYPTED", "Save Encrypted (.dat)")}
-              </button>
-              <button
-                type="button"
-                onClick={savePlain}
-                className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm font-semibold text-white/70 transition-all duration-300 hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white"
-              >
-                {t("UI_SAVE_PLAIN", "Save Plain (.json)")}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div className="space-y-4">
-          <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-4">
-            <h3 className="text-sm font-semibold text-white/80">
-              {t("UI_SAVE_EDITOR_SECTION_COPY", "Copy & backup")}
-            </h3>
-            <div className="mt-3 grid gap-3 lg:grid-cols-2">
-              <label className="flex flex-col gap-1 text-xs">
-                <span className="text-white/70">{t("UI_SAVE_EDITOR_COPY_SOURCE", "Source slot")}</span>
-                <select
-                  className="w-full rounded border border-white/15 bg-slate-950/60 px-2 py-2"
-                  value={copySourceId}
-                  onChange={event => setCopySourceId(event.target.value)}
-                  disabled={!isAutoSaveSupported}
-                >
-                  {slotOptions.map(option => (
-                    <option key={option.id} value={option.id}>
-                      {option.label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <label className="flex flex-col gap-1 text-xs">
-                <span className="text-white/70">{t("UI_SAVE_EDITOR_COPY_TARGET", "Target slot")}</span>
-                <select
-                  className="w-full rounded border border-white/15 bg-slate-950/60 px-2 py-2"
-                  value={copyTargetId}
-                  onChange={event => setCopyTargetId(event.target.value)}
-                  disabled={!isAutoSaveSupported}
-                >
-                  {slotOptions.map(option => (
-                    <option key={option.id} value={option.id}>
-                      {option.label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-            </div>
+        {/* 槽位复制按钮组 */}
+        {isAutoSaveSupported && autoSaveSlots.length >= 2 && (
+          <>
+            <span className="text-xs text-white/30">|</span>
+            <select
+              className="rounded-lg border border-white/15 bg-slate-950/60 px-2 py-1 text-xs"
+              value={copySourceId}
+              onChange={event => setCopySourceId(event.target.value)}
+            >
+              {slotOptions.map(option => (
+                <option key={option.id} value={option.id}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+            <span className="text-xs text-white/50">→</span>
+            <select
+              className="rounded-lg border border-white/15 bg-slate-950/60 px-2 py-1 text-xs"
+              value={copyTargetId}
+              onChange={event => setCopyTargetId(event.target.value)}
+            >
+              {slotOptions.map(option => (
+                <option key={option.id} value={option.id}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
             <button
               type="button"
               onClick={handleCopySlot}
-              disabled={!isAutoSaveSupported || autoSaveSlots.length < 2 || isCopying}
-              className={`mt-3 w-full rounded-full border px-4 py-2 text-sm font-semibold transition-all duration-300 ${
-                !isAutoSaveSupported || autoSaveSlots.length < 2 || isCopying
+              disabled={isCopying}
+              className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition-all ${
+                isCopying
                   ? "cursor-not-allowed border-emerald-400/25 bg-emerald-500/10 text-white/50"
-                  : "border-emerald-400/70 bg-emerald-500/90 text-slate-950 shadow-lg shadow-emerald-900/40 hover:bg-emerald-400/80"
+                  : "border-emerald-400/70 bg-emerald-500/90 text-slate-950 shadow-md hover:bg-emerald-400/80"
               }`}
             >
-              {isCopying ? t("UI_SAVE_EDITOR_COPYING", "Copying...") : t("UI_SAVE_EDITOR_COPY_BUTTON", "Copy to target slot")}
+              {isCopying ? t("UI_SAVE_EDITOR_COPYING", "复制中...") : t("UI_SAVE_EDITOR_COPY_BUTTON", "复制")}
             </button>
-          </div>
-        </div>
+          </>
+        )}
 
-        <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-4 xl:col-span-2">
-          <div className="flex items-center justify-between gap-2">
-            <h3 className="text-sm font-semibold text-white/80">
-              {t("UI_SAVE_EDITOR_BACKUP_SECTION", "Backups")}
-            </h3>
-            {electronApi?.listWindowsBackups ? (
-              <button
-                type="button"
-                onClick={loadBackups}
-                className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-semibold text-white/70 transition-all duration-300 hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white"
-              >
-                {isLoadingBackups
-                  ? t("UI_SAVE_EDITOR_BACKUP_REFRESHING", "Refreshing...")
-                  : t("UI_SAVE_EDITOR_BACKUP_REFRESH", "Refresh backups")}
-              </button>
-            ) : null}
-          </div>
-          {!electronApi?.listWindowsBackups ? (
-            <p className="mt-3 text-xs text-white/70">
-              {t("UI_SAVE_EDITOR_BACKUP_UNAVAILABLE", "Backup management is not available here")}
-            </p>
-          ) : backups.length === 0 ? (
-            <p className="mt-3 text-xs text-white/70">
-              {backupError ?? t("UI_SAVE_EDITOR_BACKUP_EMPTY", "No backup files found")}
-            </p>
-          ) : (
-            <div className="mt-3 grid gap-3 md:grid-cols-2">
-              <label className="flex flex-col gap-1 text-xs">
-                <span className="text-white/70">{t("UI_SAVE_EDITOR_BACKUP_SELECT", "Select backup file")}</span>
-                <select
-                  className="w-full rounded border border-white/15 bg-slate-950/60 px-2 py-2"
-                  value={selectedBackupName}
-                  onChange={event => setSelectedBackupName(event.target.value)}
-                >
-                  {backups.map(entry => (
-                    <option key={entry.fileName} value={entry.fileName}>
-                      {buildBackupLabel(entry, t, value => formatTimestamp(value, localeKey))}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <label className="flex flex-col gap-1 text-xs">
-                <span className="text-white/70">{t("UI_SAVE_EDITOR_RESTORE_TARGET", "Restore to slot")}</span>
-                <select
-                  className="w-full rounded border border-white/15 bg-slate-950/60 px-2 py-2"
-                  value={restoreTargetId}
-                  onChange={event => setRestoreTargetId(event.target.value)}
-                >
-                  {slotOptions.map(option => (
-                    <option key={option.id} value={option.id}>
-                      {option.label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <button
-                type="button"
-                onClick={handleRestoreBackup}
-                disabled={isRestoring || backups.length === 0}
-                className={`md:col-span-2 rounded-full border px-4 py-2 text-sm font-semibold transition-all duration-300 ${
-                  isRestoring || backups.length === 0
-                    ? "cursor-not-allowed border-amber-400/25 bg-amber-500/10 text-white/50"
-                    : "border-amber-400/70 bg-amber-500/90 text-slate-950 shadow-lg shadow-amber-900/40 hover:bg-amber-400/80"
-                }`}
-              >
-                {isRestoring
-                  ? t("UI_SAVE_EDITOR_RESTORING", "Restoring...")
-                  : t("UI_SAVE_EDITOR_RESTORE_BUTTON", "Restore selected backup")}
-              </button>
-            </div>
-          )}
-        </div>
+        {/* 备份还原按钮组 */}
+        {electronApi?.listWindowsBackups && backups.length > 0 && (
+          <>
+            <span className="text-xs text-white/30">|</span>
+            <select
+              className="max-w-[200px] truncate rounded-lg border border-white/15 bg-slate-950/60 px-2 py-1 text-xs"
+              value={selectedBackupName}
+              onChange={event => setSelectedBackupName(event.target.value)}
+            >
+              {backups.map(entry => (
+                <option key={entry.fileName} value={entry.fileName}>
+                  {buildBackupLabel(entry, t, value => formatTimestamp(value, localeKey))}
+                </option>
+              ))}
+            </select>
+            <span className="text-xs text-white/50">→</span>
+            <select
+              className="rounded-lg border border-white/15 bg-slate-950/60 px-2 py-1 text-xs"
+              value={restoreTargetId}
+              onChange={event => setRestoreTargetId(event.target.value)}
+            >
+              {slotOptions.map(option => (
+                <option key={option.id} value={option.id}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+            <button
+              type="button"
+              onClick={handleRestoreBackup}
+              disabled={isRestoring}
+              className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition-all ${
+                isRestoring
+                  ? "cursor-not-allowed border-amber-400/25 bg-amber-500/10 text-white/50"
+                  : "border-amber-400/70 bg-amber-500/90 text-slate-950 shadow-md hover:bg-amber-400/80"
+              }`}
+            >
+              {isRestoring ? t("UI_SAVE_EDITOR_RESTORING", "还原中...") : t("UI_SAVE_EDITOR_RESTORE_BUTTON", "还原")}
+            </button>
+            <button
+              type="button"
+              onClick={loadBackups}
+              className="rounded-lg border border-white/15 bg-white/5 px-2 py-1.5 text-xs font-semibold text-white/70 transition-all hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white"
+            >
+              {isLoadingBackups ? "⟳" : "↻"}
+            </button>
+          </>
+        )}
       </div>
     </section>
   );

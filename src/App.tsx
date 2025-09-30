@@ -173,19 +173,19 @@ export default function App() {
         <div className="absolute inset-0 bg-gradient-to-br from-emerald-950/50 via-slate-950/60 to-slate-950/95" />
 
         {/* 左侧边栏 - 响应式：移动端隐藏，平板以上显示 */}
-        <aside className="animate-slideInLeft relative z-10 hidden w-full flex-shrink-0 border-r border-white/5 bg-slate-900/40 backdrop-blur-xl lg:block lg:w-[420px]">
-          <div className="flex h-full flex-col space-y-6 overflow-y-auto p-4 lg:p-6">
+        <aside className="animate-slideInLeft relative z-10 hidden w-full flex-shrink-0 border-r border-white/5 bg-slate-900/40 backdrop-blur-xl lg:block lg:w-[500px]">
+          <div className="flex h-full flex-col space-y-4 overflow-y-auto p-4 lg:p-5">
             {/* 标题和语言切换 */}
-            <div className="space-y-4">
-              <div className="flex items-start justify-between gap-3">
-                <h1 className="text-2xl font-bold tracking-tight text-white/95">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between gap-3">
+                <h1 className="text-xl font-bold tracking-tight text-white/95">
                   {t("UI_APP_TITLE", "Hollow Knight Silksong Savegame Analyzer")}
                 </h1>
                 <LanguageSwitch />
               </div>
 
               {/* 视图切换 */}
-              <div className="flex overflow-hidden rounded-xl border border-white/10 bg-slate-950/60 p-1 shadow-lg">
+              <div className="flex overflow-hidden rounded-lg border border-white/10 bg-slate-950/60 p-1 shadow-lg">
                 {VIEW_OPTIONS.map(option => {
                   const isActive = option.id === activeView;
                   return (
@@ -197,7 +197,7 @@ export default function App() {
                         isActive
                           ? "bg-emerald-500 text-slate-950 shadow-md"
                           : "text-white/70 hover:bg-white/5 hover:text-white"
-                      } flex-1 rounded-lg px-4 py-2.5 text-sm font-semibold transition-all duration-200`}
+                      } flex-1 rounded-md px-3 py-2 text-sm font-semibold transition-all duration-200`}
                     >
                       {t(option.labelKey, option.fallback)}
                     </button>
@@ -207,7 +207,7 @@ export default function App() {
             </div>
 
             {/* 文件上传区 */}
-            <div className="card-hover rounded-2xl border border-white/10 bg-slate-950/50 p-5 shadow-xl transition-all duration-300 hover:border-emerald-500/30 hover:shadow-emerald-500/10">
+            <div className="card-hover rounded-xl border border-white/10 bg-slate-950/50 p-4 shadow-xl transition-all duration-300 hover:border-emerald-500/30 hover:shadow-emerald-500/10">
               <FileUpload
                 fileName={fileName}
                 onFileSelected={handleManualFileSelected}
@@ -217,7 +217,7 @@ export default function App() {
             </div>
 
             {/* 自动存档卡片 */}
-            <div className="card-hover rounded-2xl border border-white/10 bg-slate-950/50 p-5 shadow-xl">
+            <div className="card-hover rounded-xl border border-white/10 bg-slate-950/50 p-4 shadow-xl">
               <AutoSaveCards
                 saves={autoSaves.saves}
                 isLoading={autoSaves.isLoading}
@@ -229,35 +229,35 @@ export default function App() {
             </div>
 
             {/* 进度显示 */}
-            <div className="card-hover space-y-4 rounded-2xl border border-emerald-500/20 bg-gradient-to-br from-emerald-950/40 to-slate-950/60 p-5 shadow-xl">
+            <div className="card-hover space-y-3 rounded-xl border border-emerald-500/20 bg-gradient-to-br from-emerald-950/40 to-slate-950/60 p-4 shadow-xl">
               <TotalProgress parsedJson={parsedJson} />
               <div className="space-y-2 text-sm">
                 <div className="flex items-center justify-between text-white/80">
                   <span className="text-xs uppercase tracking-wide text-white/50">
                     {t("UI_CURRENT_FILE", "当前文件")}
                   </span>
-                  <span className="font-medium">
+                  <span className="truncate font-medium ml-2">
                     {fileName || t("UI_NO_SAVE_LOADED", "未加载存档")}
                   </span>
                 </div>
                 {activeAutoSave && (
-                  <div className="rounded-lg bg-emerald-500/10 px-3 py-2 text-xs text-emerald-300">
+                  <div className="rounded-lg bg-emerald-500/10 px-3 py-1.5 text-xs text-emerald-300">
                     {t("UI_AUTO_SAVES_SLOT", "槽位 {index}").replace("{index}", String(activeAutoSave.slotIndex))} - {activeAutoSave.displayName}
                   </div>
                 )}
               </div>
             </div>
 
-            {/* 平台选择（可折叠） */}
-            <details className="card-hover group rounded-2xl border border-white/10 bg-slate-950/50 shadow-xl">
-              <summary className="cursor-pointer p-5 font-semibold text-white/90 transition-colors hover:text-white">
+            {/* 平台选择（可折叠，精简版） */}
+            <details className="card-hover group rounded-xl border border-white/10 bg-slate-950/50 shadow-xl">
+              <summary className="cursor-pointer p-3 text-sm font-semibold text-white/80 transition-colors hover:text-white">
                 <span className="inline-flex items-center gap-2">
-                  <span className="text-lg">⚙️</span>
+                  <span>⚙️</span>
                   {t("UI_PLATFORM_SETTINGS", "平台设置")}
                 </span>
               </summary>
-              <div className="space-y-4 px-5 pb-5">
-                <div className="flex flex-wrap gap-2">
+              <div className="space-y-3 px-3 pb-3">
+                <div className="flex flex-wrap gap-1.5">
                   {PLATFORM_OPTIONS.map(platform => {
                     const isActive = platform.id === activePlatform.id;
                     return (
@@ -269,28 +269,28 @@ export default function App() {
                           isActive
                             ? "bg-emerald-500 text-slate-950 shadow-md"
                             : "border border-white/20 bg-white/5 text-white/70 hover:border-emerald-400/50 hover:bg-emerald-500/10 hover:text-white"
-                        } rounded-lg px-3 py-1.5 text-xs font-semibold transition-all duration-200`}
+                        } rounded-md px-2.5 py-1 text-xs font-semibold transition-all duration-200`}
                       >
                         {t(platform.labelKey, platform.label)}
                       </button>
                     );
                   })}
                 </div>
-                <div className="rounded-xl border border-emerald-500/20 bg-slate-900/50 p-4">
+                <div className="rounded-lg border border-emerald-500/20 bg-slate-900/50 p-3">
                   <button
                     type="button"
                     onClick={handleCopyPath}
                     title={t("UI_COPY_PATH", "复制路径")}
-                    className="w-full text-left font-mono text-xs text-emerald-300/90 transition-colors hover:text-emerald-200"
+                    className="w-full text-left font-mono text-xs text-emerald-300/90 transition-colors hover:text-emerald-200 break-all"
                   >
                     {activePlatform.path}
                   </button>
                   {activePlatform.noteKey && (
-                    <p className="mt-3 text-xs leading-relaxed text-white/60">
+                    <p className="mt-2 text-xs leading-relaxed text-white/60">
                       {t(activePlatform.noteKey, activePlatform.noteFallback ?? "")}
                       {activePlatform.noteLink && (
                         <>
-                          {activePlatform.noteLink.wrap ? " (" : " "}
+                          {" "}
                           <a
                             className="font-semibold text-emerald-300 transition-colors hover:text-emerald-200"
                             href={activePlatform.noteLink.href}
@@ -299,7 +299,6 @@ export default function App() {
                           >
                             {t(activePlatform.noteLink.labelKey, activePlatform.noteLink.fallback)}
                           </a>
-                          {activePlatform.noteLink.wrap ? ")" : ""}
                         </>
                       )}
                     </p>
@@ -308,37 +307,28 @@ export default function App() {
               </div>
             </details>
 
-            {/* Footer */}
-            <div className="mt-auto space-y-3 border-t border-white/5 pt-4 text-xs text-white/50">
-              <div className="flex flex-wrap gap-x-3 gap-y-1">
-                <span>
-                  {t("UI_MADE_BY", "Made by")}{" "}
-                  <a
-                    href="https://github.com/br3zzly"
-                    className="font-semibold text-emerald-400 transition-colors hover:text-emerald-300"
-                  >
-                    Br3zzly
-                  </a>
-                </span>
-              </div>
-              <div className="flex flex-wrap gap-x-3 gap-y-1">
+            {/* Footer - 精简版 */}
+            <div className="mt-auto space-y-2 border-t border-white/5 pt-3 text-xs text-white/40">
+              <div className="flex flex-wrap gap-x-2 gap-y-1">
                 <a
                   href="https://github.com/Br3zzly/hk-silksong-savegame-analyzer"
-                  className="text-emerald-400 transition-colors hover:text-emerald-300"
+                  className="text-emerald-400/80 transition-colors hover:text-emerald-300"
                 >
-                  {t("UI_GITHUB_REPO", "GitHub")}
+                  GitHub
                 </a>
+                <span>·</span>
                 <a
                   href="https://steamcommunity.com/sharedfiles/filedetails/?id=3571462700"
-                  className="text-emerald-400 transition-colors hover:text-emerald-300"
+                  className="text-emerald-400/80 transition-colors hover:text-emerald-300"
                 >
-                  {t("UI_STEAM_GUIDE", "Steam")}
+                  Steam
                 </a>
+                <span>·</span>
                 <a
                   href="https://www.buymeacoffee.com/Br3zzly"
-                  className="text-emerald-400 transition-colors hover:text-emerald-300"
+                  className="text-emerald-400/80 transition-colors hover:text-emerald-300"
                 >
-                  {t("UI_BUY_ME_A_COFFEE", "Coffee")}
+                  Coffee
                 </a>
               </div>
             </div>
@@ -346,18 +336,18 @@ export default function App() {
         </aside>
 
         {/* 右侧主内容区 - 响应式布局 */}
-        <main className="animate-slideInRight relative z-10 flex flex-1 flex-col overflow-y-auto">
-          <div className="flex-1 space-y-4 p-4 sm:space-y-6 sm:p-6 lg:p-8">
+        <main className="animate-slideInRight relative z-10 flex flex-1 flex-col overflow-hidden">
+          <div className="flex h-full flex-col p-3 sm:p-4 lg:p-5">
             {/* 移动端顶部栏 */}
-            <div className="lg:hidden">
-              <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4 shadow-xl backdrop-blur-lg">
+            <div className="mb-3 lg:hidden">
+              <div className="rounded-xl border border-white/10 bg-slate-900/60 p-3 shadow-xl backdrop-blur-lg">
                 <div className="flex items-center justify-between">
                   <h1 className="text-lg font-bold text-white/95">
                     {t("UI_APP_TITLE", "Silksong 存档分析")}
                   </h1>
                   <LanguageSwitch />
                 </div>
-                <div className="mt-4 flex gap-2">
+                <div className="mt-3 flex gap-2">
                   {VIEW_OPTIONS.map(option => {
                     const isActive = option.id === activeView;
                     return (
@@ -376,7 +366,7 @@ export default function App() {
                     );
                   })}
                 </div>
-                <div className="mt-4">
+                <div className="mt-3">
                   <FileUpload
                     fileName={fileName}
                     onFileSelected={handleManualFileSelected}
@@ -388,8 +378,8 @@ export default function App() {
               </div>
             </div>
 
-            {/* 存档操作工具栏 */}
-            <div className="animate-scaleIn rounded-2xl border border-white/10 bg-slate-900/50 p-4 shadow-xl backdrop-blur-lg">
+            {/* 存档操作工具栏 - 精简版 */}
+            <div className="animate-scaleIn mb-3 flex-shrink-0 rounded-xl border border-white/10 bg-slate-900/50 p-3 shadow-xl backdrop-blur-lg">
               <SaveSlotActions
                 parsedJson={parsedJson}
                 jsonText={jsonText}
@@ -404,21 +394,22 @@ export default function App() {
               />
             </div>
 
-            {/* 主内容区 */}
-            <div className="animate-scaleIn rounded-2xl border border-white/10 bg-slate-900/30 shadow-2xl backdrop-blur-lg transition-all duration-300">
+            {/* 主内容区 - 占满剩余空间 */}
+            <div className="animate-scaleIn flex h-full flex-1 flex-col overflow-hidden rounded-xl border border-white/10 bg-slate-900/30 shadow-2xl backdrop-blur-lg transition-all duration-300">
               {activeView === "analysis" ? (
-                <div className="space-y-6 p-6">
-                  <TabBar
-                    tabs={tabDefinitions}
-                    activeTab={activeTab}
-                    onSelect={tab => setActiveTab(tab)}
-                    parsedJson={parsedJson}
-                    decrypted={decrypted}
-                  />
+                <div className="flex h-full flex-col overflow-hidden">
+                  <div className="flex-shrink-0 space-y-3 p-4">
+                    <TabBar
+                      tabs={tabDefinitions}
+                      activeTab={activeTab}
+                      onSelect={tab => setActiveTab(tab)}
+                      parsedJson={parsedJson}
+                      decrypted={decrypted}
+                    />
+                    <ResultFilterBar disabled={!decrypted || !parsedJson} />
+                  </div>
 
-                  <ResultFilterBar disabled={!decrypted || !parsedJson} />
-
-                  <div className="min-h-[60vh] rounded-xl border border-white/5 bg-slate-950/50 px-6 py-8 shadow-inner">
+                  <div className="flex-1 overflow-y-auto rounded-t-xl border-t border-white/5 bg-slate-950/50 px-4 py-5 shadow-inner">
                     {decrypted && activeTabConfig ? (
                       activeTabConfig.render({
                         parsedJson,
@@ -429,14 +420,14 @@ export default function App() {
                         savePlain,
                       })
                     ) : (
-                      <div className="flex h-[60vh] items-center justify-center text-center text-lg text-white/50">
+                      <div className="flex h-full items-center justify-center text-center text-lg text-white/50">
                         {t("UI_NO_SAVE_LOADED", "未加载存档文件")}
                       </div>
                     )}
                   </div>
                 </div>
               ) : (
-                <div className="min-h-[60vh] rounded-xl border border-white/5 bg-slate-950/50 p-6 shadow-inner">
+                <div className="h-full overflow-y-auto rounded-xl border border-white/5 bg-slate-950/50 p-4 shadow-inner">
                   <SaveEditorPage
                     parsedJson={parsedJson}
                     setJsonText={setJsonText}
