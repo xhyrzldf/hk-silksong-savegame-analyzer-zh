@@ -2018,6 +2018,139 @@ export const CUSTOM_TRANSLATIONS = {
   "UI_SAVE_EDITOR_RESTORE_REQUIRED": {
     en: "Select both a backup and a target slot",
     zh: "请选择备份和目标槽位"
+  },
+  // Import/Export translations
+  "UI_IMPORT_SAVE": {
+    en: "Import Save",
+    zh: "导入存档"
+  },
+  "UI_EXPORT_SAVE": {
+    en: "Export Save",
+    zh: "导出存档"
+  },
+  "UI_IMPORT_SELECT_SLOT": {
+    en: "Select Import Slot",
+    zh: "选择导入槽位"
+  },
+  "UI_IMPORT_FILE_INFO": {
+    en: "Import file",
+    zh: "导入文件"
+  },
+  "UI_SLOT_NUMBER": {
+    en: "Slot {index}",
+    zh: "槽位 {index}"
+  },
+  "UI_SLOT_EMPTY": {
+    en: "Empty Slot",
+    zh: "空槽位"
+  },
+  "UI_SLOT_WILL_OVERWRITE": {
+    en: "Will Overwrite",
+    zh: "将覆盖"
+  },
+  "UI_IMPORT_WARNING": {
+    en: "Warning",
+    zh: "注意"
+  },
+  "UI_IMPORT_WARNING_TEXT": {
+    en: "This will overwrite the existing save. Original save will be backed up to tool_bak folder automatically.",
+    zh: "此操作将覆盖现有存档。原存档将自动备份到 tool_bak 文件夹。"
+  },
+  "UI_CANCEL": {
+    en: "Cancel",
+    zh: "取消"
+  },
+  "UI_CONFIRM_IMPORT": {
+    en: "Confirm Import",
+    zh: "确认导入"
+  },
+  "UI_IMPORT_EXTRACTING": {
+    en: "Extracting...",
+    zh: "正在解压..."
+  },
+  "UI_IMPORT_NO_SAVE_FOUND": {
+    en: "No save file found in archive",
+    zh: "压缩包中未找到存档文件"
+  },
+  "UI_IMPORT_EXTRACTED": {
+    en: "Extracted: {filename}",
+    zh: "已提取: {filename}"
+  },
+  "UI_IMPORT_UNSUPPORTED_FILE": {
+    en: "Unsupported file format. Please select userX.dat or archive (zip/rar/7z)",
+    zh: "不支持的文件格式。请选择 userX.dat 或压缩包（zip/rar/7z）"
+  },
+  "UI_IMPORT_INVALID_SAVE": {
+    en: "Invalid save file",
+    zh: "无效的存档文件"
+  },
+  "UI_IMPORT_ERROR": {
+    en: "Import failed: {error}",
+    zh: "导入失败: {error}"
+  },
+  "UI_IMPORT_SUCCESS": {
+    en: "Successfully imported to slot {slot}",
+    zh: "成功导入到槽位 {slot}"
+  },
+  "UI_IMPORT_SLOT_ERROR": {
+    en: "Import failed: {error}",
+    zh: "导入失败: {error}"
+  },
+  "UI_EXPORT_TITLE": {
+    en: "Export Save",
+    zh: "导出存档"
+  },
+  "UI_EXPORT_DESCRIPTION": {
+    en: "Select slot and format to export",
+    zh: "选择要导出的槽位和格式"
+  },
+  "UI_EXPORT_SELECT_SLOT": {
+    en: "Please select a slot to export",
+    zh: "请选择要导出的槽位"
+  },
+  "UI_EXPORT_SELECT_SLOT_LABEL": {
+    en: "Select Slot",
+    zh: "选择槽位"
+  },
+  "UI_COMPLETE": {
+    en: "Complete",
+    zh: "完成"
+  },
+  "UI_EXPORT_FORMAT": {
+    en: "Export Format",
+    zh: "导出格式"
+  },
+  "UI_EXPORT_FORMAT_DAT": {
+    en: "Direct File",
+    zh: "直接文件"
+  },
+  "UI_EXPORT_FORMAT_ZIP": {
+    en: "Archive",
+    zh: "压缩包"
+  },
+  "UI_EXPORT": {
+    en: "Export",
+    zh: "导出"
+  },
+  "UI_EXPORTING": {
+    en: "Exporting...",
+    zh: "导出中..."
+  },
+  "UI_EXPORT_NO_DATA": {
+    en: "Cannot read save data",
+    zh: "无法读取存档数据"
+  },
+  "UI_EXPORT_SUCCESS_DAT": {
+    en: "Save file exported successfully",
+    zh: "成功导出存档文件"
+  },
+  "UI_EXPORT_SUCCESS_ZIP": {
+    en: "Archive exported successfully",
+    zh: "成功导出压缩包"
+  },
+  "UI_EXPORT_ERROR": {
+    en: "Export failed: {error}",
+    zh: "导出失败: {error}"
   }
 };
 
