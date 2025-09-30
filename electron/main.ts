@@ -3,12 +3,47 @@ import { promises as fs } from 'node:fs';
 import type { Dirent } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
+import log from 'electron-log/main';
 
 process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = 'true';
 
 const isDev = !app.isPackaged;
 const devServerUrl = process.env.VITE_DEV_SERVER_URL ?? 'http://localhost:5173';
 const BACKUP_DIR_NAME = 'tool_bak';
+
+// 配置日志系统
+if (!isDev) {
+  // 打包后：日志输出到 exe 同目录
+  log.transports.file.resolvePathFn = () => {
+    const exeDir = path.dirname(process.execPath);
+    const logFileName = `silksong-save-analyzer.log`;
+    return path.join(exeDir, logFileName);
+  };
+} else {
+  // 开发模式：使用默认路径
+  log.transports.file.level = 'debug';
+}
+
+// 配置日志格式和参数
+log.transports.file.format = '[{y}-{m}-{d} {h}:{i}:{s}.{ms}] [{level}] {text}';
+log.transports.file.maxSize = 5 * 1024 * 1024; // 5MB
+log.transports.console.level = isDev ? 'debug' : 'info';
+
+// 初始化日志系统
+log.initialize();
+
+log.info('='.repeat(80));
+log.info('应用启动');
+log.info(`版本: ${app.getVersion()}`);
+log.info(`Electron 版本: ${process.versions.electron}`);
+log.info(`Node 版本: ${process.versions.node}`);
+log.info(`Chrome 版本: ${process.versions.chrome}`);
+log.info(`平台: ${process.platform} ${process.arch}`);
+log.info(`是否打包: ${!isDev}`);
+log.info(`应用路径: ${app.getAppPath()}`);
+log.info(`可执行文件路径: ${process.execPath}`);
+log.info(`日志文件路径: ${log.transports.file.getFile().path}`);
+log.info('='.repeat(80));
 
 let mainWindow: BrowserWindow | null = null;
 
@@ -31,13 +66,15 @@ type BackupEntry = {
 
 function getSavesRoot(): string {
   const userProfile = process.env.USERPROFILE ?? os.homedir();
-  return path.join(
+  const savesRoot = path.join(
     userProfile,
     'AppData',
     'LocalLow',
     'Team Cherry',
     'Hollow Knight Silksong',
   );
+  log.debug(`存档根目录: ${savesRoot}`);
+  return savesRoot;
 }
 
 function assertInsideRoot(targetPath: string, root: string) {
@@ -56,6 +93,7 @@ async function createBackupIfExists(targetPath: string): Promise<string | null> 
   try {
     await fs.access(targetPath);
   } catch {
+    log.debug(`目标文件不存在，跳过备份: ${targetPath}`);
     return null;
   }
 
@@ -71,6 +109,7 @@ async function createBackupIfExists(targetPath: string): Promise<string | null> 
   const backupName = `${baseName}_${timestamp}${extension}`;
   const backupPath = path.join(backupDir, backupName);
 
+  log.info(`创建备份: ${targetPath} -> ${backupName}`);
   await fs.copyFile(targetPath, backupPath);
   return backupName;
 }
@@ -88,6 +127,7 @@ function toBuffer(data: ArrayBuffer | Uint8Array | number[]): Buffer {
 
 async function discoverWindowsSaves(): Promise<WindowsSaveEntry[]> {
   if (process.platform !== 'win32') {
+    log.debug('非 Windows 平台，跳过存档扫描');
     return [];
   }
 
@@ -96,10 +136,11 @@ async function discoverWindowsSaves(): Promise<WindowsSaveEntry[]> {
 
   let rootDirEntries: Dirent[];
   try {
+    log.info(`开始扫描存档目录: ${savesRoot}`);
     rootDirEntries = await fs.readdir(savesRoot, { withFileTypes: true });
-    console.log('[electron] scanning saves root:', savesRoot);
+    log.info(`找到 ${rootDirEntries.length} 个子目录`);
   } catch (error) {
-    console.warn('[electron] Unable to read Silksong save root:', error);
+    log.error('无法读取存档根目录:', error);
     return [];
   }
 
@@ -110,7 +151,7 @@ async function discoverWindowsSaves(): Promise<WindowsSaveEntry[]> {
     try {
       filesInFolder = await fs.readdir(folderPath, { withFileTypes: true });
     } catch (error) {
-      console.warn('[electron] Unable to read Silksong save folder:', folderPath, error);
+      log.warn('无法读取存档子目录:', folderPath, error);
       continue;
     }
 
@@ -139,18 +180,21 @@ async function discoverWindowsSaves(): Promise<WindowsSaveEntry[]> {
           modifiedAt: stats.mtime.getTime(),
           data,
         });
+        log.debug(`成功读取存档: ${filePath} (${data.length} 字节)`);
       } catch (error) {
-        console.warn('[electron] Unable to read Silksong save file:', filePath, error);
+        log.warn('无法读取存档文件:', filePath, error);
       }
     }
   }
 
-  return entries.sort((a, b) => {
+  const sorted = entries.sort((a, b) => {
     if (a.slotIndex !== b.slotIndex) {
       return a.slotIndex - b.slotIndex;
     }
     return b.modifiedAt - a.modifiedAt;
   });
+  log.info(`存档扫描完成，共找到 ${sorted.length} 个存档文件`);
+  return sorted;
 }
 
 async function listBackups(): Promise<BackupEntry[]> {
@@ -181,7 +225,7 @@ async function listBackups(): Promise<BackupEntry[]> {
         size: stats.size,
       });
     } catch (error) {
-      console.warn('[electron] Unable to stat backup file:', fullPath, error);
+      log.warn('无法读取备份文件信息:', fullPath, error);
     }
   }
 
@@ -189,6 +233,7 @@ async function listBackups(): Promise<BackupEntry[]> {
 }
 
 function createMainWindow() {
+  log.info('开始创建主窗口');
   mainWindow = new BrowserWindow({
     width: 1280,
     height: 800,
@@ -203,31 +248,38 @@ function createMainWindow() {
       sandbox: false,
     },
   });
+  log.info('主窗口对象已创建');
 
   mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+    log.debug(`拦截外部链接打开请求: ${url}`);
     shell.openExternal(url);
     return { action: 'deny' };
   });
 
   mainWindow.on('ready-to-show', () => {
+    log.info('主窗口准备就绪，开始显示');
     mainWindow?.show();
     if (isDev) {
+      log.debug('开发模式：打开开发者工具');
       mainWindow?.webContents.openDevTools({ mode: 'detach' });
     }
   });
 
   if (isDev) {
+    log.info(`加载开发服务器: ${devServerUrl}`);
     mainWindow.loadURL(devServerUrl).catch(error => {
-      console.error('[electron] Failed to load dev server URL:', error);
+      log.error('无法加载开发服务器 URL:', error);
     });
   } else {
     const indexHtml = path.join(app.getAppPath(), 'dist', 'index.html');
+    log.info(`加载生产环境页面: ${indexHtml}`);
     mainWindow
       .loadFile(indexHtml)
-      .catch(error => console.error('[electron] Failed to load index.html:', error));
+      .catch(error => log.error('无法加载 index.html:', error));
   }
 
   mainWindow.on('closed', () => {
+    log.info('主窗口已关闭');
     mainWindow = null;
   });
 }
@@ -236,6 +288,7 @@ if (!app.requestSingleInstanceLock()) {
   app.quit();
 } else {
   app.on('second-instance', () => {
+    log.info('检测到第二个实例启动，聚焦现有窗口');
     if (mainWindow) {
       if (mainWindow.isMinimized()) mainWindow.restore();
       mainWindow.focus();
@@ -243,18 +296,23 @@ if (!app.requestSingleInstanceLock()) {
   });
 
   app.whenReady().then(() => {
+    log.info('Electron 应用准备就绪');
     createMainWindow();
 
     ipcMain.handle('auto-saves:list', async () => {
+      log.debug('IPC 请求: auto-saves:list');
       try {
-        return await discoverWindowsSaves();
+        const result = await discoverWindowsSaves();
+        log.debug(`IPC 响应: auto-saves:list - 返回 ${result.length} 个存档`);
+        return result;
       } catch (error) {
-        console.error('[electron] Failed to gather Silksong saves:', error);
+        log.error('IPC 处理失败 (auto-saves:list):', error);
         return [];
       }
     });
 
     ipcMain.handle('auto-saves:read-slot', async (_event, payload: { filePath: string }) => {
+      log.debug(`IPC 请求: auto-saves:read-slot - 读取 ${payload.filePath}`);
       try {
         const { filePath } = payload;
         if (!filePath) {
@@ -263,14 +321,16 @@ if (!app.requestSingleInstanceLock()) {
         const savesRoot = getSavesRoot();
         assertInsideRoot(filePath, savesRoot);
         const data = await fs.readFile(filePath);
+        log.debug(`成功读取存档: ${filePath} (${data.length} 字节)`);
         return data;
       } catch (error) {
-        console.error('[electron] Failed to read slot file:', error);
+        log.error('IPC 处理失败 (auto-saves:read-slot):', error);
         throw error;
       }
     });
 
     ipcMain.handle('auto-saves:write-slot', async (_event, payload: { filePath: string; data: ArrayBuffer | Uint8Array | number[] }) => {
+      log.info(`IPC 请求: auto-saves:write-slot - 写入 ${payload.filePath}`);
       try {
         const { filePath, data } = payload;
         if (!filePath || !data) {
@@ -282,14 +342,16 @@ if (!app.requestSingleInstanceLock()) {
         const backupName = await createBackupIfExists(filePath);
         const buffer = toBuffer(data);
         await fs.writeFile(filePath, buffer);
+        log.info(`成功写入存档: ${filePath} (${buffer.length} 字节)${backupName ? `, 备份: ${backupName}` : ''}`);
         return { success: true, backupName };
       } catch (error) {
-        console.error('[electron] Failed to write slot file:', error);
+        log.error('IPC 处理失败 (auto-saves:write-slot):', error);
         throw error;
       }
     });
 
     ipcMain.handle('auto-saves:copy-slot', async (_event, payload: { sourcePath: string; targetPath: string }) => {
+      log.info(`IPC 请求: auto-saves:copy-slot - ${payload.sourcePath} -> ${payload.targetPath}`);
       try {
         const { sourcePath, targetPath } = payload;
         if (!sourcePath || !targetPath) {
@@ -302,23 +364,28 @@ if (!app.requestSingleInstanceLock()) {
         await fs.mkdir(path.dirname(targetPath), { recursive: true });
         const backupName = await createBackupIfExists(targetPath);
         await fs.copyFile(sourcePath, targetPath);
+        log.info(`成功复制存档${backupName ? `, 备份: ${backupName}` : ''}`);
         return { success: true, backupName };
       } catch (error) {
-        console.error('[electron] Failed to copy slot:', error);
+        log.error('IPC 处理失败 (auto-saves:copy-slot):', error);
         throw error;
       }
     });
 
     ipcMain.handle('auto-saves:list-backups', async () => {
+      log.debug('IPC 请求: auto-saves:list-backups');
       try {
-        return await listBackups();
+        const result = await listBackups();
+        log.debug(`IPC 响应: auto-saves:list-backups - 返回 ${result.length} 个备份`);
+        return result;
       } catch (error) {
-        console.error('[electron] Failed to list backups:', error);
+        log.error('IPC 处理失败 (auto-saves:list-backups):', error);
         throw error;
       }
     });
 
     ipcMain.handle('auto-saves:restore-backup', async (_event, payload: { fileName: string; targetPath: string }) => {
+      log.info(`IPC 请求: auto-saves:restore-backup - ${payload.fileName} -> ${payload.targetPath}`);
       try {
         const { fileName, targetPath } = payload;
         if (!fileName || !targetPath) {
@@ -333,14 +400,16 @@ if (!app.requestSingleInstanceLock()) {
         await fs.mkdir(path.dirname(targetPath), { recursive: true });
         await createBackupIfExists(targetPath);
         await fs.copyFile(backupPath, targetPath);
+        log.info(`成功还原备份: ${fileName} -> ${targetPath}`);
         return { success: true };
       } catch (error) {
-        console.error('[electron] Failed to restore backup:', error);
+        log.error('IPC 处理失败 (auto-saves:restore-backup):', error);
         throw error;
       }
     });
 
     app.on('activate', () => {
+      log.debug('应用激活事件');
       if (BrowserWindow.getAllWindows().length === 0) {
         createMainWindow();
       }
@@ -348,7 +417,9 @@ if (!app.requestSingleInstanceLock()) {
   });
 
   app.on('window-all-closed', () => {
+    log.info('所有窗口已关闭');
     if (process.platform !== 'darwin') {
+      log.info('退出应用');
       app.quit();
     }
   });
