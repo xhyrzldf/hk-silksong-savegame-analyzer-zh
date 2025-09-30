@@ -11,31 +11,32 @@ const isDev = !app.isPackaged;
 const devServerUrl = process.env.VITE_DEV_SERVER_URL ?? 'http://localhost:5173';
 const BACKUP_DIR_NAME = 'tool_bak';
 
-// 配置日志系统 - 统一输出到可执行文件/项目根目录
+// 配置日志系统 - 统一输出到 userData 目录
 // 使用立即执行函数，只计算一次路径
 const logPath = (() => {
-  let logDir: string;
   const logFileName = `silksong-save-analyzer.log`;
 
   if (isDev) {
     // 开发模式：输出到项目根目录（dist-electron 的父目录）
-    logDir = path.dirname(app.getAppPath());
+    const logDir = path.dirname(app.getAppPath());
+    return path.join(logDir, logFileName);
   } else {
-    // 打包后：输出到 exe 同目录
-    logDir = path.dirname(process.execPath);
-  }
+    // 打包后：输出到 %APPDATA%\Silksong Savegame Analyzer\logs\
+    // 使用 userData 目录确保用户可以稳定访问日志
+    const userDataDir = app.getPath('userData');
+    const logDir = path.join(userDataDir, 'logs');
 
-  const targetPath = path.join(logDir, logFileName);
+    // 确保日志目录存在
+    try {
+      const fs = require('fs');
+      if (!fs.existsSync(logDir)) {
+        fs.mkdirSync(logDir, { recursive: true });
+      }
+    } catch (error) {
+      console.error('[electron] 无法创建日志目录:', logDir, error);
+    }
 
-  // 确保目录存在且可写
-  try {
-    const fs = require('fs');
-    fs.accessSync(logDir, fs.constants.W_OK);
-    return targetPath;
-  } catch (error) {
-    // 如果无法写入，fallback 到用户目录
-    const fallbackDir = app.getPath('userData');
-    return path.join(fallbackDir, logFileName);
+    return path.join(logDir, logFileName);
   }
 })();
 
