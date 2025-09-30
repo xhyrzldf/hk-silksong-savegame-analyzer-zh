@@ -319,6 +319,10 @@ if (!app.requestSingleInstanceLock()) {
     log.info('Electron 应用准备就绪');
     createMainWindow();
 
+    ipcMain.handle('get-log-path', async () => {
+      return log.transports.file.getFile().path;
+    });
+
     ipcMain.handle('auto-saves:list', async () => {
       log.debug('IPC 请求: auto-saves:list');
       try {
