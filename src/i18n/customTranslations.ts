@@ -2212,6 +2212,10 @@ export const CUSTOM_TRANSLATIONS = {
   "UI_NO_RESULTS": {
     en: "No items match the filter criteria",
     zh: "没有符合筛选条件的项目"
+  },
+  "UI_SAVE_EDITOR_CURRENT_LEVEL": {
+    en: "Current level",
+    zh: "当前等级"
   }
 };
 
