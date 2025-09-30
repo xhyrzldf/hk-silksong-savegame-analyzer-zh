@@ -8,6 +8,7 @@ import { ResultFilterBar } from "./components/ResultFilterBar";
 import { AutoSaveCards } from "./components/AutoSaveCards";
 import { TabBar } from "./components/TabBar";
 import { TotalProgress } from "./components/TotalProgress";
+import { SaveSlotActions } from "./components/SaveSlotActions";
 import { SaveEditorPage } from "./editor/SaveEditorPage";
 import { useSaveFile } from "./hooks/useSaveFile";
 import { ResultFiltersProvider } from "./hooks/useResultFilters";
@@ -258,14 +259,29 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="rounded-3xl border border-white/10 bg-slate-900/70 p-6 shadow-2xl backdrop-blur-lg">
-                <AutoSaveCards
-                  saves={autoSaves.saves}
-                  isLoading={autoSaves.isLoading}
-                  error={autoSaves.error}
-                  isSupported={autoSaves.isSupported}
-                  activeSaveId={activeAutoSaveId}
-                  onSelect={handleAutoSaveSelect}
+              <div className="grid gap-6 xl:grid-cols-2">
+                <div className="rounded-3xl border border-white/10 bg-slate-900/70 p-6 shadow-2xl backdrop-blur-lg">
+                  <AutoSaveCards
+                    saves={autoSaves.saves}
+                    isLoading={autoSaves.isLoading}
+                    error={autoSaves.error}
+                    isSupported={autoSaves.isSupported}
+                    activeSaveId={activeAutoSaveId}
+                    onSelect={handleAutoSaveSelect}
+                  />
+                </div>
+
+                <SaveSlotActions
+                  parsedJson={parsedJson}
+                  jsonText={jsonText}
+                  setJsonText={setJsonText}
+                  fileName={fileName}
+                  activeAutoSave={activeAutoSave}
+                  autoSaveSlots={autoSaves.saves}
+                  isAutoSaveSupported={autoSaves.isSupported}
+                  refreshAutoSaves={autoSaves.refresh}
+                  saveEncrypted={saveEncrypted}
+                  savePlain={savePlain}
                 />
               </div>
             </div>
@@ -295,7 +311,6 @@ export default function App() {
               </div>
             </div>
           </section>
-
           <section className="space-y-6 rounded-3xl border border-white/10 bg-slate-900/80 p-6 shadow-2xl backdrop-blur-lg">
             {activeView === "analysis" ? (
               <>
@@ -330,15 +345,9 @@ export default function App() {
               <div className="rounded-2xl border border-white/5 bg-slate-950/40 px-4 py-6 shadow-inner">
                 <SaveEditorPage
                   parsedJson={parsedJson}
-                  jsonText={jsonText}
                   setJsonText={setJsonText}
                   fileName={fileName}
                   activeAutoSave={activeAutoSave}
-                  autoSaveSlots={autoSaves.saves}
-                  isAutoSaveSupported={autoSaves.isSupported}
-                  refreshAutoSaves={autoSaves.refresh}
-                  saveEncrypted={saveEncrypted}
-                  savePlain={savePlain}
                 />
               </div>
             )}
@@ -405,4 +414,3 @@ export default function App() {
     </ResultFiltersProvider>
   );
 }
-
