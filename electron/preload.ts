@@ -38,6 +38,10 @@ contextBridge.exposeInMainWorld('electronAPI', {
       };
     });
   },
+  async readWindowsSlot(payload: { filePath: string }): Promise<Uint8Array> {
+    const buffer = (await ipcRenderer.invoke('auto-saves:read-slot', payload)) as Buffer;
+    return new Uint8Array(buffer);
+  },
   async writeWindowsSlot(payload: { filePath: string; data: Uint8Array }): Promise<void> {
     await ipcRenderer.invoke('auto-saves:write-slot', payload);
   },

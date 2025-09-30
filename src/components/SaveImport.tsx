@@ -1,6 +1,5 @@
 import { useRef, useState } from "react";
 import { Upload } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { SlotSelectionDialog } from "./SlotSelectionDialog";
 import { useI18n } from "../i18n/I18nContext";
 import type { AutoSaveSummary } from "../hooks/useWindowsSaves";
@@ -15,7 +14,7 @@ import { toast } from "sonner";
 interface SaveImportProps {
   saves: AutoSaveSummary[];
   isSupported: boolean;
-  onImport: (slotIndex: number, saveData: Uint8Array, filename: string) => Promise<void>;
+  onImport: (slotIndex: number, saveData: Uint8Array) => Promise<void>;
 }
 
 export function SaveImport({ saves, isSupported, onImport }: SaveImportProps) {
@@ -99,7 +98,7 @@ export function SaveImport({ saves, isSupported, onImport }: SaveImportProps) {
     if (!pendingImport) return;
 
     try {
-      await onImport(slotIndex, pendingImport.data, pendingImport.filename);
+      await onImport(slotIndex, pendingImport.data);
       toast.success(
         t("UI_IMPORT_SUCCESS", "成功导入到槽位 {slot}").replace("{slot}", String(slotIndex))
       );
@@ -130,15 +129,15 @@ export function SaveImport({ saves, isSupported, onImport }: SaveImportProps) {
         className="hidden"
       />
 
-      <Button
+      <button
+        type="button"
         onClick={handleClick}
         disabled={!isSupported}
-        variant="outline"
-        className="border-emerald-400/50 bg-emerald-500/10 text-emerald-300 hover:bg-emerald-500/20 hover:border-emerald-400 disabled:opacity-50"
+        className="rounded-lg border border-emerald-400/50 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 transition-all hover:border-emerald-400 hover:bg-emerald-500/20 disabled:cursor-not-allowed disabled:opacity-50"
       >
-        <Upload className="mr-2 h-4 w-4" />
+        <Upload className="mr-1.5 inline h-3.5 w-3.5" />
         {t("UI_IMPORT_SAVE", "导入存档")}
-      </Button>
+      </button>
 
       {pendingImport && (
         <SlotSelectionDialog

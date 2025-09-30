@@ -21,6 +21,7 @@ interface ElectronAPI {
   platform: NodeJS.Platform;
   versions: NodeJS.ProcessVersions;
   listWindowsSaves: () => Promise<WindowsSaveEntry[]>;
+  readWindowsSlot: (payload: { filePath: string }) => Promise<Uint8Array>;
   writeWindowsSlot: (payload: { filePath: string; data: Uint8Array }) => Promise<void>;
   copyWindowsSlot: (payload: { sourcePath: string; targetPath: string }) => Promise<void>;
   listWindowsBackups: () => Promise<WindowsBackupEntry[]>;

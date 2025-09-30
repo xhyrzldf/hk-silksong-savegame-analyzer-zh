@@ -77,14 +77,14 @@ export function SaveExport({ saves, isSupported, onExport }: SaveExportProps) {
   return (
     <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
       <DialogTrigger asChild>
-        <Button
+        <button
+          type="button"
           disabled={!isSupported || availableSaves.length === 0}
-          variant="outline"
-          className="border-primary/50 bg-primary/10 text-primary hover:bg-primary/20 hover:border-primary disabled:opacity-50"
+          className="rounded-lg border border-primary/50 bg-primary/10 px-3 py-1.5 text-xs font-semibold text-primary transition-all hover:border-primary hover:bg-primary/20 disabled:cursor-not-allowed disabled:opacity-50"
         >
-          <Download className="mr-2 h-4 w-4" />
+          <Download className="mr-1.5 inline h-3.5 w-3.5" />
           {t("UI_EXPORT_SAVE", "导出存档")}
-        </Button>
+        </button>
       </DialogTrigger>
 
       <DialogContent className="sm:max-w-[500px] bg-slate-900/95 border-primary/20">

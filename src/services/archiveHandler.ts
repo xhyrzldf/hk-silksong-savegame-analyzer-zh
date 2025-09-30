@@ -1,6 +1,6 @@
 import * as fflate from "fflate";
 // @ts-ignore - libarchive.js 没有TypeScript类型定义
-import { Archive } from "libarchive.js/main.js";
+import { Archive } from "libarchive.js";
 
 /**
  * 从压缩包中提取存档文件

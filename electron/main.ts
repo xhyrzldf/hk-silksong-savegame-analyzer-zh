@@ -254,6 +254,22 @@ if (!app.requestSingleInstanceLock()) {
       }
     });
 
+    ipcMain.handle('auto-saves:read-slot', async (_event, payload: { filePath: string }) => {
+      try {
+        const { filePath } = payload;
+        if (!filePath) {
+          throw new Error('Missing file path');
+        }
+        const savesRoot = getSavesRoot();
+        assertInsideRoot(filePath, savesRoot);
+        const data = await fs.readFile(filePath);
+        return data;
+      } catch (error) {
+        console.error('[electron] Failed to read slot file:', error);
+        throw error;
+      }
+    });
+
     ipcMain.handle('auto-saves:write-slot', async (_event, payload: { filePath: string; data: ArrayBuffer | Uint8Array | number[] }) => {
       try {
         const { filePath, data } = payload;
