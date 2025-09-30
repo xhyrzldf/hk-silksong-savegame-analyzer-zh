@@ -303,6 +303,14 @@ export const CUSTOM_TRANSLATIONS = {
     en: "Save Plain (.json)",
     zh: "保存明文（.json）",
   },
+  UI_SAVE_MANAGER_TITLE: {
+    en: "Save slot tools",
+    zh: "槽位管理工具",
+  },
+  UI_SAVE_MANAGER_HINT: {
+    en: "Write, export, or back up the active slot",
+    zh: "写入、导出或备份当前槽位",
+  },
   ERROR_DECODE_FAILED: {
     en: "Failed to decode file",
     zh: "解密存档失败",
@@ -1854,6 +1862,10 @@ export const CUSTOM_TRANSLATIONS = {
   "UI_SAVE_EDITOR_JSON_INVALID": {
     en: "Unable to parse the current save data",
     zh: "无法解析当前存档数据"
+  },
+  "UI_SAVE_EDITOR_VALUE_UPDATED": {
+    en: "Value updated",
+    zh: "数值已更新"
   },
   "UI_SAVE_EDITOR_SAVE_BUTTON": {
     en: "Save to slot (with backup)",
