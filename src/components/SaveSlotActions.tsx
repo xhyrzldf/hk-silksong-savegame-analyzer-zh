@@ -367,8 +367,8 @@ export function SaveSlotActions({
         </div>
       )}
 
+      {/* 基础操作按钮 */}
       <div className="mt-3 flex flex-wrap gap-2">
-        {/* 快捷操作按钮 - 网格布局 */}
         <button
           type="button"
           onClick={handleSaveToSlot}
@@ -400,112 +400,151 @@ export function SaveSlotActions({
         {isAutoSaveSupported && (
           <>
             <span className="text-xs text-white/30">|</span>
-            <div className="flex gap-2">
-              <SaveImport
-                saves={autoSaveSlots}
-                isSupported={isAutoSaveSupported}
-                onImport={handleImport}
-              />
-              <SaveExport
-                saves={autoSaveSlots}
-                isSupported={isAutoSaveSupported}
-                onExport={handleExport}
-              />
-            </div>
-          </>
-        )}
-
-        {/* 槽位复制按钮组 */}
-        {isAutoSaveSupported && autoSaveSlots.length >= 2 && (
-          <>
-            <span className="text-xs text-white/30">|</span>
-            <select
-              className="rounded-lg border border-white/15 bg-slate-950/60 px-2 py-1 text-xs"
-              value={copySourceId}
-              onChange={event => setCopySourceId(event.target.value)}
-            >
-              {slotOptions.map(option => (
-                <option key={option.id} value={option.id}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
-            <span className="text-xs text-white/50">→</span>
-            <select
-              className="rounded-lg border border-white/15 bg-slate-950/60 px-2 py-1 text-xs"
-              value={copyTargetId}
-              onChange={event => setCopyTargetId(event.target.value)}
-            >
-              {slotOptions.map(option => (
-                <option key={option.id} value={option.id}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
-            <button
-              type="button"
-              onClick={handleCopySlot}
-              disabled={isCopying}
-              className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition-all ${
-                isCopying
-                  ? "cursor-not-allowed border-emerald-400/25 bg-emerald-500/10 text-white/50"
-                  : "border-emerald-400/70 bg-emerald-500/90 text-slate-950 shadow-md hover:bg-emerald-400/80"
-              }`}
-            >
-              {isCopying ? t("UI_SAVE_EDITOR_COPYING", "复制中...") : t("UI_SAVE_EDITOR_COPY_BUTTON", "复制")}
-            </button>
-          </>
-        )}
-
-        {/* 备份还原按钮组 */}
-        {electronApi?.listWindowsBackups && backups.length > 0 && (
-          <>
-            <span className="text-xs text-white/30">|</span>
-            <select
-              className="max-w-[200px] truncate rounded-lg border border-white/15 bg-slate-950/60 px-2 py-1 text-xs"
-              value={selectedBackupName}
-              onChange={event => setSelectedBackupName(event.target.value)}
-            >
-              {backups.map(entry => (
-                <option key={entry.fileName} value={entry.fileName}>
-                  {buildBackupLabel(entry, t, value => formatTimestamp(value, localeKey))}
-                </option>
-              ))}
-            </select>
-            <span className="text-xs text-white/50">→</span>
-            <select
-              className="rounded-lg border border-white/15 bg-slate-950/60 px-2 py-1 text-xs"
-              value={restoreTargetId}
-              onChange={event => setRestoreTargetId(event.target.value)}
-            >
-              {slotOptions.map(option => (
-                <option key={option.id} value={option.id}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
-            <button
-              type="button"
-              onClick={handleRestoreBackup}
-              disabled={isRestoring}
-              className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition-all ${
-                isRestoring
-                  ? "cursor-not-allowed border-amber-400/25 bg-amber-500/10 text-white/50"
-                  : "border-amber-400/70 bg-amber-500/90 text-slate-950 shadow-md hover:bg-amber-400/80"
-              }`}
-            >
-              {isRestoring ? t("UI_SAVE_EDITOR_RESTORING", "还原中...") : t("UI_SAVE_EDITOR_RESTORE_BUTTON", "还原")}
-            </button>
-            <button
-              type="button"
-              onClick={loadBackups}
-              className="rounded-lg border border-white/15 bg-white/5 px-2 py-1.5 text-xs font-semibold text-white/70 transition-all hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white"
-            >
-              {isLoadingBackups ? "⟳" : "↻"}
-            </button>
+            <SaveImport
+              saves={autoSaveSlots}
+              isSupported={isAutoSaveSupported}
+              onImport={handleImport}
+            />
+            <SaveExport
+              saves={autoSaveSlots}
+              isSupported={isAutoSaveSupported}
+              onExport={handleExport}
+            />
           </>
         )}
       </div>
+
+      {/* 高级操作区域 - 存档复制 & 备份还原 */}
+      {((isAutoSaveSupported && autoSaveSlots.length >= 2) || (electronApi?.listWindowsBackups && backups.length > 0)) && (
+        <div className="mt-4 rounded-lg border border-white/15 bg-slate-950/40 p-4">
+          <h3 className="mb-4 text-sm font-semibold text-white/90">
+            {t("UI_SAVE_EDITOR_ADVANCED_TITLE", "高级操作")}
+          </h3>
+          <div className="flex flex-col gap-4 lg:flex-row">
+            {/* 左侧：存档复制 */}
+            {isAutoSaveSupported && autoSaveSlots.length >= 2 && (
+              <div className="flex-1 rounded-lg border border-blue-500/30 bg-blue-950/10 p-3">
+                <h4 className="mb-3 text-sm font-semibold text-blue-200">
+                  {t("UI_SAVE_EDITOR_COPY_TITLE", "存档复制")}
+                </h4>
+                <div className="space-y-2">
+                  <div className="flex flex-col gap-2">
+                    <label className="text-xs text-white/70">
+                      {t("UI_SAVE_EDITOR_COPY_SOURCE", "源槽位")}:
+                    </label>
+                    <select
+                      className="w-full rounded-lg border border-white/20 bg-slate-950/80 px-3 py-2 text-sm text-white"
+                      value={copySourceId}
+                      onChange={event => setCopySourceId(event.target.value)}
+                    >
+                      {slotOptions.map(option => (
+                        <option key={option.id} value={option.id}>
+                          {option.label}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                  <div className="flex items-center justify-center text-xl text-white/40">↓</div>
+                  <div className="flex flex-col gap-2">
+                    <label className="text-xs text-white/70">
+                      {t("UI_SAVE_EDITOR_COPY_TARGET", "目标槽位")}:
+                    </label>
+                    <select
+                      className="w-full rounded-lg border border-white/20 bg-slate-950/80 px-3 py-2 text-sm text-white"
+                      value={copyTargetId}
+                      onChange={event => setCopyTargetId(event.target.value)}
+                    >
+                      {slotOptions.map(option => (
+                        <option key={option.id} value={option.id}>
+                          {option.label}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={handleCopySlot}
+                    disabled={isCopying}
+                    className={`w-full rounded-lg border px-4 py-2 text-sm font-semibold transition-all ${
+                      isCopying
+                        ? "cursor-not-allowed border-emerald-400/25 bg-emerald-500/10 text-white/50"
+                        : "border-emerald-400/70 bg-emerald-500/90 text-slate-950 shadow-md hover:bg-emerald-400/80"
+                    }`}
+                  >
+                    {isCopying ? t("UI_SAVE_EDITOR_COPYING", "复制中...") : t("UI_SAVE_EDITOR_COPY_BUTTON", "开始复制")}
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* 右侧：备份还原 */}
+            {electronApi?.listWindowsBackups && backups.length > 0 && (
+              <div className="flex-1 rounded-lg border border-amber-500/30 bg-amber-950/10 p-3">
+                <div className="mb-3 flex items-center justify-between">
+                  <h4 className="text-sm font-semibold text-amber-200">
+                    {t("UI_SAVE_EDITOR_RESTORE_TITLE", "备份还原")}
+                  </h4>
+                  <button
+                    type="button"
+                    onClick={loadBackups}
+                    className="rounded-lg border border-white/20 bg-white/10 px-2 py-1 text-xs font-semibold text-white/70 transition-all hover:border-amber-300/60 hover:bg-amber-500/20 hover:text-white"
+                    title={t("UI_SAVE_EDITOR_REFRESH_BACKUPS", "刷新备份列表")}
+                  >
+                    {isLoadingBackups ? "⟳" : "↻"}
+                  </button>
+                </div>
+                <div className="space-y-2">
+                  <div className="flex flex-col gap-2">
+                    <label className="text-xs text-white/70">
+                      {t("UI_SAVE_EDITOR_SELECT_BACKUP", "选择备份")}:
+                    </label>
+                    <select
+                      className="w-full rounded-lg border border-white/20 bg-slate-950/80 px-3 py-2 text-sm text-white"
+                      value={selectedBackupName}
+                      onChange={event => setSelectedBackupName(event.target.value)}
+                    >
+                      {backups.map(entry => (
+                        <option key={entry.fileName} value={entry.fileName}>
+                          {buildBackupLabel(entry, t, value => formatTimestamp(value, localeKey))}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                  <div className="flex items-center justify-center text-xl text-white/40">↓</div>
+                  <div className="flex flex-col gap-2">
+                    <label className="text-xs text-white/70">
+                      {t("UI_SAVE_EDITOR_RESTORE_TARGET", "还原到槽位")}:
+                    </label>
+                    <select
+                      className="w-full rounded-lg border border-white/20 bg-slate-950/80 px-3 py-2 text-sm text-white"
+                      value={restoreTargetId}
+                      onChange={event => setRestoreTargetId(event.target.value)}
+                    >
+                      {slotOptions.map(option => (
+                        <option key={option.id} value={option.id}>
+                          {option.label}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={handleRestoreBackup}
+                    disabled={isRestoring}
+                    className={`w-full rounded-lg border px-4 py-2 text-sm font-semibold transition-all ${
+                      isRestoring
+                        ? "cursor-not-allowed border-amber-400/25 bg-amber-500/10 text-white/50"
+                        : "border-amber-400/70 bg-amber-500/90 text-slate-950 shadow-md hover:bg-amber-400/80"
+                    }`}
+                  >
+                    {isRestoring ? t("UI_SAVE_EDITOR_RESTORING", "还原中...") : t("UI_SAVE_EDITOR_RESTORE_BUTTON", "开始还原")}
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </section>
   );
 }
