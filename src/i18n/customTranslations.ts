@@ -2171,6 +2171,43 @@ export const CUSTOM_TRANSLATIONS = {
   "UI_EXPORT_ERROR": {
     en: "Export failed: {error}",
     zh: "导出失败: {error}"
+  },
+  // Features and About Section
+  "UI_FEATURES_TITLE": {
+    en: "Powerful Features",
+    zh: "强大功能"
+  },
+  "UI_FEATURE_ANALYZE": {
+    en: "Real-time save analysis, master 100% completion at a glance",
+    zh: "实时存档进度分析，一键掌握100%完成度"
+  },
+  "UI_FEATURE_EDIT": {
+    en: "Professional save editor, precisely modify every data point",
+    zh: "专业存档编辑器，精确修改每一项数据"
+  },
+  "UI_FEATURE_BACKUP": {
+    en: "Smart backup system, one-click save copy and restore",
+    zh: "智能备份系统，一键复制与恢复存档"
+  },
+  "UI_FEATURE_IMPORT": {
+    en: "Archive import/export with ZIP/RAR/7z support",
+    zh: "压缩包导入导出，支持ZIP/RAR/7z格式"
+  },
+  "UI_ENHANCED_BY": {
+    en: "Enhanced Version By",
+    zh: "增强版作者"
+  },
+  "UI_MAJOR_UPDATE": {
+    en: "Major Update",
+    zh: "大幅改进"
+  },
+  "UI_ENHANCED_DESC": {
+    en: "New Electron Desktop · Smart Backup · Archive Import/Export · UI/UX Improvements",
+    zh: "全新Electron桌面版 · 智能备份系统 · 压缩包导入导出 · 多项UI/UX优化"
+  },
+  "UI_ORIGINAL_AUTHOR": {
+    en: "Original Author",
+    zh: "原作者"
   }
 };
 

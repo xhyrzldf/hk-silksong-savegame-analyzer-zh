@@ -310,26 +310,96 @@ export default function App() {
               </div>
             </details>
 
-            {/* Footer - 精简版 */}
-            <div className="mt-auto space-y-2 border-t border-white/5 pt-3 text-xs text-white/40">
+            {/* Apple 风格功能说明 */}
+            <Card className="card-hover border-white/10 bg-gradient-to-br from-blue-950/30 to-purple-950/20">
+              <CardContent className="p-4">
+                <h3 className="mb-3 text-sm font-semibold text-white/90">
+                  {t("UI_FEATURES_TITLE", "强大功能")}
+                </h3>
+                <div className="space-y-2 text-xs">
+                  <div className="flex items-start gap-2">
+                    <span className="mt-0.5 text-blue-400">✦</span>
+                    <span className="text-white/70">{t("UI_FEATURE_ANALYZE", "实时存档进度分析，一键掌握100%完成度")}</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="mt-0.5 text-purple-400">✦</span>
+                    <span className="text-white/70">{t("UI_FEATURE_EDIT", "专业存档编辑器，精确修改每一项数据")}</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="mt-0.5 text-emerald-400">✦</span>
+                    <span className="text-white/70">{t("UI_FEATURE_BACKUP", "智能备份系统，一键复制与恢复存档")}</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="mt-0.5 text-amber-400">✦</span>
+                    <span className="text-white/70">{t("UI_FEATURE_IMPORT", "压缩包导入导出，支持ZIP/RAR/7z格式")}</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* 二次开发作者展示 - 酷炫版 */}
+            <div className="relative mt-auto overflow-hidden rounded-xl border border-emerald-400/30 bg-gradient-to-br from-emerald-950/40 via-blue-950/30 to-purple-950/40 p-4 shadow-lg backdrop-blur-sm">
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 via-blue-500/5 to-purple-500/5" />
+              <div className="relative">
+                <div className="mb-3 flex items-center gap-3">
+                  <img
+                    src="/icon.ico"
+                    alt="Developer Avatar"
+                    className="h-12 w-12 rounded-full border-2 border-emerald-400/50 shadow-lg"
+                  />
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2">
+                      <h4 className="text-sm font-bold text-white">
+                        {t("UI_ENHANCED_BY", "增强版作者")}
+                      </h4>
+                      <span className="rounded-full bg-emerald-500/20 px-2 py-0.5 text-xs font-semibold text-emerald-300">
+                        {t("UI_MAJOR_UPDATE", "大幅改进")}
+                      </span>
+                    </div>
+                    <a
+                      href="https://space.bilibili.com/26786884?spm_id_from=333.40164.0.0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group mt-1 flex items-center gap-1 text-xs font-semibold text-emerald-300 transition-colors hover:text-emerald-200"
+                    >
+                      <span className="bg-gradient-to-r from-emerald-300 to-blue-300 bg-clip-text text-transparent">
+                        皮一下就很凡@BiliBili
+                      </span>
+                      <svg className="h-3 w-3 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <p className="mb-2 text-xs leading-relaxed text-white/60">
+                  {t("UI_ENHANCED_DESC", "全新Electron桌面版 · 智能备份系统 · 压缩包导入导出 · 多项UI/UX优化")}
+                </p>
+              </div>
+            </div>
+
+            {/* 原作者信息 */}
+            <div className="space-y-2 border-t border-white/5 pt-3 text-xs text-white/40">
+              <div className="mb-1 text-white/50">
+                {t("UI_ORIGINAL_AUTHOR", "原作者")}: <span className="text-emerald-400/70">Br3zzly</span>
+              </div>
               <div className="flex flex-wrap gap-x-2 gap-y-1">
                 <a
                   href="https://github.com/Br3zzly/hk-silksong-savegame-analyzer"
-                  className="text-emerald-400/80 transition-colors hover:text-emerald-300"
+                  className="text-emerald-400/60 transition-colors hover:text-emerald-300"
                 >
                   GitHub
                 </a>
                 <span>·</span>
                 <a
                   href="https://steamcommunity.com/sharedfiles/filedetails/?id=3571462700"
-                  className="text-emerald-400/80 transition-colors hover:text-emerald-300"
+                  className="text-emerald-400/60 transition-colors hover:text-emerald-300"
                 >
                   Steam
                 </a>
                 <span>·</span>
                 <a
                   href="https://www.buymeacoffee.com/Br3zzly"
-                  className="text-emerald-400/80 transition-colors hover:text-emerald-300"
+                  className="text-emerald-400/60 transition-colors hover:text-emerald-300"
                 >
                   Coffee
                 </a>
