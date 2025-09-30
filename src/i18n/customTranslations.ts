@@ -1931,6 +1931,14 @@ export const CUSTOM_TRANSLATIONS = {
     en: "Copy & backup",
     zh: "存档复制与备份"
   },
+  "UI_SAVE_EDITOR_ADVANCED_TITLE": {
+    en: "Advanced Operations",
+    zh: "高级操作"
+  },
+  "UI_SAVE_EDITOR_COPY_TITLE": {
+    en: "Copy Save Slot",
+    zh: "存档复制"
+  },
   "UI_SAVE_EDITOR_COPY_SOURCE": {
     en: "Source slot",
     zh: "源槽位"
@@ -1991,9 +1999,21 @@ export const CUSTOM_TRANSLATIONS = {
     en: "Select backup file",
     zh: "选择备份文件"
   },
+  "UI_SAVE_EDITOR_SELECT_BACKUP": {
+    en: "Select Backup",
+    zh: "选择备份"
+  },
+  "UI_SAVE_EDITOR_RESTORE_TITLE": {
+    en: "Restore Backup",
+    zh: "备份还原"
+  },
+  "UI_SAVE_EDITOR_REFRESH_BACKUPS": {
+    en: "Refresh backup list",
+    zh: "刷新备份列表"
+  },
   "UI_SAVE_EDITOR_RESTORE_TARGET": {
     en: "Restore to slot",
-    zh: "恢复到槽位"
+    zh: "还原到槽位"
   },
   "UI_SAVE_EDITOR_RESTORE_BUTTON": {
     en: "Restore selected backup",
