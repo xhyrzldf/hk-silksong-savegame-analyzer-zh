@@ -14,16 +14,24 @@ const BACKUP_DIR_NAME = 'tool_bak';
 // 配置日志系统 - 统一输出到可执行文件/项目根目录
 log.transports.file.resolvePathFn = () => {
   let logDir: string;
+  const logFileName = `silksong-save-analyzer.log`;
+
   if (isDev) {
     // 开发模式：输出到项目根目录（dist-electron 的父目录）
     logDir = path.dirname(app.getAppPath());
   } else {
     // 打包后：输出到 exe 同目录
-    // 使用 process.resourcesPath 的父目录（更可靠）
-    // resourcesPath 通常是 app/resources，我们需要 app 目录
-    logDir = path.dirname(path.dirname(process.resourcesPath));
+    // Windows portable 打包：exe 在根目录，我们直接使用 exe 所在目录
+    logDir = path.dirname(process.execPath);
+
+    // 记录调试信息到控制台
+    console.log('[electron] 打包模式路径信息:');
+    console.log('[electron]   process.execPath:', process.execPath);
+    console.log('[electron]   process.resourcesPath:', process.resourcesPath);
+    console.log('[electron]   app.getAppPath():', app.getAppPath());
+    console.log('[electron]   计算的日志目录:', logDir);
   }
-  const logFileName = `silksong-save-analyzer.log`;
+
   const logPath = path.join(logDir, logFileName);
 
   // 确保目录存在且可写
@@ -31,6 +39,7 @@ log.transports.file.resolvePathFn = () => {
     const fs = require('fs');
     // 测试写入权限
     fs.accessSync(logDir, fs.constants.W_OK);
+    console.log('[electron] 日志将写入到:', logPath);
   } catch (error) {
     // 如果无法写入，fallback 到用户目录
     console.error('[electron] 无法写入日志到:', logDir, error);
