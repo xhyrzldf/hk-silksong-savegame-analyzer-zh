@@ -3,6 +3,7 @@ import type { DragEvent } from "react";
 import { toast } from "sonner";
 
 import HornetBackground from "./assets/HornetBackground.png";
+import AvatarImage from "./assets/avatar.png";
 import { FileUpload } from "./components/FileUpload";
 import { LanguageSwitch } from "./components/LanguageSwitch";
 import { ResultFilterBar } from "./components/ResultFilterBar";
@@ -363,7 +364,7 @@ export default function App() {
                   <div className="relative">
                     <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-400 via-blue-500 to-purple-500 opacity-0 blur-md transition-opacity duration-500 group-hover/card:opacity-70 group-hover/card:animate-pulse" />
                     <img
-                      src="/avatar.png"
+                      src={AvatarImage}
                       alt="Developer Avatar"
                       className="relative h-12 w-12 rounded-full border-2 border-emerald-400/60 shadow-lg shadow-emerald-500/30 transition-all duration-500 group-hover/card:scale-110 group-hover/card:rotate-[360deg] group-hover/card:border-purple-400"
                     />
