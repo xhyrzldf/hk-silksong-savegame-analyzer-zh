@@ -339,7 +339,7 @@ export function SaveSlotActions({
         </div>
       ) : null}
 
-      <div className="mt-6 grid gap-6 xl:grid-cols-2">
+      <div className="mt-6 grid gap-6 xl:grid-cols-[0.95fr_1.05fr] 2xl:grid-cols-[0.9fr_1.1fr] xl:items-start">
         <div className="space-y-4">
           <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-4">
             <h3 className="text-sm font-semibold text-white/80">
@@ -431,84 +431,81 @@ export function SaveSlotActions({
               {isCopying ? t("UI_SAVE_EDITOR_COPYING", "Copying...") : t("UI_SAVE_EDITOR_COPY_BUTTON", "Copy to target slot")}
             </button>
           </div>
+        </div>
 
-          <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-4">
-            <div className="flex items-center justify-between gap-2">
-              <h3 className="text-sm font-semibold text-white/80">
-                {t("UI_SAVE_EDITOR_BACKUP_SECTION", "Backups")}
-              </h3>
-              {electronApi?.listWindowsBackups ? (
-                <button
-                  type="button"
-                  onClick={loadBackups}
-                  className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-semibold text-white/70 transition-all duration-300 hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white"
-                >
-                  {isLoadingBackups
-                    ? t("UI_SAVE_EDITOR_BACKUP_REFRESHING", "Refreshing...")
-                    : t("UI_SAVE_EDITOR_BACKUP_REFRESH", "Refresh backups")}
-                </button>
-              ) : null}
-            </div>
-            {!electronApi?.listWindowsBackups ? (
-              <p className="mt-3 text-xs text-white/70">
-                {t("UI_SAVE_EDITOR_BACKUP_UNAVAILABLE", "Backup management is not available here")}
-              </p>
-            ) : backups.length === 0 ? (
-              <p className="mt-3 text-xs text-white/70">
-                {backupError ?? t("UI_SAVE_EDITOR_BACKUP_EMPTY", "No backup files found")}
-              </p>
-            ) : (
-              <div className="mt-3 space-y-3">
-                <label className="flex flex-col gap-1 text-xs">
-                  <span className="text-white/70">{t("UI_SAVE_EDITOR_BACKUP_SELECT", "Select backup file")}</span>
-                  <select
-                    className="w-full rounded border border-white/15 bg-slate-950/60 px-2 py-2"
-                    value={selectedBackupName}
-                    onChange={event => setSelectedBackupName(event.target.value)}
-                  >
-                    {backups.map(entry => (
-                      <option key={entry.fileName} value={entry.fileName}>
-                        {buildBackupLabel(entry, t, value => formatTimestamp(value, localeKey))}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-                <label className="flex flex-col gap-1 text-xs">
-                  <span className="text-white/70">{t("UI_SAVE_EDITOR_RESTORE_TARGET", "Restore to slot")}</span>
-                  <select
-                    className="w-full rounded border border-white/15 bg-slate-950/60 px-2 py-2"
-                    value={restoreTargetId}
-                    onChange={event => setRestoreTargetId(event.target.value)}
-                  >
-                    {slotOptions.map(option => (
-                      <option key={option.id} value={option.id}>
-                        {option.label}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-                <button
-                  type="button"
-                  onClick={handleRestoreBackup}
-                  disabled={isRestoring || backups.length === 0}
-                  className={`w-full rounded-full border px-4 py-2 text-sm font-semibold transition-all duration-300 ${
-                    isRestoring || backups.length === 0
-                      ? "cursor-not-allowed border-amber-400/25 bg-amber-500/10 text-white/50"
-                      : "border-amber-400/70 bg-amber-500/90 text-slate-950 shadow-lg shadow-amber-900/40 hover:bg-amber-400/80"
-                  }`}
-                >
-                  {isRestoring
-                    ? t("UI_SAVE_EDITOR_RESTORING", "Restoring...")
-                    : t("UI_SAVE_EDITOR_RESTORE_BUTTON", "Restore selected backup")}
-                </button>
-              </div>
-            )}
+        <div className="rounded-2xl border border-white/10 bg-slate-950/50 p-4 xl:col-span-2">
+          <div className="flex items-center justify-between gap-2">
+            <h3 className="text-sm font-semibold text-white/80">
+              {t("UI_SAVE_EDITOR_BACKUP_SECTION", "Backups")}
+            </h3>
+            {electronApi?.listWindowsBackups ? (
+              <button
+                type="button"
+                onClick={loadBackups}
+                className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-semibold text-white/70 transition-all duration-300 hover:border-emerald-300/60 hover:bg-emerald-500/10 hover:text-white"
+              >
+                {isLoadingBackups
+                  ? t("UI_SAVE_EDITOR_BACKUP_REFRESHING", "Refreshing...")
+                  : t("UI_SAVE_EDITOR_BACKUP_REFRESH", "Refresh backups")}
+              </button>
+            ) : null}
           </div>
+          {!electronApi?.listWindowsBackups ? (
+            <p className="mt-3 text-xs text-white/70">
+              {t("UI_SAVE_EDITOR_BACKUP_UNAVAILABLE", "Backup management is not available here")}
+            </p>
+          ) : backups.length === 0 ? (
+            <p className="mt-3 text-xs text-white/70">
+              {backupError ?? t("UI_SAVE_EDITOR_BACKUP_EMPTY", "No backup files found")}
+            </p>
+          ) : (
+            <div className="mt-3 grid gap-3 md:grid-cols-2">
+              <label className="flex flex-col gap-1 text-xs">
+                <span className="text-white/70">{t("UI_SAVE_EDITOR_BACKUP_SELECT", "Select backup file")}</span>
+                <select
+                  className="w-full rounded border border-white/15 bg-slate-950/60 px-2 py-2"
+                  value={selectedBackupName}
+                  onChange={event => setSelectedBackupName(event.target.value)}
+                >
+                  {backups.map(entry => (
+                    <option key={entry.fileName} value={entry.fileName}>
+                      {buildBackupLabel(entry, t, value => formatTimestamp(value, localeKey))}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="flex flex-col gap-1 text-xs">
+                <span className="text-white/70">{t("UI_SAVE_EDITOR_RESTORE_TARGET", "Restore to slot")}</span>
+                <select
+                  className="w-full rounded border border-white/15 bg-slate-950/60 px-2 py-2"
+                  value={restoreTargetId}
+                  onChange={event => setRestoreTargetId(event.target.value)}
+                >
+                  {slotOptions.map(option => (
+                    <option key={option.id} value={option.id}>
+                      {option.label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <button
+                type="button"
+                onClick={handleRestoreBackup}
+                disabled={isRestoring || backups.length === 0}
+                className={`md:col-span-2 rounded-full border px-4 py-2 text-sm font-semibold transition-all duration-300 ${
+                  isRestoring || backups.length === 0
+                    ? "cursor-not-allowed border-amber-400/25 bg-amber-500/10 text-white/50"
+                    : "border-amber-400/70 bg-amber-500/90 text-slate-950 shadow-lg shadow-amber-900/40 hover:bg-amber-400/80"
+                }`}
+              >
+                {isRestoring
+                  ? t("UI_SAVE_EDITOR_RESTORING", "Restoring...")
+                  : t("UI_SAVE_EDITOR_RESTORE_BUTTON", "Restore selected backup")}
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </section>
   );
 }
-
-
-
