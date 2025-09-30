@@ -161,7 +161,7 @@ export default function App() {
   return (
     <ResultFiltersProvider>
       <div
-        className="relative isolate flex min-h-screen overflow-hidden bg-slate-950 text-slate-100 animate-fadeIn"
+        className="relative isolate flex min-h-screen overflow-hidden bg-background text-foreground animate-fadeIn"
         style={{
           backgroundImage: `url(${HornetBackground})`,
           backgroundSize: "cover",
@@ -170,11 +170,11 @@ export default function App() {
           backgroundAttachment: "fixed",
         }}
       >
-        <div className="absolute inset-0 bg-slate-950/90 backdrop-blur-md" />
-        <div className="absolute inset-0 bg-gradient-to-br from-emerald-950/50 via-slate-950/60 to-slate-950/95" />
+        <div className="absolute inset-0 bg-background/95 backdrop-blur-md" />
+        <div className="absolute inset-0 gradient-mesh opacity-60" />
 
         {/* 左侧边栏 - 响应式：移动端隐藏，平板以上显示 */}
-        <aside className="animate-slideInLeft relative z-10 hidden w-full flex-shrink-0 border-r border-white/5 bg-slate-900/40 backdrop-blur-xl lg:block lg:w-[500px]">
+        <aside className="animate-slideInLeft relative z-10 hidden w-full flex-shrink-0 border-r border-border/30 bg-card/30 backdrop-blur-xl lg:block lg:w-[500px]">
           <div className="flex h-full flex-col space-y-4 overflow-y-auto p-4 lg:p-5">
             {/* 标题和语言切换 */}
             <div className="space-y-3">
@@ -230,7 +230,7 @@ export default function App() {
             </Card>
 
             {/* 进度显示 */}
-            <Card className="card-hover border-emerald-500/20 bg-gradient-to-br from-emerald-950/40 to-slate-950/60">
+            <Card className="card-hover border-primary/20 bg-gradient-to-br from-primary/5 to-card/60">
               <CardContent className="space-y-3 p-4">
                 <TotalProgress parsedJson={parsedJson} />
                 <div className="space-y-2 text-sm">
@@ -243,7 +243,7 @@ export default function App() {
                     </span>
                   </div>
                   {activeAutoSave && (
-                    <div className="rounded-lg bg-emerald-500/10 px-3 py-1.5 text-xs text-emerald-300">
+                    <div className="rounded-lg bg-primary/10 px-3 py-1.5 text-xs text-primary">
                       {t("UI_AUTO_SAVES_SLOT", "槽位 {index}").replace("{index}", String(activeAutoSave.slotIndex))} - {activeAutoSave.displayName}
                     </div>
                   )}
