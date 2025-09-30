@@ -343,7 +343,7 @@ export default function App() {
               <div className="relative">
                 <div className="mb-3 flex items-center gap-3">
                   <img
-                    src="/icon.ico"
+                    src="/avatar.png"
                     alt="Developer Avatar"
                     className="h-12 w-12 rounded-full border-2 border-emerald-400/50 shadow-lg"
                   />
