@@ -179,9 +179,19 @@ export default function App() {
             {/* 标题和语言切换 */}
             <div className="space-y-3">
               <div className="flex items-center justify-between gap-3">
-                <h1 className="text-xl font-bold tracking-tight text-white/95">
-                  {t("UI_APP_TITLE", "Hollow Knight Silksong Savegame Analyzer")}
-                </h1>
+                <div className="flex items-center gap-3">
+                  <h1 className="text-xl font-bold tracking-tight text-white/95">
+                    {t("UI_APP_TITLE", "Hollow Knight Silksong Savegame Analyzer")}
+                  </h1>
+                  <span className="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 p-0.5 shadow-lg shadow-purple-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/70 hover:scale-110 animate-pulse">
+                    <span className="relative inline-flex items-center justify-center rounded-full bg-slate-950 px-3 py-1 transition-all duration-300 group-hover:bg-slate-900">
+                      <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-xs font-bold tracking-wider text-transparent animate-[shimmer_2s_ease-in-out_infinite]">
+                        v2.0
+                      </span>
+                      <span className="absolute inset-0 rounded-full bg-gradient-to-r from-pink-500/0 via-purple-500/50 to-blue-500/0 opacity-0 blur transition-opacity duration-500 group-hover:opacity-100"></span>
+                    </span>
+                  </span>
+                </div>
                 <LanguageSwitch />
               </div>
 
@@ -337,42 +347,66 @@ export default function App() {
               </CardContent>
             </Card>
 
-            {/* 二次开发作者展示 - 酷炫版 */}
-            <div className="relative mt-auto overflow-hidden rounded-xl border border-emerald-400/30 bg-gradient-to-br from-emerald-950/40 via-blue-950/30 to-purple-950/40 p-4 shadow-lg backdrop-blur-sm">
-              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 via-blue-500/5 to-purple-500/5" />
-              <div className="relative">
+            {/* 二次开发作者展示 - 超炫酷版 */}
+            <div className="group/card relative mt-auto overflow-hidden rounded-xl border-2 border-transparent bg-gradient-to-br from-emerald-950/60 via-blue-950/50 to-purple-950/60 p-[2px] shadow-2xl shadow-emerald-500/20 transition-all duration-500 hover:scale-[1.02] hover:shadow-emerald-500/40 animate-[borderGlow_3s_ease-in-out_infinite]">
+              {/* 动态渐变边框 */}
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-emerald-400 via-blue-500 to-purple-500 opacity-50 blur-sm animate-[spin_8s_linear_infinite]" />
+
+              {/* 粒子流动背景 */}
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 via-blue-500/10 to-purple-500/10 opacity-50" />
+              <div className="absolute inset-0 bg-gradient-to-tl from-pink-500/5 via-transparent to-cyan-500/5 animate-[pulse_4s_ease-in-out_infinite]" />
+
+              {/* 内容区域 */}
+              <div className="relative rounded-xl bg-gradient-to-br from-slate-950/95 via-slate-900/95 to-slate-950/95 p-4 backdrop-blur-xl">
                 <div className="mb-3 flex items-center gap-3">
-                  <img
-                    src="/avatar.png"
-                    alt="Developer Avatar"
-                    className="h-12 w-12 rounded-full border-2 border-emerald-400/50 shadow-lg"
-                  />
+                  {/* 头像 - 悬停旋转和发光 */}
+                  <div className="relative">
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-400 via-blue-500 to-purple-500 opacity-0 blur-md transition-opacity duration-500 group-hover/card:opacity-70 group-hover/card:animate-pulse" />
+                    <img
+                      src="/avatar.png"
+                      alt="Developer Avatar"
+                      className="relative h-12 w-12 rounded-full border-2 border-emerald-400/60 shadow-lg shadow-emerald-500/30 transition-all duration-500 group-hover/card:scale-110 group-hover/card:rotate-[360deg] group-hover/card:border-purple-400"
+                    />
+                  </div>
+
                   <div className="flex-1">
-                    <div className="flex items-center gap-2">
-                      <h4 className="text-sm font-bold text-white">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <h4 className="bg-gradient-to-r from-white via-emerald-100 to-blue-100 bg-clip-text text-sm font-bold text-transparent">
                         {t("UI_ENHANCED_BY", "增强版作者")}
                       </h4>
-                      <span className="rounded-full bg-emerald-500/20 px-2 py-0.5 text-xs font-semibold text-emerald-300">
-                        {t("UI_MAJOR_UPDATE", "大幅改进")}
+                      {/* 徽章 - 脉冲动画 */}
+                      <span className="relative inline-flex items-center overflow-hidden rounded-full bg-gradient-to-r from-emerald-500 via-blue-500 to-purple-500 px-2.5 py-0.5 text-xs font-bold text-white shadow-lg animate-[pulse_2s_ease-in-out_infinite]">
+                        <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-[shimmer_2s_ease-in-out_infinite]" />
+                        <span className="relative">{t("UI_MAJOR_UPDATE", "大幅改进")}</span>
                       </span>
                     </div>
+
+                    {/* B站链接 - 超炫渐变 */}
                     <a
                       href="https://space.bilibili.com/26786884?spm_id_from=333.40164.0.0"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group mt-1 flex items-center gap-1 text-xs font-semibold text-emerald-300 transition-colors hover:text-emerald-200"
+                      className="group/link mt-1.5 flex items-center gap-1.5 text-sm font-bold transition-all duration-300"
                     >
-                      <span className="bg-gradient-to-r from-emerald-300 to-blue-300 bg-clip-text text-transparent">
-                        皮一下就很凡@BiliBili
+                      <span className="relative inline-block">
+                        <span className="bg-gradient-to-r from-emerald-400 via-blue-400 to-purple-400 bg-clip-text text-transparent animate-[gradient_3s_ease-in-out_infinite] bg-[length:200%_auto]">
+                          皮一下就很凡@BiliBili
+                        </span>
+                        <span className="absolute -bottom-0.5 left-0 h-[2px] w-0 bg-gradient-to-r from-emerald-400 via-blue-400 to-purple-400 transition-all duration-300 group-hover/link:w-full" />
                       </span>
-                      <svg className="h-3 w-3 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      <svg className="h-4 w-4 text-purple-400 transition-all duration-300 group-hover/link:translate-x-1 group-hover/link:scale-110 group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                       </svg>
                     </a>
                   </div>
                 </div>
-                <p className="mb-2 text-xs leading-relaxed text-white/60">
-                  {t("UI_ENHANCED_DESC", "全新Electron桌面版 · 智能备份系统 · 压缩包导入导出 · 多项UI/UX优化")}
+
+                {/* 成就说明 */}
+                <p className="text-xs leading-relaxed text-white/70 transition-colors duration-300 group-hover/card:text-white/90">
+                  <span className="inline-flex items-center gap-1">
+                    <span className="text-emerald-400">★</span>
+                    {t("UI_ENHANCED_DESC", "全新Electron桌面版 · 智能备份系统 · 压缩包导入导出 · 多项UI/UX优化")}
+                  </span>
                 </p>
               </div>
             </div>
