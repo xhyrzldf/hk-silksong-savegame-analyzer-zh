@@ -1,0 +1,17 @@
+<request>
+**Layout and UX Refinement:**
+
+
+Eliminate Scrolling: The current placement of the Save Copy, Backup, and Restore functionalities at the bottom requires unnecessary scrolling. The primary design goal is to ensure all critical operations and content are visible within a single-screen view (above the fold) by fully utilizing the newly available horizontal space on both sides.
+
+Feature Contextual Integration: The feature grouping needs adjustment for better user flow:
+
+MOVE: The Save Copy/Backup/Restore functions should be contextually integrated directly into the Save Slot Card/View (making them shared operations accessible within both the Analysis and Editing contexts).
+
+RETAIN: The Save Editing function should remain the single, separate, specialized feature on the dedicated editing page.
+
+Aesthetic Polish: Enhance the overall visual appeal with a focus on better integration and aesthetic quality. Incorporate subtle, high-quality gradient colors (Aesthetic Gradients).
+
+Constraint: These gradients must not be overly vivid or distracting. The design must always prioritize usability and practicality over pure visual flair.
+
+</request>
