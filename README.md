@@ -2,12 +2,20 @@
 
 一款用于追踪《空洞骑士：丝之歌》游戏存档完成度的工具，支持 Web 和 Windows 桌面两种使用方式。
 
-🌐 **在线版本**: [silksong-completionist.com](http://silksong-completionist.com/)
-
 ---
 
 > **Fork 说明**
-> 本项目 fork 自 [Br3zzly/hk-silksong-savegame-analyzer](https://github.com/Br3zzly/hk-silksong-savegame-analyzer)，是基于原项目的修改增强版本。在原有功能基础上添加了桌面版支持、自动备份系统、日志功能等特性。感谢原作者的开源贡献。
+>
+> 本项目 fork 自 [Br3zzly/hk-silksong-savegame-analyzer](https://github.com/Br3zzly/hk-silksong-savegame-analyzer)，是基于原项目的修改增强版本。
+>
+> **主要改进**：
+> - ✨ 添加 Windows 桌面版支持（Electron）
+> - 💾 自动检测 Steam 存档槽位
+> - 🔄 存档备份与恢复系统
+> - 📝 日志系统
+> - 🌏 完善中文本地化
+>
+> 原项目提供 Web 在线版本：[silksong-completionist.com](http://silksong-completionist.com/)
 >
 > 本项目遵循 GPL-3.0 开源协议，所有修改和新增代码均以相同协议发布。
 
@@ -22,11 +30,7 @@
 
 ## 使用方法
 
-### 方式一：在线 Web 版
-
-访问 [silksong-completionist.com](http://silksong-completionist.com/)，上传你的存档文件（通常位于 `%USERPROFILE%/AppData/LocalLow/Team Cherry/Hollow Knight Silksong/`）。
-
-### 方式二：Windows 桌面版
+### Windows 桌面版（推荐）
 
 #### 下载安装包
 前往 [Releases](../../releases) 页面下载最新版本的安装包或 portable 版本。
