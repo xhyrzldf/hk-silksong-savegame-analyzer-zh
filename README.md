@@ -30,7 +30,7 @@
 
 ## 使用方法
 
-### Windows 桌面版（推荐）
+### Windows 桌面版（本项目）
 
 #### 下载安装包
 前往 [Releases](../../releases) 页面下载最新版本的安装包或 portable 版本。
@@ -71,6 +71,10 @@ npm run build:electron   # 构建桌面版（生成安装包）
 - 核心数据文件（`decryptor.ts` 和 `dictionary.ts`）可参考 `.example.ts` 示例文件和[原始项目](https://github.com/Br3zzly/hk-silksong-savegame-analyzer)自行配置
 - 桌面版安装包输出至 `dist/` 目录
 - 如需自定义图标，请替换 `build/icon.ico` 文件
+
+### Web 在线版
+
+如需使用 Web 版本，请访问[原始项目](https://github.com/Br3zzly/hk-silksong-savegame-analyzer)。
 
 ## 技术栈
 
