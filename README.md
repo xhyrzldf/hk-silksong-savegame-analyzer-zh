@@ -64,7 +64,7 @@ npm run build:electron   # 构建桌面版（生成安装包）
 ```
 
 **注意事项**：
-- 核心数据文件（`decryptor.ts` 和 `dictionary.ts`）未包含在仓库中，需要根据 `.example.ts` 文件自行配置
+- 核心数据文件（`decryptor.ts` 和 `dictionary.ts`）可参考 `.example.ts` 示例文件和[原始项目](https://github.com/Br3zzly/hk-silksong-savegame-analyzer)自行配置
 - 桌面版安装包输出至 `dist/` 目录
 - 如需自定义图标，请替换 `build/icon.ico` 文件
 
