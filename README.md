@@ -4,9 +4,11 @@
 
 ---
 
-> **Fork 说明**
+> **Fork Notice / Fork 说明**
 >
-> 本项目 fork 自 [Br3zzly/hk-silksong-savegame-analyzer](https://github.com/Br3zzly/hk-silksong-savegame-analyzer)，是基于原项目的修改增强版本。
+> **EN**: This project is forked from [Br3zzly/hk-silksong-savegame-analyzer](https://github.com/Br3zzly/hk-silksong-savegame-analyzer) with enhancements focused on desktop experience and Chinese localization. Main improvements include: Electron-based Windows desktop app, automatic Steam save slot detection, backup/restore system, logging functionality, and improved Chinese translation. The original project provides a web version at [silksong-completionist.com](http://silksong-completionist.com/). This fork is released under GPL-3.0 license.
+>
+> **中文**：本项目 fork 自 [Br3zzly/hk-silksong-savegame-analyzer](https://github.com/Br3zzly/hk-silksong-savegame-analyzer)，是基于原项目的修改增强版本。
 >
 > **主要改进**：
 > - ✨ 添加 Windows 桌面版支持（Electron）
